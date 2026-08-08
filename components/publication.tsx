@@ -24,13 +24,13 @@ export type Story = {
 };
 
 const primaryNav = [
-  { label: "Latest", href: "/atlanta" },
-  { label: "Development", href: "/atlanta/development" },
-  { label: "Business", href: "/atlanta/business" },
-  { label: "Public money", href: "/atlanta/money" },
-  { label: "Guides", href: "/atlanta/guides" },
-  { label: "About", href: "/atlanta/about" },
-  { label: "Upgrade", href: "/atlanta/upgrade" },
+  { label: "Latest", href: "/" },
+  { label: "Development", href: "/development" },
+  { label: "Business", href: "/business" },
+  { label: "Public money", href: "/money" },
+  { label: "Guides", href: "/guides" },
+  { label: "About", href: "/about" },
+  { label: "Upgrade", href: "/upgrade" },
 ];
 
 export function PublicationHeader({ market }: { market: MarketBrand }) {
@@ -39,14 +39,14 @@ export function PublicationHeader({ market }: { market: MarketBrand }) {
       <div className="utility-bar"><div className="shell utility-bar__inner"><span>Atlanta business, development & public records</span><span>Saturday, August 8, 2026</span></div></div>
       <header className="publication-header">
         <div className="shell publication-header__main">
-          <Link className="wordmark" href={`/${market.slug}`} aria-label={`${market.code} home`}>
+          <Link className="wordmark" href="/" aria-label={`${market.code} home`}>
             <span>{market.code}</span><small>{market.displayName} business publication</small>
           </Link>
           <nav aria-label="Primary navigation">
             {primaryNav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}
           </nav>
           <div className="publication-header__actions">
-            <Link className="icon-link" href={`/${market.slug}/search`} aria-label="Search"><Search size={18} strokeWidth={1.8} /></Link>
+            <Link className="icon-link" href="/search" aria-label="Search"><Search size={18} strokeWidth={1.8} /></Link>
             <Link className="subscribe-link" href="#newsletter">Subscribe</Link>
             <span className="menu-indicator" aria-hidden="true"><Menu size={18} /></span>
           </div>
@@ -86,7 +86,7 @@ export function IntelligenceStory({ story }: { story: Story }) {
     <article className="lead-story">
       <StoryImage story={story} priority />
       <div className="lead-story__label"><StoryMeta story={story} /><span>5 min read</span></div>
-      <Headline as="h1" size="lead"><Link href={`/atlanta/${story.slug}`}>{story.headline}</Link></Headline>
+      <Headline as="h1" size="lead"><Link href={`/${story.slug}`}>{story.headline}</Link></Headline>
       <p className="lead-story__dek">{story.dek}</p>
       {story.metric && <div className="lead-story__metric"><strong>{story.metric}</strong><span>{story.metricLabel}</span></div>}
       <p className="why"><b>Why it matters:</b> ATLSignal turns public records into readable local business coverage, separating confirmed facts from watchlist signals.</p>
@@ -98,7 +98,7 @@ export function StoryCard({ story, numbered }: { story: Story; numbered?: number
   return (
     <article className={numbered ? "story-card story-card--numbered" : "story-card"}>
       {numbered && <span className="story-card__number">{String(numbered).padStart(2, "0")}</span>}
-      <div className="story-card__content"><StoryImage story={story} compact /><StoryMeta story={story} /><Headline as="h3" size="small"><Link href={`/atlanta/${story.slug}`}>{story.headline}</Link></Headline><p>{story.dek}</p><small>Read the evidence brief →</small></div>
+      <div className="story-card__content"><StoryImage story={story} compact /><StoryMeta story={story} /><Headline as="h3" size="small"><Link href={`/${story.slug}`}>{story.headline}</Link></Headline><p>{story.dek}</p><small>Read the evidence brief →</small></div>
     </article>
   );
 }
@@ -141,7 +141,7 @@ export function TrendCard({ kicker, title, value, change, note }: { kicker: stri
 }
 
 export function OpportunityCard({ title, agency, timing, summary }: { title: string; agency: string; timing: string; summary: string }) {
-  return <article className="opportunity-card"><div><CategoryLabel>Public opportunity</CategoryLabel><span>{timing}</span></div><h3>{title}</h3><p>{summary}</p><footer><span>{agency}</span><Link href="/atlanta/opportunities">View public details <ArrowUpRight size={14} /></Link></footer></article>;
+  return <article className="opportunity-card"><div><CategoryLabel>Public opportunity</CategoryLabel><span>{timing}</span></div><h3>{title}</h3><p>{summary}</p><footer><span>{agency}</span><Link href="/opportunities">View public details <ArrowUpRight size={14} /></Link></footer></article>;
 }
 
 export function MorningBrief({ stories }: { stories: Story[] }) {
@@ -178,7 +178,7 @@ export function PremiumTeaser({ compact = false }: { compact?: boolean }) {
       <p className="eyebrow">Upgrade signal</p>
       <h2>Free readers get the story. Subscribers get the route.</h2>
       <p>Premium keeps the commercial layer private: timing scores, buyer paths, operator enrichment, contact-route research and daily watch changes.</p>
-      <Link href="/atlanta/upgrade">See the tiers <ArrowUpRight size={14} /></Link>
+      <Link href="/upgrade">See the tiers <ArrowUpRight size={14} /></Link>
     </aside>
   );
 }

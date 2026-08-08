@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { SiteAnalytics } from "@/components/site-analytics";
-
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+import { absoluteUrl, publicSiteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(`${publicSiteUrl}/`),
   title: {
     default: "ATLSignal",
     template: "%s | ATLSignal",
@@ -17,9 +16,9 @@ export const metadata: Metadata = {
     siteName: "ATLSignal",
     title: "ATLSignal",
     description: "Know what’s changing in Atlanta before it becomes obvious.",
-    images: [{ url: "/og.png", width: 1734, height: 907, alt: "Atlanta skyline and commercial development" }],
+    images: [{ url: absoluteUrl("/og.png"), width: 1734, height: 907, alt: "Atlanta skyline and commercial development" }],
   },
-  twitter: { card: "summary_large_image", images: ["/og.png"] },
+  twitter: { card: "summary_large_image", images: [absoluteUrl("/og.png")] },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

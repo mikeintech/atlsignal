@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { EditionHeader, Headline, PublicationHeader, SectionHeading } from "@/components/publication";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { atlanta } from "@/lib/market";
+import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About ATLSignal",
   description: "How ATLSignal reports Atlanta business, development, public money and commercial activity from public-source evidence.",
-  alternates: { canonical: "/atlanta/about" },
+  alternates: { canonical: absoluteUrl("/about") },
 };
 
 const principles = [

@@ -12,13 +12,14 @@ import {
 } from "@/components/publication";
 import { atlanta } from "@/lib/market";
 import { projects } from "@/lib/atlanta-data";
+import { absoluteUrl } from "@/lib/site";
 
 export function generateStaticParams() { return projects.map(({ slug }) => ({ slug })); }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const project = projects.find((item) => item.slug === slug);
-  return project ? { title: `${project.name} project`, description: `Living intelligence page for ${project.name} in Atlanta.`, alternates: { canonical: `/atlanta/project/${project.slug}` }, openGraph: { type: "article", title: `${project.name} project`, description: `${project.status} · ${project.location} · ${project.detail} reported value.`, images: ["/og.png"] }, twitter: { card: "summary_large_image", images: ["/og.png"] } } : {};
+  return project ? { title: `${project.name} project`, description: `Living intelligence page for ${project.name} in Atlanta.`, alternates: { canonical: absoluteUrl(`/project/${project.slug}`) }, openGraph: { type: "article", title: `${project.name} project`, description: `${project.status} · ${project.location} · ${project.detail} reported value.`, images: [absoluteUrl("/og.png")] }, twitter: { card: "summary_large_image", images: [absoluteUrl("/og.png")] } } : {};
 }
 
 export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {

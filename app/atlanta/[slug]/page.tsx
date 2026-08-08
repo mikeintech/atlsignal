@@ -19,6 +19,7 @@ import {
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { atlanta } from "@/lib/market";
 import { leadStory, projects, sourceDeskArticleDetails, stories } from "@/lib/atlanta-data";
+import { absoluteUrl } from "@/lib/site";
 
 const allStories = [leadStory, ...stories];
 const categoryNames: Record<string, string> = {
@@ -72,10 +73,10 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  if (categoryNames[slug]) return { title: categoryNames[slug], description: `${categoryNames[slug]} across the Atlanta commercial economy.`, alternates: { canonical: `/atlanta/${slug}` } };
+  if (categoryNames[slug]) return { title: categoryNames[slug], description: `${categoryNames[slug]} across the Atlanta commercial economy.`, alternates: { canonical: absoluteUrl(`/${slug}`) } };
   const story = allStories.find((item) => item.slug === slug);
   if (!story) return {};
-  return { title: story.headline, description: story.dek, alternates: { canonical: `/atlanta/${story.slug}` }, openGraph: { type: "article", title: story.headline, description: story.dek, publishedTime: "2026-08-07T08:10:00-04:00", modifiedTime: "2026-08-08T10:20:00-04:00", images: [story.image.src] }, twitter: { card: "summary_large_image", title: story.headline, description: story.dek, images: [story.image.src] } };
+  return { title: story.headline, description: story.dek, alternates: { canonical: absoluteUrl(`/${story.slug}`) }, openGraph: { type: "article", title: story.headline, description: story.dek, publishedTime: "2026-08-07T08:10:00-04:00", modifiedTime: "2026-08-08T10:20:00-04:00", images: [story.image.src] }, twitter: { card: "summary_large_image", title: story.headline, description: story.dek, images: [story.image.src] } };
 }
 
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -172,7 +173,7 @@ function CategoryLanding({ slug }: { slug: string }) {
       <main className="category-page shell">
         <header className="category-hero"><p className="eyebrow">ATLSignal · {match.length || projects.length} reports</p><Headline as="h1" size="large">{title}</Headline><p>{categoryDescriptions[slug] ?? "Permanent, evidence-backed coverage of what is changing across Atlanta."}</p></header>
         {slug === "projects" ? (
-          <div className="project-list category-list">{projects.map((project) => <ProjectCard key={project.slug} name={project.name} location={project.location} status={project.status} detail={project.detail} href={`/atlanta/project/${project.slug}`} />)}</div>
+          <div className="project-list category-list">{projects.map((project) => <ProjectCard key={project.slug} name={project.name} location={project.location} status={project.status} detail={project.detail} href={`/project/${project.slug}`} />)}</div>
         ) : match.length ? (
           <div className="category-list">{match.map((story, index) => <StoryCard key={story.slug} story={story} numbered={index + 1} />)}</div>
         ) : (

@@ -1,8 +1,8 @@
 import type { MetadataRoute } from "next";
+import { absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-static";
 
 export default function robots(): MetadataRoute.Robots {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
-  return { rules: { userAgent: "*", allow: "/", disallow: ["/api/", "/atlanta/editorial-review"] }, sitemap: new URL("/sitemap.xml", base).toString() };
+  return { rules: { userAgent: "*", allow: "/", disallow: ["/api/", "/atlanta/editorial-review"] }, sitemap: absoluteUrl("/sitemap.xml") };
 }

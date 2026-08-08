@@ -4,6 +4,7 @@ import { EditionHeader, EditorialImage, Headline, PremiumTeaser, PublicationHead
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { atlanta } from "@/lib/market";
 import { publicGuides } from "@/lib/atlanta-data";
+import { absoluteUrl } from "@/lib/site";
 
 export function generateStaticParams() {
   return publicGuides.map((guide) => ({ slug: guide.slug }));
@@ -13,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const guide = publicGuides.find((item) => item.slug === slug);
   if (!guide) return {};
-  return { title: guide.title, description: guide.dek, alternates: { canonical: `/atlanta/guides/${guide.slug}` }, openGraph: { type: "article", title: guide.title, description: guide.dek, images: [guide.image.src] }, twitter: { card: "summary_large_image", title: guide.title, description: guide.dek, images: [guide.image.src] } };
+  return { title: guide.title, description: guide.dek, alternates: { canonical: absoluteUrl(`/guides/${guide.slug}`) }, openGraph: { type: "article", title: guide.title, description: guide.dek, images: [guide.image.src] }, twitter: { card: "summary_large_image", title: guide.title, description: guide.dek, images: [guide.image.src] } };
 }
 
 const guideCopy: Record<string, { sections: Array<{ title: string; body: string }> }> = {

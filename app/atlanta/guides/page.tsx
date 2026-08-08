@@ -5,11 +5,12 @@ import { EditionHeader, EditorialImage, Headline, PremiumTeaser, PublicationHead
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { atlanta } from "@/lib/market";
 import { publicGuides, sourceDeskItems } from "@/lib/atlanta-data";
+import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Atlanta Business Guides",
   description: "Plain-English ATLSignal guides for reading Atlanta permits, public bids, BeltLine updates and occupancy signals.",
-  alternates: { canonical: "/atlanta/guides" },
+  alternates: { canonical: absoluteUrl("/guides") },
 };
 
 export default function GuidesPage() {
@@ -33,7 +34,7 @@ export default function GuidesPage() {
                 <p className="eyebrow">{guide.category} · {guide.readTime}</p>
                 <h2>{guide.title}</h2>
                 <p>{guide.dek}</p>
-                <Link href={`/atlanta/guides/${guide.slug}`}>Read guide <ArrowUpRight size={14} /></Link>
+                <Link href={`/guides/${guide.slug}`}>Read guide <ArrowUpRight size={14} /></Link>
               </article>
             ))}
           </div>

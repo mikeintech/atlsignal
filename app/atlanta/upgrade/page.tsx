@@ -3,11 +3,12 @@ import { EditionHeader, Headline, PremiumTeaser, PublicationHeader, SectionHeadi
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { atlanta } from "@/lib/market";
 import { coverageLanes, premiumSignals } from "@/lib/atlanta-data";
+import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Upgrade ATLSignal",
   description: "ATLSignal free media and premium intelligence tiers for Atlanta commercial opportunity tracking.",
-  alternates: { canonical: "/atlanta/upgrade" },
+  alternates: { canonical: absoluteUrl("/upgrade") },
 };
 
 export default function UpgradePage() {

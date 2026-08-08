@@ -18,11 +18,12 @@ import {
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { atlanta } from "@/lib/market";
 import { leadStory, metrics, premiumSignals, projects, publicGuides, sourceDesks, stories, watchlist } from "@/lib/atlanta-data";
+import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Latest",
   description: "What matters in Atlanta business, development, money and opportunity right now.",
-  alternates: { canonical: "/atlanta" },
+  alternates: { canonical: absoluteUrl("/") },
 };
 
 export default function AtlantaPage() {
@@ -69,14 +70,14 @@ export default function AtlantaPage() {
         <div className="shell"><MorningBrief stories={[stories[2], stories[0], stories[4], stories[6], stories[8]]} /></div>
 
         <section className="shell">
-          <SectionHeading label="Development" href="/atlanta/development" />
+          <SectionHeading label="Development" href="/development" />
           <div className="editorial-grid editorial-grid--three">
             {developmentStories.map((story) => <StoryCard key={story.slug} story={story} />)}
           </div>
         </section>
 
         <section className="shell">
-          <SectionHeading label="Public money & civic growth" href="/atlanta/money" />
+          <SectionHeading label="Public money & civic growth" href="/money" />
           <div className="editorial-grid editorial-grid--three">
             {stories.filter((story) => ["Public Money", "City Hall & Policy", "Transportation & Airport", "Workforce & Economy"].includes(story.category)).slice(0, 6).map((story) => <StoryCard key={story.slug} story={story} />)}
           </div>
@@ -84,11 +85,11 @@ export default function AtlantaPage() {
 
         <section className="split-section shell">
           <div>
-            <SectionHeading label="Business moves" href="/atlanta/business" />
+            <SectionHeading label="Business moves" href="/business" />
             {businessStories.map((story) => <StoryCard key={story.slug} story={story} />)}
           </div>
           <div>
-            <SectionHeading label="How to read us" href="/atlanta/latest" />
+            <SectionHeading label="How to read us" href="/latest" />
             <TrendCard kicker="Evidence status" title="Facts, claims and forecasts stay separated" value="3" change="evidence lanes" note="Confirmed public records are labeled differently from inferred market signals and watchlist items." />
           </div>
         </section>
@@ -107,7 +108,7 @@ export default function AtlantaPage() {
         </section>
 
         <section className="shell">
-          <SectionHeading label="Free guides" href="/atlanta/guides" />
+          <SectionHeading label="Free guides" href="/guides" />
           <div className="guide-grid">
             {publicGuides.map((guide) => (
               <article key={guide.slug}>
@@ -115,14 +116,14 @@ export default function AtlantaPage() {
                 <p className="eyebrow">{guide.category} · {guide.readTime}</p>
                 <h2>{guide.title}</h2>
                 <p>{guide.dek}</p>
-                <Link href={`/atlanta/guides/${guide.slug}`}>Read guide →</Link>
+                <Link href={`/guides/${guide.slug}`}>Read guide →</Link>
               </article>
             ))}
           </div>
         </section>
 
         <section className="shell">
-          <SectionHeading label="Source desks" href="/atlanta/latest" />
+          <SectionHeading label="Source desks" href="/latest" />
           <div className="source-desk-grid">
             {sourceDesks.slice(0, 6).map((desk) => (
               <article key={desk.name}>
@@ -141,7 +142,7 @@ export default function AtlantaPage() {
             <p>Public readers see confirmed facts and context. Subscribers get prioritization, enrichment and timing intelligence.</p>
           </div>
           <ul>{premiumSignals.slice(0, 4).map((signal) => <li key={signal}>{signal}</li>)}</ul>
-          <Link href="/atlanta/upgrade">See upgrade tiers →</Link>
+          <Link href="/upgrade">See upgrade tiers →</Link>
         </section>
 
         <section className="shell">
@@ -150,8 +151,8 @@ export default function AtlantaPage() {
         </section>
 
         <section className="shell">
-          <SectionHeading label="Projects we’re watching" href="/atlanta/projects" />
-          <div className="project-list">{projects.map((project) => <ProjectCard key={project.slug} name={project.name} location={project.location} status={project.status} detail={project.detail} href={`/atlanta/project/${project.slug}`} />)}</div>
+          <SectionHeading label="Projects we’re watching" href="/projects" />
+          <div className="project-list">{projects.map((project) => <ProjectCard key={project.slug} name={project.name} location={project.location} status={project.status} detail={project.detail} href={`/project/${project.slug}`} />)}</div>
         </section>
 
         <div className="shell" id="newsletter"><NewsletterSignup /></div>

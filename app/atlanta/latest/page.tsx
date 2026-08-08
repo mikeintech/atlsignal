@@ -11,11 +11,12 @@ import {
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { atlanta, categories } from "@/lib/market";
 import { editorialCategories, launchWeek, leadStory, sourceDeskItems, sourceDesks, stories, watchlist } from "@/lib/atlanta-data";
+import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Latest",
   description: "The latest public ATLSignal coverage, source desk status, and launch-week publishing plan.",
-  alternates: { canonical: "/atlanta/latest" },
+  alternates: { canonical: absoluteUrl("/latest") },
 };
 
 export default function LatestPage() {
