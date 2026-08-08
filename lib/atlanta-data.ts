@@ -57,6 +57,115 @@ const canonicalStories: Story[] = canonicalProjects.map((project) => ({
   confidence: project.confidence >= .75 ? "Confirmed" : "Probable",
 }));
 
+export const sourceDeskStories: Story[] = [
+  {
+    slug: "beltline-overlook-at-garson-affordable-housing",
+    category: "Public Money",
+    headline: "BeltLine-backed Overlook at Garson moves from plan to construction",
+    dek: "The official groundbreaking adds a visible affordable-housing milestone near Lindbergh and a new project for Atlanta’s public-investment watch.",
+    timestamp: "Updated Aug. 8",
+    confidence: "Confirmed",
+  },
+  {
+    slug: "beltline-bennett-street-demolition-northwest-trail",
+    category: "Transportation & Airport",
+    headline: "Bennett Street demolition clears an early path for Northwest Trail work",
+    dek: "Atlanta BeltLine’s first-party update links a near-term demolition step to the longer Northwest Trail buildout.",
+    timestamp: "Updated Aug. 8",
+    confidence: "Confirmed",
+  },
+  {
+    slug: "arc-avondale-estates-town-green-transformation",
+    category: "City Hall & Policy",
+    headline: "Avondale Estates’ town green shows how civic projects can reshape a business district",
+    dek: "ARC’s community-development account connects a municipal redevelopment project with walkability, gathering space and downtown activity.",
+    timestamp: "Updated Aug. 8",
+    confidence: "Confirmed",
+  },
+  {
+    slug: "connectatl-regional-transportation-future",
+    category: "Transportation & Airport",
+    headline: "ConnectATL puts metro Atlanta’s transportation choices on one regional agenda",
+    dek: "The ARC forum is a useful marker for the mobility, infrastructure and growth decisions shaping the region’s next cycle.",
+    timestamp: "Updated Aug. 8",
+    confidence: "Confirmed",
+  },
+  {
+    slug: "atlanta-world-cup-regional-economy-review",
+    category: "Workforce & Economy",
+    headline: "ARC’s World Cup review turns a global event into a regional economic case study",
+    dek: "The agency’s post-event review gives Atlanta readers a starting point for examining mobility, civic capacity and the business effects of major events.",
+    timestamp: "Updated Aug. 8",
+    confidence: "Confirmed",
+  },
+  {
+    slug: "how-invest-atlanta-shapes-development-finance",
+    category: "Public Money",
+    headline: "Where Invest Atlanta fits into the city’s development-money story",
+    dek: "Tax incentives, neighborhood investment and business programs become more legible when the city’s economic-development authority is treated as a standing reporting beat.",
+    timestamp: "Updated Aug. 8",
+    confidence: "Confirmed",
+  },
+];
+
+export const sourceDeskArticleDetails: Record<string, {
+  nutgraf: string;
+  whatChanged: string;
+  matters: string;
+  unknown: string;
+  next: string;
+  sources: Array<{ name: string; detail: string; url?: string }>;
+}> = {
+  "beltline-overlook-at-garson-affordable-housing": {
+    nutgraf: "The news is the transition from an announced idea to a documented construction milestone. That makes the project relevant to readers following housing delivery, neighborhood investment and BeltLine-adjacent growth.",
+    whatChanged: "Atlanta BeltLine reported a groundbreaking for Overlook at Garson, an affordable-housing development near Lindbergh. ATLSignal classifies the update as confirmed because it comes from the public entity directly associated with the program and describes a completed milestone rather than a forecast.",
+    matters: "Affordable housing near major transportation and commercial corridors is both a public-policy story and a development story. The milestone gives residents and business readers something concrete to track: whether publicly supported plans are moving into delivery and how that activity may change the surrounding district over time.",
+    unknown: "The announcement does not, by itself, establish every construction deadline, downstream contract, operating detail or neighborhood effect. Those claims require separate records or later reporting.",
+    next: "ATLSignal will watch for construction updates, financing disclosures, leasing or eligibility information, and later completion milestones from first-party and government sources.",
+    sources: [{ name: "Atlanta BeltLine", detail: "First-party groundbreaking announcement for Overlook at Garson.", url: "https://beltline.org/blog/atlanta-beltline-breaks-ground-on-overlook-at-garson/" }],
+  },
+  "beltline-bennett-street-demolition-northwest-trail": {
+    nutgraf: "Demolition is a modest step, but it is a dated and observable one. It moves the Northwest Trail story beyond a broad future promise and into a sequence readers can follow.",
+    whatChanged: "Atlanta BeltLine announced the start of Bennett Street demolition as an enabling step for future Northwest Trail work. The update does not mean the full trail segment is complete or immediately opening; it confirms preparatory activity tied to the corridor plan.",
+    matters: "Trail and street projects can alter access, construction conditions and the way nearby commercial districts function. Publishing the intermediate milestones helps readers understand why visible site work may begin well before a finished public amenity arrives.",
+    unknown: "The source does not settle the full delivery schedule, final cost, every procurement package or the commercial impact on nearby properties.",
+    next: "The useful follow-ups are contract awards, construction notices, detours, funding actions and a firmer segment schedule.",
+    sources: [{ name: "Atlanta BeltLine", detail: "First-party Bennett Street demolition and Northwest Trail update.", url: "https://beltline.org/blog/atlanta-beltline-to-begin-bennett-street-demolition-advancing-future-northwest-trail/" }],
+  },
+  "arc-avondale-estates-town-green-transformation": {
+    nutgraf: "ARC’s account is useful because it explains a local redevelopment project as more than a construction event: it connects the public realm, downtown identity and the conditions surrounding small-business activity.",
+    whatChanged: "The Atlanta Regional Commission published a community-development feature on Avondale Estates’ transformation from a drive-through corridor toward a more walkable destination centered on the town green. ATLSignal is treating the piece as regional civic context, not an independent measure of business performance.",
+    matters: "Public-space investments often sit upstream of private openings, foot traffic and leasing decisions. Following them as a standing beat gives regular readers a clearer picture of how municipal choices can change a commercial district’s shape.",
+    unknown: "The feature does not prove that every nearby business benefited, quantify a universal economic effect or establish the outcome of future development proposals.",
+    next: "Later coverage should test the civic narrative against new openings, vacancies, development applications, public budgets and direct reporting from local operators.",
+    sources: [{ name: "Atlanta Regional Commission", detail: "Community-development feature on Avondale Estates’ downtown transformation.", url: "https://atlantaregional.org/news/community-development/from-drive-through-to-drive-to-avondale-estates-transformation/" }],
+  },
+  "connectatl-regional-transportation-future": {
+    nutgraf: "Regional forums are not project approvals, but they show which mobility questions are being elevated and which institutions are participating before individual decisions reach construction.",
+    whatChanged: "ARC’s ConnectATL coverage placed metro Atlanta’s transportation future at the center of a regional discussion. ATLSignal records the event as an agenda-setting signal and keeps it separate from funded-project or construction claims.",
+    matters: "Transportation capacity influences where people can work, where companies can hire and which districts can absorb growth. A regional view helps connect individual transit, road and trail projects to the larger economic map.",
+    unknown: "Discussion does not equal adoption. The source does not confirm funding, final project selection, construction dates or a specific outcome for any corridor.",
+    next: "ATLSignal will look for board actions, adopted plans, funding commitments, procurement notices and project-level schedules that turn the agenda into measurable decisions.",
+    sources: [{ name: "Atlanta Regional Commission", detail: "Regional transportation forum coverage.", url: "https://atlantaregional.org/news/transportation-mobility/metro-atlantas-transportation-future-takes-center-stage-at-connectatl-in-focus/" }],
+  },
+  "atlanta-world-cup-regional-economy-review": {
+    nutgraf: "The value of a post-event review is not another victory lap. It is a public starting point for separating observed regional activity from larger claims about long-term economic impact.",
+    whatChanged: "ARC published a review of Atlanta’s FIFA World Cup 26 hosting period. ATLSignal adds it to the regional economy desk as an attributable agency account that can be compared with later transportation, tourism, workforce and fiscal evidence.",
+    matters: "Major events put unusual pressure on airports, transit, public safety, hospitality and city operations. Looking back at that performance can expose lessons that matter for future events and everyday regional capacity.",
+    unknown: "An agency review alone cannot establish the complete economic impact, net public cost, distribution of benefits or long-term effect on local businesses.",
+    next: "The next layer should include visitor data, tax receipts, public expenditures, transit and airport reporting, and independent business accounts.",
+    sources: [{ name: "Atlanta Regional Commission", detail: "Agency review of the region’s FIFA World Cup 26 experience.", url: "https://atlantaregional.org/news/uncategorized/fifa-world-cup-26-in-review/" }],
+  },
+  "how-invest-atlanta-shapes-development-finance": {
+    nutgraf: "Public money is not a single feed. Invest Atlanta sits at the intersection of incentives, real estate, neighborhood investment and business support, making its actions a necessary beat for understanding how city-backed growth is financed.",
+    whatChanged: "ATLSignal has promoted Invest Atlanta from a link in the source list to a permanent editorial desk. Its public materials will be used to identify programs, board actions and project-finance facts that deserve individual reporting.",
+    matters: "Development announcements often mention incentives or public participation without explaining the institution, mechanism or tradeoff. A standing desk creates a place to follow those decisions consistently instead of rediscovering the agency each time a project appears.",
+    unknown: "This desk launch is not evidence that every supported project succeeds or that every public incentive produces the same return. Each project and program still needs its own source trail and outcome reporting.",
+    next: "Coverage will focus on board materials, financing approvals, program changes, neighborhood funds and the later milestones needed to evaluate delivery.",
+    sources: [{ name: "Invest Atlanta", detail: "Official economic-development authority programs and public materials.", url: "https://www.investatlanta.com/" }],
+  },
+};
+
 const opportunity = publicReadModel.brief.items.find((item) => item.section === "OPPORTUNITY");
 if (opportunity) canonicalStories.push({
   slug: "douglas-county-janitorial-services",
@@ -74,7 +183,7 @@ export const leadStory: Story = {
   metricLabel: "reported project value",
 };
 
-export const stories = canonicalStories.slice(1);
+export const stories = [...sourceDeskStories, ...canonicalStories.slice(1)];
 
 export const metrics = publicReadModel.brief.items
   .filter((item) => item.section === "BY_THE_NUMBERS")

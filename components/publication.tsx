@@ -27,7 +27,7 @@ const primaryNav = [
 export function PublicationHeader({ market }: { market: MarketBrand }) {
   return (
     <>
-      <div className="utility-bar"><div className="shell utility-bar__inner"><span>Atlanta business, development & public records</span><span>Friday, August 7, 2026</span></div></div>
+      <div className="utility-bar"><div className="shell utility-bar__inner"><span>Atlanta business, development & public records</span><span>Saturday, August 8, 2026</span></div></div>
       <header className="publication-header">
         <div className="shell publication-header__main">
           <Link className="wordmark" href={`/${market.slug}`} aria-label={`${market.code} home`}>

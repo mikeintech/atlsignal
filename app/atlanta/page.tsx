@@ -74,6 +74,13 @@ export default function AtlantaPage() {
           </div>
         </section>
 
+        <section className="shell">
+          <SectionHeading label="Public money & civic growth" href="/atlanta/money" />
+          <div className="editorial-grid editorial-grid--three">
+            {stories.filter((story) => ["Public Money", "City Hall & Policy", "Transportation & Airport", "Workforce & Economy"].includes(story.category)).slice(0, 6).map((story) => <StoryCard key={story.slug} story={story} />)}
+          </div>
+        </section>
+
         <section className="split-section shell">
           <div>
             <SectionHeading label="Business moves" href="/atlanta/business" />
