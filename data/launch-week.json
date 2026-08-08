@@ -1,0 +1,56 @@
+{
+  "domain_handle": "atlsignal",
+  "selected_launch_name": "ATLSignal",
+  "launch_date": "2026-08-08",
+  "publishing_days": [
+    {
+      "date": "2026-08-08",
+      "theme": "Launch Brief",
+      "lead": "McKenney's Campus Warehouse moves into construction",
+      "sections": ["Development & Infrastructure", "Business Moves", "Watchlist"],
+      "public_note": "Introduce ATLSignal with evidence-backed project movement and the public methodology."
+    },
+    {
+      "date": "2026-08-09",
+      "theme": "Retail and Occupancy",
+      "lead": "Publix, AutoZone, and retail occupancy signals",
+      "sections": ["Food, Retail & Hospitality", "Business Moves", "Projects"],
+      "public_note": "Focus on approved retail and occupancy-stage records without implying opening dates."
+    },
+    {
+      "date": "2026-08-10",
+      "theme": "Housing and Institutional Development",
+      "lead": "Residences at Perimeter Summit and Global Village",
+      "sections": ["Development & Infrastructure", "Workforce & Economy"],
+      "public_note": "Frame apartment and education projects as public-record stage changes."
+    },
+    {
+      "date": "2026-08-11",
+      "theme": "Public Money Watch",
+      "lead": "Douglas County janitorial solicitation",
+      "sections": ["Public Money", "Opportunities"],
+      "public_note": "Explain the difference between public solicitations and premium routing intelligence."
+    },
+    {
+      "date": "2026-08-12",
+      "theme": "BeltLine and Civic Development Watch",
+      "lead": "Atlanta BeltLine source desk launches",
+      "sections": ["City Hall & Policy", "Development & Infrastructure", "Transportation & Airport"],
+      "public_note": "Use new BeltLine discovery items only after claim review."
+    },
+    {
+      "date": "2026-08-13",
+      "theme": "Regional Economy Watch",
+      "lead": "Atlanta Regional Commission source desk launches",
+      "sections": ["Workforce & Economy", "Transportation & Airport", "City Hall & Policy"],
+      "public_note": "Use ARC items for regional context, not unsupported project forecasts."
+    },
+    {
+      "date": "2026-08-14",
+      "theme": "Week One Ledger",
+      "lead": "What changed, what stayed in review, and what ATLSignal is watching next",
+      "sections": ["Latest", "Watchlist", "Projects"],
+      "public_note": "Publish the evidence ledger and keep withheld claims visibly separate from confirmed facts."
+    }
+  ]
+}
