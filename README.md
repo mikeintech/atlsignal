@@ -1,4 +1,33 @@
-# vinext-starter
+# ATLSignal
+
+Static-first Atlanta intelligence publication.
+
+## GitHub Pages
+
+This project can be deployed directly to GitHub Pages as a static site.
+
+1. Push this `publication` folder to a GitHub repository.
+2. In the repo, enable Pages with source set to GitHub Actions.
+3. Optionally set repository variables:
+   - `NEXT_PUBLIC_SITE_URL`: the final site URL, such as `https://yourname.github.io/atlsignal`.
+   - `NEXT_PUBLIC_BASE_PATH`: set to `/atlsignal` only when deploying to a project page under that repo path. Leave blank for `yourname.github.io`.
+   - `NEXT_PUBLIC_NEWSLETTER_ENDPOINT`: optional external form endpoint such as Formspree, Buttondown, Beehiiv, ConvertKit, or a small serverless form handler.
+4. Push to `main`; `.github/workflows/pages.yml` builds and publishes the static site.
+
+Local static build:
+
+```bash
+npm ci
+NEXT_PUBLIC_SITE_URL=https://yourname.github.io/atlsignal NEXT_PUBLIC_BASE_PATH=/atlsignal npm run build:github
+```
+
+The static export is written to `.next-github`.
+
+Newsletter capture on GitHub Pages requires `NEXT_PUBLIC_NEWSLETTER_ENDPOINT`.
+Without it, the form falls back to the dynamic `/api/newsletter` path used by
+the Codex/Sites build and will not capture submissions on GitHub Pages.
+
+## Codex/Sites build
 
 A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and

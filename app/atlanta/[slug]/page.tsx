@@ -23,6 +23,8 @@ const categoryNames: Record<string, string> = {
   latest: "Latest intelligence",
   business: "Business",
   development: "Development",
+  policy: "City Hall & Policy",
+  transit: "Transportation & Airport",
   money: "Money",
   economy: "Economy",
   opportunities: "Opportunities",
@@ -102,9 +104,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
 function CategoryLanding({ slug }: { slug: string }) {
   const title = categoryNames[slug];
+  const categoryMatch: Record<string, string> = {
+    opportunities: "Opportunity",
+    policy: "City Hall & Policy",
+    transit: "Transportation & Airport",
+  };
   const match = slug === "latest"
     ? allStories
-    : allStories.filter((story) => story.category.toLowerCase() === (slug === "opportunities" ? "opportunity" : slug));
+    : allStories.filter((story) => story.category.toLowerCase() === (categoryMatch[slug] ?? slug).toLowerCase());
   return (
     <>
       <PublicationHeader market={atlanta} /><EditionHeader market={atlanta} />

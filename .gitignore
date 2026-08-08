@@ -15,6 +15,7 @@
 
 # next.js
 /.next/
+/.next-github/
 /.vinext/
 /out/
 

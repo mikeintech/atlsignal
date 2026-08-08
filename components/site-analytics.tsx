@@ -5,6 +5,7 @@ import { useEffect } from "react";
 export function SiteAnalytics() {
   useEffect(() => {
     const send = (eventType: string, target?: string) => {
+      if (process.env.NEXT_PUBLIC_STATIC_EXPORT === "true") return;
       const payload = JSON.stringify({ eventType, path: window.location.pathname, target });
       navigator.sendBeacon?.("/api/analytics", new Blob([payload], { type: "application/json" }));
     };

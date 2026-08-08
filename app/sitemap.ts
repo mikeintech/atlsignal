@@ -3,10 +3,12 @@ import { leadStory, projects, stories } from "@/lib/atlanta-data";
 
 const base = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [
     "/atlanta", "/atlanta/latest", "/atlanta/business", "/atlanta/development", "/atlanta/money",
-    "/atlanta/economy", "/atlanta/opportunities", "/atlanta/projects", "/atlanta/search",
+    "/atlanta/economy", "/atlanta/policy", "/atlanta/transit", "/atlanta/opportunities", "/atlanta/projects", "/atlanta/search",
     ...[leadStory, ...stories].map((story) => `/atlanta/${story.slug}`),
     ...projects.map((project) => `/atlanta/project/${project.slug}`),
   ];

@@ -1,5 +1,7 @@
-import { redirect } from "next/navigation";
+import AtlantaPage, { metadata } from "./atlanta/page";
+
+export { metadata };
 
 export default function Home() {
-  redirect("/atlanta");
+  return <AtlantaPage />;
 }
