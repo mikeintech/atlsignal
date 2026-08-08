@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { EditionHeader, Headline, PremiumTeaser, PublicationHeader, SectionHeading } from "@/components/publication";
+import { EditionHeader, EditorialImage, Headline, PremiumTeaser, PublicationHeader, SectionHeading } from "@/components/publication";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { atlanta } from "@/lib/market";
 import { publicGuides } from "@/lib/atlanta-data";
@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const guide = publicGuides.find((item) => item.slug === slug);
   if (!guide) return {};
-  return { title: guide.title, description: guide.dek, alternates: { canonical: `/atlanta/guides/${guide.slug}` } };
+  return { title: guide.title, description: guide.dek, alternates: { canonical: `/atlanta/guides/${guide.slug}` }, openGraph: { type: "article", title: guide.title, description: guide.dek, images: [guide.image.src] }, twitter: { card: "summary_large_image", title: guide.title, description: guide.dek, images: [guide.image.src] } };
 }
 
 const guideCopy: Record<string, { sections: Array<{ title: string; body: string }> }> = {
@@ -62,6 +62,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
           <Headline as="h1" size="lead">{guide.title}</Headline>
           <p className="article-dek">{guide.dek}</p>
           <p className="article-nutgraf">This free guide is designed for public readers. It explains the signal without publishing premium buyer routing, contact paths or unsupported operator guesses.</p>
+          <EditorialImage image={guide.image} priority />
         </header>
         <div className="article-layout">
           <article className="article-body">

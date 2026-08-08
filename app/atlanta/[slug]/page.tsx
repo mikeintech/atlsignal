@@ -12,6 +12,7 @@ import {
   SectionHeading,
   SourceAttribution,
   StoryCard,
+  StoryImage,
   Timeline,
   UpdateBadge,
 } from "@/components/publication";
@@ -74,7 +75,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (categoryNames[slug]) return { title: categoryNames[slug], description: `${categoryNames[slug]} across the Atlanta commercial economy.`, alternates: { canonical: `/atlanta/${slug}` } };
   const story = allStories.find((item) => item.slug === slug);
   if (!story) return {};
-  return { title: story.headline, description: story.dek, alternates: { canonical: `/atlanta/${story.slug}` }, openGraph: { type: "article", title: story.headline, description: story.dek, publishedTime: "2026-08-07T08:10:00-04:00", modifiedTime: "2026-08-07T08:10:00-04:00", images: ["/og.png"] }, twitter: { card: "summary_large_image", title: story.headline, description: story.dek, images: ["/og.png"] } };
+  return { title: story.headline, description: story.dek, alternates: { canonical: `/atlanta/${story.slug}` }, openGraph: { type: "article", title: story.headline, description: story.dek, publishedTime: "2026-08-07T08:10:00-04:00", modifiedTime: "2026-08-08T10:20:00-04:00", images: [story.image.src] }, twitter: { card: "summary_large_image", title: story.headline, description: story.dek, images: [story.image.src] } };
 }
 
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -85,7 +86,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const isLead = story.slug === leadStory.slug;
   const isSourceDeskStory = Boolean(sourceDeskArticleDetails[story.slug]);
   const context = articleContext(story, isLead);
-  const jsonLd = { "@context": "https://schema.org", "@type": "NewsArticle", headline: story.headline, description: story.dek, datePublished: "2026-08-07T08:10:00-04:00", dateModified: "2026-08-07T08:10:00-04:00", author: { "@type": "Organization", name: "ATLSignal Desk" }, publisher: { "@type": "Organization", name: "ATLSignal" }, image: "/og.png" };
+  const jsonLd = { "@context": "https://schema.org", "@type": "NewsArticle", headline: story.headline, description: story.dek, datePublished: "2026-08-07T08:10:00-04:00", dateModified: "2026-08-08T10:20:00-04:00", author: { "@type": "Organization", name: "ATLSignal Desk" }, publisher: { "@type": "Organization", name: "ATLSignal" }, image: story.image.src };
 
   return (
     <>
@@ -99,6 +100,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <p className="article-dek">{story.dek}</p>
           <p className="article-nutgraf">{context.nutgraf}</p>
           <div className="article-byline"><span>By ATLSignal Desk</span><time>August 7, 2026 · 8:10 AM ET · 5 min read</time></div>
+          <StoryImage story={story} priority />
         </header>
 
         <div className="article-layout">

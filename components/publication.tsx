@@ -2,6 +2,14 @@ import Link from "next/link";
 import { ArrowUpRight, Clock3, Menu, Search } from "lucide-react";
 import type { MarketBrand } from "@/lib/market";
 
+export type StoryImageData = {
+  src: string;
+  alt: string;
+  credit: string;
+  creditUrl: string;
+  label: "Source image" | "Editorial image";
+};
+
 export type Story = {
   slug: string;
   category: string;
@@ -12,6 +20,7 @@ export type Story = {
   metricLabel?: string;
   confidence?: "Confirmed" | "Probable" | "Early signal";
   status?: string;
+  image: StoryImageData;
 };
 
 const primaryNav = [
@@ -75,6 +84,7 @@ export function StoryMeta({ story }: { story: Story }) {
 export function IntelligenceStory({ story }: { story: Story }) {
   return (
     <article className="lead-story">
+      <StoryImage story={story} priority />
       <div className="lead-story__label"><StoryMeta story={story} /><span>5 min read</span></div>
       <Headline as="h1" size="lead"><Link href={`/atlanta/${story.slug}`}>{story.headline}</Link></Headline>
       <p className="lead-story__dek">{story.dek}</p>
@@ -86,10 +96,23 @@ export function IntelligenceStory({ story }: { story: Story }) {
 
 export function StoryCard({ story, numbered }: { story: Story; numbered?: number }) {
   return (
-    <article className="story-card">
+    <article className={numbered ? "story-card story-card--numbered" : "story-card"}>
       {numbered && <span className="story-card__number">{String(numbered).padStart(2, "0")}</span>}
-      <div><StoryMeta story={story} /><Headline as="h3" size="small"><Link href={`/atlanta/${story.slug}`}>{story.headline}</Link></Headline><p>{story.dek}</p><small>Read the evidence brief →</small></div>
+      <div className="story-card__content"><StoryImage story={story} compact /><StoryMeta story={story} /><Headline as="h3" size="small"><Link href={`/atlanta/${story.slug}`}>{story.headline}</Link></Headline><p>{story.dek}</p><small>Read the evidence brief →</small></div>
     </article>
+  );
+}
+
+export function StoryImage({ story, compact = false, priority = false }: { story: Story; compact?: boolean; priority?: boolean }) {
+  return <EditorialImage image={story.image} compact={compact} priority={priority} />;
+}
+
+export function EditorialImage({ image, compact = false, priority = false }: { image: StoryImageData; compact?: boolean; priority?: boolean }) {
+  return (
+    <figure className={compact ? "story-image story-image--compact" : "story-image"}>
+      <img src={image.src} alt={image.alt} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "auto"} />
+      <figcaption><span>{image.label}</span><a href={image.creditUrl}>Photo: {image.credit}</a></figcaption>
+    </figure>
   );
 }
 

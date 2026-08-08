@@ -3,6 +3,7 @@ import Link from "next/link";
 import {
   DataStrip,
   EditionHeader,
+  EditorialImage,
   IntelligenceStory,
   MorningBrief,
   OpportunityCard,
@@ -110,6 +111,7 @@ export default function AtlantaPage() {
           <div className="guide-grid">
             {publicGuides.map((guide) => (
               <article key={guide.slug}>
+                <EditorialImage image={guide.image} compact />
                 <p className="eyebrow">{guide.category} · {guide.readTime}</p>
                 <h2>{guide.title}</h2>
                 <p>{guide.dek}</p>

@@ -28,6 +28,33 @@ const articleSlugs: Record<string, string> = {
   "bethany-s-place-office-fit-out": "bethanys-place-office-fit-out",
 };
 
+const editorialPhoto = (id: string, alt: string) => ({
+  src: `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1600&q=82`,
+  alt,
+  credit: "Unsplash",
+  creditUrl: `https://unsplash.com/photos/${id.replace("photo-", "")}`,
+  label: "Editorial image" as const,
+});
+
+const projectImages: Record<string, Story["image"]> = {
+  "mckenney-s-campus-project-mckenney-s-warehouse": editorialPhoto("photo-1586528116311-ad8dd3c8310d", "Warehouse loading bays and logistics activity"),
+  "lulah-hills-publix-super-market-2142": {
+    src: "https://atlanta.urbanize.city/sites/default/files/styles/1140w/public/2025-10/North%20DeKalb%20Mall%20site%20Lulah%20Hills%201.png?itok=1RfUfA6R",
+    alt: "Aerial view of the cleared Lulah Hills redevelopment site",
+    credit: "Urbanize Atlanta",
+    creditUrl: "https://atlanta.urbanize.city/post/north-dekalb-mall-lulah-hills-project-demo-construction",
+    label: "Source image",
+  },
+  "residences-at-perimeter-summit-phase-b": editorialPhoto("photo-1545324418-cc1a3fa10c00", "Modern multifamily residential buildings"),
+  "global-village-project-building-c": editorialPhoto("photo-1562774053-701939374585", "Educational campus building and landscaped grounds"),
+  "autozone-10982-interior-alteration": editorialPhoto("photo-1486262715619-67b85e0b08d3", "Mechanic working inside an automotive service space"),
+  "publix-269": editorialPhoto("photo-1578916171728-46686eac8d58", "Grocery store aisles prepared for customers"),
+  "2026-002792-commercial-remodel": editorialPhoto("photo-1504307651254-35680f356dfd", "Commercial construction work in progress"),
+  "2026-001375-commercial-remodel": editorialPhoto("photo-1486406146926-c627a92ad1ab", "Modern commercial building exterior"),
+  "olympus-md": editorialPhoto("photo-1519494026892-80bbd2d6fd0d", "Contemporary medical and professional building exterior"),
+  "bethany-s-place-office-fit-out": editorialPhoto("photo-1497366811353-6870744d04b2", "Bright modern office interior"),
+};
+
 function displayValue(value: number | null) {
   if (!value) return "Value pending";
   if (value >= 1_000_000) return `$${(value / 1_000_000).toFixed(2).replace(/\.00$/, "")}M`;
@@ -55,6 +82,7 @@ const canonicalStories: Story[] = canonicalProjects.map((project) => ({
   dek: publicSummary(project.summary),
   timestamp: `Updated ${publicReadModel.brief.date ? "Aug. 7" : "recently"}`,
   confidence: project.confidence >= .75 ? "Confirmed" : "Probable",
+  image: projectImages[project.slug] ?? editorialPhoto("photo-1504307651254-35680f356dfd", "Commercial construction activity"),
 }));
 
 export const sourceDeskStories: Story[] = [
@@ -65,6 +93,13 @@ export const sourceDeskStories: Story[] = [
     dek: "The official groundbreaking adds a visible affordable-housing milestone near Lindbergh and a new project for Atlanta’s public-investment watch.",
     timestamp: "Updated Aug. 8",
     confidence: "Confirmed",
+    image: {
+      src: "https://a-us.storyblok.com/f/1020195/1563x889/72f9168877/garson-drive-drone-shot.webp",
+      alt: "Aerial view of the Garson Drive development site near Piedmont Road",
+      credit: "Atlanta BeltLine",
+      creditUrl: "https://beltline.org/learn/current-projects/garson-drive/",
+      label: "Source image",
+    },
   },
   {
     slug: "beltline-bennett-street-demolition-northwest-trail",
@@ -73,6 +108,13 @@ export const sourceDeskStories: Story[] = [
     dek: "Atlanta BeltLine’s first-party update links a near-term demolition step to the longer Northwest Trail buildout.",
     timestamp: "Updated Aug. 8",
     confidence: "Confirmed",
+    image: {
+      src: "https://a2-us.storyblok.com/f/1020195/5472x3648/ae661ddcb7/bennett-st-photo-by-loknows-drones-6-26-2025_07.JPG/m/1200x630/filters:format(jpeg)",
+      alt: "Aerial view of the Bennett Street corridor in Atlanta",
+      credit: "Atlanta BeltLine / LoKnows Drones",
+      creditUrl: "https://beltline.org/blog/atlanta-beltline-to-begin-bennett-street-demolition-advancing-future-northwest-trail/",
+      label: "Source image",
+    },
   },
   {
     slug: "arc-avondale-estates-town-green-transformation",
@@ -81,6 +123,13 @@ export const sourceDeskStories: Story[] = [
     dek: "ARC’s community-development account connects a municipal redevelopment project with walkability, gathering space and downtown activity.",
     timestamp: "Updated Aug. 8",
     confidence: "Confirmed",
+    image: {
+      src: "https://atlantaregional.org/wp-content/uploads/avondale-lci-5.png",
+      alt: "Avondale Estates Town Green and surrounding downtown development",
+      credit: "Atlanta Regional Commission",
+      creditUrl: "https://atlantaregional.org/news/community-development/from-drive-through-to-drive-to-avondale-estates-transformation/",
+      label: "Source image",
+    },
   },
   {
     slug: "connectatl-regional-transportation-future",
@@ -89,6 +138,7 @@ export const sourceDeskStories: Story[] = [
     dek: "The ARC forum is a useful marker for the mobility, infrastructure and growth decisions shaping the region’s next cycle.",
     timestamp: "Updated Aug. 8",
     confidence: "Confirmed",
+    image: editorialPhoto("photo-1449824913935-59a10b8d2000", "Metro Atlanta traffic and regional transportation infrastructure"),
   },
   {
     slug: "atlanta-world-cup-regional-economy-review",
@@ -97,6 +147,13 @@ export const sourceDeskStories: Story[] = [
     dek: "The agency’s post-event review gives Atlanta readers a starting point for examining mobility, civic capacity and the business effects of major events.",
     timestamp: "Updated Aug. 8",
     confidence: "Confirmed",
+    image: {
+      src: "https://res.cloudinary.com/atlanta/images/w_1024%2Ch_683%2Cc_scale/f_auto%2Cq_auto/v1749748170/newAtlanta.com/MBS_20250611_FWCOneYearOutUpdate_CS1_2797/MBS_20250611_FWCOneYearOutUpdate_CS1_2797.jpg?_i=AA",
+      alt: "Atlanta civic and business leaders at a FIFA World Cup 26 event",
+      credit: "Discover Atlanta",
+      creditUrl: "https://discoveratlanta.com/news/atlanta-marks-one-year-to-go-until-the-fifa-world-cup-26-with-joint-host-city-efforts-and-citywide-celebrations/",
+      label: "Source image",
+    },
   },
   {
     slug: "how-invest-atlanta-shapes-development-finance",
@@ -105,6 +162,13 @@ export const sourceDeskStories: Story[] = [
     dek: "Tax incentives, neighborhood investment and business programs become more legible when the city’s economic-development authority is treated as a standing reporting beat.",
     timestamp: "Updated Aug. 8",
     confidence: "Confirmed",
+    image: {
+      src: "https://www.investatlanta.com/assets/developers_newmarkettaxcredits_mantle_940x360_V1rQmP8.jpg",
+      alt: "Atlanta skyline representing city-backed economic development",
+      credit: "Invest Atlanta",
+      creditUrl: "https://www.investatlanta.com/",
+      label: "Source image",
+    },
   },
 ];
 
@@ -174,6 +238,7 @@ if (opportunity) canonicalStories.push({
   dek: publicSummary(opportunity.summary),
   timestamp: "Updated Aug. 7",
   confidence: "Confirmed",
+  image: editorialPhoto("photo-1581578731548-c64695cc6952", "Professional cleaning team preparing a commercial facility"),
 });
 
 const leadProject = canonicalProjects[0];
@@ -333,6 +398,7 @@ export const publicGuides = [
     dek: "A plain-English guide to reading permit movement without overclaiming what the record proves.",
     category: "Guide",
     readTime: "6 min read",
+    image: editorialPhoto("photo-1454165804606-c3d57bc86b40", "Plans, research and project notes arranged on a work table"),
   },
   {
     slug: "certificate-of-occupancy-atlanta-business-openings",
@@ -340,6 +406,7 @@ export const publicGuides = [
     dek: "Occupancy records can signal a project is nearing use, but they do not always prove a public opening date.",
     category: "Explainer",
     readTime: "5 min read",
+    image: editorialPhoto("photo-1487958449943-2429e8be8625", "Completed modern building ready for occupancy"),
   },
   {
     slug: "public-bids-vs-premium-routing-intelligence",
@@ -347,6 +414,7 @@ export const publicGuides = [
     dek: "ATLSignal publishes public solicitation context while reserving buyer-path research and commercial prioritization for paid tiers.",
     category: "Methodology",
     readTime: "4 min read",
+    image: editorialPhoto("photo-1450101499163-c8848c66ca85", "Public contract documents being reviewed and signed"),
   },
   {
     slug: "beltline-business-development-watch",
@@ -354,6 +422,13 @@ export const publicGuides = [
     dek: "Trail, housing and corridor updates can shape commercial timing long before a storefront opens.",
     category: "Source desk",
     readTime: "5 min read",
+    image: {
+      src: "https://a-us.storyblok.com/f/1020195/118d9ed589/03-13-23-atlanta-beltline-southside-groundbreaking-2023_03_13-southside-trail-groundbreaking_abi_web-res_127a3088-1024x683.jpg",
+      alt: "Atlanta BeltLine and community leaders at a trail groundbreaking",
+      credit: "Atlanta BeltLine / Erin Sintos",
+      creditUrl: "https://beltline.org/press-release/atlanta-beltline-inc-and-community-leaders-break-ground-on-southside-trail-in-grant-park-glenwood-park/",
+      label: "Source image" as const,
+    },
   },
 ];
 

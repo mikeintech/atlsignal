@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import { EditionHeader, Headline, PremiumTeaser, PublicationHeader, SectionHeading } from "@/components/publication";
+import { EditionHeader, EditorialImage, Headline, PremiumTeaser, PublicationHeader, SectionHeading } from "@/components/publication";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { atlanta } from "@/lib/market";
 import { publicGuides, sourceDeskItems } from "@/lib/atlanta-data";
@@ -29,6 +29,7 @@ export default function GuidesPage() {
           <div className="guide-grid">
             {publicGuides.map((guide) => (
               <article key={guide.slug}>
+                <EditorialImage image={guide.image} compact />
                 <p className="eyebrow">{guide.category} · {guide.readTime}</p>
                 <h2>{guide.title}</h2>
                 <p>{guide.dek}</p>

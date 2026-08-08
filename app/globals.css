@@ -54,7 +54,8 @@ button, input { font: inherit; }
 .lead-story__metric strong { font-family: Georgia, serif; font-size: clamp(38px, 4vw, 60px); line-height: 1; }
 .lead-story__metric span { max-width: 140px; color: var(--muted); font-size: 12px; line-height: 1.2; text-transform: uppercase; letter-spacing: .07em; }
 .why { max-width: 690px; border-top: 1px solid var(--line); padding-top: 17px; font-size: 14px; }
-.story-card { display: grid; grid-template-columns: auto 1fr; gap: 18px; border-top: 1px solid var(--line); padding-block: 20px; }
+.story-card { display: grid; grid-template-columns: 1fr; gap: 18px; border-top: 1px solid var(--line); padding-block: 20px; }
+.story-card--numbered { grid-template-columns: auto 1fr; }
 .story-card__number { color: var(--accent); font-family: Georgia, serif; font-size: 24px; line-height: 1; }
 .story-card .headline { margin-block: 9px; }
 .story-card p { color: var(--muted); font-size: 13px; line-height: 1.45; margin: 0; }
@@ -374,6 +375,15 @@ body { background: var(--paper); color: var(--ink); font-family: Inter, ui-sans-
 .story-card p { font-size: 14px; }
 .story-card small { color: var(--accent); display: inline-block; font-size: 11px; font-weight: 800; letter-spacing: .06em; margin-top: 12px; text-transform: uppercase; }
 .story-card__number { font-size: 27px; }
+.story-card__content { min-width: 0; }
+.story-image { margin: 28px 0 0; }
+.story-image img { aspect-ratio: 16 / 9; background: var(--paper-deep); border-radius: 20px; display: block; object-fit: cover; width: 100%; }
+.story-image figcaption { align-items: center; color: var(--muted); display: flex; font-size: 10px; gap: 10px; justify-content: space-between; letter-spacing: .04em; margin-top: 7px; text-transform: uppercase; }
+.story-image figcaption a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.story-image--compact { margin: 0 0 16px; }
+.story-image--compact img { border-radius: 14px; }
+.story-image--compact figcaption { font-size: 8px; }
+.lead-story > .story-image { margin-top: 0; }
 .data-strip { background: #fff; border: 1px solid var(--line); border-radius: 28px; overflow: hidden; }
 .metric { min-height: 132px; }
 .metric strong { color: var(--forest); }
