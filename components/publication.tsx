@@ -19,8 +19,9 @@ const primaryNav = [
   { label: "Development", href: "/atlanta/development" },
   { label: "Business", href: "/atlanta/business" },
   { label: "Public money", href: "/atlanta/money" },
-  { label: "Projects", href: "/atlanta/projects" },
+  { label: "Guides", href: "/atlanta/guides" },
   { label: "About", href: "/atlanta/about" },
+  { label: "Upgrade", href: "/atlanta/upgrade" },
 ];
 
 export function PublicationHeader({ market }: { market: MarketBrand }) {
@@ -146,4 +147,15 @@ export function CorrectionNotice({ children }: { children: React.ReactNode }) {
 
 export function MapPreview({ label = "Atlanta project area" }: { label?: string }) {
   return <div className="map-preview" role="img" aria-label={label}><span>ATLSignal</span><i /><b>Project location</b></div>;
+}
+
+export function PremiumTeaser({ compact = false }: { compact?: boolean }) {
+  return (
+    <aside className={compact ? "premium-teaser premium-teaser--compact" : "premium-teaser"}>
+      <p className="eyebrow">Upgrade signal</p>
+      <h2>Free readers get the story. Subscribers get the route.</h2>
+      <p>Premium keeps the commercial layer private: timing scores, buyer paths, operator enrichment, contact-route research and daily watch changes.</p>
+      <Link href="/atlanta/upgrade">See the tiers <ArrowUpRight size={14} /></Link>
+    </aside>
+  );
 }

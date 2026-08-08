@@ -3,6 +3,7 @@ import {
   CategoryLabel,
   EditionHeader,
   Headline,
+  PremiumTeaser,
   PublicationHeader,
   SectionHeading,
   StoryCard,
@@ -83,6 +84,8 @@ export default function LatestPage() {
             {editorialCategories.map((category) => <span key={category}>{category}</span>)}
           </div>
         </section>
+
+        <PremiumTeaser />
 
         <section>
           <SectionHeading label="Watchlist" />

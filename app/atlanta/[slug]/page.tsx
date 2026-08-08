@@ -6,6 +6,7 @@ import {
   EvidenceList,
   Headline,
   MapPreview,
+  PremiumTeaser,
   PublicationHeader,
   ProjectCard,
   SectionHeading,
@@ -117,6 +118,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <aside className="article-rail">
             <MapPreview label={`Project area for ${story.headline}`} />
             <div className="fact-box"><p className="eyebrow">Evidence discipline</p><dl><div><dt>Fact</dt><dd>Recorded stage and reported value</dd></div><div><dt>Inference</dt><dd>Commercial activity may follow</dd></div><div><dt>Forecast</dt><dd>None published without more evidence</dd></div></dl></div>
+            <PremiumTeaser compact />
           </aside>
         </div>
         <section><SectionHeading label="Related intelligence" />

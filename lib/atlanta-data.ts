@@ -113,18 +113,33 @@ export const editorialCategories = [
 export const sourceDesks = [
   {
     name: "Atlanta BeltLine",
-    status: "Collector ready",
-    focus: "development, trails, affordable housing, economic impact, construction updates",
+    status: "Tier A public source",
+    focus: "official trail, housing, construction, budget and corridor updates",
   },
   {
     name: "Atlanta Regional Commission",
-    status: "Collector ready",
-    focus: "regional economy, workforce, mobility, planning, infrastructure",
+    status: "Tier A civic source",
+    focus: "regional economy, workforce, mobility, planning and infrastructure context",
   },
   {
-    name: "City, airport, chamber, MARTA and state sources",
-    status: "Discovery only",
-    focus: "high-value public signals that still need repeatable access review",
+    name: "Invest Atlanta",
+    status: "Tier A economic source",
+    focus: "incentives, neighborhood investment, small business, site selection and development finance",
+  },
+  {
+    name: "Airport, MARTA, ATLDOT and transit authorities",
+    status: "Tier A/B watch",
+    focus: "transportation, airport commercial activity, transit access and project timing",
+  },
+  {
+    name: "Local business and development press",
+    status: "Tier B media source",
+    focus: "tenant announcements, openings, broker notes, restaurant moves and development reporting",
+  },
+  {
+    name: "Broker, developer and company announcements",
+    status: "Tier C commercial source",
+    focus: "leases, projects, first-party openings, expansion plans and operator identity clues",
   },
 ];
 
@@ -159,9 +174,87 @@ export const sourceDeskItems = [
     summary: "Regional mobility coverage now feeds the Transportation & Airport desk as context, not as a forecast of individual project outcomes.",
     url: "https://atlantaregional.org/news/transportation-mobility/metro-atlantas-transportation-future-takes-center-stage-at-connectatl-in-focus/",
   },
+  {
+    source: "Invest Atlanta",
+    title: "Invest Atlanta remains a primary economic-development desk",
+    summary: "ATLSignal treats Invest Atlanta as a first-party source for city economic-development programs, business resources, developer incentives and neighborhood reinvestment signals.",
+    url: "https://www.investatlanta.com/",
+  },
+  {
+    source: "Hartsfield-Jackson Atlanta International Airport",
+    title: "Airport press releases join the Transportation & Airport desk",
+    summary: "ATLSignal will use airport releases for public commercial context around passenger activity, concessions, local retail, hiring, operations and facility updates.",
+    url: "https://www.atl.com/media-center/press-releases/",
+  },
+  {
+    source: "ATLDOT",
+    title: "ATLDOT project pages add civic infrastructure context",
+    summary: "Transportation project pages are monitored for scope, budget and phase evidence, while subscriber-only routing remains separate from the free media layer.",
+    url: "https://atldot.atlantaga.gov/projects/atlanta-beltline/",
+  },
 ];
 
 export const launchWeek = launchWeekData.publishing_days;
+
+export const coverageLanes = [
+  {
+    title: "Free media",
+    audience: "Readers, founders, operators and curious locals",
+    includes: ["reported public facts", "source links", "plain-English context", "topic guides", "watchlist summaries"],
+    excludes: ["buyer contact paths", "private routing notes", "unresolved operator guesses", "premium timing scores"],
+  },
+  {
+    title: "Pro intelligence",
+    audience: "Vendors, brokers, service providers and business development teams",
+    includes: ["ranked opportunities", "buyer/operator enrichment", "timing scores", "daily watch changes", "contact-route research"],
+    excludes: ["unsupported claims", "private personal data", "uncorroborated social rumors"],
+  },
+  {
+    title: "Market desk",
+    audience: "Teams that need repeatable monitoring",
+    includes: ["custom source desks", "saved territories", "source-change alerts", "procurement route notes", "exportable research packets"],
+    excludes: ["facts ATLSignal cannot source", "claims that fail evidence review"],
+  },
+];
+
+export const publicGuides = [
+  {
+    slug: "how-atlanta-commercial-permits-become-news",
+    title: "How Atlanta commercial permits become news",
+    dek: "A plain-English guide to reading permit movement without overclaiming what the record proves.",
+    category: "Guide",
+    readTime: "6 min read",
+  },
+  {
+    slug: "certificate-of-occupancy-atlanta-business-openings",
+    title: "What a certificate of occupancy can — and cannot — tell you",
+    dek: "Occupancy records can signal a project is nearing use, but they do not always prove a public opening date.",
+    category: "Explainer",
+    readTime: "5 min read",
+  },
+  {
+    slug: "public-bids-vs-premium-routing-intelligence",
+    title: "Public bids are free. Routing intelligence is the premium layer.",
+    dek: "ATLSignal publishes public solicitation context while reserving buyer-path research and commercial prioritization for paid tiers.",
+    category: "Methodology",
+    readTime: "4 min read",
+  },
+  {
+    slug: "beltline-business-development-watch",
+    title: "Why BeltLine updates matter for business readers",
+    dek: "Trail, housing and corridor updates can shape commercial timing long before a storefront opens.",
+    category: "Source desk",
+    readTime: "5 min read",
+  },
+];
+
+export const premiumSignals = [
+  "Which public items are most likely to become paid commercial work",
+  "What changed since yesterday across watched projects",
+  "Which operator, owner, contractor or agency path appears most useful",
+  "Which signals are confirmed, probable, weak or rejected",
+  "When to act based on stage, timing and source-corroboration score",
+];
 
 export const publicationReadModel = {
   schemaVersion: publicReadModel.schema_version,

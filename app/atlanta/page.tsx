@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import {
   DataStrip,
   EditionHeader,
   IntelligenceStory,
   MorningBrief,
   OpportunityCard,
+  PremiumTeaser,
   ProjectCard,
   PublicationHeader,
   SectionHeading,
@@ -14,7 +16,7 @@ import {
 } from "@/components/publication";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { atlanta } from "@/lib/market";
-import { leadStory, metrics, projects, stories, watchlist } from "@/lib/atlanta-data";
+import { leadStory, metrics, premiumSignals, projects, publicGuides, sourceDesks, stories, watchlist } from "@/lib/atlanta-data";
 
 export const metadata: Metadata = {
   title: "Latest",
@@ -58,6 +60,7 @@ export default function AtlantaPage() {
               <p>We turn those scattered signals into plain-English coverage for founders, operators, brokers, vendors, residents and curious locals.</p>
             </div>
             <OpportunityCard title="Douglas County janitorial services — various locations" agency="Douglas County" timing="Open solicitation" summary="A public commercial opportunity signal. Buyer contact details and premium routing intelligence are intentionally withheld from this public view." />
+            <PremiumTeaser compact />
           </aside>
         </section>
 
@@ -93,6 +96,43 @@ export default function AtlantaPage() {
             <h3>Development, openings, public money, transit and commercial demand.</h3>
             <p>V2 is built for regular readers first: cleaner summaries, stronger article pages, and topic sections that feel like a publication instead of a database.</p>
           </div>
+        </section>
+
+        <section className="shell">
+          <SectionHeading label="Free guides" href="/atlanta/guides" />
+          <div className="guide-grid">
+            {publicGuides.map((guide) => (
+              <article key={guide.slug}>
+                <p className="eyebrow">{guide.category} · {guide.readTime}</p>
+                <h2>{guide.title}</h2>
+                <p>{guide.dek}</p>
+                <Link href={`/atlanta/guides/${guide.slug}`}>Read guide →</Link>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="shell">
+          <SectionHeading label="Source desks" href="/atlanta/latest" />
+          <div className="source-desk-grid">
+            {sourceDesks.slice(0, 6).map((desk) => (
+              <article key={desk.name}>
+                <p className="eyebrow">{desk.status}</p>
+                <h2>{desk.name}</h2>
+                <p>{desk.focus}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="shell upgrade-band">
+          <div>
+            <p className="eyebrow">Subscriber layer</p>
+            <h2>The free story is useful. The paid layer is actionable.</h2>
+            <p>Public readers see confirmed facts and context. Subscribers get prioritization, enrichment and timing intelligence.</p>
+          </div>
+          <ul>{premiumSignals.slice(0, 4).map((signal) => <li key={signal}>{signal}</li>)}</ul>
+          <Link href="/atlanta/upgrade">See upgrade tiers →</Link>
         </section>
 
         <section className="shell">
