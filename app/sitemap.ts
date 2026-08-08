@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { leadStory, projects, stories } from "@/lib/atlanta-data";
 
-const base = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const base = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 
 export const dynamic = "force-static";
 
