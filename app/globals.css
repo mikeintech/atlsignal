@@ -422,6 +422,7 @@ body { background: var(--paper); color: var(--ink); font-family: Inter, ui-sans-
   .publication-header nav a:nth-last-child(-n+2) { display: inline-flex; }
   .front-hero, .front-grid { grid-template-columns: 1fr; }
   .front-hero__brief { border-radius: 24px; }
+  .article-layout, .project-layout { grid-template-columns: 1fr; justify-content: stretch; }
   .article-rail { position: static; }
   .article-body { border-radius: 24px; }
   .project-card:nth-child(even) { border-left: 0; }
@@ -436,15 +437,17 @@ body { background: var(--paper); color: var(--ink); font-family: Inter, ui-sans-
   .publication-header__actions .icon-link { display: grid; }
   .subscribe-link { display: none; }
   .menu-indicator { color: var(--muted); display: grid; place-items: center; }
-  .publication-header nav { gap: 6px; padding-bottom: 12px; }
-  .publication-header nav a { font-size: 11px; padding: 7px 10px; }
+  .publication-header nav { flex-wrap: wrap; gap: 6px; overflow: visible; padding-bottom: 12px; }
+  .publication-header nav a { font-size: 10px; padding: 7px 9px; }
   .front-hero { padding-block: 34px 24px; }
   .front-hero__lede h1 { font-size: 44px; }
   .front-hero__lede p:not(.eyebrow) { font-size: 18px; }
   .front-grid { gap: 28px; }
   .data-strip, .morning-brief, .project-list, .category-list { border-radius: 22px; }
   .editorial-grid--three, .project-list, .launch-week { grid-template-columns: 1fr; }
+  .article-layout, .project-layout { display: block; }
   .article-hero { padding-block: 34px 24px; }
+  .article-page.shell, .project-page.shell { width: min(calc(100% - 24px), var(--max)); }
   .article-body { padding: 22px 18px; }
   .article-body > section > p { font-size: 18px; line-height: 1.68; }
   .article-glance { padding: 20px; }
