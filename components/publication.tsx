@@ -1,7 +1,6 @@
 import Link from "next/link";
-import { ArrowUpRight, Clock3, Search } from "lucide-react";
+import { ArrowUpRight, Clock3, Menu, Search } from "lucide-react";
 import type { MarketBrand } from "@/lib/market";
-import { categories } from "@/lib/market";
 
 export type Story = {
   slug: string;
@@ -15,23 +14,31 @@ export type Story = {
   status?: string;
 };
 
+const primaryNav = [
+  { label: "Latest", href: "/atlanta" },
+  { label: "Development", href: "/atlanta/development" },
+  { label: "Business", href: "/atlanta/business" },
+  { label: "Public money", href: "/atlanta/money" },
+  { label: "Projects", href: "/atlanta/projects" },
+  { label: "About", href: "/atlanta/about" },
+];
+
 export function PublicationHeader({ market }: { market: MarketBrand }) {
   return (
     <>
-      <div className="utility-bar"><div className="shell utility-bar__inner"><span>{market.editionName}</span><span>Friday, August 7, 2026</span></div></div>
+      <div className="utility-bar"><div className="shell utility-bar__inner"><span>Atlanta business, development & public records</span><span>Friday, August 7, 2026</span></div></div>
       <header className="publication-header">
         <div className="shell publication-header__main">
           <Link className="wordmark" href={`/${market.slug}`} aria-label={`${market.code} home`}>
-            <span>{market.code}</span><small>{market.displayName} Intelligence</small>
+            <span>{market.code}</span><small>{market.displayName} business publication</small>
           </Link>
           <nav aria-label="Primary navigation">
-            {categories.map((category) => (
-              <Link key={category} href={category === "Latest" ? `/${market.slug}` : `/${market.slug}/${category.toLowerCase()}`}>{category}</Link>
-            ))}
+            {primaryNav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}
           </nav>
           <div className="publication-header__actions">
             <Link className="icon-link" href={`/${market.slug}/search`} aria-label="Search"><Search size={18} strokeWidth={1.8} /></Link>
             <Link className="subscribe-link" href="#newsletter">Subscribe</Link>
+            <span className="menu-indicator" aria-hidden="true"><Menu size={18} /></span>
           </div>
         </div>
       </header>
@@ -40,7 +47,7 @@ export function PublicationHeader({ market }: { market: MarketBrand }) {
 }
 
 export function EditionHeader({ market }: { market: MarketBrand }) {
-  return <div className="edition-header shell"><p>{market.displayName} / Daily intelligence</p><span>{market.tagline}</span></div>;
+  return <div className="edition-header shell"><p>{market.displayName} / Launch edition</p><span>{market.tagline}</span></div>;
 }
 
 export function CategoryLabel({ children }: { children: React.ReactNode }) {
@@ -67,11 +74,11 @@ export function StoryMeta({ story }: { story: Story }) {
 export function IntelligenceStory({ story }: { story: Story }) {
   return (
     <article className="lead-story">
-      <StoryMeta story={story} />
+      <div className="lead-story__label"><StoryMeta story={story} /><span>5 min read</span></div>
       <Headline as="h1" size="lead"><Link href={`/atlanta/${story.slug}`}>{story.headline}</Link></Headline>
       <p className="lead-story__dek">{story.dek}</p>
       {story.metric && <div className="lead-story__metric"><strong>{story.metric}</strong><span>{story.metricLabel}</span></div>}
-      <p className="why"><b>Why it matters:</b> This project is entering a stage where construction activity and operating decisions become visible across Atlanta’s commercial economy.</p>
+      <p className="why"><b>Why it matters:</b> ATLSignal turns public records into readable local business coverage, separating confirmed facts from watchlist signals.</p>
     </article>
   );
 }
@@ -80,7 +87,7 @@ export function StoryCard({ story, numbered }: { story: Story; numbered?: number
   return (
     <article className="story-card">
       {numbered && <span className="story-card__number">{String(numbered).padStart(2, "0")}</span>}
-      <div><StoryMeta story={story} /><Headline as="h3" size="small"><Link href={`/atlanta/${story.slug}`}>{story.headline}</Link></Headline><p>{story.dek}</p></div>
+      <div><StoryMeta story={story} /><Headline as="h3" size="small"><Link href={`/atlanta/${story.slug}`}>{story.headline}</Link></Headline><p>{story.dek}</p><small>Read the evidence brief →</small></div>
     </article>
   );
 }
@@ -114,7 +121,7 @@ export function OpportunityCard({ title, agency, timing, summary }: { title: str
 }
 
 export function MorningBrief({ stories }: { stories: Story[] }) {
-  return <section className="morning-brief"><div className="morning-brief__heading"><span>ATLSignal / 08.07</span><h2>Atlanta Today</h2><p>The five-minute briefing.</p></div><div>{stories.map((story, index) => <StoryCard key={story.slug} story={story} numbered={index + 1} />)}</div></section>;
+  return <section className="morning-brief"><div className="morning-brief__heading"><span>ATLSignal / 08.07</span><h2>Today’s briefing</h2><p>Five confirmed Atlanta signals, written for people who follow growth, openings, public spending and development.</p></div><div>{stories.map((story, index) => <StoryCard key={story.slug} story={story} numbered={index + 1} />)}</div></section>;
 }
 
 export function Timeline({ events }: { events: Array<{ date: string; title: string; detail: string }> }) {

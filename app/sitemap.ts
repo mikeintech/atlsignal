@@ -8,7 +8,7 @@ export const dynamic = "force-static";
 export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [
     "/atlanta", "/atlanta/latest", "/atlanta/business", "/atlanta/development", "/atlanta/money",
-    "/atlanta/economy", "/atlanta/policy", "/atlanta/transit", "/atlanta/opportunities", "/atlanta/projects", "/atlanta/search",
+    "/atlanta/economy", "/atlanta/policy", "/atlanta/transit", "/atlanta/opportunities", "/atlanta/projects", "/atlanta/search", "/atlanta/about",
     ...[leadStory, ...stories].map((story) => `/atlanta/${story.slug}`),
     ...projects.map((project) => `/atlanta/project/${project.slug}`),
   ];
