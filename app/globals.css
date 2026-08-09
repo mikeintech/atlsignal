@@ -214,6 +214,8 @@ button, input { font: inherit; }
 .button-link { background: var(--accent); border-radius: 999px; color: #fff; display: inline-block; font-size: 11px; font-weight: 800; letter-spacing: .08em; margin-top: 15px; padding: 12px 18px; text-transform: uppercase; }
 .button-link:hover { background: var(--accent-dark); color: #fff; }
 .newsletter__note { color: #f3ddd4; font-size: 10px; grid-column: 1 / -1; margin-top: 7px; }
+.newsletter__note a { color: #fff; text-decoration: underline; text-underline-offset: 2px; }
+.newsletter__honeypot { height: 1px; left: -10000px; overflow: hidden; position: absolute; width: 1px; }
 .launch-week { display: grid; grid-template-columns: repeat(7, 1fr); gap: 14px; }
 .launch-week article { background: var(--paper-deep); padding: 18px; }
 .launch-week time { color: var(--accent); font-size: 10px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }

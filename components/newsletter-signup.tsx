@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import Link from "next/link";
 
 export function NewsletterSignup({ compact = false }: { compact?: boolean }) {
   const [state, setState] = useState<"idle" | "saving" | "saved" | "error">("idle");
@@ -13,12 +14,12 @@ export function NewsletterSignup({ compact = false }: { compact?: boolean }) {
     const form = new FormData(event.currentTarget);
     const email = String(form.get("email") ?? "");
     if (endpoint) {
-      const external = new FormData();
-      external.set("email", email);
-      external.set("market", "atlanta");
-      external.set("source", compact ? "article" : "homepage");
-      const response = await fetch(endpoint, { method: "POST", body: external, mode: "no-cors" });
-      setState(response ? "saved" : "error");
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ email, marketId: "atlanta", source: compact ? "article" : "homepage", website: form.get("website") }),
+      }).catch(() => null);
+      setState(response?.ok ? "saved" : "error");
       return;
     }
     if (captureUnavailable) {
@@ -42,14 +43,16 @@ export function NewsletterSignup({ compact = false }: { compact?: boolean }) {
         {!compact && <p>Business, development, policy, infrastructure and public money signals from the ATLSignal desk.</p>}
       </div>
       {state === "saved" ? (
-        <p className="newsletter__success" role="status">Thanks. Check your email app to finish joining the ATLSignal Brief.</p>
+        <p className="newsletter__success" role="status">You’re on the ATLSignal Brief list.</p>
       ) : (
         <form onSubmit={submit} className="newsletter__form">
           <label className="sr-only" htmlFor="newsletter-email">Email address</label>
           <input id="newsletter-email" name="email" type="email" inputMode="email" autoComplete="email" placeholder="you@company.com" required />
+          <label className="newsletter__honeypot" aria-hidden="true">Website<input name="website" type="text" tabIndex={-1} autoComplete="off" /></label>
           <button type="submit" disabled={state === "saving"}>{state === "saving" ? "Saving…" : "Subscribe"}</button>
           {state === "error" && <span className="newsletter__error" role="alert">We couldn’t save that address. Try again shortly.</span>}
           {captureUnavailable && <span className="newsletter__note">Subscription opens a pre-addressed email while direct web capture is being activated.</span>}
+          {!captureUnavailable && <span className="newsletter__note">By subscribing, you agree to receive the ATLSignal Brief. See our <Link href="/privacy">privacy policy</Link>.</span>}
         </form>
       )}
     </section>
