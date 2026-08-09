@@ -15,10 +15,10 @@ export interface NewsletterStore {
 class D1NewsletterStore implements NewsletterStore {
   async subscribe(input: NewsletterSubscription) {
     const database = getDb();
-    const subscriberId = crypto.randomUUID();
+    const candidateSubscriberId = crypto.randomUUID();
     const now = new Date();
-    await database.insert(newsletterSubscribers).values({
-      subscriberId,
+    const [subscriber] = await database.insert(newsletterSubscribers).values({
+      subscriberId: candidateSubscriberId,
       ...input,
       email: input.email.toLowerCase(),
       status: "ACTIVE",
@@ -26,7 +26,8 @@ class D1NewsletterStore implements NewsletterStore {
     }).onConflictDoUpdate({
       target: newsletterSubscribers.email,
       set: { status: "ACTIVE", marketId: input.marketId, source: input.source },
-    });
+    }).returning({ subscriberId: newsletterSubscribers.subscriberId });
+    const subscriberId = subscriber?.subscriberId ?? candidateSubscriberId;
     await database.insert(newsletterSyncEvents).values({
       syncEventId: crypto.randomUUID(),
       subscriberId,
