@@ -76,7 +76,16 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <NewsletterSignup compact />
+        <div id="newsroom-contact-form">
+          <NewsletterSignup
+            source="newsroom-contact"
+            eyebrow="Contact the newsroom"
+            title="Corrections, documents or a reporting tip?"
+            description="Leave your email and the ATLSignal desk will reply so you can share the details through the appropriate channel."
+            buttonLabel="Request a reply"
+            successMessage="Your newsroom contact request is in. The desk will follow up by email."
+          />
+        </div>
       </main>
     </>
   );

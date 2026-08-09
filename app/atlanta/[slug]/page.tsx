@@ -62,8 +62,8 @@ const informationPages: Record<string, { title: string; dek: string; sections: A
     dek: "The people and standards responsible for ATLSignal’s public reporting.",
     sections: [
       { title: "ATLSignal Desk", body: "ATLSignal is an independent Atlanta publication. The desk monitors public records, official announcements and attributable local sources, then reviews every public claim before publication. Staff bylines will replace the desk byline when a named reporter takes direct responsibility for original reporting." },
-      { title: "Newsroom contact", body: "Send corrections, documents and reporting tips to newsroom@atlsignal.com. Sensitive material should not be sent until a secure channel is arranged." },
-      { title: "Commercial contact", body: "Questions about founding access, team intelligence and partnerships can be sent to partnerships@atlsignal.com. Commercial relationships do not determine editorial conclusions." },
+      { title: "Newsroom contact", body: "Use the newsroom contact form on the About page for corrections, documents and reporting tips. The desk will reply by email; sensitive material should not be sent until a secure channel is arranged." },
+      { title: "Commercial contact", body: "Use the founding-access form on the Upgrade page for team intelligence and partnership questions. Commercial relationships do not determine editorial conclusions." },
     ],
   },
   methodology: {
@@ -80,7 +80,7 @@ const informationPages: Record<string, { title: string; dek: string; sections: A
     title: "Corrections policy",
     dek: "Accuracy is part of the product, not a note added after publication.",
     sections: [
-      { title: "Request a review", body: "Email newsroom@atlsignal.com with the article URL, the statement you believe is wrong and the best supporting source. We review factual challenges against the underlying evidence trail." },
+      { title: "Request a review", body: "Use the newsroom contact form on the About page, then include the article URL, the statement you believe is wrong and the best supporting source when the desk replies. We review factual challenges against the underlying evidence trail." },
       { title: "How corrections appear", body: "Typographical fixes may be made without a note. A material factual correction receives a dated notice explaining what changed. New information is labeled as an update rather than presented as if it was known at publication." },
       { title: "Right of response", body: "People and organizations named in ATLSignal coverage may submit attributable context or documentary evidence. A response does not guarantee a change, but it will be evaluated on the same evidence standard." },
     ],
@@ -91,7 +91,7 @@ const informationPages: Record<string, { title: string; dek: string; sections: A
     sections: [
       { title: "Information you provide", body: "ATLSignal may collect an email address when you subscribe, request access or contact the newsroom. We use it to deliver the requested communication and do not sell subscriber contact information." },
       { title: "Site measurement", body: "Basic traffic and referral data may be measured to understand which coverage is useful. ATLSignal does not intentionally publish private personal contact intelligence in the free publication." },
-      { title: "Requests", body: "Questions about subscriber information may be sent to newsroom@atlsignal.com. This policy will be updated before any material change in collection or third-party processing." },
+      { title: "Requests", body: "Questions about subscriber information may be submitted through the newsroom contact form on the About page. This policy will be updated before any material change in collection or third-party processing." },
     ],
   },
   terms: {

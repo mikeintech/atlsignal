@@ -22,7 +22,7 @@ export function ArticleActions({ title, category }: { title: string; category: s
       <button type="button" onClick={share}><Share2 size={16} /> Share</button>
       <button type="button" onClick={copyLink}>{copied ? <Check size={16} /> : <Copy size={16} />} {copied ? "Copied" : "Copy link"}</button>
       <a href="/#newsletter"><Bell size={16} /> Follow {category}</a>
-      <a href={`mailto:newsroom@atlsignal.com?subject=${encodeURIComponent(`Tip about: ${title}`)}`}><Mail size={16} /> Send a tip</a>
+      <a href="/about#newsroom-contact-form"><Mail size={16} /> Contact newsroom</a>
     </div>
   );
 }
