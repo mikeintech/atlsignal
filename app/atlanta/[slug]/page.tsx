@@ -53,6 +53,7 @@ type ArticleContext = {
   unknown: string;
   next: string;
   sources: Array<{ name: string; detail: string; url?: string }>;
+  timeline?: Array<{ date: string; title: string; detail: string }>;
 };
 
 const informationPages: Record<string, { title: string; dek: string; sections: Array<{ title: string; body: string }> }> = {
@@ -127,6 +128,12 @@ const priorityArticleDetails: Record<string, ArticleContext> = {
       { name: "DeKalb County planning application", detail: "Official Lulah Hills planning record identifying EDENS and the broader mixed-use program.", url: "https://www.dekalbcountyga.gov/sites/default/files/2025-08/2050%20Lawrenceville%20Hwy%20SLUP-25-1247734.pdf" },
       { name: "Urbanize Atlanta", detail: "Local reporting and site imagery documenting construction at the former mall property.", url: "https://atlanta.urbanize.city/post/north-dekalb-mall-lulah-hills-project-demo-construction" },
     ],
+    timeline: [
+      { date: "May 2022", title: "County approves the mixed-use framework", detail: "DeKalb County planning material records the rezoning that established the larger Lulah Hills redevelopment plan." },
+      { date: "Jan. 26, 2026", title: "Publix canopy permit issued", detail: "The county permit report names 1041 Mysterious Way, NDM EDENS LLC and contractor VCC, LLC." },
+      { date: "Aug. 7, 2026", title: "$4.2M store record enters the public file", detail: "ATLSignal qualifies the named Publix project as construction-ready while keeping the opening date unresolved." },
+      { date: "Next", title: "Inspections and occupancy", detail: "The next decisive signals are inspections, occupancy records and first-party opening information." },
+    ],
   },
   "residences-perimeter-summit-phase-b": {
     nutgraf: "A $15.24 million permit-stage record gives the Perimeter Center housing pipeline a concrete address, value and phase to follow.",
@@ -135,6 +142,10 @@ const priorityArticleDetails: Record<string, ArticleContext> = {
     unknown: "The current record does not establish unit count, affordability mix, final delivery date, leasing start, general contractor or certificate-of-occupancy status.",
     next: "The next decisive records are inspection activity, later permit changes, owner or developer announcements, leasing materials and occupancy documentation.",
     sources: [{ name: "DeKalb Building Permit Applications", detail: "County permit dataset supporting the address, stage and reported construction value.", url: "https://dcgis.dekalbcountyga.gov/mapping/rest/services/Building_Permit_Applications/FeatureServer/0" }],
+    timeline: [
+      { date: "Aug. 7, 2026", title: "Phase B record qualified", detail: "The address and $15.24 million reported value clear ATLSignal’s public evidence threshold." },
+      { date: "Next", title: "Delivery evidence", detail: "Inspections, leasing materials and occupancy documentation will determine whether the project advances from construction into use." },
+    ],
   },
   "global-village-building-c-occupancy": {
     nutgraf: "An occupancy-stage record at 2135 Shamrock Drive marks a later and more operationally meaningful milestone than a permit application alone.",
@@ -143,6 +154,10 @@ const priorityArticleDetails: Record<string, ArticleContext> = {
     unknown: "The record does not by itself confirm the date students or staff begin using Building C, the permitted capacity, final inspection details or the complete funding and contractor picture.",
     next: "Watch the county inspection trail and first-party Global Village Project announcements for a use date, program details and confirmation of completed occupancy requirements.",
     sources: [{ name: "DeKalb Building Permit Applications", detail: "County evidence supporting the Building C address, occupancy-stage classification and reported value.", url: "https://dcgis.dekalbcountyga.gov/mapping/rest/services/Building_Permit_Applications/FeatureServer/0" }],
+    timeline: [
+      { date: "Aug. 7, 2026", title: "Building C reaches the occupancy file", detail: "ATLSignal records the named educational building, address and $1.2 million reported value as a later-stage milestone." },
+      { date: "Next", title: "Operational confirmation", detail: "County inspection detail and first-party program announcements can establish when the building enters active use." },
+    ],
   },
   "autozone-10982-interior-alteration": {
     nutgraf: "A named AutoZone interior alteration on Memorial Drive gives readers a specific retail buildout to follow without overstating when the location will open.",
@@ -151,6 +166,10 @@ const priorityArticleDetails: Record<string, ArticleContext> = {
     unknown: "ATLSignal has not confirmed an opening date, hiring schedule, landlord, project team or certificate of occupancy from the reviewed evidence.",
     next: "Watch for inspections, occupancy records, AutoZone’s location directory and first-party hiring or opening announcements tied to 6130 Memorial Drive.",
     sources: [{ name: "DeKalb Building Permit Applications", detail: "County permit dataset supporting the AutoZone name, address, alteration stage and reported value.", url: "https://dcgis.dekalbcountyga.gov/mapping/rest/services/Building_Permit_Applications/FeatureServer/0" }],
+    timeline: [
+      { date: "Aug. 7, 2026", title: "Named buildout qualified", detail: "The AutoZone number, Memorial Drive address and $548,572 alteration value enter ATLSignal’s reviewed business file." },
+      { date: "Next", title: "Opening evidence", detail: "Inspections, occupancy records, hiring and AutoZone’s own location directory can establish operating timing." },
+    ],
   },
   "douglas-county-janitorial-services": {
     nutgraf: "A countywide cleaning solicitation is both a public-spending story and a practical test of how much procurement context belongs in free coverage.",
@@ -162,6 +181,10 @@ const priorityArticleDetails: Record<string, ArticleContext> = {
       { name: "Douglas County Purchasing FAQ", detail: "Official vendor-registration and bid-submission guidance.", url: "https://www.douglascountyga.gov/faq.aspx?TID=55" },
       { name: "Douglas County bid archive", detail: "Official archive used to track closed and awarded county opportunities.", url: "https://www.douglascountyga.gov/303/Awards-Archive" },
       { name: "ATLSignal procurement record", detail: "Canonical solicitation title and open-stage classification reviewed Aug. 7, 2026." },
+    ],
+    timeline: [
+      { date: "Aug. 7, 2026", title: "Open solicitation qualified", detail: "ATLSignal publishes the multi-location janitorial opportunity after the procurement record clears review." },
+      { date: "Next", title: "Addenda, closing and award", detail: "The county’s live posting and later award archive are the authoritative places to confirm the procurement outcome." },
     ],
   },
 };
@@ -220,6 +243,18 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const isSourceDeskStory = Boolean(sourceDeskArticleDetails[story.slug]);
   const context = articleContext(story, isLead);
   const dates = storyDates(story);
+  const timelineEvents = context.timeline ?? (isLead ? [
+    { date: "Oct. 7, 2025", title: "Land-development evidence observed", detail: "The project enters the canonical event graph through DeKalb planning records." },
+    { date: "Feb. 20, 2026", title: "Building permit applied", detail: "A permit application provides a second dated project milestone." },
+    { date: "May 29, 2026", title: "Building permit issued", detail: "The issued permit supports the construction-ready classification." },
+    { date: "Aug. 7, 2026", title: "Editorial candidate generated", detail: "The project clears the public-safe confidence threshold and enters human review." },
+  ] : isSourceDeskStory ? [
+    { date: "Aug. 8, 2026", title: "First-party source reviewed", detail: "ATLSignal separated the attributable public facts from broader claims that still need evidence." },
+    { date: "Now", title: "Desk watch continues", detail: "The story remains open for later budgets, milestones, outcomes and corroborating reporting." },
+  ] : [
+    { date: "Aug. 7, 2026", title: "Canonical stage recorded", detail: "ATLSignal generated a public-safe editorial candidate from qualified evidence." },
+    { date: "Now", title: "Continued monitoring", detail: "The project remains under review for new evidence and material changes." },
+  ]);
   const jsonLd = { "@context": "https://schema.org", "@type": "NewsArticle", headline: story.headline, description: story.dek, datePublished: dates.publishedIso, dateModified: dates.modifiedIso, author: { "@type": "Organization", name: "ATLSignal Desk" }, publisher: { "@type": "Organization", name: "ATLSignal" }, image: story.image.src };
 
   return (
@@ -259,18 +294,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <section><h2>What we do not know yet</h2><p>{context.unknown}</p></section>
             <section><h2>What happens next</h2><p>{context.next}</p></section>
             <section><SectionHeading label="Intelligence timeline" />
-              <Timeline events={isLead ? [
-                { date: "Oct. 7, 2025", title: "Land-development evidence observed", detail: "The project enters the canonical event graph through DeKalb planning records." },
-                { date: "Feb. 20, 2026", title: "Building permit applied", detail: "A permit application provides a second dated project milestone." },
-                { date: "May 29, 2026", title: "Building permit issued", detail: "The issued permit supports the construction-ready classification." },
-                { date: "Aug. 7, 2026", title: "Editorial candidate generated", detail: "The project clears the public-safe confidence threshold and enters human review." },
-              ] : isSourceDeskStory ? [
-                { date: "Aug. 8, 2026", title: "First-party source reviewed", detail: "ATLSignal separated the attributable public facts from broader claims that still need evidence." },
-                { date: "Now", title: "Desk watch continues", detail: "The story remains open for later budgets, milestones, outcomes and corroborating reporting." },
-              ] : [
-                { date: "Aug. 7, 2026", title: "Canonical stage recorded", detail: "ATLSignal generated a public-safe editorial candidate from qualified evidence." },
-                { date: "Now", title: "Continued monitoring", detail: "The project remains under review for new evidence and material changes." },
-              ]} />
+              <Timeline events={timelineEvents} />
             </section>
             <section><SectionHeading label="Sources" /><EvidenceList sources={context.sources} /><SourceAttribution>Public records, first-party sources and ATLSignal review. No contact intelligence is displayed.</SourceAttribution></section>
             <section className="article-update-history"><h2>Update history</h2>{isSourceDeskStory ? <p><strong>Aug. 8, 2026:</strong> Initial source-desk report published with evidence limits and follow-up questions.</p> : <><p><strong>Aug. 8, 2026:</strong> Source links, evidence limits and follow-up questions reviewed for publication.</p><p><strong>Aug. 7, 2026:</strong> Initial report published from the qualified ATLSignal evidence record.</p></>}</section>

@@ -81,7 +81,7 @@ export function PublicationFooter() {
           <Link href="/terms">Terms</Link>
           <Link href="/disclosures">Disclosures</Link>
         </nav>
-        <div className="site-footer__contact"><a href="mailto:newsroom@atlsignal.com">Newsroom & tips</a><a href="mailto:partnerships@atlsignal.com">Partnerships</a><span>Independent · Atlanta, Georgia</span></div>
+        <div className="site-footer__contact"><a href="mailto:newsroom@atlsignal.com">Newsroom & tips</a><Link href="/upgrade#founding-access-form">Founding access & partnerships</Link><span>Independent · Atlanta, Georgia</span></div>
       </div>
     </footer>
   );

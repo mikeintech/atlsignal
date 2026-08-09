@@ -70,10 +70,19 @@ export default function UpgradePage() {
           <p className="eyebrow">Founding access</p>
           <h2>Help shape the first paid Atlanta intelligence desk.</h2>
           <p>Founding members receive direct onboarding and early pricing before standard subscriptions open. Tell us what territory, service category and signal type you need.</p>
-          <a className="button-link" href="mailto:partnerships@atlsignal.com?subject=ATLSignal%20founding%20access">Request founding access</a>
+          <a className="button-link" href="#founding-access-form">Request founding access</a>
         </section>
         <PremiumTeaser />
-        <NewsletterSignup compact />
+        <div id="founding-access-form">
+          <NewsletterSignup
+            source="founding-access"
+            eyebrow="Founding access"
+            title="Tell us where you need an earlier signal."
+            description="Share your email now. We’ll follow up about territory, service category and founding-member access."
+            buttonLabel="Request access"
+            successMessage="Your founding-access request is in. We’ll follow up by email."
+          />
+        </div>
       </main>
     </>
   );
