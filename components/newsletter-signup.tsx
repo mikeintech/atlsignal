@@ -11,13 +11,19 @@ export function NewsletterSignup({ compact = false }: { compact?: boolean }) {
     event.preventDefault();
     setState("saving");
     const form = new FormData(event.currentTarget);
+    const email = String(form.get("email") ?? "");
     if (endpoint) {
       const external = new FormData();
-      external.set("email", String(form.get("email") ?? ""));
+      external.set("email", email);
       external.set("market", "atlanta");
       external.set("source", compact ? "article" : "homepage");
       const response = await fetch(endpoint, { method: "POST", body: external, mode: "no-cors" });
       setState(response ? "saved" : "error");
+      return;
+    }
+    if (captureUnavailable) {
+      window.location.href = `mailto:newsletter@atlsignal.com?subject=${encodeURIComponent("Join the ATLSignal Brief")}&body=${encodeURIComponent(`Please add ${email} to the ATLSignal Brief.`)}`;
+      setState("saved");
       return;
     }
     const response = await fetch("/api/newsletter", {
@@ -35,16 +41,15 @@ export function NewsletterSignup({ compact = false }: { compact?: boolean }) {
         <h2 id="newsletter-title">Know what’s changing in Atlanta.</h2>
         {!compact && <p>Business, development, policy, infrastructure and public money signals from the ATLSignal desk.</p>}
       </div>
-      {captureUnavailable ? (
-        <p className="newsletter__success" role="status">Newsletter capture is ready for launch once a public signup endpoint is connected.</p>
-      ) : state === "saved" ? (
-        <p className="newsletter__success" role="status">You’re on the ATLSignal launch list.</p>
+      {state === "saved" ? (
+        <p className="newsletter__success" role="status">Thanks. Check your email app to finish joining the ATLSignal Brief.</p>
       ) : (
         <form onSubmit={submit} className="newsletter__form">
           <label className="sr-only" htmlFor="newsletter-email">Email address</label>
           <input id="newsletter-email" name="email" type="email" inputMode="email" autoComplete="email" placeholder="you@company.com" required />
           <button type="submit" disabled={state === "saving"}>{state === "saving" ? "Saving…" : "Subscribe"}</button>
           {state === "error" && <span className="newsletter__error" role="alert">We couldn’t save that address. Try again shortly.</span>}
+          {captureUnavailable && <span className="newsletter__note">Subscription opens a pre-addressed email while direct web capture is being activated.</span>}
         </form>
       )}
     </section>

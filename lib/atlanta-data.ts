@@ -74,16 +74,32 @@ function publicSummary(summary: string) {
   return summary.replace("Contract Radar records", "ATLSignal records");
 }
 
+const storyOverrides: Record<string, Pick<Story, "headline" | "dek">> = {
+  "mckenney-s-campus-project-mckenney-s-warehouse": { headline: "McKenney’s $17.45M warehouse permit marks a major Moreland Avenue build", dek: "An issued DeKalb County permit adds a dated construction milestone to McKenney’s campus project at 1460 Moreland Avenue." },
+  "lulah-hills-publix-super-market-2142": { headline: "Lulah Hills Publix moves forward with a $4.2M construction record", dek: "The named grocery project at 1041 Mysterious Way adds another concrete milestone to EDENS’ redevelopment of the former North DeKalb Mall site." },
+  "residences-at-perimeter-summit-phase-b": { headline: "$15.24M Phase B record advances housing at Perimeter Summit", dek: "The filing at 1251 Perimeter Summit Parkway gives the office-heavy Perimeter district a specific residential phase to watch." },
+  "global-village-project-building-c": { headline: "Global Village Building C reaches an occupancy-stage milestone", dek: "A $1.2 million educational-project record at 2135 Shamrock Drive signals movement beyond initial construction paperwork." },
+  "autozone-10982-interior-alteration": { headline: "AutoZone #10982 enters a $548,572 Memorial Drive buildout", dek: "The named interior alteration at 6130 Memorial Drive is a trackable retail opening signal, though the public opening date remains unconfirmed." },
+  "publix-269": { headline: "Publix 269 reaches occupancy stage on Flakes Mill Road", dek: "The $500,000 record at 3649 Flakes Mill Road marks a later project milestone without, by itself, confirming a store opening date." },
+  "2026-002792-commercial-remodel": { headline: "$15.45M commercial remodel surfaces on Due West Road", dek: "The unusually large reported value makes the 4500 Due West Road record worth watching even while the incoming operator remains unresolved." },
+  "2026-001375-commercial-remodel": { headline: "$7.9M Post Oak Tritt remodel moves into the construction file", dek: "The record at 4435 Post Oak Tritt Road confirms substantial commercial work but does not yet identify the final operator in the public story." },
+  "olympus-md": { headline: "Olympus MD plans a $204,000 Chamblee Tucker Road buildout", dek: "The named business project at 3288 Chamblee Tucker Road adds a modest but specific professional-space signal to the DeKalb pipeline." },
+  "bethany-s-place-office-fit-out": { headline: "Bethany’s Place advances a $200,000 Kensington Road office fit-out", dek: "The address, named project and reported value create a clear construction milestone while operating timing remains unresolved." },
+};
+
 const canonicalProjects = publicReadModel.projects;
-const canonicalStories: Story[] = canonicalProjects.map((project) => ({
-  slug: articleSlugs[project.slug] ?? project.slug,
-  category: project.category === "BUSINESS" ? "Business" : "Development",
-  headline: storyHeadline(project.slug, project.editorial_stage),
-  dek: publicSummary(project.summary),
-  timestamp: `Updated ${publicReadModel.brief.date ? "Aug. 7" : "recently"}`,
-  confidence: project.confidence >= .75 ? "Confirmed" : "Probable",
-  image: projectImages[project.slug] ?? editorialPhoto("photo-1504307651254-35680f356dfd", "Commercial construction activity"),
-}));
+const canonicalStories: Story[] = canonicalProjects.map((project) => {
+  const override = storyOverrides[project.slug];
+  return {
+    slug: articleSlugs[project.slug] ?? project.slug,
+    category: project.category === "BUSINESS" ? "Business" : "Development",
+    headline: override?.headline ?? storyHeadline(project.slug, project.editorial_stage),
+    dek: override?.dek ?? publicSummary(project.summary),
+    timestamp: `Published ${publicReadModel.brief.date ? "Aug. 7" : "recently"}`,
+    confidence: project.confidence >= .75 ? "Confirmed" : "Probable",
+    image: projectImages[project.slug] ?? editorialPhoto("photo-1504307651254-35680f356dfd", "Commercial construction activity"),
+  };
+});
 
 export const sourceDeskStories: Story[] = [
   {
@@ -373,18 +389,21 @@ export const launchWeek = launchWeekData.publishing_days;
 export const coverageLanes = [
   {
     title: "Free media",
+    price: "Free · always",
     audience: "Readers, founders, operators and curious locals",
     includes: ["reported public facts", "source links", "plain-English context", "topic guides", "watchlist summaries"],
     excludes: ["buyer contact paths", "private routing notes", "unresolved operator guesses", "premium timing scores"],
   },
   {
     title: "Pro intelligence",
+    price: "Founding access · limited cohort",
     audience: "Vendors, brokers, service providers and business development teams",
     includes: ["ranked opportunities", "buyer/operator enrichment", "timing scores", "daily watch changes", "contact-route research"],
     excludes: ["unsupported claims", "private personal data", "uncorroborated social rumors"],
   },
   {
     title: "Market desk",
+    price: "Custom · team coverage",
     audience: "Teams that need repeatable monitoring",
     includes: ["custom source desks", "saved territories", "source-change alerts", "procurement route notes", "exportable research packets"],
     excludes: ["facts ATLSignal cannot source", "claims that fail evidence review"],

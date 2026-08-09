@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { SiteAnalytics } from "@/components/site-analytics";
+import { PublicationFooter } from "@/components/publication";
 import { absoluteUrl, publicSiteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -32,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}<SiteAnalytics /></body>
+      <body>{children}<PublicationFooter /><SiteAnalytics /></body>
     </html>
   );
 }

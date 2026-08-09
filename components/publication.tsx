@@ -34,9 +34,16 @@ const primaryNav = [
 ];
 
 export function PublicationHeader({ market }: { market: MarketBrand }) {
+  const editionDate = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  }).format(new Date());
   return (
     <>
-      <div className="utility-bar"><div className="shell utility-bar__inner"><span>Atlanta business, development & public records</span><span>Saturday, August 8, 2026</span></div></div>
+      <div className="utility-bar"><div className="shell utility-bar__inner"><span>Atlanta business, development & public records</span><span>{editionDate}</span></div></div>
       <header className="publication-header">
         <div className="shell publication-header__main">
           <Link className="wordmark" href="/" aria-label={`${market.code} home`}>
@@ -47,7 +54,7 @@ export function PublicationHeader({ market }: { market: MarketBrand }) {
           </nav>
           <div className="publication-header__actions">
             <Link className="icon-link" href="/search" aria-label="Search"><Search size={18} strokeWidth={1.8} /></Link>
-            <Link className="subscribe-link" href="#newsletter">Subscribe</Link>
+            <Link className="subscribe-link" href="/#newsletter">Subscribe</Link>
             <span className="menu-indicator" aria-hidden="true"><Menu size={18} /></span>
           </div>
         </div>
@@ -57,7 +64,27 @@ export function PublicationHeader({ market }: { market: MarketBrand }) {
 }
 
 export function EditionHeader({ market }: { market: MarketBrand }) {
-  return <div className="edition-header shell"><p>{market.displayName} / Launch edition</p><span>{market.tagline}</span></div>;
+  return <div className="edition-header shell"><p>{market.displayName} / Independent local reporting</p><span>{market.tagline}</span></div>;
+}
+
+export function PublicationFooter() {
+  return (
+    <footer className="site-footer">
+      <div className="shell site-footer__grid">
+        <div><strong>ATLSignal</strong><p>Atlanta business coverage built from records, reporting and verified source trails.</p></div>
+        <nav aria-label="Publication information">
+          <Link href="/about">About</Link>
+          <Link href="/methodology">Methodology</Link>
+          <Link href="/masthead">Masthead</Link>
+          <Link href="/corrections">Corrections</Link>
+          <Link href="/privacy">Privacy</Link>
+          <Link href="/terms">Terms</Link>
+          <Link href="/disclosures">Disclosures</Link>
+        </nav>
+        <div className="site-footer__contact"><a href="mailto:newsroom@atlsignal.com">Newsroom & tips</a><a href="mailto:partnerships@atlsignal.com">Partnerships</a><span>Independent · Atlanta, Georgia</span></div>
+      </div>
+    </footer>
+  );
 }
 
 export function CategoryLabel({ children }: { children: React.ReactNode }) {
@@ -145,7 +172,7 @@ export function OpportunityCard({ title, agency, timing, summary }: { title: str
 }
 
 export function MorningBrief({ stories }: { stories: Story[] }) {
-  return <section className="morning-brief"><div className="morning-brief__heading"><span>ATLSignal / 08.07</span><h2>Today’s briefing</h2><p>Five confirmed Atlanta signals, written for people who follow growth, openings, public spending and development.</p></div><div>{stories.map((story, index) => <StoryCard key={story.slug} story={story} numbered={index + 1} />)}</div></section>;
+  return <section className="morning-brief"><div className="morning-brief__heading"><span>ATLSignal / Daily file</span><h2>The latest briefing</h2><p>Five confirmed Atlanta signals for people following growth, openings, public spending and development.</p></div><div>{stories.map((story, index) => <StoryCard key={story.slug} story={story} numbered={index + 1} />)}</div></section>;
 }
 
 export function Timeline({ events }: { events: Array<{ date: string; title: string; detail: string }> }) {

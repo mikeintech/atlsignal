@@ -38,12 +38,12 @@ export default function AtlantaPage() {
       <main className="edition-page">
         <section className="front-hero shell" aria-labelledby="top-intelligence-title">
           <div className="front-hero__lede">
-            <p className="eyebrow" id="top-intelligence-title">New Atlanta publication</p>
+            <p className="eyebrow" id="top-intelligence-title">Atlanta’s public-record newsroom</p>
             <h1>Business news from the records before it becomes conventional wisdom.</h1>
             <p>ATLSignal follows permits, public money, development milestones, source-desk announcements and commercial openings across metro Atlanta — then explains what changed, what is confirmed and what still needs proof.</p>
           </div>
           <div className="front-hero__brief">
-            <p className="eyebrow">Today’s read</p>
+            <p className="eyebrow">Lead report</p>
             <IntelligenceStory story={leadStory} />
           </div>
         </section>
@@ -101,9 +101,9 @@ export default function AtlantaPage() {
             <p>Each article is built from a source trail. If we know a permit was issued, we say that. If we are watching for an opening date, operator or award, we label it as unresolved.</p>
           </div>
           <div>
-            <p className="eyebrow">Launch focus</p>
+            <p className="eyebrow">Coverage focus</p>
             <h3>Development, openings, public money, transit and commercial demand.</h3>
-            <p>V2 is built for regular readers first: cleaner summaries, stronger article pages, and topic sections that feel like a publication instead of a database.</p>
+            <p>Our desk is built for regular readers first: clear reporting, durable explainers and topic sections that connect individual records to Atlanta’s larger story.</p>
           </div>
         </section>
 
@@ -157,7 +157,6 @@ export default function AtlantaPage() {
 
         <div className="shell" id="newsletter"><NewsletterSignup /></div>
       </main>
-      <footer className="site-footer"><div className="shell"><strong>ATLSignal</strong><p>Atlanta business coverage, built from records and verified source trails.</p><span>V2 launch candidate · Editorial control stays on</span></div></footer>
     </>
   );
 }
