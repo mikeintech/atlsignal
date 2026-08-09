@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary_large_image", images: [absoluteUrl("/og.png")] },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: absoluteUrl("/favicon.svg"),
+    shortcut: absoluteUrl("/favicon.svg"),
   },
 };
 
