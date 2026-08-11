@@ -1,6 +1,6 @@
 {
   "schemaVersion": "atlsignal_newsroom_v1",
-  "generatedAt": "2026-08-11T23:10:02.177Z",
+  "generatedAt": "2026-08-11T23:14:28.850Z",
   "market": "atlanta",
   "timezone": "America/New_York",
   "editionWindow": "AFTERNOON",
@@ -12,7 +12,7 @@
     "intendedCadence": "twice_daily",
     "status": "HEALTHY",
     "criticalFailures": [],
-    "previousRunAt": "2026-08-11T23:07:18.247Z"
+    "previousRunAt": "2026-08-11T23:10:02.177Z"
   },
   "stats": {
     "activeSources": 3,
@@ -29,7 +29,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 325
+      "durationMs": 380
     },
     {
       "sourceId": "atlanta_beltline",
@@ -37,7 +37,7 @@
       "status": "OK",
       "itemCount": 5,
       "critical": true,
-      "durationMs": 52395
+      "durationMs": 55772
     },
     {
       "sourceId": "atlanta_regional_commission",
@@ -45,7 +45,7 @@
       "status": "OK",
       "itemCount": 5,
       "critical": true,
-      "durationMs": 50858
+      "durationMs": 52121
     },
     {
       "sourceId": "ajc",
@@ -54,7 +54,7 @@
       "itemCount": 4,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "atlanta_business_chronicle",
@@ -63,7 +63,7 @@
       "itemCount": 7,
       "critical": false,
       "accessState": "SUBSCRIPTION_CONSTRAINED",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "urbanize_atlanta",
@@ -72,7 +72,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "rough_draft_atlanta",
@@ -81,7 +81,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "axios_atlanta",
@@ -90,7 +90,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "eater_atlanta",
@@ -99,7 +99,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "saporta_report",
@@ -108,7 +108,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "what_now_atlanta",
@@ -117,7 +117,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "bisnow_atlanta",
@@ -126,7 +126,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "city_of_atlanta",
@@ -135,7 +135,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "marta",
@@ -144,7 +144,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "atl_airport",
@@ -153,7 +153,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "georgia_economic_development",
@@ -162,7 +162,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "metro_atlanta_chamber",
@@ -171,7 +171,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     },
     {
       "sourceId": "atlanta_housing",
@@ -180,7 +180,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 613
+      "durationMs": 514
     }
   ],
   "items": [
@@ -203,7 +203,7 @@
       "contentHash": "e99f547abb190c8198f8",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "5ca989d22865ad43e770",
@@ -224,7 +224,7 @@
       "contentHash": "573c3dae20f3e9c06819",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "f76182f87e20479833ee",
@@ -245,7 +245,7 @@
       "contentHash": "0f627b067e26a663510b",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "d0bd1e2c7d214224c0b4",
@@ -266,7 +266,7 @@
       "contentHash": "524a38829211844db6b1",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "d6e41290c330ea7f6318",
@@ -287,7 +287,7 @@
       "contentHash": "a1616d8fe124cf2d48d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "9807276a0bd43435677a",
@@ -308,7 +308,7 @@
       "contentHash": "4773e02b41b422219b02",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "8182f339451af7d52e3b",
@@ -329,7 +329,7 @@
       "contentHash": "1fc84e89ae045474df9c",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "5b2950853a56b57ef03d",
@@ -350,7 +350,7 @@
       "contentHash": "2944fca05e19b0f7b756",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "22fb4762a172f34b618f",
@@ -371,7 +371,7 @@
       "contentHash": "7f72f5fc40e91bdec0b9",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "ed772565167260a953c0",
@@ -392,7 +392,7 @@
       "contentHash": "1566eac27fa7dc5e2735",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "677fa04638fe422cb524",
@@ -413,7 +413,7 @@
       "contentHash": "8db44551d872a88554d6",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "379d65b1b8442ede5a26",
@@ -434,7 +434,7 @@
       "contentHash": "03f7017f160c2f08c47b",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "18fcae04121b948ae0e5",
@@ -455,7 +455,7 @@
       "contentHash": "3855d73571df9c888968",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "116f92cac110e953a6d9",
@@ -476,7 +476,7 @@
       "contentHash": "d2476f4b803d29e627f5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "6302a76fda702723bf3d",
@@ -497,7 +497,7 @@
       "contentHash": "d63698e97eb327ba7899",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "7f724a4bc74ffd08cf8f",
@@ -518,7 +518,7 @@
       "contentHash": "7938e58176113e223144",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "f3667c376a276743f471",
@@ -539,7 +539,7 @@
       "contentHash": "40367f4f92e7f7d4dd12",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "c83e8c7f3cd2a9ee4b85",
@@ -560,7 +560,7 @@
       "contentHash": "486f1a0293fad8e728f4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "66ac653a0aebee200399",
@@ -581,7 +581,7 @@
       "contentHash": "f4b060cbd844a5b9d01c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "199c578a330596813fd1",
@@ -602,7 +602,7 @@
       "contentHash": "52c68119c9e8e318a06b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "4ba5f7d0740775a9f678",
@@ -623,7 +623,7 @@
       "contentHash": "c5fffcc4ef234cf6e268",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "5672137da20b1129ac75",
@@ -644,7 +644,7 @@
       "contentHash": "c7d3df9ece2e41df0977",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "fafbf71d20fa86245788",
@@ -665,7 +665,7 @@
       "contentHash": "7a7f6d02dc8f179b0fd4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "afc54ba0d1d2698486c6",
@@ -686,7 +686,7 @@
       "contentHash": "7e6963e4a0ff4a3b631d",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "0a047533a306d0179911",
@@ -707,7 +707,7 @@
       "contentHash": "5c42d69cc129bed4c7d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "a18f4dfab1fb389dd98c",
@@ -728,7 +728,7 @@
       "contentHash": "d81a04af4ba15b3b04d9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "f56d3d266f38e4244bf3",
@@ -749,7 +749,7 @@
       "contentHash": "2a2f3210b7cc736ea4a0",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "d8cacce85da99dbd3e7e",
@@ -770,7 +770,7 @@
       "contentHash": "0ff645ebd61eeb829b1a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "06f938b3d9b0a2643fdb",
@@ -791,7 +791,7 @@
       "contentHash": "c2909df68dab0c151f94",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "c14c6ce425707816ee27",
@@ -812,7 +812,7 @@
       "contentHash": "753c2b2d7a2cf60cff0c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "9119378c0267426bba86",
@@ -833,7 +833,7 @@
       "contentHash": "e6ec8fd751d416a829e5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "d8d456147cf65ce90154",
@@ -854,7 +854,7 @@
       "contentHash": "6f90d94dcda960118cf9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "80884347dc223843f1b2",
@@ -875,7 +875,7 @@
       "contentHash": "4606c7f2c7688b1268fc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     },
     {
       "id": "b1a8f32ddcfd05d9f6d6",
@@ -896,7 +896,7 @@
       "contentHash": "7f4f106c59a11897992c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+      "lastSeenAt": "2026-08-11T23:14:28.850Z"
     }
   ],
   "clusters": [
@@ -1667,10 +1667,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 53.13,
+        "total": 52.96,
         "impact": 56,
         "novelty": 35,
-        "timeliness": 57,
+        "timeliness": 56,
         "shareability": 42,
         "commercial": 38,
         "evidence": 84,
@@ -2495,7 +2495,7 @@
     }
   ],
   "morningBrief": {
-    "generatedAt": "2026-08-11T23:10:02.177Z",
+    "generatedAt": "2026-08-11T23:14:28.850Z",
     "label": "Morning Brief",
     "itemIds": [
       "e80096f012e2e487dfd5",
@@ -2506,7 +2506,7 @@
     ]
   },
   "afternoonUpdate": {
-    "generatedAt": "2026-08-11T23:10:02.177Z",
+    "generatedAt": "2026-08-11T23:14:28.850Z",
     "label": "Afternoon Update",
     "itemIds": [
       "8405c48461f9b912e4ec",
@@ -2654,7 +2654,7 @@
       "clusterId": "298bc7e9f8f7aacb337b",
       "headline": "Pittsburgh Yards Welcomes Piedmont Mobile Health Unit Powered by Google",
       "category": "Housing & Neighborhoods",
-      "score": 53.13,
+      "score": 52.96,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
