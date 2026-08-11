@@ -14,12 +14,30 @@ This project can be deployed directly to GitHub Pages as a static site.
    - `NEXT_PUBLIC_NEWSLETTER_ENDPOINT`: optional external form endpoint such as Formspree, Buttondown, Beehiiv, ConvertKit, or a small serverless form handler.
 4. Push to `main`; `.github/workflows/pages.yml` builds and publishes the static site.
 
+The same workflow runs the evidence-gated newsroom at 11:15 and 20:15 UTC
+every day. It collects approved first-party sources, monitors restricted local
+publishers through search-result metadata only, clusters related coverage, and
+writes `data/newsroom.json`. A scheduled run fails closed when a critical
+first-party desk is unavailable; discovery-provider failures are recorded as
+degraded without turning secondary headlines into publishable facts.
+
 Local static build:
 
 ```bash
 npm ci
 NEXT_PUBLIC_SITE_URL=https://yourname.github.io/atlsignal NEXT_PUBLIC_BASE_PATH=/atlsignal npm run build:github
 ```
+
+Run one newsroom cycle locally:
+
+```bash
+npm run newsroom
+```
+
+Source access rules and request caps live in
+`config/newsroom-sources.json`. Public article pages are never generated from a
+metadata-only discovery item. Those items remain in the corroboration queue
+until primary evidence is available.
 
 The static export is written to `.next-github`.
 

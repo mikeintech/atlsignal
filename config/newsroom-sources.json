@@ -1,0 +1,83 @@
+{
+  "version": "newsroom_sources_v1",
+  "market": "atlanta",
+  "timezone": "America/New_York",
+  "activeSources": [
+    {
+      "sourceId": "invest_atlanta",
+      "name": "Invest Atlanta",
+      "publisher": "Invest Atlanta",
+      "tier": "A",
+      "category": "Business & Economy",
+      "collector": "invest_atlanta_json",
+      "endpoint": "https://www.investatlanta.com/impacts/search",
+      "sourceUrl": "https://www.investatlanta.com/impact-insights/",
+      "accessState": "PUBLIC_APPROVED",
+      "allowedRetrieval": true,
+      "maxItems": 12,
+      "maxRequests": 1,
+      "critical": true
+    },
+    {
+      "sourceId": "atlanta_beltline",
+      "name": "Atlanta BeltLine",
+      "publisher": "Atlanta BeltLine, Inc.",
+      "tier": "A",
+      "category": "Development & Infrastructure",
+      "collector": "sitemap",
+      "endpoint": "https://beltline.org/sitemap.xml",
+      "sourceUrl": "https://beltline.org/press/",
+      "accessState": "PUBLIC_APPROVED",
+      "allowedRetrieval": true,
+      "allowedPaths": ["/press-release/", "/blog/"],
+      "excludedPaths": ["/press-release/", "/blog/"],
+      "maxItems": 5,
+      "maxRequests": 6,
+      "requestDelayMs": 10000,
+      "critical": true
+    },
+    {
+      "sourceId": "atlanta_regional_commission",
+      "name": "Atlanta Regional Commission",
+      "publisher": "Atlanta Regional Commission",
+      "tier": "A",
+      "category": "Transportation & Economy",
+      "collector": "sitemap_index",
+      "endpoint": "https://atlantaregional.org/sitemap_index.xml",
+      "sourceUrl": "https://atlantaregional.org/news/",
+      "accessState": "PUBLIC_APPROVED",
+      "allowedSitemaps": ["post-sitemap"],
+      "allowedPaths": ["/news/"],
+      "excludedPaths": ["/news/"],
+      "maxItems": 5,
+      "maxRequests": 6,
+      "requestDelayMs": 10000,
+      "critical": true
+    }
+  ],
+  "discoverySources": [
+    { "sourceId": "ajc", "name": "Atlanta Journal-Constitution", "domain": "ajc.com", "tier": "B", "sourceClass": "local_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "atlanta_business_chronicle", "name": "Atlanta Business Chronicle", "domain": "bizjournals.com", "tier": "B", "sourceClass": "local_business_reporting", "accessState": "SUBSCRIPTION_CONSTRAINED" },
+    { "sourceId": "urbanize_atlanta", "name": "Urbanize Atlanta", "domain": "atlanta.urbanize.city", "tier": "B", "sourceClass": "development_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "rough_draft_atlanta", "name": "Rough Draft Atlanta", "domain": "roughdraftatlanta.com", "tier": "B", "sourceClass": "local_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "axios_atlanta", "name": "Axios Atlanta", "domain": "axios.com", "tier": "B", "sourceClass": "local_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "eater_atlanta", "name": "Eater Atlanta", "domain": "atlanta.eater.com", "tier": "B", "sourceClass": "hospitality_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "saporta_report", "name": "SaportaReport", "domain": "saportareport.com", "tier": "B", "sourceClass": "civic_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "what_now_atlanta", "name": "What Now Atlanta", "domain": "whatnow.com", "tier": "B", "sourceClass": "retail_and_restaurant_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "bisnow_atlanta", "name": "Bisnow Atlanta", "domain": "bisnow.com", "tier": "B", "sourceClass": "commercial_real_estate_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "city_of_atlanta", "name": "City of Atlanta", "domain": "atlantaga.gov", "tier": "A", "sourceClass": "official_city", "accessState": "SEARCH_DISCOVERY_ONLY" },
+    { "sourceId": "marta", "name": "MARTA", "domain": "itsmarta.com", "tier": "A", "sourceClass": "official_transit", "accessState": "SEARCH_DISCOVERY_ONLY" },
+    { "sourceId": "atl_airport", "name": "Hartsfield-Jackson Atlanta International Airport", "domain": "atl.com", "tier": "A", "sourceClass": "official_airport", "accessState": "SEARCH_DISCOVERY_ONLY" },
+    { "sourceId": "georgia_economic_development", "name": "Georgia Department of Economic Development", "domain": "georgia.org", "tier": "A", "sourceClass": "official_economic_development", "accessState": "SEARCH_DISCOVERY_ONLY" },
+    { "sourceId": "metro_atlanta_chamber", "name": "Metro Atlanta Chamber", "domain": "metroatlantachamber.com", "tier": "C", "sourceClass": "business_ecosystem", "accessState": "SEARCH_DISCOVERY_ONLY" },
+    { "sourceId": "atlanta_housing", "name": "Atlanta Housing", "domain": "atlantahousing.org", "tier": "A", "sourceClass": "official_housing", "accessState": "SEARCH_DISCOVERY_ONLY" }
+  ],
+  "discoveryProvider": {
+    "name": "Google News RSS Search",
+    "endpoint": "https://news.google.com/rss/search",
+    "attributionUrl": "https://news.google.com/",
+    "timespan": "2d",
+    "maxRecords": 75,
+    "critical": false
+  }
+}

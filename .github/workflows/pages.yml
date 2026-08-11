@@ -4,9 +4,11 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+  schedule:
+    - cron: "15 11,20 * * *"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -24,11 +26,24 @@ jobs:
           node-version: "22"
           cache: npm
       - run: npm ci
+      - name: Run the ATLSignal newsroom
+        run: npm run newsroom
+        env:
+          STRICT_NEWSROOM: "1"
       - run: npm run build:github
         env:
           NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
           NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH }}
           NEXT_PUBLIC_NEWSLETTER_ENDPOINT: ${{ vars.NEXT_PUBLIC_NEWSLETTER_ENDPOINT }}
+      - name: Preserve the newsroom ledger
+        run: |
+          if ! git diff --quiet -- data/newsroom.json; then
+            git config user.name "atlsignal-newsroom[bot]"
+            git config user.email "atlsignal-newsroom[bot]@users.noreply.github.com"
+            git add data/newsroom.json
+            git commit -m "Refresh ATLSignal newsroom ledger"
+            git push
+          fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .next-github

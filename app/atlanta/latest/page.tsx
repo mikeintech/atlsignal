@@ -9,6 +9,7 @@ import {
   StoryCard,
 } from "@/components/publication";
 import { NewsletterSignup } from "@/components/newsletter-signup";
+import newsroomData from "@/data/newsroom.json";
 import { atlanta, categories } from "@/lib/market";
 import { editorialCategories, launchWeek, leadStory, sourceDeskItems, sourceDesks, stories, watchlist } from "@/lib/atlanta-data";
 import { absoluteUrl } from "@/lib/site";
@@ -19,8 +20,39 @@ export const metadata: Metadata = {
   alternates: { canonical: absoluteUrl("/latest") },
 };
 
+type NewsroomCluster = (typeof newsroomData.clusters)[number];
+
+function briefItems(ids: string[]) {
+  return ids.flatMap((id) => {
+    const match = newsroomData.clusters.find((cluster) => cluster.id === id);
+    return match ? [match] : [];
+  });
+}
+
+function NewsroomBrief({ label, items }: { label: string; items: NewsroomCluster[] }) {
+  return (
+    <div>
+      <CategoryLabel>{label}</CategoryLabel>
+      <div className="source-item-list">
+        {items.map((item) => (
+          <article key={item.id}>
+            <CategoryLabel>{item.evidenceLabel} · {item.category}</CategoryLabel>
+            <h2><a href={item.sources[0]?.url} target="_blank" rel="noreferrer">{item.headline}</a></h2>
+            <p>{item.summary}</p>
+            <small>{[...new Set(item.sources.map((source) => source.name))].join(" · ")}</small>
+          </article>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function LatestPage() {
   const latestStories = [leadStory, ...stories];
+  const morning = briefItems(newsroomData.morningBrief.itemIds);
+  const afternoon = briefItems(newsroomData.afternoonUpdate.itemIds);
+  const coreHealth = newsroomData.sourceHealth.filter((source) => source.critical);
+  const discoveryHealth = newsroomData.sourceHealth.filter((source) => !source.critical);
   return (
     <>
       <PublicationHeader market={atlanta} />
@@ -31,6 +63,22 @@ export default function LatestPage() {
           <Headline as="h1" size="large">The ATLSignal launch desk</Headline>
           <p>Evidence-backed Atlanta business, development, policy and infrastructure coverage. Public facts are separated from claims still in review.</p>
         </header>
+
+        <section>
+          <SectionHeading label="Live newsroom cycle" />
+          <div className="data-strip newsroom-status" aria-label="Automated newsroom status">
+            <div className="metric"><strong>{newsroomData.automation.status}</strong><span>worker status</span></div>
+            <div className="metric"><strong>{coreHealth.filter((source) => source.status === "OK").length}/{coreHealth.length}</strong><span>primary desks healthy</span></div>
+            <div className="metric"><strong>{newsroomData.stats.clusters}</strong><span>event clusters</span></div>
+            <div className="metric"><strong>{newsroomData.stats.needsCorroboration}</strong><span>held for evidence</span></div>
+          </div>
+          <p className="source-attribution">Last automated collection: {new Date(newsroomData.generatedAt).toLocaleString("en-US", { timeZone: "America/New_York", dateStyle: "medium", timeStyle: "short" })} ET. Restricted publishers remain metadata-only discovery sources; their pages are not crawled.</p>
+          <div className="newsroom-brief-grid">
+            <NewsroomBrief label="Morning brief" items={morning} />
+            <NewsroomBrief label="Afternoon update" items={afternoon} />
+          </div>
+          <p className="source-attribution">Coverage monitor: {discoveryHealth.length} local media and first-party desks. Discovery items do not become published claims until primary evidence clears the corroboration gate.</p>
+        </section>
 
         <section>
           <SectionHeading label="Top coverage" />

@@ -1,0 +1,2822 @@
+{
+  "schemaVersion": "atlsignal_newsroom_v1",
+  "generatedAt": "2026-08-11T23:10:02.177Z",
+  "market": "atlanta",
+  "timezone": "America/New_York",
+  "editionWindow": "AFTERNOON",
+  "automation": {
+    "schedule": [
+      "11:15 UTC",
+      "20:15 UTC"
+    ],
+    "intendedCadence": "twice_daily",
+    "status": "HEALTHY",
+    "criticalFailures": [],
+    "previousRunAt": "2026-08-11T23:07:18.247Z"
+  },
+  "stats": {
+    "activeSources": 3,
+    "discoverySources": 15,
+    "items": 34,
+    "clusters": 33,
+    "publishable": 20,
+    "needsCorroboration": 13
+  },
+  "sourceHealth": [
+    {
+      "sourceId": "invest_atlanta",
+      "name": "Invest Atlanta",
+      "status": "OK",
+      "itemCount": 12,
+      "critical": true,
+      "durationMs": 325
+    },
+    {
+      "sourceId": "atlanta_beltline",
+      "name": "Atlanta BeltLine",
+      "status": "OK",
+      "itemCount": 5,
+      "critical": true,
+      "durationMs": 52395
+    },
+    {
+      "sourceId": "atlanta_regional_commission",
+      "name": "Atlanta Regional Commission",
+      "status": "OK",
+      "itemCount": 5,
+      "critical": true,
+      "durationMs": 50858
+    },
+    {
+      "sourceId": "ajc",
+      "name": "Atlanta Journal-Constitution",
+      "status": "DISCOVERY_OK",
+      "itemCount": 4,
+      "critical": false,
+      "accessState": "DISCOVERY_ONLY",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "atlanta_business_chronicle",
+      "name": "Atlanta Business Chronicle",
+      "status": "DISCOVERY_OK",
+      "itemCount": 7,
+      "critical": false,
+      "accessState": "SUBSCRIPTION_CONSTRAINED",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "urbanize_atlanta",
+      "name": "Urbanize Atlanta",
+      "status": "DISCOVERY_OK",
+      "itemCount": 0,
+      "critical": false,
+      "accessState": "DISCOVERY_ONLY",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "rough_draft_atlanta",
+      "name": "Rough Draft Atlanta",
+      "status": "DISCOVERY_OK",
+      "itemCount": 1,
+      "critical": false,
+      "accessState": "DISCOVERY_ONLY",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "axios_atlanta",
+      "name": "Axios Atlanta",
+      "status": "DISCOVERY_OK",
+      "itemCount": 0,
+      "critical": false,
+      "accessState": "DISCOVERY_ONLY",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "eater_atlanta",
+      "name": "Eater Atlanta",
+      "status": "DISCOVERY_OK",
+      "itemCount": 0,
+      "critical": false,
+      "accessState": "DISCOVERY_ONLY",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "saporta_report",
+      "name": "SaportaReport",
+      "status": "DISCOVERY_OK",
+      "itemCount": 0,
+      "critical": false,
+      "accessState": "DISCOVERY_ONLY",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "what_now_atlanta",
+      "name": "What Now Atlanta",
+      "status": "DISCOVERY_OK",
+      "itemCount": 0,
+      "critical": false,
+      "accessState": "DISCOVERY_ONLY",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "bisnow_atlanta",
+      "name": "Bisnow Atlanta",
+      "status": "DISCOVERY_OK",
+      "itemCount": 0,
+      "critical": false,
+      "accessState": "DISCOVERY_ONLY",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "city_of_atlanta",
+      "name": "City of Atlanta",
+      "status": "DISCOVERY_OK",
+      "itemCount": 0,
+      "critical": false,
+      "accessState": "SEARCH_DISCOVERY_ONLY",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "marta",
+      "name": "MARTA",
+      "status": "DISCOVERY_OK",
+      "itemCount": 0,
+      "critical": false,
+      "accessState": "SEARCH_DISCOVERY_ONLY",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "atl_airport",
+      "name": "Hartsfield-Jackson Atlanta International Airport",
+      "status": "DISCOVERY_OK",
+      "itemCount": 0,
+      "critical": false,
+      "accessState": "SEARCH_DISCOVERY_ONLY",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "georgia_economic_development",
+      "name": "Georgia Department of Economic Development",
+      "status": "DISCOVERY_OK",
+      "itemCount": 0,
+      "critical": false,
+      "accessState": "SEARCH_DISCOVERY_ONLY",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "metro_atlanta_chamber",
+      "name": "Metro Atlanta Chamber",
+      "status": "DISCOVERY_OK",
+      "itemCount": 0,
+      "critical": false,
+      "accessState": "SEARCH_DISCOVERY_ONLY",
+      "durationMs": 613
+    },
+    {
+      "sourceId": "atlanta_housing",
+      "name": "Atlanta Housing",
+      "status": "DISCOVERY_OK",
+      "itemCount": 0,
+      "critical": false,
+      "accessState": "SEARCH_DISCOVERY_ONLY",
+      "durationMs": 613
+    }
+  ],
+  "items": [
+    {
+      "id": "0156caa329cabd5ee87e",
+      "sourceId": "atlanta_business_chronicle",
+      "sourceName": "Atlanta Business Chronicle",
+      "sourceTier": "B",
+      "sourceClass": "local_business_reporting",
+      "sourceCategory": "Atlanta News",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYktGZTRObVJRTThCQmJMaEJYdVV3NUNGTTdaTlZJdlJ3RF8wTUJvMjlSZmdJMG5PSWlIRnRGclFhZWQ3NFVFVEIyMEdUMWNFV3M5Ry1taHRrWmZaOVBvaWd2WE1VVVRmbVloeUFMUmdlTWV2TWI1M3dWQVRackZESl9zNmI0R0hfbEwyZnZ1NkV1bUxUYXM4VTN3WFFZc2dNRGM4RWU0ejlFUQ?oc=5",
+      "publisherUrl": "https://www.bizjournals.com",
+      "publishedAt": "2026-08-11T20:24:00.000Z",
+      "updatedAt": "2026-08-11T20:24:00.000Z",
+      "imageUrl": null,
+      "contentHash": "e99f547abb190c8198f8",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-11T23:03:35.794Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "5ca989d22865ad43e770",
+      "sourceId": "atlanta_business_chronicle",
+      "sourceName": "Atlanta Business Chronicle",
+      "sourceTier": "B",
+      "sourceClass": "local_business_reporting",
+      "sourceCategory": "Atlanta News",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "Regions Bank to invest millions in namesake Midtown Atlanta office tower",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMFhCT1N6cmg0NXo4OHhvTTNGRXhDUHZzcXhxc29hcGlicVFnMm9wN0dYNk9yRGxSenowV25xUi1SUjRhaVFOV2d3NEZVYzEyd2dHd0pDbXBwRWoyZDZ1YjI5OEthSldiSXk2NUVYRGJMZS0wZ29QM1V3a0wwSFNHaG5hVFdlNWZPaGNIYnUyUE83VE44?oc=5",
+      "publisherUrl": "https://www.bizjournals.com",
+      "publishedAt": "2026-08-11T19:18:00.000Z",
+      "updatedAt": "2026-08-11T19:18:00.000Z",
+      "imageUrl": null,
+      "contentHash": "573c3dae20f3e9c06819",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-11T23:03:35.794Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "f76182f87e20479833ee",
+      "sourceId": "atlanta_business_chronicle",
+      "sourceName": "Atlanta Business Chronicle",
+      "sourceTier": "B",
+      "sourceClass": "local_business_reporting",
+      "sourceCategory": "Atlanta News",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlJwTU45ZjVQVWhVNVNNdkxSc2p4S2h4R0Nid3MyY01maWpQeE1sXzdTZzF2UUNYdEVUMDJKRzlSbnpTUWlRbkRCeGRYNkluWm9KSExWQnFQcWphQjc4b2FwbWY5QWtUNkJQU0JVUERDZkpqS05jMWpaTWhtV3htWHNudUlKYWxiVDM1MndkSTZORXJrWFRKRkhFZ3IxT2hyM3hJR1RLbGJuQQ?oc=5",
+      "publisherUrl": "https://www.bizjournals.com",
+      "publishedAt": "2026-08-11T18:31:00.000Z",
+      "updatedAt": "2026-08-11T18:31:00.000Z",
+      "imageUrl": null,
+      "contentHash": "0f627b067e26a663510b",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-11T23:03:35.794Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "d0bd1e2c7d214224c0b4",
+      "sourceId": "atlanta_business_chronicle",
+      "sourceName": "Atlanta Business Chronicle",
+      "sourceTier": "B",
+      "sourceClass": "local_business_reporting",
+      "sourceCategory": "Atlanta News",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "Restaurant roundup: Hal's to open in Midtown, Go Greek arrives in Atlanta",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR1FWTnlLdnIwRGxfODh2NVY5STBvRXdyZUNORWFVS2xETGVONXpkWXhBelRrZnFqdlhGVWVlNll1WmhZdGtkYzF4c25FQm0ybTZKTUoySWxtYnlGTG4xTEMwWF9zTG9QSEJGUFJ0UFdkTXJ2aWUzZWIwTUFjR3RnZ0FRQk12Rzg1eEh0S2ZhUzJCd0U?oc=5",
+      "publisherUrl": "https://www.bizjournals.com",
+      "publishedAt": "2026-08-11T17:21:00.000Z",
+      "updatedAt": "2026-08-11T17:21:00.000Z",
+      "imageUrl": null,
+      "contentHash": "524a38829211844db6b1",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-11T23:03:35.794Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "d6e41290c330ea7f6318",
+      "sourceId": "atlanta_regional_commission",
+      "sourceName": "Atlanta Regional Commission",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Transportation & Economy",
+      "acquisition": "sitemap_index",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "ARC’s 2026 LINK™ Trip Explores Urban Innovation in Mexico City",
+      "summary": "More than 180 government, business, and civic leaders from metro Atlanta will travel to Mexico City this month for the Atlanta Regional Commission’s 2026 LINK™ trip. It marks the first...",
+      "url": "https://atlantaregional.org/news/uncategorized/arcs-2026-link-trip-explores-urban-innovation-in-mexico-city/",
+      "publisherUrl": "https://atlantaregional.org/news/",
+      "publishedAt": "2026-08-11T15:21:23.000Z",
+      "updatedAt": "2026-08-11T15:21:23.000Z",
+      "imageUrl": "https://atlantaregional.org/wp-content/uploads/mexico-city-scaled.jpg",
+      "contentHash": "a1616d8fe124cf2d48d1",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "9807276a0bd43435677a",
+      "sourceId": "atlanta_business_chronicle",
+      "sourceName": "Atlanta Business Chronicle",
+      "sourceTier": "B",
+      "sourceClass": "local_business_reporting",
+      "sourceCategory": "Atlanta News",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "Five Atlanta healthcare companies using AI to cut costs, improve care",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMnZad1ZPdDlQcXc2UHRCNXQ5YmNobm01QzlnLV9zS2d3UVNkZW9LOVVLS21LRUF2SlpKYTZRTTI1QlZHX09IUzhXMnVhMXQ3dU90UmtySHFtWVhnZkJEZG5fejlKNUQ4Um5TV1dRNzBIZnEtVzJGaW1NRHNpaWZJb2Q3QTBiUzA3UThrY0wyVUdSU25SUDZhYWs5RTUzWG1H?oc=5",
+      "publisherUrl": "https://www.bizjournals.com",
+      "publishedAt": "2026-08-11T10:30:00.000Z",
+      "updatedAt": "2026-08-11T10:30:00.000Z",
+      "imageUrl": null,
+      "contentHash": "4773e02b41b422219b02",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-11T23:03:35.794Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "8182f339451af7d52e3b",
+      "sourceId": "ajc",
+      "sourceName": "Atlanta Journal-Constitution",
+      "sourceTier": "B",
+      "sourceClass": "local_reporting",
+      "sourceCategory": "Atlanta News",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "Georgia data centers use more than power and land. They need warehouse space.",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMHBOY3ozSWNVZENJTV8wMTEzUFNGd21OV1JXWGJjdXduU0NhOHJGTENIVHA5ZmM4dzFNNmY2NTF0aFFsQktQT2hRR1UwNGpKeDMtWGhubjRxbVcyc3cxTUp5dmVaUUgzWXYtSnhLV2htclppOGxCWUxkNGRfa3NyZENHRW0yV2NhRE1TVlZwX09FcFc3a205SlktWURpT0VPZ2ljajktbVBPWXZjTi01cGF1Qno5QQ?oc=5",
+      "publisherUrl": "https://www.ajc.com",
+      "publishedAt": "2026-08-11T09:31:45.000Z",
+      "updatedAt": "2026-08-11T09:31:45.000Z",
+      "imageUrl": null,
+      "contentHash": "1fc84e89ae045474df9c",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-11T23:03:35.794Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "5b2950853a56b57ef03d",
+      "sourceId": "ajc",
+      "sourceName": "Atlanta Journal-Constitution",
+      "sourceTier": "B",
+      "sourceClass": "local_reporting",
+      "sourceCategory": "Atlanta News",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "Exclusive: 2nd Atlanta location of Hal’s The Steakhouse opening in Midtown",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTks0dGEyeDdiTUZ2R1FUTWhoNzBub1NHR1BMYUN5dGw2RUZzRVNTY0RTQlg0MGVnc0RCYm83RmdSX0c0dFZVeWtIakZYVmtRWXVpS1hvOTRPZG1LWDd5MGdpZXAyOWxXUHRWMElvbVEzdmxhWkZOMXlVY2xWS2JIZVpOaFVvS3A1R1R4NDBVWXZlcC0yZ1Zzb2pZUDZIZ3l4ZFhCT19GSzBfX0hTcEZpSmpKa2dmWEZH?oc=5",
+      "publisherUrl": "https://www.ajc.com",
+      "publishedAt": "2026-08-11T01:26:30.000Z",
+      "updatedAt": "2026-08-11T01:26:30.000Z",
+      "imageUrl": null,
+      "contentHash": "2944fca05e19b0f7b756",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-11T23:03:35.794Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "22fb4762a172f34b618f",
+      "sourceId": "rough_draft_atlanta",
+      "sourceName": "Rough Draft Atlanta",
+      "sourceTier": "B",
+      "sourceClass": "local_reporting",
+      "sourceCategory": "Atlanta News",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "MARTA to name permanent CEO following interviews of three finalists",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2ZU5xa0xlOFFCTzBERHJiOWhDNDdlaXNpck90NlR2WEtaVllJc3RpQktmdFAwQ2lpal8xeXRNeG1qZ3RwVXhmYkNRR0MySHg5cjJnWTVEc3FEU3BzTG1OWGJmM1laNWd4WF9wQ2lxWWxmTVpwRE1VWVh5MDQ?oc=5",
+      "publisherUrl": "https://roughdraftatlanta.com",
+      "publishedAt": "2026-08-10T21:35:27.000Z",
+      "updatedAt": "2026-08-10T21:35:27.000Z",
+      "imageUrl": null,
+      "contentHash": "7f72f5fc40e91bdec0b9",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-11T23:03:35.794Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "ed772565167260a953c0",
+      "sourceId": "atlanta_business_chronicle",
+      "sourceName": "Atlanta Business Chronicle",
+      "sourceTier": "B",
+      "sourceClass": "local_business_reporting",
+      "sourceCategory": "Atlanta News",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "&pizza franchisees plan further expansion after opening of first Atlanta restaurant",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLVRkelJza25FTzlGOG85Q0pwOHd5MjVYb3RadWp5bmNhczBWUFVwckhSQ0FrV1JtS0RCNW5hbVVTdklENzhNVnZ6U1NVZ2paZW52U0c3WkxQeGdEcnlxUk9saDBmWVBGLUVhQ3BucjNGSTdpN0NmRXp3QmYwbEh3T21FLXB6a0pyaHNTVWVwVVN6R0g1OHQ5QUF1MzUwTDBpVENr?oc=5",
+      "publisherUrl": "https://www.bizjournals.com",
+      "publishedAt": "2026-08-10T19:14:00.000Z",
+      "updatedAt": "2026-08-10T19:14:00.000Z",
+      "imageUrl": null,
+      "contentHash": "1566eac27fa7dc5e2735",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-11T23:03:35.794Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "677fa04638fe422cb524",
+      "sourceId": "atlanta_business_chronicle",
+      "sourceName": "Atlanta Business Chronicle",
+      "sourceTier": "B",
+      "sourceClass": "local_business_reporting",
+      "sourceCategory": "Atlanta News",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "JLB Partners proposes Buckhead office redevelopment",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVWZaSlM4Y2xCR1dwX1A5ZGxYU0JHXzhRUnJRalZlOXlOLWZzbnZrRUFhRzNURTNTTmFUZUFoTjJMQ2lVcWt5Mjd5ZXNidXlqRnB4aEdPX3hSWGl5RjlwWlNuSXNUMmNDMmdyWGlPZGoxTjhHNzQ2dUFTWHU3cTlxUmRwLW1KWEVLTlRkUVpaNEhGTWtJRTFLeXdoY3pCY1JqWTlnZEFOSWwtUDQ?oc=5",
+      "publisherUrl": "https://www.bizjournals.com",
+      "publishedAt": "2026-08-10T19:09:00.000Z",
+      "updatedAt": "2026-08-10T19:09:00.000Z",
+      "imageUrl": null,
+      "contentHash": "8db44551d872a88554d6",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-11T23:03:35.794Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "379d65b1b8442ede5a26",
+      "sourceId": "ajc",
+      "sourceName": "Atlanta Journal-Constitution",
+      "sourceTier": "B",
+      "sourceClass": "local_reporting",
+      "sourceCategory": "Atlanta News",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "From runways to highways, her Atlanta construction firm has blazed paths",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVi1tTmlUWE1DVDJNLXhtbzhDRXRTLUVXMlg1VlNpaDNIaS0yN3lPbm1BNlpObnB6NVVEbUV6Zm42WnhLNFBCYXEzS3lNQklLWVdUa2xONEwzWl9zcjN5ZXE1MDAtT0I4TWZfZFR6a3VWRURlcTl2NDF1YTZtaVBsbGQ1R1k0ZG4tVWlTaGlqVmNKZlRXcnppVF9vTXhtbFZnNVpBUG5pS3ZuMjhJZXVj?oc=5",
+      "publisherUrl": "https://www.ajc.com",
+      "publishedAt": "2026-08-10T11:46:37.000Z",
+      "updatedAt": "2026-08-10T11:46:37.000Z",
+      "imageUrl": null,
+      "contentHash": "03f7017f160c2f08c47b",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-11T23:03:35.794Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "18fcae04121b948ae0e5",
+      "sourceId": "ajc",
+      "sourceName": "Atlanta Journal-Constitution",
+      "sourceTier": "B",
+      "sourceClass": "local_reporting",
+      "sourceCategory": "Atlanta News",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVlNjcmsyZlhYWWNUc0hLZ0RNUkpzMHhkLU12YVB4RGttU1JPUFFCZlQxLU8yZzRBTmt5UEd3SVdDWnBfVU5pSHB4SDVmX3o4azFnOWtidTdaRjRyVng0bEJ6R3RqY01paW9DUmNGQmhLTG4zVmItdmJyUEp0S2VJOXp2N1E5b0NpNHhnS2xwSXVOUWU5TzZ5NXpsM1YxZDhWSUVUNVBR?oc=5",
+      "publisherUrl": "https://www.ajc.com",
+      "publishedAt": "2026-08-10T09:01:27.000Z",
+      "updatedAt": "2026-08-10T09:01:27.000Z",
+      "imageUrl": null,
+      "contentHash": "3855d73571df9c888968",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-11T23:03:35.794Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "116f92cac110e953a6d9",
+      "sourceId": "atlanta_regional_commission",
+      "sourceName": "Atlanta Regional Commission",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Transportation & Economy",
+      "acquisition": "sitemap_index",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "FIFA World Cup 26™ In Review",
+      "summary": "The FIFA World Cup 26™ has come to an end! Atlanta was fortunate to host the dramatic semifinal, alongside packed viewing parties across the region. We want to take a...",
+      "url": "https://atlantaregional.org/news/uncategorized/fifa-world-cup-26-in-review/",
+      "publisherUrl": "https://atlantaregional.org/news/",
+      "publishedAt": "2026-08-07T20:01:01.000Z",
+      "updatedAt": "2026-08-07T20:01:01.000Z",
+      "imageUrl": "https://atlantaregional.org/wp-content/uploads/fifa-26-logo-blue.webp",
+      "contentHash": "d2476f4b803d29e627f5",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "6302a76fda702723bf3d",
+      "sourceId": "atlanta_beltline",
+      "sourceName": "Atlanta BeltLine",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Development & Infrastructure",
+      "acquisition": "sitemap",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Atlanta Beltline Breaks Ground on Overlook at Garson",
+      "summary": "Atlanta Beltline celebrates the start of construction on Overlook at Garson",
+      "url": "https://beltline.org/blog/atlanta-beltline-breaks-ground-on-overlook-at-garson/",
+      "publisherUrl": "https://beltline.org/press/",
+      "publishedAt": "2026-08-07T15:40:14.345Z",
+      "updatedAt": "2026-08-07T15:40:14.345Z",
+      "imageUrl": "https://a2-us.storyblok.com/f/1020195/5472x3648/ae661ddcb7/bennett-st-photo-by-loknows-drones-6-26-2025_07.JPG/m/1200x630/filters:format(jpeg)",
+      "contentHash": "d63698e97eb327ba7899",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "7f724a4bc74ffd08cf8f",
+      "sourceId": "atlanta_beltline",
+      "sourceName": "Atlanta BeltLine",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Development & Infrastructure",
+      "acquisition": "sitemap",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Pittsburgh Yards Welcomes Piedmont Mobile Health Unit Powered by Google",
+      "summary": "Piedmont Mobile Health Unit will bring healthcare resources directly along the Beltline",
+      "url": "https://beltline.org/blog/pittsburgh-yards-welcomes-piedmont-mobile-health-unit-powered-by-google/",
+      "publisherUrl": "https://beltline.org/press/",
+      "publishedAt": "2026-08-07T14:48:51.564Z",
+      "updatedAt": "2026-08-07T14:48:51.564Z",
+      "imageUrl": "https://a2-us.storyblok.com/f/1020195/1920x1080/efd619c728/piedmont-mobile-unit.jpg/m/1200x630/filters:format(jpeg)",
+      "contentHash": "7938e58176113e223144",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "f3667c376a276743f471",
+      "sourceId": "atlanta_beltline",
+      "sourceName": "Atlanta BeltLine",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Development & Infrastructure",
+      "acquisition": "sitemap",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Atlanta Beltline, Pennrose and Radiant Development Partners Break Ground on Overlook at Garson",
+      "summary": "Development will bring 130 affordable homes and 10,000 sq. ft. of community-serving commercial space to Lindbergh along Beltline&#x27;s Northeast Trail.",
+      "url": "https://beltline.org/press-release/overlook-at-garson-groundbreaking/",
+      "publisherUrl": "https://beltline.org/press/",
+      "publishedAt": "2026-08-06T19:45:30.712Z",
+      "updatedAt": "2026-08-06T19:45:30.712Z",
+      "imageUrl": "https://a2-us.storyblok.com/f/1020195/5152x3435/5df35485df/garson-drive-presser.JPG/m/1200x630/filters:format(jpeg)",
+      "contentHash": "40367f4f92e7f7d4dd12",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "c83e8c7f3cd2a9ee4b85",
+      "sourceId": "atlanta_beltline",
+      "sourceName": "Atlanta BeltLine",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Development & Infrastructure",
+      "acquisition": "sitemap",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail",
+      "summary": "This work will prepare the site for future trail construction, infrastructure improvements, and long-term redevelopment.",
+      "url": "https://beltline.org/blog/atlanta-beltline-to-begin-bennett-street-demolition-advancing-future-northwest-trail/",
+      "publisherUrl": "https://beltline.org/press/",
+      "publishedAt": "2026-08-05T19:06:13.511Z",
+      "updatedAt": "2026-08-05T19:06:13.511Z",
+      "imageUrl": "https://a2-us.storyblok.com/f/1020195/5472x3648/ae661ddcb7/bennett-st-photo-by-loknows-drones-6-26-2025_07.JPG/m/1200x630/filters:format(jpeg)",
+      "contentHash": "486f1a0293fad8e728f4",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "66ac653a0aebee200399",
+      "sourceId": "atlanta_beltline",
+      "sourceName": "Atlanta BeltLine",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Development & Infrastructure",
+      "acquisition": "sitemap",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Dive Bars & Hidden Gems Along the Beltline",
+      "summary": "Discover your next neighborhood favorite along the corridor",
+      "url": "https://beltline.org/blog/dive-bars-hidden-gems-along-the-atlanta-beltline/",
+      "publisherUrl": "https://beltline.org/press/",
+      "publishedAt": "2026-08-04T18:48:59.802Z",
+      "updatedAt": "2026-08-04T18:48:59.802Z",
+      "imageUrl": "https://a2-us.storyblok.com/f/1020195/5933x3955/20b8cefe5f/business-district_photo-by-erin-sintos_2025-08-29-13.jpg/m/1200x630/filters:format(jpeg)",
+      "contentHash": "f4b060cbd844a5b9d01c",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "199c578a330596813fd1",
+      "sourceId": "atlanta_regional_commission",
+      "sourceName": "Atlanta Regional Commission",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Transportation & Economy",
+      "acquisition": "sitemap_index",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Atlanta Regional Commission Announces 2026 Community Centered Design Class",
+      "summary": "(ATLANTA – July 30, 2026) The Atlanta Regional Commission (ARC) unveiled today the names of 16 program participants selected to participate in its newly redeveloped 2026 Community Centered Design (CCD)...",
+      "url": "https://atlantaregional.org/news/uncategorized/atlanta-regional-commission-announces-2026-community-centered-design-class/",
+      "publisherUrl": "https://atlantaregional.org/news/",
+      "publishedAt": "2026-07-30T17:52:08.000Z",
+      "updatedAt": "2026-07-30T17:52:08.000Z",
+      "imageUrl": "https://atlantaregional.org/wp-content/uploads/ccd-picture-scaled.jpg",
+      "contentHash": "52c68119c9e8e318a06b",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "4ba5f7d0740775a9f678",
+      "sourceId": "atlanta_regional_commission",
+      "sourceName": "Atlanta Regional Commission",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Transportation & Economy",
+      "acquisition": "sitemap_index",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Atlanta Regional Commission Announces 2026 Regional Leadership Institute Class",
+      "summary": "(ATLANTA – July 23, 2026) The Atlanta Regional Commission today announced that leaders from metro Atlanta’s public, private, and nonprofit sectors have been selected to participate in the 2026 class...",
+      "url": "https://atlantaregional.org/news/leadership-engagement/atlanta-regional-commission-announces-2026-regional-leadership-institute-class/",
+      "publisherUrl": "https://atlantaregional.org/news/",
+      "publishedAt": "2026-07-23T13:26:43.000Z",
+      "updatedAt": "2026-08-06T19:28:07.000Z",
+      "imageUrl": "https://atlantaregional.org/wp-content/uploads/rli-logo-press-header-2.png",
+      "contentHash": "c5fffcc4ef234cf6e268",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "5672137da20b1129ac75",
+      "sourceId": "atlanta_regional_commission",
+      "sourceName": "Atlanta Regional Commission",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Transportation & Economy",
+      "acquisition": "sitemap_index",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "From Drive Through To Drive To Avondale Estates Transformation",
+      "summary": "",
+      "url": "https://atlantaregional.org/news/community-development/from-drive-through-to-drive-to-avondale-estates-transformation/",
+      "publisherUrl": "https://atlantaregional.org/news/",
+      "publishedAt": "2026-07-21T22:06:22.000Z",
+      "updatedAt": "2026-07-21T22:06:22.000Z",
+      "imageUrl": null,
+      "contentHash": "c7d3df9ece2e41df0977",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "fafbf71d20fa86245788",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "C-PACE Financing Boosts Energy Efficiencies",
+      "summary": "Invest Atlanta is helping to power Atlanta's clean energy future one building at a time.",
+      "url": "https://www.investatlanta.com/impact-insights/c-pace-financing-boosts-energy-efficiencies",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "updatedAt": "2026-07-08T18:48:44.332Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/pullman1_lP3RqWg.jpg",
+      "contentHash": "7a7f6d02dc8f179b0fd4",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "afc54ba0d1d2698486c6",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "oaksATL Opens Mixed-Use Development in English Avenue",
+      "summary": "The Invest Atlanta team joined leaders from oaksATL, Peace Preparatory Academy and other community members for a ribbon cutting ceremony celebrating the opening of a neighborhood-scale, mixed-use development on Lindsay Street.",
+      "url": "https://www.investatlanta.com/impact-insights/oaksatl-opens-mixed-use-development-in-english-avenue",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "updatedAt": "2026-07-09T16:47:02.965Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/sam_9542r_y6a3q9X.jpg",
+      "contentHash": "7e6963e4a0ff4a3b631d",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "0a047533a306d0179911",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
+      "summary": "The Atlanta City Council has adopted a historic $3.2 billion balanced spending plan that continues Mayor Andre Dickens&rsquo; commitment to safe communities, strong families, thriving neighborhoods and opportunity for all residents.",
+      "url": "https://www.investatlanta.com/impact-insights/approved-atlanta-budget-supports-neighborhood-reinvestment-initiative",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-06-16T00:00:00.000Z",
+      "updatedAt": "2026-06-16T20:10:32.970Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/atlanta_econ_mobility_insights_7JNJbmL.png",
+      "contentHash": "5c42d69cc129bed4c7d1",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "a18f4dfab1fb389dd98c",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Invest Atlanta Earns Prestigious Global Reaccreditation",
+      "summary": "Invest Atlanta has once again been recognized as one of the world&rsquo;s most respected economic development organizations, earning reaccreditation as an Accredited Economic Development Organization (AEDO) from the International Economic Development Council (IEDC).&nbsp;&nbsp;",
+      "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-earns-prestigious-global-reaccreditation",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-06-10T00:00:00.000Z",
+      "updatedAt": "2026-07-09T16:47:58.893Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/blackrock_image_PgnYLYN.png",
+      "contentHash": "d81a04af4ba15b3b04d9",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "f56d3d266f38e4244bf3",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Small Business Improvement Grant Helps Goodr Feed Its Mission",
+      "summary": "With funding assistance from a $300,000 Atlanta Food Access Catalyst Grant, the Goodr Community Market on Edgewood brings food security and food retail under one roof.",
+      "url": "https://www.investatlanta.com/impact-insights/small-business-improvement-grant-helps-goodr-feed-its-mission",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-05-28T00:00:00.000Z",
+      "updatedAt": "2026-06-11T17:40:31.805Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/sam_1752_g3p39BQ.jpg",
+      "contentHash": "2a2f3210b7cc736ea4a0",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "d8cacce85da99dbd3e7e",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "A Peek Inside New Azalea Fresh Market Location",
+      "summary": "The Azalea Fresh Market is helping to pioneer a transformative municipal market model.",
+      "url": "https://www.investatlanta.com/impact-insights/a-peek-inside-new-azalea-fresh-market-location",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-05-27T00:00:00.000Z",
+      "updatedAt": "2026-07-09T16:47:35.742Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/_05a3414_j3V3LrW.jpg",
+      "contentHash": "0ff645ebd61eeb829b1a",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "06f938b3d9b0a2643fdb",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Invest Atlanta Advances New Affordable Housing Developments",
+      "summary": "The Invest Atlanta Board approved modifications to two resolutions supporting the development of affordable senior housing in Downtown Atlanta.",
+      "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-advances-new-affordable-housing-developments",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-05-21T00:00:00.000Z",
+      "updatedAt": "2026-06-17T14:37:35.722Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/sanct_Ozyz6lN.jpeg",
+      "contentHash": "c2909df68dab0c151f94",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "c14c6ce425707816ee27",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Invest Atlanta Collaborates with Atlanta Habitat for Humanity",
+      "summary": "Through a $500,000 investment, Invest Atlanta is supporting Atlanta Habitat for Humanity on two housing initiatives &ndash; one to deepen affordability with down-payment assistance and another to supplement an owner-occupied rehab program to help homeowners make needed house repairs.",
+      "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-collaborates-with-atlanta-habitat-for-humanity",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-04-29T00:00:00.000Z",
+      "updatedAt": "2026-05-13T14:20:16.760Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/habitat_XzRMvQv.png",
+      "contentHash": "753c2b2d7a2cf60cff0c",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "9119378c0267426bba86",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "TAD Grants Finance Construction of Affordable Housing",
+      "summary": "Invest Atlanta continues its push to create or preserve 20,000 units of affordable housing by 2030, supporting a range of developments, including senior, multifamily, workforce and mixed-income housing.",
+      "url": "https://www.investatlanta.com/impact-insights/tad-grants-finance-construction-of-affordable-housing",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-04-29T00:00:00.000Z",
+      "updatedAt": "2026-05-21T21:39:50.462Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/mag3_RzxypMP.jpeg",
+      "contentHash": "e6ec8fd751d416a829e5",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "d8d456147cf65ce90154",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "TAD Grant Supports Improvements to Upper Alabama Street and Peachtree Fountains Plaza",
+      "summary": "The Invest Atlanta Board approved a $925,000 Eastside Tax Allocation District (TAD) Grant to finance public infrastructure and small business improvements on Upper Alabama Street and Peachtree Fountains Plaza at Underground &ndash; just in time for FIFA World Cup 2026 TM &nbsp;activities.",
+      "url": "https://www.investatlanta.com/impact-insights/tad-grant-supports-improvements-to-upper-alabama-street-and-peachtree-fountains-plaza",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-04-22T00:00:00.000Z",
+      "updatedAt": "2026-05-13T14:18:44.223Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/under2_j3ekM2W.jpeg",
+      "contentHash": "6f90d94dcda960118cf9",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "80884347dc223843f1b2",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Supporting Small Business Sustainability",
+      "summary": "The Invest Atlanta Board continues to help Atlanta&rsquo;s small businesses stay resilient and competitive, approving another round of Tax Allocation District (TAD) funding for Small Business Improvement Grants (SBIG), marking the sixth round since the program launched in 2025.",
+      "url": "https://www.investatlanta.com/impact-insights/supporting-small-business-sustainability",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-04-20T00:00:00.000Z",
+      "updatedAt": "2026-05-05T18:33:40.283Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/151a8594_D3OEww1.jpg",
+      "contentHash": "4606c7f2c7688b1268fc",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    },
+    {
+      "id": "b1a8f32ddcfd05d9f6d6",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Invest Atlanta Makes Strategic Investment in Municipal Market Merchants",
+      "summary": "Invest Atlanta continues to strengthen Atlanta&rsquo;s small business ecosystem ahead of the upcoming FIFA World Cup 2026 TM and other major sporting events, and its latest $90,000 investment approved by the Invest Atlanta Board will support nine merchant booth improvement projects at the historic Municipal Market in Sweet Auburn.",
+      "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-makes-strategic-investment-in-municipal-market-merchants",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-04-17T00:00:00.000Z",
+      "updatedAt": "2026-05-13T14:16:22.644Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/151a8571-1r_8EoPZpa.jpg",
+      "contentHash": "7f4f106c59a11897992c",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T22:57:44.944Z",
+      "lastSeenAt": "2026-08-11T23:10:02.177Z"
+    }
+  ],
+  "clusters": [
+    {
+      "id": "e80096f012e2e487dfd5",
+      "itemIds": [
+        "6302a76fda702723bf3d",
+        "f3667c376a276743f471"
+      ],
+      "headline": "Atlanta Beltline Breaks Ground on Overlook at Garson",
+      "summary": "Atlanta Beltline celebrates the start of construction on Overlook at Garson",
+      "category": "Development & Infrastructure",
+      "eventType": "CONSTRUCTION",
+      "publishedAt": "2026-08-07T15:40:14.345Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_beltline",
+          "name": "Atlanta BeltLine",
+          "tier": "A",
+          "url": "https://beltline.org/blog/atlanta-beltline-breaks-ground-on-overlook-at-garson/",
+          "acquisition": "sitemap",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "atlanta_beltline",
+          "name": "Atlanta BeltLine",
+          "tier": "A",
+          "url": "https://beltline.org/press-release/overlook-at-garson-groundbreaking/",
+          "acquisition": "sitemap",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 2,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Beltline Breaks Ground on Overlook at Garson",
+        "dek": "Atlanta Beltline celebrates the start of construction on Overlook at Garson",
+        "whatChanged": "Atlanta BeltLine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Major projects change the built environment, nearby business conditions and the timing of future activity.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 61.09,
+        "impact": 64,
+        "novelty": 35,
+        "timeliness": 57,
+        "shareability": 42,
+        "commercial": 47,
+        "evidence": 84,
+        "locality": 100
+      }
+    },
+    {
+      "id": "0ee182270f841210ce65",
+      "itemIds": [
+        "b1a8f32ddcfd05d9f6d6"
+      ],
+      "headline": "Invest Atlanta Makes Strategic Investment in Municipal Market Merchants",
+      "summary": "Invest Atlanta continues to strengthen Atlanta&rsquo;s small business ecosystem ahead of the upcoming FIFA World Cup 2026 TM and other major sporting events, and its latest $90,000 investment approved by the Invest Atlanta Board will support nine merchant booth improvement projects at the historic Municipal Market in Sweet Auburn.",
+      "category": "Workforce & Economy",
+      "eventType": "APPROVAL",
+      "publishedAt": "2026-04-17T00:00:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "invest_atlanta",
+          "name": "Invest Atlanta",
+          "tier": "A",
+          "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-makes-strategic-investment-in-municipal-market-merchants",
+          "acquisition": "invest_atlanta_json",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Invest Atlanta Makes Strategic Investment in Municipal Market Merchants",
+        "dek": "Invest Atlanta continues to strengthen Atlanta&rsquo;s small business ecosystem ahead of the upcoming FIFA World Cup 2026 TM and other major sporting events, and its latest $90,000 investment approved by the Invest Atlanta Board will support nine merchant booth improvement projects at the historic Municipal Market in Sweet Auburn.",
+        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Jobs and investment decisions provide an early reading on Atlanta's economic direction.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 60.14,
+        "impact": 72,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 58,
+        "commercial": 65,
+        "evidence": 84,
+        "locality": 100
+      }
+    },
+    {
+      "id": "cf97af187e63f1c2b6b8",
+      "itemIds": [
+        "f76182f87e20479833ee"
+      ],
+      "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
+      "summary": "",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-11T18:31:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_business_chronicle",
+          "name": "Atlanta Business Chronicle",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlJwTU45ZjVQVWhVNVNNdkxSc2p4S2h4R0Nid3MyY01maWpQeE1sXzdTZzF2UUNYdEVUMDJKRzlSbnpTUWlRbkRCeGRYNkluWm9KSExWQnFQcWphQjc4b2FwbWY5QWtUNkJQU0JVUERDZkpqS05jMWpaTWhtV3htWHNudUlKYWxiVDM1MndkSTZORXJrWFRKRkhFZ3IxT2hyM3hJR1RLbGJuQQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
+        "dek": "",
+        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 59.1,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 98,
+        "shareability": 58,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 73
+      }
+    },
+    {
+      "id": "9ce67f6906e4d261b22e",
+      "itemIds": [
+        "0a047533a306d0179911"
+      ],
+      "headline": "Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
+      "summary": "The Atlanta City Council has adopted a historic $3.2 billion balanced spending plan that continues Mayor Andre Dickens&rsquo; commitment to safe communities, strong families, thriving neighborhoods and opportunity for all residents.",
+      "category": "Housing & Neighborhoods",
+      "eventType": "APPROVAL",
+      "publishedAt": "2026-06-16T00:00:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "invest_atlanta",
+          "name": "Invest Atlanta",
+          "tier": "A",
+          "url": "https://www.investatlanta.com/impact-insights/approved-atlanta-budget-supports-neighborhood-reinvestment-initiative",
+          "acquisition": "invest_atlanta_json",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
+        "dek": "The Atlanta City Council has adopted a historic $3.2 billion balanced spending plan that continues Mayor Andre Dickens&rsquo; commitment to safe communities, strong families, thriving neighborhoods and opportunity for all residents.",
+        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 58.74,
+        "impact": 88,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 58,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 73
+      }
+    },
+    {
+      "id": "5d36685938fcd27ab7bc",
+      "itemIds": [
+        "06f938b3d9b0a2643fdb"
+      ],
+      "headline": "Invest Atlanta Advances New Affordable Housing Developments",
+      "summary": "The Invest Atlanta Board approved modifications to two resolutions supporting the development of affordable senior housing in Downtown Atlanta.",
+      "category": "Housing & Neighborhoods",
+      "eventType": "APPROVAL",
+      "publishedAt": "2026-05-21T00:00:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "invest_atlanta",
+          "name": "Invest Atlanta",
+          "tier": "A",
+          "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-advances-new-affordable-housing-developments",
+          "acquisition": "invest_atlanta_json",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Invest Atlanta Advances New Affordable Housing Developments",
+        "dek": "The Invest Atlanta Board approved modifications to two resolutions supporting the development of affordable senior housing in Downtown Atlanta.",
+        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 57.84,
+        "impact": 72,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 47,
+        "evidence": 84,
+        "locality": 100
+      }
+    },
+    {
+      "id": "c5eb7a1b0e34401721f4",
+      "itemIds": [
+        "c14c6ce425707816ee27"
+      ],
+      "headline": "Invest Atlanta Collaborates with Atlanta Habitat for Humanity",
+      "summary": "Through a $500,000 investment, Invest Atlanta is supporting Atlanta Habitat for Humanity on two housing initiatives &ndash; one to deepen affordability with down-payment assistance and another to supplement an owner-occupied rehab program to help homeowners make needed house repairs.",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-04-29T00:00:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "invest_atlanta",
+          "name": "Invest Atlanta",
+          "tier": "A",
+          "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-collaborates-with-atlanta-habitat-for-humanity",
+          "acquisition": "invest_atlanta_json",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Invest Atlanta Collaborates with Atlanta Habitat for Humanity",
+        "dek": "Through a $500,000 investment, Invest Atlanta is supporting Atlanta Habitat for Humanity on two housing initiatives &ndash; one to deepen affordability with down-payment assistance and another to supplement an owner-occupied rehab program to help homeowners make needed house repairs.",
+        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 57.84,
+        "impact": 72,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 47,
+        "evidence": 84,
+        "locality": 100
+      }
+    },
+    {
+      "id": "23a6df7bdb68a99d4e57",
+      "itemIds": [
+        "9119378c0267426bba86"
+      ],
+      "headline": "TAD Grants Finance Construction of Affordable Housing",
+      "summary": "Invest Atlanta continues its push to create or preserve 20,000 units of affordable housing by 2030, supporting a range of developments, including senior, multifamily, workforce and mixed-income housing.",
+      "category": "Housing & Neighborhoods",
+      "eventType": "CONSTRUCTION",
+      "publishedAt": "2026-04-29T00:00:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "invest_atlanta",
+          "name": "Invest Atlanta",
+          "tier": "A",
+          "url": "https://www.investatlanta.com/impact-insights/tad-grants-finance-construction-of-affordable-housing",
+          "acquisition": "invest_atlanta_json",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "TAD Grants Finance Construction of Affordable Housing",
+        "dek": "Invest Atlanta continues its push to create or preserve 20,000 units of affordable housing by 2030, supporting a range of developments, including senior, multifamily, workforce and mixed-income housing.",
+        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 56.51,
+        "impact": 88,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 47,
+        "evidence": 84,
+        "locality": 59
+      }
+    },
+    {
+      "id": "572ea51017a41f4b3bc9",
+      "itemIds": [
+        "5ca989d22865ad43e770"
+      ],
+      "headline": "Regions Bank to invest millions in namesake Midtown Atlanta office tower",
+      "summary": "",
+      "category": "Atlanta News",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-11T19:18:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_business_chronicle",
+          "name": "Atlanta Business Chronicle",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMFhCT1N6cmg0NXo4OHhvTTNGRXhDUHZzcXhxc29hcGlicVFnMm9wN0dYNk9yRGxSenowV25xUi1SUjRhaVFOV2d3NEZVYzEyd2dHd0pDbXBwRWoyZDZ1YjI5OEthSldiSXk2NUVYRGJMZS0wZ29QM1V3a0wwSFNHaG5hVFdlNWZPaGNIYnUyUE83VE44?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Regions Bank to invest millions in namesake Midtown Atlanta office tower",
+        "dek": "",
+        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 55.02,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 98,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 73
+      }
+    },
+    {
+      "id": "0d86bcf25e4fa5c0b1b9",
+      "itemIds": [
+        "5b2950853a56b57ef03d"
+      ],
+      "headline": "Exclusive: 2nd Atlanta location of Hal’s The Steakhouse opening in Midtown",
+      "summary": "",
+      "category": "Business Moves",
+      "eventType": "OPENING",
+      "publishedAt": "2026-08-11T01:26:30.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTks0dGEyeDdiTUZ2R1FUTWhoNzBub1NHR1BMYUN5dGw2RUZzRVNTY0RTQlg0MGVnc0RCYm83RmdSX0c0dFZVeWtIakZYVmtRWXVpS1hvOTRPZG1LWDd5MGdpZXAyOWxXUHRWMElvbVEzdmxhWkZOMXlVY2xWS2JIZVpOaFVvS3A1R1R4NDBVWXZlcC0yZ1Zzb2pZUDZIZ3l4ZFhCT19GSzBfX0hTcEZpSmpKa2dmWEZH?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Exclusive: 2nd Atlanta location of Hal’s The Steakhouse opening in Midtown",
+        "dek": "",
+        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Company openings, leases and expansions show where business confidence and local demand are forming.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 54.87,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 91,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 73
+      }
+    },
+    {
+      "id": "b9b9e11ba4e8ed23ebd5",
+      "itemIds": [
+        "d6e41290c330ea7f6318"
+      ],
+      "headline": "ARC’s 2026 LINK™ Trip Explores Urban Innovation in Mexico City",
+      "summary": "More than 180 government, business, and civic leaders from metro Atlanta will travel to Mexico City this month for the Atlanta Regional Commission’s 2026 LINK™ trip. It marks the first...",
+      "category": "Business Moves",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-11T15:21:23.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_regional_commission",
+          "name": "Atlanta Regional Commission",
+          "tier": "A",
+          "url": "https://atlantaregional.org/news/uncategorized/arcs-2026-link-trip-explores-urban-innovation-in-mexico-city/",
+          "acquisition": "sitemap_index",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "ARC’s 2026 LINK™ Trip Explores Urban Innovation in Mexico City",
+        "dek": "More than 180 government, business, and civic leaders from metro Atlanta will travel to Mexico City this month for the Atlanta Regional Commission’s 2026 LINK™ trip. It marks the first...",
+        "whatChanged": "Atlanta Regional Commission published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Company openings, leases and expansions show where business confidence and local demand are forming.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 54.46,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 97,
+        "shareability": 58,
+        "commercial": 47,
+        "evidence": 84,
+        "locality": 73
+      }
+    },
+    {
+      "id": "830e492bf43da090c6ed",
+      "itemIds": [
+        "0156caa329cabd5ee87e"
+      ],
+      "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
+      "summary": "",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-11T20:24:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_business_chronicle",
+          "name": "Atlanta Business Chronicle",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYktGZTRObVJRTThCQmJMaEJYdVV3NUNGTTdaTlZJdlJ3RF8wTUJvMjlSZmdJMG5PSWlIRnRGclFhZWQ3NFVFVEIyMEdUMWNFV3M5Ry1taHRrWmZaOVBvaWd2WE1VVVRmbVloeUFMUmdlTWV2TWI1M3dWQVRackZESl9zNmI0R0hfbEwyZnZ1NkV1bUxUYXM4VTN3WFFZc2dNRGM4RWU0ejlFUQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
+        "dek": "",
+        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 54.41,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 99,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 59
+      }
+    },
+    {
+      "id": "47b9aed0333e1aef9145",
+      "itemIds": [
+        "c83e8c7f3cd2a9ee4b85"
+      ],
+      "headline": "Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail",
+      "summary": "This work will prepare the site for future trail construction, infrastructure improvements, and long-term redevelopment.",
+      "category": "Transportation & Airport",
+      "eventType": "CONSTRUCTION",
+      "publishedAt": "2026-08-05T19:06:13.511Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_beltline",
+          "name": "Atlanta BeltLine",
+          "tier": "A",
+          "url": "https://beltline.org/blog/atlanta-beltline-to-begin-bennett-street-demolition-advancing-future-northwest-trail/",
+          "acquisition": "sitemap",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail",
+        "dek": "This work will prepare the site for future trail construction, infrastructure improvements, and long-term redevelopment.",
+        "whatChanged": "Atlanta BeltLine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Changes to Atlanta's transportation network affect daily access, development patterns and the regional economy.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 54.35,
+        "impact": 64,
+        "novelty": 35,
+        "timeliness": 38,
+        "shareability": 42,
+        "commercial": 47,
+        "evidence": 84,
+        "locality": 73
+      }
+    },
+    {
+      "id": "eb14315ff8277e07c454",
+      "itemIds": [
+        "379d65b1b8442ede5a26"
+      ],
+      "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
+      "summary": "",
+      "category": "Development & Infrastructure",
+      "eventType": "CONSTRUCTION",
+      "publishedAt": "2026-08-10T11:46:37.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVi1tTmlUWE1DVDJNLXhtbzhDRXRTLUVXMlg1VlNpaDNIaS0yN3lPbm1BNlpObnB6NVVEbUV6Zm42WnhLNFBCYXEzS3lNQklLWVdUa2xONEwzWl9zcjN5ZXE1MDAtT0I4TWZfZFR6a3VWRURlcTl2NDF1YTZtaVBsbGQ1R1k0ZG4tVWlTaGlqVmNKZlRXcnppVF9vTXhtbFZnNVpBUG5pS3ZuMjhJZXVj?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
+        "dek": "",
+        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Major projects change the built environment, nearby business conditions and the timing of future activity.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 53.62,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 85,
+        "shareability": 42,
+        "commercial": 47,
+        "evidence": 35,
+        "locality": 59
+      }
+    },
+    {
+      "id": "1b7b96ed8eedd4697e97",
+      "itemIds": [
+        "80884347dc223843f1b2"
+      ],
+      "headline": "Supporting Small Business Sustainability",
+      "summary": "The Invest Atlanta Board continues to help Atlanta&rsquo;s small businesses stay resilient and competitive, approving another round of Tax Allocation District (TAD) funding for Small Business Improvement Grants (SBIG), marking the sixth round since the program launched in 2025.",
+      "category": "Public Money",
+      "eventType": "FINANCING",
+      "publishedAt": "2026-04-20T00:00:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "invest_atlanta",
+          "name": "Invest Atlanta",
+          "tier": "A",
+          "url": "https://www.investatlanta.com/impact-insights/supporting-small-business-sustainability",
+          "acquisition": "invest_atlanta_json",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Supporting Small Business Sustainability",
+        "dek": "The Invest Atlanta Board continues to help Atlanta&rsquo;s small businesses stay resilient and competitive, approving another round of Tax Allocation District (TAD) funding for Small Business Improvement Grants (SBIG), marking the sixth round since the program launched in 2025.",
+        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 53.59,
+        "impact": 64,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 65,
+        "evidence": 84,
+        "locality": 73
+      }
+    },
+    {
+      "id": "ef93e2777b1f53c3f87a",
+      "itemIds": [
+        "ed772565167260a953c0"
+      ],
+      "headline": "&pizza franchisees plan further expansion after opening of first Atlanta restaurant",
+      "summary": "",
+      "category": "Food, Retail & Hospitality",
+      "eventType": "OPENING",
+      "publishedAt": "2026-08-10T19:14:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_business_chronicle",
+          "name": "Atlanta Business Chronicle",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLVRkelJza25FTzlGOG85Q0pwOHd5MjVYb3RadWp5bmNhczBWUFVwckhSQ0FrV1JtS0RCNW5hbVVTdklENzhNVnZ6U1NVZ2paZW52U0c3WkxQeGdEcnlxUk9saDBmWVBGLUVhQ3BucjNGSTdpN0NmRXp3QmYwbEh3T21FLXB6a0pyaHNTVWVwVVN6R0g1OHQ5QUF1MzUwTDBpVENr?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "&pizza franchisees plan further expansion after opening of first Atlanta restaurant",
+        "dek": "",
+        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 53.17,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 88,
+        "shareability": 50,
+        "commercial": 47,
+        "evidence": 35,
+        "locality": 59
+      }
+    },
+    {
+      "id": "298bc7e9f8f7aacb337b",
+      "itemIds": [
+        "7f724a4bc74ffd08cf8f"
+      ],
+      "headline": "Pittsburgh Yards Welcomes Piedmont Mobile Health Unit Powered by Google",
+      "summary": "Piedmont Mobile Health Unit will bring healthcare resources directly along the Beltline",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-07T14:48:51.564Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_beltline",
+          "name": "Atlanta BeltLine",
+          "tier": "A",
+          "url": "https://beltline.org/blog/pittsburgh-yards-welcomes-piedmont-mobile-health-unit-powered-by-google/",
+          "acquisition": "sitemap",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Pittsburgh Yards Welcomes Piedmont Mobile Health Unit Powered by Google",
+        "dek": "Piedmont Mobile Health Unit will bring healthcare resources directly along the Beltline",
+        "whatChanged": "Atlanta BeltLine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 53.13,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 57,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 59
+      }
+    },
+    {
+      "id": "41e47ec893cd12299bcc",
+      "itemIds": [
+        "9807276a0bd43435677a"
+      ],
+      "headline": "Five Atlanta healthcare companies using AI to cut costs, improve care",
+      "summary": "",
+      "category": "Atlanta News",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-11T10:30:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_business_chronicle",
+          "name": "Atlanta Business Chronicle",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMnZad1ZPdDlQcXc2UHRCNXQ5YmNobm01QzlnLV9zS2d3UVNkZW9LOVVLS21LRUF2SlpKYTZRTTI1QlZHX09IUzhXMnVhMXQ3dU90UmtySHFtWVhnZkJEZG5fejlKNUQ4Um5TV1dRNzBIZnEtVzJGaW1NRHNpaWZJb2Q3QTBiUzA3UThrY0wyVUdSU25SUDZhYWs5RTUzWG1H?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Five Atlanta healthcare companies using AI to cut costs, improve care",
+        "dek": "",
+        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 52.69,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 95,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 59
+      }
+    },
+    {
+      "id": "7243e62da85c6d720257",
+      "itemIds": [
+        "18fcae04121b948ae0e5"
+      ],
+      "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
+      "summary": "",
+      "category": "Atlanta News",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-10T09:01:27.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVlNjcmsyZlhYWWNUc0hLZ0RNUkpzMHhkLU12YVB4RGttU1JPUFFCZlQxLU8yZzRBTmt5UEd3SVdDWnBfVU5pSHB4SDVmX3o4azFnOWtidTdaRjRyVng0bEJ6R3RqY01paW9DUmNGQmhLTG4zVmItdmJyUEp0S2VJOXp2N1E5b0NpNHhnS2xwSXVOUWU5TzZ5NXpsM1YxZDhWSUVUNVBR?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
+        "dek": "",
+        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 51.86,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 84,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 59
+      }
+    },
+    {
+      "id": "6aff090c22669bb8d82e",
+      "itemIds": [
+        "22fb4762a172f34b618f"
+      ],
+      "headline": "MARTA to name permanent CEO following interviews of three finalists",
+      "summary": "",
+      "category": "Transportation & Airport",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-10T21:35:27.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "rough_draft_atlanta",
+          "name": "Rough Draft Atlanta",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2ZU5xa0xlOFFCTzBERHJiOWhDNDdlaXNpck90NlR2WEtaVllJc3RpQktmdFAwQ2lpal8xeXRNeG1qZ3RwVXhmYkNRR0MySHg5cjJnWTVEc3FEU3BzTG1OWGJmM1laNWd4WF9wQ2lxWWxmTVpwRE1VWVh5MDQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "MARTA to name permanent CEO following interviews of three finalists",
+        "dek": "",
+        "whatChanged": "Rough Draft Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Changes to Atlanta's transportation network affect daily access, development patterns and the regional economy.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 51.67,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 89,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 59
+      }
+    },
+    {
+      "id": "632ef27b71f2dca5cc73",
+      "itemIds": [
+        "677fa04638fe422cb524"
+      ],
+      "headline": "JLB Partners proposes Buckhead office redevelopment",
+      "summary": "",
+      "category": "Atlanta News",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-10T19:09:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_business_chronicle",
+          "name": "Atlanta Business Chronicle",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVWZaSlM4Y2xCR1dwX1A5ZGxYU0JHXzhRUnJRalZlOXlOLWZzbnZrRUFhRzNURTNTTmFUZUFoTjJMQ2lVcWt5Mjd5ZXNidXlqRnB4aEdPX3hSWGl5RjlwWlNuSXNUMmNDMmdyWGlPZGoxTjhHNzQ2dUFTWHU3cTlxUmRwLW1KWEVLTlRkUVpaNEhGTWtJRTFLeXdoY3pCY1JqWTlnZEFOSWwtUDQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "JLB Partners proposes Buckhead office redevelopment",
+        "dek": "",
+        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 51.5,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 88,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 59
+      }
+    },
+    {
+      "id": "2ba1b6dac6045a8d8a90",
+      "itemIds": [
+        "afc54ba0d1d2698486c6"
+      ],
+      "headline": "oaksATL Opens Mixed-Use Development in English Avenue",
+      "summary": "The Invest Atlanta team joined leaders from oaksATL, Peace Preparatory Academy and other community members for a ribbon cutting ceremony celebrating the opening of a neighborhood-scale, mixed-use development on Lindsay Street.",
+      "category": "Housing & Neighborhoods",
+      "eventType": "OPENING",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "invest_atlanta",
+          "name": "Invest Atlanta",
+          "tier": "A",
+          "url": "https://www.investatlanta.com/impact-insights/oaksatl-opens-mixed-use-development-in-english-avenue",
+          "acquisition": "invest_atlanta_json",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "oaksATL Opens Mixed-Use Development in English Avenue",
+        "dek": "The Invest Atlanta team joined leaders from oaksATL, Peace Preparatory Academy and other community members for a ribbon cutting ceremony celebrating the opening of a neighborhood-scale, mixed-use development on Lindsay Street.",
+        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 51.14,
+        "impact": 64,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 56,
+        "evidence": 84,
+        "locality": 59
+      }
+    },
+    {
+      "id": "db39ebdd13e6215cc2ae",
+      "itemIds": [
+        "8182f339451af7d52e3b"
+      ],
+      "headline": "Georgia data centers use more than power and land. They need warehouse space.",
+      "summary": "",
+      "category": "Atlanta News",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-11T09:31:45.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMHBOY3ozSWNVZENJTV8wMTEzUFNGd21OV1JXWGJjdXduU0NhOHJGTENIVHA5ZmM4dzFNNmY2NTF0aFFsQktQT2hRR1UwNGpKeDMtWGhubjRxbVcyc3cxTUp5dmVaUUgzWXYtSnhLV2htclppOGxCWUxkNGRfa3NyZENHRW0yV2NhRE1TVlZwX09FcFc3a205SlktWURpT0VPZ2ljajktbVBPWXZjTi01cGF1Qno5QQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Georgia data centers use more than power and land. They need warehouse space.",
+        "dek": "",
+        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 50.7,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 94,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 45
+      }
+    },
+    {
+      "id": "47125893c5924b465581",
+      "itemIds": [
+        "a18f4dfab1fb389dd98c"
+      ],
+      "headline": "Invest Atlanta Earns Prestigious Global Reaccreditation",
+      "summary": "Invest Atlanta has once again been recognized as one of the world&rsquo;s most respected economic development organizations, earning reaccreditation as an Accredited Economic Development Organization (AEDO) from the International Economic Development Council (IEDC).&nbsp;&nbsp;",
+      "category": "Development & Infrastructure",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-06-10T00:00:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "invest_atlanta",
+          "name": "Invest Atlanta",
+          "tier": "A",
+          "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-earns-prestigious-global-reaccreditation",
+          "acquisition": "invest_atlanta_json",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Invest Atlanta Earns Prestigious Global Reaccreditation",
+        "dek": "Invest Atlanta has once again been recognized as one of the world&rsquo;s most respected economic development organizations, earning reaccreditation as an Accredited Economic Development Organization (AEDO) from the International Economic Development Council (IEDC).&nbsp;&nbsp;",
+        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Major projects change the built environment, nearby business conditions and the timing of future activity.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 50.55,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 42,
+        "commercial": 65,
+        "evidence": 84,
+        "locality": 73
+      }
+    },
+    {
+      "id": "c098b65496a7d44f7cab",
+      "itemIds": [
+        "66ac653a0aebee200399"
+      ],
+      "headline": "Dive Bars & Hidden Gems Along the Beltline",
+      "summary": "Discover your next neighborhood favorite along the corridor",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-04T18:48:59.802Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_beltline",
+          "name": "Atlanta BeltLine",
+          "tier": "A",
+          "url": "https://beltline.org/blog/dive-bars-hidden-gems-along-the-atlanta-beltline/",
+          "acquisition": "sitemap",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Dive Bars & Hidden Gems Along the Beltline",
+        "dek": "Discover your next neighborhood favorite along the corridor",
+        "whatChanged": "Atlanta BeltLine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 50.2,
+        "impact": 64,
+        "novelty": 35,
+        "timeliness": 28,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 59
+      }
+    },
+    {
+      "id": "4a8db6af8311a3a634a6",
+      "itemIds": [
+        "f56d3d266f38e4244bf3"
+      ],
+      "headline": "Small Business Improvement Grant Helps Goodr Feed Its Mission",
+      "summary": "With funding assistance from a $300,000 Atlanta Food Access Catalyst Grant, the Goodr Community Market on Edgewood brings food security and food retail under one roof.",
+      "category": "Public Money",
+      "eventType": "FINANCING",
+      "publishedAt": "2026-05-28T00:00:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "invest_atlanta",
+          "name": "Invest Atlanta",
+          "tier": "A",
+          "url": "https://www.investatlanta.com/impact-insights/small-business-improvement-grant-helps-goodr-feed-its-mission",
+          "acquisition": "invest_atlanta_json",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Small Business Improvement Grant Helps Goodr Feed Its Mission",
+        "dek": "With funding assistance from a $300,000 Atlanta Food Access Catalyst Grant, the Goodr Community Market on Edgewood brings food security and food retail under one roof.",
+        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 49.77,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 65,
+        "evidence": 84,
+        "locality": 59
+      }
+    },
+    {
+      "id": "51e10ed790f457ff8e0c",
+      "itemIds": [
+        "fafbf71d20fa86245788"
+      ],
+      "headline": "C-PACE Financing Boosts Energy Efficiencies",
+      "summary": "Invest Atlanta is helping to power Atlanta's clean energy future one building at a time.",
+      "category": "Public Money",
+      "eventType": "FINANCING",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "invest_atlanta",
+          "name": "Invest Atlanta",
+          "tier": "A",
+          "url": "https://www.investatlanta.com/impact-insights/c-pace-financing-boosts-energy-efficiencies",
+          "acquisition": "invest_atlanta_json",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "C-PACE Financing Boosts Energy Efficiencies",
+        "dek": "Invest Atlanta is helping to power Atlanta's clean energy future one building at a time.",
+        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 48.66,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 73
+      }
+    },
+    {
+      "id": "e1a25742df55ebe1e4c8",
+      "itemIds": [
+        "d8d456147cf65ce90154"
+      ],
+      "headline": "TAD Grant Supports Improvements to Upper Alabama Street and Peachtree Fountains Plaza",
+      "summary": "The Invest Atlanta Board approved a $925,000 Eastside Tax Allocation District (TAD) Grant to finance public infrastructure and small business improvements on Upper Alabama Street and Peachtree Fountains Plaza at Underground &ndash; just in time for FIFA World Cup 2026 TM &nbsp;activities.",
+      "category": "Public Money",
+      "eventType": "APPROVAL",
+      "publishedAt": "2026-04-22T00:00:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "invest_atlanta",
+          "name": "Invest Atlanta",
+          "tier": "A",
+          "url": "https://www.investatlanta.com/impact-insights/tad-grant-supports-improvements-to-upper-alabama-street-and-peachtree-fountains-plaza",
+          "acquisition": "invest_atlanta_json",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "TAD Grant Supports Improvements to Upper Alabama Street and Peachtree Fountains Plaza",
+        "dek": "The Invest Atlanta Board approved a $925,000 Eastside Tax Allocation District (TAD) Grant to finance public infrastructure and small business improvements on Upper Alabama Street and Peachtree Fountains Plaza at Underground &ndash; just in time for FIFA World Cup 2026 TM &nbsp;activities.",
+        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 48.51,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 47,
+        "evidence": 84,
+        "locality": 59
+      }
+    },
+    {
+      "id": "b1d2442a519582fe8855",
+      "itemIds": [
+        "d0bd1e2c7d214224c0b4"
+      ],
+      "headline": "Restaurant roundup: Hal's to open in Midtown, Go Greek arrives in Atlanta",
+      "summary": "",
+      "category": "Food, Retail & Hospitality",
+      "eventType": "OPENING",
+      "publishedAt": "2026-08-11T17:21:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_business_chronicle",
+          "name": "Atlanta Business Chronicle",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR1FWTnlLdnIwRGxfODh2NVY5STBvRXdyZUNORWFVS2xETGVONXpkWXhBelRrZnFqdlhGVWVlNll1WmhZdGtkYzF4c25FQm0ybTZKTUoySWxtYnlGTG4xTEMwWF9zTG9QSEJGUFJ0UFdkTXJ2aWUzZWIwTUFjR3RnZ0FRQk12Rzg1eEh0S2ZhUzJCd0U?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Restaurant roundup: Hal's to open in Midtown, Go Greek arrives in Atlanta",
+        "dek": "",
+        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 46.69,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 98,
+        "shareability": 50,
+        "commercial": 47,
+        "evidence": 35,
+        "locality": 73
+      }
+    },
+    {
+      "id": "f6be2de676d428d3b21d",
+      "itemIds": [
+        "d8cacce85da99dbd3e7e"
+      ],
+      "headline": "A Peek Inside New Azalea Fresh Market Location",
+      "summary": "The Azalea Fresh Market is helping to pioneer a transformative municipal market model.",
+      "category": "Business & Economy",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-05-27T00:00:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "invest_atlanta",
+          "name": "Invest Atlanta",
+          "tier": "A",
+          "url": "https://www.investatlanta.com/impact-insights/a-peek-inside-new-azalea-fresh-market-location",
+          "acquisition": "invest_atlanta_json",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "A Peek Inside New Azalea Fresh Market Location",
+        "dek": "The Azalea Fresh Market is helping to pioneer a transformative municipal market model.",
+        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 46.06,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 45
+      }
+    },
+    {
+      "id": "8405c48461f9b912e4ec",
+      "itemIds": [
+        "116f92cac110e953a6d9"
+      ],
+      "headline": "FIFA World Cup 26™ In Review",
+      "summary": "The FIFA World Cup 26™ has come to an end! Atlanta was fortunate to host the dramatic semifinal, alongside packed viewing parties across the region. We want to take a...",
+      "category": "Transportation & Economy",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-07T20:01:01.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_regional_commission",
+          "name": "Atlanta Regional Commission",
+          "tier": "A",
+          "url": "https://atlantaregional.org/news/uncategorized/fifa-world-cup-26-in-review/",
+          "acquisition": "sitemap_index",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "FIFA World Cup 26™ In Review",
+        "dek": "The FIFA World Cup 26™ has come to an end! Atlanta was fortunate to host the dramatic semifinal, alongside packed viewing parties across the region. We want to take a...",
+        "whatChanged": "Atlanta Regional Commission published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 44.51,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 59,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 59
+      }
+    },
+    {
+      "id": "69bd8febd01a3be1cb02",
+      "itemIds": [
+        "4ba5f7d0740775a9f678"
+      ],
+      "headline": "Atlanta Regional Commission Announces 2026 Regional Leadership Institute Class",
+      "summary": "(ATLANTA – July 23, 2026) The Atlanta Regional Commission today announced that leaders from metro Atlanta’s public, private, and nonprofit sectors have been selected to participate in the 2026 class...",
+      "category": "Transportation & Economy",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-07-23T13:26:43.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_regional_commission",
+          "name": "Atlanta Regional Commission",
+          "tier": "A",
+          "url": "https://atlantaregional.org/news/leadership-engagement/atlanta-regional-commission-announces-2026-regional-leadership-institute-class/",
+          "acquisition": "sitemap_index",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Regional Commission Announces 2026 Regional Leadership Institute Class",
+        "dek": "(ATLANTA – July 23, 2026) The Atlanta Regional Commission today announced that leaders from metro Atlanta’s public, private, and nonprofit sectors have been selected to participate in the 2026 class...",
+        "whatChanged": "Atlanta Regional Commission published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 43.21,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 100
+      }
+    },
+    {
+      "id": "9b6d26dd732c7511de90",
+      "itemIds": [
+        "199c578a330596813fd1"
+      ],
+      "headline": "Atlanta Regional Commission Announces 2026 Community Centered Design Class",
+      "summary": "(ATLANTA – July 30, 2026) The Atlanta Regional Commission (ARC) unveiled today the names of 16 program participants selected to participate in its newly redeveloped 2026 Community Centered Design (CCD)...",
+      "category": "Transportation & Economy",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-07-30T17:52:08.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_regional_commission",
+          "name": "Atlanta Regional Commission",
+          "tier": "A",
+          "url": "https://atlantaregional.org/news/uncategorized/atlanta-regional-commission-announces-2026-community-centered-design-class/",
+          "acquisition": "sitemap_index",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Regional Commission Announces 2026 Community Centered Design Class",
+        "dek": "(ATLANTA – July 30, 2026) The Atlanta Regional Commission (ARC) unveiled today the names of 16 program participants selected to participate in its newly redeveloped 2026 Community Centered Design (CCD)...",
+        "whatChanged": "Atlanta Regional Commission published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 41.52,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 87
+      }
+    },
+    {
+      "id": "dfa11dedbdd11c4de548",
+      "itemIds": [
+        "5672137da20b1129ac75"
+      ],
+      "headline": "From Drive Through To Drive To Avondale Estates Transformation",
+      "summary": "",
+      "category": "Transportation & Economy",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-07-21T22:06:22.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_regional_commission",
+          "name": "Atlanta Regional Commission",
+          "tier": "A",
+          "url": "https://atlantaregional.org/news/community-development/from-drive-through-to-drive-to-avondale-estates-transformation/",
+          "acquisition": "sitemap_index",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "From Drive Through To Drive To Avondale Estates Transformation",
+        "dek": "",
+        "whatChanged": "Atlanta Regional Commission published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 40.12,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 45
+      }
+    }
+  ],
+  "morningBrief": {
+    "generatedAt": "2026-08-11T23:10:02.177Z",
+    "label": "Morning Brief",
+    "itemIds": [
+      "e80096f012e2e487dfd5",
+      "b9b9e11ba4e8ed23ebd5",
+      "47b9aed0333e1aef9145",
+      "298bc7e9f8f7aacb337b",
+      "c098b65496a7d44f7cab"
+    ]
+  },
+  "afternoonUpdate": {
+    "generatedAt": "2026-08-11T23:10:02.177Z",
+    "label": "Afternoon Update",
+    "itemIds": [
+      "8405c48461f9b912e4ec",
+      "69bd8febd01a3be1cb02",
+      "9b6d26dd732c7511de90"
+    ]
+  },
+  "editorialQueue": [
+    {
+      "clusterId": "e80096f012e2e487dfd5",
+      "headline": "Atlanta Beltline Breaks Ground on Overlook at Garson",
+      "category": "Development & Infrastructure",
+      "score": 61.09,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 2,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "0ee182270f841210ce65",
+      "headline": "Invest Atlanta Makes Strategic Investment in Municipal Market Merchants",
+      "category": "Workforce & Economy",
+      "score": 60.14,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "cf97af187e63f1c2b6b8",
+      "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
+      "category": "Housing & Neighborhoods",
+      "score": 59.1,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "9ce67f6906e4d261b22e",
+      "headline": "Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
+      "category": "Housing & Neighborhoods",
+      "score": 58.74,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "5d36685938fcd27ab7bc",
+      "headline": "Invest Atlanta Advances New Affordable Housing Developments",
+      "category": "Housing & Neighborhoods",
+      "score": 57.84,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "c5eb7a1b0e34401721f4",
+      "headline": "Invest Atlanta Collaborates with Atlanta Habitat for Humanity",
+      "category": "Housing & Neighborhoods",
+      "score": 57.84,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "23a6df7bdb68a99d4e57",
+      "headline": "TAD Grants Finance Construction of Affordable Housing",
+      "category": "Housing & Neighborhoods",
+      "score": 56.51,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "572ea51017a41f4b3bc9",
+      "headline": "Regions Bank to invest millions in namesake Midtown Atlanta office tower",
+      "category": "Atlanta News",
+      "score": 55.02,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "0d86bcf25e4fa5c0b1b9",
+      "headline": "Exclusive: 2nd Atlanta location of Hal’s The Steakhouse opening in Midtown",
+      "category": "Business Moves",
+      "score": 54.87,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "b9b9e11ba4e8ed23ebd5",
+      "headline": "ARC’s 2026 LINK™ Trip Explores Urban Innovation in Mexico City",
+      "category": "Business Moves",
+      "score": 54.46,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "830e492bf43da090c6ed",
+      "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
+      "category": "Housing & Neighborhoods",
+      "score": 54.41,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "47b9aed0333e1aef9145",
+      "headline": "Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail",
+      "category": "Transportation & Airport",
+      "score": 54.35,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "eb14315ff8277e07c454",
+      "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
+      "category": "Development & Infrastructure",
+      "score": 53.62,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "1b7b96ed8eedd4697e97",
+      "headline": "Supporting Small Business Sustainability",
+      "category": "Public Money",
+      "score": 53.59,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "ef93e2777b1f53c3f87a",
+      "headline": "&pizza franchisees plan further expansion after opening of first Atlanta restaurant",
+      "category": "Food, Retail & Hospitality",
+      "score": 53.17,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "298bc7e9f8f7aacb337b",
+      "headline": "Pittsburgh Yards Welcomes Piedmont Mobile Health Unit Powered by Google",
+      "category": "Housing & Neighborhoods",
+      "score": 53.13,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "41e47ec893cd12299bcc",
+      "headline": "Five Atlanta healthcare companies using AI to cut costs, improve care",
+      "category": "Atlanta News",
+      "score": 52.69,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "7243e62da85c6d720257",
+      "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
+      "category": "Atlanta News",
+      "score": 51.86,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "6aff090c22669bb8d82e",
+      "headline": "MARTA to name permanent CEO following interviews of three finalists",
+      "category": "Transportation & Airport",
+      "score": 51.67,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "632ef27b71f2dca5cc73",
+      "headline": "JLB Partners proposes Buckhead office redevelopment",
+      "category": "Atlanta News",
+      "score": 51.5,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "2ba1b6dac6045a8d8a90",
+      "headline": "oaksATL Opens Mixed-Use Development in English Avenue",
+      "category": "Housing & Neighborhoods",
+      "score": 51.14,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "db39ebdd13e6215cc2ae",
+      "headline": "Georgia data centers use more than power and land. They need warehouse space.",
+      "category": "Atlanta News",
+      "score": 50.7,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "47125893c5924b465581",
+      "headline": "Invest Atlanta Earns Prestigious Global Reaccreditation",
+      "category": "Development & Infrastructure",
+      "score": 50.55,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "c098b65496a7d44f7cab",
+      "headline": "Dive Bars & Hidden Gems Along the Beltline",
+      "category": "Housing & Neighborhoods",
+      "score": 50.2,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "4a8db6af8311a3a634a6",
+      "headline": "Small Business Improvement Grant Helps Goodr Feed Its Mission",
+      "category": "Public Money",
+      "score": 49.77,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "51e10ed790f457ff8e0c",
+      "headline": "C-PACE Financing Boosts Energy Efficiencies",
+      "category": "Public Money",
+      "score": 48.66,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "e1a25742df55ebe1e4c8",
+      "headline": "TAD Grant Supports Improvements to Upper Alabama Street and Peachtree Fountains Plaza",
+      "category": "Public Money",
+      "score": 48.51,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "b1d2442a519582fe8855",
+      "headline": "Restaurant roundup: Hal's to open in Midtown, Go Greek arrives in Atlanta",
+      "category": "Food, Retail & Hospitality",
+      "score": 46.69,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "f6be2de676d428d3b21d",
+      "headline": "A Peek Inside New Azalea Fresh Market Location",
+      "category": "Business & Economy",
+      "score": 46.06,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "8405c48461f9b912e4ec",
+      "headline": "FIFA World Cup 26™ In Review",
+      "category": "Transportation & Economy",
+      "score": 44.51,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "69bd8febd01a3be1cb02",
+      "headline": "Atlanta Regional Commission Announces 2026 Regional Leadership Institute Class",
+      "category": "Transportation & Economy",
+      "score": 43.21,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "9b6d26dd732c7511de90",
+      "headline": "Atlanta Regional Commission Announces 2026 Community Centered Design Class",
+      "category": "Transportation & Economy",
+      "score": 41.52,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "dfa11dedbdd11c4de548",
+      "headline": "From Drive Through To Drive To Avondale Estates Transformation",
+      "category": "Transportation & Economy",
+      "score": 40.12,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    }
+  ],
+  "policy": {
+    "autoPublish": false,
+    "publisherPagesCrawledForDiscoverySources": false,
+    "discoveryUse": "metadata_only_until_primary_evidence",
+    "premiumBoundary": "No buyer, contact, procurement route, or subscriber-only intelligence is exported."
+  }
+}
