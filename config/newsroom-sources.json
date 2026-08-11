@@ -53,6 +53,22 @@
       "maxRequests": 6,
       "requestDelayMs": 10000,
       "critical": true
+    },
+    {
+      "sourceId": "atlanta_housing",
+      "name": "Atlanta Housing",
+      "publisher": "Housing Authority of the City of Atlanta",
+      "tier": "A",
+      "category": "Housing & Neighborhoods",
+      "collector": "rss",
+      "endpoint": "https://www.atlantahousing.org/feed/",
+      "sourceUrl": "https://www.atlantahousing.org/latest-at-ah/",
+      "accessState": "PUBLIC_APPROVED",
+      "allowedRetrieval": true,
+      "robotsUrl": "https://www.atlantahousing.org/robots.txt",
+      "maxItems": 8,
+      "maxRequests": 1,
+      "critical": true
     }
   ],
   "discoverySources": [
@@ -70,7 +86,7 @@
     { "sourceId": "atl_airport", "name": "Hartsfield-Jackson Atlanta International Airport", "domain": "atl.com", "tier": "A", "sourceClass": "official_airport", "accessState": "SEARCH_DISCOVERY_ONLY" },
     { "sourceId": "georgia_economic_development", "name": "Georgia Department of Economic Development", "domain": "georgia.org", "tier": "A", "sourceClass": "official_economic_development", "accessState": "SEARCH_DISCOVERY_ONLY" },
     { "sourceId": "metro_atlanta_chamber", "name": "Metro Atlanta Chamber", "domain": "metroatlantachamber.com", "tier": "C", "sourceClass": "business_ecosystem", "accessState": "SEARCH_DISCOVERY_ONLY" },
-    { "sourceId": "atlanta_housing", "name": "Atlanta Housing", "domain": "atlantahousing.org", "tier": "A", "sourceClass": "official_housing", "accessState": "SEARCH_DISCOVERY_ONLY" }
+    { "sourceId": "discover_atlanta", "name": "Discover Atlanta", "domain": "discoveratlanta.com", "tier": "C", "sourceClass": "tourism_and_hospitality_ecosystem", "accessState": "SEARCH_DISCOVERY_ONLY" }
   ],
   "discoveryProvider": {
     "name": "Google News RSS Search",

@@ -5,7 +5,8 @@
 The GitHub Pages workflow runs at 11:15 and 20:15 UTC and on every push to
 `main`. One run:
 
-1. collects Invest Atlanta, Atlanta BeltLine, and Atlanta Regional Commission;
+1. collects Invest Atlanta, Atlanta BeltLine, Atlanta Regional Commission, and
+   Atlanta Housing;
 2. reads a public news-search RSS feed for metadata from the configured Atlanta
    media and first-party coverage desks;
 3. filters the discovery feed to Atlanta business, civic, development,
@@ -36,7 +37,7 @@ The GitHub Pages workflow runs at 11:15 and 20:15 UTC and on every push to
 
 ## Failure behavior
 
-Invest Atlanta, BeltLine, and ARC are critical. Under `STRICT_NEWSROOM=1`, a
+Invest Atlanta, BeltLine, ARC, and Atlanta Housing are critical. Under `STRICT_NEWSROOM=1`, a
 failed or empty critical source stops deployment and makes the failed workflow
 the operational alert. The previous deployed edition remains available.
 

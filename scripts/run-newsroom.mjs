@@ -276,6 +276,34 @@ async function collectSitemap(source) {
   return items;
 }
 
+async function collectRss(source) {
+  const response = await fetchText(source.endpoint, "application/rss+xml,application/xml,text/xml,*/*", { retry429: true });
+  return xmlBlocks(response.text, "item").slice(0, source.maxItems).flatMap((block) => {
+    const title = xmlValue(block, "title");
+    const link = xmlValue(block, "link");
+    if (!title || !link) return [];
+    let canonicalUrl = link;
+    try {
+      const parsed = new URL(link);
+      for (const key of [...parsed.searchParams.keys()]) {
+        if (key.startsWith("utm_")) parsed.searchParams.delete(key);
+      }
+      canonicalUrl = parsed.toString();
+    } catch {
+      // Keep the publisher-provided link when it cannot be normalized.
+    }
+    return [makeItem(source, {
+      title,
+      summary: cleanText(xmlValue(block, "description") || xmlValue(block, "content:encoded")),
+      url: canonicalUrl,
+      publishedAt: xmlValue(block, "pubDate"),
+      updatedAt: xmlValue(block, "pubDate"),
+      acquisition: "official_rss",
+      retrievedContent: true,
+    })];
+  });
+}
+
 function sourceForDomain(hostname) {
   const host = hostname.replace(/^www\./, "");
   return config.discoverySources.find((source) => host === source.domain || host.endsWith(`.${source.domain}`));
@@ -468,7 +496,11 @@ const collected = [];
 for (const source of config.activeSources) {
   const startedAt = new Date();
   try {
-    const items = source.collector === "invest_atlanta_json" ? await collectInvestAtlanta(source) : await collectSitemap(source);
+    const items = source.collector === "invest_atlanta_json"
+      ? await collectInvestAtlanta(source)
+      : source.collector === "rss"
+        ? await collectRss(source)
+        : await collectSitemap(source);
     collected.push(...items);
     health.push({ sourceId: source.sourceId, name: source.name, status: items.length ? "OK" : "EMPTY", itemCount: items.length, critical: source.critical, durationMs: Date.now() - startedAt.valueOf() });
   } catch (error) {

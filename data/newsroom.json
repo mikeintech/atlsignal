@@ -1,6 +1,6 @@
 {
   "schemaVersion": "atlsignal_newsroom_v1",
-  "generatedAt": "2026-08-11T23:14:28.850Z",
+  "generatedAt": "2026-08-11T23:22:10.674Z",
   "market": "atlanta",
   "timezone": "America/New_York",
   "editionWindow": "AFTERNOON",
@@ -12,14 +12,14 @@
     "intendedCadence": "twice_daily",
     "status": "HEALTHY",
     "criticalFailures": [],
-    "previousRunAt": "2026-08-11T23:10:02.177Z"
+    "previousRunAt": null
   },
   "stats": {
-    "activeSources": 3,
+    "activeSources": 4,
     "discoverySources": 15,
-    "items": 34,
-    "clusters": 33,
-    "publishable": 20,
+    "items": 42,
+    "clusters": 40,
+    "publishable": 27,
     "needsCorroboration": 13
   },
   "sourceHealth": [
@@ -29,7 +29,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 380
+      "durationMs": 277
     },
     {
       "sourceId": "atlanta_beltline",
@@ -37,7 +37,7 @@
       "status": "OK",
       "itemCount": 5,
       "critical": true,
-      "durationMs": 55772
+      "durationMs": 51571
     },
     {
       "sourceId": "atlanta_regional_commission",
@@ -45,7 +45,15 @@
       "status": "OK",
       "itemCount": 5,
       "critical": true,
-      "durationMs": 52121
+      "durationMs": 50955
+    },
+    {
+      "sourceId": "atlanta_housing",
+      "name": "Atlanta Housing",
+      "status": "OK",
+      "itemCount": 8,
+      "critical": true,
+      "durationMs": 90
     },
     {
       "sourceId": "ajc",
@@ -54,7 +62,7 @@
       "itemCount": 4,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 550
     },
     {
       "sourceId": "atlanta_business_chronicle",
@@ -63,7 +71,7 @@
       "itemCount": 7,
       "critical": false,
       "accessState": "SUBSCRIPTION_CONSTRAINED",
-      "durationMs": 514
+      "durationMs": 550
     },
     {
       "sourceId": "urbanize_atlanta",
@@ -72,7 +80,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 550
     },
     {
       "sourceId": "rough_draft_atlanta",
@@ -81,7 +89,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 550
     },
     {
       "sourceId": "axios_atlanta",
@@ -90,7 +98,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 550
     },
     {
       "sourceId": "eater_atlanta",
@@ -99,7 +107,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 550
     },
     {
       "sourceId": "saporta_report",
@@ -108,7 +116,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 550
     },
     {
       "sourceId": "what_now_atlanta",
@@ -117,7 +125,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 550
     },
     {
       "sourceId": "bisnow_atlanta",
@@ -126,7 +134,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 550
     },
     {
       "sourceId": "city_of_atlanta",
@@ -135,7 +143,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 550
     },
     {
       "sourceId": "marta",
@@ -144,7 +152,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 550
     },
     {
       "sourceId": "atl_airport",
@@ -153,7 +161,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 550
     },
     {
       "sourceId": "georgia_economic_development",
@@ -162,7 +170,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 550
     },
     {
       "sourceId": "metro_atlanta_chamber",
@@ -171,16 +179,16 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 551
     },
     {
-      "sourceId": "atlanta_housing",
-      "name": "Atlanta Housing",
+      "sourceId": "discover_atlanta",
+      "name": "Discover Atlanta",
       "status": "DISCOVERY_OK",
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 514
+      "durationMs": 551
     }
   ],
   "items": [
@@ -202,8 +210,8 @@
       "imageUrl": null,
       "contentHash": "e99f547abb190c8198f8",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "5ca989d22865ad43e770",
@@ -223,8 +231,8 @@
       "imageUrl": null,
       "contentHash": "573c3dae20f3e9c06819",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "f76182f87e20479833ee",
@@ -244,8 +252,8 @@
       "imageUrl": null,
       "contentHash": "0f627b067e26a663510b",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "d0bd1e2c7d214224c0b4",
@@ -265,8 +273,8 @@
       "imageUrl": null,
       "contentHash": "524a38829211844db6b1",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "d6e41290c330ea7f6318",
@@ -286,8 +294,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/mexico-city-scaled.jpg",
       "contentHash": "a1616d8fe124cf2d48d1",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "9807276a0bd43435677a",
@@ -307,8 +315,8 @@
       "imageUrl": null,
       "contentHash": "4773e02b41b422219b02",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "8182f339451af7d52e3b",
@@ -328,8 +336,8 @@
       "imageUrl": null,
       "contentHash": "1fc84e89ae045474df9c",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "5b2950853a56b57ef03d",
@@ -349,8 +357,8 @@
       "imageUrl": null,
       "contentHash": "2944fca05e19b0f7b756",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "22fb4762a172f34b618f",
@@ -370,8 +378,8 @@
       "imageUrl": null,
       "contentHash": "7f72f5fc40e91bdec0b9",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "ed772565167260a953c0",
@@ -391,8 +399,8 @@
       "imageUrl": null,
       "contentHash": "1566eac27fa7dc5e2735",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "677fa04638fe422cb524",
@@ -412,8 +420,8 @@
       "imageUrl": null,
       "contentHash": "8db44551d872a88554d6",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "379d65b1b8442ede5a26",
@@ -433,8 +441,8 @@
       "imageUrl": null,
       "contentHash": "03f7017f160c2f08c47b",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "18fcae04121b948ae0e5",
@@ -454,8 +462,8 @@
       "imageUrl": null,
       "contentHash": "3855d73571df9c888968",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:03:35.794Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "116f92cac110e953a6d9",
@@ -475,8 +483,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/fifa-26-logo-blue.webp",
       "contentHash": "d2476f4b803d29e627f5",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "6302a76fda702723bf3d",
@@ -496,8 +504,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/5472x3648/ae661ddcb7/bennett-st-photo-by-loknows-drones-6-26-2025_07.JPG/m/1200x630/filters:format(jpeg)",
       "contentHash": "d63698e97eb327ba7899",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "7f724a4bc74ffd08cf8f",
@@ -517,8 +525,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/1920x1080/efd619c728/piedmont-mobile-unit.jpg/m/1200x630/filters:format(jpeg)",
       "contentHash": "7938e58176113e223144",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "f3667c376a276743f471",
@@ -538,8 +546,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/5152x3435/5df35485df/garson-drive-presser.JPG/m/1200x630/filters:format(jpeg)",
       "contentHash": "40367f4f92e7f7d4dd12",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "c83e8c7f3cd2a9ee4b85",
@@ -559,8 +567,29 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/5472x3648/ae661ddcb7/bennett-st-photo-by-loknows-drones-6-26-2025_07.JPG/m/1200x630/filters:format(jpeg)",
       "contentHash": "486f1a0293fad8e728f4",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+    },
+    {
+      "id": "ecc2fa4ebd27b7d56cf3",
+      "sourceId": "atlanta_housing",
+      "sourceName": "Atlanta Housing",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Housing & Neighborhoods",
+      "acquisition": "official_rss",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Atlanta Housing, Atlanta Beltline and Partners Break Ground on 100 Percent Affordable Overlook at Garson",
+      "summary": "With immediate access to the future Atlanta Beltline expansion, Overlook at Garson will deliver 130 completely affordable homes and approximately 10,000 square feet of community retail space. ATLANTA – Today, Atlanta Housing and Atlanta Beltline, alongside development, community and... The post Atlanta Housing, Atlanta Beltline and Partners Break Ground on 100 Percent Affordable Overlook at Garson appeared first on Atlanta Housing .",
+      "url": "https://www.atlantahousing.org/atlanta-housing-atlanta-beltline-and-partners-break-ground-on-100-percent-affordable-overlook-at-garson/",
+      "publisherUrl": "https://www.atlantahousing.org/latest-at-ah/",
+      "publishedAt": "2026-08-05T16:00:09.000Z",
+      "updatedAt": "2026-08-05T16:00:09.000Z",
+      "imageUrl": null,
+      "contentHash": "7581307e5ff277d9816a",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "66ac653a0aebee200399",
@@ -580,8 +609,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/5933x3955/20b8cefe5f/business-district_photo-by-erin-sintos_2025-08-29-13.jpg/m/1200x630/filters:format(jpeg)",
       "contentHash": "f4b060cbd844a5b9d01c",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "199c578a330596813fd1",
@@ -601,8 +630,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/ccd-picture-scaled.jpg",
       "contentHash": "52c68119c9e8e318a06b",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "4ba5f7d0740775a9f678",
@@ -622,8 +651,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/rli-logo-press-header-2.png",
       "contentHash": "c5fffcc4ef234cf6e268",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "5672137da20b1129ac75",
@@ -643,8 +672,29 @@
       "imageUrl": null,
       "contentHash": "c7d3df9ece2e41df0977",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+    },
+    {
+      "id": "b294645a06cc344d85d5",
+      "sourceId": "atlanta_housing",
+      "sourceName": "Atlanta Housing",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Housing & Neighborhoods",
+      "acquisition": "official_rss",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Atlanta Housing CEO Terri M. Lee Appointed Senior Vice President of National PHADA Board",
+      "summary": "PHADA represents nearly 1,900 housing agencies overseeing more than 1.9 million low-income housing units across the U.S. ATLANTA – Today, the Public Housing Authorities... The post Atlanta Housing CEO Terri M. Lee Appointed Senior Vice President of National PHADA Board appeared first on Atlanta Housing .",
+      "url": "https://www.atlantahousing.org/atlanta-housing-ceo-terri-m-lee-appointed-senior-vice-president-of-national-phada-board/",
+      "publisherUrl": "https://www.atlantahousing.org/latest-at-ah/",
+      "publishedAt": "2026-06-25T13:42:39.000Z",
+      "updatedAt": "2026-06-25T13:42:39.000Z",
+      "imageUrl": null,
+      "contentHash": "9b5e864afaf5ac6f8c1b",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "fafbf71d20fa86245788",
@@ -664,8 +714,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/pullman1_lP3RqWg.jpg",
       "contentHash": "7a7f6d02dc8f179b0fd4",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "afc54ba0d1d2698486c6",
@@ -685,8 +735,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/sam_9542r_y6a3q9X.jpg",
       "contentHash": "7e6963e4a0ff4a3b631d",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "0a047533a306d0179911",
@@ -706,8 +756,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/atlanta_econ_mobility_insights_7JNJbmL.png",
       "contentHash": "5c42d69cc129bed4c7d1",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "a18f4dfab1fb389dd98c",
@@ -727,8 +777,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/blackrock_image_PgnYLYN.png",
       "contentHash": "d81a04af4ba15b3b04d9",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "f56d3d266f38e4244bf3",
@@ -748,8 +798,29 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/sam_1752_g3p39BQ.jpg",
       "contentHash": "2a2f3210b7cc736ea4a0",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+    },
+    {
+      "id": "8863330ec2fa19eb71ae",
+      "sourceId": "atlanta_housing",
+      "sourceName": "Atlanta Housing",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Housing & Neighborhoods",
+      "acquisition": "official_rss",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Atlanta Housing Board of Commissioners Approves FY 2027 Budget",
+      "summary": "$544.6M allocated to expand housing opportunity, resident services, development pipeline, and overall impact for the City of Atlanta ATLANTA – The Atlanta Housing Board of Commissioners voted unanimously today to approve a $544.6 million balanced budget... The post Atlanta Housing Board of Commissioners Approves FY 2027 Budget appeared first on Atlanta Housing .",
+      "url": "https://www.atlantahousing.org/atlanta-housing-board-of-commissioners-approves-fy-2027-budget/",
+      "publisherUrl": "https://www.atlantahousing.org/latest-at-ah/",
+      "publishedAt": "2026-05-27T19:50:43.000Z",
+      "updatedAt": "2026-05-27T19:50:43.000Z",
+      "imageUrl": null,
+      "contentHash": "db93bdc4bc5aaf0ccd5c",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "d8cacce85da99dbd3e7e",
@@ -769,8 +840,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/_05a3414_j3V3LrW.jpg",
       "contentHash": "0ff645ebd61eeb829b1a",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "06f938b3d9b0a2643fdb",
@@ -790,8 +861,50 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/sanct_Ozyz6lN.jpeg",
       "contentHash": "c2909df68dab0c151f94",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+    },
+    {
+      "id": "a5c3297725989a8fc81a",
+      "sourceId": "atlanta_housing",
+      "sourceName": "Atlanta Housing",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Housing & Neighborhoods",
+      "acquisition": "official_rss",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Atlanta Housing Announces New $60,000 Down Payment Assistance Program and Partnership with Pretium to Expand Homeownership Opportunities",
+      "summary": "New initiative builds on existing program previously offering up to $25,000 in assistance for eligible families New pilot program expands financial support, mortgage readiness and access to quality... The post Atlanta Housing Announces New $60,000 Down Payment Assistance Program and Partnership with Pretium to Expand Homeownership Opportunities appeared first on Atlanta Housing .",
+      "url": "https://www.atlantahousing.org/atlanta-housing-announces-new-60000-down-payment-assistance-program-and-partnership-with-pretium-to-expand-homeownership-opportunities/",
+      "publisherUrl": "https://www.atlantahousing.org/latest-at-ah/",
+      "publishedAt": "2026-05-12T20:24:00.000Z",
+      "updatedAt": "2026-05-12T20:24:00.000Z",
+      "imageUrl": null,
+      "contentHash": "3b82269349260f505519",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+    },
+    {
+      "id": "d94d5d3088c062d79bbd",
+      "sourceId": "atlanta_housing",
+      "sourceName": "Atlanta Housing",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Housing & Neighborhoods",
+      "acquisition": "official_rss",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Atlanta Housing Names Interim Chief Operating Officer Ahead of Executive Leader’s May 8th Retirement",
+      "summary": "National Search for COO Underway Atlanta — Today, Atlanta Housing announced the appointment of Sharese M. Reyes as Interim Chief Operating Officer, effective upon... The post Atlanta Housing Names Interim Chief Operating Officer Ahead of Executive Leader’s May 8th Retirement appeared first on Atlanta Housing .",
+      "url": "https://www.atlantahousing.org/atlanta-housing-names-interim-chief-operating-officer-ahead-of-executive-leaders-may-8th-retirement/",
+      "publisherUrl": "https://www.atlantahousing.org/latest-at-ah/",
+      "publishedAt": "2026-05-04T17:41:49.000Z",
+      "updatedAt": "2026-05-04T17:41:49.000Z",
+      "imageUrl": null,
+      "contentHash": "bd26c6e3704df92fa15b",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "c14c6ce425707816ee27",
@@ -811,8 +924,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/habitat_XzRMvQv.png",
       "contentHash": "753c2b2d7a2cf60cff0c",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "9119378c0267426bba86",
@@ -832,8 +945,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/mag3_RzxypMP.jpeg",
       "contentHash": "e6ec8fd751d416a829e5",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "d8d456147cf65ce90154",
@@ -853,8 +966,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/under2_j3ekM2W.jpeg",
       "contentHash": "6f90d94dcda960118cf9",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "80884347dc223843f1b2",
@@ -874,8 +987,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/151a8594_D3OEww1.jpg",
       "contentHash": "4606c7f2c7688b1268fc",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     },
     {
       "id": "b1a8f32ddcfd05d9f6d6",
@@ -895,16 +1008,320 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/151a8571-1r_8EoPZpa.jpg",
       "contentHash": "7f4f106c59a11897992c",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T22:57:44.944Z",
-      "lastSeenAt": "2026-08-11T23:14:28.850Z"
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+    },
+    {
+      "id": "191fee8617d675cc3b80",
+      "sourceId": "atlanta_housing",
+      "sourceName": "Atlanta Housing",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Housing & Neighborhoods",
+      "acquisition": "official_rss",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Atlanta Housing Chief Operating Officer Dwayne Vaughn Announces Retirement After Decades of Housing Leadership",
+      "summary": "Veteran affordable housing leader to conclude more than 35-year career advancing housing opportunity and community development ATLANTA – Atlanta Housing today announced that Chief... The post Atlanta Housing Chief Operating Officer Dwayne Vaughn Announces Retirement After Decades of Housing Leadership appeared first on Atlanta Housing .",
+      "url": "https://www.atlantahousing.org/atlanta-housing-chief-operating-officer-dwayne-vaughn-announces-retirement-after-decades-of-housing-leadership/",
+      "publisherUrl": "https://www.atlantahousing.org/latest-at-ah/",
+      "publishedAt": "2026-03-10T15:15:00.000Z",
+      "updatedAt": "2026-03-10T15:15:00.000Z",
+      "imageUrl": null,
+      "contentHash": "991d52453e6272739059",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+    },
+    {
+      "id": "372bf20b8b4981c711c7",
+      "sourceId": "atlanta_housing",
+      "sourceName": "Atlanta Housing",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Housing & Neighborhoods",
+      "acquisition": "official_rss",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Atlanta Housing Announces Appointment of Bentina Terry to Board of Commissioners",
+      "summary": "ATLANTA – Today, Atlanta Housing (AH) announced that Mayor Andre Dickens appointed Bentina Terry to the Atlanta Housing Board of Commissioners for a five-year... The post Atlanta Housing Announces Appointment of Bentina Terry to Board of Commissioners appeared first on Atlanta Housing .",
+      "url": "https://www.atlantahousing.org/atlanta-housing-announces-appointment-of-bentina-terry-to-board-of-commissioners/",
+      "publisherUrl": "https://www.atlantahousing.org/latest-at-ah/",
+      "publishedAt": "2026-02-03T16:29:58.000Z",
+      "updatedAt": "2026-02-03T16:29:58.000Z",
+      "imageUrl": null,
+      "contentHash": "ab23264f95ebaf89cfb7",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+    },
+    {
+      "id": "79b334add01cabbde7f8",
+      "sourceId": "atlanta_housing",
+      "sourceName": "Atlanta Housing",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Housing & Neighborhoods",
+      "acquisition": "official_rss",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer",
+      "summary": "Veteran finance leader to oversee enterprise-wide financial strategy and operations ATLANTA – Atlanta Housing today announced the appointment of Abdel Altamimi as Chief Financial... The post Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer appeared first on Atlanta Housing .",
+      "url": "https://www.atlantahousing.org/atlanta-housing-appoints-abdel-altamimi-as-chief-financial-officer/",
+      "publisherUrl": "https://www.atlantahousing.org/latest-at-ah/",
+      "publishedAt": "2026-01-26T21:53:54.000Z",
+      "updatedAt": "2026-01-26T21:53:54.000Z",
+      "imageUrl": null,
+      "contentHash": "6027474ea029061e7ead",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-11T23:22:10.674Z",
+      "lastSeenAt": "2026-08-11T23:22:10.674Z"
     }
   ],
   "clusters": [
     {
-      "id": "e80096f012e2e487dfd5",
+      "id": "de7ccf215a53072c99fd",
+      "itemIds": [
+        "8863330ec2fa19eb71ae"
+      ],
+      "headline": "Atlanta Housing Board of Commissioners Approves FY 2027 Budget",
+      "summary": "$544.6M allocated to expand housing opportunity, resident services, development pipeline, and overall impact for the City of Atlanta ATLANTA – The Atlanta Housing Board of Commissioners voted unanimously today to approve a $544.6 million balanced budget... The post Atlanta Housing Board of Commissioners Approves FY 2027 Budget appeared first on Atlanta Housing .",
+      "category": "Housing & Neighborhoods",
+      "eventType": "APPROVAL",
+      "publishedAt": "2026-05-27T19:50:43.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_housing",
+          "name": "Atlanta Housing",
+          "tier": "A",
+          "url": "https://www.atlantahousing.org/atlanta-housing-board-of-commissioners-approves-fy-2027-budget/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Housing Board of Commissioners Approves FY 2027 Budget",
+        "dek": "$544.6M allocated to expand housing opportunity, resident services, development pipeline, and overall impact for the City of Atlanta ATLANTA – The Atlanta Housing Board of Commissioners voted unanimously today to approve a $544.6 million balanced budget... The post Atlanta Housing Board of Commissioners Approves FY 2027 Budget appeared first on Atlanta Housing .",
+        "whatChanged": "Atlanta Housing published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 75.47,
+        "impact": 100,
+        "novelty": 92,
+        "timeliness": 20,
+        "shareability": 66,
+        "commercial": 47,
+        "evidence": 84,
+        "locality": 100
+      }
+    },
+    {
+      "id": "d2067b48542e6613a639",
+      "itemIds": [
+        "b294645a06cc344d85d5"
+      ],
+      "headline": "Atlanta Housing CEO Terri M. Lee Appointed Senior Vice President of National PHADA Board",
+      "summary": "PHADA represents nearly 1,900 housing agencies overseeing more than 1.9 million low-income housing units across the U.S. ATLANTA – Today, the Public Housing Authorities... The post Atlanta Housing CEO Terri M. Lee Appointed Senior Vice President of National PHADA Board appeared first on Atlanta Housing .",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-06-25T13:42:39.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_housing",
+          "name": "Atlanta Housing",
+          "tier": "A",
+          "url": "https://www.atlantahousing.org/atlanta-housing-ceo-terri-m-lee-appointed-senior-vice-president-of-national-phada-board/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Housing CEO Terri M. Lee Appointed Senior Vice President of National PHADA Board",
+        "dek": "PHADA represents nearly 1,900 housing agencies overseeing more than 1.9 million low-income housing units across the U.S. ATLANTA – Today, the Public Housing Authorities... The post Atlanta Housing CEO Terri M. Lee Appointed Senior Vice President of National PHADA Board appeared first on Atlanta Housing .",
+        "whatChanged": "Atlanta Housing published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 74.84,
+        "impact": 100,
+        "novelty": 92,
+        "timeliness": 20,
+        "shareability": 66,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 100
+      }
+    },
+    {
+      "id": "9af68a0a44ff3139da7d",
+      "itemIds": [
+        "191fee8617d675cc3b80"
+      ],
+      "headline": "Atlanta Housing Chief Operating Officer Dwayne Vaughn Announces Retirement After Decades of Housing Leadership",
+      "summary": "Veteran affordable housing leader to conclude more than 35-year career advancing housing opportunity and community development ATLANTA – Atlanta Housing today announced that Chief... The post Atlanta Housing Chief Operating Officer Dwayne Vaughn Announces Retirement After Decades of Housing Leadership appeared first on Atlanta Housing .",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-03-10T15:15:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_housing",
+          "name": "Atlanta Housing",
+          "tier": "A",
+          "url": "https://www.atlantahousing.org/atlanta-housing-chief-operating-officer-dwayne-vaughn-announces-retirement-after-decades-of-housing-leadership/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Housing Chief Operating Officer Dwayne Vaughn Announces Retirement After Decades of Housing Leadership",
+        "dek": "Veteran affordable housing leader to conclude more than 35-year career advancing housing opportunity and community development ATLANTA – Atlanta Housing today announced that Chief... The post Atlanta Housing Chief Operating Officer Dwayne Vaughn Announces Retirement After Decades of Housing Leadership appeared first on Atlanta Housing .",
+        "whatChanged": "Atlanta Housing published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 74.43,
+        "impact": 100,
+        "novelty": 92,
+        "timeliness": 20,
+        "shareability": 58,
+        "commercial": 47,
+        "evidence": 84,
+        "locality": 100
+      }
+    },
+    {
+      "id": "926b9e45ce67521f21de",
+      "itemIds": [
+        "372bf20b8b4981c711c7"
+      ],
+      "headline": "Atlanta Housing Announces Appointment of Bentina Terry to Board of Commissioners",
+      "summary": "ATLANTA – Today, Atlanta Housing (AH) announced that Mayor Andre Dickens appointed Bentina Terry to the Atlanta Housing Board of Commissioners for a five-year... The post Atlanta Housing Announces Appointment of Bentina Terry to Board of Commissioners appeared first on Atlanta Housing .",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-02-03T16:29:58.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_housing",
+          "name": "Atlanta Housing",
+          "tier": "A",
+          "url": "https://www.atlantahousing.org/atlanta-housing-announces-appointment-of-bentina-terry-to-board-of-commissioners/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Housing Announces Appointment of Bentina Terry to Board of Commissioners",
+        "dek": "ATLANTA – Today, Atlanta Housing (AH) announced that Mayor Andre Dickens appointed Bentina Terry to the Atlanta Housing Board of Commissioners for a five-year... The post Atlanta Housing Announces Appointment of Bentina Terry to Board of Commissioners appeared first on Atlanta Housing .",
+        "whatChanged": "Atlanta Housing published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 71.76,
+        "impact": 96,
+        "novelty": 92,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 100
+      }
+    },
+    {
+      "id": "4d56336e11476fc0eb55",
+      "itemIds": [
+        "a5c3297725989a8fc81a"
+      ],
+      "headline": "Atlanta Housing Announces New $60,000 Down Payment Assistance Program and Partnership with Pretium to Expand Homeownership Opportunities",
+      "summary": "New initiative builds on existing program previously offering up to $25,000 in assistance for eligible families New pilot program expands financial support, mortgage readiness and access to quality... The post Atlanta Housing Announces New $60,000 Down Payment Assistance Program and Partnership with Pretium to Expand Homeownership Opportunities appeared first on Atlanta Housing .",
+      "category": "Housing & Neighborhoods",
+      "eventType": "FINANCING",
+      "publishedAt": "2026-05-12T20:24:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_housing",
+          "name": "Atlanta Housing",
+          "tier": "A",
+          "url": "https://www.atlantahousing.org/atlanta-housing-announces-new-60000-down-payment-assistance-program-and-partnership-with-pretium-to-expand-homeownership-opportunities/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Housing Announces New $60,000 Down Payment Assistance Program and Partnership with Pretium to Expand Homeownership Opportunities",
+        "dek": "New initiative builds on existing program previously offering up to $25,000 in assistance for eligible families New pilot program expands financial support, mortgage readiness and access to quality... The post Atlanta Housing Announces New $60,000 Down Payment Assistance Program and Partnership with Pretium to Expand Homeownership Opportunities appeared first on Atlanta Housing .",
+        "whatChanged": "Atlanta Housing published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 71.27,
+        "impact": 80,
+        "novelty": 92,
+        "timeliness": 20,
+        "shareability": 90,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 87
+      }
+    },
+    {
+      "id": "1653ceea6e15d276c2de",
       "itemIds": [
         "6302a76fda702723bf3d",
-        "f3667c376a276743f471"
+        "f3667c376a276743f471",
+        "ecc2fa4ebd27b7d56cf3"
       ],
       "headline": "Atlanta Beltline Breaks Ground on Overlook at Garson",
       "summary": "Atlanta Beltline celebrates the start of construction on Overlook at Garson",
@@ -928,31 +1345,135 @@
           "url": "https://beltline.org/press-release/overlook-at-garson-groundbreaking/",
           "acquisition": "sitemap",
           "retrievedContent": true
+        },
+        {
+          "sourceId": "atlanta_housing",
+          "name": "Atlanta Housing",
+          "tier": "A",
+          "url": "https://www.atlantahousing.org/atlanta-housing-atlanta-beltline-and-partners-break-ground-on-100-percent-affordable-overlook-at-garson/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
         }
       ],
       "corroboration": {
-        "status": "ATTRIBUTED_PRIMARY",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 2,
+        "status": "CORROBORATED",
+        "contentSourceCount": 2,
+        "primaryEvidenceCount": 3,
         "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
       },
-      "evidenceLabel": "Primary-source report",
+      "evidenceLabel": "Corroborated",
       "publishable": true,
       "draft": {
         "headline": "Atlanta Beltline Breaks Ground on Overlook at Garson",
         "dek": "Atlanta Beltline celebrates the start of construction on Overlook at Garson",
         "whatChanged": "Atlanta BeltLine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
         "whyItMatters": "Major projects change the built environment, nearby business conditions and the timing of future activity.",
+        "unknown": "Later implementation and outcome evidence may still change the picture.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 71.24,
+        "impact": 64,
+        "novelty": 92,
+        "timeliness": 57,
+        "shareability": 42,
+        "commercial": 47,
+        "evidence": 100,
+        "locality": 100
+      }
+    },
+    {
+      "id": "a48a7c343be62b2a365e",
+      "itemIds": [
+        "d94d5d3088c062d79bbd"
+      ],
+      "headline": "Atlanta Housing Names Interim Chief Operating Officer Ahead of Executive Leader’s May 8th Retirement",
+      "summary": "National Search for COO Underway Atlanta — Today, Atlanta Housing announced the appointment of Sharese M. Reyes as Interim Chief Operating Officer, effective upon... The post Atlanta Housing Names Interim Chief Operating Officer Ahead of Executive Leader’s May 8th Retirement appeared first on Atlanta Housing .",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-05-04T17:41:49.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_housing",
+          "name": "Atlanta Housing",
+          "tier": "A",
+          "url": "https://www.atlantahousing.org/atlanta-housing-names-interim-chief-operating-officer-ahead-of-executive-leaders-may-8th-retirement/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Housing Names Interim Chief Operating Officer Ahead of Executive Leader’s May 8th Retirement",
+        "dek": "National Search for COO Underway Atlanta — Today, Atlanta Housing announced the appointment of Sharese M. Reyes as Interim Chief Operating Officer, effective upon... The post Atlanta Housing Names Interim Chief Operating Officer Ahead of Executive Leader’s May 8th Retirement appeared first on Atlanta Housing .",
+        "whatChanged": "Atlanta Housing published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
         "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 61.09,
-        "impact": 64,
-        "novelty": 35,
-        "timeliness": 57,
-        "shareability": 42,
-        "commercial": 47,
+        "total": 70.8,
+        "impact": 88,
+        "novelty": 92,
+        "timeliness": 20,
+        "shareability": 58,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 100
+      }
+    },
+    {
+      "id": "53b94ac1b207fec22ef1",
+      "itemIds": [
+        "79b334add01cabbde7f8"
+      ],
+      "headline": "Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer",
+      "summary": "Veteran finance leader to oversee enterprise-wide financial strategy and operations ATLANTA – Atlanta Housing today announced the appointment of Abdel Altamimi as Chief Financial... The post Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer appeared first on Atlanta Housing .",
+      "category": "Housing & Neighborhoods",
+      "eventType": "FINANCING",
+      "publishedAt": "2026-01-26T21:53:54.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_housing",
+          "name": "Atlanta Housing",
+          "tier": "A",
+          "url": "https://www.atlantahousing.org/atlanta-housing-appoints-abdel-altamimi-as-chief-financial-officer/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer",
+        "dek": "Veteran finance leader to oversee enterprise-wide financial strategy and operations ATLANTA – Atlanta Housing today announced the appointment of Abdel Altamimi as Chief Financial... The post Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer appeared first on Atlanta Housing .",
+        "whatChanged": "Atlanta Housing published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 69.76,
+        "impact": 88,
+        "novelty": 92,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 38,
         "evidence": 84,
         "locality": 100
       }
@@ -995,9 +1516,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 60.14,
+        "total": 68.69,
         "impact": 72,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 58,
         "commercial": 65,
@@ -1043,9 +1564,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 59.1,
+        "total": 67.65,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 98,
         "shareability": 58,
         "commercial": 38,
@@ -1091,9 +1612,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 58.74,
+        "total": 67.29,
         "impact": 88,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 58,
         "commercial": 38,
@@ -1139,9 +1660,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 57.84,
+        "total": 66.39,
         "impact": 72,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 47,
@@ -1187,9 +1708,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 57.84,
+        "total": 66.39,
         "impact": 72,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 47,
@@ -1235,9 +1756,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 56.51,
+        "total": 65.06,
         "impact": 88,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 47,
@@ -1283,9 +1804,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 55.02,
+        "total": 63.57,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 98,
         "shareability": 42,
         "commercial": 38,
@@ -1331,9 +1852,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 54.87,
+        "total": 63.42,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 91,
         "shareability": 50,
         "commercial": 38,
@@ -1379,9 +1900,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 54.46,
+        "total": 63.01,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 97,
         "shareability": 58,
         "commercial": 47,
@@ -1427,9 +1948,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 54.41,
+        "total": 62.96,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 99,
         "shareability": 50,
         "commercial": 38,
@@ -1475,9 +1996,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 54.35,
+        "total": 62.9,
         "impact": 64,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 38,
         "shareability": 42,
         "commercial": 47,
@@ -1523,9 +2044,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 53.62,
+        "total": 62.17,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 85,
         "shareability": 42,
         "commercial": 47,
@@ -1571,9 +2092,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 53.59,
+        "total": 62.14,
         "impact": 64,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 65,
@@ -1619,9 +2140,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 53.17,
+        "total": 61.72,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 88,
         "shareability": 50,
         "commercial": 47,
@@ -1667,9 +2188,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 52.96,
+        "total": 61.51,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 56,
         "shareability": 42,
         "commercial": 38,
@@ -1715,9 +2236,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 52.69,
+        "total": 61.24,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 95,
         "shareability": 42,
         "commercial": 38,
@@ -1763,9 +2284,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.86,
+        "total": 60.41,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 84,
         "shareability": 50,
         "commercial": 38,
@@ -1811,9 +2332,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.67,
+        "total": 60.22,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 89,
         "shareability": 42,
         "commercial": 38,
@@ -1859,9 +2380,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.5,
+        "total": 60.05,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 88,
         "shareability": 42,
         "commercial": 38,
@@ -1907,9 +2428,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.14,
+        "total": 59.69,
         "impact": 64,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 56,
@@ -1955,9 +2476,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 50.7,
+        "total": 59.25,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 94,
         "shareability": 42,
         "commercial": 38,
@@ -2003,9 +2524,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 50.55,
+        "total": 59.1,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 65,
@@ -2051,9 +2572,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 50.2,
+        "total": 58.75,
         "impact": 64,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 28,
         "shareability": 42,
         "commercial": 38,
@@ -2099,9 +2620,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 49.77,
+        "total": 58.32,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 65,
@@ -2147,9 +2668,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 48.66,
+        "total": 57.21,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 38,
@@ -2195,9 +2716,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 48.51,
+        "total": 57.06,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 47,
@@ -2243,10 +2764,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 46.69,
+        "total": 55.07,
         "impact": 48,
-        "novelty": 35,
-        "timeliness": 98,
+        "novelty": 92,
+        "timeliness": 97,
         "shareability": 50,
         "commercial": 47,
         "evidence": 35,
@@ -2291,9 +2812,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 46.06,
+        "total": 54.61,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -2339,9 +2860,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 44.51,
+        "total": 53.06,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 59,
         "shareability": 50,
         "commercial": 38,
@@ -2387,9 +2908,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 43.21,
+        "total": 51.76,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -2435,9 +2956,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 41.52,
+        "total": 50.07,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -2483,9 +3004,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 40.12,
+        "total": 48.67,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 38,
@@ -2495,10 +3016,10 @@
     }
   ],
   "morningBrief": {
-    "generatedAt": "2026-08-11T23:14:28.850Z",
+    "generatedAt": "2026-08-11T23:22:10.674Z",
     "label": "Morning Brief",
     "itemIds": [
-      "e80096f012e2e487dfd5",
+      "1653ceea6e15d276c2de",
       "b9b9e11ba4e8ed23ebd5",
       "47b9aed0333e1aef9145",
       "298bc7e9f8f7aacb337b",
@@ -2506,7 +3027,7 @@
     ]
   },
   "afternoonUpdate": {
-    "generatedAt": "2026-08-11T23:14:28.850Z",
+    "generatedAt": "2026-08-11T23:22:10.674Z",
     "label": "Afternoon Update",
     "itemIds": [
       "8405c48461f9b912e4ec",
@@ -2516,19 +3037,82 @@
   },
   "editorialQueue": [
     {
-      "clusterId": "e80096f012e2e487dfd5",
+      "clusterId": "de7ccf215a53072c99fd",
+      "headline": "Atlanta Housing Board of Commissioners Approves FY 2027 Budget",
+      "category": "Housing & Neighborhoods",
+      "score": 75.47,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "d2067b48542e6613a639",
+      "headline": "Atlanta Housing CEO Terri M. Lee Appointed Senior Vice President of National PHADA Board",
+      "category": "Housing & Neighborhoods",
+      "score": 74.84,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "9af68a0a44ff3139da7d",
+      "headline": "Atlanta Housing Chief Operating Officer Dwayne Vaughn Announces Retirement After Decades of Housing Leadership",
+      "category": "Housing & Neighborhoods",
+      "score": 74.43,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "926b9e45ce67521f21de",
+      "headline": "Atlanta Housing Announces Appointment of Bentina Terry to Board of Commissioners",
+      "category": "Housing & Neighborhoods",
+      "score": 71.76,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "4d56336e11476fc0eb55",
+      "headline": "Atlanta Housing Announces New $60,000 Down Payment Assistance Program and Partnership with Pretium to Expand Homeownership Opportunities",
+      "category": "Housing & Neighborhoods",
+      "score": 71.27,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "1653ceea6e15d276c2de",
       "headline": "Atlanta Beltline Breaks Ground on Overlook at Garson",
       "category": "Development & Infrastructure",
-      "score": 61.09,
+      "score": 71.24,
+      "evidenceLabel": "Corroborated",
+      "sourceCount": 3,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "a48a7c343be62b2a365e",
+      "headline": "Atlanta Housing Names Interim Chief Operating Officer Ahead of Executive Leader’s May 8th Retirement",
+      "category": "Housing & Neighborhoods",
+      "score": 70.8,
       "evidenceLabel": "Primary-source report",
-      "sourceCount": 2,
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "53b94ac1b207fec22ef1",
+      "headline": "Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer",
+      "category": "Housing & Neighborhoods",
+      "score": 69.76,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
       "status": "READY_TO_REVIEW"
     },
     {
       "clusterId": "0ee182270f841210ce65",
       "headline": "Invest Atlanta Makes Strategic Investment in Municipal Market Merchants",
       "category": "Workforce & Economy",
-      "score": 60.14,
+      "score": 68.69,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2537,7 +3121,7 @@
       "clusterId": "cf97af187e63f1c2b6b8",
       "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
       "category": "Housing & Neighborhoods",
-      "score": 59.1,
+      "score": 67.65,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -2546,7 +3130,7 @@
       "clusterId": "9ce67f6906e4d261b22e",
       "headline": "Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
       "category": "Housing & Neighborhoods",
-      "score": 58.74,
+      "score": 67.29,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2555,7 +3139,7 @@
       "clusterId": "5d36685938fcd27ab7bc",
       "headline": "Invest Atlanta Advances New Affordable Housing Developments",
       "category": "Housing & Neighborhoods",
-      "score": 57.84,
+      "score": 66.39,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2564,7 +3148,7 @@
       "clusterId": "c5eb7a1b0e34401721f4",
       "headline": "Invest Atlanta Collaborates with Atlanta Habitat for Humanity",
       "category": "Housing & Neighborhoods",
-      "score": 57.84,
+      "score": 66.39,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2573,7 +3157,7 @@
       "clusterId": "23a6df7bdb68a99d4e57",
       "headline": "TAD Grants Finance Construction of Affordable Housing",
       "category": "Housing & Neighborhoods",
-      "score": 56.51,
+      "score": 65.06,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2582,7 +3166,7 @@
       "clusterId": "572ea51017a41f4b3bc9",
       "headline": "Regions Bank to invest millions in namesake Midtown Atlanta office tower",
       "category": "Atlanta News",
-      "score": 55.02,
+      "score": 63.57,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -2591,7 +3175,7 @@
       "clusterId": "0d86bcf25e4fa5c0b1b9",
       "headline": "Exclusive: 2nd Atlanta location of Hal’s The Steakhouse opening in Midtown",
       "category": "Business Moves",
-      "score": 54.87,
+      "score": 63.42,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -2600,7 +3184,7 @@
       "clusterId": "b9b9e11ba4e8ed23ebd5",
       "headline": "ARC’s 2026 LINK™ Trip Explores Urban Innovation in Mexico City",
       "category": "Business Moves",
-      "score": 54.46,
+      "score": 63.01,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2609,7 +3193,7 @@
       "clusterId": "830e492bf43da090c6ed",
       "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
       "category": "Housing & Neighborhoods",
-      "score": 54.41,
+      "score": 62.96,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -2618,7 +3202,7 @@
       "clusterId": "47b9aed0333e1aef9145",
       "headline": "Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail",
       "category": "Transportation & Airport",
-      "score": 54.35,
+      "score": 62.9,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2627,7 +3211,7 @@
       "clusterId": "eb14315ff8277e07c454",
       "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
       "category": "Development & Infrastructure",
-      "score": 53.62,
+      "score": 62.17,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -2636,7 +3220,7 @@
       "clusterId": "1b7b96ed8eedd4697e97",
       "headline": "Supporting Small Business Sustainability",
       "category": "Public Money",
-      "score": 53.59,
+      "score": 62.14,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2645,7 +3229,7 @@
       "clusterId": "ef93e2777b1f53c3f87a",
       "headline": "&pizza franchisees plan further expansion after opening of first Atlanta restaurant",
       "category": "Food, Retail & Hospitality",
-      "score": 53.17,
+      "score": 61.72,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -2654,7 +3238,7 @@
       "clusterId": "298bc7e9f8f7aacb337b",
       "headline": "Pittsburgh Yards Welcomes Piedmont Mobile Health Unit Powered by Google",
       "category": "Housing & Neighborhoods",
-      "score": 52.96,
+      "score": 61.51,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2663,7 +3247,7 @@
       "clusterId": "41e47ec893cd12299bcc",
       "headline": "Five Atlanta healthcare companies using AI to cut costs, improve care",
       "category": "Atlanta News",
-      "score": 52.69,
+      "score": 61.24,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -2672,7 +3256,7 @@
       "clusterId": "7243e62da85c6d720257",
       "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
       "category": "Atlanta News",
-      "score": 51.86,
+      "score": 60.41,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -2681,7 +3265,7 @@
       "clusterId": "6aff090c22669bb8d82e",
       "headline": "MARTA to name permanent CEO following interviews of three finalists",
       "category": "Transportation & Airport",
-      "score": 51.67,
+      "score": 60.22,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -2690,7 +3274,7 @@
       "clusterId": "632ef27b71f2dca5cc73",
       "headline": "JLB Partners proposes Buckhead office redevelopment",
       "category": "Atlanta News",
-      "score": 51.5,
+      "score": 60.05,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -2699,7 +3283,7 @@
       "clusterId": "2ba1b6dac6045a8d8a90",
       "headline": "oaksATL Opens Mixed-Use Development in English Avenue",
       "category": "Housing & Neighborhoods",
-      "score": 51.14,
+      "score": 59.69,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2708,7 +3292,7 @@
       "clusterId": "db39ebdd13e6215cc2ae",
       "headline": "Georgia data centers use more than power and land. They need warehouse space.",
       "category": "Atlanta News",
-      "score": 50.7,
+      "score": 59.25,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -2717,7 +3301,7 @@
       "clusterId": "47125893c5924b465581",
       "headline": "Invest Atlanta Earns Prestigious Global Reaccreditation",
       "category": "Development & Infrastructure",
-      "score": 50.55,
+      "score": 59.1,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2726,7 +3310,7 @@
       "clusterId": "c098b65496a7d44f7cab",
       "headline": "Dive Bars & Hidden Gems Along the Beltline",
       "category": "Housing & Neighborhoods",
-      "score": 50.2,
+      "score": 58.75,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2735,7 +3319,7 @@
       "clusterId": "4a8db6af8311a3a634a6",
       "headline": "Small Business Improvement Grant Helps Goodr Feed Its Mission",
       "category": "Public Money",
-      "score": 49.77,
+      "score": 58.32,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2744,7 +3328,7 @@
       "clusterId": "51e10ed790f457ff8e0c",
       "headline": "C-PACE Financing Boosts Energy Efficiencies",
       "category": "Public Money",
-      "score": 48.66,
+      "score": 57.21,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2753,7 +3337,7 @@
       "clusterId": "e1a25742df55ebe1e4c8",
       "headline": "TAD Grant Supports Improvements to Upper Alabama Street and Peachtree Fountains Plaza",
       "category": "Public Money",
-      "score": 48.51,
+      "score": 57.06,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2762,7 +3346,7 @@
       "clusterId": "b1d2442a519582fe8855",
       "headline": "Restaurant roundup: Hal's to open in Midtown, Go Greek arrives in Atlanta",
       "category": "Food, Retail & Hospitality",
-      "score": 46.69,
+      "score": 55.07,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -2771,7 +3355,7 @@
       "clusterId": "f6be2de676d428d3b21d",
       "headline": "A Peek Inside New Azalea Fresh Market Location",
       "category": "Business & Economy",
-      "score": 46.06,
+      "score": 54.61,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2780,7 +3364,7 @@
       "clusterId": "8405c48461f9b912e4ec",
       "headline": "FIFA World Cup 26™ In Review",
       "category": "Transportation & Economy",
-      "score": 44.51,
+      "score": 53.06,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2789,7 +3373,7 @@
       "clusterId": "69bd8febd01a3be1cb02",
       "headline": "Atlanta Regional Commission Announces 2026 Regional Leadership Institute Class",
       "category": "Transportation & Economy",
-      "score": 43.21,
+      "score": 51.76,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2798,7 +3382,7 @@
       "clusterId": "9b6d26dd732c7511de90",
       "headline": "Atlanta Regional Commission Announces 2026 Community Centered Design Class",
       "category": "Transportation & Economy",
-      "score": 41.52,
+      "score": 50.07,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -2807,7 +3391,7 @@
       "clusterId": "dfa11dedbdd11c4de548",
       "headline": "From Drive Through To Drive To Avondale Estates Transformation",
       "category": "Transportation & Economy",
-      "score": 40.12,
+      "score": 48.67,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
