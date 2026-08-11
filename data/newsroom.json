@@ -1,6 +1,6 @@
 {
   "schemaVersion": "atlsignal_newsroom_v1",
-  "generatedAt": "2026-08-11T23:22:10.674Z",
+  "generatedAt": "2026-08-11T23:24:43.708Z",
   "market": "atlanta",
   "timezone": "America/New_York",
   "editionWindow": "AFTERNOON",
@@ -12,7 +12,7 @@
     "intendedCadence": "twice_daily",
     "status": "HEALTHY",
     "criticalFailures": [],
-    "previousRunAt": null
+    "previousRunAt": "2026-08-11T23:22:10.674Z"
   },
   "stats": {
     "activeSources": 4,
@@ -29,7 +29,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 277
+      "durationMs": 361
     },
     {
       "sourceId": "atlanta_beltline",
@@ -37,7 +37,7 @@
       "status": "OK",
       "itemCount": 5,
       "critical": true,
-      "durationMs": 51571
+      "durationMs": 53092
     },
     {
       "sourceId": "atlanta_regional_commission",
@@ -45,7 +45,7 @@
       "status": "OK",
       "itemCount": 5,
       "critical": true,
-      "durationMs": 50955
+      "durationMs": 52175
     },
     {
       "sourceId": "atlanta_housing",
@@ -53,7 +53,7 @@
       "status": "OK",
       "itemCount": 8,
       "critical": true,
-      "durationMs": 90
+      "durationMs": 998
     },
     {
       "sourceId": "ajc",
@@ -62,7 +62,7 @@
       "itemCount": 4,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 550
+      "durationMs": 543
     },
     {
       "sourceId": "atlanta_business_chronicle",
@@ -71,7 +71,7 @@
       "itemCount": 7,
       "critical": false,
       "accessState": "SUBSCRIPTION_CONSTRAINED",
-      "durationMs": 550
+      "durationMs": 543
     },
     {
       "sourceId": "urbanize_atlanta",
@@ -80,7 +80,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 550
+      "durationMs": 543
     },
     {
       "sourceId": "rough_draft_atlanta",
@@ -89,7 +89,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 550
+      "durationMs": 543
     },
     {
       "sourceId": "axios_atlanta",
@@ -98,7 +98,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 550
+      "durationMs": 543
     },
     {
       "sourceId": "eater_atlanta",
@@ -107,7 +107,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 550
+      "durationMs": 543
     },
     {
       "sourceId": "saporta_report",
@@ -116,7 +116,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 550
+      "durationMs": 543
     },
     {
       "sourceId": "what_now_atlanta",
@@ -125,7 +125,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 550
+      "durationMs": 543
     },
     {
       "sourceId": "bisnow_atlanta",
@@ -134,7 +134,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 550
+      "durationMs": 543
     },
     {
       "sourceId": "city_of_atlanta",
@@ -143,7 +143,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 550
+      "durationMs": 543
     },
     {
       "sourceId": "marta",
@@ -152,7 +152,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 550
+      "durationMs": 543
     },
     {
       "sourceId": "atl_airport",
@@ -161,7 +161,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 550
+      "durationMs": 543
     },
     {
       "sourceId": "georgia_economic_development",
@@ -170,7 +170,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 550
+      "durationMs": 543
     },
     {
       "sourceId": "metro_atlanta_chamber",
@@ -179,7 +179,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 551
+      "durationMs": 543
     },
     {
       "sourceId": "discover_atlanta",
@@ -188,7 +188,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 551
+      "durationMs": 543
     }
   ],
   "items": [
@@ -211,7 +211,7 @@
       "contentHash": "e99f547abb190c8198f8",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "5ca989d22865ad43e770",
@@ -232,7 +232,7 @@
       "contentHash": "573c3dae20f3e9c06819",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "f76182f87e20479833ee",
@@ -253,7 +253,7 @@
       "contentHash": "0f627b067e26a663510b",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "d0bd1e2c7d214224c0b4",
@@ -274,7 +274,7 @@
       "contentHash": "524a38829211844db6b1",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "d6e41290c330ea7f6318",
@@ -295,7 +295,7 @@
       "contentHash": "a1616d8fe124cf2d48d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "9807276a0bd43435677a",
@@ -316,7 +316,7 @@
       "contentHash": "4773e02b41b422219b02",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "8182f339451af7d52e3b",
@@ -337,7 +337,7 @@
       "contentHash": "1fc84e89ae045474df9c",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "5b2950853a56b57ef03d",
@@ -358,7 +358,7 @@
       "contentHash": "2944fca05e19b0f7b756",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "22fb4762a172f34b618f",
@@ -379,7 +379,7 @@
       "contentHash": "7f72f5fc40e91bdec0b9",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "ed772565167260a953c0",
@@ -400,7 +400,7 @@
       "contentHash": "1566eac27fa7dc5e2735",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "677fa04638fe422cb524",
@@ -421,7 +421,7 @@
       "contentHash": "8db44551d872a88554d6",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "379d65b1b8442ede5a26",
@@ -442,7 +442,7 @@
       "contentHash": "03f7017f160c2f08c47b",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "18fcae04121b948ae0e5",
@@ -463,7 +463,7 @@
       "contentHash": "3855d73571df9c888968",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "116f92cac110e953a6d9",
@@ -484,7 +484,7 @@
       "contentHash": "d2476f4b803d29e627f5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "6302a76fda702723bf3d",
@@ -505,7 +505,7 @@
       "contentHash": "d63698e97eb327ba7899",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "7f724a4bc74ffd08cf8f",
@@ -526,7 +526,7 @@
       "contentHash": "7938e58176113e223144",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "f3667c376a276743f471",
@@ -547,7 +547,7 @@
       "contentHash": "40367f4f92e7f7d4dd12",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "c83e8c7f3cd2a9ee4b85",
@@ -568,7 +568,7 @@
       "contentHash": "486f1a0293fad8e728f4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "ecc2fa4ebd27b7d56cf3",
@@ -589,7 +589,7 @@
       "contentHash": "7581307e5ff277d9816a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "66ac653a0aebee200399",
@@ -610,7 +610,7 @@
       "contentHash": "f4b060cbd844a5b9d01c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "199c578a330596813fd1",
@@ -631,7 +631,7 @@
       "contentHash": "52c68119c9e8e318a06b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "4ba5f7d0740775a9f678",
@@ -652,7 +652,7 @@
       "contentHash": "c5fffcc4ef234cf6e268",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "5672137da20b1129ac75",
@@ -673,7 +673,7 @@
       "contentHash": "c7d3df9ece2e41df0977",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "b294645a06cc344d85d5",
@@ -694,7 +694,7 @@
       "contentHash": "9b5e864afaf5ac6f8c1b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "fafbf71d20fa86245788",
@@ -715,7 +715,7 @@
       "contentHash": "7a7f6d02dc8f179b0fd4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "afc54ba0d1d2698486c6",
@@ -736,7 +736,7 @@
       "contentHash": "7e6963e4a0ff4a3b631d",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "0a047533a306d0179911",
@@ -757,7 +757,7 @@
       "contentHash": "5c42d69cc129bed4c7d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "a18f4dfab1fb389dd98c",
@@ -778,7 +778,7 @@
       "contentHash": "d81a04af4ba15b3b04d9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "f56d3d266f38e4244bf3",
@@ -799,7 +799,7 @@
       "contentHash": "2a2f3210b7cc736ea4a0",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "8863330ec2fa19eb71ae",
@@ -820,7 +820,7 @@
       "contentHash": "db93bdc4bc5aaf0ccd5c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "d8cacce85da99dbd3e7e",
@@ -841,7 +841,7 @@
       "contentHash": "0ff645ebd61eeb829b1a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "06f938b3d9b0a2643fdb",
@@ -862,7 +862,7 @@
       "contentHash": "c2909df68dab0c151f94",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "a5c3297725989a8fc81a",
@@ -883,7 +883,7 @@
       "contentHash": "3b82269349260f505519",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "d94d5d3088c062d79bbd",
@@ -904,7 +904,7 @@
       "contentHash": "bd26c6e3704df92fa15b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "c14c6ce425707816ee27",
@@ -925,7 +925,7 @@
       "contentHash": "753c2b2d7a2cf60cff0c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "9119378c0267426bba86",
@@ -946,7 +946,7 @@
       "contentHash": "e6ec8fd751d416a829e5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "d8d456147cf65ce90154",
@@ -967,7 +967,7 @@
       "contentHash": "6f90d94dcda960118cf9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "80884347dc223843f1b2",
@@ -988,7 +988,7 @@
       "contentHash": "4606c7f2c7688b1268fc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "b1a8f32ddcfd05d9f6d6",
@@ -1009,7 +1009,7 @@
       "contentHash": "7f4f106c59a11897992c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "191fee8617d675cc3b80",
@@ -1030,7 +1030,7 @@
       "contentHash": "991d52453e6272739059",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "372bf20b8b4981c711c7",
@@ -1051,7 +1051,7 @@
       "contentHash": "ab23264f95ebaf89cfb7",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     },
     {
       "id": "79b334add01cabbde7f8",
@@ -1072,7 +1072,7 @@
       "contentHash": "6027474ea029061e7ead",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:22:10.674Z"
+      "lastSeenAt": "2026-08-11T23:24:43.708Z"
     }
   ],
   "clusters": [
@@ -1114,9 +1114,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 75.47,
+        "total": 66.92,
         "impact": 100,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 66,
         "commercial": 47,
@@ -1162,9 +1162,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 74.84,
+        "total": 66.29,
         "impact": 100,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 66,
         "commercial": 38,
@@ -1210,9 +1210,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 74.43,
+        "total": 65.88,
         "impact": 100,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 58,
         "commercial": 47,
@@ -1258,9 +1258,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 71.76,
+        "total": 63.21,
         "impact": 96,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -1306,9 +1306,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 71.27,
+        "total": 62.72,
         "impact": 80,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 90,
         "commercial": 38,
@@ -1372,9 +1372,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 71.24,
+        "total": 62.69,
         "impact": 64,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 57,
         "shareability": 42,
         "commercial": 47,
@@ -1420,9 +1420,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 70.8,
+        "total": 62.25,
         "impact": 88,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 58,
         "commercial": 38,
@@ -1468,9 +1468,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 69.76,
+        "total": 61.21,
         "impact": 88,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -1516,9 +1516,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 68.69,
+        "total": 60.14,
         "impact": 72,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 58,
         "commercial": 65,
@@ -1564,9 +1564,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 67.65,
+        "total": 59.1,
         "impact": 56,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 98,
         "shareability": 58,
         "commercial": 38,
@@ -1612,9 +1612,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 67.29,
+        "total": 58.74,
         "impact": 88,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 58,
         "commercial": 38,
@@ -1660,9 +1660,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 66.39,
+        "total": 57.84,
         "impact": 72,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 47,
@@ -1708,9 +1708,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 66.39,
+        "total": 57.84,
         "impact": 72,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 47,
@@ -1756,9 +1756,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 65.06,
+        "total": 56.51,
         "impact": 88,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 47,
@@ -1804,9 +1804,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 63.57,
+        "total": 55.02,
         "impact": 48,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 98,
         "shareability": 42,
         "commercial": 38,
@@ -1852,9 +1852,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 63.42,
+        "total": 54.87,
         "impact": 48,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 91,
         "shareability": 50,
         "commercial": 38,
@@ -1900,9 +1900,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 63.01,
+        "total": 54.46,
         "impact": 56,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 97,
         "shareability": 58,
         "commercial": 47,
@@ -1948,9 +1948,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 62.96,
+        "total": 54.41,
         "impact": 48,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 99,
         "shareability": 50,
         "commercial": 38,
@@ -1996,9 +1996,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 62.9,
+        "total": 54.35,
         "impact": 64,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 38,
         "shareability": 42,
         "commercial": 47,
@@ -2044,9 +2044,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 62.17,
+        "total": 53.62,
         "impact": 56,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 85,
         "shareability": 42,
         "commercial": 47,
@@ -2092,9 +2092,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 62.14,
+        "total": 53.59,
         "impact": 64,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 65,
@@ -2140,9 +2140,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 61.72,
+        "total": 53.17,
         "impact": 48,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 88,
         "shareability": 50,
         "commercial": 47,
@@ -2188,9 +2188,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 61.51,
+        "total": 52.96,
         "impact": 56,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 56,
         "shareability": 42,
         "commercial": 38,
@@ -2236,9 +2236,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 61.24,
+        "total": 52.69,
         "impact": 48,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 95,
         "shareability": 42,
         "commercial": 38,
@@ -2284,9 +2284,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 60.41,
+        "total": 51.86,
         "impact": 48,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 84,
         "shareability": 50,
         "commercial": 38,
@@ -2332,9 +2332,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 60.22,
+        "total": 51.67,
         "impact": 48,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 89,
         "shareability": 42,
         "commercial": 38,
@@ -2380,9 +2380,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 60.05,
+        "total": 51.5,
         "impact": 48,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 88,
         "shareability": 42,
         "commercial": 38,
@@ -2428,9 +2428,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 59.69,
+        "total": 51.14,
         "impact": 64,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 56,
@@ -2476,9 +2476,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 59.25,
+        "total": 50.7,
         "impact": 48,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 94,
         "shareability": 42,
         "commercial": 38,
@@ -2524,9 +2524,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 59.1,
+        "total": 50.55,
         "impact": 56,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 65,
@@ -2572,9 +2572,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 58.75,
+        "total": 50.2,
         "impact": 64,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 28,
         "shareability": 42,
         "commercial": 38,
@@ -2620,9 +2620,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 58.32,
+        "total": 49.77,
         "impact": 56,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 65,
@@ -2668,9 +2668,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 57.21,
+        "total": 48.66,
         "impact": 56,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 38,
@@ -2716,9 +2716,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 57.06,
+        "total": 48.51,
         "impact": 56,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 47,
@@ -2764,9 +2764,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 55.07,
+        "total": 46.52,
         "impact": 48,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 97,
         "shareability": 50,
         "commercial": 47,
@@ -2812,9 +2812,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 54.61,
+        "total": 46.06,
         "impact": 56,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -2860,9 +2860,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 53.06,
+        "total": 44.51,
         "impact": 56,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 59,
         "shareability": 50,
         "commercial": 38,
@@ -2908,9 +2908,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.76,
+        "total": 43.21,
         "impact": 56,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -2956,9 +2956,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 50.07,
+        "total": 41.52,
         "impact": 56,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -3004,9 +3004,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 48.67,
+        "total": 40.12,
         "impact": 56,
-        "novelty": 92,
+        "novelty": 35,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 38,
@@ -3016,7 +3016,7 @@
     }
   ],
   "morningBrief": {
-    "generatedAt": "2026-08-11T23:22:10.674Z",
+    "generatedAt": "2026-08-11T23:24:43.708Z",
     "label": "Morning Brief",
     "itemIds": [
       "1653ceea6e15d276c2de",
@@ -3027,7 +3027,7 @@
     ]
   },
   "afternoonUpdate": {
-    "generatedAt": "2026-08-11T23:22:10.674Z",
+    "generatedAt": "2026-08-11T23:24:43.708Z",
     "label": "Afternoon Update",
     "itemIds": [
       "8405c48461f9b912e4ec",
@@ -3040,7 +3040,7 @@
       "clusterId": "de7ccf215a53072c99fd",
       "headline": "Atlanta Housing Board of Commissioners Approves FY 2027 Budget",
       "category": "Housing & Neighborhoods",
-      "score": 75.47,
+      "score": 66.92,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3049,7 +3049,7 @@
       "clusterId": "d2067b48542e6613a639",
       "headline": "Atlanta Housing CEO Terri M. Lee Appointed Senior Vice President of National PHADA Board",
       "category": "Housing & Neighborhoods",
-      "score": 74.84,
+      "score": 66.29,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3058,7 +3058,7 @@
       "clusterId": "9af68a0a44ff3139da7d",
       "headline": "Atlanta Housing Chief Operating Officer Dwayne Vaughn Announces Retirement After Decades of Housing Leadership",
       "category": "Housing & Neighborhoods",
-      "score": 74.43,
+      "score": 65.88,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3067,7 +3067,7 @@
       "clusterId": "926b9e45ce67521f21de",
       "headline": "Atlanta Housing Announces Appointment of Bentina Terry to Board of Commissioners",
       "category": "Housing & Neighborhoods",
-      "score": 71.76,
+      "score": 63.21,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3076,7 +3076,7 @@
       "clusterId": "4d56336e11476fc0eb55",
       "headline": "Atlanta Housing Announces New $60,000 Down Payment Assistance Program and Partnership with Pretium to Expand Homeownership Opportunities",
       "category": "Housing & Neighborhoods",
-      "score": 71.27,
+      "score": 62.72,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3085,7 +3085,7 @@
       "clusterId": "1653ceea6e15d276c2de",
       "headline": "Atlanta Beltline Breaks Ground on Overlook at Garson",
       "category": "Development & Infrastructure",
-      "score": 71.24,
+      "score": 62.69,
       "evidenceLabel": "Corroborated",
       "sourceCount": 3,
       "status": "READY_TO_REVIEW"
@@ -3094,7 +3094,7 @@
       "clusterId": "a48a7c343be62b2a365e",
       "headline": "Atlanta Housing Names Interim Chief Operating Officer Ahead of Executive Leader’s May 8th Retirement",
       "category": "Housing & Neighborhoods",
-      "score": 70.8,
+      "score": 62.25,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3103,7 +3103,7 @@
       "clusterId": "53b94ac1b207fec22ef1",
       "headline": "Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer",
       "category": "Housing & Neighborhoods",
-      "score": 69.76,
+      "score": 61.21,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3112,7 +3112,7 @@
       "clusterId": "0ee182270f841210ce65",
       "headline": "Invest Atlanta Makes Strategic Investment in Municipal Market Merchants",
       "category": "Workforce & Economy",
-      "score": 68.69,
+      "score": 60.14,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3121,7 +3121,7 @@
       "clusterId": "cf97af187e63f1c2b6b8",
       "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
       "category": "Housing & Neighborhoods",
-      "score": 67.65,
+      "score": 59.1,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -3130,7 +3130,7 @@
       "clusterId": "9ce67f6906e4d261b22e",
       "headline": "Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
       "category": "Housing & Neighborhoods",
-      "score": 67.29,
+      "score": 58.74,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3139,7 +3139,7 @@
       "clusterId": "5d36685938fcd27ab7bc",
       "headline": "Invest Atlanta Advances New Affordable Housing Developments",
       "category": "Housing & Neighborhoods",
-      "score": 66.39,
+      "score": 57.84,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3148,7 +3148,7 @@
       "clusterId": "c5eb7a1b0e34401721f4",
       "headline": "Invest Atlanta Collaborates with Atlanta Habitat for Humanity",
       "category": "Housing & Neighborhoods",
-      "score": 66.39,
+      "score": 57.84,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3157,7 +3157,7 @@
       "clusterId": "23a6df7bdb68a99d4e57",
       "headline": "TAD Grants Finance Construction of Affordable Housing",
       "category": "Housing & Neighborhoods",
-      "score": 65.06,
+      "score": 56.51,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3166,7 +3166,7 @@
       "clusterId": "572ea51017a41f4b3bc9",
       "headline": "Regions Bank to invest millions in namesake Midtown Atlanta office tower",
       "category": "Atlanta News",
-      "score": 63.57,
+      "score": 55.02,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -3175,7 +3175,7 @@
       "clusterId": "0d86bcf25e4fa5c0b1b9",
       "headline": "Exclusive: 2nd Atlanta location of Hal’s The Steakhouse opening in Midtown",
       "category": "Business Moves",
-      "score": 63.42,
+      "score": 54.87,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -3184,7 +3184,7 @@
       "clusterId": "b9b9e11ba4e8ed23ebd5",
       "headline": "ARC’s 2026 LINK™ Trip Explores Urban Innovation in Mexico City",
       "category": "Business Moves",
-      "score": 63.01,
+      "score": 54.46,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3193,7 +3193,7 @@
       "clusterId": "830e492bf43da090c6ed",
       "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
       "category": "Housing & Neighborhoods",
-      "score": 62.96,
+      "score": 54.41,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -3202,7 +3202,7 @@
       "clusterId": "47b9aed0333e1aef9145",
       "headline": "Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail",
       "category": "Transportation & Airport",
-      "score": 62.9,
+      "score": 54.35,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3211,7 +3211,7 @@
       "clusterId": "eb14315ff8277e07c454",
       "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
       "category": "Development & Infrastructure",
-      "score": 62.17,
+      "score": 53.62,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -3220,7 +3220,7 @@
       "clusterId": "1b7b96ed8eedd4697e97",
       "headline": "Supporting Small Business Sustainability",
       "category": "Public Money",
-      "score": 62.14,
+      "score": 53.59,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3229,7 +3229,7 @@
       "clusterId": "ef93e2777b1f53c3f87a",
       "headline": "&pizza franchisees plan further expansion after opening of first Atlanta restaurant",
       "category": "Food, Retail & Hospitality",
-      "score": 61.72,
+      "score": 53.17,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -3238,7 +3238,7 @@
       "clusterId": "298bc7e9f8f7aacb337b",
       "headline": "Pittsburgh Yards Welcomes Piedmont Mobile Health Unit Powered by Google",
       "category": "Housing & Neighborhoods",
-      "score": 61.51,
+      "score": 52.96,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3247,7 +3247,7 @@
       "clusterId": "41e47ec893cd12299bcc",
       "headline": "Five Atlanta healthcare companies using AI to cut costs, improve care",
       "category": "Atlanta News",
-      "score": 61.24,
+      "score": 52.69,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -3256,7 +3256,7 @@
       "clusterId": "7243e62da85c6d720257",
       "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
       "category": "Atlanta News",
-      "score": 60.41,
+      "score": 51.86,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -3265,7 +3265,7 @@
       "clusterId": "6aff090c22669bb8d82e",
       "headline": "MARTA to name permanent CEO following interviews of three finalists",
       "category": "Transportation & Airport",
-      "score": 60.22,
+      "score": 51.67,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -3274,7 +3274,7 @@
       "clusterId": "632ef27b71f2dca5cc73",
       "headline": "JLB Partners proposes Buckhead office redevelopment",
       "category": "Atlanta News",
-      "score": 60.05,
+      "score": 51.5,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -3283,7 +3283,7 @@
       "clusterId": "2ba1b6dac6045a8d8a90",
       "headline": "oaksATL Opens Mixed-Use Development in English Avenue",
       "category": "Housing & Neighborhoods",
-      "score": 59.69,
+      "score": 51.14,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3292,7 +3292,7 @@
       "clusterId": "db39ebdd13e6215cc2ae",
       "headline": "Georgia data centers use more than power and land. They need warehouse space.",
       "category": "Atlanta News",
-      "score": 59.25,
+      "score": 50.7,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -3301,7 +3301,7 @@
       "clusterId": "47125893c5924b465581",
       "headline": "Invest Atlanta Earns Prestigious Global Reaccreditation",
       "category": "Development & Infrastructure",
-      "score": 59.1,
+      "score": 50.55,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3310,7 +3310,7 @@
       "clusterId": "c098b65496a7d44f7cab",
       "headline": "Dive Bars & Hidden Gems Along the Beltline",
       "category": "Housing & Neighborhoods",
-      "score": 58.75,
+      "score": 50.2,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3319,7 +3319,7 @@
       "clusterId": "4a8db6af8311a3a634a6",
       "headline": "Small Business Improvement Grant Helps Goodr Feed Its Mission",
       "category": "Public Money",
-      "score": 58.32,
+      "score": 49.77,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3328,7 +3328,7 @@
       "clusterId": "51e10ed790f457ff8e0c",
       "headline": "C-PACE Financing Boosts Energy Efficiencies",
       "category": "Public Money",
-      "score": 57.21,
+      "score": 48.66,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3337,7 +3337,7 @@
       "clusterId": "e1a25742df55ebe1e4c8",
       "headline": "TAD Grant Supports Improvements to Upper Alabama Street and Peachtree Fountains Plaza",
       "category": "Public Money",
-      "score": 57.06,
+      "score": 48.51,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3346,7 +3346,7 @@
       "clusterId": "b1d2442a519582fe8855",
       "headline": "Restaurant roundup: Hal's to open in Midtown, Go Greek arrives in Atlanta",
       "category": "Food, Retail & Hospitality",
-      "score": 55.07,
+      "score": 46.52,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -3355,7 +3355,7 @@
       "clusterId": "f6be2de676d428d3b21d",
       "headline": "A Peek Inside New Azalea Fresh Market Location",
       "category": "Business & Economy",
-      "score": 54.61,
+      "score": 46.06,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3364,7 +3364,7 @@
       "clusterId": "8405c48461f9b912e4ec",
       "headline": "FIFA World Cup 26™ In Review",
       "category": "Transportation & Economy",
-      "score": 53.06,
+      "score": 44.51,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3373,7 +3373,7 @@
       "clusterId": "69bd8febd01a3be1cb02",
       "headline": "Atlanta Regional Commission Announces 2026 Regional Leadership Institute Class",
       "category": "Transportation & Economy",
-      "score": 51.76,
+      "score": 43.21,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3382,7 +3382,7 @@
       "clusterId": "9b6d26dd732c7511de90",
       "headline": "Atlanta Regional Commission Announces 2026 Community Centered Design Class",
       "category": "Transportation & Economy",
-      "score": 50.07,
+      "score": 41.52,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -3391,7 +3391,7 @@
       "clusterId": "dfa11dedbdd11c4de548",
       "headline": "From Drive Through To Drive To Avondale Estates Transformation",
       "category": "Transportation & Economy",
-      "score": 48.67,
+      "score": 40.12,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
