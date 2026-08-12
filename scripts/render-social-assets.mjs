@@ -88,10 +88,12 @@ for (const storyPackage of desk.packages) {
   const packageDirectory = path.join(outputRoot, storyPackage.packageId);
   await mkdir(packageDirectory, { recursive: true });
   for (const card of storyPackage.carousel) {
-    const outputPath = path.join(packageDirectory, `${card.slide}.png`);
-    await sharp(Buffer.from(renderCard(storyPackage, card)))
-      .png({ compressionLevel: 9, quality: 95 })
-      .toFile(outputPath);
+    const source = sharp(Buffer.from(renderCard(storyPackage, card)));
+    const outputPath = path.join(packageDirectory, `${card.slide}.jpg`);
+    await Promise.all([
+      source.clone().png({ compressionLevel: 9, quality: 95 }).toFile(path.join(packageDirectory, `${card.slide}.png`)),
+      source.clone().jpeg({ quality: 92, chromaSubsampling: "4:4:4" }).toFile(outputPath),
+    ]);
     const metadata = await sharp(outputPath).metadata();
     if (metadata.width !== 1080 || metadata.height !== 1350) {
       throw new Error(`Invalid social asset dimensions for ${outputPath}`);

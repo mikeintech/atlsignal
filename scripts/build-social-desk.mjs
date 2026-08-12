@@ -281,7 +281,7 @@ function packageFor(cluster, slot, slotIndex, itemById) {
     .map((item) => ({ url: item.imageUrl, source: item.sourceName, usage: "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED" }));
   const packageId = hash(`${cluster.id}|${slot.scheduledFor}|social-v2`);
   const instagramCaption = `${hook}\n\n${summary}\n\nWhy it matters: ${why}\n\nWhat remains unknown: ${unknown}\n\nSources: ${source}. Full context and source trail: ${articleUrl}\n\n${question}`;
-  const assetUrls = Array.from({ length: 6 }, (_, index) => `${assetBaseUrl}/social-assets/${packageId}/${index + 1}.png`);
+  const assetUrls = Array.from({ length: 6 }, (_, index) => `${assetBaseUrl}/social-assets/${packageId}/${index + 1}.jpg`);
 
   return {
     packageId,
