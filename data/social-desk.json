@@ -1,0 +1,2746 @@
+{
+  "schemaVersion": "atlsignal_social_desk_v1",
+  "generatedAt": "2026-08-12T16:26:42.936Z",
+  "basedOnNewsroomRun": "2026-08-12T16:26:42.936Z",
+  "timezone": "America/New_York",
+  "calendarStart": "2026-08-13",
+  "calendarEnd": "2026-08-19",
+  "policy": {
+    "operatingModel": "AI_FIRST_NO_REGULAR_HUMAN_PRESENCE",
+    "autoReadyRule": "Tier A publishable evidence, sufficient source summary, no sensitive or allegation language, original asset plan.",
+    "externalMedia": "Never download and repost by default. Link, embed, request permission, use a native repost, or replace with an original ATLSignal graphic.",
+    "syntheticMedia": "AI narration, typography, maps and diagrams are allowed. Synthetic documentary scenes, fake people, cloned voices and invented event footage are prohibited.",
+    "sponsorRule": "Paid placement must be labeled and cannot alter evidence status or suppress unknowns."
+  },
+  "cadence": {
+    "instagram": "3 feed posts per day plus story frames",
+    "threads": "3 original posts and 3 evidence or question follow-ups per day",
+    "x": "3 original posts and 3 evidence or question follow-ups per day",
+    "website": "20-item daily file remains the reporting backbone"
+  },
+  "stats": {
+    "packages": 21,
+    "autoReady": 21,
+    "held": 0,
+    "originalAssetPlans": 21,
+    "sourceMediaReferences": 20
+  },
+  "packages": [
+    {
+      "packageId": "5d27dfffe06a5d9cb10b",
+      "storyId": "99fc3e9c500c6cc1b945",
+      "idempotencyKey": "atlsignal:99fc3e9c500c6cc1b945:social-v1",
+      "scheduledFor": "2026-08-13T11:35:00.000Z",
+      "localSlot": "2026-08-13 07:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "The Receipt",
+      "category": "Housing & Neighborhoods",
+      "evidenceLabel": "Corroborated",
+      "headline": "New BeltLine mortgage program offers up to $30,000 toward a home",
+      "hook": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home",
+      "articleUrl": "https://atlsignal.com/beltline-mortgage-assistance-30000",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-and-atlanta-beltline-launch-new-mortgage-assistance-program",
+          "tier": "A"
+        },
+        {
+          "name": "Atlanta BeltLine",
+          "url": "https://beltline.org/press-release/invest-atlanta-and-atlanta-beltline-inc-launch-mortgage-assistance-program-opening-a-new-path-to-homeownership-along-the-beltline/",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Eligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in targeted south- and west-side BeltLine communities may qualify for up to $30,000.",
+        "whyItMatters": "The higher targeted amount changes the up-front purchase math for some buyers and gives residents a concrete program to compare with rising BeltLine-area housing costs.",
+        "unknown": "The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices.",
+        "next": "Track formal guidance, applications, completed purchases and the geographic distribution of assistance."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/151a9756-16_Rz3klK8.png",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          },
+          {
+            "url": "https://a2-us.storyblok.com/f/1020195/1920x1279/8eb6c5d415/1091-tucker-ave-unit-305_morrow-hi-res-28.webp/m/1200x630/filters:format(jpeg)",
+            "source": "Atlanta BeltLine",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "The Receipt explainer about Invest Atlanta and Atlanta Beltline Launch New Mortgage Assistance Program, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/5d27dfffe06a5d9cb10b/1",
+          "https://atlsignal.com/social-card/5d27dfffe06a5d9cb10b/2",
+          "https://atlsignal.com/social-card/5d27dfffe06a5d9cb10b/3",
+          "https://atlsignal.com/social-card/5d27dfffe06a5d9cb10b/4",
+          "https://atlsignal.com/social-card/5d27dfffe06a5d9cb10b/5",
+          "https://atlsignal.com/social-card/5d27dfffe06a5d9cb10b/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "The Receipt",
+          "heading": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Eligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in targeted south- and west-side BeltLine communities may qualify for up to…"
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "The higher targeted amount changes the up-front purchase math for some buyers and gives residents a concrete program to compare with rising BeltLine-area housing costs."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Corroborated",
+          "body": "Source trail: Invest Atlanta and Atlanta BeltLine."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Track formal guidance, applications, completed purchases and the geographic distribution of assistance."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-13T11:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home\n\nEligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in targeted south- and west-side BeltLine communities may qualify for up to $30,000.\n\nWhy it matters: The higher targeted amount changes the up-front purchase math for some buyers and gives residents a concrete program to compare with rising BeltLine-area housing costs.\n\nWhat remains unknown: The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices.\n\nSources: Invest Atlanta and Atlanta BeltLine. Full context and source trail: https://atlsignal.com/beltline-mortgage-assistance-30000\n\nWhich housing commitment should ATLSignal track through delivery?",
+          "voiceover": null,
+          "storyFrames": [
+            "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home",
+            "Eligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in…",
+            "Which housing commitment should ATLSignal track through delivery? Read: https://atlsignal.com/beltline-mortgage-assistance-30000"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home\n\nEligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in targeted south- and west-side BeltLine communities may qualify for up to $30,000.\n\nReceipt: Invest Atlanta and Atlanta BeltLine. https://atlsignal.com/beltline-mortgage-assistance-30000",
+          "followUp": "The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home\n\nEligible buyers can receive as much as $20,000, while long-term residents and…\n\nSource: Invest Atlanta and Atlanta BeltLine\nhttps://atlsignal.com/beltline-mortgage-assistance-30000",
+          "followUp": "What remains unknown: The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260813",
+        "content": "the_receipt_99fc3e9c",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "19d69d762c2ba752c240",
+      "storyId": "de7ccf215a53072c99fd",
+      "idempotencyKey": "atlsignal:de7ccf215a53072c99fd:social-v1",
+      "scheduledFor": "2026-08-13T16:15:00.000Z",
+      "localSlot": "2026-08-13 12:15 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "The Receipt",
+      "category": "Housing & Neighborhoods",
+      "evidenceLabel": "Primary-source report",
+      "headline": "Atlanta Housing Board of Commissioners Approves FY 2027 Budget",
+      "hook": "Here’s the receipt: Atlanta Housing Board of Commissioners Approves FY 2027 Budget",
+      "articleUrl": "https://atlsignal.com/file/de7ccf215a53072c99fd",
+      "sources": [
+        {
+          "name": "Atlanta Housing",
+          "url": "https://www.atlantahousing.org/atlanta-housing-board-of-commissioners-approves-fy-2027-budget/",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "$544.6M allocated to expand housing opportunity, resident services, development pipeline, and overall impact for the City of Atlanta ATLANTA – The Atlanta Housing Board of Commissioners voted unanimously today to approve a $544.6 million balanced budget...",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "VERTICAL_REEL_9X16",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a 35–50 second motion-typography explainer using an Atlanta map, the headline number or place, short source-document excerpts, and ATLSignal branding. Do not invent people, locations, footage or outcomes.",
+        "sourceMedia": [],
+        "mediaRule": "Use the original graphic plan; no third-party image is required.",
+        "altText": "The Receipt explainer about Atlanta Housing Board of Commissioners Approves FY 2027 Budget, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/19d69d762c2ba752c240/1",
+          "https://atlsignal.com/social-card/19d69d762c2ba752c240/2",
+          "https://atlsignal.com/social-card/19d69d762c2ba752c240/3",
+          "https://atlsignal.com/social-card/19d69d762c2ba752c240/4",
+          "https://atlsignal.com/social-card/19d69d762c2ba752c240/5",
+          "https://atlsignal.com/social-card/19d69d762c2ba752c240/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "The Receipt",
+          "heading": "Here’s the receipt: Atlanta Housing Board of Commissioners Approves FY 2027 Budget",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "$544.6M allocated to expand housing opportunity, resident services, development pipeline, and overall impact for the City of Atlanta ATLANTA – The Atlanta Housing Board of Commissioners…"
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Atlanta Housing."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-13T16:15:00.000Z",
+          "format": "REEL",
+          "caption": "Here’s the receipt: Atlanta Housing Board of Commissioners Approves FY 2027 Budget\n\n$544.6M allocated to expand housing opportunity, resident services, development pipeline, and overall impact for the City of Atlanta ATLANTA – The Atlanta Housing Board of Commissioners voted unanimously today to approve a $544.6 million balanced budget...\n\nWhy it matters: Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Housing. Full context and source trail: https://atlsignal.com/file/de7ccf215a53072c99fd\n\nWhich housing commitment should ATLSignal track through delivery?",
+          "voiceover": "Here’s the Atlanta signal. $544.6M allocated to expand housing opportunity, resident services, development pipeline, and overall impact for the City of Atlanta ATLANTA – The Atlanta Housing Board of Commissioners voted unanimously today to approve a $544.6 million balanced budget... Why it matters: Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands. The receipt is primary-source report reporting from Atlanta Housing. What we still do not know: Independent corroboration and later outcome evidence remain outstanding. Next, ATLSignal will watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation..",
+          "storyFrames": [
+            "Here’s the receipt: Atlanta Housing Board of Commissioners Approves FY 2027 Budget",
+            "$544.6M allocated to expand housing opportunity, resident services, development pipeline, and overall impact for the…",
+            "Which housing commitment should ATLSignal track through delivery? Read: https://atlsignal.com/file/de7ccf215a53072c99fd"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Here’s the receipt: Atlanta Housing Board of Commissioners Approves FY 2027 Budget\n\n$544.6M allocated to expand housing opportunity, resident services, development pipeline, and overall impact for the City of Atlanta ATLANTA – The Atlanta Housing Board of Commissioners voted unanimously today to approve a $544.6 million balanced budget...\n\nReceipt: Atlanta Housing. https://atlsignal.com/file/de7ccf215a53072c99fd",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Here’s the receipt: Atlanta Housing Board of Commissioners Approves FY 2027 Budget\n\n$544.6M allocated to expand housing opportunity, resident services, development pipeline, and overall impact for the…\n\nSource: Atlanta Housing\nhttps://atlsignal.com/file/de7ccf215a53072c99fd",
+          "followUp": "What remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260813",
+        "content": "the_receipt_de7ccf21",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "45a68f81ae8438b4e686",
+      "storyId": "0ee182270f841210ce65",
+      "idempotencyKey": "atlsignal:0ee182270f841210ce65:social-v1",
+      "scheduledFor": "2026-08-13T22:35:00.000Z",
+      "localSlot": "2026-08-13 18:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "From the File",
+      "category": "Food, Retail & Hospitality",
+      "evidenceLabel": "Primary-source report",
+      "headline": "$90,000 in grants will fund upgrades for nine Municipal Market merchants",
+      "hook": "From the file: $90,000 in grants will fund upgrades for nine Municipal Market merchants",
+      "articleUrl": "https://atlsignal.com/municipal-market-merchants-90000-investment",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-makes-strategic-investment-in-municipal-market-merchants",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Nine Municipal Market merchants in Sweet Auburn received $10,000 awards for booth function, fixtures, signage and design improvements.",
+        "whyItMatters": "Storefront-scale improvements can affect customer flow, equipment reliability and the ability of independent merchants to compete inside a historic public market.",
+        "unknown": "The announcement does not establish when every improvement will finish or whether the upgrades will produce lasting sales growth.",
+        "next": "Track completed booth projects, merchant experience and measurable operating effects."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/151a8571-1r_8EoPZpa.jpg",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "From the File explainer about Invest Atlanta Makes Strategic Investment in Municipal Market Merchants, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/45a68f81ae8438b4e686/1",
+          "https://atlsignal.com/social-card/45a68f81ae8438b4e686/2",
+          "https://atlsignal.com/social-card/45a68f81ae8438b4e686/3",
+          "https://atlsignal.com/social-card/45a68f81ae8438b4e686/4",
+          "https://atlsignal.com/social-card/45a68f81ae8438b4e686/5",
+          "https://atlsignal.com/social-card/45a68f81ae8438b4e686/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "From the File",
+          "heading": "From the file: $90,000 in grants will fund upgrades for nine Municipal Market merchants",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Nine Municipal Market merchants in Sweet Auburn received $10,000 awards for booth function, fixtures, signage and design improvements."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Storefront-scale improvements can affect customer flow, equipment reliability and the ability of independent merchants to compete inside a historic public market."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Invest Atlanta."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "The announcement does not establish when every improvement will finish or whether the upgrades will produce lasting sales growth."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Track completed booth projects, merchant experience and measurable operating effects."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-13T22:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "From the file: $90,000 in grants will fund upgrades for nine Municipal Market merchants\n\nNine Municipal Market merchants in Sweet Auburn received $10,000 awards for booth function, fixtures, signage and design improvements.\n\nWhy it matters: Storefront-scale improvements can affect customer flow, equipment reliability and the ability of independent merchants to compete inside a historic public market.\n\nWhat remains unknown: The announcement does not establish when every improvement will finish or whether the upgrades will produce lasting sales growth.\n\nSources: Invest Atlanta. Full context and source trail: https://atlsignal.com/municipal-market-merchants-90000-investment\n\nWhich Atlanta business move should be on our watchlist?",
+          "voiceover": null,
+          "storyFrames": [
+            "From the file: $90,000 in grants will fund upgrades for nine Municipal Market merchants",
+            "Nine Municipal Market merchants in Sweet Auburn received $10,000 awards for booth function, fixtures, signage and…",
+            "Which Atlanta business move should be on our watchlist? Read: https://atlsignal.com/municipal-market-merchants-90000-investment"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "From the file: $90,000 in grants will fund upgrades for nine Municipal Market merchants\n\nNine Municipal Market merchants in Sweet Auburn received $10,000 awards for booth function, fixtures, signage and design improvements.\n\nReceipt: Invest Atlanta. https://atlsignal.com/municipal-market-merchants-90000-investment",
+          "followUp": "The announcement does not establish when every improvement will finish or whether the upgrades will produce lasting sales growth.\n\nWhich Atlanta business move should be on our watchlist?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "From the file: $90,000 in grants will fund upgrades for nine Municipal Market merchants\n\nNine Municipal Market merchants in Sweet Auburn received $10,000 awards for booth function,…\n\nSource: Invest Atlanta\nhttps://atlsignal.com/municipal-market-merchants-90000-investment",
+          "followUp": "What remains unknown: The announcement does not establish when every improvement will finish or whether the upgrades will produce lasting sales growth.\n\nWhich Atlanta business move should be on our watchlist?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260813",
+        "content": "from_the_file_0ee18227",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "789b541e6514f8e366d0",
+      "storyId": "1653ceea6e15d276c2de",
+      "idempotencyKey": "atlsignal:1653ceea6e15d276c2de:social-v1",
+      "scheduledFor": "2026-08-14T11:35:00.000Z",
+      "localSlot": "2026-08-14 07:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "The Signal",
+      "category": "Development & Infrastructure",
+      "evidenceLabel": "Corroborated",
+      "headline": "BeltLine-backed Overlook at Garson moves from plan to construction",
+      "hook": "BeltLine-backed Overlook at Garson moves from plan to construction",
+      "articleUrl": "https://atlsignal.com/beltline-overlook-at-garson-affordable-housing",
+      "sources": [
+        {
+          "name": "Atlanta BeltLine",
+          "url": "https://beltline.org/blog/atlanta-beltline-breaks-ground-on-overlook-at-garson/",
+          "tier": "A"
+        },
+        {
+          "name": "Atlanta BeltLine",
+          "url": "https://beltline.org/press-release/overlook-at-garson-groundbreaking/",
+          "tier": "A"
+        },
+        {
+          "name": "Atlanta Housing",
+          "url": "https://www.atlantahousing.org/atlanta-housing-atlanta-beltline-and-partners-break-ground-on-100-percent-affordable-overlook-at-garson/",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Atlanta BeltLine and Atlanta Housing marked the start of construction on Overlook at Garson, an affordable-housing development near Lindbergh.",
+        "whyItMatters": "The groundbreaking changes the story from a plan into an observable delivery milestone near major transportation and commercial corridors.",
+        "unknown": "The milestone does not establish every deadline, final lease-up date, downstream contract or neighborhood effect.",
+        "next": "Track financing disclosures, construction progress, eligibility information and completion."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [
+          {
+            "url": "https://a2-us.storyblok.com/f/1020195/5472x3648/ae661ddcb7/bennett-st-photo-by-loknows-drones-6-26-2025_07.JPG/m/1200x630/filters:format(jpeg)",
+            "source": "Atlanta BeltLine",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          },
+          {
+            "url": "https://a2-us.storyblok.com/f/1020195/5152x3435/5df35485df/garson-drive-presser.JPG/m/1200x630/filters:format(jpeg)",
+            "source": "Atlanta BeltLine",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "The Signal explainer about Atlanta Beltline Breaks Ground on Overlook at Garson, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/789b541e6514f8e366d0/1",
+          "https://atlsignal.com/social-card/789b541e6514f8e366d0/2",
+          "https://atlsignal.com/social-card/789b541e6514f8e366d0/3",
+          "https://atlsignal.com/social-card/789b541e6514f8e366d0/4",
+          "https://atlsignal.com/social-card/789b541e6514f8e366d0/5",
+          "https://atlsignal.com/social-card/789b541e6514f8e366d0/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "The Signal",
+          "heading": "BeltLine-backed Overlook at Garson moves from plan to construction",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Atlanta BeltLine and Atlanta Housing marked the start of construction on Overlook at Garson, an affordable-housing development near Lindbergh."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "The groundbreaking changes the story from a plan into an observable delivery milestone near major transportation and commercial corridors."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Corroborated",
+          "body": "Source trail: Atlanta BeltLine and Atlanta Housing."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "The milestone does not establish every deadline, final lease-up date, downstream contract or neighborhood effect."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Track financing disclosures, construction progress, eligibility information and completion."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-14T11:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "BeltLine-backed Overlook at Garson moves from plan to construction\n\nAtlanta BeltLine and Atlanta Housing marked the start of construction on Overlook at Garson, an affordable-housing development near Lindbergh.\n\nWhy it matters: The groundbreaking changes the story from a plan into an observable delivery milestone near major transportation and commercial corridors.\n\nWhat remains unknown: The milestone does not establish every deadline, final lease-up date, downstream contract or neighborhood effect.\n\nSources: Atlanta BeltLine and Atlanta Housing. Full context and source trail: https://atlsignal.com/beltline-overlook-at-garson-affordable-housing\n\nWhat should ATLSignal verify next?",
+          "voiceover": null,
+          "storyFrames": [
+            "BeltLine-backed Overlook at Garson moves from plan to construction",
+            "Atlanta BeltLine and Atlanta Housing marked the start of construction on Overlook at Garson, an affordable-housing…",
+            "What should ATLSignal verify next? Read: https://atlsignal.com/beltline-overlook-at-garson-affordable-housing"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "BeltLine-backed Overlook at Garson moves from plan to construction\n\nAtlanta BeltLine and Atlanta Housing marked the start of construction on Overlook at Garson, an affordable-housing development near Lindbergh.\n\nReceipt: Atlanta BeltLine and Atlanta Housing. https://atlsignal.com/beltline-overlook-at-garson-affordable-housing",
+          "followUp": "The milestone does not establish every deadline, final lease-up date, downstream contract or neighborhood effect.\n\nWhat should ATLSignal verify next?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "BeltLine-backed Overlook at Garson moves from plan to construction\n\nAtlanta BeltLine and Atlanta Housing marked the start of construction on Overlook at Garson,…\n\nSource: Atlanta BeltLine and Atlanta Housing\nhttps://atlsignal.com/beltline-overlook-at-garson-affordable-housing",
+          "followUp": "What remains unknown: The milestone does not establish every deadline, final lease-up date, downstream contract or neighborhood effect.\n\nWhat should ATLSignal verify next?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260814",
+        "content": "the_signal_1653ceea",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "27e0b063136a2a685001",
+      "storyId": "acb27d881cb4f7742854",
+      "idempotencyKey": "atlsignal:acb27d881cb4f7742854:social-v1",
+      "scheduledFor": "2026-08-14T16:15:00.000Z",
+      "localSlot": "2026-08-14 12:15 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "$ATL",
+      "category": "Public Money",
+      "evidenceLabel": "Primary-source report",
+      "headline": "Atlanta’s C-PACE financing tops $130.4 million in 2026",
+      "hook": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026",
+      "articleUrl": "https://atlsignal.com/invest-atlanta-cpace-130-million-financing",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/invest-atlantas-c-pace-program-surpasses-130-million-in-2026-financing",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Invest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR.",
+        "whyItMatters": "The financing tool ties energy and building upgrades to named commercial properties, giving Atlanta measurable projects to track beyond the headline total.",
+        "unknown": "The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance.",
+        "next": "Track project scopes, construction milestones, completion and measured energy or operating results."
+      },
+      "production": {
+        "format": "VERTICAL_REEL_9X16",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a 35–50 second motion-typography explainer using an Atlanta map, the headline number or place, short source-document excerpts, and ATLSignal branding. Do not invent people, locations, footage or outcomes.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/260520_otcrtv_thectratl_0085_D3ZBp8W.jpg",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "$ATL explainer about Invest Atlanta's C-PACE Program Surpasses $130 Million In 2026 Financing, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/27e0b063136a2a685001/1",
+          "https://atlsignal.com/social-card/27e0b063136a2a685001/2",
+          "https://atlsignal.com/social-card/27e0b063136a2a685001/3",
+          "https://atlsignal.com/social-card/27e0b063136a2a685001/4",
+          "https://atlsignal.com/social-card/27e0b063136a2a685001/5",
+          "https://atlsignal.com/social-card/27e0b063136a2a685001/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "$ATL",
+          "heading": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Invest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "The financing tool ties energy and building upgrades to named commercial properties, giving Atlanta measurable projects to track beyond the headline total."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Invest Atlanta."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Track project scopes, construction milestones, completion and measured energy or operating results."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-14T16:15:00.000Z",
+          "format": "REEL",
+          "caption": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026\n\nInvest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR.\n\nWhy it matters: The financing tool ties energy and building upgrades to named commercial properties, giving Atlanta measurable projects to track beyond the headline total.\n\nWhat remains unknown: The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance.\n\nSources: Invest Atlanta. Full context and source trail: https://atlsignal.com/invest-atlanta-cpace-130-million-financing\n\nWhich public investment should we follow to its next measurable result?",
+          "voiceover": "Here’s the Atlanta signal. Invest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR. Why it matters: The financing tool ties energy and building upgrades to named commercial properties, giving Atlanta measurable projects to track beyond the headline total. The receipt is primary-source report reporting from Invest Atlanta. What we still do not know: The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance. Next, ATLSignal will Track project scopes, construction milestones, completion and measured energy or operating results..",
+          "storyFrames": [
+            "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026",
+            "Invest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and…",
+            "Which public investment should we follow to its next measurable result? Read: https://atlsignal.com/invest-atlanta-cpace-130-million-financing"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026\n\nInvest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR.\n\nReceipt: Invest Atlanta. https://atlsignal.com/invest-atlanta-cpace-130-million-financing",
+          "followUp": "The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance.\n\nWhich public investment should we follow to its next measurable result?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026\n\nInvest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards…\n\nSource: Invest Atlanta\nhttps://atlsignal.com/invest-atlanta-cpace-130-million-financing",
+          "followUp": "What remains unknown: The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance.\n\nWhich public investment should we follow to its next measurable result?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260814",
+        "content": "_atl_acb27d88",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "49bfdc7e2bfcc30b4271",
+      "storyId": "4d56336e11476fc0eb55",
+      "idempotencyKey": "atlsignal:4d56336e11476fc0eb55:social-v1",
+      "scheduledFor": "2026-08-14T22:35:00.000Z",
+      "localSlot": "2026-08-14 18:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "From the File",
+      "category": "Housing & Neighborhoods",
+      "evidenceLabel": "Primary-source report",
+      "headline": "Atlanta Housing raises down-payment assistance to as much as $60,000",
+      "hook": "From the file: Atlanta Housing raises down-payment assistance to as much as $60,000",
+      "articleUrl": "https://atlsignal.com/atlanta-housing-60000-down-payment-assistance",
+      "sources": [
+        {
+          "name": "Atlanta Housing",
+          "url": "https://www.atlantahousing.org/atlanta-housing-announces-new-60000-down-payment-assistance-program-and-partnership-with-pretium-to-expand-homeownership-opportunities/",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Eligible Housing Choice Voucher participants may receive up to $60,000 in down-payment assistance, up from a previous maximum of $25,000, alongside a homeownership pilot with Pretium.",
+        "whyItMatters": "Up-front cash is one of the largest barriers between stable renting and homeownership, but qualifying inventory and mortgage readiness will determine the program’s reach.",
+        "unknown": "The agency has not reported how many households will close, the total funding available or the full list of participating properties and lenders.",
+        "next": "Track program guidance, application volume, completed purchases and available homes."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [],
+        "mediaRule": "Use the original graphic plan; no third-party image is required.",
+        "altText": "From the File explainer about Atlanta Housing Announces New $60,000 Down Payment Assistance Program and Partnership with Pretium to Expand Homeownership Opportunities, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/49bfdc7e2bfcc30b4271/1",
+          "https://atlsignal.com/social-card/49bfdc7e2bfcc30b4271/2",
+          "https://atlsignal.com/social-card/49bfdc7e2bfcc30b4271/3",
+          "https://atlsignal.com/social-card/49bfdc7e2bfcc30b4271/4",
+          "https://atlsignal.com/social-card/49bfdc7e2bfcc30b4271/5",
+          "https://atlsignal.com/social-card/49bfdc7e2bfcc30b4271/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "From the File",
+          "heading": "From the file: Atlanta Housing raises down-payment assistance to as much as $60,000",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Eligible Housing Choice Voucher participants may receive up to $60,000 in down-payment assistance, up from a previous maximum of $25,000, alongside a homeownership pilot with Pretium."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Up-front cash is one of the largest barriers between stable renting and homeownership, but qualifying inventory and mortgage readiness will determine the program’s reach."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Atlanta Housing."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "The agency has not reported how many households will close, the total funding available or the full list of participating properties and lenders."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Track program guidance, application volume, completed purchases and available homes."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-14T22:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "From the file: Atlanta Housing raises down-payment assistance to as much as $60,000\n\nEligible Housing Choice Voucher participants may receive up to $60,000 in down-payment assistance, up from a previous maximum of $25,000, alongside a homeownership pilot with Pretium.\n\nWhy it matters: Up-front cash is one of the largest barriers between stable renting and homeownership, but qualifying inventory and mortgage readiness will determine the program’s reach.\n\nWhat remains unknown: The agency has not reported how many households will close, the total funding available or the full list of participating properties and lenders.\n\nSources: Atlanta Housing. Full context and source trail: https://atlsignal.com/atlanta-housing-60000-down-payment-assistance\n\nWhich housing commitment should ATLSignal track through delivery?",
+          "voiceover": null,
+          "storyFrames": [
+            "From the file: Atlanta Housing raises down-payment assistance to as much as $60,000",
+            "Eligible Housing Choice Voucher participants may receive up to $60,000 in down-payment assistance, up from a previous…",
+            "Which housing commitment should ATLSignal track through delivery? Read: https://atlsignal.com/atlanta-housing-60000-down-payment-assistance"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "From the file: Atlanta Housing raises down-payment assistance to as much as $60,000\n\nEligible Housing Choice Voucher participants may receive up to $60,000 in down-payment assistance, up from a previous maximum of $25,000, alongside a homeownership pilot with Pretium.\n\nReceipt: Atlanta Housing. https://atlsignal.com/atlanta-housing-60000-down-payment-assistance",
+          "followUp": "The agency has not reported how many households will close, the total funding available or the full list of participating properties and lenders.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "From the file: Atlanta Housing raises down-payment assistance to as much as $60,000\n\nEligible Housing Choice Voucher participants may receive up to $60,000 in down-payment assistance,…\n\nSource: Atlanta Housing\nhttps://atlsignal.com/atlanta-housing-60000-down-payment-assistance",
+          "followUp": "What remains unknown: The agency has not reported how many households will close, the total funding available or the full list of participating properties and lenders.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260814",
+        "content": "from_the_file_4d56336e",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "3ce71c784b6438213ab4",
+      "storyId": "47b9aed0333e1aef9145",
+      "idempotencyKey": "atlsignal:47b9aed0333e1aef9145:social-v1",
+      "scheduledFor": "2026-08-15T11:35:00.000Z",
+      "localSlot": "2026-08-15 07:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "The Signal",
+      "category": "Transportation & Airport",
+      "evidenceLabel": "Primary-source report",
+      "headline": "Bennett Street demolition clears an early path for Northwest Trail work",
+      "hook": "Bennett Street demolition clears an early path for Northwest Trail work",
+      "articleUrl": "https://atlsignal.com/beltline-bennett-street-demolition-northwest-trail",
+      "sources": [
+        {
+          "name": "Atlanta BeltLine",
+          "url": "https://beltline.org/blog/atlanta-beltline-to-begin-bennett-street-demolition-advancing-future-northwest-trail/",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Atlanta BeltLine announced Bennett Street demolition as an enabling step for future Northwest Trail construction and related infrastructure work.",
+        "whyItMatters": "The dated site activity lets readers track a major corridor project through intermediate milestones instead of waiting for a finished trail announcement.",
+        "unknown": "The source does not settle the full delivery schedule, final cost, every procurement package or nearby commercial impact.",
+        "next": "Track contract awards, detours, construction notices, funding actions and a firmer segment schedule."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [
+          {
+            "url": "https://a2-us.storyblok.com/f/1020195/5472x3648/ae661ddcb7/bennett-st-photo-by-loknows-drones-6-26-2025_07.JPG/m/1200x630/filters:format(jpeg)",
+            "source": "Atlanta BeltLine",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "The Signal explainer about Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/3ce71c784b6438213ab4/1",
+          "https://atlsignal.com/social-card/3ce71c784b6438213ab4/2",
+          "https://atlsignal.com/social-card/3ce71c784b6438213ab4/3",
+          "https://atlsignal.com/social-card/3ce71c784b6438213ab4/4",
+          "https://atlsignal.com/social-card/3ce71c784b6438213ab4/5",
+          "https://atlsignal.com/social-card/3ce71c784b6438213ab4/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "The Signal",
+          "heading": "Bennett Street demolition clears an early path for Northwest Trail work",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Atlanta BeltLine announced Bennett Street demolition as an enabling step for future Northwest Trail construction and related infrastructure work."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "The dated site activity lets readers track a major corridor project through intermediate milestones instead of waiting for a finished trail announcement."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Atlanta BeltLine."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "The source does not settle the full delivery schedule, final cost, every procurement package or nearby commercial impact."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Track contract awards, detours, construction notices, funding actions and a firmer segment schedule."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-15T11:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "Bennett Street demolition clears an early path for Northwest Trail work\n\nAtlanta BeltLine announced Bennett Street demolition as an enabling step for future Northwest Trail construction and related infrastructure work.\n\nWhy it matters: The dated site activity lets readers track a major corridor project through intermediate milestones instead of waiting for a finished trail announcement.\n\nWhat remains unknown: The source does not settle the full delivery schedule, final cost, every procurement package or nearby commercial impact.\n\nSources: Atlanta BeltLine. Full context and source trail: https://atlsignal.com/beltline-bennett-street-demolition-northwest-trail\n\nWhich route or project should we check next?",
+          "voiceover": null,
+          "storyFrames": [
+            "Bennett Street demolition clears an early path for Northwest Trail work",
+            "Atlanta BeltLine announced Bennett Street demolition as an enabling step for future Northwest Trail construction and…",
+            "Which route or project should we check next? Read: https://atlsignal.com/beltline-bennett-street-demolition-northwest-trail"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Bennett Street demolition clears an early path for Northwest Trail work\n\nAtlanta BeltLine announced Bennett Street demolition as an enabling step for future Northwest Trail construction and related infrastructure work.\n\nReceipt: Atlanta BeltLine. https://atlsignal.com/beltline-bennett-street-demolition-northwest-trail",
+          "followUp": "The source does not settle the full delivery schedule, final cost, every procurement package or nearby commercial impact.\n\nWhich route or project should we check next?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Bennett Street demolition clears an early path for Northwest Trail work\n\nAtlanta BeltLine announced Bennett Street demolition as an enabling step for future Northwest Trail…\n\nSource: Atlanta BeltLine\nhttps://atlsignal.com/beltline-bennett-street-demolition-northwest-trail",
+          "followUp": "What remains unknown: The source does not settle the full delivery schedule, final cost, every procurement package or nearby commercial impact.\n\nWhich route or project should we check next?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260815",
+        "content": "the_signal_47b9aed0",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "1b3d011e980c4c5e64f2",
+      "storyId": "dfa11dedbdd11c4de548",
+      "idempotencyKey": "atlsignal:dfa11dedbdd11c4de548:social-v1",
+      "scheduledFor": "2026-08-15T16:15:00.000Z",
+      "localSlot": "2026-08-15 12:15 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "The Receipt",
+      "category": "Transportation & Economy",
+      "evidenceLabel": "Primary-source report",
+      "headline": "From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation",
+      "hook": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation",
+      "articleUrl": "https://atlsignal.com/file/dfa11dedbdd11c4de548",
+      "sources": [
+        {
+          "name": "Atlanta Regional Commission",
+          "url": "https://atlantaregional.org/news/community-development/from-drive-through-to-drive-to-avondale-estates-transformation/",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Avondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped potential. In 2014,...",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "VERTICAL_REEL_9X16",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a 35–50 second motion-typography explainer using an Atlanta map, the headline number or place, short source-document excerpts, and ATLSignal branding. Do not invent people, locations, footage or outcomes.",
+        "sourceMedia": [
+          {
+            "url": "https://atlantaregional.org/wp-content/uploads/avondale-lci-5.png",
+            "source": "Atlanta Regional Commission",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "The Receipt explainer about From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/1b3d011e980c4c5e64f2/1",
+          "https://atlsignal.com/social-card/1b3d011e980c4c5e64f2/2",
+          "https://atlsignal.com/social-card/1b3d011e980c4c5e64f2/3",
+          "https://atlsignal.com/social-card/1b3d011e980c4c5e64f2/4",
+          "https://atlsignal.com/social-card/1b3d011e980c4c5e64f2/5",
+          "https://atlsignal.com/social-card/1b3d011e980c4c5e64f2/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "The Receipt",
+          "heading": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Avondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped…"
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Atlanta Regional Commission."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-15T16:15:00.000Z",
+          "format": "REEL",
+          "caption": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation\n\nAvondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped potential. In 2014,...\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://atlsignal.com/file/dfa11dedbdd11c4de548\n\nWhich route or project should we check next?",
+          "voiceover": "Here’s the Atlanta signal. Avondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped potential. In 2014,... Why it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta. The receipt is primary-source report reporting from Atlanta Regional Commission. What we still do not know: Independent corroboration and later outcome evidence remain outstanding. Next, ATLSignal will watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation..",
+          "storyFrames": [
+            "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation",
+            "Avondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County…",
+            "Which route or project should we check next? Read: https://atlsignal.com/file/dfa11dedbdd11c4de548"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation\n\nAvondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped potential. In 2014,...\n\nReceipt: Atlanta Regional Commission. https://atlsignal.com/file/dfa11dedbdd11c4de548",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich route or project should we check next?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation\n\nAvondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant…\n\nSource: Atlanta Regional Commission\nhttps://atlsignal.com/file/dfa11dedbdd11c4de548",
+          "followUp": "What remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nWhich route or project should we check next?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260815",
+        "content": "the_receipt_dfa11ded",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "ff5c68bbba84719ae30c",
+      "storyId": "8b3c22e76193d9ee04ef",
+      "idempotencyKey": "atlsignal:8b3c22e76193d9ee04ef:social-v1",
+      "scheduledFor": "2026-08-15T22:35:00.000Z",
+      "localSlot": "2026-08-15 18:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "Atlanta Then / Now",
+      "category": "Public Money",
+      "evidenceLabel": "Primary-source report",
+      "headline": "Façade Improvement Grants Preserve Atlanta History",
+      "hook": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
+      "articleUrl": "https://atlsignal.com/file/8b3c22e76193d9ee04ef",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/facade-improvement-grants-preserve-atlanta-history",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.",
+        "whyItMatters": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/muses_nMvKNDq.jpeg",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "Atlanta Then / Now explainer about Façade Improvement Grants Preserve Atlanta History, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/ff5c68bbba84719ae30c/1",
+          "https://atlsignal.com/social-card/ff5c68bbba84719ae30c/2",
+          "https://atlsignal.com/social-card/ff5c68bbba84719ae30c/3",
+          "https://atlsignal.com/social-card/ff5c68bbba84719ae30c/4",
+          "https://atlsignal.com/social-card/ff5c68bbba84719ae30c/5",
+          "https://atlsignal.com/social-card/ff5c68bbba84719ae30c/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "Atlanta Then / Now",
+          "heading": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration…"
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Invest Atlanta."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-15T22:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History\n\nThe Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.\n\nWhy it matters: Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://atlsignal.com/file/8b3c22e76193d9ee04ef\n\nWhich public investment should we follow to its next measurable result?",
+          "voiceover": null,
+          "storyFrames": [
+            "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
+            "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation…",
+            "Which public investment should we follow to its next measurable result? Read: https://atlsignal.com/file/8b3c22e76193d9ee04ef"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History\n\nThe Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.\n\nReceipt: Invest Atlanta. https://atlsignal.com/file/8b3c22e76193d9ee04ef",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich public investment should we follow to its next measurable result?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History\n\nThe Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s…\n\nSource: Invest Atlanta\nhttps://atlsignal.com/file/8b3c22e76193d9ee04ef",
+          "followUp": "What remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nWhich public investment should we follow to its next measurable result?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260815",
+        "content": "atlanta_then_now_8b3c22e7",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "8ab663834882f93dba48",
+      "storyId": "163ecb6c04de2680150d",
+      "idempotencyKey": "atlsignal:163ecb6c04de2680150d:social-v1",
+      "scheduledFor": "2026-08-16T11:35:00.000Z",
+      "localSlot": "2026-08-16 07:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "Opening Watch",
+      "category": "Food, Retail & Hospitality",
+      "evidenceLabel": "Primary-source report",
+      "headline": "Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations",
+      "hook": "Opening watch: Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations",
+      "articleUrl": "https://atlsignal.com/file/163ecb6c04de2680150d",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/downtown-pop-up-opportunity-fund-turns-empty-spaces-into-atlanta-destinations",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Swiftly Vintage is the creative vision of Donna Lindsey and a pursuit more than a decade in the making. Inspired by her extensive travels, the boutique pop-up store in South Downtown features an exclusive collection of vintage clothing, accessories and home décor that Donna has sourced and curated from around the world.",
+        "whyItMatters": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/151a9424_VR7z7Zm.jpg",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "Opening Watch explainer about Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/8ab663834882f93dba48/1",
+          "https://atlsignal.com/social-card/8ab663834882f93dba48/2",
+          "https://atlsignal.com/social-card/8ab663834882f93dba48/3",
+          "https://atlsignal.com/social-card/8ab663834882f93dba48/4",
+          "https://atlsignal.com/social-card/8ab663834882f93dba48/5",
+          "https://atlsignal.com/social-card/8ab663834882f93dba48/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "Opening Watch",
+          "heading": "Opening watch: Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Swiftly Vintage is the creative vision of Donna Lindsey and a pursuit more than a decade in the making. Inspired by her extensive travels, the boutique pop-up store in South Downtown…"
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Invest Atlanta."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-16T11:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "Opening watch: Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations\n\nSwiftly Vintage is the creative vision of Donna Lindsey and a pursuit more than a decade in the making. Inspired by her extensive travels, the boutique pop-up store in South Downtown features an exclusive collection of vintage clothing, accessories and home décor that Donna has sourced and curated from around the world.\n\nWhy it matters: Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://atlsignal.com/file/163ecb6c04de2680150d\n\nWhich Atlanta business move should be on our watchlist?",
+          "voiceover": null,
+          "storyFrames": [
+            "Opening watch: Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations",
+            "Swiftly Vintage is the creative vision of Donna Lindsey and a pursuit more than a decade in the making. Inspired by…",
+            "Which Atlanta business move should be on our watchlist? Read: https://atlsignal.com/file/163ecb6c04de2680150d"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Opening watch: Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations\n\nSwiftly Vintage is the creative vision of Donna Lindsey and a pursuit more than a decade in the making. Inspired by her extensive travels, the boutique pop-up store in South Downtown features an exclusive collection of vintage clothing, accessories and home décor that Donna has sourced and curated…\n\nReceipt: Invest Atlanta. https://atlsignal.com/file/163ecb6c04de2680150d",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich Atlanta business move should be on our watchlist?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Opening watch: Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations\n\nSwiftly Vintage is the creative vision of Donna Lindsey and a pursuit more than a decade in the making.…\n\nSource: Invest Atlanta\nhttps://atlsignal.com/file/163ecb6c04de2680150d",
+          "followUp": "What remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nWhich Atlanta business move should be on our watchlist?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260816",
+        "content": "opening_watch_163ecb6c",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "c47e711fc8020292b4af",
+      "storyId": "b1c05e21ab32f60ca452",
+      "idempotencyKey": "atlsignal:b1c05e21ab32f60ca452:social-v1",
+      "scheduledFor": "2026-08-16T16:15:00.000Z",
+      "localSlot": "2026-08-16 12:15 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "The Receipt",
+      "category": "Housing & Neighborhoods",
+      "evidenceLabel": "Primary-source report",
+      "headline": "$39 million backs nearly 400 affordable homes across Atlanta",
+      "hook": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta",
+      "articleUrl": "https://atlsignal.com/invest-atlanta-39-million-affordable-housing",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-board-approves-39-million-for-affordable-housing",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Invest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park.",
+        "whyItMatters": "The approvals turn a broad affordability commitment into named projects, locations and unit counts that can be followed through construction and occupancy.",
+        "unknown": "Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level.",
+        "next": "Track closings, permits, construction milestones, affordability agreements and occupancy at all four properties."
+      },
+      "production": {
+        "format": "VERTICAL_REEL_9X16",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a 35–50 second motion-typography explainer using an Atlanta map, the headline number or place, short source-document excerpts, and ATLSignal branding. Do not invent people, locations, footage or outcomes.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/cityline_zy5MkbX.jpeg",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "The Receipt explainer about Invest Atlanta Board Approves $39 Million for Affordable Housing, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/c47e711fc8020292b4af/1",
+          "https://atlsignal.com/social-card/c47e711fc8020292b4af/2",
+          "https://atlsignal.com/social-card/c47e711fc8020292b4af/3",
+          "https://atlsignal.com/social-card/c47e711fc8020292b4af/4",
+          "https://atlsignal.com/social-card/c47e711fc8020292b4af/5",
+          "https://atlsignal.com/social-card/c47e711fc8020292b4af/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "The Receipt",
+          "heading": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Invest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "The approvals turn a broad affordability commitment into named projects, locations and unit counts that can be followed through construction and occupancy."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Invest Atlanta."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Track closings, permits, construction milestones, affordability agreements and occupancy at all four properties."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-16T16:15:00.000Z",
+          "format": "REEL",
+          "caption": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta\n\nInvest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park.\n\nWhy it matters: The approvals turn a broad affordability commitment into named projects, locations and unit counts that can be followed through construction and occupancy.\n\nWhat remains unknown: Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level.\n\nSources: Invest Atlanta. Full context and source trail: https://atlsignal.com/invest-atlanta-39-million-affordable-housing\n\nWhich housing commitment should ATLSignal track through delivery?",
+          "voiceover": "Here’s the Atlanta signal. Invest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park. Why it matters: The approvals turn a broad affordability commitment into named projects, locations and unit counts that can be followed through construction and occupancy. The receipt is primary-source report reporting from Invest Atlanta. What we still do not know: Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level. Next, ATLSignal will Track closings, permits, construction milestones, affordability agreements and occupancy at all four properties..",
+          "storyFrames": [
+            "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta",
+            "Invest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400…",
+            "Which housing commitment should ATLSignal track through delivery? Read: https://atlsignal.com/invest-atlanta-39-million-affordable-housing"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta\n\nInvest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park.\n\nReceipt: Invest Atlanta. https://atlsignal.com/invest-atlanta-39-million-affordable-housing",
+          "followUp": "Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta\n\nInvest Atlanta approved $39 million for four west-side developments expected to create or preserve…\n\nSource: Invest Atlanta\nhttps://atlsignal.com/invest-atlanta-39-million-affordable-housing",
+          "followUp": "What remains unknown: Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260816",
+        "content": "the_receipt_b1c05e21",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "bd105c46175e37fcaa5d",
+      "storyId": "213c4233a463753e7f91",
+      "idempotencyKey": "atlsignal:213c4233a463753e7f91:social-v1",
+      "scheduledFor": "2026-08-16T22:35:00.000Z",
+      "localSlot": "2026-08-16 18:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "From the File",
+      "category": "Transportation & Economy",
+      "evidenceLabel": "Primary-source report",
+      "headline": "It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
+      "hook": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
+      "articleUrl": "https://atlsignal.com/file/213c4233a463753e7f91",
+      "sources": [
+        {
+          "name": "Atlanta Regional Commission",
+          "url": "https://atlantaregional.org/news/natural-resources/it-rained-buckets-in-may-are-our-water-worries-behind-us-not-just-yet/",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "From a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –...",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [
+          {
+            "url": "https://atlantaregional.org/wp-content/uploads/water-levels.png",
+            "source": "Atlanta Regional Commission",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "From the File explainer about It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/bd105c46175e37fcaa5d/1",
+          "https://atlsignal.com/social-card/bd105c46175e37fcaa5d/2",
+          "https://atlsignal.com/social-card/bd105c46175e37fcaa5d/3",
+          "https://atlsignal.com/social-card/bd105c46175e37fcaa5d/4",
+          "https://atlsignal.com/social-card/bd105c46175e37fcaa5d/5",
+          "https://atlsignal.com/social-card/bd105c46175e37fcaa5d/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "From the File",
+          "heading": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "From a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –..."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Atlanta Regional Commission."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-16T22:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet\n\nFrom a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –...\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://atlsignal.com/file/213c4233a463753e7f91\n\nWhich route or project should we check next?",
+          "voiceover": null,
+          "storyFrames": [
+            "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
+            "From a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous…",
+            "Which route or project should we check next? Read: https://atlsignal.com/file/213c4233a463753e7f91"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet\n\nFrom a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –...\n\nReceipt: Atlanta Regional Commission. https://atlsignal.com/file/213c4233a463753e7f91",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich route or project should we check next?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet\n\nFrom a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns.…\n\nSource: Atlanta Regional Commission\nhttps://atlsignal.com/file/213c4233a463753e7f91",
+          "followUp": "What remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nWhich route or project should we check next?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260816",
+        "content": "from_the_file_213c4233",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "07ffb762106e91bfca70",
+      "storyId": "298bc7e9f8f7aacb337b",
+      "idempotencyKey": "atlsignal:298bc7e9f8f7aacb337b:social-v1",
+      "scheduledFor": "2026-08-17T11:35:00.000Z",
+      "localSlot": "2026-08-17 07:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "The Receipt",
+      "category": "Housing & Neighborhoods",
+      "evidenceLabel": "Primary-source report",
+      "headline": "Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards",
+      "hook": "Here’s the receipt: Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards",
+      "articleUrl": "https://atlsignal.com/pittsburgh-yards-piedmont-mobile-health-unit",
+      "sources": [
+        {
+          "name": "Atlanta BeltLine",
+          "url": "https://beltline.org/blog/pittsburgh-yards-welcomes-piedmont-mobile-health-unit-powered-by-google/",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "A Piedmont mobile health unit supported by Google is serving Pittsburgh Yards, with later BeltLine information describing second-Saturday availability alongside the Indie Market.",
+        "whyItMatters": "Healthcare, small-business programming and community activity are appearing in the same place, potentially widening the campus’s usefulness and repeat foot traffic.",
+        "unknown": "The available sources do not establish permanent service, patient volume, a complete clinical schedule or a measured business effect.",
+        "next": "Track Piedmont and BeltLine schedules, service data and future programming."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [
+          {
+            "url": "https://a2-us.storyblok.com/f/1020195/1920x1080/efd619c728/piedmont-mobile-unit.jpg/m/1200x630/filters:format(jpeg)",
+            "source": "Atlanta BeltLine",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "The Receipt explainer about Pittsburgh Yards Welcomes Piedmont Mobile Health Unit Powered by Google, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/07ffb762106e91bfca70/1",
+          "https://atlsignal.com/social-card/07ffb762106e91bfca70/2",
+          "https://atlsignal.com/social-card/07ffb762106e91bfca70/3",
+          "https://atlsignal.com/social-card/07ffb762106e91bfca70/4",
+          "https://atlsignal.com/social-card/07ffb762106e91bfca70/5",
+          "https://atlsignal.com/social-card/07ffb762106e91bfca70/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "The Receipt",
+          "heading": "Here’s the receipt: Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "A Piedmont mobile health unit supported by Google is serving Pittsburgh Yards, with later BeltLine information describing second-Saturday availability alongside the Indie Market."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Healthcare, small-business programming and community activity are appearing in the same place, potentially widening the campus’s usefulness and repeat foot traffic."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Atlanta BeltLine."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "The available sources do not establish permanent service, patient volume, a complete clinical schedule or a measured business effect."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Track Piedmont and BeltLine schedules, service data and future programming."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-17T11:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "Here’s the receipt: Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards\n\nA Piedmont mobile health unit supported by Google is serving Pittsburgh Yards, with later BeltLine information describing second-Saturday availability alongside the Indie Market.\n\nWhy it matters: Healthcare, small-business programming and community activity are appearing in the same place, potentially widening the campus’s usefulness and repeat foot traffic.\n\nWhat remains unknown: The available sources do not establish permanent service, patient volume, a complete clinical schedule or a measured business effect.\n\nSources: Atlanta BeltLine. Full context and source trail: https://atlsignal.com/pittsburgh-yards-piedmont-mobile-health-unit\n\nWhich housing commitment should ATLSignal track through delivery?",
+          "voiceover": null,
+          "storyFrames": [
+            "Here’s the receipt: Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards",
+            "A Piedmont mobile health unit supported by Google is serving Pittsburgh Yards, with later BeltLine information…",
+            "Which housing commitment should ATLSignal track through delivery? Read: https://atlsignal.com/pittsburgh-yards-piedmont-mobile-health-unit"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Here’s the receipt: Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards\n\nA Piedmont mobile health unit supported by Google is serving Pittsburgh Yards, with later BeltLine information describing second-Saturday availability alongside the Indie Market.\n\nReceipt: Atlanta BeltLine. https://atlsignal.com/pittsburgh-yards-piedmont-mobile-health-unit",
+          "followUp": "The available sources do not establish permanent service, patient volume, a complete clinical schedule or a measured business effect.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Here’s the receipt: Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards\n\nA Piedmont mobile health unit supported by Google is serving Pittsburgh Yards, with later…\n\nSource: Atlanta BeltLine\nhttps://atlsignal.com/pittsburgh-yards-piedmont-mobile-health-unit",
+          "followUp": "What remains unknown: The available sources do not establish permanent service, patient volume, a complete clinical schedule or a measured business effect.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260817",
+        "content": "the_receipt_298bc7e9",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "23efd7a3800917fcee85",
+      "storyId": "a7d1a013b1faada61611",
+      "idempotencyKey": "atlsignal:a7d1a013b1faada61611:social-v1",
+      "scheduledFor": "2026-08-17T16:15:00.000Z",
+      "localSlot": "2026-08-17 12:15 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "$ATL",
+      "category": "Public Money",
+      "evidenceLabel": "Primary-source report",
+      "headline": "TAD Grant Supports New Andrew Young International Institute for Peace and Reconciliation",
+      "hook": "Follow the money: TAD Grant Supports New Andrew Young International Institute for Peace and…",
+      "articleUrl": "https://atlsignal.com/file/a7d1a013b1faada61611",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/tad-grant-supports-new-andrew-young-international-institute-for-peace-and-reconciliation",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "The Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the development of a transformative peace center in Historic Vine City, inspired by the enduring legacy of Ambassador Andrew Young.",
+        "whyItMatters": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "VERTICAL_REEL_9X16",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a 35–50 second motion-typography explainer using an Atlanta map, the headline number or place, short source-document excerpts, and ATLSignal branding. Do not invent people, locations, footage or outcomes.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/151a8556_r9el89Z.jpg",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "$ATL explainer about TAD Grant Supports New Andrew Young International Institute for Peace and Reconciliation, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/23efd7a3800917fcee85/1",
+          "https://atlsignal.com/social-card/23efd7a3800917fcee85/2",
+          "https://atlsignal.com/social-card/23efd7a3800917fcee85/3",
+          "https://atlsignal.com/social-card/23efd7a3800917fcee85/4",
+          "https://atlsignal.com/social-card/23efd7a3800917fcee85/5",
+          "https://atlsignal.com/social-card/23efd7a3800917fcee85/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "$ATL",
+          "heading": "Follow the money: TAD Grant Supports New Andrew Young International Institute for Peace and…",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "The Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the development of a transformative peace center in Historic Vine City, inspired by…"
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Invest Atlanta."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-17T16:15:00.000Z",
+          "format": "REEL",
+          "caption": "Follow the money: TAD Grant Supports New Andrew Young International Institute for Peace and…\n\nThe Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the development of a transformative peace center in Historic Vine City, inspired by the enduring legacy of Ambassador Andrew Young.\n\nWhy it matters: Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://atlsignal.com/file/a7d1a013b1faada61611\n\nWhich public investment should we follow to its next measurable result?",
+          "voiceover": "Here’s the Atlanta signal. The Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the development of a transformative peace center in Historic Vine City, inspired by the enduring legacy of Ambassador Andrew Young. Why it matters: Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time. The receipt is primary-source report reporting from Invest Atlanta. What we still do not know: Independent corroboration and later outcome evidence remain outstanding. Next, ATLSignal will watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation..",
+          "storyFrames": [
+            "Follow the money: TAD Grant Supports New Andrew Young International Institute for Peace and…",
+            "The Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the development…",
+            "Which public investment should we follow to its next measurable result? Read: https://atlsignal.com/file/a7d1a013b1faada61611"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Follow the money: TAD Grant Supports New Andrew Young International Institute for Peace and…\n\nThe Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the development of a transformative peace center in Historic Vine City, inspired by the enduring legacy of Ambassador Andrew Young.\n\nReceipt: Invest Atlanta. https://atlsignal.com/file/a7d1a013b1faada61611",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich public investment should we follow to its next measurable result?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Follow the money: TAD Grant Supports New Andrew Young International Institute for Peace and…\n\nThe Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the…\n\nSource: Invest Atlanta\nhttps://atlsignal.com/file/a7d1a013b1faada61611",
+          "followUp": "What remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nWhich public investment should we follow to its next measurable result?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260817",
+        "content": "_atl_a7d1a013",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "242b65fe1ebe2969fde6",
+      "storyId": "4a8db6af8311a3a634a6",
+      "idempotencyKey": "atlsignal:4a8db6af8311a3a634a6:social-v1",
+      "scheduledFor": "2026-08-17T22:35:00.000Z",
+      "localSlot": "2026-08-17 18:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "From the File",
+      "category": "Food, Retail & Hospitality",
+      "evidenceLabel": "Primary-source report",
+      "headline": "Small Business Improvement Grant Helps Goodr Feed Its Mission",
+      "hook": "From the file: Small Business Improvement Grant Helps Goodr Feed Its Mission",
+      "articleUrl": "https://atlsignal.com/file/4a8db6af8311a3a634a6",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/small-business-improvement-grant-helps-goodr-feed-its-mission",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "With funding assistance from a $300,000 Atlanta Food Access Catalyst Grant, the Goodr Community Market on Edgewood brings food security and food retail under one roof.",
+        "whyItMatters": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/sam_1752_g3p39BQ.jpg",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "From the File explainer about Small Business Improvement Grant Helps Goodr Feed Its Mission, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/242b65fe1ebe2969fde6/1",
+          "https://atlsignal.com/social-card/242b65fe1ebe2969fde6/2",
+          "https://atlsignal.com/social-card/242b65fe1ebe2969fde6/3",
+          "https://atlsignal.com/social-card/242b65fe1ebe2969fde6/4",
+          "https://atlsignal.com/social-card/242b65fe1ebe2969fde6/5",
+          "https://atlsignal.com/social-card/242b65fe1ebe2969fde6/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "From the File",
+          "heading": "From the file: Small Business Improvement Grant Helps Goodr Feed Its Mission",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "With funding assistance from a $300,000 Atlanta Food Access Catalyst Grant, the Goodr Community Market on Edgewood brings food security and food retail under one roof."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Invest Atlanta."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-17T22:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "From the file: Small Business Improvement Grant Helps Goodr Feed Its Mission\n\nWith funding assistance from a $300,000 Atlanta Food Access Catalyst Grant, the Goodr Community Market on Edgewood brings food security and food retail under one roof.\n\nWhy it matters: Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://atlsignal.com/file/4a8db6af8311a3a634a6\n\nWhich Atlanta business move should be on our watchlist?",
+          "voiceover": null,
+          "storyFrames": [
+            "From the file: Small Business Improvement Grant Helps Goodr Feed Its Mission",
+            "With funding assistance from a $300,000 Atlanta Food Access Catalyst Grant, the Goodr Community Market on Edgewood…",
+            "Which Atlanta business move should be on our watchlist? Read: https://atlsignal.com/file/4a8db6af8311a3a634a6"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "From the file: Small Business Improvement Grant Helps Goodr Feed Its Mission\n\nWith funding assistance from a $300,000 Atlanta Food Access Catalyst Grant, the Goodr Community Market on Edgewood brings food security and food retail under one roof.\n\nReceipt: Invest Atlanta. https://atlsignal.com/file/4a8db6af8311a3a634a6",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich Atlanta business move should be on our watchlist?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "From the file: Small Business Improvement Grant Helps Goodr Feed Its Mission\n\nWith funding assistance from a $300,000 Atlanta Food Access Catalyst Grant, the Goodr Community Market on Edgewood brings food…\n\nSource: Invest Atlanta\nhttps://atlsignal.com/file/4a8db6af8311a3a634a6",
+          "followUp": "What remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nWhich Atlanta business move should be on our watchlist?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260817",
+        "content": "from_the_file_4a8db6af",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "8055d0779d86263099dc",
+      "storyId": "225b0de85f855128b39e",
+      "idempotencyKey": "atlsignal:225b0de85f855128b39e:social-v1",
+      "scheduledFor": "2026-08-18T11:35:00.000Z",
+      "localSlot": "2026-08-18 07:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "The Receipt",
+      "category": "Housing & Neighborhoods",
+      "evidenceLabel": "Primary-source report",
+      "headline": "Atlanta Beltline Hosting Housing Fair to Connect Residents with Resources",
+      "hook": "Here’s the receipt: Atlanta Beltline Hosting Housing Fair to Connect Residents with Resources",
+      "articleUrl": "https://atlsignal.com/file/225b0de85f855128b39e",
+      "sources": [
+        {
+          "name": "Atlanta BeltLine",
+          "url": "https://beltline.org/blog/atlanta-beltline-hosting-housing-fair-to-connect-residents-with-resources/",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Join us for the first-ever Atlanta Beltline Housing Fair at Monday Night Garage on August 8!",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [
+          {
+            "url": "https://a2-us.storyblok.com/f/1020195/5640x3760/0e21629a5b/2024_11_13-tanisha-corporal_the-sintoses_2024_11_13-tanisha-corporal_abp15836.jpg/m/1200x630/filters:format(jpeg)",
+            "source": "Atlanta BeltLine",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "The Receipt explainer about Atlanta Beltline Hosting Housing Fair to Connect Residents with Resources, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/8055d0779d86263099dc/1",
+          "https://atlsignal.com/social-card/8055d0779d86263099dc/2",
+          "https://atlsignal.com/social-card/8055d0779d86263099dc/3",
+          "https://atlsignal.com/social-card/8055d0779d86263099dc/4",
+          "https://atlsignal.com/social-card/8055d0779d86263099dc/5",
+          "https://atlsignal.com/social-card/8055d0779d86263099dc/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "The Receipt",
+          "heading": "Here’s the receipt: Atlanta Beltline Hosting Housing Fair to Connect Residents with Resources",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Join us for the first-ever Atlanta Beltline Housing Fair at Monday Night Garage on August 8!"
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Atlanta BeltLine."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-18T11:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "Here’s the receipt: Atlanta Beltline Hosting Housing Fair to Connect Residents with Resources\n\nJoin us for the first-ever Atlanta Beltline Housing Fair at Monday Night Garage on August 8!\n\nWhy it matters: Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta BeltLine. Full context and source trail: https://atlsignal.com/file/225b0de85f855128b39e\n\nWhich housing commitment should ATLSignal track through delivery?",
+          "voiceover": null,
+          "storyFrames": [
+            "Here’s the receipt: Atlanta Beltline Hosting Housing Fair to Connect Residents with Resources",
+            "Join us for the first-ever Atlanta Beltline Housing Fair at Monday Night Garage on August 8!",
+            "Which housing commitment should ATLSignal track through delivery? Read: https://atlsignal.com/file/225b0de85f855128b39e"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Here’s the receipt: Atlanta Beltline Hosting Housing Fair to Connect Residents with Resources\n\nJoin us for the first-ever Atlanta Beltline Housing Fair at Monday Night Garage on August 8!\n\nReceipt: Atlanta BeltLine. https://atlsignal.com/file/225b0de85f855128b39e",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Here’s the receipt: Atlanta Beltline Hosting Housing Fair to Connect Residents with Resources\n\nJoin us for the first-ever Atlanta Beltline Housing Fair at Monday Night Garage on August 8!\n\nSource: Atlanta BeltLine\nhttps://atlsignal.com/file/225b0de85f855128b39e",
+          "followUp": "What remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260818",
+        "content": "the_receipt_225b0de8",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "9504c255cafa80f52eac",
+      "storyId": "31483e649b8d33023c21",
+      "idempotencyKey": "atlsignal:31483e649b8d33023c21:social-v1",
+      "scheduledFor": "2026-08-18T16:15:00.000Z",
+      "localSlot": "2026-08-18 12:15 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "$ATL",
+      "category": "Public Money",
+      "evidenceLabel": "Primary-source report",
+      "headline": "ARC Awards $1.4 Million in Livable Centers Initiative Grants to Help Six Communities Transform",
+      "hook": "Follow the money: ARC Awards $1.4 Million in Livable Centers Initiative Grants to Help Six…",
+      "articleUrl": "https://atlsignal.com/file/31483e649b8d33023c21",
+      "sources": [
+        {
+          "name": "Atlanta Regional Commission",
+          "url": "https://atlantaregional.org/news/uncategorized/arc-awards-1-4-million-in-livable-centers-initiative-grants-to-help-six-communities-transform/",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "The Atlanta Regional Commission (ARC) announced today that it has awarded $1,420,000 in Livable Centers Initiative (LCI) grants for six planning studies across metro Atlanta to help communities transform into...",
+        "whyItMatters": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "VERTICAL_REEL_9X16",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a 35–50 second motion-typography explainer using an Atlanta map, the headline number or place, short source-document excerpts, and ATLSignal branding. Do not invent people, locations, footage or outcomes.",
+        "sourceMedia": [
+          {
+            "url": "https://atlantaregional.org/wp-content/uploads/duluth-lci-25-festival-center-scaled.jpg",
+            "source": "Atlanta Regional Commission",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "$ATL explainer about ARC Awards $1.4 Million in Livable Centers Initiative Grants to Help Six Communities Transform, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/9504c255cafa80f52eac/1",
+          "https://atlsignal.com/social-card/9504c255cafa80f52eac/2",
+          "https://atlsignal.com/social-card/9504c255cafa80f52eac/3",
+          "https://atlsignal.com/social-card/9504c255cafa80f52eac/4",
+          "https://atlsignal.com/social-card/9504c255cafa80f52eac/5",
+          "https://atlsignal.com/social-card/9504c255cafa80f52eac/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "$ATL",
+          "heading": "Follow the money: ARC Awards $1.4 Million in Livable Centers Initiative Grants to Help Six…",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "The Atlanta Regional Commission (ARC) announced today that it has awarded $1,420,000 in Livable Centers Initiative (LCI) grants for six planning studies across metro Atlanta to help…"
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Atlanta Regional Commission."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-18T16:15:00.000Z",
+          "format": "REEL",
+          "caption": "Follow the money: ARC Awards $1.4 Million in Livable Centers Initiative Grants to Help Six…\n\nThe Atlanta Regional Commission (ARC) announced today that it has awarded $1,420,000 in Livable Centers Initiative (LCI) grants for six planning studies across metro Atlanta to help communities transform into...\n\nWhy it matters: Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://atlsignal.com/file/31483e649b8d33023c21\n\nWhich public investment should we follow to its next measurable result?",
+          "voiceover": "Here’s the Atlanta signal. The Atlanta Regional Commission (ARC) announced today that it has awarded $1,420,000 in Livable Centers Initiative (LCI) grants for six planning studies across metro Atlanta to help communities transform into... Why it matters: Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time. The receipt is primary-source report reporting from Atlanta Regional Commission. What we still do not know: Independent corroboration and later outcome evidence remain outstanding. Next, ATLSignal will watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation..",
+          "storyFrames": [
+            "Follow the money: ARC Awards $1.4 Million in Livable Centers Initiative Grants to Help Six…",
+            "The Atlanta Regional Commission (ARC) announced today that it has awarded $1,420,000 in Livable Centers Initiative…",
+            "Which public investment should we follow to its next measurable result? Read: https://atlsignal.com/file/31483e649b8d33023c21"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Follow the money: ARC Awards $1.4 Million in Livable Centers Initiative Grants to Help Six…\n\nThe Atlanta Regional Commission (ARC) announced today that it has awarded $1,420,000 in Livable Centers Initiative (LCI) grants for six planning studies across metro Atlanta to help communities transform into...\n\nReceipt: Atlanta Regional Commission. https://atlsignal.com/file/31483e649b8d33023c21",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich public investment should we follow to its next measurable result?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Follow the money: ARC Awards $1.4 Million in Livable Centers Initiative Grants to Help Six…\n\nThe Atlanta Regional Commission (ARC) announced today that it has awarded $1,420,000 in Livable…\n\nSource: Atlanta Regional Commission\nhttps://atlsignal.com/file/31483e649b8d33023c21",
+          "followUp": "What remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nWhich public investment should we follow to its next measurable result?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260818",
+        "content": "_atl_31483e64",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "fe8b7e534e41a769a9ea",
+      "storyId": "f6be2de676d428d3b21d",
+      "idempotencyKey": "atlsignal:f6be2de676d428d3b21d:social-v1",
+      "scheduledFor": "2026-08-18T22:35:00.000Z",
+      "localSlot": "2026-08-18 18:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "From the File",
+      "category": "Food, Retail & Hospitality",
+      "evidenceLabel": "Primary-source report",
+      "headline": "A Peek Inside New Azalea Fresh Market Location",
+      "hook": "From the file: A Peek Inside New Azalea Fresh Market Location",
+      "articleUrl": "https://atlsignal.com/file/f6be2de676d428d3b21d",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/a-peek-inside-new-azalea-fresh-market-location",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "The Azalea Fresh Market is helping to pioneer a transformative municipal market model.",
+        "whyItMatters": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/_05a3414_j3V3LrW.jpg",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "From the File explainer about A Peek Inside New Azalea Fresh Market Location, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/fe8b7e534e41a769a9ea/1",
+          "https://atlsignal.com/social-card/fe8b7e534e41a769a9ea/2",
+          "https://atlsignal.com/social-card/fe8b7e534e41a769a9ea/3",
+          "https://atlsignal.com/social-card/fe8b7e534e41a769a9ea/4",
+          "https://atlsignal.com/social-card/fe8b7e534e41a769a9ea/5",
+          "https://atlsignal.com/social-card/fe8b7e534e41a769a9ea/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "From the File",
+          "heading": "From the file: A Peek Inside New Azalea Fresh Market Location",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "The Azalea Fresh Market is helping to pioneer a transformative municipal market model."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Invest Atlanta."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-18T22:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "From the file: A Peek Inside New Azalea Fresh Market Location\n\nThe Azalea Fresh Market is helping to pioneer a transformative municipal market model.\n\nWhy it matters: Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://atlsignal.com/file/f6be2de676d428d3b21d\n\nWhich Atlanta business move should be on our watchlist?",
+          "voiceover": null,
+          "storyFrames": [
+            "From the file: A Peek Inside New Azalea Fresh Market Location",
+            "The Azalea Fresh Market is helping to pioneer a transformative municipal market model.",
+            "Which Atlanta business move should be on our watchlist? Read: https://atlsignal.com/file/f6be2de676d428d3b21d"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "From the file: A Peek Inside New Azalea Fresh Market Location\n\nThe Azalea Fresh Market is helping to pioneer a transformative municipal market model.\n\nReceipt: Invest Atlanta. https://atlsignal.com/file/f6be2de676d428d3b21d",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich Atlanta business move should be on our watchlist?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "From the file: A Peek Inside New Azalea Fresh Market Location\n\nThe Azalea Fresh Market is helping to pioneer a transformative municipal market model.\n\nSource: Invest Atlanta\nhttps://atlsignal.com/file/f6be2de676d428d3b21d",
+          "followUp": "What remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nWhich Atlanta business move should be on our watchlist?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260818",
+        "content": "from_the_file_f6be2de6",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "a2cb6b4ddc58c6864eb4",
+      "storyId": "8891198b5924c3d8f3b5",
+      "idempotencyKey": "atlsignal:8891198b5924c3d8f3b5:social-v1",
+      "scheduledFor": "2026-08-19T11:35:00.000Z",
+      "localSlot": "2026-08-19 07:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "Atlanta Then / Now",
+      "category": "Public Money",
+      "evidenceLabel": "Primary-source report",
+      "headline": "TAD Dollars Fund Historic Restoration Across Atlanta",
+      "hook": "Atlanta then and now: TAD Dollars Fund Historic Restoration Across Atlanta",
+      "articleUrl": "https://atlsignal.com/file/8891198b5924c3d8f3b5",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/tad-dollars-fund-historic-restoration-across-atlanta",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Tax Allocation District (TAD) dollars are helping to preserve some of Atlanta’s most historically significant buildings, supporting restoration projects that celebrate the city’s civil rights legacy while strengthening neighborhoods and business districts.",
+        "whyItMatters": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/ada_-_towns_hamilton_homes_preservation_-_wtad_fact_sheet_v_y6Px4JD.jpeg",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "Atlanta Then / Now explainer about TAD Dollars Fund Historic Restoration Across Atlanta, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/a2cb6b4ddc58c6864eb4/1",
+          "https://atlsignal.com/social-card/a2cb6b4ddc58c6864eb4/2",
+          "https://atlsignal.com/social-card/a2cb6b4ddc58c6864eb4/3",
+          "https://atlsignal.com/social-card/a2cb6b4ddc58c6864eb4/4",
+          "https://atlsignal.com/social-card/a2cb6b4ddc58c6864eb4/5",
+          "https://atlsignal.com/social-card/a2cb6b4ddc58c6864eb4/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "Atlanta Then / Now",
+          "heading": "Atlanta then and now: TAD Dollars Fund Historic Restoration Across Atlanta",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Tax Allocation District (TAD) dollars are helping to preserve some of Atlanta’s most historically significant buildings, supporting restoration projects that celebrate the city’s civil…"
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Invest Atlanta."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-19T11:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "Atlanta then and now: TAD Dollars Fund Historic Restoration Across Atlanta\n\nTax Allocation District (TAD) dollars are helping to preserve some of Atlanta’s most historically significant buildings, supporting restoration projects that celebrate the city’s civil rights legacy while strengthening neighborhoods and business districts.\n\nWhy it matters: Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://atlsignal.com/file/8891198b5924c3d8f3b5\n\nWhich public investment should we follow to its next measurable result?",
+          "voiceover": null,
+          "storyFrames": [
+            "Atlanta then and now: TAD Dollars Fund Historic Restoration Across Atlanta",
+            "Tax Allocation District (TAD) dollars are helping to preserve some of Atlanta’s most historically significant…",
+            "Which public investment should we follow to its next measurable result? Read: https://atlsignal.com/file/8891198b5924c3d8f3b5"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Atlanta then and now: TAD Dollars Fund Historic Restoration Across Atlanta\n\nTax Allocation District (TAD) dollars are helping to preserve some of Atlanta’s most historically significant buildings, supporting restoration projects that celebrate the city’s civil rights legacy while strengthening neighborhoods and business districts.\n\nReceipt: Invest Atlanta. https://atlsignal.com/file/8891198b5924c3d8f3b5",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich public investment should we follow to its next measurable result?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Atlanta then and now: TAD Dollars Fund Historic Restoration Across Atlanta\n\nTax Allocation District (TAD) dollars are helping to preserve some of Atlanta’s most historically significant buildings,…\n\nSource: Invest Atlanta\nhttps://atlsignal.com/file/8891198b5924c3d8f3b5",
+          "followUp": "What remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nWhich public investment should we follow to its next measurable result?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260819",
+        "content": "atlanta_then_now_8891198b",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "f02b2b59c1685d559206",
+      "storyId": "e740e296a1c1767be57a",
+      "idempotencyKey": "atlsignal:e740e296a1c1767be57a:social-v1",
+      "scheduledFor": "2026-08-19T16:15:00.000Z",
+      "localSlot": "2026-08-19 12:15 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "The Receipt",
+      "category": "Housing & Neighborhoods",
+      "evidenceLabel": "Primary-source report",
+      "headline": "Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand Workforce Services for Residents",
+      "hook": "Here’s the receipt: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…",
+      "articleUrl": "https://atlsignal.com/file/e740e296a1c1767be57a",
+      "sources": [
+        {
+          "name": "Atlanta Housing",
+          "url": "https://www.atlantahousing.org/atlanta-housing-and-goodwill-of-north-georgia-deepen-partnership-to-expand-workforce-services-for-residents/",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Collaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the...",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "VERTICAL_REEL_9X16",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a 35–50 second motion-typography explainer using an Atlanta map, the headline number or place, short source-document excerpts, and ATLSignal branding. Do not invent people, locations, footage or outcomes.",
+        "sourceMedia": [],
+        "mediaRule": "Use the original graphic plan; no third-party image is required.",
+        "altText": "The Receipt explainer about Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand Workforce Services for Residents, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/f02b2b59c1685d559206/1",
+          "https://atlsignal.com/social-card/f02b2b59c1685d559206/2",
+          "https://atlsignal.com/social-card/f02b2b59c1685d559206/3",
+          "https://atlsignal.com/social-card/f02b2b59c1685d559206/4",
+          "https://atlsignal.com/social-card/f02b2b59c1685d559206/5",
+          "https://atlsignal.com/social-card/f02b2b59c1685d559206/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "The Receipt",
+          "heading": "Here’s the receipt: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Collaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the..."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Atlanta Housing."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-19T16:15:00.000Z",
+          "format": "REEL",
+          "caption": "Here’s the receipt: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…\n\nCollaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the...\n\nWhy it matters: Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Housing. Full context and source trail: https://atlsignal.com/file/e740e296a1c1767be57a\n\nWhich housing commitment should ATLSignal track through delivery?",
+          "voiceover": "Here’s the Atlanta signal. Collaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the... Why it matters: Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands. The receipt is primary-source report reporting from Atlanta Housing. What we still do not know: Independent corroboration and later outcome evidence remain outstanding. Next, ATLSignal will watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation..",
+          "storyFrames": [
+            "Here’s the receipt: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…",
+            "Collaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta…",
+            "Which housing commitment should ATLSignal track through delivery? Read: https://atlsignal.com/file/e740e296a1c1767be57a"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Here’s the receipt: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…\n\nCollaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the...\n\nReceipt: Atlanta Housing. https://atlsignal.com/file/e740e296a1c1767be57a",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "Here’s the receipt: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…\n\nCollaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA…\n\nSource: Atlanta Housing\nhttps://atlsignal.com/file/e740e296a1c1767be57a",
+          "followUp": "What remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260819",
+        "content": "the_receipt_e740e296",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "501e2fe12c159c28d863",
+      "storyId": "51e10ed790f457ff8e0c",
+      "idempotencyKey": "atlsignal:51e10ed790f457ff8e0c:social-v1",
+      "scheduledFor": "2026-08-19T22:35:00.000Z",
+      "localSlot": "2026-08-19 18:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "From the File",
+      "category": "Public Money",
+      "evidenceLabel": "Primary-source report",
+      "headline": "C-PACE Financing Boosts Energy Efficiencies",
+      "hook": "From the file: C-PACE Financing Boosts Energy Efficiencies",
+      "articleUrl": "https://atlsignal.com/file/51e10ed790f457ff8e0c",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/c-pace-financing-boosts-energy-efficiencies",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Invest Atlanta is helping to power Atlanta's clean energy future one building at a time.",
+        "whyItMatters": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/pullman1_lP3RqWg.jpg",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "From the File explainer about C-PACE Financing Boosts Energy Efficiencies, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://atlsignal.com/social-card/501e2fe12c159c28d863/1",
+          "https://atlsignal.com/social-card/501e2fe12c159c28d863/2",
+          "https://atlsignal.com/social-card/501e2fe12c159c28d863/3",
+          "https://atlsignal.com/social-card/501e2fe12c159c28d863/4",
+          "https://atlsignal.com/social-card/501e2fe12c159c28d863/5",
+          "https://atlsignal.com/social-card/501e2fe12c159c28d863/6"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "From the File",
+          "heading": "From the file: C-PACE Financing Boosts Energy Efficiencies",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Invest Atlanta is helping to power Atlanta's clean energy future one building at a time."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Invest Atlanta."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-19T22:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "From the file: C-PACE Financing Boosts Energy Efficiencies\n\nInvest Atlanta is helping to power Atlanta's clean energy future one building at a time.\n\nWhy it matters: Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://atlsignal.com/file/51e10ed790f457ff8e0c\n\nWhich public investment should we follow to its next measurable result?",
+          "voiceover": null,
+          "storyFrames": [
+            "From the file: C-PACE Financing Boosts Energy Efficiencies",
+            "Invest Atlanta is helping to power Atlanta's clean energy future one building at a time.",
+            "Which public investment should we follow to its next measurable result? Read: https://atlsignal.com/file/51e10ed790f457ff8e0c"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "From the file: C-PACE Financing Boosts Energy Efficiencies\n\nInvest Atlanta is helping to power Atlanta's clean energy future one building at a time.\n\nReceipt: Invest Atlanta. https://atlsignal.com/file/51e10ed790f457ff8e0c",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich public investment should we follow to its next measurable result?"
+        },
+        "x": {
+          "publishOffsetMinutes": 0,
+          "post": "From the file: C-PACE Financing Boosts Energy Efficiencies\n\nInvest Atlanta is helping to power Atlanta's clean energy future one building at a time.\n\nSource: Invest Atlanta\nhttps://atlsignal.com/file/51e10ed790f457ff8e0c",
+          "followUp": "What remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nWhich public investment should we follow to its next measurable result?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260819",
+        "content": "from_the_file_51e10ed7",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    }
+  ]
+}

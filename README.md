@@ -36,6 +36,12 @@ Run one newsroom cycle locally:
 npm run newsroom
 ```
 
+The same cycle also produces a rolling seven-day social publishing desk in
+`data/social-desk.json`. It packages three original, source-linked stories per
+day for Instagram, Threads, and X. See
+[`docs/social-publishing.md`](docs/social-publishing.md) for the media-rights
+rules and optional webhook dispatch connection.
+
 Source access rules and request caps live in
 `config/newsroom-sources.json`. Public article pages are never generated from a
 metadata-only discovery item. Those items remain in the corroboration queue

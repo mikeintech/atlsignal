@@ -37,13 +37,18 @@ jobs:
           NEXT_PUBLIC_NEWSLETTER_ENDPOINT: ${{ vars.NEXT_PUBLIC_NEWSLETTER_ENDPOINT }}
           NEXT_PUBLIC_CONTACT_ENDPOINT: ${{ vars.NEXT_PUBLIC_CONTACT_ENDPOINT }}
           NEXT_PUBLIC_ANALYTICS_ENDPOINT: ${{ vars.NEXT_PUBLIC_ANALYTICS_ENDPOINT }}
+      - name: Deliver due social packages
+        run: npm run social:dispatch
+        env:
+          SOCIAL_PUBLISH_ENDPOINT: ${{ secrets.SOCIAL_PUBLISH_ENDPOINT }}
+          SOCIAL_PUBLISH_TOKEN: ${{ secrets.SOCIAL_PUBLISH_TOKEN }}
       - name: Preserve the newsroom ledger
         run: |
-          if ! git diff --quiet -- data/newsroom.json; then
+          if ! git diff --quiet -- data/newsroom.json data/social-desk.json data/social-dispatch.json; then
             git config user.name "atlsignal-newsroom[bot]"
             git config user.email "atlsignal-newsroom[bot]@users.noreply.github.com"
-            git add data/newsroom.json
-            git commit -m "Refresh ATLSignal newsroom ledger [skip ci]"
+            git add data/newsroom.json data/social-desk.json data/social-dispatch.json
+            git commit -m "Refresh ATLSignal publishing ledgers [skip ci]"
             git push
           fi
       - uses: actions/upload-pages-artifact@v3
