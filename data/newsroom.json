@@ -1,6 +1,6 @@
 {
   "schemaVersion": "atlsignal_newsroom_v1",
-  "generatedAt": "2026-08-12T16:11:39.976Z",
+  "generatedAt": "2026-08-12T16:26:42.936Z",
   "market": "atlanta",
   "timezone": "America/New_York",
   "editionWindow": "MORNING",
@@ -14,7 +14,7 @@
     "intendedCadence": "four_daily",
     "status": "HEALTHY",
     "criticalFailures": [],
-    "previousRunAt": "2026-08-12T16:11:27.692Z"
+    "previousRunAt": "2026-08-12T16:11:39.976Z"
   },
   "stats": {
     "activeSources": 4,
@@ -31,7 +31,7 @@
       "status": "OK",
       "itemCount": 25,
       "critical": true,
-      "durationMs": 283
+      "durationMs": 517
     },
     {
       "sourceId": "atlanta_beltline",
@@ -39,7 +39,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 9700
+      "durationMs": 33912
     },
     {
       "sourceId": "atlanta_regional_commission",
@@ -47,7 +47,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 7226
+      "durationMs": 32683
     },
     {
       "sourceId": "atlanta_housing",
@@ -55,7 +55,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": true,
-      "durationMs": 111
+      "durationMs": 4989
     },
     {
       "sourceId": "ajc",
@@ -64,16 +64,16 @@
       "itemCount": 3,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "atlanta_business_chronicle",
       "name": "Atlanta Business Chronicle",
       "status": "DISCOVERY_OK",
-      "itemCount": 5,
+      "itemCount": 7,
       "critical": false,
       "accessState": "SUBSCRIPTION_CONSTRAINED",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "urbanize_atlanta",
@@ -82,7 +82,7 @@
       "itemCount": 2,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "rough_draft_atlanta",
@@ -91,7 +91,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "axios_atlanta",
@@ -100,7 +100,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "eater_atlanta",
@@ -109,7 +109,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "saporta_report",
@@ -118,7 +118,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "what_now_atlanta",
@@ -127,7 +127,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "bisnow_atlanta",
@@ -136,7 +136,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "city_of_atlanta",
@@ -145,7 +145,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "marta",
@@ -154,7 +154,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "atl_airport",
@@ -163,7 +163,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "georgia_economic_development",
@@ -172,7 +172,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "metro_atlanta_chamber",
@@ -181,7 +181,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     },
     {
       "sourceId": "discover_atlanta",
@@ -190,7 +190,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 564
+      "durationMs": 539
     }
   ],
   "items": [
@@ -207,13 +207,13 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTks0dGEyeDdiTUZ2R1FUTWhoNzBub1NHR1BMYUN5dGw2RUZzRVNTY0RTQlg0MGVnc0RCYm83RmdSX0c0dFZVeWtIakZYVmtRWXVpS1hvOTRPZG1LWDd5MGdpZXAyOWxXUHRWMElvbVEzdmxhWkZOMXlVY2xWS2JIZVpOaFVvS3A1R1R4NDBVWXZlcC0yZ1Zzb2pZUDZIZ3l4ZFhCT19GSzBfX0hTcEZpSmpKa2dmWEZH?oc=5",
       "publisherUrl": "https://www.ajc.com",
-      "publishedAt": "2026-08-12T12:12:38.000Z",
-      "updatedAt": "2026-08-12T12:12:38.000Z",
+      "publishedAt": "2026-08-12T12:03:42.000Z",
+      "updatedAt": "2026-08-12T12:03:42.000Z",
       "imageUrl": null,
-      "contentHash": "4efc40a5b2fd66cc9b93",
+      "contentHash": "a95f69695883c7f5aadd",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "f34d64340815a3858ff0",
@@ -234,7 +234,7 @@
       "contentHash": "b569ab92dcb5ac05ba46",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "4110555f2be43e645f5c",
@@ -255,7 +255,7 @@
       "contentHash": "0fdd4f2478198b30d212",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "654d28aa0aed2b24c3d8",
@@ -276,7 +276,7 @@
       "contentHash": "820ac9e62c2529d71abb",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "0156caa329cabd5ee87e",
@@ -297,7 +297,7 @@
       "contentHash": "e99f547abb190c8198f8",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:06:39.631Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "5ca989d22865ad43e770",
@@ -318,7 +318,7 @@
       "contentHash": "573c3dae20f3e9c06819",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "f76182f87e20479833ee",
@@ -339,7 +339,7 @@
       "contentHash": "0f627b067e26a663510b",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "7a721452b1d2e68fefb2",
@@ -360,7 +360,7 @@
       "contentHash": "f2238258c0a9e60c188a",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "d0bd1e2c7d214224c0b4",
@@ -381,7 +381,7 @@
       "contentHash": "524a38829211844db6b1",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "d6e41290c330ea7f6318",
@@ -402,7 +402,7 @@
       "contentHash": "a1616d8fe124cf2d48d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "f5332964efdb536984ca",
@@ -423,7 +423,7 @@
       "contentHash": "37769ed41d958cef83de",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "9807276a0bd43435677a",
@@ -444,7 +444,7 @@
       "contentHash": "4773e02b41b422219b02",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "8182f339451af7d52e3b",
@@ -465,7 +465,7 @@
       "contentHash": "567849e9517d27928cf0",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "22fb4762a172f34b618f",
@@ -486,7 +486,7 @@
       "contentHash": "7f72f5fc40e91bdec0b9",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "ed772565167260a953c0",
@@ -507,7 +507,7 @@
       "contentHash": "1566eac27fa7dc5e2735",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "677fa04638fe422cb524",
@@ -528,7 +528,7 @@
       "contentHash": "8db44551d872a88554d6",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:06:39.631Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "379d65b1b8442ede5a26",
@@ -591,7 +591,7 @@
       "contentHash": "d2476f4b803d29e627f5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "6302a76fda702723bf3d",
@@ -612,7 +612,7 @@
       "contentHash": "d63698e97eb327ba7899",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "7f724a4bc74ffd08cf8f",
@@ -633,7 +633,7 @@
       "contentHash": "7938e58176113e223144",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "f3667c376a276743f471",
@@ -654,7 +654,7 @@
       "contentHash": "40367f4f92e7f7d4dd12",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "c83e8c7f3cd2a9ee4b85",
@@ -675,7 +675,7 @@
       "contentHash": "486f1a0293fad8e728f4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "ecc2fa4ebd27b7d56cf3",
@@ -696,7 +696,7 @@
       "contentHash": "7581307e5ff277d9816a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "cdc076c25899466440a9",
@@ -717,7 +717,7 @@
       "contentHash": "127f2011ac5db530a327",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "66ac653a0aebee200399",
@@ -738,7 +738,7 @@
       "contentHash": "f4b060cbd844a5b9d01c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "8b36b68a8314f667de0f",
@@ -759,7 +759,7 @@
       "contentHash": "c0ebabe25748e54339d4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "199c578a330596813fd1",
@@ -780,7 +780,7 @@
       "contentHash": "52c68119c9e8e318a06b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "8b8dce22ee6f64a71130",
@@ -801,7 +801,7 @@
       "contentHash": "e5c254b61f6c0e5cc7e4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "d482b816c951307ba84f",
@@ -822,7 +822,7 @@
       "contentHash": "685b5fc66b55fa8e87ad",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "4ba5f7d0740775a9f678",
@@ -843,7 +843,7 @@
       "contentHash": "c5fffcc4ef234cf6e268",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "503cc4766e33a35a3568",
@@ -864,7 +864,7 @@
       "contentHash": "80522f8eca587fc74347",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "afecf06030c6eaad3e80",
@@ -885,7 +885,7 @@
       "contentHash": "550ecc269a8e19d5dfef",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "433925f78eeb46ccd330",
@@ -906,7 +906,7 @@
       "contentHash": "9c56aeecb0b7210008b1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "5672137da20b1129ac75",
@@ -927,7 +927,7 @@
       "contentHash": "aa22aa20deec30bf6136",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "54fb4329f1367f3dc5f5",
@@ -948,7 +948,7 @@
       "contentHash": "89a68b3865dcfc7b6132",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "54b3b5398944a3eac4c4",
@@ -969,7 +969,7 @@
       "contentHash": "01afd76a032b029c9306",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "dea1d6e330f0bdfac53a",
@@ -990,7 +990,7 @@
       "contentHash": "0b22d42af62c560132fc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "b294645a06cc344d85d5",
@@ -1011,7 +1011,7 @@
       "contentHash": "9b5e864afaf5ac6f8c1b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "fafbf71d20fa86245788",
@@ -1032,7 +1032,7 @@
       "contentHash": "7a7f6d02dc8f179b0fd4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "afc54ba0d1d2698486c6",
@@ -1053,7 +1053,7 @@
       "contentHash": "7e6963e4a0ff4a3b631d",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "ba9265c20fd878504008",
@@ -1074,7 +1074,7 @@
       "contentHash": "fc90a84fc0bb3bee8a53",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "0a047533a306d0179911",
@@ -1095,7 +1095,7 @@
       "contentHash": "5c42d69cc129bed4c7d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "a18f4dfab1fb389dd98c",
@@ -1116,7 +1116,7 @@
       "contentHash": "d81a04af4ba15b3b04d9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "102c6e5539d6d3edde4d",
@@ -1137,7 +1137,7 @@
       "contentHash": "7d67423adf6696ad6c42",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "f56d3d266f38e4244bf3",
@@ -1158,7 +1158,7 @@
       "contentHash": "2a2f3210b7cc736ea4a0",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "8863330ec2fa19eb71ae",
@@ -1179,7 +1179,7 @@
       "contentHash": "db93bdc4bc5aaf0ccd5c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "d8cacce85da99dbd3e7e",
@@ -1200,7 +1200,7 @@
       "contentHash": "0ff645ebd61eeb829b1a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "06f938b3d9b0a2643fdb",
@@ -1221,7 +1221,7 @@
       "contentHash": "c2909df68dab0c151f94",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "618def64fc3ead0be378",
@@ -1242,7 +1242,7 @@
       "contentHash": "179b4c601182b36217a0",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "c66c79f644cce1c26d5f",
@@ -1263,7 +1263,7 @@
       "contentHash": "bf170aa030dee6a2ffcd",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "a41129acc6aae239795a",
@@ -1284,7 +1284,7 @@
       "contentHash": "652e6e77985f91129aac",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "c1d8aec281a235c3731d",
@@ -1305,7 +1305,7 @@
       "contentHash": "8a9644db2e4e2317e078",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "a5c3297725989a8fc81a",
@@ -1326,7 +1326,7 @@
       "contentHash": "3b82269349260f505519",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "d94d5d3088c062d79bbd",
@@ -1347,7 +1347,7 @@
       "contentHash": "bd26c6e3704df92fa15b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "c14c6ce425707816ee27",
@@ -1368,7 +1368,7 @@
       "contentHash": "753c2b2d7a2cf60cff0c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "9119378c0267426bba86",
@@ -1389,7 +1389,7 @@
       "contentHash": "e6ec8fd751d416a829e5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "d8d456147cf65ce90154",
@@ -1410,7 +1410,7 @@
       "contentHash": "6f90d94dcda960118cf9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "80884347dc223843f1b2",
@@ -1431,7 +1431,7 @@
       "contentHash": "4606c7f2c7688b1268fc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "b1a8f32ddcfd05d9f6d6",
@@ -1452,7 +1452,7 @@
       "contentHash": "7f4f106c59a11897992c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "e22cde1049658713eed6",
@@ -1473,7 +1473,7 @@
       "contentHash": "23e01cc6552b83bc5789",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "6a68d77f51d8b4bfa450",
@@ -1494,7 +1494,7 @@
       "contentHash": "b459ae159a0531d3250f",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "eb5e18b57c469a7586cd",
@@ -1515,7 +1515,7 @@
       "contentHash": "d8c10af54b4fd95250e4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "5dab9d0fca8ea2a1f535",
@@ -1536,7 +1536,7 @@
       "contentHash": "53a47b4014311fc1d06f",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "34140fe236621430b968",
@@ -1557,7 +1557,7 @@
       "contentHash": "7d42325d4ff1a6d25c75",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "191fee8617d675cc3b80",
@@ -1578,7 +1578,7 @@
       "contentHash": "991d52453e6272739059",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "a2758a6b9514f8862168",
@@ -1599,7 +1599,7 @@
       "contentHash": "3be7d8caff2b9eb4d7df",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "3511aca05e35cf11e607",
@@ -1620,7 +1620,7 @@
       "contentHash": "48cf11ed1dde9a89a1b5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "ba5e7a55294f5ac5e26c",
@@ -1641,7 +1641,7 @@
       "contentHash": "f1da7638b983f468fc0b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "291b2447387a073c77bc",
@@ -1662,7 +1662,7 @@
       "contentHash": "ca0421a798e023660dc5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "372bf20b8b4981c711c7",
@@ -1683,7 +1683,7 @@
       "contentHash": "ab23264f95ebaf89cfb7",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "79b334add01cabbde7f8",
@@ -1704,7 +1704,7 @@
       "contentHash": "6027474ea029061e7ead",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "0a2f2a999cf1e8228b45",
@@ -1725,7 +1725,7 @@
       "contentHash": "c0d95ea7a9e426589091",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     },
     {
       "id": "8790771864c541644970",
@@ -1746,7 +1746,7 @@
       "contentHash": "d8ed836f5f082db0f9f6",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:11:39.976Z"
+      "lastSeenAt": "2026-08-12T16:26:42.936Z"
     }
   ],
   "clusters": [
@@ -2899,7 +2899,7 @@
       "summary": "",
       "category": "Business Moves",
       "eventType": "OPENING",
-      "publishedAt": "2026-08-12T12:12:38.000Z",
+      "publishedAt": "2026-08-12T12:03:42.000Z",
       "sourceTier": "B",
       "sources": [
         {
@@ -3851,54 +3851,6 @@
       }
     },
     {
-      "id": "22fbf38641d857070bd8",
-      "itemIds": [
-        "f34d64340815a3858ff0"
-      ],
-      "headline": "Stockbridge council changes date of hearing into mayor’s P-card usage",
-      "summary": "",
-      "category": "City Hall & Policy",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-12T00:46:57.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "ajc",
-          "name": "Atlanta Journal-Constitution",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRlU0OUdkSmJiWkpYdUtIMnFiemFtcklabEJtMWZ5UFRld2ZNVW5XUnhzQ2ZvblRjQ1h0UkY3VVdMR3FQei0wb003S1hlcmRyOWhKYXlTNlRBLXFudERaS09lSWpzZ1MydWl6dHFsN2t6Q0hMQXNrbG1tUDhwTmxTU1R6dVE0Tk5GVXdmZm1QZl9lc283b0J4c3Zn?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Stockbridge council changes date of hearing into mayor’s P-card usage",
-        "dek": "",
-        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Public decisions can change costs, access, development rights and services across the city.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 50.7,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 94,
-        "shareability": 42,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 45
-      }
-    },
-    {
       "id": "7243e62da85c6d720257",
       "itemIds": [
         "18fcae04121b948ae0e5"
@@ -3992,6 +3944,54 @@
         "commercial": 65,
         "evidence": 84,
         "locality": 73
+      }
+    },
+    {
+      "id": "22fbf38641d857070bd8",
+      "itemIds": [
+        "f34d64340815a3858ff0"
+      ],
+      "headline": "Stockbridge council changes date of hearing into mayor’s P-card usage",
+      "summary": "",
+      "category": "City Hall & Policy",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-12T00:46:57.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRlU0OUdkSmJiWkpYdUtIMnFiemFtcklabEJtMWZ5UFRld2ZNVW5XUnhzQ2ZvblRjQ1h0UkY3VVdMR3FQei0wb003S1hlcmRyOWhKYXlTNlRBLXFudERaS09lSWpzZ1MydWl6dHFsN2t6Q0hMQXNrbG1tUDhwTmxTU1R6dVE0Tk5GVXdmZm1QZl9lc283b0J4c3Zn?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Stockbridge council changes date of hearing into mayor’s P-card usage",
+        "dek": "",
+        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Public decisions can change costs, access, development rights and services across the city.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 50.53,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 93,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 45
       }
     },
     {
@@ -4907,6 +4907,54 @@
       }
     },
     {
+      "id": "69bd8febd01a3be1cb02",
+      "itemIds": [
+        "4ba5f7d0740775a9f678"
+      ],
+      "headline": "Atlanta Regional Commission Announces 2026 Regional Leadership Institute Class",
+      "summary": "(ATLANTA – July 23, 2026) The Atlanta Regional Commission today announced that leaders from metro Atlanta’s public, private, and nonprofit sectors have been selected to participate in the 2026 class...",
+      "category": "Transportation & Economy",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-07-23T13:26:43.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_regional_commission",
+          "name": "Atlanta Regional Commission",
+          "tier": "A",
+          "url": "https://atlantaregional.org/news/leadership-engagement/atlanta-regional-commission-announces-2026-regional-leadership-institute-class/",
+          "acquisition": "sitemap_index",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Regional Commission Announces 2026 Regional Leadership Institute Class",
+        "dek": "(ATLANTA – July 23, 2026) The Atlanta Regional Commission today announced that leaders from metro Atlanta’s public, private, and nonprofit sectors have been selected to participate in the 2026 class...",
+        "whatChanged": "Atlanta Regional Commission published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 43.21,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 100
+      }
+    },
+    {
       "id": "3de76ba461d3ab100277",
       "itemIds": [
         "116f92cac110e953a6d9",
@@ -4953,62 +5001,14 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 43.32,
+        "total": 43.15,
         "impact": 56,
         "novelty": 35,
-        "timeliness": 52,
+        "timeliness": 51,
         "shareability": 50,
         "commercial": 38,
         "evidence": 84,
         "locality": 59
-      }
-    },
-    {
-      "id": "69bd8febd01a3be1cb02",
-      "itemIds": [
-        "4ba5f7d0740775a9f678"
-      ],
-      "headline": "Atlanta Regional Commission Announces 2026 Regional Leadership Institute Class",
-      "summary": "(ATLANTA – July 23, 2026) The Atlanta Regional Commission today announced that leaders from metro Atlanta’s public, private, and nonprofit sectors have been selected to participate in the 2026 class...",
-      "category": "Transportation & Economy",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-07-23T13:26:43.000Z",
-      "sourceTier": "A",
-      "sources": [
-        {
-          "sourceId": "atlanta_regional_commission",
-          "name": "Atlanta Regional Commission",
-          "tier": "A",
-          "url": "https://atlantaregional.org/news/leadership-engagement/atlanta-regional-commission-announces-2026-regional-leadership-institute-class/",
-          "acquisition": "sitemap_index",
-          "retrievedContent": true
-        }
-      ],
-      "corroboration": {
-        "status": "ATTRIBUTED_PRIMARY",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 1,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Primary-source report",
-      "publishable": true,
-      "draft": {
-        "headline": "Atlanta Regional Commission Announces 2026 Regional Leadership Institute Class",
-        "dek": "(ATLANTA – July 23, 2026) The Atlanta Regional Commission today announced that leaders from metro Atlanta’s public, private, and nonprofit sectors have been selected to participate in the 2026 class...",
-        "whatChanged": "Atlanta Regional Commission published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 43.21,
-        "impact": 56,
-        "novelty": 35,
-        "timeliness": 20,
-        "shareability": 50,
-        "commercial": 38,
-        "evidence": 84,
-        "locality": 100
       }
     },
     {
@@ -5109,7 +5109,7 @@
     }
   ],
   "morningBrief": {
-    "generatedAt": "2026-08-12T16:11:39.976Z",
+    "generatedAt": "2026-08-12T16:26:42.936Z",
     "label": "Morning Brief",
     "itemIds": [
       "99fc3e9c500c6cc1b945",
@@ -5120,7 +5120,7 @@
     ]
   },
   "afternoonUpdate": {
-    "generatedAt": "2026-08-12T16:11:39.976Z",
+    "generatedAt": "2026-08-12T16:26:42.936Z",
     "label": "Afternoon Update",
     "itemIds": [
       "a97063ed92e0bbd8ecf7",
@@ -5519,15 +5519,6 @@
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "22fbf38641d857070bd8",
-      "headline": "Stockbridge council changes date of hearing into mayor’s P-card usage",
-      "category": "City Hall & Policy",
-      "score": 50.7,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "7243e62da85c6d720257",
       "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
       "category": "Atlanta News",
@@ -5544,6 +5535,15 @@
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "22fbf38641d857070bd8",
+      "headline": "Stockbridge council changes date of hearing into mayor’s P-card usage",
+      "category": "City Hall & Policy",
+      "score": 50.53,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
     },
     {
       "clusterId": "6aff090c22669bb8d82e",
@@ -5717,21 +5717,21 @@
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "3de76ba461d3ab100277",
-      "headline": "FIFA World Cup 26™ In Review",
-      "category": "Transportation & Economy",
-      "score": 43.32,
-      "evidenceLabel": "Primary-source report",
-      "sourceCount": 2,
-      "status": "READY_TO_REVIEW"
-    },
-    {
       "clusterId": "69bd8febd01a3be1cb02",
       "headline": "Atlanta Regional Commission Announces 2026 Regional Leadership Institute Class",
       "category": "Transportation & Economy",
       "score": 43.21,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "3de76ba461d3ab100277",
+      "headline": "FIFA World Cup 26™ In Review",
+      "category": "Transportation & Economy",
+      "score": 43.15,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 2,
       "status": "READY_TO_REVIEW"
     },
     {
