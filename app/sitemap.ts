@@ -13,5 +13,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...publicGuides.map((guide) => `/guides/${guide.slug}`),
     ...projects.map((project) => `/project/${project.slug}`),
   ];
-  return paths.map((path, index) => ({ url: absoluteUrl(path), lastModified: new Date("2026-08-09T12:00:00-04:00"), changeFrequency: index === 0 ? "daily" : "weekly", priority: index === 0 ? 1 : .7 }));
+  return paths.map((path, index) => ({ url: absoluteUrl(path), lastModified: new Date("2026-08-12T07:00:00-04:00"), changeFrequency: index === 0 ? "daily" : "weekly", priority: index === 0 ? 1 : .7 }));
 }

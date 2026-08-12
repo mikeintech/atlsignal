@@ -318,7 +318,7 @@ function isLocallyRelevant(article, source) {
 }
 
 function isNewsworthyDiscovery(title) {
-  if (/\b(archives?|obituaries?|sports?|football|falcons|braves|hawks|training camp|recipe|things to do)\b/i.test(title)) return false;
+  if (/\b(archives?|obituaries?|sports?|football|falcons|braves|hawks|training camp|recipe|things to do|dive bars?|hidden gems?)\b/i.test(title)) return false;
   return /\b(business|company|development|construction|housing|apartment|real estate|restaurant|retail|store|opening|opens|lease|office|jobs?|employment|economy|transit|marta|airport|infrastructure|budget|council|policy|zoning|permit|contract|funding|investment|bank|healthcare|hospital|hotel|data center|warehouse|tower|property|foreclosure|university|school|neighborhood)\b/i.test(title);
 }
 

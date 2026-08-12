@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { EditionHeader, Headline, PublicationHeader, SectionHeading } from "@/components/publication";
-import { NewsletterSignup } from "@/components/newsletter-signup";
+import { NewsroomContact } from "@/components/newsroom-contact";
 import { atlanta } from "@/lib/market";
 import { absoluteUrl } from "@/lib/site";
 
@@ -76,16 +76,7 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <div id="newsroom-contact-form">
-          <NewsletterSignup
-            source="newsroom-contact"
-            eyebrow="Contact the newsroom"
-            title="Corrections, documents or a reporting tip?"
-            description="Leave your email and the ATLSignal desk will reply so you can share the details through the appropriate channel."
-            buttonLabel="Request a reply"
-            successMessage="Your newsroom contact request is in. The desk will follow up by email."
-          />
-        </div>
+        <div id="newsroom-contact-form"><NewsroomContact /></div>
       </main>
     </>
   );

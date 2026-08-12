@@ -21,8 +21,8 @@ import { leadStory, metrics, premiumSignals, projects, publicGuides, sourceDesks
 import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Latest",
-  description: "What matters in Atlanta business, development, money and opportunity right now.",
+  title: "Atlanta business, development and public money",
+  description: "Independent reporting on Atlanta business, development, housing, transportation and public money—built from public records and verified source trails.",
   alternates: { canonical: absoluteUrl("/") },
 };
 

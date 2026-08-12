@@ -468,6 +468,24 @@ body { background: var(--paper); color: var(--ink); font-family: Inter, ui-sans-
 .source-desk-grid article, .source-item-list article, .launch-week article { background: #fff; border: 1px solid var(--line); border-radius: 22px; padding: 22px; }
 .source-item-list { display: grid; gap: 14px; }
 .source-item-list article { padding-block: 22px; }
+.latest-intro { color: var(--muted); font-family: Georgia, "Times New Roman", serif; font-size: 19px; line-height: 1.55; max-width: 820px; }
+.reader-standard { background: var(--paper-deep); border-radius: 28px; margin-top: 64px; padding: clamp(26px, 5vw, 50px); }
+.reader-standard h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(30px, 4vw, 48px); letter-spacing: -.045em; line-height: 1.05; margin: 14px 0; max-width: 820px; }
+.reader-standard > p:last-child { color: var(--muted); font-size: 18px; line-height: 1.6; max-width: 780px; }
+.newsroom-contact { background: var(--forest); border-radius: 32px; color: #fff; display: grid; gap: 40px; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); margin-top: 64px; padding: clamp(28px, 5vw, 54px); }
+.newsroom-contact .eyebrow { color: #f0c0a8; }
+.newsroom-contact h2 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(32px, 4vw, 48px); letter-spacing: -.045em; line-height: 1.02; margin: 14px 0; }
+.newsroom-contact > div > p:last-child { color: #d7e2de; line-height: 1.6; }
+.newsroom-contact__form { display: grid; gap: 16px; grid-template-columns: 1fr 1fr; }
+.newsroom-contact__form label { color: #d7e2de; display: grid; font-size: 10px; font-weight: 800; gap: 6px; letter-spacing: .08em; text-transform: uppercase; }
+.newsroom-contact__form input, .newsroom-contact__form select, .newsroom-contact__form textarea { background: #fff; border: 1px solid transparent; border-radius: 10px; color: var(--ink); font: inherit; min-width: 0; padding: 12px; text-transform: none; }
+.newsroom-contact__form textarea { resize: vertical; }
+.newsroom-contact__wide, .newsroom-contact__form button, .newsroom-contact__form small, .newsroom-contact__error { grid-column: 1 / -1; }
+.newsroom-contact__form button { background: var(--accent); border: 0; border-radius: 999px; color: #fff; cursor: pointer; font-size: 11px; font-weight: 850; justify-self: start; letter-spacing: .08em; padding: 13px 18px; text-transform: uppercase; }
+.newsroom-contact__form button:disabled { cursor: wait; opacity: .7; }
+.newsroom-contact__form small { color: #d7e2de; line-height: 1.5; }
+.newsroom-contact__success { align-self: center; font-family: Georgia, serif; font-size: 24px; }
+.newsroom-contact__error { color: #ffd1c7; font-size: 12px; }
 .launch-week { grid-template-columns: repeat(7, minmax(0, 1fr)); }
 .guide-grid, .tier-grid { display: grid; gap: 22px; grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .guide-grid article, .tier-grid article, .premium-teaser, .upgrade-band { background: #fff; border: 1px solid var(--line); border-radius: 26px; padding: 24px; }
@@ -506,6 +524,7 @@ body { background: var(--paper); color: var(--ink); font-family: Inter, ui-sans-
   .project-card:nth-child(even) { border-left: 0; }
   .guide-grid, .tier-grid, .upgrade-band { grid-template-columns: 1fr 1fr; }
   .upgrade-band a { width: max-content; }
+  .newsroom-contact { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {
@@ -537,6 +556,9 @@ body { background: var(--paper); color: var(--ink); font-family: Inter, ui-sans-
   .article-glance { padding: 20px; }
   .article-byline { gap: 6px; }
   .category-list { padding-inline: 16px; }
+  .newsroom-contact { border-radius: 24px; gap: 22px; padding: 24px 18px; }
+  .newsroom-contact__form { grid-template-columns: 1fr; }
+  .newsroom-contact__form label, .newsroom-contact__wide, .newsroom-contact__form button, .newsroom-contact__form small, .newsroom-contact__error { grid-column: 1; }
 }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

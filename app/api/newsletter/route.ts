@@ -10,7 +10,8 @@ const allowedOrigins = new Set([
 
 function corsHeaders(request: Request) {
   const origin = request.headers.get("origin");
-  return origin && allowedOrigins.has(origin)
+  const sameOrigin = origin === new URL(request.url).origin;
+  return origin && (sameOrigin || allowedOrigins.has(origin))
     ? { "Access-Control-Allow-Origin": origin, "Access-Control-Allow-Methods": "POST, OPTIONS", "Access-Control-Allow-Headers": "Content-Type", Vary: "Origin" }
     : {};
 }

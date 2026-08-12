@@ -12,6 +12,8 @@ This project can be deployed directly to GitHub Pages as a static site.
    - `NEXT_PUBLIC_SITE_URL`: the final site URL, such as `https://yourname.github.io/atlsignal`.
    - `NEXT_PUBLIC_BASE_PATH`: set to `/atlsignal` only when deploying to a project page under that repo path. Leave blank for `yourname.github.io`.
    - `NEXT_PUBLIC_NEWSLETTER_ENDPOINT`: optional external form endpoint such as Formspree, Buttondown, Beehiiv, ConvertKit, or a small serverless form handler.
+   - `NEXT_PUBLIC_CONTACT_ENDPOINT`: the persistent newsroom-contact endpoint used by the static edition.
+   - `NEXT_PUBLIC_ANALYTICS_ENDPOINT`: the privacy-light event endpoint used by the static edition.
 4. Push to `main`; `.github/workflows/pages.yml` builds and publishes the static site.
 
 The same workflow runs the evidence-gated newsroom at 11:15 and 20:15 UTC

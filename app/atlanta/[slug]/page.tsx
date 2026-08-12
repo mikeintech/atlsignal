@@ -56,12 +56,13 @@ type ArticleContext = {
   timeline?: Array<{ date: string; title: string; detail: string }>;
 };
 
-const informationPages: Record<string, { title: string; dek: string; sections: Array<{ title: string; body: string }> }> = {
+const informationPages: Record<string, { title: string; dek: string; sections: Array<{ title: string; body: string; link?: { label: string; href: string } }> }> = {
   masthead: {
     title: "Masthead",
     dek: "The people and standards responsible for ATLSignal’s public reporting.",
     sections: [
-      { title: "ATLSignal Desk", body: "ATLSignal is an independent Atlanta publication. The desk monitors public records, official announcements and attributable local sources, then reviews every public claim before publication. Staff bylines will replace the desk byline when a named reporter takes direct responsibility for original reporting." },
+      { title: "Mike — Publisher & editor", body: "Mike founded ATLSignal and takes responsibility for its editorial direction, sourcing standards, corrections and public coverage. Reporting may carry the ATLSignal Desk byline when it is produced from the publication’s shared records workflow; accountability remains with the publisher.", link: { label: "Public profile", href: "https://github.com/mikeintech" } },
+      { title: "ATLSignal Desk", body: "The desk monitors public records, official announcements and attributable local sources, then reviews claims against the attached evidence trail. Software supports collection, entity matching and change detection; it does not receive an independent byline or final editorial authority." },
       { title: "Newsroom contact", body: "Use the newsroom contact form on the About page for corrections, documents and reporting tips. The desk will reply by email; sensitive material should not be sent until a secure channel is arranged." },
       { title: "Commercial contact", body: "Use the founding-access form on the Upgrade page for team intelligence and partnership questions. Commercial relationships do not determine editorial conclusions." },
     ],
@@ -100,7 +101,7 @@ const informationPages: Record<string, { title: string; dek: string; sections: A
     sections: [
       { title: "Use of reporting", body: "ATLSignal reporting may be read and shared with attribution. Republishing substantial portions, bulk extraction or reselling the publication requires written permission." },
       { title: "No outcome guarantee", body: "Records can change and public systems can contain errors. ATLSignal does not guarantee that a project, opening, procurement or commercial opportunity will proceed, and the publication is not legal, financial or procurement advice." },
-      { title: "Images and source material", body: "Image credits and source links identify the origin of third-party material. Rights remain with their respective owners. Contact the newsroom with a documented rights or attribution concern." },
+      { title: "Images and source material", body: "Publication images are original work, licensed editorial stock or material used with documented authorization. A source link is evidence for a report; it is not treated as permission to republish that source’s photography. Contact the newsroom with a documented rights or attribution concern." },
     ],
   },
   disclosures: {
@@ -109,7 +110,7 @@ const informationPages: Record<string, { title: string; dek: string; sections: A
     sections: [
       { title: "Editorial independence", body: "Advertisers, partners and subscribers do not receive approval over ATLSignal conclusions. Sponsored material, if introduced, will be labeled clearly and will not use the same evidence label as independent reporting." },
       { title: "Automation and human review", body: "Software helps monitor records, match entities and draft structured research. Public stories are reviewed against their cited evidence before publication. ATLSignal does not publish an automated inference as a confirmed fact merely because a system assigned it a high score." },
-      { title: "Images", body: "Source images are credited to the organization or publisher that supplied them. Editorial images are illustrative and are labeled as such; they should not be read as a photograph of the specific project unless the caption says otherwise." },
+      { title: "Images", body: "Editorial images are original or licensed and are labeled as illustrative when they do not depict the specific project. Source photography is not republished unless ATLSignal has documented authorization." },
       { title: "Commercial intelligence", body: "The free publication reports public facts and context. Paid products may add prioritization, timing and organizational routing based on lawful public or first-party information. ATLSignal does not sell private personal data or guarantee a business outcome." },
       { title: "Conflicts and corrections", body: "A material financial relationship with a covered organization will be disclosed on the relevant report. Readers can challenge facts through the corrections process linked on every page." },
     ],
@@ -190,6 +191,7 @@ const priorityArticleDetails: Record<string, ArticleContext> = {
 };
 
 function storyDates(story: typeof leadStory) {
+  if (story.timestamp.includes("Aug. 12")) return { publishedIso: "2026-08-12T07:00:00-04:00", modifiedIso: "2026-08-12T07:00:00-04:00", display: "August 12, 2026 · 7:00 AM ET" };
   const sourceDesk = Boolean(sourceDeskArticleDetails[story.slug]);
   return sourceDesk
     ? { publishedIso: "2026-08-08T10:20:00-04:00", modifiedIso: "2026-08-08T10:20:00-04:00", display: "August 8, 2026 · 10:20 AM ET" }
@@ -240,14 +242,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const story = allStories.find((item) => item.slug === slug);
   if (!story) notFound();
   const isLead = story.slug === leadStory.slug;
+  const isPermitLead = story.slug === "mckenneys-campus-warehouse-construction";
   const isSourceDeskStory = Boolean(sourceDeskArticleDetails[story.slug]);
   const context = articleContext(story, isLead);
   const dates = storyDates(story);
-  const timelineEvents = context.timeline ?? (isLead ? [
+  const timelineEvents = context.timeline ?? (isPermitLead ? [
     { date: "Oct. 7, 2025", title: "Land-development evidence observed", detail: "The project enters the canonical event graph through DeKalb planning records." },
     { date: "Feb. 20, 2026", title: "Building permit applied", detail: "A permit application provides a second dated project milestone." },
     { date: "May 29, 2026", title: "Building permit issued", detail: "The issued permit supports the construction-ready classification." },
-    { date: "Aug. 7, 2026", title: "Editorial candidate generated", detail: "The project clears the public-safe confidence threshold and enters human review." },
+    { date: "Aug. 7, 2026", title: "Report published", detail: "The project clears the public evidence threshold and enters ATLSignal’s public file." },
   ] : isSourceDeskStory ? [
     { date: "Aug. 8, 2026", title: "First-party source reviewed", detail: "ATLSignal separated the attributable public facts from broader claims that still need evidence." },
     { date: "Now", title: "Desk watch continues", detail: "The story remains open for later budgets, milestones, outcomes and corroborating reporting." },
@@ -255,7 +258,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     { date: "Aug. 7, 2026", title: "Canonical stage recorded", detail: "ATLSignal generated a public-safe editorial candidate from qualified evidence." },
     { date: "Now", title: "Continued monitoring", detail: "The project remains under review for new evidence and material changes." },
   ]);
-  const jsonLd = { "@context": "https://schema.org", "@type": "NewsArticle", headline: story.headline, description: story.dek, datePublished: dates.publishedIso, dateModified: dates.modifiedIso, author: { "@type": "Organization", name: "ATLSignal Desk" }, publisher: { "@type": "Organization", name: "ATLSignal" }, image: story.image.src };
+  const jsonLd = { "@context": "https://schema.org", "@type": "NewsArticle", headline: story.headline, description: story.dek, datePublished: dates.publishedIso, dateModified: dates.modifiedIso, author: { "@type": "Person", name: "Mike", url: "https://github.com/mikeintech" }, publisher: { "@type": "Organization", name: "ATLSignal", url: absoluteUrl("/") }, image: story.image.src };
 
   return (
     <>
@@ -264,11 +267,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
       <main className="article-page shell">
         <header className="article-hero">
-          <div className="article-kicker"><span>{story.category}</span><UpdateBadge>Intelligence update</UpdateBadge><ConfidenceIndicator level={story.confidence} /></div>
+          <div className="article-kicker"><span>{story.category}</span><UpdateBadge>Reported brief</UpdateBadge><ConfidenceIndicator level={story.confidence} /></div>
           <Headline as="h1" size="lead">{story.headline}</Headline>
           <p className="article-dek">{story.dek}</p>
           <p className="article-nutgraf">{context.nutgraf}</p>
-          <div className="article-byline"><span>By ATLSignal Desk</span><time dateTime={dates.publishedIso}>{dates.display} · 5 min read</time></div>
+          <div className="article-byline"><span>By Mike · ATLSignal Publisher & Editor</span><time dateTime={dates.publishedIso}>{dates.display} · 5 min read</time></div>
           <ArticleActions title={story.headline} category={story.category} />
           <StoryImage story={story} priority />
         </header>
@@ -297,15 +300,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               <Timeline events={timelineEvents} />
             </section>
             <section><SectionHeading label="Sources" /><EvidenceList sources={context.sources} /><SourceAttribution>Public records, first-party sources and ATLSignal review. No contact intelligence is displayed.</SourceAttribution></section>
-            <section className="article-update-history"><h2>Update history</h2>{isSourceDeskStory ? <p><strong>Aug. 8, 2026:</strong> Initial source-desk report published with evidence limits and follow-up questions.</p> : <><p><strong>Aug. 8, 2026:</strong> Source links, evidence limits and follow-up questions reviewed for publication.</p><p><strong>Aug. 7, 2026:</strong> Initial report published from the qualified ATLSignal evidence record.</p></>}</section>
+            <section className="article-update-history"><h2>Update history</h2>{story.timestamp.includes("Aug. 12") ? <p><strong>Aug. 12, 2026:</strong> Initial report published after first-party source review, evidence labeling and editorial approval.</p> : isSourceDeskStory ? <p><strong>Aug. 8, 2026:</strong> Initial source-desk report published with evidence limits and follow-up questions.</p> : <><p><strong>Aug. 8, 2026:</strong> Source links, evidence limits and follow-up questions reviewed for publication.</p><p><strong>Aug. 7, 2026:</strong> Initial report published from the qualified ATLSignal evidence record.</p></>}</section>
           </article>
           <aside className="article-rail">
-            <MapPreview label={`Project area for ${story.headline}`} />
+            <MapPreview label={`Atlanta reporting area for ${story.headline}`} />
             <div className="fact-box"><p className="eyebrow">Evidence discipline</p><dl><div><dt>Fact</dt><dd>Recorded stage and reported value</dd></div><div><dt>Inference</dt><dd>Commercial activity may follow</dd></div><div><dt>Forecast</dt><dd>None published without more evidence</dd></div></dl></div>
             <PremiumTeaser compact />
           </aside>
         </div>
-        <section><SectionHeading label="Related intelligence" />
+        <section><SectionHeading label="Related reporting" />
           <div className="editorial-grid editorial-grid--three">{allStories.filter((item) => item.slug !== story.slug).slice(0, 3).map((item) => <StoryCard key={item.slug} story={item} />)}</div>
         </section>
         <NewsletterSignup compact />
@@ -350,7 +353,7 @@ function InformationPage({ slug }: { slug: string }) {
       <PublicationHeader market={atlanta} /><EditionHeader market={atlanta} />
       <main className="category-page shell institutional-page">
         <header className="category-hero"><p className="eyebrow">ATLSignal standards</p><Headline as="h1" size="large">{page.title}</Headline><p>{page.dek}</p></header>
-        <div className="institutional-sections">{page.sections.map((section) => <section key={section.title}><h2>{section.title}</h2><p>{section.body}</p></section>)}</div>
+        <div className="institutional-sections">{page.sections.map((section) => <section key={section.title}><h2>{section.title}</h2><p>{section.body}</p>{section.link && <p><a href={section.link.href}>{section.link.label} →</a></p>}</section>)}</div>
       </main>
     </>
   );

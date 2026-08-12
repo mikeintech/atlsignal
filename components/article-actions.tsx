@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Bell, Check, Copy, Mail, Share2 } from "lucide-react";
+import Link from "next/link";
 
 export function ArticleActions({ title, category }: { title: string; category: string }) {
   const [copied, setCopied] = useState(false);
@@ -21,8 +22,8 @@ export function ArticleActions({ title, category }: { title: string; category: s
     <div className="article-actions" aria-label="Article actions">
       <button type="button" onClick={share}><Share2 size={16} /> Share</button>
       <button type="button" onClick={copyLink}>{copied ? <Check size={16} /> : <Copy size={16} />} {copied ? "Copied" : "Copy link"}</button>
-      <a href="/#newsletter"><Bell size={16} /> Follow {category}</a>
-      <a href="/about#newsroom-contact-form"><Mail size={16} /> Contact newsroom</a>
+      <Link href="/#newsletter"><Bell size={16} /> Follow {category}</Link>
+      <Link href="/about#newsroom-contact-form"><Mail size={16} /> Contact newsroom</Link>
     </div>
   );
 }

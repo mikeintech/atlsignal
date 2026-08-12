@@ -18,6 +18,17 @@ export const newsletterSyncEvents = sqliteTable("newsletter_sync_events", {
   createdAt: integer("created_at", { mode: "timestamp_ms" }).notNull(),
 });
 
+export const newsroomContacts = sqliteTable("newsroom_contacts", {
+  contactId: text("contact_id").primaryKey(),
+  name: text("name"),
+  email: text("email").notNull(),
+  contactType: text("contact_type").notNull(),
+  message: text("message").notNull(),
+  pageUrl: text("page_url"),
+  status: text("status").notNull().default("NEW"),
+  createdAt: integer("created_at", { mode: "timestamp_ms" }).notNull(),
+});
+
 export const editorialReviewDecisions = sqliteTable("editorial_review_decisions", {
   decisionId: text("decision_id").primaryKey(),
   candidateId: text("candidate_id").notNull(),

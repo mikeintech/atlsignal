@@ -4,10 +4,11 @@ import { useEffect } from "react";
 
 export function SiteAnalytics() {
   useEffect(() => {
+    const endpoint = process.env.NEXT_PUBLIC_ANALYTICS_ENDPOINT || "/api/analytics";
+    if (process.env.NEXT_PUBLIC_STATIC_EXPORT === "true" && !process.env.NEXT_PUBLIC_ANALYTICS_ENDPOINT) return;
     const send = (eventType: string, target?: string) => {
-      if (process.env.NEXT_PUBLIC_STATIC_EXPORT === "true") return;
       const payload = JSON.stringify({ eventType, path: window.location.pathname, target });
-      navigator.sendBeacon?.("/api/analytics", new Blob([payload], { type: "application/json" }));
+      void fetch(endpoint, { method: "POST", headers: { "content-type": "application/json" }, body: payload, keepalive: true }).catch(() => null);
     };
     send("PAGE_VIEW");
     const click = (event: MouseEvent) => {

@@ -1,6 +1,5 @@
 import type { Story } from "@/components/publication";
 import publicReadModel from "@/data/atlanta.json";
-import launchWeekData from "@/data/launch-week.json";
 
 const displayNames: Record<string, string> = {
   "mckenney-s-campus-project-mckenney-s-warehouse": "McKenney’s Campus Warehouse",
@@ -28,23 +27,20 @@ const articleSlugs: Record<string, string> = {
   "bethany-s-place-office-fit-out": "bethanys-place-office-fit-out",
 };
 
-const editorialPhoto = (id: string, alt: string) => ({
-  src: `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1600&q=82`,
-  alt,
-  credit: "Unsplash",
-  creditUrl: `https://unsplash.com/photos/${id.replace("photo-", "")}`,
-  label: "Editorial image" as const,
-});
+const editorialPhoto = (id: string, alt: string) => {
+  const src = `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1600&q=82`;
+  return {
+    src,
+    alt,
+    credit: "Unsplash",
+    creditUrl: src,
+    label: "Editorial image" as const,
+  };
+};
 
 const projectImages: Record<string, Story["image"]> = {
   "mckenney-s-campus-project-mckenney-s-warehouse": editorialPhoto("photo-1586528116311-ad8dd3c8310d", "Warehouse loading bays and logistics activity"),
-  "lulah-hills-publix-super-market-2142": {
-    src: "https://atlanta.urbanize.city/sites/default/files/styles/1140w/public/2025-10/North%20DeKalb%20Mall%20site%20Lulah%20Hills%201.png?itok=1RfUfA6R",
-    alt: "Aerial view of the cleared Lulah Hills redevelopment site",
-    credit: "Urbanize Atlanta",
-    creditUrl: "https://atlanta.urbanize.city/post/north-dekalb-mall-lulah-hills-project-demo-construction",
-    label: "Source image",
-  },
+  "lulah-hills-publix-super-market-2142": editorialPhoto("photo-1441986300917-64674bd600d8", "Illustrative retail storefront and pedestrian activity"),
   "residences-at-perimeter-summit-phase-b": editorialPhoto("photo-1545324418-cc1a3fa10c00", "Modern multifamily residential buildings"),
   "global-village-project-building-c": editorialPhoto("photo-1562774053-701939374585", "Educational campus building and landscaped grounds"),
   "autozone-10982-interior-alteration": editorialPhoto("photo-1486262715619-67b85e0b08d3", "Mechanic working inside an automotive service space"),
@@ -54,6 +50,60 @@ const projectImages: Record<string, Story["image"]> = {
   "olympus-md": editorialPhoto("photo-1519494026892-80bbd2d6fd0d", "Contemporary medical and professional building exterior"),
   "bethany-s-place-office-fit-out": editorialPhoto("photo-1497366811353-6870744d04b2", "Bright modern office interior"),
 };
+
+export const freshStories: Story[] = [
+  {
+    slug: "atlanta-housing-60000-down-payment-assistance",
+    category: "Public Money",
+    headline: "Atlanta Housing raises down-payment assistance to as much as $60,000",
+    dek: "A new Atlanta Housing initiative more than doubles the previous maximum for eligible voucher-program participants and pairs the aid with a Pretium homeownership pilot.",
+    timestamp: "Published Aug. 12",
+    confidence: "Confirmed",
+    metric: "$60,000",
+    metricLabel: "maximum down-payment assistance",
+    image: editorialPhoto("photo-1560518883-ce09059eeffa", "Illustrative Atlanta homeownership and housing market scene"),
+  },
+  {
+    slug: "arc-link-mexico-city-urban-innovation",
+    category: "Workforce & Economy",
+    headline: "More than 180 Atlanta leaders head to Mexico City for ARC’s 2026 LINK trip",
+    dek: "The regional delegation turns transportation, housing and urban innovation into a shared agenda for metro Atlanta’s government, business and civic leaders.",
+    timestamp: "Published Aug. 12",
+    confidence: "Confirmed",
+    image: editorialPhoto("photo-1497366216548-37526070297c", "Illustrative civic and business leadership meeting"),
+  },
+  {
+    slug: "invest-atlanta-senior-housing-tad-funding",
+    category: "Public Money",
+    headline: "Invest Atlanta financing advances 148 affordable senior homes downtown",
+    dek: "Board actions support The Sanctuary and Five Peachtree Senior, two projects serving residents at 30% to 80% of area median income.",
+    timestamp: "Published Aug. 12",
+    confidence: "Confirmed",
+    metric: "148",
+    metricLabel: "planned affordable senior homes",
+    image: editorialPhoto("photo-1545324418-cc1a3fa10c00", "Illustrative multifamily housing development"),
+  },
+  {
+    slug: "municipal-market-merchants-90000-investment",
+    category: "Business",
+    headline: "$90,000 in grants will fund upgrades for nine Municipal Market merchants",
+    dek: "The Invest Atlanta awards target booth function, fixtures, signage and design improvements inside Sweet Auburn’s historic public market.",
+    timestamp: "Published Aug. 12",
+    confidence: "Confirmed",
+    metric: "$90,000",
+    metricLabel: "approved merchant investment",
+    image: editorialPhoto("photo-1441986300917-64674bd600d8", "Illustrative independent retail market activity"),
+  },
+  {
+    slug: "pittsburgh-yards-piedmont-mobile-health-unit",
+    category: "Business",
+    headline: "Piedmont mobile health unit adds a recurring service stop at Pittsburgh Yards",
+    dek: "The BeltLine-backed update links healthcare access with the small-business and community activity growing around the Pittsburgh Yards campus.",
+    timestamp: "Published Aug. 12",
+    confidence: "Confirmed",
+    image: editorialPhoto("photo-1576091160399-112ba8d25d1d", "Illustrative community healthcare professional"),
+  },
+];
 
 function displayValue(value: number | null) {
   if (!value) return "Value pending";
@@ -109,13 +159,7 @@ export const sourceDeskStories: Story[] = [
     dek: "The official groundbreaking adds a visible affordable-housing milestone near Lindbergh and a new project for Atlanta’s public-investment watch.",
     timestamp: "Updated Aug. 8",
     confidence: "Confirmed",
-    image: {
-      src: "https://a-us.storyblok.com/f/1020195/1563x889/72f9168877/garson-drive-drone-shot.webp",
-      alt: "Aerial view of the Garson Drive development site near Piedmont Road",
-      credit: "Atlanta BeltLine",
-      creditUrl: "https://beltline.org/learn/current-projects/garson-drive/",
-      label: "Source image",
-    },
+    image: editorialPhoto("photo-1545324418-cc1a3fa10c00", "Illustrative multifamily housing development"),
   },
   {
     slug: "beltline-bennett-street-demolition-northwest-trail",
@@ -124,13 +168,7 @@ export const sourceDeskStories: Story[] = [
     dek: "Atlanta BeltLine’s first-party update links a near-term demolition step to the longer Northwest Trail buildout.",
     timestamp: "Updated Aug. 8",
     confidence: "Confirmed",
-    image: {
-      src: "https://a2-us.storyblok.com/f/1020195/5472x3648/ae661ddcb7/bennett-st-photo-by-loknows-drones-6-26-2025_07.JPG/m/1200x630/filters:format(jpeg)",
-      alt: "Aerial view of the Bennett Street corridor in Atlanta",
-      credit: "Atlanta BeltLine / LoKnows Drones",
-      creditUrl: "https://beltline.org/blog/atlanta-beltline-to-begin-bennett-street-demolition-advancing-future-northwest-trail/",
-      label: "Source image",
-    },
+    image: editorialPhoto("photo-1500530855697-b586d89ba3ee", "Illustrative urban trail and public-space corridor"),
   },
   {
     slug: "arc-avondale-estates-town-green-transformation",
@@ -139,13 +177,7 @@ export const sourceDeskStories: Story[] = [
     dek: "ARC’s community-development account connects a municipal redevelopment project with walkability, gathering space and downtown activity.",
     timestamp: "Updated Aug. 8",
     confidence: "Confirmed",
-    image: {
-      src: "https://atlantaregional.org/wp-content/uploads/avondale-lci-5.png",
-      alt: "Avondale Estates Town Green and surrounding downtown development",
-      credit: "Atlanta Regional Commission",
-      creditUrl: "https://atlantaregional.org/news/community-development/from-drive-through-to-drive-to-avondale-estates-transformation/",
-      label: "Source image",
-    },
+    image: editorialPhoto("photo-1494526585095-c41746248156", "Illustrative neighborhood public realm and mixed-use district"),
   },
   {
     slug: "connectatl-regional-transportation-future",
@@ -163,13 +195,7 @@ export const sourceDeskStories: Story[] = [
     dek: "The agency’s post-event review gives Atlanta readers a starting point for examining mobility, civic capacity and the business effects of major events.",
     timestamp: "Updated Aug. 8",
     confidence: "Confirmed",
-    image: {
-      src: "https://res.cloudinary.com/atlanta/images/w_1024%2Ch_683%2Cc_scale/f_auto%2Cq_auto/v1749748170/newAtlanta.com/MBS_20250611_FWCOneYearOutUpdate_CS1_2797/MBS_20250611_FWCOneYearOutUpdate_CS1_2797.jpg?_i=AA",
-      alt: "Atlanta civic and business leaders at a FIFA World Cup 26 event",
-      credit: "Discover Atlanta",
-      creditUrl: "https://discoveratlanta.com/news/atlanta-marks-one-year-to-go-until-the-fifa-world-cup-26-with-joint-host-city-efforts-and-citywide-celebrations/",
-      label: "Source image",
-    },
+    image: editorialPhoto("photo-1518604666860-9ed391f76460", "Illustrative major-event stadium and city activity"),
   },
   {
     slug: "how-invest-atlanta-shapes-development-finance",
@@ -178,13 +204,7 @@ export const sourceDeskStories: Story[] = [
     dek: "Tax incentives, neighborhood investment and business programs become more legible when the city’s economic-development authority is treated as a standing reporting beat.",
     timestamp: "Updated Aug. 8",
     confidence: "Confirmed",
-    image: {
-      src: "https://www.investatlanta.com/assets/developers_newmarkettaxcredits_mantle_940x360_V1rQmP8.jpg",
-      alt: "Atlanta skyline representing city-backed economic development",
-      credit: "Invest Atlanta",
-      creditUrl: "https://www.investatlanta.com/",
-      label: "Source image",
-    },
+    image: editorialPhoto("photo-1486406146926-c627a92ad1ab", "Illustrative commercial building and city-backed development"),
   },
 ];
 
@@ -196,6 +216,49 @@ export const sourceDeskArticleDetails: Record<string, {
   next: string;
   sources: Array<{ name: string; detail: string; url?: string }>;
 }> = {
+  "atlanta-housing-60000-down-payment-assistance": {
+    nutgraf: "The larger assistance ceiling is a meaningful policy change, but the practical story is narrower: eligibility, available homes and mortgage readiness will determine how many families can use it.",
+    whatChanged: "Atlanta Housing announced that eligible Housing Choice Voucher Program participants may receive as much as $60,000 in down-payment assistance, up from a previous maximum of $25,000. The agency also announced a pilot with Pretium involving selected single-family homes inside Atlanta, seller support and post-purchase maintenance assistance.",
+    matters: "Up-front cash remains one of the largest barriers between stable renting and homeownership. The higher ceiling could change the purchase math for eligible households, while successful transitions could also return rental homes to the voucher system. The program’s reach will ultimately depend on qualifying inventory, mortgage terms and participant readiness.",
+    unknown: "The announcement does not establish how many households will close on homes, the total funding available, how long the pilot will operate or the full list of participating properties and lenders.",
+    next: "ATLSignal will watch for formal program guidance, application volume, completed purchases, budget disclosures and evidence showing whether the pilot expands ownership without reducing affordable rental supply.",
+    sources: [{ name: "Atlanta Housing", detail: "First-party May 12 announcement describing the expanded assistance ceiling, participant eligibility and Pretium pilot terms.", url: "https://www.atlantahousing.org/atlanta-housing-announces-new-60000-down-payment-assistance-program-and-partnership-with-pretium-to-expand-homeownership-opportunities/" }],
+  },
+  "arc-link-mexico-city-urban-innovation": {
+    nutgraf: "An international study trip is not a policy decision. Its value is in the agenda it creates and the ideas Atlanta’s decision-makers bring back into local plans, budgets and projects.",
+    whatChanged: "The Atlanta Regional Commission announced that more than 180 metro Atlanta government, business and civic leaders will travel to Mexico City for the 2026 LINK trip. ARC framed the visit around urban innovation and the challenges large regions face as they grow.",
+    matters: "LINK places leaders from different jurisdictions and sectors inside the same working conversation. For readers, the important follow-up is whether lessons involving transportation, housing, public space or economic development appear later in Atlanta-area decisions—not simply that the delegation traveled.",
+    unknown: "The announcement does not prove that a Mexico City policy will be adopted locally, identify every trip cost or establish a measurable regional outcome.",
+    next: "Watch for ARC’s post-trip report, participant proposals, agency work programs and later board or budget actions that connect the visit to a specific metro Atlanta decision.",
+    sources: [{ name: "Atlanta Regional Commission", detail: "First-party Aug. 11 announcement describing the delegation, destination and urban-innovation focus.", url: "https://atlantaregional.org/news/uncategorized/arcs-2026-link-trip-explores-urban-innovation-in-mexico-city/" }],
+  },
+  "invest-atlanta-senior-housing-tad-funding": {
+    nutgraf: "The two downtown projects convert tax-allocation-district decisions into a specific housing pipeline: 148 homes, named sites and affordability bands that can be tracked through delivery.",
+    whatChanged: "Invest Atlanta reported board actions supporting The Sanctuary and Five Peachtree Senior. The projects together plan 148 affordable senior homes. The Sanctuary calls for 83 homes on the Trinity United Methodist Church campus, while Five Peachtree Senior calls for 65 homes across from 2 Peachtree.",
+    matters: "Senior housing affordability is a delivery question, not only a financing announcement. Both projects target households from 30% to 80% of area median income, making construction progress, long-term restrictions and leasing outcomes the next measures of whether the public support produces usable homes.",
+    unknown: "The agency account does not by itself confirm final construction completion, lease-up dates, total development cost or long-term operating performance.",
+    next: "ATLSignal will watch closing documents, construction milestones, affordability agreements and leasing information for both developments.",
+    sources: [{ name: "Invest Atlanta", detail: "First-party May 21 account of board modifications, project sizes, affordability bands and Eastside TAD support.", url: "https://www.investatlanta.com/impact-insights/invest-atlanta-advances-new-affordable-housing-developments" }],
+  },
+  "municipal-market-merchants-90000-investment": {
+    nutgraf: "Nine small awards are more useful when treated as a merchant-level investment story than as another broad economic-development announcement.",
+    whatChanged: "Invest Atlanta approved $90,000 for booth improvements at the Municipal Market in Sweet Auburn. Nine merchants were named for $10,000 awards through the Municipal Market Vendor Success Program, with eligible work including signage, fixtures and booth-function upgrades.",
+    matters: "Small physical improvements can affect customer flow, equipment reliability and the ability of independent merchants to compete inside a historic public market. The awards also show how Eastside Tax Allocation District funding is reaching individual storefront-scale businesses.",
+    unknown: "The announcement does not quantify later sales growth, establish when every improvement will finish or prove that the grants alone will produce long-term business stability.",
+    next: "The useful follow-up is visible project completion, merchant experience and whether the program’s design standards and matching requirement improve operations without erasing the market’s character.",
+    sources: [{ name: "Invest Atlanta", detail: "First-party April 17 report naming the nine merchants, $90,000 total investment and eligible improvement categories.", url: "https://www.investatlanta.com/impact-insights/invest-atlanta-makes-strategic-investment-in-municipal-market-merchants" }],
+  },
+  "pittsburgh-yards-piedmont-mobile-health-unit": {
+    nutgraf: "The mobile unit adds a recurring service to a site already designed around entrepreneurship and neighborhood access, widening the definition of what the Pittsburgh Yards campus provides.",
+    whatChanged: "Atlanta BeltLine reported that a Piedmont mobile health unit supported by Google is serving the Pittsburgh Yards area. A later BeltLine account described the service as available on second Saturdays alongside the Indie Market experience.",
+    matters: "Healthcare access, small-business programming and public connectivity are appearing in the same place. That combination can make a development more useful to surrounding residents while bringing repeat foot traffic to local makers and merchants.",
+    unknown: "The available first-party material does not establish permanent service, patient volume, the complete clinical schedule or a measured economic effect on Pittsburgh Yards businesses.",
+    next: "ATLSignal will watch Piedmont and BeltLine schedules, service data and future programming to determine whether the recurring stop becomes a durable neighborhood resource.",
+    sources: [
+      { name: "Atlanta BeltLine", detail: "First-party announcement of the Pittsburgh Yards mobile health unit.", url: "https://beltline.org/blog/pittsburgh-yards-welcomes-piedmont-mobile-health-unit-powered-by-google/" },
+      { name: "Atlanta BeltLine", detail: "Later first-party account describing second-Saturday service and related small-business programming.", url: "https://beltline.org/blog/bridging-atlanta-s-digital-divide-how-the-beltline-and-google-are-powering-inclusive-connectivity/" },
+    ],
+  },
   "beltline-overlook-at-garson-affordable-housing": {
     nutgraf: "The news is the transition from an announced idea to a documented construction milestone. That makes the project relevant to readers following housing delivery, neighborhood investment and BeltLine-adjacent growth.",
     whatChanged: "Atlanta BeltLine reported a groundbreaking for Overlook at Garson, an affordable-housing development near Lindbergh. ATLSignal classifies the update as confirmed because it comes from the public entity directly associated with the program and describes a completed milestone rather than a forecast.",
@@ -258,13 +321,14 @@ if (opportunity) canonicalStories.push({
 });
 
 const leadProject = canonicalProjects[0];
-export const leadStory: Story = {
+const permitLeadStory: Story = {
   ...canonicalStories[0],
   metric: displayValue(leadProject.reported_project_value),
   metricLabel: "reported project value",
 };
 
-export const stories = [...sourceDeskStories, ...canonicalStories.slice(1)];
+export const leadStory = freshStories[0];
+export const stories = [...freshStories.slice(1), ...sourceDeskStories, permitLeadStory, ...canonicalStories.slice(1)];
 
 export const metrics = publicReadModel.brief.items
   .filter((item) => item.section === "BY_THE_NUMBERS")
@@ -384,8 +448,6 @@ export const sourceDeskItems = [
   },
 ];
 
-export const launchWeek = launchWeekData.publishing_days;
-
 export const coverageLanes = [
   {
     title: "Free media",
@@ -441,13 +503,7 @@ export const publicGuides = [
     dek: "Trail, housing and corridor updates can shape commercial timing long before a storefront opens.",
     category: "Source desk",
     readTime: "5 min read",
-    image: {
-      src: "https://a-us.storyblok.com/f/1020195/118d9ed589/03-13-23-atlanta-beltline-southside-groundbreaking-2023_03_13-southside-trail-groundbreaking_abi_web-res_127a3088-1024x683.jpg",
-      alt: "Atlanta BeltLine and community leaders at a trail groundbreaking",
-      credit: "Atlanta BeltLine / Erin Sintos",
-      creditUrl: "https://beltline.org/press-release/atlanta-beltline-inc-and-community-leaders-break-ground-on-southside-trail-in-grant-park-glenwood-park/",
-      label: "Source image" as const,
-    },
+    image: editorialPhoto("photo-1500530855697-b586d89ba3ee", "Illustrative urban trail and public-space corridor"),
   },
 ];
 

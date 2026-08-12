@@ -80,8 +80,9 @@ export function PublicationFooter() {
           <Link href="/privacy">Privacy</Link>
           <Link href="/terms">Terms</Link>
           <Link href="/disclosures">Disclosures</Link>
+          <Link href="/feed.xml">RSS</Link>
         </nav>
-        <div className="site-footer__contact"><Link href="/about#newsroom-contact-form">Newsroom, corrections & tips</Link><Link href="/upgrade#founding-access-form">Founding access & partnerships</Link><span>Independent · Atlanta, Georgia</span></div>
+        <div className="site-footer__contact"><Link href="/about#newsroom-contact-form">Newsroom, corrections & tips</Link><Link href="/upgrade#founding-access-form">Founding access & partnerships</Link><span>Published by Mike · Independent · Atlanta, Georgia</span></div>
       </div>
     </footer>
   );
