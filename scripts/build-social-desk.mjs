@@ -172,7 +172,7 @@ function nextSlots(count) {
   const slots = [];
   const today = dateKey(now);
   const remainingToday = schedule.filter((time) => new Date(zonedIso(today, time)).valueOf() > now.valueOf() + 10 * 60_000).length;
-  const firstDayOffset = remainingToday === schedule.length ? 0 : 1;
+  const firstDayOffset = remainingToday > 0 ? 0 : 1;
   for (let dayOffset = firstDayOffset; slots.length < count && dayOffset < firstDayOffset + 10; dayOffset += 1) {
     const day = addDays(today, dayOffset);
     for (const time of schedule) {

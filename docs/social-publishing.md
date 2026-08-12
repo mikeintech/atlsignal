@@ -75,6 +75,8 @@ Optional repository variables:
 - `SOCIAL_PUBLIC_SITE_URL`: public article origin.
 - `SOCIAL_ASSET_BASE_URL`: public origin that serves the generated PNGs.
 
-GitHub Actions refreshes the newsroom four times per day, regenerates the
-assets, deploys the site, sends packages whose scheduled time has passed and
-records only receipts that confirm both Instagram and Threads.
+GitHub Actions refreshes the newsroom four times per day and deploys its assets.
+A separate lightweight publisher checks just after each 7:35, 12:15 and 18:35
+ET slot in both daylight and standard time. It records only receipts that
+confirm both Instagram and Threads, while duplicate checks make the extra
+seasonal clock run harmless.

@@ -39,11 +39,6 @@ jobs:
           NEXT_PUBLIC_NEWSLETTER_ENDPOINT: ${{ vars.NEXT_PUBLIC_NEWSLETTER_ENDPOINT }}
           NEXT_PUBLIC_CONTACT_ENDPOINT: ${{ vars.NEXT_PUBLIC_CONTACT_ENDPOINT }}
           NEXT_PUBLIC_ANALYTICS_ENDPOINT: ${{ vars.NEXT_PUBLIC_ANALYTICS_ENDPOINT }}
-      - name: Deliver due social packages
-        run: npm run social:dispatch
-        env:
-          SOCIAL_PUBLISH_ENDPOINT: ${{ secrets.SOCIAL_PUBLISH_ENDPOINT }}
-          SOCIAL_PUBLISH_TOKEN: ${{ secrets.SOCIAL_PUBLISH_TOKEN }}
       - name: Preserve the newsroom ledger
         run: |
           if ! git diff --quiet -- data/newsroom.json data/social-desk.json data/social-dispatch.json; then
