@@ -1,9 +1,9 @@
 {
   "schemaVersion": "atlsignal_social_desk_v2",
-  "generatedAt": "2026-08-12T20:06:26.408Z",
-  "basedOnNewsroomRun": "2026-08-12T20:06:26.408Z",
+  "generatedAt": "2026-08-12T23:55:33.960Z",
+  "basedOnNewsroomRun": "2026-08-12T23:55:33.960Z",
   "timezone": "America/New_York",
-  "calendarStart": "2026-08-12",
+  "calendarStart": "2026-08-13",
   "calendarEnd": "2026-08-19",
   "policy": {
     "operatingModel": "AI_FIRST_NO_REGULAR_HUMAN_PRESENCE",
@@ -30,11 +30,11 @@
   },
   "packages": [
     {
-      "packageId": "ad6e8183850b26483f9b",
+      "packageId": "024c109a3b04d923926b",
       "storyId": "99fc3e9c500c6cc1b945",
       "idempotencyKey": "atlsignal:99fc3e9c500c6cc1b945:social-v2",
-      "scheduledFor": "2026-08-12T22:35:00.000Z",
-      "localSlot": "2026-08-12 18:35 ET",
+      "scheduledFor": "2026-08-13T11:35:00.000Z",
+      "localSlot": "2026-08-13 07:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -84,20 +84,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "The Receipt explainer about Invest Atlanta and Atlanta Beltline Launch New Mortgage Assistance Program, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/ad6e8183850b26483f9b/1",
-          "https://mikeintech.github.io/atlsignal/social-card/ad6e8183850b26483f9b/2",
-          "https://mikeintech.github.io/atlsignal/social-card/ad6e8183850b26483f9b/3",
-          "https://mikeintech.github.io/atlsignal/social-card/ad6e8183850b26483f9b/4",
-          "https://mikeintech.github.io/atlsignal/social-card/ad6e8183850b26483f9b/5",
-          "https://mikeintech.github.io/atlsignal/social-card/ad6e8183850b26483f9b/6"
+          "https://mikeintech.github.io/atlsignal/social-card/024c109a3b04d923926b/1",
+          "https://mikeintech.github.io/atlsignal/social-card/024c109a3b04d923926b/2",
+          "https://mikeintech.github.io/atlsignal/social-card/024c109a3b04d923926b/3",
+          "https://mikeintech.github.io/atlsignal/social-card/024c109a3b04d923926b/4",
+          "https://mikeintech.github.io/atlsignal/social-card/024c109a3b04d923926b/5",
+          "https://mikeintech.github.io/atlsignal/social-card/024c109a3b04d923926b/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/ad6e8183850b26483f9b/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ad6e8183850b26483f9b/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ad6e8183850b26483f9b/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ad6e8183850b26483f9b/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ad6e8183850b26483f9b/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ad6e8183850b26483f9b/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/024c109a3b04d923926b/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/024c109a3b04d923926b/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/024c109a3b04d923926b/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/024c109a3b04d923926b/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/024c109a3b04d923926b/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/024c109a3b04d923926b/6.jpg"
         ]
       },
       "carousel": [
@@ -140,7 +140,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-12T22:35:00.000Z",
+          "publishAt": "2026-08-13T11:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home\n\nEligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in targeted south- and west-side BeltLine communities may qualify for up to $30,000.\n\nWhy it matters: The higher targeted amount changes the up-front purchase math for some buyers and gives residents a concrete program to compare with rising BeltLine-area housing costs.\n\nWhat remains unknown: The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices.\n\nSources: Invest Atlanta and Atlanta BeltLine. Full context and source trail: https://mikeintech.github.io/atlsignal/beltline-mortgage-assistance-30000\n\nWhich housing commitment should ATLSignal track through delivery?",
           "storyFrames": [
@@ -156,7 +156,7 @@
         }
       },
       "measurement": {
-        "campaign": "social_20260812",
+        "campaign": "social_20260813",
         "content": "the_receipt_99fc3e9c",
         "primary": [
           "shares_per_reach",
@@ -172,11 +172,11 @@
       }
     },
     {
-      "packageId": "6b37c2d5f12ac40bb120",
+      "packageId": "3860926d1b05e8840ae9",
       "storyId": "de7ccf215a53072c99fd",
       "idempotencyKey": "atlsignal:de7ccf215a53072c99fd:social-v2",
-      "scheduledFor": "2026-08-13T11:35:00.000Z",
-      "localSlot": "2026-08-13 07:35 ET",
+      "scheduledFor": "2026-08-13T16:15:00.000Z",
+      "localSlot": "2026-08-13 12:15 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -210,20 +210,20 @@
         "mediaRule": "Use the original graphic plan; no third-party image is required.",
         "altText": "The Receipt explainer about Atlanta Housing Board of Commissioners Approves FY 2027 Budget, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/6b37c2d5f12ac40bb120/1",
-          "https://mikeintech.github.io/atlsignal/social-card/6b37c2d5f12ac40bb120/2",
-          "https://mikeintech.github.io/atlsignal/social-card/6b37c2d5f12ac40bb120/3",
-          "https://mikeintech.github.io/atlsignal/social-card/6b37c2d5f12ac40bb120/4",
-          "https://mikeintech.github.io/atlsignal/social-card/6b37c2d5f12ac40bb120/5",
-          "https://mikeintech.github.io/atlsignal/social-card/6b37c2d5f12ac40bb120/6"
+          "https://mikeintech.github.io/atlsignal/social-card/3860926d1b05e8840ae9/1",
+          "https://mikeintech.github.io/atlsignal/social-card/3860926d1b05e8840ae9/2",
+          "https://mikeintech.github.io/atlsignal/social-card/3860926d1b05e8840ae9/3",
+          "https://mikeintech.github.io/atlsignal/social-card/3860926d1b05e8840ae9/4",
+          "https://mikeintech.github.io/atlsignal/social-card/3860926d1b05e8840ae9/5",
+          "https://mikeintech.github.io/atlsignal/social-card/3860926d1b05e8840ae9/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/6b37c2d5f12ac40bb120/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b37c2d5f12ac40bb120/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b37c2d5f12ac40bb120/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b37c2d5f12ac40bb120/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b37c2d5f12ac40bb120/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b37c2d5f12ac40bb120/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/3860926d1b05e8840ae9/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/3860926d1b05e8840ae9/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/3860926d1b05e8840ae9/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/3860926d1b05e8840ae9/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/3860926d1b05e8840ae9/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/3860926d1b05e8840ae9/6.jpg"
         ]
       },
       "carousel": [
@@ -266,7 +266,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-13T11:35:00.000Z",
+          "publishAt": "2026-08-13T16:15:00.000Z",
           "format": "CAROUSEL",
           "caption": "Here’s the receipt: Atlanta Housing Board of Commissioners Approves FY 2027 Budget\n\n$544.6M allocated to expand housing opportunity, resident services, development pipeline, and overall impact for the City of Atlanta ATLANTA – The Atlanta Housing Board of Commissioners voted unanimously today to approve a $544.6 million balanced budget...\n\nWhy it matters: Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Housing. Full context and source trail: https://mikeintech.github.io/atlsignal/file/de7ccf215a53072c99fd\n\nWhich housing commitment should ATLSignal track through delivery?",
           "storyFrames": [
@@ -298,11 +298,11 @@
       }
     },
     {
-      "packageId": "725265d74be42630ba99",
+      "packageId": "864ef553f64c622b9101",
       "storyId": "0ee182270f841210ce65",
       "idempotencyKey": "atlsignal:0ee182270f841210ce65:social-v2",
-      "scheduledFor": "2026-08-13T16:15:00.000Z",
-      "localSlot": "2026-08-13 12:15 ET",
+      "scheduledFor": "2026-08-13T22:35:00.000Z",
+      "localSlot": "2026-08-13 18:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -342,20 +342,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "From the File explainer about Invest Atlanta Makes Strategic Investment in Municipal Market Merchants, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/725265d74be42630ba99/1",
-          "https://mikeintech.github.io/atlsignal/social-card/725265d74be42630ba99/2",
-          "https://mikeintech.github.io/atlsignal/social-card/725265d74be42630ba99/3",
-          "https://mikeintech.github.io/atlsignal/social-card/725265d74be42630ba99/4",
-          "https://mikeintech.github.io/atlsignal/social-card/725265d74be42630ba99/5",
-          "https://mikeintech.github.io/atlsignal/social-card/725265d74be42630ba99/6"
+          "https://mikeintech.github.io/atlsignal/social-card/864ef553f64c622b9101/1",
+          "https://mikeintech.github.io/atlsignal/social-card/864ef553f64c622b9101/2",
+          "https://mikeintech.github.io/atlsignal/social-card/864ef553f64c622b9101/3",
+          "https://mikeintech.github.io/atlsignal/social-card/864ef553f64c622b9101/4",
+          "https://mikeintech.github.io/atlsignal/social-card/864ef553f64c622b9101/5",
+          "https://mikeintech.github.io/atlsignal/social-card/864ef553f64c622b9101/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/725265d74be42630ba99/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/725265d74be42630ba99/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/725265d74be42630ba99/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/725265d74be42630ba99/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/725265d74be42630ba99/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/725265d74be42630ba99/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/864ef553f64c622b9101/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/864ef553f64c622b9101/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/864ef553f64c622b9101/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/864ef553f64c622b9101/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/864ef553f64c622b9101/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/864ef553f64c622b9101/6.jpg"
         ]
       },
       "carousel": [
@@ -398,7 +398,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-13T16:15:00.000Z",
+          "publishAt": "2026-08-13T22:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "From the file: $90,000 in grants will fund upgrades for nine Municipal Market merchants\n\nNine Municipal Market merchants in Sweet Auburn received $10,000 awards for booth function, fixtures, signage and design improvements.\n\nWhy it matters: Storefront-scale improvements can affect customer flow, equipment reliability and the ability of independent merchants to compete inside a historic public market.\n\nWhat remains unknown: The announcement does not establish when every improvement will finish or whether the upgrades will produce lasting sales growth.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/municipal-market-merchants-90000-investment\n\nWhich Atlanta business move should be on our watchlist?",
           "storyFrames": [
@@ -430,11 +430,11 @@
       }
     },
     {
-      "packageId": "1ff576b63f8c0e287698",
+      "packageId": "05b349d4fab43a84d557",
       "storyId": "3e98246dd9d891078ccb",
       "idempotencyKey": "atlsignal:3e98246dd9d891078ccb:social-v2",
-      "scheduledFor": "2026-08-13T22:35:00.000Z",
-      "localSlot": "2026-08-13 18:35 ET",
+      "scheduledFor": "2026-08-14T11:35:00.000Z",
+      "localSlot": "2026-08-14 07:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -474,20 +474,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "The Receipt explainer about Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/1ff576b63f8c0e287698/1",
-          "https://mikeintech.github.io/atlsignal/social-card/1ff576b63f8c0e287698/2",
-          "https://mikeintech.github.io/atlsignal/social-card/1ff576b63f8c0e287698/3",
-          "https://mikeintech.github.io/atlsignal/social-card/1ff576b63f8c0e287698/4",
-          "https://mikeintech.github.io/atlsignal/social-card/1ff576b63f8c0e287698/5",
-          "https://mikeintech.github.io/atlsignal/social-card/1ff576b63f8c0e287698/6"
+          "https://mikeintech.github.io/atlsignal/social-card/05b349d4fab43a84d557/1",
+          "https://mikeintech.github.io/atlsignal/social-card/05b349d4fab43a84d557/2",
+          "https://mikeintech.github.io/atlsignal/social-card/05b349d4fab43a84d557/3",
+          "https://mikeintech.github.io/atlsignal/social-card/05b349d4fab43a84d557/4",
+          "https://mikeintech.github.io/atlsignal/social-card/05b349d4fab43a84d557/5",
+          "https://mikeintech.github.io/atlsignal/social-card/05b349d4fab43a84d557/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/1ff576b63f8c0e287698/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/1ff576b63f8c0e287698/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/1ff576b63f8c0e287698/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/1ff576b63f8c0e287698/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/1ff576b63f8c0e287698/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/1ff576b63f8c0e287698/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/05b349d4fab43a84d557/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/05b349d4fab43a84d557/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/05b349d4fab43a84d557/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/05b349d4fab43a84d557/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/05b349d4fab43a84d557/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/05b349d4fab43a84d557/6.jpg"
         ]
       },
       "carousel": [
@@ -530,7 +530,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-13T22:35:00.000Z",
+          "publishAt": "2026-08-14T11:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show\n\nThe 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/3e98246dd9d891078ccb\n\nWhich route or project should we check next?",
           "storyFrames": [
@@ -546,7 +546,7 @@
         }
       },
       "measurement": {
-        "campaign": "social_20260813",
+        "campaign": "social_20260814",
         "content": "the_receipt_3e98246d",
         "primary": [
           "shares_per_reach",
@@ -562,11 +562,11 @@
       }
     },
     {
-      "packageId": "d915d9b93d5e941dd60a",
+      "packageId": "df21d48785ed15901f3a",
       "storyId": "b1e6ef982e9fb2e4cd69",
       "idempotencyKey": "atlsignal:b1e6ef982e9fb2e4cd69:social-v2",
-      "scheduledFor": "2026-08-14T11:35:00.000Z",
-      "localSlot": "2026-08-14 07:35 ET",
+      "scheduledFor": "2026-08-14T16:15:00.000Z",
+      "localSlot": "2026-08-14 12:15 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -606,20 +606,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "The Receipt explainer about ARC Board Approves Regional Development Plan to Help Shape Growth Through 2050, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/d915d9b93d5e941dd60a/1",
-          "https://mikeintech.github.io/atlsignal/social-card/d915d9b93d5e941dd60a/2",
-          "https://mikeintech.github.io/atlsignal/social-card/d915d9b93d5e941dd60a/3",
-          "https://mikeintech.github.io/atlsignal/social-card/d915d9b93d5e941dd60a/4",
-          "https://mikeintech.github.io/atlsignal/social-card/d915d9b93d5e941dd60a/5",
-          "https://mikeintech.github.io/atlsignal/social-card/d915d9b93d5e941dd60a/6"
+          "https://mikeintech.github.io/atlsignal/social-card/df21d48785ed15901f3a/1",
+          "https://mikeintech.github.io/atlsignal/social-card/df21d48785ed15901f3a/2",
+          "https://mikeintech.github.io/atlsignal/social-card/df21d48785ed15901f3a/3",
+          "https://mikeintech.github.io/atlsignal/social-card/df21d48785ed15901f3a/4",
+          "https://mikeintech.github.io/atlsignal/social-card/df21d48785ed15901f3a/5",
+          "https://mikeintech.github.io/atlsignal/social-card/df21d48785ed15901f3a/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/d915d9b93d5e941dd60a/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/d915d9b93d5e941dd60a/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/d915d9b93d5e941dd60a/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/d915d9b93d5e941dd60a/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/d915d9b93d5e941dd60a/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/d915d9b93d5e941dd60a/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/df21d48785ed15901f3a/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/df21d48785ed15901f3a/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/df21d48785ed15901f3a/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/df21d48785ed15901f3a/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/df21d48785ed15901f3a/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/df21d48785ed15901f3a/6.jpg"
         ]
       },
       "carousel": [
@@ -662,7 +662,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-14T11:35:00.000Z",
+          "publishAt": "2026-08-14T16:15:00.000Z",
           "format": "CAROUSEL",
           "caption": "Here’s the receipt: ARC Board Approves Regional Development Plan to Help Shape Growth Through 2050\n\nThe Atlanta Regional Commission (ARC) Board today approved Growing Together for 2050, an updated Regional Development Plan (RDP) that provides a shared framework for managing growth and improving quality of...\n\nWhy it matters: Major projects change the built environment, nearby business conditions and the timing of future activity.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/b1e6ef982e9fb2e4cd69\n\nWhat should ATLSignal verify next?",
           "storyFrames": [
@@ -694,11 +694,11 @@
       }
     },
     {
-      "packageId": "aa0d81c5f84a50e0878e",
+      "packageId": "49157f9629531fdffc7f",
       "storyId": "8b3c22e76193d9ee04ef",
       "idempotencyKey": "atlsignal:8b3c22e76193d9ee04ef:social-v2",
-      "scheduledFor": "2026-08-14T16:15:00.000Z",
-      "localSlot": "2026-08-14 12:15 ET",
+      "scheduledFor": "2026-08-14T22:35:00.000Z",
+      "localSlot": "2026-08-14 18:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -738,20 +738,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "Atlanta Then / Now explainer about Façade Improvement Grants Preserve Atlanta History, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/aa0d81c5f84a50e0878e/1",
-          "https://mikeintech.github.io/atlsignal/social-card/aa0d81c5f84a50e0878e/2",
-          "https://mikeintech.github.io/atlsignal/social-card/aa0d81c5f84a50e0878e/3",
-          "https://mikeintech.github.io/atlsignal/social-card/aa0d81c5f84a50e0878e/4",
-          "https://mikeintech.github.io/atlsignal/social-card/aa0d81c5f84a50e0878e/5",
-          "https://mikeintech.github.io/atlsignal/social-card/aa0d81c5f84a50e0878e/6"
+          "https://mikeintech.github.io/atlsignal/social-card/49157f9629531fdffc7f/1",
+          "https://mikeintech.github.io/atlsignal/social-card/49157f9629531fdffc7f/2",
+          "https://mikeintech.github.io/atlsignal/social-card/49157f9629531fdffc7f/3",
+          "https://mikeintech.github.io/atlsignal/social-card/49157f9629531fdffc7f/4",
+          "https://mikeintech.github.io/atlsignal/social-card/49157f9629531fdffc7f/5",
+          "https://mikeintech.github.io/atlsignal/social-card/49157f9629531fdffc7f/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/aa0d81c5f84a50e0878e/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/aa0d81c5f84a50e0878e/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/aa0d81c5f84a50e0878e/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/aa0d81c5f84a50e0878e/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/aa0d81c5f84a50e0878e/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/aa0d81c5f84a50e0878e/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/49157f9629531fdffc7f/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/49157f9629531fdffc7f/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/49157f9629531fdffc7f/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/49157f9629531fdffc7f/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/49157f9629531fdffc7f/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/49157f9629531fdffc7f/6.jpg"
         ]
       },
       "carousel": [
@@ -794,7 +794,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-14T16:15:00.000Z",
+          "publishAt": "2026-08-14T22:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History\n\nThe Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.\n\nWhy it matters: Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef\n\nWhich public investment should we follow to its next measurable result?",
           "storyFrames": [
@@ -826,11 +826,11 @@
       }
     },
     {
-      "packageId": "bb100ed5cc624d21ba9f",
+      "packageId": "afaa806106e3c62b7e06",
       "storyId": "1653ceea6e15d276c2de",
       "idempotencyKey": "atlsignal:1653ceea6e15d276c2de:social-v2",
-      "scheduledFor": "2026-08-14T22:35:00.000Z",
-      "localSlot": "2026-08-14 18:35 ET",
+      "scheduledFor": "2026-08-15T11:35:00.000Z",
+      "localSlot": "2026-08-15 07:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -885,20 +885,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "The Signal explainer about Atlanta Beltline Breaks Ground on Overlook at Garson, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/bb100ed5cc624d21ba9f/1",
-          "https://mikeintech.github.io/atlsignal/social-card/bb100ed5cc624d21ba9f/2",
-          "https://mikeintech.github.io/atlsignal/social-card/bb100ed5cc624d21ba9f/3",
-          "https://mikeintech.github.io/atlsignal/social-card/bb100ed5cc624d21ba9f/4",
-          "https://mikeintech.github.io/atlsignal/social-card/bb100ed5cc624d21ba9f/5",
-          "https://mikeintech.github.io/atlsignal/social-card/bb100ed5cc624d21ba9f/6"
+          "https://mikeintech.github.io/atlsignal/social-card/afaa806106e3c62b7e06/1",
+          "https://mikeintech.github.io/atlsignal/social-card/afaa806106e3c62b7e06/2",
+          "https://mikeintech.github.io/atlsignal/social-card/afaa806106e3c62b7e06/3",
+          "https://mikeintech.github.io/atlsignal/social-card/afaa806106e3c62b7e06/4",
+          "https://mikeintech.github.io/atlsignal/social-card/afaa806106e3c62b7e06/5",
+          "https://mikeintech.github.io/atlsignal/social-card/afaa806106e3c62b7e06/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/bb100ed5cc624d21ba9f/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/bb100ed5cc624d21ba9f/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/bb100ed5cc624d21ba9f/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/bb100ed5cc624d21ba9f/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/bb100ed5cc624d21ba9f/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/bb100ed5cc624d21ba9f/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/afaa806106e3c62b7e06/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/afaa806106e3c62b7e06/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/afaa806106e3c62b7e06/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/afaa806106e3c62b7e06/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/afaa806106e3c62b7e06/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/afaa806106e3c62b7e06/6.jpg"
         ]
       },
       "carousel": [
@@ -941,7 +941,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-14T22:35:00.000Z",
+          "publishAt": "2026-08-15T11:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "BeltLine-backed Overlook at Garson moves from plan to construction\n\nAtlanta BeltLine and Atlanta Housing marked the start of construction on Overlook at Garson, an affordable-housing development near Lindbergh.\n\nWhy it matters: The groundbreaking changes the story from a plan into an observable delivery milestone near major transportation and commercial corridors.\n\nWhat remains unknown: The milestone does not establish every deadline, final lease-up date, downstream contract or neighborhood effect.\n\nSources: Atlanta BeltLine and Atlanta Housing. Full context and source trail: https://mikeintech.github.io/atlsignal/beltline-overlook-at-garson-affordable-housing\n\nWhat should ATLSignal verify next?",
           "storyFrames": [
@@ -957,7 +957,7 @@
         }
       },
       "measurement": {
-        "campaign": "social_20260814",
+        "campaign": "social_20260815",
         "content": "the_signal_1653ceea",
         "primary": [
           "shares_per_reach",
@@ -973,11 +973,11 @@
       }
     },
     {
-      "packageId": "b3ec657ef26d2db945e5",
+      "packageId": "9565588969a63d1e941f",
       "storyId": "4d56336e11476fc0eb55",
       "idempotencyKey": "atlsignal:4d56336e11476fc0eb55:social-v2",
-      "scheduledFor": "2026-08-15T11:35:00.000Z",
-      "localSlot": "2026-08-15 07:35 ET",
+      "scheduledFor": "2026-08-15T16:15:00.000Z",
+      "localSlot": "2026-08-15 12:15 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -1011,20 +1011,20 @@
         "mediaRule": "Use the original graphic plan; no third-party image is required.",
         "altText": "$ATL explainer about Atlanta Housing Announces New $60,000 Down Payment Assistance Program and Partnership with Pretium to Expand Homeownership Opportunities, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/b3ec657ef26d2db945e5/1",
-          "https://mikeintech.github.io/atlsignal/social-card/b3ec657ef26d2db945e5/2",
-          "https://mikeintech.github.io/atlsignal/social-card/b3ec657ef26d2db945e5/3",
-          "https://mikeintech.github.io/atlsignal/social-card/b3ec657ef26d2db945e5/4",
-          "https://mikeintech.github.io/atlsignal/social-card/b3ec657ef26d2db945e5/5",
-          "https://mikeintech.github.io/atlsignal/social-card/b3ec657ef26d2db945e5/6"
+          "https://mikeintech.github.io/atlsignal/social-card/9565588969a63d1e941f/1",
+          "https://mikeintech.github.io/atlsignal/social-card/9565588969a63d1e941f/2",
+          "https://mikeintech.github.io/atlsignal/social-card/9565588969a63d1e941f/3",
+          "https://mikeintech.github.io/atlsignal/social-card/9565588969a63d1e941f/4",
+          "https://mikeintech.github.io/atlsignal/social-card/9565588969a63d1e941f/5",
+          "https://mikeintech.github.io/atlsignal/social-card/9565588969a63d1e941f/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/b3ec657ef26d2db945e5/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b3ec657ef26d2db945e5/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b3ec657ef26d2db945e5/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b3ec657ef26d2db945e5/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b3ec657ef26d2db945e5/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b3ec657ef26d2db945e5/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/9565588969a63d1e941f/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/9565588969a63d1e941f/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/9565588969a63d1e941f/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/9565588969a63d1e941f/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/9565588969a63d1e941f/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/9565588969a63d1e941f/6.jpg"
         ]
       },
       "carousel": [
@@ -1067,7 +1067,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-15T11:35:00.000Z",
+          "publishAt": "2026-08-15T16:15:00.000Z",
           "format": "CAROUSEL",
           "caption": "Follow the money: Atlanta Housing raises down-payment assistance to as much as $60,000\n\nEligible Housing Choice Voucher participants may receive up to $60,000 in down-payment assistance, up from a previous maximum of $25,000, alongside a homeownership pilot with Pretium.\n\nWhy it matters: Up-front cash is one of the largest barriers between stable renting and homeownership, but qualifying inventory and mortgage readiness will determine the program’s reach.\n\nWhat remains unknown: The agency has not reported how many households will close, the total funding available or the full list of participating properties and lenders.\n\nSources: Atlanta Housing. Full context and source trail: https://mikeintech.github.io/atlsignal/atlanta-housing-60000-down-payment-assistance\n\nWhich housing commitment should ATLSignal track through delivery?",
           "storyFrames": [
@@ -1099,11 +1099,11 @@
       }
     },
     {
-      "packageId": "039fbc76eec2de0e8ed9",
+      "packageId": "93a963a72843bb148ffe",
       "storyId": "31483e649b8d33023c21",
       "idempotencyKey": "atlsignal:31483e649b8d33023c21:social-v2",
-      "scheduledFor": "2026-08-15T16:15:00.000Z",
-      "localSlot": "2026-08-15 12:15 ET",
+      "scheduledFor": "2026-08-15T22:35:00.000Z",
+      "localSlot": "2026-08-15 18:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -1143,20 +1143,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "From the File explainer about ARC Awards $1.4 Million in Livable Centers Initiative Grants to Help Six Communities Transform, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/039fbc76eec2de0e8ed9/1",
-          "https://mikeintech.github.io/atlsignal/social-card/039fbc76eec2de0e8ed9/2",
-          "https://mikeintech.github.io/atlsignal/social-card/039fbc76eec2de0e8ed9/3",
-          "https://mikeintech.github.io/atlsignal/social-card/039fbc76eec2de0e8ed9/4",
-          "https://mikeintech.github.io/atlsignal/social-card/039fbc76eec2de0e8ed9/5",
-          "https://mikeintech.github.io/atlsignal/social-card/039fbc76eec2de0e8ed9/6"
+          "https://mikeintech.github.io/atlsignal/social-card/93a963a72843bb148ffe/1",
+          "https://mikeintech.github.io/atlsignal/social-card/93a963a72843bb148ffe/2",
+          "https://mikeintech.github.io/atlsignal/social-card/93a963a72843bb148ffe/3",
+          "https://mikeintech.github.io/atlsignal/social-card/93a963a72843bb148ffe/4",
+          "https://mikeintech.github.io/atlsignal/social-card/93a963a72843bb148ffe/5",
+          "https://mikeintech.github.io/atlsignal/social-card/93a963a72843bb148ffe/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/039fbc76eec2de0e8ed9/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/039fbc76eec2de0e8ed9/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/039fbc76eec2de0e8ed9/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/039fbc76eec2de0e8ed9/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/039fbc76eec2de0e8ed9/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/039fbc76eec2de0e8ed9/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/93a963a72843bb148ffe/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/93a963a72843bb148ffe/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/93a963a72843bb148ffe/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/93a963a72843bb148ffe/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/93a963a72843bb148ffe/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/93a963a72843bb148ffe/6.jpg"
         ]
       },
       "carousel": [
@@ -1199,7 +1199,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-15T16:15:00.000Z",
+          "publishAt": "2026-08-15T22:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "From the file: ARC Awards $1.4 Million in Livable Centers Initiative Grants to Help Six…\n\nThe Atlanta Regional Commission (ARC) announced today that it has awarded $1,420,000 in Livable Centers Initiative (LCI) grants for six planning studies across metro Atlanta to help communities transform into...\n\nWhy it matters: Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/31483e649b8d33023c21\n\nWhich public investment should we follow to its next measurable result?",
           "storyFrames": [
@@ -1231,11 +1231,11 @@
       }
     },
     {
-      "packageId": "df02e7ae2a417c41dbc0",
+      "packageId": "18e5f8bb512db016320f",
       "storyId": "47b9aed0333e1aef9145",
       "idempotencyKey": "atlsignal:47b9aed0333e1aef9145:social-v2",
-      "scheduledFor": "2026-08-15T22:35:00.000Z",
-      "localSlot": "2026-08-15 18:35 ET",
+      "scheduledFor": "2026-08-16T11:35:00.000Z",
+      "localSlot": "2026-08-16 07:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -1275,20 +1275,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "The Signal explainer about Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/df02e7ae2a417c41dbc0/1",
-          "https://mikeintech.github.io/atlsignal/social-card/df02e7ae2a417c41dbc0/2",
-          "https://mikeintech.github.io/atlsignal/social-card/df02e7ae2a417c41dbc0/3",
-          "https://mikeintech.github.io/atlsignal/social-card/df02e7ae2a417c41dbc0/4",
-          "https://mikeintech.github.io/atlsignal/social-card/df02e7ae2a417c41dbc0/5",
-          "https://mikeintech.github.io/atlsignal/social-card/df02e7ae2a417c41dbc0/6"
+          "https://mikeintech.github.io/atlsignal/social-card/18e5f8bb512db016320f/1",
+          "https://mikeintech.github.io/atlsignal/social-card/18e5f8bb512db016320f/2",
+          "https://mikeintech.github.io/atlsignal/social-card/18e5f8bb512db016320f/3",
+          "https://mikeintech.github.io/atlsignal/social-card/18e5f8bb512db016320f/4",
+          "https://mikeintech.github.io/atlsignal/social-card/18e5f8bb512db016320f/5",
+          "https://mikeintech.github.io/atlsignal/social-card/18e5f8bb512db016320f/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/df02e7ae2a417c41dbc0/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df02e7ae2a417c41dbc0/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df02e7ae2a417c41dbc0/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df02e7ae2a417c41dbc0/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df02e7ae2a417c41dbc0/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df02e7ae2a417c41dbc0/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/18e5f8bb512db016320f/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/18e5f8bb512db016320f/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/18e5f8bb512db016320f/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/18e5f8bb512db016320f/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/18e5f8bb512db016320f/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/18e5f8bb512db016320f/6.jpg"
         ]
       },
       "carousel": [
@@ -1331,7 +1331,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-15T22:35:00.000Z",
+          "publishAt": "2026-08-16T11:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "Bennett Street demolition clears an early path for Northwest Trail work\n\nAtlanta BeltLine announced Bennett Street demolition as an enabling step for future Northwest Trail construction and related infrastructure work.\n\nWhy it matters: The dated site activity lets readers track a major corridor project through intermediate milestones instead of waiting for a finished trail announcement.\n\nWhat remains unknown: The source does not settle the full delivery schedule, final cost, every procurement package or nearby commercial impact.\n\nSources: Atlanta BeltLine. Full context and source trail: https://mikeintech.github.io/atlsignal/beltline-bennett-street-demolition-northwest-trail\n\nWhich route or project should we check next?",
           "storyFrames": [
@@ -1347,7 +1347,7 @@
         }
       },
       "measurement": {
-        "campaign": "social_20260815",
+        "campaign": "social_20260816",
         "content": "the_signal_47b9aed0",
         "primary": [
           "shares_per_reach",
@@ -1363,11 +1363,11 @@
       }
     },
     {
-      "packageId": "6b179cac05dabf7b94b7",
+      "packageId": "c3eb3582b91b3b081c31",
       "storyId": "acb27d881cb4f7742854",
       "idempotencyKey": "atlsignal:acb27d881cb4f7742854:social-v2",
-      "scheduledFor": "2026-08-16T11:35:00.000Z",
-      "localSlot": "2026-08-16 07:35 ET",
+      "scheduledFor": "2026-08-16T16:15:00.000Z",
+      "localSlot": "2026-08-16 12:15 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -1407,20 +1407,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "$ATL explainer about Invest Atlanta's C-PACE Program Surpasses $130 Million In 2026 Financing, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/6b179cac05dabf7b94b7/1",
-          "https://mikeintech.github.io/atlsignal/social-card/6b179cac05dabf7b94b7/2",
-          "https://mikeintech.github.io/atlsignal/social-card/6b179cac05dabf7b94b7/3",
-          "https://mikeintech.github.io/atlsignal/social-card/6b179cac05dabf7b94b7/4",
-          "https://mikeintech.github.io/atlsignal/social-card/6b179cac05dabf7b94b7/5",
-          "https://mikeintech.github.io/atlsignal/social-card/6b179cac05dabf7b94b7/6"
+          "https://mikeintech.github.io/atlsignal/social-card/c3eb3582b91b3b081c31/1",
+          "https://mikeintech.github.io/atlsignal/social-card/c3eb3582b91b3b081c31/2",
+          "https://mikeintech.github.io/atlsignal/social-card/c3eb3582b91b3b081c31/3",
+          "https://mikeintech.github.io/atlsignal/social-card/c3eb3582b91b3b081c31/4",
+          "https://mikeintech.github.io/atlsignal/social-card/c3eb3582b91b3b081c31/5",
+          "https://mikeintech.github.io/atlsignal/social-card/c3eb3582b91b3b081c31/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/6b179cac05dabf7b94b7/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b179cac05dabf7b94b7/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b179cac05dabf7b94b7/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b179cac05dabf7b94b7/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b179cac05dabf7b94b7/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b179cac05dabf7b94b7/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/c3eb3582b91b3b081c31/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c3eb3582b91b3b081c31/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c3eb3582b91b3b081c31/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c3eb3582b91b3b081c31/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c3eb3582b91b3b081c31/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c3eb3582b91b3b081c31/6.jpg"
         ]
       },
       "carousel": [
@@ -1463,7 +1463,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-16T11:35:00.000Z",
+          "publishAt": "2026-08-16T16:15:00.000Z",
           "format": "CAROUSEL",
           "caption": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026\n\nInvest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR.\n\nWhy it matters: The financing tool ties energy and building upgrades to named commercial properties, giving Atlanta measurable projects to track beyond the headline total.\n\nWhat remains unknown: The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/invest-atlanta-cpace-130-million-financing\n\nWhich public investment should we follow to its next measurable result?",
           "storyFrames": [
@@ -1495,11 +1495,11 @@
       }
     },
     {
-      "packageId": "c766c20b8bbec6c8c90a",
+      "packageId": "e11508b9ceedc8fc44b9",
       "storyId": "4a8db6af8311a3a634a6",
       "idempotencyKey": "atlsignal:4a8db6af8311a3a634a6:social-v2",
-      "scheduledFor": "2026-08-16T16:15:00.000Z",
-      "localSlot": "2026-08-16 12:15 ET",
+      "scheduledFor": "2026-08-16T22:35:00.000Z",
+      "localSlot": "2026-08-16 18:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -1539,20 +1539,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "From the File explainer about Small Business Improvement Grant Helps Goodr Feed Its Mission, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/c766c20b8bbec6c8c90a/1",
-          "https://mikeintech.github.io/atlsignal/social-card/c766c20b8bbec6c8c90a/2",
-          "https://mikeintech.github.io/atlsignal/social-card/c766c20b8bbec6c8c90a/3",
-          "https://mikeintech.github.io/atlsignal/social-card/c766c20b8bbec6c8c90a/4",
-          "https://mikeintech.github.io/atlsignal/social-card/c766c20b8bbec6c8c90a/5",
-          "https://mikeintech.github.io/atlsignal/social-card/c766c20b8bbec6c8c90a/6"
+          "https://mikeintech.github.io/atlsignal/social-card/e11508b9ceedc8fc44b9/1",
+          "https://mikeintech.github.io/atlsignal/social-card/e11508b9ceedc8fc44b9/2",
+          "https://mikeintech.github.io/atlsignal/social-card/e11508b9ceedc8fc44b9/3",
+          "https://mikeintech.github.io/atlsignal/social-card/e11508b9ceedc8fc44b9/4",
+          "https://mikeintech.github.io/atlsignal/social-card/e11508b9ceedc8fc44b9/5",
+          "https://mikeintech.github.io/atlsignal/social-card/e11508b9ceedc8fc44b9/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/c766c20b8bbec6c8c90a/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/c766c20b8bbec6c8c90a/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/c766c20b8bbec6c8c90a/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/c766c20b8bbec6c8c90a/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/c766c20b8bbec6c8c90a/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/c766c20b8bbec6c8c90a/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/e11508b9ceedc8fc44b9/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/e11508b9ceedc8fc44b9/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/e11508b9ceedc8fc44b9/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/e11508b9ceedc8fc44b9/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/e11508b9ceedc8fc44b9/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/e11508b9ceedc8fc44b9/6.jpg"
         ]
       },
       "carousel": [
@@ -1595,7 +1595,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-16T16:15:00.000Z",
+          "publishAt": "2026-08-16T22:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "From the file: Small Business Improvement Grant Helps Goodr Feed Its Mission\n\nWith funding assistance from a $300,000 Atlanta Food Access Catalyst Grant, the Goodr Community Market on Edgewood brings food security and food retail under one roof.\n\nWhy it matters: Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/4a8db6af8311a3a634a6\n\nWhich Atlanta business move should be on our watchlist?",
           "storyFrames": [
@@ -1627,11 +1627,11 @@
       }
     },
     {
-      "packageId": "9b0a9f5e7ba67283d5a0",
+      "packageId": "bbf29ff137a2ff34f248",
       "storyId": "163ecb6c04de2680150d",
       "idempotencyKey": "atlsignal:163ecb6c04de2680150d:social-v2",
-      "scheduledFor": "2026-08-16T22:35:00.000Z",
-      "localSlot": "2026-08-16 18:35 ET",
+      "scheduledFor": "2026-08-17T11:35:00.000Z",
+      "localSlot": "2026-08-17 07:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -1671,20 +1671,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "Opening Watch explainer about Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/9b0a9f5e7ba67283d5a0/1",
-          "https://mikeintech.github.io/atlsignal/social-card/9b0a9f5e7ba67283d5a0/2",
-          "https://mikeintech.github.io/atlsignal/social-card/9b0a9f5e7ba67283d5a0/3",
-          "https://mikeintech.github.io/atlsignal/social-card/9b0a9f5e7ba67283d5a0/4",
-          "https://mikeintech.github.io/atlsignal/social-card/9b0a9f5e7ba67283d5a0/5",
-          "https://mikeintech.github.io/atlsignal/social-card/9b0a9f5e7ba67283d5a0/6"
+          "https://mikeintech.github.io/atlsignal/social-card/bbf29ff137a2ff34f248/1",
+          "https://mikeintech.github.io/atlsignal/social-card/bbf29ff137a2ff34f248/2",
+          "https://mikeintech.github.io/atlsignal/social-card/bbf29ff137a2ff34f248/3",
+          "https://mikeintech.github.io/atlsignal/social-card/bbf29ff137a2ff34f248/4",
+          "https://mikeintech.github.io/atlsignal/social-card/bbf29ff137a2ff34f248/5",
+          "https://mikeintech.github.io/atlsignal/social-card/bbf29ff137a2ff34f248/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/9b0a9f5e7ba67283d5a0/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/9b0a9f5e7ba67283d5a0/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/9b0a9f5e7ba67283d5a0/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/9b0a9f5e7ba67283d5a0/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/9b0a9f5e7ba67283d5a0/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/9b0a9f5e7ba67283d5a0/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/bbf29ff137a2ff34f248/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/bbf29ff137a2ff34f248/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/bbf29ff137a2ff34f248/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/bbf29ff137a2ff34f248/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/bbf29ff137a2ff34f248/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/bbf29ff137a2ff34f248/6.jpg"
         ]
       },
       "carousel": [
@@ -1727,7 +1727,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-16T22:35:00.000Z",
+          "publishAt": "2026-08-17T11:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "Opening watch: Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations\n\nSwiftly Vintage is the creative vision of Donna Lindsey and a pursuit more than a decade in the making. Inspired by her extensive travels, the boutique pop-up store in South Downtown features an exclusive collection of vintage clothing, accessories and home décor that Donna has sourced and curated from around the world.\n\nWhy it matters: Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/163ecb6c04de2680150d\n\nWhich Atlanta business move should be on our watchlist?",
           "storyFrames": [
@@ -1743,7 +1743,7 @@
         }
       },
       "measurement": {
-        "campaign": "social_20260816",
+        "campaign": "social_20260817",
         "content": "opening_watch_163ecb6c",
         "primary": [
           "shares_per_reach",
@@ -1759,11 +1759,11 @@
       }
     },
     {
-      "packageId": "df76b6d27dc8e7d44e4b",
+      "packageId": "808975d94027fc29be25",
       "storyId": "b1c05e21ab32f60ca452",
       "idempotencyKey": "atlsignal:b1c05e21ab32f60ca452:social-v2",
-      "scheduledFor": "2026-08-17T11:35:00.000Z",
-      "localSlot": "2026-08-17 07:35 ET",
+      "scheduledFor": "2026-08-17T16:15:00.000Z",
+      "localSlot": "2026-08-17 12:15 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -1803,20 +1803,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "The Receipt explainer about Invest Atlanta Board Approves $39 Million for Affordable Housing, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/df76b6d27dc8e7d44e4b/1",
-          "https://mikeintech.github.io/atlsignal/social-card/df76b6d27dc8e7d44e4b/2",
-          "https://mikeintech.github.io/atlsignal/social-card/df76b6d27dc8e7d44e4b/3",
-          "https://mikeintech.github.io/atlsignal/social-card/df76b6d27dc8e7d44e4b/4",
-          "https://mikeintech.github.io/atlsignal/social-card/df76b6d27dc8e7d44e4b/5",
-          "https://mikeintech.github.io/atlsignal/social-card/df76b6d27dc8e7d44e4b/6"
+          "https://mikeintech.github.io/atlsignal/social-card/808975d94027fc29be25/1",
+          "https://mikeintech.github.io/atlsignal/social-card/808975d94027fc29be25/2",
+          "https://mikeintech.github.io/atlsignal/social-card/808975d94027fc29be25/3",
+          "https://mikeintech.github.io/atlsignal/social-card/808975d94027fc29be25/4",
+          "https://mikeintech.github.io/atlsignal/social-card/808975d94027fc29be25/5",
+          "https://mikeintech.github.io/atlsignal/social-card/808975d94027fc29be25/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/df76b6d27dc8e7d44e4b/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df76b6d27dc8e7d44e4b/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df76b6d27dc8e7d44e4b/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df76b6d27dc8e7d44e4b/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df76b6d27dc8e7d44e4b/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df76b6d27dc8e7d44e4b/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/808975d94027fc29be25/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/808975d94027fc29be25/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/808975d94027fc29be25/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/808975d94027fc29be25/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/808975d94027fc29be25/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/808975d94027fc29be25/6.jpg"
         ]
       },
       "carousel": [
@@ -1859,7 +1859,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-17T11:35:00.000Z",
+          "publishAt": "2026-08-17T16:15:00.000Z",
           "format": "CAROUSEL",
           "caption": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta\n\nInvest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park.\n\nWhy it matters: The approvals turn a broad affordability commitment into named projects, locations and unit counts that can be followed through construction and occupancy.\n\nWhat remains unknown: Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/invest-atlanta-39-million-affordable-housing\n\nWhich housing commitment should ATLSignal track through delivery?",
           "storyFrames": [
@@ -1891,11 +1891,11 @@
       }
     },
     {
-      "packageId": "91b955aa6073b5700dd8",
+      "packageId": "fd94786f37f31f02cd03",
       "storyId": "213c4233a463753e7f91",
       "idempotencyKey": "atlsignal:213c4233a463753e7f91:social-v2",
-      "scheduledFor": "2026-08-17T16:15:00.000Z",
-      "localSlot": "2026-08-17 12:15 ET",
+      "scheduledFor": "2026-08-17T22:35:00.000Z",
+      "localSlot": "2026-08-17 18:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -1935,20 +1935,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "From the File explainer about It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/91b955aa6073b5700dd8/1",
-          "https://mikeintech.github.io/atlsignal/social-card/91b955aa6073b5700dd8/2",
-          "https://mikeintech.github.io/atlsignal/social-card/91b955aa6073b5700dd8/3",
-          "https://mikeintech.github.io/atlsignal/social-card/91b955aa6073b5700dd8/4",
-          "https://mikeintech.github.io/atlsignal/social-card/91b955aa6073b5700dd8/5",
-          "https://mikeintech.github.io/atlsignal/social-card/91b955aa6073b5700dd8/6"
+          "https://mikeintech.github.io/atlsignal/social-card/fd94786f37f31f02cd03/1",
+          "https://mikeintech.github.io/atlsignal/social-card/fd94786f37f31f02cd03/2",
+          "https://mikeintech.github.io/atlsignal/social-card/fd94786f37f31f02cd03/3",
+          "https://mikeintech.github.io/atlsignal/social-card/fd94786f37f31f02cd03/4",
+          "https://mikeintech.github.io/atlsignal/social-card/fd94786f37f31f02cd03/5",
+          "https://mikeintech.github.io/atlsignal/social-card/fd94786f37f31f02cd03/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/91b955aa6073b5700dd8/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/91b955aa6073b5700dd8/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/91b955aa6073b5700dd8/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/91b955aa6073b5700dd8/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/91b955aa6073b5700dd8/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/91b955aa6073b5700dd8/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/fd94786f37f31f02cd03/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/fd94786f37f31f02cd03/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/fd94786f37f31f02cd03/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/fd94786f37f31f02cd03/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/fd94786f37f31f02cd03/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/fd94786f37f31f02cd03/6.jpg"
         ]
       },
       "carousel": [
@@ -1991,7 +1991,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-17T16:15:00.000Z",
+          "publishAt": "2026-08-17T22:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet\n\nFrom a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –...\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/213c4233a463753e7f91\n\nWhich route or project should we check next?",
           "storyFrames": [
@@ -2023,11 +2023,11 @@
       }
     },
     {
-      "packageId": "bdafa10eee7ba7ad4bce",
+      "packageId": "c5ffb98955c16eee4099",
       "storyId": "298bc7e9f8f7aacb337b",
       "idempotencyKey": "atlsignal:298bc7e9f8f7aacb337b:social-v2",
-      "scheduledFor": "2026-08-17T22:35:00.000Z",
-      "localSlot": "2026-08-17 18:35 ET",
+      "scheduledFor": "2026-08-18T11:35:00.000Z",
+      "localSlot": "2026-08-18 07:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -2067,20 +2067,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "The Receipt explainer about Pittsburgh Yards Welcomes Piedmont Mobile Health Unit Powered by Google, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/bdafa10eee7ba7ad4bce/1",
-          "https://mikeintech.github.io/atlsignal/social-card/bdafa10eee7ba7ad4bce/2",
-          "https://mikeintech.github.io/atlsignal/social-card/bdafa10eee7ba7ad4bce/3",
-          "https://mikeintech.github.io/atlsignal/social-card/bdafa10eee7ba7ad4bce/4",
-          "https://mikeintech.github.io/atlsignal/social-card/bdafa10eee7ba7ad4bce/5",
-          "https://mikeintech.github.io/atlsignal/social-card/bdafa10eee7ba7ad4bce/6"
+          "https://mikeintech.github.io/atlsignal/social-card/c5ffb98955c16eee4099/1",
+          "https://mikeintech.github.io/atlsignal/social-card/c5ffb98955c16eee4099/2",
+          "https://mikeintech.github.io/atlsignal/social-card/c5ffb98955c16eee4099/3",
+          "https://mikeintech.github.io/atlsignal/social-card/c5ffb98955c16eee4099/4",
+          "https://mikeintech.github.io/atlsignal/social-card/c5ffb98955c16eee4099/5",
+          "https://mikeintech.github.io/atlsignal/social-card/c5ffb98955c16eee4099/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/bdafa10eee7ba7ad4bce/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/bdafa10eee7ba7ad4bce/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/bdafa10eee7ba7ad4bce/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/bdafa10eee7ba7ad4bce/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/bdafa10eee7ba7ad4bce/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/bdafa10eee7ba7ad4bce/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/c5ffb98955c16eee4099/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c5ffb98955c16eee4099/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c5ffb98955c16eee4099/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c5ffb98955c16eee4099/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c5ffb98955c16eee4099/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c5ffb98955c16eee4099/6.jpg"
         ]
       },
       "carousel": [
@@ -2123,7 +2123,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-17T22:35:00.000Z",
+          "publishAt": "2026-08-18T11:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "Here’s the receipt: Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards\n\nA Piedmont mobile health unit supported by Google is serving Pittsburgh Yards, with later BeltLine information describing second-Saturday availability alongside the Indie Market.\n\nWhy it matters: Healthcare, small-business programming and community activity are appearing in the same place, potentially widening the campus’s usefulness and repeat foot traffic.\n\nWhat remains unknown: The available sources do not establish permanent service, patient volume, a complete clinical schedule or a measured business effect.\n\nSources: Atlanta BeltLine. Full context and source trail: https://mikeintech.github.io/atlsignal/pittsburgh-yards-piedmont-mobile-health-unit\n\nWhich housing commitment should ATLSignal track through delivery?",
           "storyFrames": [
@@ -2139,7 +2139,7 @@
         }
       },
       "measurement": {
-        "campaign": "social_20260817",
+        "campaign": "social_20260818",
         "content": "the_receipt_298bc7e9",
         "primary": [
           "shares_per_reach",
@@ -2155,11 +2155,11 @@
       }
     },
     {
-      "packageId": "1b034337a91f82d36de7",
+      "packageId": "87707014a0b53df41c0c",
       "storyId": "dfa11dedbdd11c4de548",
       "idempotencyKey": "atlsignal:dfa11dedbdd11c4de548:social-v2",
-      "scheduledFor": "2026-08-18T11:35:00.000Z",
-      "localSlot": "2026-08-18 07:35 ET",
+      "scheduledFor": "2026-08-18T16:15:00.000Z",
+      "localSlot": "2026-08-18 12:15 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -2199,20 +2199,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "The Receipt explainer about From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/1b034337a91f82d36de7/1",
-          "https://mikeintech.github.io/atlsignal/social-card/1b034337a91f82d36de7/2",
-          "https://mikeintech.github.io/atlsignal/social-card/1b034337a91f82d36de7/3",
-          "https://mikeintech.github.io/atlsignal/social-card/1b034337a91f82d36de7/4",
-          "https://mikeintech.github.io/atlsignal/social-card/1b034337a91f82d36de7/5",
-          "https://mikeintech.github.io/atlsignal/social-card/1b034337a91f82d36de7/6"
+          "https://mikeintech.github.io/atlsignal/social-card/87707014a0b53df41c0c/1",
+          "https://mikeintech.github.io/atlsignal/social-card/87707014a0b53df41c0c/2",
+          "https://mikeintech.github.io/atlsignal/social-card/87707014a0b53df41c0c/3",
+          "https://mikeintech.github.io/atlsignal/social-card/87707014a0b53df41c0c/4",
+          "https://mikeintech.github.io/atlsignal/social-card/87707014a0b53df41c0c/5",
+          "https://mikeintech.github.io/atlsignal/social-card/87707014a0b53df41c0c/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/1b034337a91f82d36de7/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/1b034337a91f82d36de7/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/1b034337a91f82d36de7/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/1b034337a91f82d36de7/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/1b034337a91f82d36de7/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/1b034337a91f82d36de7/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/87707014a0b53df41c0c/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/87707014a0b53df41c0c/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/87707014a0b53df41c0c/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/87707014a0b53df41c0c/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/87707014a0b53df41c0c/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/87707014a0b53df41c0c/6.jpg"
         ]
       },
       "carousel": [
@@ -2255,7 +2255,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-18T11:35:00.000Z",
+          "publishAt": "2026-08-18T16:15:00.000Z",
           "format": "CAROUSEL",
           "caption": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation\n\nAvondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped potential. In 2014,...\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/dfa11dedbdd11c4de548\n\nWhich route or project should we check next?",
           "storyFrames": [
@@ -2287,11 +2287,11 @@
       }
     },
     {
-      "packageId": "3c5735c20e3695abfb63",
+      "packageId": "32a836f182e188f8d11a",
       "storyId": "a7d1a013b1faada61611",
       "idempotencyKey": "atlsignal:a7d1a013b1faada61611:social-v2",
-      "scheduledFor": "2026-08-18T16:15:00.000Z",
-      "localSlot": "2026-08-18 12:15 ET",
+      "scheduledFor": "2026-08-18T22:35:00.000Z",
+      "localSlot": "2026-08-18 18:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -2331,20 +2331,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "From the File explainer about TAD Grant Supports New Andrew Young International Institute for Peace and Reconciliation, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/3c5735c20e3695abfb63/1",
-          "https://mikeintech.github.io/atlsignal/social-card/3c5735c20e3695abfb63/2",
-          "https://mikeintech.github.io/atlsignal/social-card/3c5735c20e3695abfb63/3",
-          "https://mikeintech.github.io/atlsignal/social-card/3c5735c20e3695abfb63/4",
-          "https://mikeintech.github.io/atlsignal/social-card/3c5735c20e3695abfb63/5",
-          "https://mikeintech.github.io/atlsignal/social-card/3c5735c20e3695abfb63/6"
+          "https://mikeintech.github.io/atlsignal/social-card/32a836f182e188f8d11a/1",
+          "https://mikeintech.github.io/atlsignal/social-card/32a836f182e188f8d11a/2",
+          "https://mikeintech.github.io/atlsignal/social-card/32a836f182e188f8d11a/3",
+          "https://mikeintech.github.io/atlsignal/social-card/32a836f182e188f8d11a/4",
+          "https://mikeintech.github.io/atlsignal/social-card/32a836f182e188f8d11a/5",
+          "https://mikeintech.github.io/atlsignal/social-card/32a836f182e188f8d11a/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/3c5735c20e3695abfb63/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/3c5735c20e3695abfb63/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/3c5735c20e3695abfb63/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/3c5735c20e3695abfb63/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/3c5735c20e3695abfb63/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/3c5735c20e3695abfb63/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/32a836f182e188f8d11a/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/32a836f182e188f8d11a/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/32a836f182e188f8d11a/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/32a836f182e188f8d11a/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/32a836f182e188f8d11a/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/32a836f182e188f8d11a/6.jpg"
         ]
       },
       "carousel": [
@@ -2387,7 +2387,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-18T16:15:00.000Z",
+          "publishAt": "2026-08-18T22:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "From the file: TAD Grant Supports New Andrew Young International Institute for Peace and…\n\nThe Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the development of a transformative peace center in Historic Vine City, inspired by the enduring legacy of Ambassador Andrew Young.\n\nWhy it matters: Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/a7d1a013b1faada61611\n\nWhich public investment should we follow to its next measurable result?",
           "storyFrames": [
@@ -2419,11 +2419,11 @@
       }
     },
     {
-      "packageId": "c7aad2eebc832e418852",
+      "packageId": "c595f9851b35dc6e713b",
       "storyId": "225b0de85f855128b39e",
       "idempotencyKey": "atlsignal:225b0de85f855128b39e:social-v2",
-      "scheduledFor": "2026-08-18T22:35:00.000Z",
-      "localSlot": "2026-08-18 18:35 ET",
+      "scheduledFor": "2026-08-19T11:35:00.000Z",
+      "localSlot": "2026-08-19 07:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -2463,20 +2463,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "The Receipt explainer about Atlanta Beltline Hosting Housing Fair to Connect Residents with Resources, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/c7aad2eebc832e418852/1",
-          "https://mikeintech.github.io/atlsignal/social-card/c7aad2eebc832e418852/2",
-          "https://mikeintech.github.io/atlsignal/social-card/c7aad2eebc832e418852/3",
-          "https://mikeintech.github.io/atlsignal/social-card/c7aad2eebc832e418852/4",
-          "https://mikeintech.github.io/atlsignal/social-card/c7aad2eebc832e418852/5",
-          "https://mikeintech.github.io/atlsignal/social-card/c7aad2eebc832e418852/6"
+          "https://mikeintech.github.io/atlsignal/social-card/c595f9851b35dc6e713b/1",
+          "https://mikeintech.github.io/atlsignal/social-card/c595f9851b35dc6e713b/2",
+          "https://mikeintech.github.io/atlsignal/social-card/c595f9851b35dc6e713b/3",
+          "https://mikeintech.github.io/atlsignal/social-card/c595f9851b35dc6e713b/4",
+          "https://mikeintech.github.io/atlsignal/social-card/c595f9851b35dc6e713b/5",
+          "https://mikeintech.github.io/atlsignal/social-card/c595f9851b35dc6e713b/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/c7aad2eebc832e418852/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/c7aad2eebc832e418852/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/c7aad2eebc832e418852/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/c7aad2eebc832e418852/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/c7aad2eebc832e418852/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/c7aad2eebc832e418852/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/c595f9851b35dc6e713b/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c595f9851b35dc6e713b/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c595f9851b35dc6e713b/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c595f9851b35dc6e713b/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c595f9851b35dc6e713b/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/c595f9851b35dc6e713b/6.jpg"
         ]
       },
       "carousel": [
@@ -2519,7 +2519,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-18T22:35:00.000Z",
+          "publishAt": "2026-08-19T11:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "Here’s the receipt: Atlanta Beltline Hosting Housing Fair to Connect Residents with Resources\n\nJoin us for the first-ever Atlanta Beltline Housing Fair at Monday Night Garage on August 8!\n\nWhy it matters: Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta BeltLine. Full context and source trail: https://mikeintech.github.io/atlsignal/file/225b0de85f855128b39e\n\nWhich housing commitment should ATLSignal track through delivery?",
           "storyFrames": [
@@ -2535,7 +2535,7 @@
         }
       },
       "measurement": {
-        "campaign": "social_20260818",
+        "campaign": "social_20260819",
         "content": "the_receipt_225b0de8",
         "primary": [
           "shares_per_reach",
@@ -2551,11 +2551,11 @@
       }
     },
     {
-      "packageId": "ba384bd8f63397423457",
+      "packageId": "f99d3d7b763f101df1e3",
       "storyId": "e740e296a1c1767be57a",
       "idempotencyKey": "atlsignal:e740e296a1c1767be57a:social-v2",
-      "scheduledFor": "2026-08-19T11:35:00.000Z",
-      "localSlot": "2026-08-19 07:35 ET",
+      "scheduledFor": "2026-08-19T16:15:00.000Z",
+      "localSlot": "2026-08-19 12:15 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -2589,20 +2589,20 @@
         "mediaRule": "Use the original graphic plan; no third-party image is required.",
         "altText": "The Receipt explainer about Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand Workforce Services for Residents, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/ba384bd8f63397423457/1",
-          "https://mikeintech.github.io/atlsignal/social-card/ba384bd8f63397423457/2",
-          "https://mikeintech.github.io/atlsignal/social-card/ba384bd8f63397423457/3",
-          "https://mikeintech.github.io/atlsignal/social-card/ba384bd8f63397423457/4",
-          "https://mikeintech.github.io/atlsignal/social-card/ba384bd8f63397423457/5",
-          "https://mikeintech.github.io/atlsignal/social-card/ba384bd8f63397423457/6"
+          "https://mikeintech.github.io/atlsignal/social-card/f99d3d7b763f101df1e3/1",
+          "https://mikeintech.github.io/atlsignal/social-card/f99d3d7b763f101df1e3/2",
+          "https://mikeintech.github.io/atlsignal/social-card/f99d3d7b763f101df1e3/3",
+          "https://mikeintech.github.io/atlsignal/social-card/f99d3d7b763f101df1e3/4",
+          "https://mikeintech.github.io/atlsignal/social-card/f99d3d7b763f101df1e3/5",
+          "https://mikeintech.github.io/atlsignal/social-card/f99d3d7b763f101df1e3/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/ba384bd8f63397423457/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ba384bd8f63397423457/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ba384bd8f63397423457/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ba384bd8f63397423457/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ba384bd8f63397423457/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ba384bd8f63397423457/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/f99d3d7b763f101df1e3/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/f99d3d7b763f101df1e3/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/f99d3d7b763f101df1e3/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/f99d3d7b763f101df1e3/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/f99d3d7b763f101df1e3/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/f99d3d7b763f101df1e3/6.jpg"
         ]
       },
       "carousel": [
@@ -2645,7 +2645,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-19T11:35:00.000Z",
+          "publishAt": "2026-08-19T16:15:00.000Z",
           "format": "CAROUSEL",
           "caption": "Here’s the receipt: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…\n\nCollaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the...\n\nWhy it matters: Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Housing. Full context and source trail: https://mikeintech.github.io/atlsignal/file/e740e296a1c1767be57a\n\nWhich housing commitment should ATLSignal track through delivery?",
           "storyFrames": [
@@ -2677,11 +2677,11 @@
       }
     },
     {
-      "packageId": "173b7147a69aa172e76f",
+      "packageId": "66244dba5fe94f40c4fd",
       "storyId": "f6be2de676d428d3b21d",
       "idempotencyKey": "atlsignal:f6be2de676d428d3b21d:social-v2",
-      "scheduledFor": "2026-08-19T16:15:00.000Z",
-      "localSlot": "2026-08-19 12:15 ET",
+      "scheduledFor": "2026-08-19T22:35:00.000Z",
+      "localSlot": "2026-08-19 18:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -2721,20 +2721,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "From the File explainer about A Peek Inside New Azalea Fresh Market Location, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/173b7147a69aa172e76f/1",
-          "https://mikeintech.github.io/atlsignal/social-card/173b7147a69aa172e76f/2",
-          "https://mikeintech.github.io/atlsignal/social-card/173b7147a69aa172e76f/3",
-          "https://mikeintech.github.io/atlsignal/social-card/173b7147a69aa172e76f/4",
-          "https://mikeintech.github.io/atlsignal/social-card/173b7147a69aa172e76f/5",
-          "https://mikeintech.github.io/atlsignal/social-card/173b7147a69aa172e76f/6"
+          "https://mikeintech.github.io/atlsignal/social-card/66244dba5fe94f40c4fd/1",
+          "https://mikeintech.github.io/atlsignal/social-card/66244dba5fe94f40c4fd/2",
+          "https://mikeintech.github.io/atlsignal/social-card/66244dba5fe94f40c4fd/3",
+          "https://mikeintech.github.io/atlsignal/social-card/66244dba5fe94f40c4fd/4",
+          "https://mikeintech.github.io/atlsignal/social-card/66244dba5fe94f40c4fd/5",
+          "https://mikeintech.github.io/atlsignal/social-card/66244dba5fe94f40c4fd/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/173b7147a69aa172e76f/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/173b7147a69aa172e76f/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/173b7147a69aa172e76f/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/173b7147a69aa172e76f/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/173b7147a69aa172e76f/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/173b7147a69aa172e76f/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/66244dba5fe94f40c4fd/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/66244dba5fe94f40c4fd/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/66244dba5fe94f40c4fd/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/66244dba5fe94f40c4fd/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/66244dba5fe94f40c4fd/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/66244dba5fe94f40c4fd/6.jpg"
         ]
       },
       "carousel": [
@@ -2777,7 +2777,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-19T16:15:00.000Z",
+          "publishAt": "2026-08-19T22:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "From the file: A Peek Inside New Azalea Fresh Market Location\n\nThe Azalea Fresh Market is helping to pioneer a transformative municipal market model.\n\nWhy it matters: Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/f6be2de676d428d3b21d\n\nWhich Atlanta business move should be on our watchlist?",
           "storyFrames": [
