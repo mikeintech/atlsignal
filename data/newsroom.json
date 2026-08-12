@@ -1,6 +1,6 @@
 {
   "schemaVersion": "atlsignal_newsroom_v1",
-  "generatedAt": "2026-08-12T18:34:39.099Z",
+  "generatedAt": "2026-08-12T19:18:36.743Z",
   "market": "atlanta",
   "timezone": "America/New_York",
   "editionWindow": "AFTERNOON",
@@ -14,15 +14,15 @@
     "intendedCadence": "four_daily",
     "status": "HEALTHY",
     "criticalFailures": [],
-    "previousRunAt": "2026-08-12T16:26:42.936Z"
+    "previousRunAt": null
   },
   "stats": {
     "activeSources": 4,
     "discoverySources": 15,
-    "items": 74,
-    "clusters": 69,
+    "items": 70,
+    "clusters": 65,
     "publishable": 53,
-    "needsCorroboration": 16
+    "needsCorroboration": 12
   },
   "sourceHealth": [
     {
@@ -31,7 +31,7 @@
       "status": "OK",
       "itemCount": 25,
       "critical": true,
-      "durationMs": 284
+      "durationMs": 321
     },
     {
       "sourceId": "atlanta_beltline",
@@ -39,7 +39,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 33533
+      "durationMs": 32558
     },
     {
       "sourceId": "atlanta_regional_commission",
@@ -47,7 +47,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 42319
+      "durationMs": 30756
     },
     {
       "sourceId": "atlanta_housing",
@@ -55,7 +55,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": true,
-      "durationMs": 4383
+      "durationMs": 95
     },
     {
       "sourceId": "ajc",
@@ -64,16 +64,16 @@
       "itemCount": 3,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "atlanta_business_chronicle",
       "name": "Atlanta Business Chronicle",
       "status": "DISCOVERY_OK",
-      "itemCount": 7,
+      "itemCount": 5,
       "critical": false,
       "accessState": "SUBSCRIPTION_CONSTRAINED",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "urbanize_atlanta",
@@ -82,7 +82,7 @@
       "itemCount": 2,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "rough_draft_atlanta",
@@ -91,7 +91,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "axios_atlanta",
@@ -100,7 +100,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "eater_atlanta",
@@ -109,7 +109,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "saporta_report",
@@ -118,7 +118,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "what_now_atlanta",
@@ -127,7 +127,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "bisnow_atlanta",
@@ -136,7 +136,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "city_of_atlanta",
@@ -145,7 +145,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "marta",
@@ -154,7 +154,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "atl_airport",
@@ -163,7 +163,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "georgia_economic_development",
@@ -172,7 +172,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "metro_atlanta_chamber",
@@ -181,7 +181,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     },
     {
       "sourceId": "discover_atlanta",
@@ -190,7 +190,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 519
+      "durationMs": 102
     }
   ],
   "items": [
@@ -207,13 +207,13 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTks0dGEyeDdiTUZ2R1FUTWhoNzBub1NHR1BMYUN5dGw2RUZzRVNTY0RTQlg0MGVnc0RCYm83RmdSX0c0dFZVeWtIakZYVmtRWXVpS1hvOTRPZG1LWDd5MGdpZXAyOWxXUHRWMElvbVEzdmxhWkZOMXlVY2xWS2JIZVpOaFVvS3A1R1R4NDBVWXZlcC0yZ1Zzb2pZUDZIZ3l4ZFhCT19GSzBfX0hTcEZpSmpKa2dmWEZH?oc=5",
       "publisherUrl": "https://www.ajc.com",
-      "publishedAt": "2026-08-12T12:12:38.000Z",
-      "updatedAt": "2026-08-12T12:12:38.000Z",
+      "publishedAt": "2026-08-12T12:03:42.000Z",
+      "updatedAt": "2026-08-12T12:03:42.000Z",
       "imageUrl": null,
-      "contentHash": "4efc40a5b2fd66cc9b93",
+      "contentHash": "a95f69695883c7f5aadd",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "f34d64340815a3858ff0",
@@ -233,8 +233,8 @@
       "imageUrl": null,
       "contentHash": "b569ab92dcb5ac05ba46",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "4110555f2be43e645f5c",
@@ -254,8 +254,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/151a9756-16_Rz3klK8.png",
       "contentHash": "0fdd4f2478198b30d212",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "654d28aa0aed2b24c3d8",
@@ -275,8 +275,8 @@
       "imageUrl": null,
       "contentHash": "820ac9e62c2529d71abb",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "0156caa329cabd5ee87e",
@@ -296,8 +296,8 @@
       "imageUrl": null,
       "contentHash": "e99f547abb190c8198f8",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "5ca989d22865ad43e770",
@@ -317,8 +317,8 @@
       "imageUrl": null,
       "contentHash": "573c3dae20f3e9c06819",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "f76182f87e20479833ee",
@@ -338,8 +338,8 @@
       "imageUrl": null,
       "contentHash": "0f627b067e26a663510b",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "7a721452b1d2e68fefb2",
@@ -359,8 +359,8 @@
       "imageUrl": null,
       "contentHash": "f2238258c0a9e60c188a",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "d0bd1e2c7d214224c0b4",
@@ -380,8 +380,8 @@
       "imageUrl": null,
       "contentHash": "524a38829211844db6b1",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "d6e41290c330ea7f6318",
@@ -401,8 +401,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/mexico-city-scaled.jpg",
       "contentHash": "a1616d8fe124cf2d48d1",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "f5332964efdb536984ca",
@@ -422,8 +422,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/1726x1150/5a713efd68/westside-trail_2025-1726x1150.jpg/m/1200x630/filters:format(jpeg)",
       "contentHash": "37769ed41d958cef83de",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "9807276a0bd43435677a",
@@ -443,8 +443,8 @@
       "imageUrl": null,
       "contentHash": "4773e02b41b422219b02",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "8182f339451af7d52e3b",
@@ -464,8 +464,8 @@
       "imageUrl": null,
       "contentHash": "567849e9517d27928cf0",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "22fb4762a172f34b618f",
@@ -485,92 +485,8 @@
       "imageUrl": null,
       "contentHash": "7f72f5fc40e91bdec0b9",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
-    },
-    {
-      "id": "ed772565167260a953c0",
-      "sourceId": "atlanta_business_chronicle",
-      "sourceName": "Atlanta Business Chronicle",
-      "sourceTier": "B",
-      "sourceClass": "local_business_reporting",
-      "sourceCategory": "Atlanta News",
-      "acquisition": "google_news_rss_metadata",
-      "claimBoundary": "discovery_only_no_publisher_retrieval",
-      "title": "&pizza franchisees plan further expansion after opening of first Atlanta restaurant",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLVRkelJza25FTzlGOG85Q0pwOHd5MjVYb3RadWp5bmNhczBWUFVwckhSQ0FrV1JtS0RCNW5hbVVTdklENzhNVnZ6U1NVZ2paZW52U0c3WkxQeGdEcnlxUk9saDBmWVBGLUVhQ3BucjNGSTdpN0NmRXp3QmYwbEh3T21FLXB6a0pyaHNTVWVwVVN6R0g1OHQ5QUF1MzUwTDBpVENr?oc=5",
-      "publisherUrl": "https://www.bizjournals.com",
-      "publishedAt": "2026-08-10T19:14:00.000Z",
-      "updatedAt": "2026-08-10T19:14:00.000Z",
-      "imageUrl": null,
-      "contentHash": "1566eac27fa7dc5e2735",
-      "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
-    },
-    {
-      "id": "677fa04638fe422cb524",
-      "sourceId": "atlanta_business_chronicle",
-      "sourceName": "Atlanta Business Chronicle",
-      "sourceTier": "B",
-      "sourceClass": "local_business_reporting",
-      "sourceCategory": "Atlanta News",
-      "acquisition": "google_news_rss_metadata",
-      "claimBoundary": "discovery_only_no_publisher_retrieval",
-      "title": "JLB Partners proposes Buckhead office redevelopment",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVWZaSlM4Y2xCR1dwX1A5ZGxYU0JHXzhRUnJRalZlOXlOLWZzbnZrRUFhRzNURTNTTmFUZUFoTjJMQ2lVcWt5Mjd5ZXNidXlqRnB4aEdPX3hSWGl5RjlwWlNuSXNUMmNDMmdyWGlPZGoxTjhHNzQ2dUFTWHU3cTlxUmRwLW1KWEVLTlRkUVpaNEhGTWtJRTFLeXdoY3pCY1JqWTlnZEFOSWwtUDQ?oc=5",
-      "publisherUrl": "https://www.bizjournals.com",
-      "publishedAt": "2026-08-10T19:09:00.000Z",
-      "updatedAt": "2026-08-10T19:09:00.000Z",
-      "imageUrl": null,
-      "contentHash": "8db44551d872a88554d6",
-      "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
-    },
-    {
-      "id": "379d65b1b8442ede5a26",
-      "sourceId": "ajc",
-      "sourceName": "Atlanta Journal-Constitution",
-      "sourceTier": "B",
-      "sourceClass": "local_reporting",
-      "sourceCategory": "Atlanta News",
-      "acquisition": "google_news_rss_metadata",
-      "claimBoundary": "discovery_only_no_publisher_retrieval",
-      "title": "From runways to highways, her Atlanta construction firm has blazed paths",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVi1tTmlUWE1DVDJNLXhtbzhDRXRTLUVXMlg1VlNpaDNIaS0yN3lPbm1BNlpObnB6NVVEbUV6Zm42WnhLNFBCYXEzS3lNQklLWVdUa2xONEwzWl9zcjN5ZXE1MDAtT0I4TWZfZFR6a3VWRURlcTl2NDF1YTZtaVBsbGQ1R1k0ZG4tVWlTaGlqVmNKZlRXcnppVF9vTXhtbFZnNVpBUG5pS3ZuMjhJZXVj?oc=5",
-      "publisherUrl": "https://www.ajc.com",
-      "publishedAt": "2026-08-10T11:46:37.000Z",
-      "updatedAt": "2026-08-10T11:46:37.000Z",
-      "imageUrl": null,
-      "contentHash": "03f7017f160c2f08c47b",
-      "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:24:43.708Z"
-    },
-    {
-      "id": "18fcae04121b948ae0e5",
-      "sourceId": "ajc",
-      "sourceName": "Atlanta Journal-Constitution",
-      "sourceTier": "B",
-      "sourceClass": "local_reporting",
-      "sourceCategory": "Atlanta News",
-      "acquisition": "google_news_rss_metadata",
-      "claimBoundary": "discovery_only_no_publisher_retrieval",
-      "title": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVlNjcmsyZlhYWWNUc0hLZ0RNUkpzMHhkLU12YVB4RGttU1JPUFFCZlQxLU8yZzRBTmt5UEd3SVdDWnBfVU5pSHB4SDVmX3o4azFnOWtidTdaRjRyVng0bEJ6R3RqY01paW9DUmNGQmhLTG4zVmItdmJyUEp0S2VJOXp2N1E5b0NpNHhnS2xwSXVOUWU5TzZ5NXpsM1YxZDhWSUVUNVBR?oc=5",
-      "publisherUrl": "https://www.ajc.com",
-      "publishedAt": "2026-08-10T09:01:27.000Z",
-      "updatedAt": "2026-08-10T09:01:27.000Z",
-      "imageUrl": null,
-      "contentHash": "3855d73571df9c888968",
-      "retrievedContent": false,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-11T23:24:43.708Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "116f92cac110e953a6d9",
@@ -590,8 +506,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/fifa-26-logo-blue.webp",
       "contentHash": "d2476f4b803d29e627f5",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "6302a76fda702723bf3d",
@@ -611,8 +527,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/5472x3648/ae661ddcb7/bennett-st-photo-by-loknows-drones-6-26-2025_07.JPG/m/1200x630/filters:format(jpeg)",
       "contentHash": "d63698e97eb327ba7899",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "7f724a4bc74ffd08cf8f",
@@ -632,8 +548,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/1920x1080/efd619c728/piedmont-mobile-unit.jpg/m/1200x630/filters:format(jpeg)",
       "contentHash": "7938e58176113e223144",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "f3667c376a276743f471",
@@ -653,8 +569,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/5152x3435/5df35485df/garson-drive-presser.JPG/m/1200x630/filters:format(jpeg)",
       "contentHash": "40367f4f92e7f7d4dd12",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "c83e8c7f3cd2a9ee4b85",
@@ -674,8 +590,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/5472x3648/ae661ddcb7/bennett-st-photo-by-loknows-drones-6-26-2025_07.JPG/m/1200x630/filters:format(jpeg)",
       "contentHash": "486f1a0293fad8e728f4",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "ecc2fa4ebd27b7d56cf3",
@@ -695,8 +611,8 @@
       "imageUrl": null,
       "contentHash": "7581307e5ff277d9816a",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "cdc076c25899466440a9",
@@ -716,8 +632,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/260520_otcrtv_thectratl_0085_D3ZBp8W.jpg",
       "contentHash": "127f2011ac5db530a327",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "66ac653a0aebee200399",
@@ -737,8 +653,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/5933x3955/20b8cefe5f/business-district_photo-by-erin-sintos_2025-08-29-13.jpg/m/1200x630/filters:format(jpeg)",
       "contentHash": "f4b060cbd844a5b9d01c",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "8b36b68a8314f667de0f",
@@ -758,8 +674,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/151a9424_VR7z7Zm.jpg",
       "contentHash": "c0ebabe25748e54339d4",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "199c578a330596813fd1",
@@ -779,8 +695,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/ccd-picture-scaled.jpg",
       "contentHash": "52c68119c9e8e318a06b",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "8b8dce22ee6f64a71130",
@@ -800,8 +716,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/1280x854/c41e2764e8/6-2026-nwt-4-a.png/m/1200x630/filters:format(jpeg)",
       "contentHash": "e5c254b61f6c0e5cc7e4",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "d482b816c951307ba84f",
@@ -821,8 +737,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/5640x3760/0e21629a5b/2024_11_13-tanisha-corporal_the-sintoses_2024_11_13-tanisha-corporal_abp15836.jpg/m/1200x630/filters:format(jpeg)",
       "contentHash": "685b5fc66b55fa8e87ad",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "4ba5f7d0740775a9f678",
@@ -842,8 +758,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/rli-logo-press-header-2.png",
       "contentHash": "c5fffcc4ef234cf6e268",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "503cc4766e33a35a3568",
@@ -863,8 +779,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/5464x3640/7842802c1b/1091-tucker-ave-unit-305_morrow-hi-res-28.jpg/m/1200x630/filters:format(jpeg)",
       "contentHash": "80522f8eca587fc74347",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "afecf06030c6eaad3e80",
@@ -884,8 +800,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/1920x1279/8eb6c5d415/1091-tucker-ave-unit-305_morrow-hi-res-28.webp/m/1200x630/filters:format(jpeg)",
       "contentHash": "550ecc269a8e19d5dfef",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "433925f78eeb46ccd330",
@@ -905,8 +821,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/cityline_zy5MkbX.jpeg",
       "contentHash": "9c56aeecb0b7210008b1",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "5672137da20b1129ac75",
@@ -926,8 +842,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/avondale-lci-5.png",
       "contentHash": "aa22aa20deec30bf6136",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "54fb4329f1367f3dc5f5",
@@ -947,8 +863,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/3701x5551/d6d627f25b/atlanta-beltline-marketplace_pittsburgh-yards_photo-by-erin-sintos_2026-04-04-34.jpg/m/1200x630/filters:format(jpeg)",
       "contentHash": "89a68b3865dcfc7b6132",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "54b3b5398944a3eac4c4",
@@ -968,8 +884,8 @@
       "imageUrl": "https://a2-us.storyblok.com/f/1020195/5231x3487/696bcf4c6d/net_photo-by-erin-sintos_2026-04-03-25.jpg/m/1200x630/filters:format(jpeg)",
       "contentHash": "01afd76a032b029c9306",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "dea1d6e330f0bdfac53a",
@@ -989,8 +905,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/ceds-pd1.jpg",
       "contentHash": "0b22d42af62c560132fc",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "b294645a06cc344d85d5",
@@ -1010,29 +926,8 @@
       "imageUrl": null,
       "contentHash": "9b5e864afaf5ac6f8c1b",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
-    },
-    {
-      "id": "fafbf71d20fa86245788",
-      "sourceId": "invest_atlanta",
-      "sourceName": "Invest Atlanta",
-      "sourceTier": "A",
-      "sourceClass": "first_party",
-      "sourceCategory": "Business & Economy",
-      "acquisition": "invest_atlanta_json",
-      "claimBoundary": "publisher_attribution_only",
-      "title": "C-PACE Financing Boosts Energy Efficiencies",
-      "summary": "Invest Atlanta is helping to power Atlanta's clean energy future one building at a time.",
-      "url": "https://www.investatlanta.com/impact-insights/c-pace-financing-boosts-energy-efficiencies",
-      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
-      "publishedAt": "2026-06-24T00:00:00.000Z",
-      "updatedAt": "2026-07-08T18:48:44.332Z",
-      "imageUrl": "https://www.investatlanta.com/uploads/resources/pullman1_lP3RqWg.jpg",
-      "contentHash": "7a7f6d02dc8f179b0fd4",
-      "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "afc54ba0d1d2698486c6",
@@ -1052,8 +947,29 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/sam_9542r_y6a3q9X.jpg",
       "contentHash": "7e6963e4a0ff4a3b631d",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
+    },
+    {
+      "id": "fafbf71d20fa86245788",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "C-PACE Financing Boosts Energy Efficiencies",
+      "summary": "Invest Atlanta is helping to power Atlanta's clean energy future one building at a time.",
+      "url": "https://www.investatlanta.com/impact-insights/c-pace-financing-boosts-energy-efficiencies",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "updatedAt": "2026-07-08T18:48:44.332Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/pullman1_lP3RqWg.jpg",
+      "contentHash": "7a7f6d02dc8f179b0fd4",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "ba9265c20fd878504008",
@@ -1073,8 +989,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/in-foucs-1.jpg",
       "contentHash": "fc90a84fc0bb3bee8a53",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "0a047533a306d0179911",
@@ -1094,8 +1010,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/atlanta_econ_mobility_insights_7JNJbmL.png",
       "contentHash": "5c42d69cc129bed4c7d1",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "a18f4dfab1fb389dd98c",
@@ -1115,8 +1031,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/blackrock_image_PgnYLYN.png",
       "contentHash": "d81a04af4ba15b3b04d9",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "102c6e5539d6d3edde4d",
@@ -1136,8 +1052,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/water-levels.png",
       "contentHash": "7d67423adf6696ad6c42",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "f56d3d266f38e4244bf3",
@@ -1157,8 +1073,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/sam_1752_g3p39BQ.jpg",
       "contentHash": "2a2f3210b7cc736ea4a0",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "8863330ec2fa19eb71ae",
@@ -1178,8 +1094,8 @@
       "imageUrl": null,
       "contentHash": "db93bdc4bc5aaf0ccd5c",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "d8cacce85da99dbd3e7e",
@@ -1199,8 +1115,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/_05a3414_j3V3LrW.jpg",
       "contentHash": "0ff645ebd61eeb829b1a",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "06f938b3d9b0a2643fdb",
@@ -1220,8 +1136,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/sanct_Ozyz6lN.jpeg",
       "contentHash": "c2909df68dab0c151f94",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "618def64fc3ead0be378",
@@ -1241,8 +1157,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/atl-traffic.jpg",
       "contentHash": "179b4c601182b36217a0",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "c66c79f644cce1c26d5f",
@@ -1262,8 +1178,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/duluth-lci-25-festival-center-scaled.jpg",
       "contentHash": "bf170aa030dee6a2ffcd",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "a41129acc6aae239795a",
@@ -1283,8 +1199,8 @@
       "imageUrl": "https://atlantaregional.org/wp-content/uploads/cdap-color-logo.png",
       "contentHash": "652e6e77985f91129aac",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "c1d8aec281a235c3731d",
@@ -1304,8 +1220,8 @@
       "imageUrl": null,
       "contentHash": "8a9644db2e4e2317e078",
       "retrievedContent": false,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "a5c3297725989a8fc81a",
@@ -1325,8 +1241,8 @@
       "imageUrl": null,
       "contentHash": "3b82269349260f505519",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "d94d5d3088c062d79bbd",
@@ -1346,29 +1262,8 @@
       "imageUrl": null,
       "contentHash": "bd26c6e3704df92fa15b",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
-    },
-    {
-      "id": "c14c6ce425707816ee27",
-      "sourceId": "invest_atlanta",
-      "sourceName": "Invest Atlanta",
-      "sourceTier": "A",
-      "sourceClass": "first_party",
-      "sourceCategory": "Business & Economy",
-      "acquisition": "invest_atlanta_json",
-      "claimBoundary": "publisher_attribution_only",
-      "title": "Invest Atlanta Collaborates with Atlanta Habitat for Humanity",
-      "summary": "Through a $500,000 investment, Invest Atlanta is supporting Atlanta Habitat for Humanity on two housing initiatives &ndash; one to deepen affordability with down-payment assistance and another to supplement an owner-occupied rehab program to help homeowners make needed house repairs.",
-      "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-collaborates-with-atlanta-habitat-for-humanity",
-      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
-      "publishedAt": "2026-04-29T00:00:00.000Z",
-      "updatedAt": "2026-05-13T14:20:16.760Z",
-      "imageUrl": "https://www.investatlanta.com/uploads/resources/habitat_XzRMvQv.png",
-      "contentHash": "753c2b2d7a2cf60cff0c",
-      "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "9119378c0267426bba86",
@@ -1388,8 +1283,29 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/mag3_RzxypMP.jpeg",
       "contentHash": "e6ec8fd751d416a829e5",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
+    },
+    {
+      "id": "c14c6ce425707816ee27",
+      "sourceId": "invest_atlanta",
+      "sourceName": "Invest Atlanta",
+      "sourceTier": "A",
+      "sourceClass": "first_party",
+      "sourceCategory": "Business & Economy",
+      "acquisition": "invest_atlanta_json",
+      "claimBoundary": "publisher_attribution_only",
+      "title": "Invest Atlanta Collaborates with Atlanta Habitat for Humanity",
+      "summary": "Through a $500,000 investment, Invest Atlanta is supporting Atlanta Habitat for Humanity on two housing initiatives &ndash; one to deepen affordability with down-payment assistance and another to supplement an owner-occupied rehab program to help homeowners make needed house repairs.",
+      "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-collaborates-with-atlanta-habitat-for-humanity",
+      "publisherUrl": "https://www.investatlanta.com/impact-insights/",
+      "publishedAt": "2026-04-29T00:00:00.000Z",
+      "updatedAt": "2026-05-13T14:20:16.760Z",
+      "imageUrl": "https://www.investatlanta.com/uploads/resources/habitat_XzRMvQv.png",
+      "contentHash": "753c2b2d7a2cf60cff0c",
+      "retrievedContent": true,
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "d8d456147cf65ce90154",
@@ -1409,8 +1325,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/under2_j3ekM2W.jpeg",
       "contentHash": "6f90d94dcda960118cf9",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "80884347dc223843f1b2",
@@ -1430,8 +1346,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/151a8594_D3OEww1.jpg",
       "contentHash": "4606c7f2c7688b1268fc",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "b1a8f32ddcfd05d9f6d6",
@@ -1451,8 +1367,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/151a8571-1r_8EoPZpa.jpg",
       "contentHash": "7f4f106c59a11897992c",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "e22cde1049658713eed6",
@@ -1472,8 +1388,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/151a8556_r9el89Z.jpg",
       "contentHash": "23e01cc6552b83bc5789",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "6a68d77f51d8b4bfa450",
@@ -1493,8 +1409,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/sam_1255_1X7gxQK.jpg",
       "contentHash": "b459ae159a0531d3250f",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "eb5e18b57c469a7586cd",
@@ -1514,8 +1430,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/businesses_nowaccount_mantle_940x360_BxvkrzO.jpg",
       "contentHash": "d8c10af54b4fd95250e4",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "5dab9d0fca8ea2a1f535",
@@ -1535,8 +1451,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/istock-516599252_npZWpm4.jpg",
       "contentHash": "53a47b4014311fc1d06f",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "34140fe236621430b968",
@@ -1556,8 +1472,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/senior_with_coffee_YWNY6lz.jpg",
       "contentHash": "7d42325d4ff1a6d25c75",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "191fee8617d675cc3b80",
@@ -1577,8 +1493,8 @@
       "imageUrl": null,
       "contentHash": "991d52453e6272739059",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "a2758a6b9514f8862168",
@@ -1598,8 +1514,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/bts6_k3BNZQJ.jpg",
       "contentHash": "3be7d8caff2b9eb4d7df",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "3511aca05e35cf11e607",
@@ -1619,8 +1535,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/ada_-_towns_hamilton_homes_preservation_-_wtad_fact_sheet_v_y6Px4JD.jpeg",
       "contentHash": "48cf11ed1dde9a89a1b5",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "ba5e7a55294f5ac5e26c",
@@ -1640,8 +1556,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/151a8456_zyBLeQZ.jpg",
       "contentHash": "f1da7638b983f468fc0b",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "291b2447387a073c77bc",
@@ -1661,8 +1577,8 @@
       "imageUrl": "https://www.investatlanta.com/uploads/resources/muses_nMvKNDq.jpeg",
       "contentHash": "ca0421a798e023660dc5",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "372bf20b8b4981c711c7",
@@ -1682,8 +1598,8 @@
       "imageUrl": null,
       "contentHash": "ab23264f95ebaf89cfb7",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "79b334add01cabbde7f8",
@@ -1703,8 +1619,8 @@
       "imageUrl": null,
       "contentHash": "6027474ea029061e7ead",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "0a2f2a999cf1e8228b45",
@@ -1724,8 +1640,8 @@
       "imageUrl": null,
       "contentHash": "c0d95ea7a9e426589091",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     },
     {
       "id": "8790771864c541644970",
@@ -1745,8 +1661,8 @@
       "imageUrl": null,
       "contentHash": "d8ed836f5f082db0f9f6",
       "retrievedContent": true,
-      "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T18:34:39.099Z"
+      "firstSeenAt": "2026-08-12T19:18:36.743Z",
+      "lastSeenAt": "2026-08-12T19:18:36.743Z"
     }
   ],
   "clusters": [
@@ -1797,9 +1713,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 67.05,
+        "total": 75.6,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 92,
         "shareability": 50,
         "commercial": 38,
@@ -1845,9 +1761,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 66.92,
+        "total": 75.47,
         "impact": 100,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 66,
         "commercial": 47,
@@ -1893,9 +1809,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 66.29,
+        "total": 74.84,
         "impact": 100,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 66,
         "commercial": 38,
@@ -1941,9 +1857,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 65.88,
+        "total": 74.43,
         "impact": 100,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 58,
         "commercial": 47,
@@ -1989,9 +1905,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 63.21,
+        "total": 71.76,
         "impact": 96,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -2037,9 +1953,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 62.72,
+        "total": 71.27,
         "impact": 80,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 90,
         "commercial": 38,
@@ -2085,9 +2001,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 62.25,
+        "total": 70.8,
         "impact": 88,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 58,
         "commercial": 38,
@@ -2133,9 +2049,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 62.25,
+        "total": 70.8,
         "impact": 88,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 58,
         "commercial": 38,
@@ -2181,10 +2097,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 62.22,
+        "total": 70.6,
         "impact": 64,
-        "novelty": 35,
-        "timeliness": 88,
+        "novelty": 92,
+        "timeliness": 87,
         "shareability": 42,
         "commercial": 38,
         "evidence": 84,
@@ -2229,14 +2145,110 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 61.6,
+        "total": 70.15,
         "impact": 88,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 66,
         "commercial": 38,
         "evidence": 84,
         "locality": 87
+      }
+    },
+    {
+      "id": "53b94ac1b207fec22ef1",
+      "itemIds": [
+        "79b334add01cabbde7f8"
+      ],
+      "headline": "Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer",
+      "summary": "Veteran finance leader to oversee enterprise-wide financial strategy and operations ATLANTA – Atlanta Housing today announced the appointment of Abdel Altamimi as Chief Financial... The post Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer appeared first on Atlanta Housing .",
+      "category": "Housing & Neighborhoods",
+      "eventType": "FINANCING",
+      "publishedAt": "2026-01-26T21:53:54.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_housing",
+          "name": "Atlanta Housing",
+          "tier": "A",
+          "url": "https://www.atlantahousing.org/atlanta-housing-appoints-abdel-altamimi-as-chief-financial-officer/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer",
+        "dek": "Veteran finance leader to oversee enterprise-wide financial strategy and operations ATLANTA – Atlanta Housing today announced the appointment of Abdel Altamimi as Chief Financial... The post Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer appeared first on Atlanta Housing .",
+        "whatChanged": "Atlanta Housing published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 69.76,
+        "impact": 88,
+        "novelty": 92,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 100
+      }
+    },
+    {
+      "id": "ab25863645d5cddd27f0",
+      "itemIds": [
+        "0a2f2a999cf1e8228b45"
+      ],
+      "headline": "Atlanta Housing Announces Strengthened Governance, Ethics, and Oversight Measures",
+      "summary": "Enhanced Oversight to Increase Transparency and Accountability ATLANTA – Atlanta Housing today announced a series of strengthened governance, ethics, and oversight measures aimed at reinforcing accountability, transparency, and the responsible... The post Atlanta Housing Announces Strengthened Governance, Ethics, and Oversight Measures appeared first on Atlanta Housing .",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-01-16T16:15:44.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_housing",
+          "name": "Atlanta Housing",
+          "tier": "A",
+          "url": "https://www.atlantahousing.org/atlanta-housing-announces-strengthened-governance-ethics-and-oversight-measures/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Housing Announces Strengthened Governance, Ethics, and Oversight Measures",
+        "dek": "Enhanced Oversight to Increase Transparency and Accountability ATLANTA – Atlanta Housing today announced a series of strengthened governance, ethics, and oversight measures aimed at reinforcing accountability, transparency, and the responsible... The post Atlanta Housing Announces Strengthened Governance, Ethics, and Oversight Measures appeared first on Atlanta Housing .",
+        "whatChanged": "Atlanta Housing published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 69.76,
+        "impact": 88,
+        "novelty": 92,
+        "timeliness": 20,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 100
       }
     },
     {
@@ -2295,109 +2307,13 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 61.33,
+        "total": 69.71,
         "impact": 64,
-        "novelty": 35,
-        "timeliness": 49,
+        "novelty": 92,
+        "timeliness": 48,
         "shareability": 42,
         "commercial": 47,
         "evidence": 100,
-        "locality": 100
-      }
-    },
-    {
-      "id": "53b94ac1b207fec22ef1",
-      "itemIds": [
-        "79b334add01cabbde7f8"
-      ],
-      "headline": "Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer",
-      "summary": "Veteran finance leader to oversee enterprise-wide financial strategy and operations ATLANTA – Atlanta Housing today announced the appointment of Abdel Altamimi as Chief Financial... The post Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer appeared first on Atlanta Housing .",
-      "category": "Housing & Neighborhoods",
-      "eventType": "FINANCING",
-      "publishedAt": "2026-01-26T21:53:54.000Z",
-      "sourceTier": "A",
-      "sources": [
-        {
-          "sourceId": "atlanta_housing",
-          "name": "Atlanta Housing",
-          "tier": "A",
-          "url": "https://www.atlantahousing.org/atlanta-housing-appoints-abdel-altamimi-as-chief-financial-officer/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        }
-      ],
-      "corroboration": {
-        "status": "ATTRIBUTED_PRIMARY",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 1,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Primary-source report",
-      "publishable": true,
-      "draft": {
-        "headline": "Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer",
-        "dek": "Veteran finance leader to oversee enterprise-wide financial strategy and operations ATLANTA – Atlanta Housing today announced the appointment of Abdel Altamimi as Chief Financial... The post Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer appeared first on Atlanta Housing .",
-        "whatChanged": "Atlanta Housing published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 61.21,
-        "impact": 88,
-        "novelty": 35,
-        "timeliness": 20,
-        "shareability": 50,
-        "commercial": 38,
-        "evidence": 84,
-        "locality": 100
-      }
-    },
-    {
-      "id": "ab25863645d5cddd27f0",
-      "itemIds": [
-        "0a2f2a999cf1e8228b45"
-      ],
-      "headline": "Atlanta Housing Announces Strengthened Governance, Ethics, and Oversight Measures",
-      "summary": "Enhanced Oversight to Increase Transparency and Accountability ATLANTA – Atlanta Housing today announced a series of strengthened governance, ethics, and oversight measures aimed at reinforcing accountability, transparency, and the responsible... The post Atlanta Housing Announces Strengthened Governance, Ethics, and Oversight Measures appeared first on Atlanta Housing .",
-      "category": "Housing & Neighborhoods",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-01-16T16:15:44.000Z",
-      "sourceTier": "A",
-      "sources": [
-        {
-          "sourceId": "atlanta_housing",
-          "name": "Atlanta Housing",
-          "tier": "A",
-          "url": "https://www.atlantahousing.org/atlanta-housing-announces-strengthened-governance-ethics-and-oversight-measures/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        }
-      ],
-      "corroboration": {
-        "status": "ATTRIBUTED_PRIMARY",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 1,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Primary-source report",
-      "publishable": true,
-      "draft": {
-        "headline": "Atlanta Housing Announces Strengthened Governance, Ethics, and Oversight Measures",
-        "dek": "Enhanced Oversight to Increase Transparency and Accountability ATLANTA – Atlanta Housing today announced a series of strengthened governance, ethics, and oversight measures aimed at reinforcing accountability, transparency, and the responsible... The post Atlanta Housing Announces Strengthened Governance, Ethics, and Oversight Measures appeared first on Atlanta Housing .",
-        "whatChanged": "Atlanta Housing published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 61.21,
-        "impact": 88,
-        "novelty": 35,
-        "timeliness": 20,
-        "shareability": 50,
-        "commercial": 38,
-        "evidence": 84,
         "locality": 100
       }
     },
@@ -2439,9 +2355,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 60.14,
+        "total": 68.69,
         "impact": 72,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 58,
         "commercial": 65,
@@ -2487,9 +2403,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 58.74,
+        "total": 67.29,
         "impact": 88,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 58,
         "commercial": 38,
@@ -2535,9 +2451,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 58.57,
+        "total": 67.12,
         "impact": 72,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 22,
         "shareability": 66,
         "commercial": 47,
@@ -2583,9 +2499,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 58.47,
+        "total": 67.02,
         "impact": 72,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 56,
@@ -2631,9 +2547,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 58.25,
+        "total": 66.8,
         "impact": 72,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 58,
         "commercial": 38,
@@ -2679,9 +2595,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 57.84,
+        "total": 66.39,
         "impact": 72,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 47,
@@ -2727,9 +2643,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 57.84,
+        "total": 66.39,
         "impact": 72,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 47,
@@ -2775,9 +2691,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 57.74,
+        "total": 66.29,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 90,
         "shareability": 58,
         "commercial": 38,
@@ -2832,9 +2748,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 57.21,
+        "total": 65.76,
         "impact": 72,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -2880,9 +2796,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 56.51,
+        "total": 65.06,
         "impact": 88,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 47,
@@ -2899,7 +2815,7 @@
       "summary": "",
       "category": "Business Moves",
       "eventType": "OPENING",
-      "publishedAt": "2026-08-12T12:12:38.000Z",
+      "publishedAt": "2026-08-12T12:03:42.000Z",
       "sourceTier": "B",
       "sources": [
         {
@@ -2928,9 +2844,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 55.89,
+        "total": 64.44,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 97,
         "shareability": 50,
         "commercial": 38,
@@ -2976,9 +2892,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 53.66,
+        "total": 62.21,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 90,
         "shareability": 42,
         "commercial": 38,
@@ -3024,9 +2940,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 53.59,
+        "total": 62.14,
         "impact": 64,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 65,
@@ -3072,14 +2988,62 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 53.21,
+        "total": 61.76,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
         "evidence": 84,
         "locality": 100
+      }
+    },
+    {
+      "id": "47b9aed0333e1aef9145",
+      "itemIds": [
+        "c83e8c7f3cd2a9ee4b85"
+      ],
+      "headline": "Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail",
+      "summary": "This work will prepare the site for future trail construction, infrastructure improvements, and long-term redevelopment.",
+      "category": "Transportation & Airport",
+      "eventType": "CONSTRUCTION",
+      "publishedAt": "2026-08-05T19:06:13.511Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_beltline",
+          "name": "Atlanta BeltLine",
+          "tier": "A",
+          "url": "https://beltline.org/blog/atlanta-beltline-to-begin-bennett-street-demolition-advancing-future-northwest-trail/",
+          "acquisition": "sitemap",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail",
+        "dek": "This work will prepare the site for future trail construction, infrastructure improvements, and long-term redevelopment.",
+        "whatChanged": "Atlanta BeltLine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Changes to Atlanta's transportation network affect daily access, development patterns and the regional economy.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 61.54,
+        "impact": 64,
+        "novelty": 92,
+        "timeliness": 30,
+        "shareability": 42,
+        "commercial": 47,
+        "evidence": 84,
+        "locality": 73
       }
     },
     {
@@ -3120,10 +3084,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 53.1,
+        "total": 61.48,
         "impact": 56,
-        "novelty": 35,
-        "timeliness": 89,
+        "novelty": 92,
+        "timeliness": 88,
         "shareability": 58,
         "commercial": 47,
         "evidence": 84,
@@ -3168,62 +3132,14 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 53.05,
+        "total": 61.43,
         "impact": 48,
-        "novelty": 35,
-        "timeliness": 91,
+        "novelty": 92,
+        "timeliness": 90,
         "shareability": 50,
         "commercial": 38,
         "evidence": 35,
         "locality": 59
-      }
-    },
-    {
-      "id": "47b9aed0333e1aef9145",
-      "itemIds": [
-        "c83e8c7f3cd2a9ee4b85"
-      ],
-      "headline": "Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail",
-      "summary": "This work will prepare the site for future trail construction, infrastructure improvements, and long-term redevelopment.",
-      "category": "Transportation & Airport",
-      "eventType": "CONSTRUCTION",
-      "publishedAt": "2026-08-05T19:06:13.511Z",
-      "sourceTier": "A",
-      "sources": [
-        {
-          "sourceId": "atlanta_beltline",
-          "name": "Atlanta BeltLine",
-          "tier": "A",
-          "url": "https://beltline.org/blog/atlanta-beltline-to-begin-bennett-street-demolition-advancing-future-northwest-trail/",
-          "acquisition": "sitemap",
-          "retrievedContent": true
-        }
-      ],
-      "corroboration": {
-        "status": "ATTRIBUTED_PRIMARY",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 1,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Primary-source report",
-      "publishable": true,
-      "draft": {
-        "headline": "Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail",
-        "dek": "This work will prepare the site for future trail construction, infrastructure improvements, and long-term redevelopment.",
-        "whatChanged": "Atlanta BeltLine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Changes to Atlanta's transportation network affect daily access, development patterns and the regional economy.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 52.99,
-        "impact": 64,
-        "novelty": 35,
-        "timeliness": 30,
-        "shareability": 42,
-        "commercial": 47,
-        "evidence": 84,
-        "locality": 73
       }
     },
     {
@@ -3264,9 +3180,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 52.74,
+        "total": 61.29,
         "impact": 64,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 58,
         "commercial": 38,
@@ -3312,9 +3228,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 52.59,
+        "total": 61.14,
         "impact": 64,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 66,
         "commercial": 47,
@@ -3360,62 +3276,14 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 52.33,
+        "total": 60.88,
         "impact": 64,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 47,
         "evidence": 84,
         "locality": 73
-      }
-    },
-    {
-      "id": "eb14315ff8277e07c454",
-      "itemIds": [
-        "379d65b1b8442ede5a26"
-      ],
-      "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
-      "summary": "",
-      "category": "Development & Infrastructure",
-      "eventType": "CONSTRUCTION",
-      "publishedAt": "2026-08-10T11:46:37.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "ajc",
-          "name": "Atlanta Journal-Constitution",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVi1tTmlUWE1DVDJNLXhtbzhDRXRTLUVXMlg1VlNpaDNIaS0yN3lPbm1BNlpObnB6NVVEbUV6Zm42WnhLNFBCYXEzS3lNQklLWVdUa2xONEwzWl9zcjN5ZXE1MDAtT0I4TWZfZFR6a3VWRURlcTl2NDF1YTZtaVBsbGQ1R1k0ZG4tVWlTaGlqVmNKZlRXcnppVF9vTXhtbFZnNVpBUG5pS3ZuMjhJZXVj?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
-        "dek": "",
-        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Major projects change the built environment, nearby business conditions and the timing of future activity.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 52.26,
-        "impact": 56,
-        "novelty": 35,
-        "timeliness": 77,
-        "shareability": 42,
-        "commercial": 47,
-        "evidence": 35,
-        "locality": 59
       }
     },
     {
@@ -3456,9 +3324,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 52.17,
+        "total": 60.72,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 38,
@@ -3504,9 +3372,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.86,
+        "total": 60.41,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 91,
         "shareability": 50,
         "commercial": 47,
@@ -3552,60 +3420,12 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.84,
+        "total": 60.39,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 90,
         "shareability": 42,
         "commercial": 38,
-        "evidence": 35,
-        "locality": 59
-      }
-    },
-    {
-      "id": "ef93e2777b1f53c3f87a",
-      "itemIds": [
-        "ed772565167260a953c0"
-      ],
-      "headline": "&pizza franchisees plan further expansion after opening of first Atlanta restaurant",
-      "summary": "",
-      "category": "Food, Retail & Hospitality",
-      "eventType": "OPENING",
-      "publishedAt": "2026-08-10T19:14:00.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "atlanta_business_chronicle",
-          "name": "Atlanta Business Chronicle",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLVRkelJza25FTzlGOG85Q0pwOHd5MjVYb3RadWp5bmNhczBWUFVwckhSQ0FrV1JtS0RCNW5hbVVTdklENzhNVnZ6U1NVZ2paZW52U0c3WkxQeGdEcnlxUk9saDBmWVBGLUVhQ3BucjNGSTdpN0NmRXp3QmYwbEh3T21FLXB6a0pyaHNTVWVwVVN6R0g1OHQ5QUF1MzUwTDBpVENr?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "&pizza franchisees plan further expansion after opening of first Atlanta restaurant",
-        "dek": "",
-        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 51.81,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 80,
-        "shareability": 50,
-        "commercial": 47,
         "evidence": 35,
         "locality": 59
       }
@@ -3648,61 +3468,13 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.6,
+        "total": 60.15,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 48,
         "shareability": 42,
         "commercial": 38,
         "evidence": 84,
-        "locality": 59
-      }
-    },
-    {
-      "id": "41e47ec893cd12299bcc",
-      "itemIds": [
-        "9807276a0bd43435677a"
-      ],
-      "headline": "Five Atlanta healthcare companies using AI to cut costs, improve care",
-      "summary": "",
-      "category": "Atlanta News",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-11T10:30:00.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "atlanta_business_chronicle",
-          "name": "Atlanta Business Chronicle",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMnZad1ZPdDlQcXc2UHRCNXQ5YmNobm01QzlnLV9zS2d3UVNkZW9LOVVLS21LRUF2SlpKYTZRTTI1QlZHX09IUzhXMnVhMXQ3dU90UmtySHFtWVhnZkJEZG5fejlKNUQ4Um5TV1dRNzBIZnEtVzJGaW1NRHNpaWZJb2Q3QTBiUzA3UThrY0wyVUdSU25SUDZhYWs5RTUzWG1H?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Five Atlanta healthcare companies using AI to cut costs, improve care",
-        "dek": "",
-        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 51.33,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 87,
-        "shareability": 42,
-        "commercial": 38,
-        "evidence": 35,
         "locality": 59
       }
     },
@@ -3744,9 +3516,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.29,
+        "total": 59.84,
         "impact": 64,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 47,
@@ -3792,14 +3564,62 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.29,
+        "total": 59.84,
         "impact": 64,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 47,
         "evidence": 84,
         "locality": 73
+      }
+    },
+    {
+      "id": "41e47ec893cd12299bcc",
+      "itemIds": [
+        "9807276a0bd43435677a"
+      ],
+      "headline": "Five Atlanta healthcare companies using AI to cut costs, improve care",
+      "summary": "",
+      "category": "Atlanta News",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-11T10:30:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_business_chronicle",
+          "name": "Atlanta Business Chronicle",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMnZad1ZPdDlQcXc2UHRCNXQ5YmNobm01QzlnLV9zS2d3UVNkZW9LOVVLS21LRUF2SlpKYTZRTTI1QlZHX09IUzhXMnVhMXQ3dU90UmtySHFtWVhnZkJEZG5fejlKNUQ4Um5TV1dRNzBIZnEtVzJGaW1NRHNpaWZJb2Q3QTBiUzA3UThrY0wyVUdSU25SUDZhYWs5RTUzWG1H?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Five Atlanta healthcare companies using AI to cut costs, improve care",
+        "dek": "",
+        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 59.71,
+        "impact": 48,
+        "novelty": 92,
+        "timeliness": 86,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 59
       }
     },
     {
@@ -3840,9 +3660,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.14,
+        "total": 59.69,
         "impact": 64,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 56,
@@ -3888,110 +3708,14 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 50.55,
+        "total": 59.1,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 65,
         "evidence": 84,
         "locality": 73
-      }
-    },
-    {
-      "id": "22fbf38641d857070bd8",
-      "itemIds": [
-        "f34d64340815a3858ff0"
-      ],
-      "headline": "Stockbridge council changes date of hearing into mayor’s P-card usage",
-      "summary": "",
-      "category": "City Hall & Policy",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-12T00:46:57.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "ajc",
-          "name": "Atlanta Journal-Constitution",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRlU0OUdkSmJiWkpYdUtIMnFiemFtcklabEJtMWZ5UFRld2ZNVW5XUnhzQ2ZvblRjQ1h0UkY3VVdMR3FQei0wb003S1hlcmRyOWhKYXlTNlRBLXFudERaS09lSWpzZ1MydWl6dHFsN2t6Q0hMQXNrbG1tUDhwTmxTU1R6dVE0Tk5GVXdmZm1QZl9lc283b0J4c3Zn?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Stockbridge council changes date of hearing into mayor’s P-card usage",
-        "dek": "",
-        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Public decisions can change costs, access, development rights and services across the city.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 50.53,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 93,
-        "shareability": 42,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 45
-      }
-    },
-    {
-      "id": "7243e62da85c6d720257",
-      "itemIds": [
-        "18fcae04121b948ae0e5"
-      ],
-      "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
-      "summary": "",
-      "category": "Atlanta News",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-10T09:01:27.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "ajc",
-          "name": "Atlanta Journal-Constitution",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVlNjcmsyZlhYWWNUc0hLZ0RNUkpzMHhkLU12YVB4RGttU1JPUFFCZlQxLU8yZzRBTmt5UEd3SVdDWnBfVU5pSHB4SDVmX3o4azFnOWtidTdaRjRyVng0bEJ6R3RqY01paW9DUmNGQmhLTG4zVmItdmJyUEp0S2VJOXp2N1E5b0NpNHhnS2xwSXVOUWU5TzZ5NXpsM1YxZDhWSUVUNVBR?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
-        "dek": "",
-        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 50.5,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 76,
-        "shareability": 50,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 59
       }
     },
     {
@@ -4032,14 +3756,62 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 50.48,
+        "total": 59.03,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 38,
         "evidence": 84,
         "locality": 87
+      }
+    },
+    {
+      "id": "22fbf38641d857070bd8",
+      "itemIds": [
+        "f34d64340815a3858ff0"
+      ],
+      "headline": "Stockbridge council changes date of hearing into mayor’s P-card usage",
+      "summary": "",
+      "category": "City Hall & Policy",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-12T00:46:57.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRlU0OUdkSmJiWkpYdUtIMnFiemFtcklabEJtMWZ5UFRld2ZNVW5XUnhzQ2ZvblRjQ1h0UkY3VVdMR3FQei0wb003S1hlcmRyOWhKYXlTNlRBLXFudERaS09lSWpzZ1MydWl6dHFsN2t6Q0hMQXNrbG1tUDhwTmxTU1R6dVE0Tk5GVXdmZm1QZl9lc283b0J4c3Zn?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Stockbridge council changes date of hearing into mayor’s P-card usage",
+        "dek": "",
+        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Public decisions can change costs, access, development rights and services across the city.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 58.91,
+        "impact": 48,
+        "novelty": 92,
+        "timeliness": 92,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 45
       }
     },
     {
@@ -4080,58 +3852,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 50.31,
+        "total": 58.86,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 81,
-        "shareability": 42,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 59
-      }
-    },
-    {
-      "id": "632ef27b71f2dca5cc73",
-      "itemIds": [
-        "677fa04638fe422cb524"
-      ],
-      "headline": "JLB Partners proposes Buckhead office redevelopment",
-      "summary": "",
-      "category": "Atlanta News",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-10T19:09:00.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "atlanta_business_chronicle",
-          "name": "Atlanta Business Chronicle",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVWZaSlM4Y2xCR1dwX1A5ZGxYU0JHXzhRUnJRalZlOXlOLWZzbnZrRUFhRzNURTNTTmFUZUFoTjJMQ2lVcWt5Mjd5ZXNidXlqRnB4aEdPX3hSWGl5RjlwWlNuSXNUMmNDMmdyWGlPZGoxTjhHNzQ2dUFTWHU3cTlxUmRwLW1KWEVLTlRkUVpaNEhGTWtJRTFLeXdoY3pCY1JqWTlnZEFOSWwtUDQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "JLB Partners proposes Buckhead office redevelopment",
-        "dek": "",
-        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 50.14,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 80,
         "shareability": 42,
         "commercial": 38,
         "evidence": 35,
@@ -4176,9 +3900,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 49.77,
+        "total": 58.32,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 65,
@@ -4224,9 +3948,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 49.77,
+        "total": 58.32,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 65,
@@ -4272,9 +3996,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 49.7,
+        "total": 58.25,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -4320,9 +4044,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 49.7,
+        "total": 58.25,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -4368,9 +4092,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 49.34,
+        "total": 57.89,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 86,
         "shareability": 42,
         "commercial": 38,
@@ -4416,9 +4140,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 48.84,
+        "total": 57.39,
         "impact": 64,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 38,
@@ -4464,9 +4188,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 48.66,
+        "total": 57.21,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 38,
@@ -4512,9 +4236,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 48.66,
+        "total": 57.21,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 38,
@@ -4560,9 +4284,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 48.66,
+        "total": 57.21,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 38,
@@ -4608,9 +4332,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 48.51,
+        "total": 57.06,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 47,
@@ -4656,9 +4380,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 47.88,
+        "total": 56.43,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -4704,9 +4428,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 47.88,
+        "total": 56.43,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -4752,9 +4476,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 46.84,
+        "total": 55.39,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 38,
@@ -4800,9 +4524,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 46.06,
+        "total": 54.61,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -4848,9 +4572,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 45.16,
+        "total": 53.71,
         "impact": 48,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 89,
         "shareability": 50,
         "commercial": 47,
@@ -4896,9 +4620,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 45.02,
+        "total": 53.57,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 42,
         "commercial": 38,
@@ -4944,9 +4668,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 43.21,
+        "total": 51.76,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -5001,10 +4725,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 43.15,
+        "total": 51.53,
         "impact": 56,
-        "novelty": 35,
-        "timeliness": 51,
+        "novelty": 92,
+        "timeliness": 50,
         "shareability": 50,
         "commercial": 38,
         "evidence": 84,
@@ -5049,9 +4773,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 41.52,
+        "total": 50.07,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -5097,9 +4821,9 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 41.16,
+        "total": 49.71,
         "impact": 56,
-        "novelty": 35,
+        "novelty": 92,
         "timeliness": 20,
         "shareability": 50,
         "commercial": 38,
@@ -5109,7 +4833,7 @@
     }
   ],
   "morningBrief": {
-    "generatedAt": "2026-08-12T18:34:39.099Z",
+    "generatedAt": "2026-08-12T19:18:36.743Z",
     "label": "Morning Brief",
     "itemIds": [
       "99fc3e9c500c6cc1b945",
@@ -5120,13 +4844,13 @@
     ]
   },
   "afternoonUpdate": {
-    "generatedAt": "2026-08-12T18:34:39.099Z",
+    "generatedAt": "2026-08-12T19:18:36.743Z",
     "label": "Afternoon Update",
     "itemIds": [
       "a97063ed92e0bbd8ecf7",
       "225b0de85f855128b39e",
-      "b9b9e11ba4e8ed23ebd5",
       "47b9aed0333e1aef9145",
+      "b9b9e11ba4e8ed23ebd5",
       "b0815316231307d83473"
     ]
   },
@@ -5135,7 +4859,7 @@
       "clusterId": "99fc3e9c500c6cc1b945",
       "headline": "Invest Atlanta and Atlanta Beltline Launch New Mortgage Assistance Program",
       "category": "Housing & Neighborhoods",
-      "score": 67.05,
+      "score": 75.6,
       "evidenceLabel": "Corroborated",
       "sourceCount": 2,
       "status": "READY_TO_REVIEW"
@@ -5144,7 +4868,7 @@
       "clusterId": "de7ccf215a53072c99fd",
       "headline": "Atlanta Housing Board of Commissioners Approves FY 2027 Budget",
       "category": "Housing & Neighborhoods",
-      "score": 66.92,
+      "score": 75.47,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5153,7 +4877,7 @@
       "clusterId": "d2067b48542e6613a639",
       "headline": "Atlanta Housing CEO Terri M. Lee Appointed Senior Vice President of National PHADA Board",
       "category": "Housing & Neighborhoods",
-      "score": 66.29,
+      "score": 74.84,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5162,7 +4886,7 @@
       "clusterId": "9af68a0a44ff3139da7d",
       "headline": "Atlanta Housing Chief Operating Officer Dwayne Vaughn Announces Retirement After Decades of Housing Leadership",
       "category": "Housing & Neighborhoods",
-      "score": 65.88,
+      "score": 74.43,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5171,7 +4895,7 @@
       "clusterId": "926b9e45ce67521f21de",
       "headline": "Atlanta Housing Announces Appointment of Bentina Terry to Board of Commissioners",
       "category": "Housing & Neighborhoods",
-      "score": 63.21,
+      "score": 71.76,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5180,7 +4904,7 @@
       "clusterId": "4d56336e11476fc0eb55",
       "headline": "Atlanta Housing Announces New $60,000 Down Payment Assistance Program and Partnership with Pretium to Expand Homeownership Opportunities",
       "category": "Housing & Neighborhoods",
-      "score": 62.72,
+      "score": 71.27,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5189,7 +4913,7 @@
       "clusterId": "a48a7c343be62b2a365e",
       "headline": "Atlanta Housing Names Interim Chief Operating Officer Ahead of Executive Leader’s May 8th Retirement",
       "category": "Housing & Neighborhoods",
-      "score": 62.25,
+      "score": 70.8,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5198,7 +4922,7 @@
       "clusterId": "e740e296a1c1767be57a",
       "headline": "Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand Workforce Services for Residents",
       "category": "Housing & Neighborhoods",
-      "score": 62.25,
+      "score": 70.8,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5207,7 +4931,7 @@
       "clusterId": "6a828482d821fe739705",
       "headline": "The Atlanta Beltline is Now on TikTok!",
       "category": "Housing & Neighborhoods",
-      "score": 62.22,
+      "score": 70.6,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5216,25 +4940,16 @@
       "clusterId": "b1c05e21ab32f60ca452",
       "headline": "Invest Atlanta Board Approves $39 Million for Affordable Housing",
       "category": "Housing & Neighborhoods",
-      "score": 61.6,
+      "score": 70.15,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
-      "status": "READY_TO_REVIEW"
-    },
-    {
-      "clusterId": "1653ceea6e15d276c2de",
-      "headline": "Atlanta Beltline Breaks Ground on Overlook at Garson",
-      "category": "Development & Infrastructure",
-      "score": 61.33,
-      "evidenceLabel": "Corroborated",
-      "sourceCount": 3,
       "status": "READY_TO_REVIEW"
     },
     {
       "clusterId": "53b94ac1b207fec22ef1",
       "headline": "Atlanta Housing Appoints Abdel Altamimi as Chief Financial Officer",
       "category": "Housing & Neighborhoods",
-      "score": 61.21,
+      "score": 69.76,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5243,16 +4958,25 @@
       "clusterId": "ab25863645d5cddd27f0",
       "headline": "Atlanta Housing Announces Strengthened Governance, Ethics, and Oversight Measures",
       "category": "Housing & Neighborhoods",
-      "score": 61.21,
+      "score": 69.76,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "1653ceea6e15d276c2de",
+      "headline": "Atlanta Beltline Breaks Ground on Overlook at Garson",
+      "category": "Development & Infrastructure",
+      "score": 69.71,
+      "evidenceLabel": "Corroborated",
+      "sourceCount": 3,
       "status": "READY_TO_REVIEW"
     },
     {
       "clusterId": "0ee182270f841210ce65",
       "headline": "Invest Atlanta Makes Strategic Investment in Municipal Market Merchants",
       "category": "Food, Retail & Hospitality",
-      "score": 60.14,
+      "score": 68.69,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5261,7 +4985,7 @@
       "clusterId": "9ce67f6906e4d261b22e",
       "headline": "Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
       "category": "Housing & Neighborhoods",
-      "score": 58.74,
+      "score": 67.29,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5270,7 +4994,7 @@
       "clusterId": "acb27d881cb4f7742854",
       "headline": "Invest Atlanta's C-PACE Program Surpasses $130 Million In 2026 Financing",
       "category": "Public Money",
-      "score": 58.57,
+      "score": 67.12,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5279,7 +5003,7 @@
       "clusterId": "a97063ed92e0bbd8ecf7",
       "headline": "Atlanta Beltline Design and Construction Updates: June 2026",
       "category": "Development & Infrastructure",
-      "score": 58.47,
+      "score": 67.02,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5288,7 +5012,7 @@
       "clusterId": "225b0de85f855128b39e",
       "headline": "Atlanta Beltline Hosting Housing Fair to Connect Residents with Resources",
       "category": "Housing & Neighborhoods",
-      "score": 58.25,
+      "score": 66.8,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5297,7 +5021,7 @@
       "clusterId": "5d36685938fcd27ab7bc",
       "headline": "Invest Atlanta Advances New Affordable Housing Developments",
       "category": "Housing & Neighborhoods",
-      "score": 57.84,
+      "score": 66.39,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5306,7 +5030,7 @@
       "clusterId": "c5eb7a1b0e34401721f4",
       "headline": "Invest Atlanta Collaborates with Atlanta Habitat for Humanity",
       "category": "Housing & Neighborhoods",
-      "score": 57.84,
+      "score": 66.39,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5315,7 +5039,7 @@
       "clusterId": "cf97af187e63f1c2b6b8",
       "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
       "category": "Housing & Neighborhoods",
-      "score": 57.74,
+      "score": 66.29,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5324,7 +5048,7 @@
       "clusterId": "6a8c02000eabda63e644",
       "headline": "Helping Atlanta Small Businesses Succeed on the World Stage",
       "category": "Business & Economy",
-      "score": 57.21,
+      "score": 65.76,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 2,
       "status": "READY_TO_REVIEW"
@@ -5333,7 +5057,7 @@
       "clusterId": "23a6df7bdb68a99d4e57",
       "headline": "TAD Grants Finance Construction of Affordable Housing",
       "category": "Housing & Neighborhoods",
-      "score": 56.51,
+      "score": 65.06,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5342,7 +5066,7 @@
       "clusterId": "0d86bcf25e4fa5c0b1b9",
       "headline": "Exclusive: 2nd Atlanta location of Hal’s The Steakhouse opening in Midtown",
       "category": "Business Moves",
-      "score": 55.89,
+      "score": 64.44,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5351,7 +5075,7 @@
       "clusterId": "572ea51017a41f4b3bc9",
       "headline": "Regions Bank to invest millions in namesake Midtown Atlanta office tower",
       "category": "Atlanta News",
-      "score": 53.66,
+      "score": 62.21,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5360,7 +5084,7 @@
       "clusterId": "1b7b96ed8eedd4697e97",
       "headline": "Supporting Small Business Sustainability",
       "category": "Public Money",
-      "score": 53.59,
+      "score": 62.14,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5369,7 +5093,16 @@
       "clusterId": "8b3c22e76193d9ee04ef",
       "headline": "Façade Improvement Grants Preserve Atlanta History",
       "category": "Public Money",
-      "score": 53.21,
+      "score": 61.76,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "47b9aed0333e1aef9145",
+      "headline": "Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail",
+      "category": "Transportation & Airport",
+      "score": 61.54,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5378,7 +5111,7 @@
       "clusterId": "b9b9e11ba4e8ed23ebd5",
       "headline": "ARC’s 2026 LINK™ Trip Explores Urban Innovation in Mexico City",
       "category": "Business Moves",
-      "score": 53.1,
+      "score": 61.48,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5387,25 +5120,16 @@
       "clusterId": "830e492bf43da090c6ed",
       "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
       "category": "Housing & Neighborhoods",
-      "score": 53.05,
+      "score": 61.43,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
     },
     {
-      "clusterId": "47b9aed0333e1aef9145",
-      "headline": "Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail",
-      "category": "Transportation & Airport",
-      "score": 52.99,
-      "evidenceLabel": "Primary-source report",
-      "sourceCount": 1,
-      "status": "READY_TO_REVIEW"
-    },
-    {
       "clusterId": "31483e649b8d33023c21",
       "headline": "ARC Awards $1.4 Million in Livable Centers Initiative Grants to Help Six Communities Transform",
       "category": "Public Money",
-      "score": 52.74,
+      "score": 61.29,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5414,7 +5138,7 @@
       "clusterId": "a7d1a013b1faada61611",
       "headline": "TAD Grant Supports New Andrew Young International Institute for Peace and Reconciliation",
       "category": "Public Money",
-      "score": 52.59,
+      "score": 61.14,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5423,25 +5147,16 @@
       "clusterId": "db6d5d694449f60b449f",
       "headline": "Strengthening Atlanta’s Small Business Ecosystem",
       "category": "Business Moves",
-      "score": 52.33,
+      "score": 60.88,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "eb14315ff8277e07c454",
-      "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
-      "category": "Development & Infrastructure",
-      "score": 52.26,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "b0815316231307d83473",
       "headline": "Expanding Opportunity: Atlanta Beltline Announces Mortgage Assistance Program",
       "category": "Development & Infrastructure",
-      "score": 52.17,
+      "score": 60.72,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5450,7 +5165,7 @@
       "clusterId": "9837f8f057306b9d3d56",
       "headline": "Two major ATL developments set for marquee restaurant additions",
       "category": "Food, Retail & Hospitality",
-      "score": 51.86,
+      "score": 60.41,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5459,16 +5174,7 @@
       "clusterId": "7f5cd55308a093d6c03e",
       "headline": "POLL: Which of three finalists should MARTA pick as next leader?",
       "category": "Transportation & Airport",
-      "score": 51.84,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
-      "clusterId": "ef93e2777b1f53c3f87a",
-      "headline": "&pizza franchisees plan further expansion after opening of first Atlanta restaurant",
-      "category": "Food, Retail & Hospitality",
-      "score": 51.81,
+      "score": 60.39,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5477,25 +5183,16 @@
       "clusterId": "298bc7e9f8f7aacb337b",
       "headline": "Pittsburgh Yards Welcomes Piedmont Mobile Health Unit Powered by Google",
       "category": "Housing & Neighborhoods",
-      "score": 51.6,
+      "score": 60.15,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "41e47ec893cd12299bcc",
-      "headline": "Five Atlanta healthcare companies using AI to cut costs, improve care",
-      "category": "Atlanta News",
-      "score": 51.33,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "d7e04e07f9ddb7f482a5",
       "headline": "ARC Awards Planning Support for Metro Housing and Community Revitalization Projects",
       "category": "Housing & Neighborhoods",
-      "score": 51.29,
+      "score": 59.84,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5504,16 +5201,25 @@
       "clusterId": "8891198b5924c3d8f3b5",
       "headline": "TAD Dollars Fund Historic Restoration Across Atlanta",
       "category": "Public Money",
-      "score": 51.29,
+      "score": 59.84,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
     },
     {
+      "clusterId": "41e47ec893cd12299bcc",
+      "headline": "Five Atlanta healthcare companies using AI to cut costs, improve care",
+      "category": "Atlanta News",
+      "score": 59.71,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
       "clusterId": "2ba1b6dac6045a8d8a90",
       "headline": "oaksATL Opens Mixed-Use Development in English Avenue",
       "category": "Housing & Neighborhoods",
-      "score": 51.14,
+      "score": 59.69,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5522,7 +5228,16 @@
       "clusterId": "47125893c5924b465581",
       "headline": "Invest Atlanta Earns Prestigious Global Reaccreditation",
       "category": "Development & Infrastructure",
-      "score": 50.55,
+      "score": 59.1,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "163ecb6c04de2680150d",
+      "headline": "Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations",
+      "category": "Food, Retail & Hospitality",
+      "score": 59.03,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5531,43 +5246,16 @@
       "clusterId": "22fbf38641d857070bd8",
       "headline": "Stockbridge council changes date of hearing into mayor’s P-card usage",
       "category": "City Hall & Policy",
-      "score": 50.53,
+      "score": 58.91,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
-    },
-    {
-      "clusterId": "7243e62da85c6d720257",
-      "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
-      "category": "Atlanta News",
-      "score": 50.5,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
-      "clusterId": "163ecb6c04de2680150d",
-      "headline": "Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations",
-      "category": "Food, Retail & Hospitality",
-      "score": 50.48,
-      "evidenceLabel": "Primary-source report",
-      "sourceCount": 1,
-      "status": "READY_TO_REVIEW"
     },
     {
       "clusterId": "6aff090c22669bb8d82e",
       "headline": "MARTA to name permanent CEO following interviews of three finalists",
       "category": "Transportation & Airport",
-      "score": 50.31,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
-      "clusterId": "632ef27b71f2dca5cc73",
-      "headline": "JLB Partners proposes Buckhead office redevelopment",
-      "category": "Atlanta News",
-      "score": 50.14,
+      "score": 58.86,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5576,7 +5264,7 @@
       "clusterId": "1aa54e8ab40948d815a6",
       "headline": "Regional Economic Development Forum Focuses on Economic Mobility",
       "category": "Transportation & Airport",
-      "score": 49.77,
+      "score": 58.32,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5585,7 +5273,7 @@
       "clusterId": "4a8db6af8311a3a634a6",
       "headline": "Small Business Improvement Grant Helps Goodr Feed Its Mission",
       "category": "Food, Retail & Hospitality",
-      "score": 49.77,
+      "score": 58.32,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5594,7 +5282,7 @@
       "clusterId": "dfa11dedbdd11c4de548",
       "headline": "From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation",
       "category": "Transportation & Economy",
-      "score": 49.7,
+      "score": 58.25,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5603,7 +5291,7 @@
       "clusterId": "0866b56ffa803ae3736d",
       "headline": "Metro Atlanta’s Transportation Future Takes Center Stage at ConnectATL: In Focus",
       "category": "Transportation & Airport",
-      "score": 49.7,
+      "score": 58.25,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5612,7 +5300,7 @@
       "clusterId": "db39ebdd13e6215cc2ae",
       "headline": "Georgia data centers use more than power and land. They need warehouse space.",
       "category": "Atlanta News",
-      "score": 49.34,
+      "score": 57.89,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5621,7 +5309,7 @@
       "clusterId": "c098b65496a7d44f7cab",
       "headline": "Dive Bars & Hidden Gems Along the Beltline",
       "category": "Housing & Neighborhoods",
-      "score": 48.84,
+      "score": 57.39,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5630,7 +5318,7 @@
       "clusterId": "2814dcad0cc5f96517ab",
       "headline": "Where to Rent a Bike on the Atlanta Beltline",
       "category": "Development & Infrastructure",
-      "score": 48.66,
+      "score": 57.21,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5639,7 +5327,7 @@
       "clusterId": "51e10ed790f457ff8e0c",
       "headline": "C-PACE Financing Boosts Energy Efficiencies",
       "category": "Public Money",
-      "score": 48.66,
+      "score": 57.21,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5648,7 +5336,7 @@
       "clusterId": "31719f70bc0bcd4a75ff",
       "headline": "More Atlanta Seniors to Benefit from Property Tax Relief Fund",
       "category": "Public Money",
-      "score": 48.66,
+      "score": 57.21,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5657,7 +5345,7 @@
       "clusterId": "e1a25742df55ebe1e4c8",
       "headline": "TAD Grant Supports Improvements to Upper Alabama Street and Peachtree Fountains Plaza",
       "category": "Public Money",
-      "score": 48.51,
+      "score": 57.06,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5666,7 +5354,7 @@
       "clusterId": "213c4233a463753e7f91",
       "headline": "It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
       "category": "Transportation & Economy",
-      "score": 47.88,
+      "score": 56.43,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5675,7 +5363,7 @@
       "clusterId": "5f1e371cc0a9aafb2386",
       "headline": "A Story to Be Told",
       "category": "Public Money",
-      "score": 47.88,
+      "score": 56.43,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5684,7 +5372,7 @@
       "clusterId": "226d594f631b424e1dd8",
       "headline": "Ice Cream Favorites Around the Beltline",
       "category": "Development & Infrastructure",
-      "score": 46.84,
+      "score": 55.39,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5693,7 +5381,7 @@
       "clusterId": "f6be2de676d428d3b21d",
       "headline": "A Peek Inside New Azalea Fresh Market Location",
       "category": "Food, Retail & Hospitality",
-      "score": 46.06,
+      "score": 54.61,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5702,7 +5390,7 @@
       "clusterId": "b1d2442a519582fe8855",
       "headline": "Restaurant roundup: Hal's to open in Midtown, Go Greek arrives in Atlanta",
       "category": "Food, Retail & Hospitality",
-      "score": 45.16,
+      "score": 53.71,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5711,7 +5399,7 @@
       "clusterId": "df0f9b8c81bab5c1be5b",
       "headline": "A Second Chance",
       "category": "Business & Economy",
-      "score": 45.02,
+      "score": 53.57,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5720,7 +5408,7 @@
       "clusterId": "69bd8febd01a3be1cb02",
       "headline": "Atlanta Regional Commission Announces 2026 Regional Leadership Institute Class",
       "category": "Transportation & Economy",
-      "score": 43.21,
+      "score": 51.76,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5729,7 +5417,7 @@
       "clusterId": "3de76ba461d3ab100277",
       "headline": "FIFA World Cup 26™ In Review",
       "category": "Transportation & Economy",
-      "score": 43.15,
+      "score": 51.53,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 2,
       "status": "READY_TO_REVIEW"
@@ -5738,7 +5426,7 @@
       "clusterId": "9b6d26dd732c7511de90",
       "headline": "Atlanta Regional Commission Announces 2026 Community Centered Design Class",
       "category": "Transportation & Economy",
-      "score": 41.52,
+      "score": 50.07,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5747,7 +5435,7 @@
       "clusterId": "9281e2a88e6b38a82c0e",
       "headline": "Arc Adopts Amendment 6 To The 2050 Metropolitan Transportation Plan Fy 2024 2027 Transportation Improvement Program",
       "category": "Transportation & Airport",
-      "score": 41.16,
+      "score": 49.71,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"

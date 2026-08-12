@@ -9,7 +9,8 @@ const outputPath = path.join(root, "data", "social-desk.json");
 const newsroom = JSON.parse(await readFile(newsroomPath, "utf8"));
 const now = new Date(process.env.SOCIAL_NOW || newsroom.generatedAt || Date.now());
 const timezone = newsroom.timezone || "America/New_York";
-const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://atlsignal.com").replace(/\/$/, "");
+const siteUrl = (process.env.SOCIAL_PUBLIC_SITE_URL || "https://mikeintech.github.io/atlsignal").replace(/\/$/, "");
+const assetBaseUrl = (process.env.SOCIAL_ASSET_BASE_URL || siteUrl).replace(/\/$/, "");
 
 const schedule = ["07:35", "12:15", "18:35"];
 const excluded = /\b(tiktok|dive bars?|hidden gems?|appointed|appointment|retirement|reaccreditation|leadership institute class|design class|names? interim|chief financial officer|governance|ethics|oversight measures|ice cream favorites|rent a bike|trip explores|in review|second chance|succeed on the world stage|strengthening .* ecosystem|supporting small business sustainability|design and construction updates|takes center stage|forum focuses)\b/i;
@@ -249,11 +250,6 @@ function sourceLine(cluster) {
   return names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)}` : names[0];
 }
 
-function xPost(hook, summary, source, articleUrl) {
-  const ending = `\n\nSource: ${source}\n${articleUrl}`;
-  return `${shorten(hook, 104)}\n\n${shorten(summary, Math.max(70, 280 - ending.length - Math.min(hook.length, 104) - 4))}${ending}`.slice(0, 280);
-}
-
 function packageFor(cluster, slot, slotIndex, itemById) {
   const override = storyOverrides[cluster.id];
   const editorialCluster = override ? {
@@ -277,20 +273,20 @@ function packageFor(cluster, slot, slotIndex, itemById) {
   const publicPath = articlePaths[cluster.id] || `/file/${cluster.id}`;
   const articleUrl = `${siteUrl}${publicPath}`;
   const question = questionFor(cluster.category);
-  const format = slotIndex % 3 === 1 ? "VERTICAL_REEL_9X16" : "CAROUSEL_4X5";
+  const format = "CAROUSEL_4X5";
   const riskReasons = highRisk.test(`${cluster.headline} ${cluster.summary}`) ? ["SENSITIVE_OR_ALLEGATION_LANGUAGE"] : [];
   const sourceMedia = cluster.itemIds
     .map((id) => itemById.get(id))
     .filter((item) => item?.imageUrl)
     .map((item) => ({ url: item.imageUrl, source: item.sourceName, usage: "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED" }));
-  const packageId = hash(`${cluster.id}|${slot.scheduledFor}|social-v1`);
+  const packageId = hash(`${cluster.id}|${slot.scheduledFor}|social-v2`);
   const instagramCaption = `${hook}\n\n${summary}\n\nWhy it matters: ${why}\n\nWhat remains unknown: ${unknown}\n\nSources: ${source}. Full context and source trail: ${articleUrl}\n\n${question}`;
-  const voiceover = `Here’s the Atlanta signal. ${summary} Why it matters: ${why} The receipt is ${cluster.evidenceLabel.toLowerCase()} reporting from ${source}. What we still do not know: ${unknown} Next, ATLSignal will ${next.replace(/^Watch/i, "watch").replace(/^ATLSignal will /i, "")}.`;
+  const assetUrls = Array.from({ length: 6 }, (_, index) => `${assetBaseUrl}/social-assets/${packageId}/${index + 1}.png`);
 
   return {
     packageId,
     storyId: cluster.id,
-    idempotencyKey: `atlsignal:${cluster.id}:social-v1`,
+    idempotencyKey: `atlsignal:${cluster.id}:social-v2`,
     scheduledFor: slot.scheduledFor,
     localSlot: `${slot.day} ${slot.time} ET`,
     status: riskReasons.length ? "HOLD" : "AUTO_READY",
@@ -312,15 +308,15 @@ function packageFor(cluster, slot, slotIndex, itemById) {
     production: {
       format,
       preferredAssetMode: "ORIGINAL_EDITORIAL_GRAPHIC",
+      assetStatus: "GENERATED",
       aiNarration: "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
       disclosure: "AI-assisted production. Reporting and source review by ATLSignal.",
-      visualDirection: format === "VERTICAL_REEL_9X16"
-        ? `Create a 35–50 second motion-typography explainer using an Atlanta map, the headline number or place, short source-document excerpts, and ATLSignal branding. Do not invent people, locations, footage or outcomes.`
-        : `Create a six-panel ATLSignal carousel using typography, a simple Atlanta-area map or diagram, and highlighted source language. Do not imitate a source publication or use synthetic documentary photography.`,
+      visualDirection: "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
       sourceMedia,
       mediaRule: sourceMedia.length ? "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan." : "Use the original graphic plan; no third-party image is required.",
       altText: `${franchise} explainer about ${shorten(cluster.headline, 140)}, with the source status and next milestone shown in ATLSignal graphics.`,
       renderUrls: Array.from({ length: 6 }, (_, index) => `${siteUrl}/social-card/${packageId}/${index + 1}`),
+      assetUrls,
     },
     carousel: [
       { slide: 1, label: franchise, heading: hook, body: "Atlanta, explained from the receipts." },
@@ -333,20 +329,14 @@ function packageFor(cluster, slot, slotIndex, itemById) {
     platforms: {
       instagram: {
         publishAt: slot.scheduledFor,
-        format: format === "VERTICAL_REEL_9X16" ? "REEL" : "CAROUSEL",
+        format: "CAROUSEL",
         caption: instagramCaption,
-        voiceover: format === "VERTICAL_REEL_9X16" ? voiceover : null,
         storyFrames: [hook, shorten(summary, 120), `${question} Read: ${articleUrl}`],
       },
       threads: {
         publishOffsetMinutes: 12,
         post: `${hook}\n\n${shorten(summary, 300)}\n\nReceipt: ${source}. ${articleUrl}`,
         followUp: `${shorten(unknown, 300)}\n\n${question}`,
-      },
-      x: {
-        publishOffsetMinutes: 0,
-        post: xPost(hook, summary, source, articleUrl),
-        followUp: `${shorten(`What remains unknown: ${unknown}`, 220)}\n\n${question}`.slice(0, 280),
       },
     },
     measurement: {
@@ -366,7 +356,7 @@ const start = packages[0]?.localSlot.slice(0, 10) || dateKey(now);
 const end = packages.at(-1)?.localSlot.slice(0, 10) || start;
 
 const output = {
-  schemaVersion: "atlsignal_social_desk_v1",
+  schemaVersion: "atlsignal_social_desk_v2",
   generatedAt: now.toISOString(),
   basedOnNewsroomRun: newsroom.generatedAt,
   timezone,
@@ -374,6 +364,7 @@ const output = {
   calendarEnd: end,
   policy: {
     operatingModel: "AI_FIRST_NO_REGULAR_HUMAN_PRESENCE",
+    enabledPlatforms: ["instagram", "threads"],
     autoReadyRule: "Tier A publishable evidence, sufficient source summary, no sensitive or allegation language, original asset plan.",
     externalMedia: "Never download and repost by default. Link, embed, request permission, use a native repost, or replace with an original ATLSignal graphic.",
     syntheticMedia: "AI narration, typography, maps and diagrams are allowed. Synthetic documentary scenes, fake people, cloned voices and invented event footage are prohibited.",
@@ -382,7 +373,6 @@ const output = {
   cadence: {
     instagram: "3 feed posts per day plus story frames",
     threads: "3 original posts and 3 evidence or question follow-ups per day",
-    x: "3 original posts and 3 evidence or question follow-ups per day",
     website: "20-item daily file remains the reporting backbone",
   },
   stats: {

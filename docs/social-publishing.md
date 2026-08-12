@@ -1,45 +1,80 @@
-# ATLSignal social publishing desk
+# ATLSignal Instagram + Threads publishing
 
-The newsroom cycle writes `data/social-desk.json`, a rolling seven-day queue of
-21 evidence-linked story packages. Each package contains an Instagram carousel
-or Reel treatment, an AI narration script when appropriate, Threads and X copy,
-story frames, alt text, source links, an original-asset brief, and an
-idempotency key.
+ATLSignal builds a rolling seven-day queue of 21 reviewed story packages and
+126 finished 1080×1350 PNG cards. The initial publishing surface is deliberately
+limited to Instagram and Threads.
 
-## Editorial operating model
+## What the newsroom produces
 
-- Regular human on-camera presence is not required.
-- AI may produce narration, motion typography, maps, diagrams, captions and
-  original branded layouts.
-- AI may not create synthetic documentary footage, fake witnesses, cloned
-  voices, invented places or fabricated event imagery.
-- Third-party photos and videos are reference-only until a license, permission,
-  press-use grant, native repost or embed right is documented.
-- When media rights are unclear, publish the ATLSignal graphic and link to the
-  original source.
-- Sensitive, allegation-driven and crime-related language is held instead of
-  being automatically dispatched.
+- `data/social-desk.json`: schedule, copy, evidence boundaries, links and public
+  asset URLs.
+- `public/social-assets/{packageId}/{1..6}.png`: finished original carousel
+  cards. Meta can fetch these directly; no webpage screenshot step is required.
+- `data/social-dispatch.json`: delivery receipts returned by the publisher.
 
-## Automatic delivery
+The default public and asset origin is the working GitHub Pages deployment,
+`https://mikeintech.github.io/atlsignal`. Set `SOCIAL_PUBLIC_SITE_URL` and
+`SOCIAL_ASSET_BASE_URL` when `atlsignal.com` is resolving publicly.
 
-The default build creates the queue without sending anything externally. To
-connect a scheduler or automation service, configure these GitHub Actions
-secrets:
+## Editorial safeguards
 
-- `SOCIAL_PUBLISH_ENDPOINT`: a Make, Zapier, Buffer-compatible middleware, or
-  other HTTPS webhook that accepts a complete ATLSignal package.
-- `SOCIAL_PUBLISH_TOKEN`: optional bearer token used to authenticate the
-  webhook.
+- Automatic publishing is limited to Tier A, publishable evidence with enough
+  source context and no sensitive or allegation-driven language.
+- The cards use original typography and layouts, not downloaded publisher
+  images or synthetic documentary scenes.
+- Every package separates what is confirmed, why it matters, what is unknown
+  and what ATLSignal will track next.
+- Held packages are never sent to the publisher.
 
-Every delivery is a JSON `POST` with the event name
-`atlsignal.social.package.ready`. The `idempotency-key` header prevents a
-compliant receiver from publishing a story twice. Successful deliveries are
-recorded in `data/social-dispatch.json`; failed requests are not recorded and
-retry on a later run.
+## Make scenario
 
-The receiving automation should create the final branded asset from the
-`production` and `carousel` fields. Every package also includes six public
-`renderUrls` that display finished, original 4:5 ATLSignal cards without using
-third-party imagery. The receiver can capture those card URLs, upload the
-resulting images, publish the matching platform copy, and retain the ATLSignal
-article URL and source trail.
+Create one scenario named `ATLSignal — Instagram + Threads`:
+
+1. **Webhooks / Custom webhook** receives the ATLSignal JSON payload.
+2. **Data store / Get a record** looks up `package.idempotencyKey`.
+3. If a completed record exists, return its stored receipt immediately.
+4. **Instagram for Business / Create a carousel post** maps all six
+   `package.production.assetUrls[]` items and `package.platforms.instagram.caption`.
+5. **HTTP** creates six Threads image item containers. For each URL, send a
+   `POST` to `https://graph.threads.net/v1.0/me/threads` with `media_type=IMAGE`,
+   `image_url`, `is_carousel_item=true`, `alt_text`, and the Threads access token.
+6. **HTTP** creates the Threads carousel container with `media_type=CAROUSEL`,
+   the comma-separated child container IDs and `package.platforms.threads.post`.
+7. **HTTP** publishes it with a `POST` to
+   `https://graph.threads.net/v1.0/me/threads_publish` and the returned
+   `creation_id`.
+8. **Data store / Add or replace a record** stores both platform IDs under the
+   idempotency key.
+9. **Webhooks / Webhook response** returns HTTP 200 only after both platforms
+   confirm publication.
+
+The success response must have this shape:
+
+```json
+{
+  "results": {
+    "instagram": { "status": "published", "id": "..." },
+    "threads": { "status": "published", "id": "..." }
+  }
+}
+```
+
+Any other response is treated as a failure and retried during a later newsroom
+run. The Make data store prevents a partial retry from duplicating a post that
+already succeeded.
+
+## GitHub configuration
+
+Add these repository secrets after the Make webhook is live:
+
+- `SOCIAL_PUBLISH_ENDPOINT`: the Make custom-webhook URL.
+- `SOCIAL_PUBLISH_TOKEN`: optional shared bearer token checked by the scenario.
+
+Optional repository variables:
+
+- `SOCIAL_PUBLIC_SITE_URL`: public article origin.
+- `SOCIAL_ASSET_BASE_URL`: public origin that serves the generated PNGs.
+
+GitHub Actions refreshes the newsroom four times per day, regenerates the
+assets, deploys the site, sends packages whose scheduled time has passed and
+records only receipts that confirm both Instagram and Threads.

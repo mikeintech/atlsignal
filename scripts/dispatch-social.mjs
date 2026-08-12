@@ -23,12 +23,12 @@ if (!endpoint) {
 }
 
 const desk = await readJson(deskPath, { packages: [] });
-const ledger = await readJson(ledgerPath, { schemaVersion: "atlsignal_social_dispatch_v1", deliveries: [] });
-const deliveredStoryIds = new Set(ledger.deliveries.filter((item) => item.status === "DELIVERED").map((item) => item.storyId));
+const ledger = await readJson(ledgerPath, { schemaVersion: "atlsignal_social_dispatch_v2", deliveries: [] });
+const deliveredPackageIds = new Set(ledger.deliveries.filter((item) => item.status === "DELIVERED").map((item) => item.packageId));
 const due = desk.packages.filter((item) =>
   item.status === "AUTO_READY"
   && new Date(item.scheduledFor).valueOf() <= now.valueOf()
-  && !deliveredStoryIds.has(item.storyId),
+  && !deliveredPackageIds.has(item.packageId),
 );
 
 for (const item of due) {
@@ -42,7 +42,20 @@ for (const item of due) {
     body: JSON.stringify({ event: "atlsignal.social.package.ready", package: item }),
   });
   if (!response.ok) throw new Error(`Social publishing endpoint returned HTTP ${response.status} for ${item.packageId}`);
-  ledger.deliveries.push({ packageId: item.packageId, storyId: item.storyId, deliveredAt: now.toISOString(), status: "DELIVERED" });
+  const receipt = await response.json().catch(() => null);
+  const platformResults = receipt?.results;
+  const requiredPlatforms = ["instagram", "threads"];
+  const missing = requiredPlatforms.filter((platform) => platformResults?.[platform]?.status !== "published");
+  if (missing.length) {
+    throw new Error(`Social publisher did not confirm ${missing.join(" and ")} for ${item.packageId}`);
+  }
+  ledger.deliveries.push({
+    packageId: item.packageId,
+    storyId: item.storyId,
+    deliveredAt: now.toISOString(),
+    status: "DELIVERED",
+    platformResults,
+  });
 }
 
 ledger.updatedAt = now.toISOString();

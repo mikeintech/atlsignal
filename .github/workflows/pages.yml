@@ -30,6 +30,8 @@ jobs:
         run: npm run newsroom
         env:
           STRICT_NEWSROOM: "1"
+          SOCIAL_PUBLIC_SITE_URL: ${{ vars.SOCIAL_PUBLIC_SITE_URL }}
+          SOCIAL_ASSET_BASE_URL: ${{ vars.SOCIAL_ASSET_BASE_URL }}
       - run: npm run build:github
         env:
           NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
