@@ -20,11 +20,12 @@ export type Story = {
   metricLabel?: string;
   confidence?: "Confirmed" | "Probable" | "Early signal";
   status?: string;
+  publishedAt?: string;
   image: StoryImageData;
 };
 
 const primaryNav = [
-  { label: "Latest", href: "/" },
+  { label: "Latest", href: "/latest" },
   { label: "Development", href: "/development" },
   { label: "Business", href: "/business" },
   { label: "Public money", href: "/money" },
@@ -47,7 +48,7 @@ export function PublicationHeader({ market }: { market: MarketBrand }) {
       <header className="publication-header">
         <div className="shell publication-header__main">
           <Link className="wordmark" href="/" aria-label={`${market.code} home`}>
-            <span>{market.code}</span><small>{market.displayName} business publication</small>
+            <span>{market.code}</span><small>{market.displayName}<b>Business publication</b></small>
           </Link>
           <nav aria-label="Primary navigation">
             {primaryNav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}

@@ -5,7 +5,7 @@ on:
     branches: ["main"]
   workflow_dispatch:
   schedule:
-    - cron: "15 11,20 * * *"
+    - cron: "15 11,15,19,23 * * *"
 
 permissions:
   contents: write
@@ -43,7 +43,7 @@ jobs:
             git config user.name "atlsignal-newsroom[bot]"
             git config user.email "atlsignal-newsroom[bot]@users.noreply.github.com"
             git add data/newsroom.json
-            git commit -m "Refresh ATLSignal newsroom ledger"
+            git commit -m "Refresh ATLSignal newsroom ledger [skip ci]"
             git push
           fi
       - uses: actions/upload-pages-artifact@v3

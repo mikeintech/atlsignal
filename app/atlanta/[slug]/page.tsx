@@ -191,6 +191,14 @@ const priorityArticleDetails: Record<string, ArticleContext> = {
 };
 
 function storyDates(story: typeof leadStory) {
+  if (story.publishedAt) {
+    const published = new Date(story.publishedAt);
+    return {
+      publishedIso: story.publishedAt,
+      modifiedIso: story.publishedAt,
+      display: `${new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", month: "long", day: "numeric", year: "numeric" }).format(published)} · ${new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", hour: "numeric", minute: "2-digit" }).format(published)} ET`,
+    };
+  }
   if (story.timestamp.includes("Aug. 12")) return { publishedIso: "2026-08-12T07:00:00-04:00", modifiedIso: "2026-08-12T07:00:00-04:00", display: "August 12, 2026 · 7:00 AM ET" };
   const sourceDesk = Boolean(sourceDeskArticleDetails[story.slug]);
   return sourceDesk
@@ -252,7 +260,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     { date: "May 29, 2026", title: "Building permit issued", detail: "The issued permit supports the construction-ready classification." },
     { date: "Aug. 7, 2026", title: "Report published", detail: "The project clears the public evidence threshold and enters ATLSignal’s public file." },
   ] : isSourceDeskStory ? [
-    { date: "Aug. 8, 2026", title: "First-party source reviewed", detail: "ATLSignal separated the attributable public facts from broader claims that still need evidence." },
+    { date: story.timestamp.includes("Aug. 12") ? "Aug. 12, 2026" : "Aug. 8, 2026", title: "First-party source reviewed", detail: "ATLSignal separated the attributable public facts from broader claims that still need evidence." },
     { date: "Now", title: "Desk watch continues", detail: "The story remains open for later budgets, milestones, outcomes and corroborating reporting." },
   ] : [
     { date: "Aug. 7, 2026", title: "Canonical stage recorded", detail: "ATLSignal generated a public-safe editorial candidate from qualified evidence." },

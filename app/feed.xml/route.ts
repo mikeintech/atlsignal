@@ -1,4 +1,6 @@
 import { leadStory, stories } from "@/lib/atlanta-data";
+import { dailyPosts } from "@/lib/daily-edition";
+import newsroomData from "@/data/newsroom.json";
 import { absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-static";
@@ -8,14 +10,20 @@ function xml(value: string) {
 }
 
 export function GET() {
-  const items = [leadStory, ...stories].slice(0, 25).map((story) => `
+  const dailyHrefs = new Set(dailyPosts.map((post) => post.href));
+  const feedPosts = [
+    ...dailyPosts.map((post) => ({ headline: post.headline, href: post.href, dek: post.dek, category: post.category })),
+    ...[leadStory, ...stories].filter((story) => !dailyHrefs.has(`/${story.slug}`)).map((story) => ({ headline: story.headline, href: `/${story.slug}`, dek: story.dek, category: story.category })),
+  ].slice(0, 35);
+  const buildDate = new Date(newsroomData.generatedAt).toUTCString();
+  const items = feedPosts.map((story) => `
     <item>
       <title>${xml(story.headline)}</title>
-      <link>${xml(absoluteUrl(`/${story.slug}`))}</link>
-      <guid isPermaLink="true">${xml(absoluteUrl(`/${story.slug}`))}</guid>
+      <link>${xml(absoluteUrl(story.href))}</link>
+      <guid isPermaLink="true">${xml(absoluteUrl(story.href))}</guid>
       <description>${xml(story.dek)}</description>
       <category>${xml(story.category)}</category>
-      <pubDate>${story.timestamp.includes("Aug. 12") ? "Wed, 12 Aug 2026 11:00:00 GMT" : "Sat, 08 Aug 2026 14:20:00 GMT"}</pubDate>
+      <pubDate>${buildDate}</pubDate>
     </item>`).join("");
 
   const body = `<?xml version="1.0" encoding="UTF-8" ?>
@@ -25,7 +33,7 @@ export function GET() {
     <link>${xml(absoluteUrl("/"))}</link>
     <description>Atlanta business, development and public-money reporting built from verified source trails.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Aug 2026 11:00:00 GMT</lastBuildDate>${items}
+    <lastBuildDate>${buildDate}</lastBuildDate>${items}
   </channel>
 </rss>`;
 

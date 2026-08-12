@@ -16,10 +16,10 @@ This project can be deployed directly to GitHub Pages as a static site.
    - `NEXT_PUBLIC_ANALYTICS_ENDPOINT`: the privacy-light event endpoint used by the static edition.
 4. Push to `main`; `.github/workflows/pages.yml` builds and publishes the static site.
 
-The same workflow runs the evidence-gated newsroom at 11:15 and 20:15 UTC
+The same workflow runs the evidence-gated newsroom at 11:15, 15:15, 19:15 and 23:15 UTC
 every day. It collects approved first-party sources, monitors restricted local
 publishers through search-result metadata only, clusters related coverage, and
-writes `data/newsroom.json`. A scheduled run fails closed when a critical
+writes `data/newsroom.json`, rebuilds the twenty-post daily file and rotates older verified work back into view. A scheduled run fails closed when a critical
 first-party desk is unavailable; discovery-provider failures are recorded as
 degraded without turning secondary headlines into publishable facts.
 

@@ -30,9 +30,9 @@ const STOP_WORDS = new Set(
 
 const CATEGORY_RULES = [
   ["Transportation & Airport", /\b(transit|marta|airport|aviation|road|bridge|trail|mobility|bus|rail|transportation)\b/i],
+  ["Food, Retail & Hospitality", /\b(restaurant|retail|hotel|food|store|cafe|hospitality|tenant|boutique|pop-up|merchant|market)\b/i],
   ["Housing & Neighborhoods", /\b(housing|homes?|apartments?|residential|neighborhood|affordable|units?)\b/i],
   ["Public Money", /\b(budget|grant|funding|financing|bond|tax|million|billion|contract|procurement)\b/i],
-  ["Food, Retail & Hospitality", /\b(restaurant|retail|hotel|food|store|cafe|hospitality|tenant)\b/i],
   ["Development & Infrastructure", /\b(construction|development|project|build|renovation|infrastructure|groundbreaking)\b/i],
   ["Workforce & Economy", /\b(jobs?|workforce|economy|economic|employment|headquarters|expansion|investment)\b/i],
   ["City Hall & Policy", /\b(mayor|council|ordinance|policy|zoning|planning|board|authority)\b/i],
@@ -521,7 +521,7 @@ try {
   }
 }
 
-const retentionCutoff = now.valueOf() - 14 * 86_400_000;
+const retentionCutoff = now.valueOf() - 365 * 86_400_000;
 const itemsById = new Map();
 for (const item of previous.items || []) {
   const retainedTitle = stripOutletSuffix(item.title, item.sourceName);
@@ -548,8 +548,8 @@ const output = {
   timezone: config.timezone,
   editionWindow: atlantaHour < 13 ? "MORNING" : "AFTERNOON",
   automation: {
-    schedule: ["11:15 UTC", "20:15 UTC"],
-    intendedCadence: "twice_daily",
+    schedule: ["11:15 UTC", "15:15 UTC", "19:15 UTC", "23:15 UTC"],
+    intendedCadence: "four_daily",
     status: criticalFailures.length ? "DEGRADED" : "HEALTHY",
     criticalFailures: criticalFailures.map((source) => source.sourceId),
     previousRunAt: previous.generatedAt,
