@@ -1,9 +1,9 @@
 {
   "schemaVersion": "atlsignal_newsroom_v1",
-  "generatedAt": "2026-08-12T16:26:42.936Z",
+  "generatedAt": "2026-08-12T18:34:39.099Z",
   "market": "atlanta",
   "timezone": "America/New_York",
-  "editionWindow": "MORNING",
+  "editionWindow": "AFTERNOON",
   "automation": {
     "schedule": [
       "11:15 UTC",
@@ -14,7 +14,7 @@
     "intendedCadence": "four_daily",
     "status": "HEALTHY",
     "criticalFailures": [],
-    "previousRunAt": "2026-08-12T16:11:39.976Z"
+    "previousRunAt": "2026-08-12T16:26:42.936Z"
   },
   "stats": {
     "activeSources": 4,
@@ -31,7 +31,7 @@
       "status": "OK",
       "itemCount": 25,
       "critical": true,
-      "durationMs": 517
+      "durationMs": 284
     },
     {
       "sourceId": "atlanta_beltline",
@@ -39,7 +39,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 33912
+      "durationMs": 33533
     },
     {
       "sourceId": "atlanta_regional_commission",
@@ -47,7 +47,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 32683
+      "durationMs": 42319
     },
     {
       "sourceId": "atlanta_housing",
@@ -55,7 +55,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": true,
-      "durationMs": 4989
+      "durationMs": 4383
     },
     {
       "sourceId": "ajc",
@@ -64,7 +64,7 @@
       "itemCount": 3,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "atlanta_business_chronicle",
@@ -73,7 +73,7 @@
       "itemCount": 7,
       "critical": false,
       "accessState": "SUBSCRIPTION_CONSTRAINED",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "urbanize_atlanta",
@@ -82,7 +82,7 @@
       "itemCount": 2,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "rough_draft_atlanta",
@@ -91,7 +91,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "axios_atlanta",
@@ -100,7 +100,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "eater_atlanta",
@@ -109,7 +109,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "saporta_report",
@@ -118,7 +118,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "what_now_atlanta",
@@ -127,7 +127,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "bisnow_atlanta",
@@ -136,7 +136,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "city_of_atlanta",
@@ -145,7 +145,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "marta",
@@ -154,7 +154,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "atl_airport",
@@ -163,7 +163,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "georgia_economic_development",
@@ -172,7 +172,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "metro_atlanta_chamber",
@@ -181,7 +181,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     },
     {
       "sourceId": "discover_atlanta",
@@ -190,7 +190,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 539
+      "durationMs": 519
     }
   ],
   "items": [
@@ -207,13 +207,13 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTks0dGEyeDdiTUZ2R1FUTWhoNzBub1NHR1BMYUN5dGw2RUZzRVNTY0RTQlg0MGVnc0RCYm83RmdSX0c0dFZVeWtIakZYVmtRWXVpS1hvOTRPZG1LWDd5MGdpZXAyOWxXUHRWMElvbVEzdmxhWkZOMXlVY2xWS2JIZVpOaFVvS3A1R1R4NDBVWXZlcC0yZ1Zzb2pZUDZIZ3l4ZFhCT19GSzBfX0hTcEZpSmpKa2dmWEZH?oc=5",
       "publisherUrl": "https://www.ajc.com",
-      "publishedAt": "2026-08-12T12:03:42.000Z",
-      "updatedAt": "2026-08-12T12:03:42.000Z",
+      "publishedAt": "2026-08-12T12:12:38.000Z",
+      "updatedAt": "2026-08-12T12:12:38.000Z",
       "imageUrl": null,
-      "contentHash": "a95f69695883c7f5aadd",
+      "contentHash": "4efc40a5b2fd66cc9b93",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "f34d64340815a3858ff0",
@@ -234,7 +234,7 @@
       "contentHash": "b569ab92dcb5ac05ba46",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "4110555f2be43e645f5c",
@@ -255,7 +255,7 @@
       "contentHash": "0fdd4f2478198b30d212",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "654d28aa0aed2b24c3d8",
@@ -276,7 +276,7 @@
       "contentHash": "820ac9e62c2529d71abb",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "0156caa329cabd5ee87e",
@@ -297,7 +297,7 @@
       "contentHash": "e99f547abb190c8198f8",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "5ca989d22865ad43e770",
@@ -318,7 +318,7 @@
       "contentHash": "573c3dae20f3e9c06819",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "f76182f87e20479833ee",
@@ -339,7 +339,7 @@
       "contentHash": "0f627b067e26a663510b",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "7a721452b1d2e68fefb2",
@@ -360,7 +360,7 @@
       "contentHash": "f2238258c0a9e60c188a",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "d0bd1e2c7d214224c0b4",
@@ -381,7 +381,7 @@
       "contentHash": "524a38829211844db6b1",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "d6e41290c330ea7f6318",
@@ -402,7 +402,7 @@
       "contentHash": "a1616d8fe124cf2d48d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "f5332964efdb536984ca",
@@ -423,7 +423,7 @@
       "contentHash": "37769ed41d958cef83de",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "9807276a0bd43435677a",
@@ -444,7 +444,7 @@
       "contentHash": "4773e02b41b422219b02",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "8182f339451af7d52e3b",
@@ -465,7 +465,7 @@
       "contentHash": "567849e9517d27928cf0",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "22fb4762a172f34b618f",
@@ -486,7 +486,7 @@
       "contentHash": "7f72f5fc40e91bdec0b9",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "ed772565167260a953c0",
@@ -507,7 +507,7 @@
       "contentHash": "1566eac27fa7dc5e2735",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "677fa04638fe422cb524",
@@ -528,7 +528,7 @@
       "contentHash": "8db44551d872a88554d6",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "379d65b1b8442ede5a26",
@@ -591,7 +591,7 @@
       "contentHash": "d2476f4b803d29e627f5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "6302a76fda702723bf3d",
@@ -612,7 +612,7 @@
       "contentHash": "d63698e97eb327ba7899",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "7f724a4bc74ffd08cf8f",
@@ -633,7 +633,7 @@
       "contentHash": "7938e58176113e223144",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "f3667c376a276743f471",
@@ -654,7 +654,7 @@
       "contentHash": "40367f4f92e7f7d4dd12",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "c83e8c7f3cd2a9ee4b85",
@@ -675,7 +675,7 @@
       "contentHash": "486f1a0293fad8e728f4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "ecc2fa4ebd27b7d56cf3",
@@ -696,7 +696,7 @@
       "contentHash": "7581307e5ff277d9816a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "cdc076c25899466440a9",
@@ -717,7 +717,7 @@
       "contentHash": "127f2011ac5db530a327",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "66ac653a0aebee200399",
@@ -738,7 +738,7 @@
       "contentHash": "f4b060cbd844a5b9d01c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "8b36b68a8314f667de0f",
@@ -759,7 +759,7 @@
       "contentHash": "c0ebabe25748e54339d4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "199c578a330596813fd1",
@@ -780,7 +780,7 @@
       "contentHash": "52c68119c9e8e318a06b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "8b8dce22ee6f64a71130",
@@ -801,7 +801,7 @@
       "contentHash": "e5c254b61f6c0e5cc7e4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "d482b816c951307ba84f",
@@ -822,7 +822,7 @@
       "contentHash": "685b5fc66b55fa8e87ad",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "4ba5f7d0740775a9f678",
@@ -843,7 +843,7 @@
       "contentHash": "c5fffcc4ef234cf6e268",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "503cc4766e33a35a3568",
@@ -864,7 +864,7 @@
       "contentHash": "80522f8eca587fc74347",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "afecf06030c6eaad3e80",
@@ -885,7 +885,7 @@
       "contentHash": "550ecc269a8e19d5dfef",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "433925f78eeb46ccd330",
@@ -906,7 +906,7 @@
       "contentHash": "9c56aeecb0b7210008b1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T15:59:18.490Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "5672137da20b1129ac75",
@@ -927,7 +927,7 @@
       "contentHash": "aa22aa20deec30bf6136",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "54fb4329f1367f3dc5f5",
@@ -948,7 +948,7 @@
       "contentHash": "89a68b3865dcfc7b6132",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "54b3b5398944a3eac4c4",
@@ -969,7 +969,7 @@
       "contentHash": "01afd76a032b029c9306",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "dea1d6e330f0bdfac53a",
@@ -990,7 +990,7 @@
       "contentHash": "0b22d42af62c560132fc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "b294645a06cc344d85d5",
@@ -1011,7 +1011,7 @@
       "contentHash": "9b5e864afaf5ac6f8c1b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "fafbf71d20fa86245788",
@@ -1032,7 +1032,7 @@
       "contentHash": "7a7f6d02dc8f179b0fd4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "afc54ba0d1d2698486c6",
@@ -1053,7 +1053,7 @@
       "contentHash": "7e6963e4a0ff4a3b631d",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "ba9265c20fd878504008",
@@ -1074,7 +1074,7 @@
       "contentHash": "fc90a84fc0bb3bee8a53",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "0a047533a306d0179911",
@@ -1095,7 +1095,7 @@
       "contentHash": "5c42d69cc129bed4c7d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "a18f4dfab1fb389dd98c",
@@ -1116,7 +1116,7 @@
       "contentHash": "d81a04af4ba15b3b04d9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "102c6e5539d6d3edde4d",
@@ -1137,7 +1137,7 @@
       "contentHash": "7d67423adf6696ad6c42",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "f56d3d266f38e4244bf3",
@@ -1158,7 +1158,7 @@
       "contentHash": "2a2f3210b7cc736ea4a0",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "8863330ec2fa19eb71ae",
@@ -1179,7 +1179,7 @@
       "contentHash": "db93bdc4bc5aaf0ccd5c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "d8cacce85da99dbd3e7e",
@@ -1200,7 +1200,7 @@
       "contentHash": "0ff645ebd61eeb829b1a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "06f938b3d9b0a2643fdb",
@@ -1221,7 +1221,7 @@
       "contentHash": "c2909df68dab0c151f94",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "618def64fc3ead0be378",
@@ -1242,7 +1242,7 @@
       "contentHash": "179b4c601182b36217a0",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "c66c79f644cce1c26d5f",
@@ -1263,7 +1263,7 @@
       "contentHash": "bf170aa030dee6a2ffcd",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "a41129acc6aae239795a",
@@ -1284,7 +1284,7 @@
       "contentHash": "652e6e77985f91129aac",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "c1d8aec281a235c3731d",
@@ -1305,7 +1305,7 @@
       "contentHash": "8a9644db2e4e2317e078",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "a5c3297725989a8fc81a",
@@ -1326,7 +1326,7 @@
       "contentHash": "3b82269349260f505519",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "d94d5d3088c062d79bbd",
@@ -1347,7 +1347,7 @@
       "contentHash": "bd26c6e3704df92fa15b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "c14c6ce425707816ee27",
@@ -1368,7 +1368,7 @@
       "contentHash": "753c2b2d7a2cf60cff0c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "9119378c0267426bba86",
@@ -1389,7 +1389,7 @@
       "contentHash": "e6ec8fd751d416a829e5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "d8d456147cf65ce90154",
@@ -1410,7 +1410,7 @@
       "contentHash": "6f90d94dcda960118cf9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "80884347dc223843f1b2",
@@ -1431,7 +1431,7 @@
       "contentHash": "4606c7f2c7688b1268fc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "b1a8f32ddcfd05d9f6d6",
@@ -1452,7 +1452,7 @@
       "contentHash": "7f4f106c59a11897992c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "e22cde1049658713eed6",
@@ -1473,7 +1473,7 @@
       "contentHash": "23e01cc6552b83bc5789",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "6a68d77f51d8b4bfa450",
@@ -1494,7 +1494,7 @@
       "contentHash": "b459ae159a0531d3250f",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "eb5e18b57c469a7586cd",
@@ -1515,7 +1515,7 @@
       "contentHash": "d8c10af54b4fd95250e4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "5dab9d0fca8ea2a1f535",
@@ -1536,7 +1536,7 @@
       "contentHash": "53a47b4014311fc1d06f",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "34140fe236621430b968",
@@ -1557,7 +1557,7 @@
       "contentHash": "7d42325d4ff1a6d25c75",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "191fee8617d675cc3b80",
@@ -1578,7 +1578,7 @@
       "contentHash": "991d52453e6272739059",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "a2758a6b9514f8862168",
@@ -1599,7 +1599,7 @@
       "contentHash": "3be7d8caff2b9eb4d7df",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "3511aca05e35cf11e607",
@@ -1620,7 +1620,7 @@
       "contentHash": "48cf11ed1dde9a89a1b5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "ba5e7a55294f5ac5e26c",
@@ -1641,7 +1641,7 @@
       "contentHash": "f1da7638b983f468fc0b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "291b2447387a073c77bc",
@@ -1662,7 +1662,7 @@
       "contentHash": "ca0421a798e023660dc5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "372bf20b8b4981c711c7",
@@ -1683,7 +1683,7 @@
       "contentHash": "ab23264f95ebaf89cfb7",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "79b334add01cabbde7f8",
@@ -1704,7 +1704,7 @@
       "contentHash": "6027474ea029061e7ead",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-11T23:22:10.674Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "0a2f2a999cf1e8228b45",
@@ -1725,7 +1725,7 @@
       "contentHash": "c0d95ea7a9e426589091",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     },
     {
       "id": "8790771864c541644970",
@@ -1746,7 +1746,7 @@
       "contentHash": "d8ed836f5f082db0f9f6",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T16:06:39.631Z",
-      "lastSeenAt": "2026-08-12T16:26:42.936Z"
+      "lastSeenAt": "2026-08-12T18:34:39.099Z"
     }
   ],
   "clusters": [
@@ -1797,10 +1797,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 67.22,
+        "total": 67.05,
         "impact": 56,
         "novelty": 35,
-        "timeliness": 93,
+        "timeliness": 92,
         "shareability": 50,
         "commercial": 38,
         "evidence": 100,
@@ -2048,54 +2048,6 @@
       }
     },
     {
-      "id": "6a828482d821fe739705",
-      "itemIds": [
-        "f5332964efdb536984ca"
-      ],
-      "headline": "The Atlanta Beltline is Now on TikTok!",
-      "summary": "Follow @AtlantaBeltline for neighborhood stories, hidden gem highlights, and more.",
-      "category": "Housing & Neighborhoods",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-11T13:00:02.423Z",
-      "sourceTier": "A",
-      "sources": [
-        {
-          "sourceId": "atlanta_beltline",
-          "name": "Atlanta BeltLine",
-          "tier": "A",
-          "url": "https://beltline.org/blog/the-atlanta-beltline-is-now-on-tiktok-/",
-          "acquisition": "sitemap",
-          "retrievedContent": true
-        }
-      ],
-      "corroboration": {
-        "status": "ATTRIBUTED_PRIMARY",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 1,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Primary-source report",
-      "publishable": true,
-      "draft": {
-        "headline": "The Atlanta Beltline is Now on TikTok!",
-        "dek": "Follow @AtlantaBeltline for neighborhood stories, hidden gem highlights, and more.",
-        "whatChanged": "Atlanta BeltLine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 62.39,
-        "impact": 64,
-        "novelty": 35,
-        "timeliness": 89,
-        "shareability": 42,
-        "commercial": 38,
-        "evidence": 84,
-        "locality": 73
-      }
-    },
-    {
       "id": "a48a7c343be62b2a365e",
       "itemIds": [
         "d94d5d3088c062d79bbd"
@@ -2189,6 +2141,54 @@
         "commercial": 38,
         "evidence": 84,
         "locality": 100
+      }
+    },
+    {
+      "id": "6a828482d821fe739705",
+      "itemIds": [
+        "f5332964efdb536984ca"
+      ],
+      "headline": "The Atlanta Beltline is Now on TikTok!",
+      "summary": "Follow @AtlantaBeltline for neighborhood stories, hidden gem highlights, and more.",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-11T13:00:02.423Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_beltline",
+          "name": "Atlanta BeltLine",
+          "tier": "A",
+          "url": "https://beltline.org/blog/the-atlanta-beltline-is-now-on-tiktok-/",
+          "acquisition": "sitemap",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "The Atlanta Beltline is Now on TikTok!",
+        "dek": "Follow @AtlantaBeltline for neighborhood stories, hidden gem highlights, and more.",
+        "whatChanged": "Atlanta BeltLine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 62.22,
+        "impact": 64,
+        "novelty": 35,
+        "timeliness": 88,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 73
       }
     },
     {
@@ -2295,10 +2295,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 61.5,
+        "total": 61.33,
         "impact": 64,
         "novelty": 35,
-        "timeliness": 50,
+        "timeliness": 49,
         "shareability": 42,
         "commercial": 47,
         "evidence": 100,
@@ -2450,54 +2450,6 @@
       }
     },
     {
-      "id": "acb27d881cb4f7742854",
-      "itemIds": [
-        "cdc076c25899466440a9"
-      ],
-      "headline": "Invest Atlanta's C-PACE Program Surpasses $130 Million In 2026 Financing",
-      "summary": "Invest Atlanta's Commercial Property Assessed Clean Energy (C-PACE) program continues to accelerate sustainable economic development across Atlanta and Georgia, surpassing $130.4 million in financing closed in 2026 while also supporting transformative projects that reduce operating costs, strengthen resiliency and advance environmental sustainability.",
-      "category": "Public Money",
-      "eventType": "FINANCING",
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "sourceTier": "A",
-      "sources": [
-        {
-          "sourceId": "invest_atlanta",
-          "name": "Invest Atlanta",
-          "tier": "A",
-          "url": "https://www.investatlanta.com/impact-insights/invest-atlantas-c-pace-program-surpasses-130-million-in-2026-financing",
-          "acquisition": "invest_atlanta_json",
-          "retrievedContent": true
-        }
-      ],
-      "corroboration": {
-        "status": "ATTRIBUTED_PRIMARY",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 1,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Primary-source report",
-      "publishable": true,
-      "draft": {
-        "headline": "Invest Atlanta's C-PACE Program Surpasses $130 Million In 2026 Financing",
-        "dek": "Invest Atlanta's Commercial Property Assessed Clean Energy (C-PACE) program continues to accelerate sustainable economic development across Atlanta and Georgia, surpassing $130.4 million in financing closed in 2026 while also supporting transformative projects that reduce operating costs, strengthen resiliency and advance environmental sustainability.",
-        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 58.74,
-        "impact": 72,
-        "novelty": 35,
-        "timeliness": 23,
-        "shareability": 66,
-        "commercial": 47,
-        "evidence": 84,
-        "locality": 87
-      }
-    },
-    {
       "id": "9ce67f6906e4d261b22e",
       "itemIds": [
         "0a047533a306d0179911"
@@ -2543,6 +2495,54 @@
         "commercial": 38,
         "evidence": 84,
         "locality": 73
+      }
+    },
+    {
+      "id": "acb27d881cb4f7742854",
+      "itemIds": [
+        "cdc076c25899466440a9"
+      ],
+      "headline": "Invest Atlanta's C-PACE Program Surpasses $130 Million In 2026 Financing",
+      "summary": "Invest Atlanta's Commercial Property Assessed Clean Energy (C-PACE) program continues to accelerate sustainable economic development across Atlanta and Georgia, surpassing $130.4 million in financing closed in 2026 while also supporting transformative projects that reduce operating costs, strengthen resiliency and advance environmental sustainability.",
+      "category": "Public Money",
+      "eventType": "FINANCING",
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "invest_atlanta",
+          "name": "Invest Atlanta",
+          "tier": "A",
+          "url": "https://www.investatlanta.com/impact-insights/invest-atlantas-c-pace-program-surpasses-130-million-in-2026-financing",
+          "acquisition": "invest_atlanta_json",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "Invest Atlanta's C-PACE Program Surpasses $130 Million In 2026 Financing",
+        "dek": "Invest Atlanta's Commercial Property Assessed Clean Energy (C-PACE) program continues to accelerate sustainable economic development across Atlanta and Georgia, surpassing $130.4 million in financing closed in 2026 while also supporting transformative projects that reduce operating costs, strengthen resiliency and advance environmental sustainability.",
+        "whatChanged": "Invest Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 58.57,
+        "impact": 72,
+        "novelty": 35,
+        "timeliness": 22,
+        "shareability": 66,
+        "commercial": 47,
+        "evidence": 84,
+        "locality": 87
       }
     },
     {
@@ -2642,54 +2642,6 @@
       }
     },
     {
-      "id": "cf97af187e63f1c2b6b8",
-      "itemIds": [
-        "f76182f87e20479833ee"
-      ],
-      "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
-      "summary": "",
-      "category": "Housing & Neighborhoods",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-11T18:31:00.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "atlanta_business_chronicle",
-          "name": "Atlanta Business Chronicle",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlJwTU45ZjVQVWhVNVNNdkxSc2p4S2h4R0Nid3MyY01maWpQeE1sXzdTZzF2UUNYdEVUMDJKRzlSbnpTUWlRbkRCeGRYNkluWm9KSExWQnFQcWphQjc4b2FwbWY5QWtUNkJQU0JVUERDZkpqS05jMWpaTWhtV3htWHNudUlKYWxiVDM1MndkSTZORXJrWFRKRkhFZ3IxT2hyM3hJR1RLbGJuQQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
-        "dek": "",
-        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 57.91,
-        "impact": 56,
-        "novelty": 35,
-        "timeliness": 91,
-        "shareability": 58,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 73
-      }
-    },
-    {
       "id": "5d36685938fcd27ab7bc",
       "itemIds": [
         "06f938b3d9b0a2643fdb"
@@ -2783,6 +2735,54 @@
         "commercial": 47,
         "evidence": 84,
         "locality": 100
+      }
+    },
+    {
+      "id": "cf97af187e63f1c2b6b8",
+      "itemIds": [
+        "f76182f87e20479833ee"
+      ],
+      "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
+      "summary": "",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-11T18:31:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_business_chronicle",
+          "name": "Atlanta Business Chronicle",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlJwTU45ZjVQVWhVNVNNdkxSc2p4S2h4R0Nid3MyY01maWpQeE1sXzdTZzF2UUNYdEVUMDJKRzlSbnpTUWlRbkRCeGRYNkluWm9KSExWQnFQcWphQjc4b2FwbWY5QWtUNkJQU0JVUERDZkpqS05jMWpaTWhtV3htWHNudUlKYWxiVDM1MndkSTZORXJrWFRKRkhFZ3IxT2hyM3hJR1RLbGJuQQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
+        "dek": "",
+        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 57.74,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 90,
+        "shareability": 58,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 73
       }
     },
     {
@@ -2899,7 +2899,7 @@
       "summary": "",
       "category": "Business Moves",
       "eventType": "OPENING",
-      "publishedAt": "2026-08-12T12:03:42.000Z",
+      "publishedAt": "2026-08-12T12:12:38.000Z",
       "sourceTier": "B",
       "sources": [
         {
@@ -2928,10 +2928,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 56.06,
+        "total": 55.89,
         "impact": 48,
         "novelty": 35,
-        "timeliness": 98,
+        "timeliness": 97,
         "shareability": 50,
         "commercial": 38,
         "evidence": 35,
@@ -2976,10 +2976,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 53.83,
+        "total": 53.66,
         "impact": 48,
         "novelty": 35,
-        "timeliness": 91,
+        "timeliness": 90,
         "shareability": 42,
         "commercial": 38,
         "evidence": 35,
@@ -3035,102 +3035,6 @@
       }
     },
     {
-      "id": "b9b9e11ba4e8ed23ebd5",
-      "itemIds": [
-        "d6e41290c330ea7f6318"
-      ],
-      "headline": "ARC’s 2026 LINK™ Trip Explores Urban Innovation in Mexico City",
-      "summary": "More than 180 government, business, and civic leaders from metro Atlanta will travel to Mexico City this month for the Atlanta Regional Commission’s 2026 LINK™ trip. It marks the first...",
-      "category": "Business Moves",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-11T15:21:23.000Z",
-      "sourceTier": "A",
-      "sources": [
-        {
-          "sourceId": "atlanta_regional_commission",
-          "name": "Atlanta Regional Commission",
-          "tier": "A",
-          "url": "https://atlantaregional.org/news/uncategorized/arcs-2026-link-trip-explores-urban-innovation-in-mexico-city/",
-          "acquisition": "sitemap_index",
-          "retrievedContent": true
-        }
-      ],
-      "corroboration": {
-        "status": "ATTRIBUTED_PRIMARY",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 1,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Primary-source report",
-      "publishable": true,
-      "draft": {
-        "headline": "ARC’s 2026 LINK™ Trip Explores Urban Innovation in Mexico City",
-        "dek": "More than 180 government, business, and civic leaders from metro Atlanta will travel to Mexico City this month for the Atlanta Regional Commission’s 2026 LINK™ trip. It marks the first...",
-        "whatChanged": "Atlanta Regional Commission published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Company openings, leases and expansions show where business confidence and local demand are forming.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 53.27,
-        "impact": 56,
-        "novelty": 35,
-        "timeliness": 90,
-        "shareability": 58,
-        "commercial": 47,
-        "evidence": 84,
-        "locality": 73
-      }
-    },
-    {
-      "id": "830e492bf43da090c6ed",
-      "itemIds": [
-        "0156caa329cabd5ee87e"
-      ],
-      "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
-      "summary": "",
-      "category": "Housing & Neighborhoods",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-11T20:24:00.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "atlanta_business_chronicle",
-          "name": "Atlanta Business Chronicle",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYktGZTRObVJRTThCQmJMaEJYdVV3NUNGTTdaTlZJdlJ3RF8wTUJvMjlSZmdJMG5PSWlIRnRGclFhZWQ3NFVFVEIyMEdUMWNFV3M5Ry1taHRrWmZaOVBvaWd2WE1VVVRmbVloeUFMUmdlTWV2TWI1M3dWQVRackZESl9zNmI0R0hfbEwyZnZ1NkV1bUxUYXM4VTN3WFFZc2dNRGM4RWU0ejlFUQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
-        "dek": "",
-        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 53.22,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 92,
-        "shareability": 50,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 59
-      }
-    },
-    {
       "id": "8b3c22e76193d9ee04ef",
       "itemIds": [
         "291b2447387a073c77bc"
@@ -3179,6 +3083,102 @@
       }
     },
     {
+      "id": "b9b9e11ba4e8ed23ebd5",
+      "itemIds": [
+        "d6e41290c330ea7f6318"
+      ],
+      "headline": "ARC’s 2026 LINK™ Trip Explores Urban Innovation in Mexico City",
+      "summary": "More than 180 government, business, and civic leaders from metro Atlanta will travel to Mexico City this month for the Atlanta Regional Commission’s 2026 LINK™ trip. It marks the first...",
+      "category": "Business Moves",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-11T15:21:23.000Z",
+      "sourceTier": "A",
+      "sources": [
+        {
+          "sourceId": "atlanta_regional_commission",
+          "name": "Atlanta Regional Commission",
+          "tier": "A",
+          "url": "https://atlantaregional.org/news/uncategorized/arcs-2026-link-trip-explores-urban-innovation-in-mexico-city/",
+          "acquisition": "sitemap_index",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
+      "draft": {
+        "headline": "ARC’s 2026 LINK™ Trip Explores Urban Innovation in Mexico City",
+        "dek": "More than 180 government, business, and civic leaders from metro Atlanta will travel to Mexico City this month for the Atlanta Regional Commission’s 2026 LINK™ trip. It marks the first...",
+        "whatChanged": "Atlanta Regional Commission published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Company openings, leases and expansions show where business confidence and local demand are forming.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 53.1,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 89,
+        "shareability": 58,
+        "commercial": 47,
+        "evidence": 84,
+        "locality": 73
+      }
+    },
+    {
+      "id": "830e492bf43da090c6ed",
+      "itemIds": [
+        "0156caa329cabd5ee87e"
+      ],
+      "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
+      "summary": "",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-11T20:24:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_business_chronicle",
+          "name": "Atlanta Business Chronicle",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYktGZTRObVJRTThCQmJMaEJYdVV3NUNGTTdaTlZJdlJ3RF8wTUJvMjlSZmdJMG5PSWlIRnRGclFhZWQ3NFVFVEIyMEdUMWNFV3M5Ry1taHRrWmZaOVBvaWd2WE1VVVRmbVloeUFMUmdlTWV2TWI1M3dWQVRackZESl9zNmI0R0hfbEwyZnZ1NkV1bUxUYXM4VTN3WFFZc2dNRGM4RWU0ejlFUQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
+        "dek": "",
+        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 53.05,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 91,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 59
+      }
+    },
+    {
       "id": "47b9aed0333e1aef9145",
       "itemIds": [
         "c83e8c7f3cd2a9ee4b85"
@@ -3216,10 +3216,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 53.16,
+        "total": 52.99,
         "impact": 64,
         "novelty": 35,
-        "timeliness": 31,
+        "timeliness": 30,
         "shareability": 42,
         "commercial": 47,
         "evidence": 84,
@@ -3323,54 +3323,6 @@
       }
     },
     {
-      "id": "eb14315ff8277e07c454",
-      "itemIds": [
-        "379d65b1b8442ede5a26"
-      ],
-      "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
-      "summary": "",
-      "category": "Development & Infrastructure",
-      "eventType": "CONSTRUCTION",
-      "publishedAt": "2026-08-10T11:46:37.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "ajc",
-          "name": "Atlanta Journal-Constitution",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVi1tTmlUWE1DVDJNLXhtbzhDRXRTLUVXMlg1VlNpaDNIaS0yN3lPbm1BNlpObnB6NVVEbUV6Zm42WnhLNFBCYXEzS3lNQklLWVdUa2xONEwzWl9zcjN5ZXE1MDAtT0I4TWZfZFR6a3VWRURlcTl2NDF1YTZtaVBsbGQ1R1k0ZG4tVWlTaGlqVmNKZlRXcnppVF9vTXhtbFZnNVpBUG5pS3ZuMjhJZXVj?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
-        "dek": "",
-        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Major projects change the built environment, nearby business conditions and the timing of future activity.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 52.43,
-        "impact": 56,
-        "novelty": 35,
-        "timeliness": 78,
-        "shareability": 42,
-        "commercial": 47,
-        "evidence": 35,
-        "locality": 59
-      }
-    },
-    {
       "id": "db6d5d694449f60b449f",
       "itemIds": [
         "5dab9d0fca8ea2a1f535"
@@ -3416,6 +3368,54 @@
         "commercial": 47,
         "evidence": 84,
         "locality": 73
+      }
+    },
+    {
+      "id": "eb14315ff8277e07c454",
+      "itemIds": [
+        "379d65b1b8442ede5a26"
+      ],
+      "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
+      "summary": "",
+      "category": "Development & Infrastructure",
+      "eventType": "CONSTRUCTION",
+      "publishedAt": "2026-08-10T11:46:37.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVi1tTmlUWE1DVDJNLXhtbzhDRXRTLUVXMlg1VlNpaDNIaS0yN3lPbm1BNlpObnB6NVVEbUV6Zm42WnhLNFBCYXEzS3lNQklLWVdUa2xONEwzWl9zcjN5ZXE1MDAtT0I4TWZfZFR6a3VWRURlcTl2NDF1YTZtaVBsbGQ1R1k0ZG4tVWlTaGlqVmNKZlRXcnppVF9vTXhtbFZnNVpBUG5pS3ZuMjhJZXVj?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
+        "dek": "",
+        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Major projects change the built environment, nearby business conditions and the timing of future activity.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 52.26,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 77,
+        "shareability": 42,
+        "commercial": 47,
+        "evidence": 35,
+        "locality": 59
       }
     },
     {
@@ -3504,10 +3504,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 52.03,
+        "total": 51.86,
         "impact": 48,
         "novelty": 35,
-        "timeliness": 92,
+        "timeliness": 91,
         "shareability": 50,
         "commercial": 47,
         "evidence": 35,
@@ -3552,10 +3552,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 52.01,
+        "total": 51.84,
         "impact": 48,
         "novelty": 35,
-        "timeliness": 91,
+        "timeliness": 90,
         "shareability": 42,
         "commercial": 38,
         "evidence": 35,
@@ -3600,10 +3600,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.98,
+        "total": 51.81,
         "impact": 48,
         "novelty": 35,
-        "timeliness": 81,
+        "timeliness": 80,
         "shareability": 50,
         "commercial": 47,
         "evidence": 35,
@@ -3648,10 +3648,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.77,
+        "total": 51.6,
         "impact": 56,
         "novelty": 35,
-        "timeliness": 49,
+        "timeliness": 48,
         "shareability": 42,
         "commercial": 38,
         "evidence": 84,
@@ -3696,10 +3696,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 51.5,
+        "total": 51.33,
         "impact": 48,
         "novelty": 35,
-        "timeliness": 88,
+        "timeliness": 87,
         "shareability": 42,
         "commercial": 38,
         "evidence": 35,
@@ -3851,54 +3851,6 @@
       }
     },
     {
-      "id": "7243e62da85c6d720257",
-      "itemIds": [
-        "18fcae04121b948ae0e5"
-      ],
-      "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
-      "summary": "",
-      "category": "Atlanta News",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-10T09:01:27.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "ajc",
-          "name": "Atlanta Journal-Constitution",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVlNjcmsyZlhYWWNUc0hLZ0RNUkpzMHhkLU12YVB4RGttU1JPUFFCZlQxLU8yZzRBTmt5UEd3SVdDWnBfVU5pSHB4SDVmX3o4azFnOWtidTdaRjRyVng0bEJ6R3RqY01paW9DUmNGQmhLTG4zVmItdmJyUEp0S2VJOXp2N1E5b0NpNHhnS2xwSXVOUWU5TzZ5NXpsM1YxZDhWSUVUNVBR?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
-        "dek": "",
-        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 50.67,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 77,
-        "shareability": 50,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 59
-      }
-    },
-    {
       "id": "47125893c5924b465581",
       "itemIds": [
         "a18f4dfab1fb389dd98c"
@@ -3995,22 +3947,22 @@
       }
     },
     {
-      "id": "6aff090c22669bb8d82e",
+      "id": "7243e62da85c6d720257",
       "itemIds": [
-        "22fb4762a172f34b618f"
+        "18fcae04121b948ae0e5"
       ],
-      "headline": "MARTA to name permanent CEO following interviews of three finalists",
+      "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
       "summary": "",
-      "category": "Transportation & Airport",
+      "category": "Atlanta News",
       "eventType": "UPDATE",
-      "publishedAt": "2026-08-10T21:35:27.000Z",
+      "publishedAt": "2026-08-10T09:01:27.000Z",
       "sourceTier": "B",
       "sources": [
         {
-          "sourceId": "rough_draft_atlanta",
-          "name": "Rough Draft Atlanta",
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
           "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2ZU5xa0xlOFFCTzBERHJiOWhDNDdlaXNpck90NlR2WEtaVllJc3RpQktmdFAwQ2lpal8xeXRNeG1qZ3RwVXhmYkNRR0MySHg5cjJnWTVEc3FEU3BzTG1OWGJmM1laNWd4WF9wQ2lxWWxmTVpwRE1VWVh5MDQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVlNjcmsyZlhYWWNUc0hLZ0RNUkpzMHhkLU12YVB4RGttU1JPUFFCZlQxLU8yZzRBTmt5UEd3SVdDWnBfVU5pSHB4SDVmX3o4azFnOWtidTdaRjRyVng0bEJ6R3RqY01paW9DUmNGQmhLTG4zVmItdmJyUEp0S2VJOXp2N1E5b0NpNHhnS2xwSXVOUWU5TzZ5NXpsM1YxZDhWSUVUNVBR?oc=5",
           "acquisition": "google_news_rss_metadata",
           "retrievedContent": false
         }
@@ -4024,19 +3976,19 @@
       "evidenceLabel": "Unverified discovery",
       "publishable": false,
       "draft": {
-        "headline": "MARTA to name permanent CEO following interviews of three finalists",
+        "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
         "dek": "",
-        "whatChanged": "Rough Draft Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Changes to Atlanta's transportation network affect daily access, development patterns and the regional economy.",
+        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
         "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 50.48,
+        "total": 50.5,
         "impact": 48,
         "novelty": 35,
-        "timeliness": 82,
-        "shareability": 42,
+        "timeliness": 76,
+        "shareability": 50,
         "commercial": 38,
         "evidence": 35,
         "locality": 59
@@ -4091,6 +4043,54 @@
       }
     },
     {
+      "id": "6aff090c22669bb8d82e",
+      "itemIds": [
+        "22fb4762a172f34b618f"
+      ],
+      "headline": "MARTA to name permanent CEO following interviews of three finalists",
+      "summary": "",
+      "category": "Transportation & Airport",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-10T21:35:27.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "rough_draft_atlanta",
+          "name": "Rough Draft Atlanta",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2ZU5xa0xlOFFCTzBERHJiOWhDNDdlaXNpck90NlR2WEtaVllJc3RpQktmdFAwQ2lpal8xeXRNeG1qZ3RwVXhmYkNRR0MySHg5cjJnWTVEc3FEU3BzTG1OWGJmM1laNWd4WF9wQ2lxWWxmTVpwRE1VWVh5MDQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "MARTA to name permanent CEO following interviews of three finalists",
+        "dek": "",
+        "whatChanged": "Rough Draft Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Changes to Atlanta's transportation network affect daily access, development patterns and the regional economy.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 50.31,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 81,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 59
+      }
+    },
+    {
       "id": "632ef27b71f2dca5cc73",
       "itemIds": [
         "677fa04638fe422cb524"
@@ -4128,10 +4128,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 50.31,
+        "total": 50.14,
         "impact": 48,
         "novelty": 35,
-        "timeliness": 81,
+        "timeliness": 80,
         "shareability": 42,
         "commercial": 38,
         "evidence": 35,
@@ -4368,10 +4368,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 49.51,
+        "total": 49.34,
         "impact": 48,
         "novelty": 35,
-        "timeliness": 87,
+        "timeliness": 86,
         "shareability": 42,
         "commercial": 38,
         "evidence": 35,
@@ -4416,10 +4416,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 49.01,
+        "total": 48.84,
         "impact": 64,
         "novelty": 35,
-        "timeliness": 21,
+        "timeliness": 20,
         "shareability": 42,
         "commercial": 38,
         "evidence": 84,
@@ -4848,10 +4848,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 45.33,
+        "total": 45.16,
         "impact": 48,
         "novelty": 35,
-        "timeliness": 90,
+        "timeliness": 89,
         "shareability": 50,
         "commercial": 47,
         "evidence": 35,
@@ -5109,7 +5109,7 @@
     }
   ],
   "morningBrief": {
-    "generatedAt": "2026-08-12T16:26:42.936Z",
+    "generatedAt": "2026-08-12T18:34:39.099Z",
     "label": "Morning Brief",
     "itemIds": [
       "99fc3e9c500c6cc1b945",
@@ -5120,7 +5120,7 @@
     ]
   },
   "afternoonUpdate": {
-    "generatedAt": "2026-08-12T16:26:42.936Z",
+    "generatedAt": "2026-08-12T18:34:39.099Z",
     "label": "Afternoon Update",
     "itemIds": [
       "a97063ed92e0bbd8ecf7",
@@ -5135,7 +5135,7 @@
       "clusterId": "99fc3e9c500c6cc1b945",
       "headline": "Invest Atlanta and Atlanta Beltline Launch New Mortgage Assistance Program",
       "category": "Housing & Neighborhoods",
-      "score": 67.22,
+      "score": 67.05,
       "evidenceLabel": "Corroborated",
       "sourceCount": 2,
       "status": "READY_TO_REVIEW"
@@ -5186,15 +5186,6 @@
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "6a828482d821fe739705",
-      "headline": "The Atlanta Beltline is Now on TikTok!",
-      "category": "Housing & Neighborhoods",
-      "score": 62.39,
-      "evidenceLabel": "Primary-source report",
-      "sourceCount": 1,
-      "status": "READY_TO_REVIEW"
-    },
-    {
       "clusterId": "a48a7c343be62b2a365e",
       "headline": "Atlanta Housing Names Interim Chief Operating Officer Ahead of Executive Leader’s May 8th Retirement",
       "category": "Housing & Neighborhoods",
@@ -5213,6 +5204,15 @@
       "status": "READY_TO_REVIEW"
     },
     {
+      "clusterId": "6a828482d821fe739705",
+      "headline": "The Atlanta Beltline is Now on TikTok!",
+      "category": "Housing & Neighborhoods",
+      "score": 62.22,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
       "clusterId": "b1c05e21ab32f60ca452",
       "headline": "Invest Atlanta Board Approves $39 Million for Affordable Housing",
       "category": "Housing & Neighborhoods",
@@ -5225,7 +5225,7 @@
       "clusterId": "1653ceea6e15d276c2de",
       "headline": "Atlanta Beltline Breaks Ground on Overlook at Garson",
       "category": "Development & Infrastructure",
-      "score": 61.5,
+      "score": 61.33,
       "evidenceLabel": "Corroborated",
       "sourceCount": 3,
       "status": "READY_TO_REVIEW"
@@ -5258,19 +5258,19 @@
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "acb27d881cb4f7742854",
-      "headline": "Invest Atlanta's C-PACE Program Surpasses $130 Million In 2026 Financing",
-      "category": "Public Money",
+      "clusterId": "9ce67f6906e4d261b22e",
+      "headline": "Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
+      "category": "Housing & Neighborhoods",
       "score": 58.74,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "9ce67f6906e4d261b22e",
-      "headline": "Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
-      "category": "Housing & Neighborhoods",
-      "score": 58.74,
+      "clusterId": "acb27d881cb4f7742854",
+      "headline": "Invest Atlanta's C-PACE Program Surpasses $130 Million In 2026 Financing",
+      "category": "Public Money",
+      "score": 58.57,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5294,15 +5294,6 @@
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "cf97af187e63f1c2b6b8",
-      "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
-      "category": "Housing & Neighborhoods",
-      "score": 57.91,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "5d36685938fcd27ab7bc",
       "headline": "Invest Atlanta Advances New Affordable Housing Developments",
       "category": "Housing & Neighborhoods",
@@ -5319,6 +5310,15 @@
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "cf97af187e63f1c2b6b8",
+      "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
+      "category": "Housing & Neighborhoods",
+      "score": 57.74,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
     },
     {
       "clusterId": "6a8c02000eabda63e644",
@@ -5342,7 +5342,7 @@
       "clusterId": "0d86bcf25e4fa5c0b1b9",
       "headline": "Exclusive: 2nd Atlanta location of Hal’s The Steakhouse opening in Midtown",
       "category": "Business Moves",
-      "score": 56.06,
+      "score": 55.89,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5351,7 +5351,7 @@
       "clusterId": "572ea51017a41f4b3bc9",
       "headline": "Regions Bank to invest millions in namesake Midtown Atlanta office tower",
       "category": "Atlanta News",
-      "score": 53.83,
+      "score": 53.66,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5366,24 +5366,6 @@
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "b9b9e11ba4e8ed23ebd5",
-      "headline": "ARC’s 2026 LINK™ Trip Explores Urban Innovation in Mexico City",
-      "category": "Business Moves",
-      "score": 53.27,
-      "evidenceLabel": "Primary-source report",
-      "sourceCount": 1,
-      "status": "READY_TO_REVIEW"
-    },
-    {
-      "clusterId": "830e492bf43da090c6ed",
-      "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
-      "category": "Housing & Neighborhoods",
-      "score": 53.22,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "8b3c22e76193d9ee04ef",
       "headline": "Façade Improvement Grants Preserve Atlanta History",
       "category": "Public Money",
@@ -5393,10 +5375,28 @@
       "status": "READY_TO_REVIEW"
     },
     {
+      "clusterId": "b9b9e11ba4e8ed23ebd5",
+      "headline": "ARC’s 2026 LINK™ Trip Explores Urban Innovation in Mexico City",
+      "category": "Business Moves",
+      "score": 53.1,
+      "evidenceLabel": "Primary-source report",
+      "sourceCount": 1,
+      "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "830e492bf43da090c6ed",
+      "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
+      "category": "Housing & Neighborhoods",
+      "score": 53.05,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
       "clusterId": "47b9aed0333e1aef9145",
       "headline": "Atlanta Beltline to Begin Bennett Street Demolition, Advancing Future Northwest Trail",
       "category": "Transportation & Airport",
-      "score": 53.16,
+      "score": 52.99,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5420,15 +5420,6 @@
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "eb14315ff8277e07c454",
-      "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
-      "category": "Development & Infrastructure",
-      "score": 52.43,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "db6d5d694449f60b449f",
       "headline": "Strengthening Atlanta’s Small Business Ecosystem",
       "category": "Business Moves",
@@ -5436,6 +5427,15 @@
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "eb14315ff8277e07c454",
+      "headline": "From runways to highways, her Atlanta construction firm has blazed paths",
+      "category": "Development & Infrastructure",
+      "score": 52.26,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
     },
     {
       "clusterId": "b0815316231307d83473",
@@ -5450,7 +5450,7 @@
       "clusterId": "9837f8f057306b9d3d56",
       "headline": "Two major ATL developments set for marquee restaurant additions",
       "category": "Food, Retail & Hospitality",
-      "score": 52.03,
+      "score": 51.86,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5459,7 +5459,7 @@
       "clusterId": "7f5cd55308a093d6c03e",
       "headline": "POLL: Which of three finalists should MARTA pick as next leader?",
       "category": "Transportation & Airport",
-      "score": 52.01,
+      "score": 51.84,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5468,7 +5468,7 @@
       "clusterId": "ef93e2777b1f53c3f87a",
       "headline": "&pizza franchisees plan further expansion after opening of first Atlanta restaurant",
       "category": "Food, Retail & Hospitality",
-      "score": 51.98,
+      "score": 51.81,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5477,7 +5477,7 @@
       "clusterId": "298bc7e9f8f7aacb337b",
       "headline": "Pittsburgh Yards Welcomes Piedmont Mobile Health Unit Powered by Google",
       "category": "Housing & Neighborhoods",
-      "score": 51.77,
+      "score": 51.6,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5486,7 +5486,7 @@
       "clusterId": "41e47ec893cd12299bcc",
       "headline": "Five Atlanta healthcare companies using AI to cut costs, improve care",
       "category": "Atlanta News",
-      "score": 51.5,
+      "score": 51.33,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5519,15 +5519,6 @@
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "7243e62da85c6d720257",
-      "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
-      "category": "Atlanta News",
-      "score": 50.67,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "47125893c5924b465581",
       "headline": "Invest Atlanta Earns Prestigious Global Reaccreditation",
       "category": "Development & Infrastructure",
@@ -5546,10 +5537,10 @@
       "status": "NEEDS_CORROBORATION"
     },
     {
-      "clusterId": "6aff090c22669bb8d82e",
-      "headline": "MARTA to name permanent CEO following interviews of three finalists",
-      "category": "Transportation & Airport",
-      "score": 50.48,
+      "clusterId": "7243e62da85c6d720257",
+      "headline": "Empty suits aren’t welcome at Atlanta’s new bank HQ, CEO says",
+      "category": "Atlanta News",
+      "score": 50.5,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5564,10 +5555,19 @@
       "status": "READY_TO_REVIEW"
     },
     {
+      "clusterId": "6aff090c22669bb8d82e",
+      "headline": "MARTA to name permanent CEO following interviews of three finalists",
+      "category": "Transportation & Airport",
+      "score": 50.31,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
       "clusterId": "632ef27b71f2dca5cc73",
       "headline": "JLB Partners proposes Buckhead office redevelopment",
       "category": "Atlanta News",
-      "score": 50.31,
+      "score": 50.14,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5612,7 +5612,7 @@
       "clusterId": "db39ebdd13e6215cc2ae",
       "headline": "Georgia data centers use more than power and land. They need warehouse space.",
       "category": "Atlanta News",
-      "score": 49.51,
+      "score": 49.34,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5621,7 +5621,7 @@
       "clusterId": "c098b65496a7d44f7cab",
       "headline": "Dive Bars & Hidden Gems Along the Beltline",
       "category": "Housing & Neighborhoods",
-      "score": 49.01,
+      "score": 48.84,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
@@ -5702,7 +5702,7 @@
       "clusterId": "b1d2442a519582fe8855",
       "headline": "Restaurant roundup: Hal's to open in Midtown, Go Greek arrives in Atlanta",
       "category": "Food, Retail & Hospitality",
-      "score": 45.33,
+      "score": 45.16,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
