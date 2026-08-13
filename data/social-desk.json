@@ -1,7 +1,7 @@
 {
   "schemaVersion": "atlsignal_social_desk_v2",
-  "generatedAt": "2026-08-13T17:03:55.989Z",
-  "basedOnNewsroomRun": "2026-08-13T17:03:55.989Z",
+  "generatedAt": "2026-08-13T17:13:35.294Z",
+  "basedOnNewsroomRun": "2026-08-13T17:13:35.294Z",
   "timezone": "America/New_York",
   "calendarStart": "2026-08-13",
   "calendarEnd": "2026-08-20",
@@ -439,7 +439,7 @@
       "holdReasons": [],
       "humanPresenceRequired": false,
       "franchise": "The Receipt",
-      "category": "Events & Things To Do",
+      "category": "Transportation & Economy",
       "evidenceLabel": "Primary-source report",
       "headline": "Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
       "hook": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
@@ -453,7 +453,7 @@
       ],
       "editorialBoundary": {
         "confirmed": "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....",
-        "whyItMatters": "A reliable city calendar helps Atlantans decide where to spend their time and money now.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
         "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
@@ -507,7 +507,7 @@
           "slide": 3,
           "label": "Why it matters",
           "heading": "The consequence",
-          "body": "A reliable city calendar helps Atlantans decide where to spend their time and money now."
+          "body": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta."
         },
         {
           "slide": 4,
@@ -532,17 +532,17 @@
         "instagram": {
           "publishAt": "2026-08-14T22:35:00.000Z",
           "format": "CAROUSEL",
-          "caption": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show\n\nThe 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....\n\nWhy it matters: A reliable city calendar helps Atlantans decide where to spend their time and money now.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/3e98246dd9d891078ccb\n\nWhat should ATLSignal verify next?",
+          "caption": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show\n\nThe 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/3e98246dd9d891078ccb\n\nWhich route or project should we check next?",
           "storyFrames": [
             "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
             "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population…",
-            "What should ATLSignal verify next? Read: https://mikeintech.github.io/atlsignal/file/3e98246dd9d891078ccb"
+            "Which route or project should we check next? Read: https://mikeintech.github.io/atlsignal/file/3e98246dd9d891078ccb"
           ]
         },
         "threads": {
           "publishOffsetMinutes": 12,
           "post": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show\n\nThe 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....\n\nReceipt: Atlanta Regional Commission. https://mikeintech.github.io/atlsignal/file/3e98246dd9d891078ccb",
-          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhat should ATLSignal verify next?"
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich route or project should we check next?"
         }
       },
       "measurement": {
@@ -1480,30 +1480,30 @@
       }
     },
     {
-      "packageId": "91b955aa6073b5700dd8",
-      "storyId": "213c4233a463753e7f91",
-      "idempotencyKey": "atlsignal:213c4233a463753e7f91:social-v2",
+      "packageId": "071003618af485fc0c40",
+      "storyId": "e740e296a1c1767be57a",
+      "idempotencyKey": "atlsignal:e740e296a1c1767be57a:social-v2",
       "scheduledFor": "2026-08-17T16:15:00.000Z",
       "localSlot": "2026-08-17 12:15 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
       "franchise": "From the File",
-      "category": "Transportation & Economy",
+      "category": "Housing & Neighborhoods",
       "evidenceLabel": "Primary-source report",
-      "headline": "It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
-      "hook": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
-      "articleUrl": "https://mikeintech.github.io/atlsignal/file/213c4233a463753e7f91",
+      "headline": "Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand Workforce Services for Residents",
+      "hook": "From the file: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…",
+      "articleUrl": "https://mikeintech.github.io/atlsignal/file/e740e296a1c1767be57a",
       "sources": [
         {
-          "name": "Atlanta Regional Commission",
-          "url": "https://atlantaregional.org/news/natural-resources/it-rained-buckets-in-may-are-our-water-worries-behind-us-not-just-yet/",
+          "name": "Atlanta Housing",
+          "url": "https://www.atlantahousing.org/atlanta-housing-and-goodwill-of-north-georgia-deepen-partnership-to-expand-workforce-services-for-residents/",
           "tier": "A"
         }
       ],
       "editorialBoundary": {
-        "confirmed": "From a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –...",
-        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "confirmed": "Collaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the...",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
         "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
@@ -1514,56 +1514,50 @@
         "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
         "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
         "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
-        "sourceMedia": [
-          {
-            "url": "https://atlantaregional.org/wp-content/uploads/water-levels.png",
-            "source": "Atlanta Regional Commission",
-            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
-          }
-        ],
-        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
-        "altText": "From the File explainer about It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet, with the source status and next milestone shown in ATLSignal graphics.",
+        "sourceMedia": [],
+        "mediaRule": "Use the original graphic plan; no third-party image is required.",
+        "altText": "From the File explainer about Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand Workforce Services for Residents, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/91b955aa6073b5700dd8/1",
-          "https://mikeintech.github.io/atlsignal/social-card/91b955aa6073b5700dd8/2",
-          "https://mikeintech.github.io/atlsignal/social-card/91b955aa6073b5700dd8/3",
-          "https://mikeintech.github.io/atlsignal/social-card/91b955aa6073b5700dd8/4",
-          "https://mikeintech.github.io/atlsignal/social-card/91b955aa6073b5700dd8/5",
-          "https://mikeintech.github.io/atlsignal/social-card/91b955aa6073b5700dd8/6"
+          "https://mikeintech.github.io/atlsignal/social-card/071003618af485fc0c40/1",
+          "https://mikeintech.github.io/atlsignal/social-card/071003618af485fc0c40/2",
+          "https://mikeintech.github.io/atlsignal/social-card/071003618af485fc0c40/3",
+          "https://mikeintech.github.io/atlsignal/social-card/071003618af485fc0c40/4",
+          "https://mikeintech.github.io/atlsignal/social-card/071003618af485fc0c40/5",
+          "https://mikeintech.github.io/atlsignal/social-card/071003618af485fc0c40/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/91b955aa6073b5700dd8/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/91b955aa6073b5700dd8/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/91b955aa6073b5700dd8/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/91b955aa6073b5700dd8/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/91b955aa6073b5700dd8/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/91b955aa6073b5700dd8/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/071003618af485fc0c40/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/071003618af485fc0c40/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/071003618af485fc0c40/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/071003618af485fc0c40/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/071003618af485fc0c40/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/071003618af485fc0c40/6.jpg"
         ]
       },
       "carousel": [
         {
           "slide": 1,
           "label": "From the File",
-          "heading": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
+          "heading": "From the file: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…",
           "body": "Atlanta, explained from the receipts."
         },
         {
           "slide": 2,
           "label": "What changed",
           "heading": "The signal",
-          "body": "From a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –..."
+          "body": "Collaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the..."
         },
         {
           "slide": 3,
           "label": "Why it matters",
           "heading": "The consequence",
-          "body": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta."
+          "body": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands."
         },
         {
           "slide": 4,
           "label": "The receipt",
           "heading": "Primary-source report",
-          "body": "Source trail: Atlanta Regional Commission."
+          "body": "Source trail: Atlanta Housing."
         },
         {
           "slide": 5,
@@ -1582,22 +1576,22 @@
         "instagram": {
           "publishAt": "2026-08-17T16:15:00.000Z",
           "format": "CAROUSEL",
-          "caption": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet\n\nFrom a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –...\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/213c4233a463753e7f91\n\nWhich route or project should we check next?",
+          "caption": "From the file: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…\n\nCollaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the...\n\nWhy it matters: Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Housing. Full context and source trail: https://mikeintech.github.io/atlsignal/file/e740e296a1c1767be57a\n\nWhich housing commitment should ATLSignal track through delivery?",
           "storyFrames": [
-            "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
-            "From a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous…",
-            "Which route or project should we check next? Read: https://mikeintech.github.io/atlsignal/file/213c4233a463753e7f91"
+            "From the file: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…",
+            "Collaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta…",
+            "Which housing commitment should ATLSignal track through delivery? Read: https://mikeintech.github.io/atlsignal/file/e740e296a1c1767be57a"
           ]
         },
         "threads": {
           "publishOffsetMinutes": 12,
-          "post": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet\n\nFrom a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –...\n\nReceipt: Atlanta Regional Commission. https://mikeintech.github.io/atlsignal/file/213c4233a463753e7f91",
-          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich route or project should we check next?"
+          "post": "From the file: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…\n\nCollaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the...\n\nReceipt: Atlanta Housing. https://mikeintech.github.io/atlsignal/file/e740e296a1c1767be57a",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich housing commitment should ATLSignal track through delivery?"
         }
       },
       "measurement": {
         "campaign": "social_20260817",
-        "content": "from_the_file_213c4233",
+        "content": "from_the_file_e740e296",
         "primary": [
           "shares_per_reach",
           "saves_per_reach",
@@ -1744,269 +1738,11 @@
       }
     },
     {
-      "packageId": "664fd40b7e42d51c64c9",
-      "storyId": "e740e296a1c1767be57a",
-      "idempotencyKey": "atlsignal:e740e296a1c1767be57a:social-v2",
-      "scheduledFor": "2026-08-18T11:35:00.000Z",
-      "localSlot": "2026-08-18 07:35 ET",
-      "status": "AUTO_READY",
-      "holdReasons": [],
-      "humanPresenceRequired": false,
-      "franchise": "The Receipt",
-      "category": "Housing & Neighborhoods",
-      "evidenceLabel": "Primary-source report",
-      "headline": "Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand Workforce Services for Residents",
-      "hook": "Here’s the receipt: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…",
-      "articleUrl": "https://mikeintech.github.io/atlsignal/file/e740e296a1c1767be57a",
-      "sources": [
-        {
-          "name": "Atlanta Housing",
-          "url": "https://www.atlantahousing.org/atlanta-housing-and-goodwill-of-north-georgia-deepen-partnership-to-expand-workforce-services-for-residents/",
-          "tier": "A"
-        }
-      ],
-      "editorialBoundary": {
-        "confirmed": "Collaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the...",
-        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "production": {
-        "format": "CAROUSEL_4X5",
-        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
-        "assetStatus": "GENERATED",
-        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
-        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
-        "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
-        "sourceMedia": [],
-        "mediaRule": "Use the original graphic plan; no third-party image is required.",
-        "altText": "The Receipt explainer about Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand Workforce Services for Residents, with the source status and next milestone shown in ATLSignal graphics.",
-        "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/664fd40b7e42d51c64c9/1",
-          "https://mikeintech.github.io/atlsignal/social-card/664fd40b7e42d51c64c9/2",
-          "https://mikeintech.github.io/atlsignal/social-card/664fd40b7e42d51c64c9/3",
-          "https://mikeintech.github.io/atlsignal/social-card/664fd40b7e42d51c64c9/4",
-          "https://mikeintech.github.io/atlsignal/social-card/664fd40b7e42d51c64c9/5",
-          "https://mikeintech.github.io/atlsignal/social-card/664fd40b7e42d51c64c9/6"
-        ],
-        "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/664fd40b7e42d51c64c9/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/664fd40b7e42d51c64c9/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/664fd40b7e42d51c64c9/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/664fd40b7e42d51c64c9/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/664fd40b7e42d51c64c9/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/664fd40b7e42d51c64c9/6.jpg"
-        ]
-      },
-      "carousel": [
-        {
-          "slide": 1,
-          "label": "The Receipt",
-          "heading": "Here’s the receipt: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…",
-          "body": "Atlanta, explained from the receipts."
-        },
-        {
-          "slide": 2,
-          "label": "What changed",
-          "heading": "The signal",
-          "body": "Collaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the..."
-        },
-        {
-          "slide": 3,
-          "label": "Why it matters",
-          "heading": "The consequence",
-          "body": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands."
-        },
-        {
-          "slide": 4,
-          "label": "The receipt",
-          "heading": "Primary-source report",
-          "body": "Source trail: Atlanta Housing."
-        },
-        {
-          "slide": 5,
-          "label": "Not confirmed",
-          "heading": "What we still need",
-          "body": "Independent corroboration and later outcome evidence remain outstanding."
-        },
-        {
-          "slide": 6,
-          "label": "Track it",
-          "heading": "The next signal",
-          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-        }
-      ],
-      "platforms": {
-        "instagram": {
-          "publishAt": "2026-08-18T11:35:00.000Z",
-          "format": "CAROUSEL",
-          "caption": "Here’s the receipt: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…\n\nCollaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the...\n\nWhy it matters: Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Housing. Full context and source trail: https://mikeintech.github.io/atlsignal/file/e740e296a1c1767be57a\n\nWhich housing commitment should ATLSignal track through delivery?",
-          "storyFrames": [
-            "Here’s the receipt: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…",
-            "Collaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta…",
-            "Which housing commitment should ATLSignal track through delivery? Read: https://mikeintech.github.io/atlsignal/file/e740e296a1c1767be57a"
-          ]
-        },
-        "threads": {
-          "publishOffsetMinutes": 12,
-          "post": "Here’s the receipt: Atlanta Housing and Goodwill of North Georgia Deepen Partnership to Expand…\n\nCollaboration connects residents to free career coaching, training pathways and employer networks. ATLANTA — Atlanta Housing and Goodwill of North Georgia today announced the...\n\nReceipt: Atlanta Housing. https://mikeintech.github.io/atlsignal/file/e740e296a1c1767be57a",
-          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich housing commitment should ATLSignal track through delivery?"
-        }
-      },
-      "measurement": {
-        "campaign": "social_20260818",
-        "content": "the_receipt_e740e296",
-        "primary": [
-          "shares_per_reach",
-          "saves_per_reach",
-          "qualified_questions",
-          "newsletter_signups"
-        ],
-        "secondary": [
-          "reel_completion",
-          "profile_to_site_clicks",
-          "follows"
-        ]
-      }
-    },
-    {
-      "packageId": "742535af4c271590b682",
-      "storyId": "8b3c22e76193d9ee04ef",
-      "idempotencyKey": "atlsignal:8b3c22e76193d9ee04ef:social-v2",
-      "scheduledFor": "2026-08-18T16:15:00.000Z",
-      "localSlot": "2026-08-18 12:15 ET",
-      "status": "AUTO_READY",
-      "holdReasons": [],
-      "humanPresenceRequired": false,
-      "franchise": "Atlanta Then / Now",
-      "category": "Business & Economy",
-      "evidenceLabel": "Primary-source report",
-      "headline": "Façade Improvement Grants Preserve Atlanta History",
-      "hook": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
-      "articleUrl": "https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef",
-      "sources": [
-        {
-          "name": "Invest Atlanta",
-          "url": "https://www.investatlanta.com/impact-insights/facade-improvement-grants-preserve-atlanta-history",
-          "tier": "A"
-        }
-      ],
-      "editorialBoundary": {
-        "confirmed": "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.",
-        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "production": {
-        "format": "CAROUSEL_4X5",
-        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
-        "assetStatus": "GENERATED",
-        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
-        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
-        "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
-        "sourceMedia": [
-          {
-            "url": "https://www.investatlanta.com/uploads/resources/muses_nMvKNDq.jpeg",
-            "source": "Invest Atlanta",
-            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
-          }
-        ],
-        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
-        "altText": "Atlanta Then / Now explainer about Façade Improvement Grants Preserve Atlanta History, with the source status and next milestone shown in ATLSignal graphics.",
-        "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/742535af4c271590b682/1",
-          "https://mikeintech.github.io/atlsignal/social-card/742535af4c271590b682/2",
-          "https://mikeintech.github.io/atlsignal/social-card/742535af4c271590b682/3",
-          "https://mikeintech.github.io/atlsignal/social-card/742535af4c271590b682/4",
-          "https://mikeintech.github.io/atlsignal/social-card/742535af4c271590b682/5",
-          "https://mikeintech.github.io/atlsignal/social-card/742535af4c271590b682/6"
-        ],
-        "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/742535af4c271590b682/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/742535af4c271590b682/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/742535af4c271590b682/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/742535af4c271590b682/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/742535af4c271590b682/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/742535af4c271590b682/6.jpg"
-        ]
-      },
-      "carousel": [
-        {
-          "slide": 1,
-          "label": "Atlanta Then / Now",
-          "heading": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
-          "body": "Atlanta, explained from the receipts."
-        },
-        {
-          "slide": 2,
-          "label": "What changed",
-          "heading": "The signal",
-          "body": "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration…"
-        },
-        {
-          "slide": 3,
-          "label": "Why it matters",
-          "heading": "The consequence",
-          "body": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta."
-        },
-        {
-          "slide": 4,
-          "label": "The receipt",
-          "heading": "Primary-source report",
-          "body": "Source trail: Invest Atlanta."
-        },
-        {
-          "slide": 5,
-          "label": "Not confirmed",
-          "heading": "What we still need",
-          "body": "Independent corroboration and later outcome evidence remain outstanding."
-        },
-        {
-          "slide": 6,
-          "label": "Track it",
-          "heading": "The next signal",
-          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-        }
-      ],
-      "platforms": {
-        "instagram": {
-          "publishAt": "2026-08-18T16:15:00.000Z",
-          "format": "CAROUSEL",
-          "caption": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History\n\nThe Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef\n\nWhich Atlanta business move should be on our watchlist?",
-          "storyFrames": [
-            "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
-            "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation…",
-            "Which Atlanta business move should be on our watchlist? Read: https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef"
-          ]
-        },
-        "threads": {
-          "publishOffsetMinutes": 12,
-          "post": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History\n\nThe Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.\n\nReceipt: Invest Atlanta. https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef",
-          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich Atlanta business move should be on our watchlist?"
-        }
-      },
-      "measurement": {
-        "campaign": "social_20260818",
-        "content": "atlanta_then_now_8b3c22e7",
-        "primary": [
-          "shares_per_reach",
-          "saves_per_reach",
-          "qualified_questions",
-          "newsletter_signups"
-        ],
-        "secondary": [
-          "reel_completion",
-          "profile_to_site_clicks",
-          "follows"
-        ]
-      }
-    },
-    {
-      "packageId": "a5b88cb88dd6be4dbb0e",
+      "packageId": "d64f46eb46fc43943056",
       "storyId": "1653ceea6e15d276c2de",
       "idempotencyKey": "atlsignal:1653ceea6e15d276c2de:social-v2",
-      "scheduledFor": "2026-08-18T22:35:00.000Z",
-      "localSlot": "2026-08-18 18:35 ET",
+      "scheduledFor": "2026-08-18T11:35:00.000Z",
+      "localSlot": "2026-08-18 07:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -2061,20 +1797,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "The Signal explainer about Atlanta Beltline Breaks Ground on Overlook at Garson, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/a5b88cb88dd6be4dbb0e/1",
-          "https://mikeintech.github.io/atlsignal/social-card/a5b88cb88dd6be4dbb0e/2",
-          "https://mikeintech.github.io/atlsignal/social-card/a5b88cb88dd6be4dbb0e/3",
-          "https://mikeintech.github.io/atlsignal/social-card/a5b88cb88dd6be4dbb0e/4",
-          "https://mikeintech.github.io/atlsignal/social-card/a5b88cb88dd6be4dbb0e/5",
-          "https://mikeintech.github.io/atlsignal/social-card/a5b88cb88dd6be4dbb0e/6"
+          "https://mikeintech.github.io/atlsignal/social-card/d64f46eb46fc43943056/1",
+          "https://mikeintech.github.io/atlsignal/social-card/d64f46eb46fc43943056/2",
+          "https://mikeintech.github.io/atlsignal/social-card/d64f46eb46fc43943056/3",
+          "https://mikeintech.github.io/atlsignal/social-card/d64f46eb46fc43943056/4",
+          "https://mikeintech.github.io/atlsignal/social-card/d64f46eb46fc43943056/5",
+          "https://mikeintech.github.io/atlsignal/social-card/d64f46eb46fc43943056/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/a5b88cb88dd6be4dbb0e/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a5b88cb88dd6be4dbb0e/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a5b88cb88dd6be4dbb0e/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a5b88cb88dd6be4dbb0e/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a5b88cb88dd6be4dbb0e/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a5b88cb88dd6be4dbb0e/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/d64f46eb46fc43943056/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d64f46eb46fc43943056/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d64f46eb46fc43943056/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d64f46eb46fc43943056/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d64f46eb46fc43943056/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d64f46eb46fc43943056/6.jpg"
         ]
       },
       "carousel": [
@@ -2117,7 +1853,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-18T22:35:00.000Z",
+          "publishAt": "2026-08-18T11:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "BeltLine-backed Overlook at Garson moves from plan to construction\n\nAtlanta BeltLine and Atlanta Housing marked the start of construction on Overlook at Garson, an affordable-housing development near Lindbergh.\n\nWhy it matters: The groundbreaking changes the story from a plan into an observable delivery milestone near major transportation and commercial corridors.\n\nWhat remains unknown: The milestone does not establish every deadline, final lease-up date, downstream contract or neighborhood effect.\n\nSources: Atlanta BeltLine and Atlanta Housing. Full context and source trail: https://mikeintech.github.io/atlsignal/beltline-overlook-at-garson-affordable-housing\n\nWhat should ATLSignal verify next?",
           "storyFrames": [
@@ -2149,29 +1885,29 @@
       }
     },
     {
-      "packageId": "26b23b397acef2160ec2",
-      "storyId": "dfa11dedbdd11c4de548",
-      "idempotencyKey": "atlsignal:dfa11dedbdd11c4de548:social-v2",
-      "scheduledFor": "2026-08-19T11:35:00.000Z",
-      "localSlot": "2026-08-19 07:35 ET",
+      "packageId": "b36bc0a56eb39c9ca6d6",
+      "storyId": "213c4233a463753e7f91",
+      "idempotencyKey": "atlsignal:213c4233a463753e7f91:social-v2",
+      "scheduledFor": "2026-08-18T16:15:00.000Z",
+      "localSlot": "2026-08-18 12:15 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
-      "franchise": "The Receipt",
+      "franchise": "From the File",
       "category": "Transportation & Economy",
       "evidenceLabel": "Primary-source report",
-      "headline": "From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation",
-      "hook": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation",
-      "articleUrl": "https://mikeintech.github.io/atlsignal/file/dfa11dedbdd11c4de548",
+      "headline": "It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
+      "hook": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
+      "articleUrl": "https://mikeintech.github.io/atlsignal/file/213c4233a463753e7f91",
       "sources": [
         {
           "name": "Atlanta Regional Commission",
-          "url": "https://atlantaregional.org/news/community-development/from-drive-through-to-drive-to-avondale-estates-transformation/",
+          "url": "https://atlantaregional.org/news/natural-resources/it-rained-buckets-in-may-are-our-water-worries-behind-us-not-just-yet/",
           "tier": "A"
         }
       ],
       "editorialBoundary": {
-        "confirmed": "Avondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped potential. In 2014,...",
+        "confirmed": "From a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –...",
         "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
         "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
@@ -2185,42 +1921,42 @@
         "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
         "sourceMedia": [
           {
-            "url": "https://atlantaregional.org/wp-content/uploads/avondale-lci-5.png",
+            "url": "https://atlantaregional.org/wp-content/uploads/water-levels.png",
             "source": "Atlanta Regional Commission",
             "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
           }
         ],
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
-        "altText": "The Receipt explainer about From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation, with the source status and next milestone shown in ATLSignal graphics.",
+        "altText": "From the File explainer about It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/26b23b397acef2160ec2/1",
-          "https://mikeintech.github.io/atlsignal/social-card/26b23b397acef2160ec2/2",
-          "https://mikeintech.github.io/atlsignal/social-card/26b23b397acef2160ec2/3",
-          "https://mikeintech.github.io/atlsignal/social-card/26b23b397acef2160ec2/4",
-          "https://mikeintech.github.io/atlsignal/social-card/26b23b397acef2160ec2/5",
-          "https://mikeintech.github.io/atlsignal/social-card/26b23b397acef2160ec2/6"
+          "https://mikeintech.github.io/atlsignal/social-card/b36bc0a56eb39c9ca6d6/1",
+          "https://mikeintech.github.io/atlsignal/social-card/b36bc0a56eb39c9ca6d6/2",
+          "https://mikeintech.github.io/atlsignal/social-card/b36bc0a56eb39c9ca6d6/3",
+          "https://mikeintech.github.io/atlsignal/social-card/b36bc0a56eb39c9ca6d6/4",
+          "https://mikeintech.github.io/atlsignal/social-card/b36bc0a56eb39c9ca6d6/5",
+          "https://mikeintech.github.io/atlsignal/social-card/b36bc0a56eb39c9ca6d6/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/26b23b397acef2160ec2/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/26b23b397acef2160ec2/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/26b23b397acef2160ec2/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/26b23b397acef2160ec2/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/26b23b397acef2160ec2/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/26b23b397acef2160ec2/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/b36bc0a56eb39c9ca6d6/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/b36bc0a56eb39c9ca6d6/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/b36bc0a56eb39c9ca6d6/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/b36bc0a56eb39c9ca6d6/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/b36bc0a56eb39c9ca6d6/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/b36bc0a56eb39c9ca6d6/6.jpg"
         ]
       },
       "carousel": [
         {
           "slide": 1,
-          "label": "The Receipt",
-          "heading": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation",
+          "label": "From the File",
+          "heading": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
           "body": "Atlanta, explained from the receipts."
         },
         {
           "slide": 2,
           "label": "What changed",
           "heading": "The signal",
-          "body": "Avondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped…"
+          "body": "From a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –..."
         },
         {
           "slide": 3,
@@ -2249,24 +1985,24 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-19T11:35:00.000Z",
+          "publishAt": "2026-08-18T16:15:00.000Z",
           "format": "CAROUSEL",
-          "caption": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation\n\nAvondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped potential. In 2014,...\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/dfa11dedbdd11c4de548\n\nWhich route or project should we check next?",
+          "caption": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet\n\nFrom a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –...\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/213c4233a463753e7f91\n\nWhich route or project should we check next?",
           "storyFrames": [
-            "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation",
-            "Avondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County…",
-            "Which route or project should we check next? Read: https://mikeintech.github.io/atlsignal/file/dfa11dedbdd11c4de548"
+            "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
+            "From a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous…",
+            "Which route or project should we check next? Read: https://mikeintech.github.io/atlsignal/file/213c4233a463753e7f91"
           ]
         },
         "threads": {
           "publishOffsetMinutes": 12,
-          "post": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation\n\nAvondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped potential. In 2014,...\n\nReceipt: Atlanta Regional Commission. https://mikeintech.github.io/atlsignal/file/dfa11dedbdd11c4de548",
+          "post": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet\n\nFrom a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –...\n\nReceipt: Atlanta Regional Commission. https://mikeintech.github.io/atlsignal/file/213c4233a463753e7f91",
           "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich route or project should we check next?"
         }
       },
       "measurement": {
-        "campaign": "social_20260819",
-        "content": "the_receipt_dfa11ded",
+        "campaign": "social_20260818",
+        "content": "from_the_file_213c4233",
         "primary": [
           "shares_per_reach",
           "saves_per_reach",
@@ -2281,143 +2017,11 @@
       }
     },
     {
-      "packageId": "173b7147a69aa172e76f",
-      "storyId": "f6be2de676d428d3b21d",
-      "idempotencyKey": "atlsignal:f6be2de676d428d3b21d:social-v2",
-      "scheduledFor": "2026-08-19T16:15:00.000Z",
-      "localSlot": "2026-08-19 12:15 ET",
-      "status": "AUTO_READY",
-      "holdReasons": [],
-      "humanPresenceRequired": false,
-      "franchise": "From the File",
-      "category": "Food, Retail & Hospitality",
-      "evidenceLabel": "Primary-source report",
-      "headline": "A Peek Inside New Azalea Fresh Market Location",
-      "hook": "From the file: A Peek Inside New Azalea Fresh Market Location",
-      "articleUrl": "https://mikeintech.github.io/atlsignal/file/f6be2de676d428d3b21d",
-      "sources": [
-        {
-          "name": "Invest Atlanta",
-          "url": "https://www.investatlanta.com/impact-insights/a-peek-inside-new-azalea-fresh-market-location",
-          "tier": "A"
-        }
-      ],
-      "editorialBoundary": {
-        "confirmed": "The Azalea Fresh Market is helping to pioneer a transformative municipal market model.",
-        "whyItMatters": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "production": {
-        "format": "CAROUSEL_4X5",
-        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
-        "assetStatus": "GENERATED",
-        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
-        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
-        "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
-        "sourceMedia": [
-          {
-            "url": "https://www.investatlanta.com/uploads/resources/_05a3414_j3V3LrW.jpg",
-            "source": "Invest Atlanta",
-            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
-          }
-        ],
-        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
-        "altText": "From the File explainer about A Peek Inside New Azalea Fresh Market Location, with the source status and next milestone shown in ATLSignal graphics.",
-        "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/173b7147a69aa172e76f/1",
-          "https://mikeintech.github.io/atlsignal/social-card/173b7147a69aa172e76f/2",
-          "https://mikeintech.github.io/atlsignal/social-card/173b7147a69aa172e76f/3",
-          "https://mikeintech.github.io/atlsignal/social-card/173b7147a69aa172e76f/4",
-          "https://mikeintech.github.io/atlsignal/social-card/173b7147a69aa172e76f/5",
-          "https://mikeintech.github.io/atlsignal/social-card/173b7147a69aa172e76f/6"
-        ],
-        "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/173b7147a69aa172e76f/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/173b7147a69aa172e76f/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/173b7147a69aa172e76f/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/173b7147a69aa172e76f/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/173b7147a69aa172e76f/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/173b7147a69aa172e76f/6.jpg"
-        ]
-      },
-      "carousel": [
-        {
-          "slide": 1,
-          "label": "From the File",
-          "heading": "From the file: A Peek Inside New Azalea Fresh Market Location",
-          "body": "Atlanta, explained from the receipts."
-        },
-        {
-          "slide": 2,
-          "label": "What changed",
-          "heading": "The signal",
-          "body": "The Azalea Fresh Market is helping to pioneer a transformative municipal market model."
-        },
-        {
-          "slide": 3,
-          "label": "Why it matters",
-          "heading": "The consequence",
-          "body": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing."
-        },
-        {
-          "slide": 4,
-          "label": "The receipt",
-          "heading": "Primary-source report",
-          "body": "Source trail: Invest Atlanta."
-        },
-        {
-          "slide": 5,
-          "label": "Not confirmed",
-          "heading": "What we still need",
-          "body": "Independent corroboration and later outcome evidence remain outstanding."
-        },
-        {
-          "slide": 6,
-          "label": "Track it",
-          "heading": "The next signal",
-          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-        }
-      ],
-      "platforms": {
-        "instagram": {
-          "publishAt": "2026-08-19T16:15:00.000Z",
-          "format": "CAROUSEL",
-          "caption": "From the file: A Peek Inside New Azalea Fresh Market Location\n\nThe Azalea Fresh Market is helping to pioneer a transformative municipal market model.\n\nWhy it matters: Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/f6be2de676d428d3b21d\n\nWhich Atlanta business move should be on our watchlist?",
-          "storyFrames": [
-            "From the file: A Peek Inside New Azalea Fresh Market Location",
-            "The Azalea Fresh Market is helping to pioneer a transformative municipal market model.",
-            "Which Atlanta business move should be on our watchlist? Read: https://mikeintech.github.io/atlsignal/file/f6be2de676d428d3b21d"
-          ]
-        },
-        "threads": {
-          "publishOffsetMinutes": 12,
-          "post": "From the file: A Peek Inside New Azalea Fresh Market Location\n\nThe Azalea Fresh Market is helping to pioneer a transformative municipal market model.\n\nReceipt: Invest Atlanta. https://mikeintech.github.io/atlsignal/file/f6be2de676d428d3b21d",
-          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich Atlanta business move should be on our watchlist?"
-        }
-      },
-      "measurement": {
-        "campaign": "social_20260819",
-        "content": "from_the_file_f6be2de6",
-        "primary": [
-          "shares_per_reach",
-          "saves_per_reach",
-          "qualified_questions",
-          "newsletter_signups"
-        ],
-        "secondary": [
-          "reel_completion",
-          "profile_to_site_clicks",
-          "follows"
-        ]
-      }
-    },
-    {
-      "packageId": "a48d027b934dc18bd0e9",
+      "packageId": "b8922549572637549ca9",
       "storyId": "163ecb6c04de2680150d",
       "idempotencyKey": "atlsignal:163ecb6c04de2680150d:social-v2",
-      "scheduledFor": "2026-08-19T22:35:00.000Z",
-      "localSlot": "2026-08-19 18:35 ET",
+      "scheduledFor": "2026-08-18T22:35:00.000Z",
+      "localSlot": "2026-08-18 18:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -2457,20 +2061,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "Opening Watch explainer about Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/a48d027b934dc18bd0e9/1",
-          "https://mikeintech.github.io/atlsignal/social-card/a48d027b934dc18bd0e9/2",
-          "https://mikeintech.github.io/atlsignal/social-card/a48d027b934dc18bd0e9/3",
-          "https://mikeintech.github.io/atlsignal/social-card/a48d027b934dc18bd0e9/4",
-          "https://mikeintech.github.io/atlsignal/social-card/a48d027b934dc18bd0e9/5",
-          "https://mikeintech.github.io/atlsignal/social-card/a48d027b934dc18bd0e9/6"
+          "https://mikeintech.github.io/atlsignal/social-card/b8922549572637549ca9/1",
+          "https://mikeintech.github.io/atlsignal/social-card/b8922549572637549ca9/2",
+          "https://mikeintech.github.io/atlsignal/social-card/b8922549572637549ca9/3",
+          "https://mikeintech.github.io/atlsignal/social-card/b8922549572637549ca9/4",
+          "https://mikeintech.github.io/atlsignal/social-card/b8922549572637549ca9/5",
+          "https://mikeintech.github.io/atlsignal/social-card/b8922549572637549ca9/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/a48d027b934dc18bd0e9/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a48d027b934dc18bd0e9/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a48d027b934dc18bd0e9/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a48d027b934dc18bd0e9/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a48d027b934dc18bd0e9/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a48d027b934dc18bd0e9/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/b8922549572637549ca9/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/b8922549572637549ca9/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/b8922549572637549ca9/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/b8922549572637549ca9/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/b8922549572637549ca9/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/b8922549572637549ca9/6.jpg"
         ]
       },
       "carousel": [
@@ -2513,7 +2117,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-19T22:35:00.000Z",
+          "publishAt": "2026-08-18T22:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "Opening watch: Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations\n\nSwiftly Vintage is the creative vision of Donna Lindsey and a pursuit more than a decade in the making. Inspired by her extensive travels, the boutique pop-up store in South Downtown features an exclusive collection of vintage clothing, accessories and home décor that Donna has sourced and curated from around the world.\n\nWhy it matters: Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/163ecb6c04de2680150d\n\nWhich Atlanta business move should be on our watchlist?",
           "storyFrames": [
@@ -2529,7 +2133,7 @@
         }
       },
       "measurement": {
-        "campaign": "social_20260819",
+        "campaign": "social_20260818",
         "content": "opening_watch_163ecb6c",
         "primary": [
           "shares_per_reach",
@@ -2545,11 +2149,11 @@
       }
     },
     {
-      "packageId": "02017abb04cf9da3fde6",
+      "packageId": "a14f007047643fa5b8aa",
       "storyId": "a7d1a013b1faada61611",
       "idempotencyKey": "atlsignal:a7d1a013b1faada61611:social-v2",
-      "scheduledFor": "2026-08-20T11:35:00.000Z",
-      "localSlot": "2026-08-20 07:35 ET",
+      "scheduledFor": "2026-08-19T11:35:00.000Z",
+      "localSlot": "2026-08-19 07:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -2589,20 +2193,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "$ATL explainer about TAD Grant Supports New Andrew Young International Institute for Peace and Reconciliation, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/02017abb04cf9da3fde6/1",
-          "https://mikeintech.github.io/atlsignal/social-card/02017abb04cf9da3fde6/2",
-          "https://mikeintech.github.io/atlsignal/social-card/02017abb04cf9da3fde6/3",
-          "https://mikeintech.github.io/atlsignal/social-card/02017abb04cf9da3fde6/4",
-          "https://mikeintech.github.io/atlsignal/social-card/02017abb04cf9da3fde6/5",
-          "https://mikeintech.github.io/atlsignal/social-card/02017abb04cf9da3fde6/6"
+          "https://mikeintech.github.io/atlsignal/social-card/a14f007047643fa5b8aa/1",
+          "https://mikeintech.github.io/atlsignal/social-card/a14f007047643fa5b8aa/2",
+          "https://mikeintech.github.io/atlsignal/social-card/a14f007047643fa5b8aa/3",
+          "https://mikeintech.github.io/atlsignal/social-card/a14f007047643fa5b8aa/4",
+          "https://mikeintech.github.io/atlsignal/social-card/a14f007047643fa5b8aa/5",
+          "https://mikeintech.github.io/atlsignal/social-card/a14f007047643fa5b8aa/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/02017abb04cf9da3fde6/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/02017abb04cf9da3fde6/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/02017abb04cf9da3fde6/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/02017abb04cf9da3fde6/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/02017abb04cf9da3fde6/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/02017abb04cf9da3fde6/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/a14f007047643fa5b8aa/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/a14f007047643fa5b8aa/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/a14f007047643fa5b8aa/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/a14f007047643fa5b8aa/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/a14f007047643fa5b8aa/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/a14f007047643fa5b8aa/6.jpg"
         ]
       },
       "carousel": [
@@ -2645,7 +2249,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-20T11:35:00.000Z",
+          "publishAt": "2026-08-19T11:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "Follow the money: TAD Grant Supports New Andrew Young International Institute for Peace and…\n\nThe Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the development of a transformative peace center in Historic Vine City, inspired by the enduring legacy of Ambassador Andrew Young.\n\nWhy it matters: Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/a7d1a013b1faada61611\n\nWhich public investment should we follow to its next measurable result?",
           "storyFrames": [
@@ -2661,7 +2265,7 @@
         }
       },
       "measurement": {
-        "campaign": "social_20260820",
+        "campaign": "social_20260819",
         "content": "_atl_a7d1a013",
         "primary": [
           "shares_per_reach",
@@ -2677,30 +2281,30 @@
       }
     },
     {
-      "packageId": "ab67a87de677fd8e9d1d",
-      "storyId": "9ce67f6906e4d261b22e",
-      "idempotencyKey": "atlsignal:9ce67f6906e4d261b22e:social-v2",
-      "scheduledFor": "2026-08-20T16:15:00.000Z",
-      "localSlot": "2026-08-20 12:15 ET",
+      "packageId": "739d01176f08e766feb1",
+      "storyId": "8b3c22e76193d9ee04ef",
+      "idempotencyKey": "atlsignal:8b3c22e76193d9ee04ef:social-v2",
+      "scheduledFor": "2026-08-19T16:15:00.000Z",
+      "localSlot": "2026-08-19 12:15 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
-      "franchise": "From the File",
-      "category": "Housing & Neighborhoods",
+      "franchise": "Atlanta Then / Now",
+      "category": "Business & Economy",
       "evidenceLabel": "Primary-source report",
-      "headline": "Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
-      "hook": "From the file: Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
-      "articleUrl": "https://mikeintech.github.io/atlsignal/file/9ce67f6906e4d261b22e",
+      "headline": "Façade Improvement Grants Preserve Atlanta History",
+      "hook": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
+      "articleUrl": "https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef",
       "sources": [
         {
           "name": "Invest Atlanta",
-          "url": "https://www.investatlanta.com/impact-insights/approved-atlanta-budget-supports-neighborhood-reinvestment-initiative",
+          "url": "https://www.investatlanta.com/impact-insights/facade-improvement-grants-preserve-atlanta-history",
           "tier": "A"
         }
       ],
       "editorialBoundary": {
-        "confirmed": "The Atlanta City Council has adopted a historic $3.2 billion balanced spending plan that continues Mayor Andre Dickens’ commitment to safe communities, strong families, thriving neighborhoods and opportunity for all residents.",
-        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "confirmed": "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
         "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
@@ -2713,48 +2317,444 @@
         "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
         "sourceMedia": [
           {
-            "url": "https://www.investatlanta.com/uploads/resources/atlanta_econ_mobility_insights_7JNJbmL.png",
+            "url": "https://www.investatlanta.com/uploads/resources/muses_nMvKNDq.jpeg",
             "source": "Invest Atlanta",
             "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
           }
         ],
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
-        "altText": "From the File explainer about Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative, with the source status and next milestone shown in ATLSignal graphics.",
+        "altText": "Atlanta Then / Now explainer about Façade Improvement Grants Preserve Atlanta History, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/ab67a87de677fd8e9d1d/1",
-          "https://mikeintech.github.io/atlsignal/social-card/ab67a87de677fd8e9d1d/2",
-          "https://mikeintech.github.io/atlsignal/social-card/ab67a87de677fd8e9d1d/3",
-          "https://mikeintech.github.io/atlsignal/social-card/ab67a87de677fd8e9d1d/4",
-          "https://mikeintech.github.io/atlsignal/social-card/ab67a87de677fd8e9d1d/5",
-          "https://mikeintech.github.io/atlsignal/social-card/ab67a87de677fd8e9d1d/6"
+          "https://mikeintech.github.io/atlsignal/social-card/739d01176f08e766feb1/1",
+          "https://mikeintech.github.io/atlsignal/social-card/739d01176f08e766feb1/2",
+          "https://mikeintech.github.io/atlsignal/social-card/739d01176f08e766feb1/3",
+          "https://mikeintech.github.io/atlsignal/social-card/739d01176f08e766feb1/4",
+          "https://mikeintech.github.io/atlsignal/social-card/739d01176f08e766feb1/5",
+          "https://mikeintech.github.io/atlsignal/social-card/739d01176f08e766feb1/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/ab67a87de677fd8e9d1d/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ab67a87de677fd8e9d1d/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ab67a87de677fd8e9d1d/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ab67a87de677fd8e9d1d/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ab67a87de677fd8e9d1d/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/ab67a87de677fd8e9d1d/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/739d01176f08e766feb1/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/739d01176f08e766feb1/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/739d01176f08e766feb1/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/739d01176f08e766feb1/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/739d01176f08e766feb1/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/739d01176f08e766feb1/6.jpg"
         ]
       },
       "carousel": [
         {
           "slide": 1,
-          "label": "From the File",
-          "heading": "From the file: Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
+          "label": "Atlanta Then / Now",
+          "heading": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
           "body": "Atlanta, explained from the receipts."
         },
         {
           "slide": 2,
           "label": "What changed",
           "heading": "The signal",
-          "body": "The Atlanta City Council has adopted a historic $3.2 billion balanced spending plan that continues Mayor Andre Dickens’ commitment to safe communities, strong families, thriving…"
+          "body": "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration…"
         },
         {
           "slide": 3,
           "label": "Why it matters",
           "heading": "The consequence",
-          "body": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands."
+          "body": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Invest Atlanta."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-19T16:15:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History\n\nThe Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef\n\nWhich Atlanta business move should be on our watchlist?",
+          "storyFrames": [
+            "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
+            "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation…",
+            "Which Atlanta business move should be on our watchlist? Read: https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History\n\nThe Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.\n\nReceipt: Invest Atlanta. https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich Atlanta business move should be on our watchlist?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260819",
+        "content": "atlanta_then_now_8b3c22e7",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "eb19d593fa4734a06dfb",
+      "storyId": "298bc7e9f8f7aacb337b",
+      "idempotencyKey": "atlsignal:298bc7e9f8f7aacb337b:social-v2",
+      "scheduledFor": "2026-08-19T22:35:00.000Z",
+      "localSlot": "2026-08-19 18:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "The Receipt",
+      "category": "Housing & Neighborhoods",
+      "evidenceLabel": "Primary-source report",
+      "headline": "Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards",
+      "hook": "Here’s the receipt: Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards",
+      "articleUrl": "https://mikeintech.github.io/atlsignal/pittsburgh-yards-piedmont-mobile-health-unit",
+      "sources": [
+        {
+          "name": "Atlanta BeltLine",
+          "url": "https://beltline.org/blog/pittsburgh-yards-welcomes-piedmont-mobile-health-unit-powered-by-google/",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "A Piedmont mobile health unit supported by Google is serving Pittsburgh Yards, with later BeltLine information describing second-Saturday availability alongside the Indie Market.",
+        "whyItMatters": "Healthcare, small-business programming and community activity are appearing in the same place, potentially widening the campus’s usefulness and repeat foot traffic.",
+        "unknown": "The available sources do not establish permanent service, patient volume, a complete clinical schedule or a measured business effect.",
+        "next": "Track Piedmont and BeltLine schedules, service data and future programming."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "assetStatus": "GENERATED",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
+        "sourceMedia": [
+          {
+            "url": "https://a2-us.storyblok.com/f/1020195/1920x1080/efd619c728/piedmont-mobile-unit.jpg/m/1200x630/filters:format(jpeg)",
+            "source": "Atlanta BeltLine",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "The Receipt explainer about Pittsburgh Yards Welcomes Piedmont Mobile Health Unit Powered by Google, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://mikeintech.github.io/atlsignal/social-card/eb19d593fa4734a06dfb/1",
+          "https://mikeintech.github.io/atlsignal/social-card/eb19d593fa4734a06dfb/2",
+          "https://mikeintech.github.io/atlsignal/social-card/eb19d593fa4734a06dfb/3",
+          "https://mikeintech.github.io/atlsignal/social-card/eb19d593fa4734a06dfb/4",
+          "https://mikeintech.github.io/atlsignal/social-card/eb19d593fa4734a06dfb/5",
+          "https://mikeintech.github.io/atlsignal/social-card/eb19d593fa4734a06dfb/6"
+        ],
+        "assetUrls": [
+          "https://mikeintech.github.io/atlsignal/social-assets/eb19d593fa4734a06dfb/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/eb19d593fa4734a06dfb/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/eb19d593fa4734a06dfb/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/eb19d593fa4734a06dfb/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/eb19d593fa4734a06dfb/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/eb19d593fa4734a06dfb/6.jpg"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "The Receipt",
+          "heading": "Here’s the receipt: Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "A Piedmont mobile health unit supported by Google is serving Pittsburgh Yards, with later BeltLine information describing second-Saturday availability alongside the Indie Market."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Healthcare, small-business programming and community activity are appearing in the same place, potentially widening the campus’s usefulness and repeat foot traffic."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Atlanta BeltLine."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "The available sources do not establish permanent service, patient volume, a complete clinical schedule or a measured business effect."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Track Piedmont and BeltLine schedules, service data and future programming."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-19T22:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "Here’s the receipt: Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards\n\nA Piedmont mobile health unit supported by Google is serving Pittsburgh Yards, with later BeltLine information describing second-Saturday availability alongside the Indie Market.\n\nWhy it matters: Healthcare, small-business programming and community activity are appearing in the same place, potentially widening the campus’s usefulness and repeat foot traffic.\n\nWhat remains unknown: The available sources do not establish permanent service, patient volume, a complete clinical schedule or a measured business effect.\n\nSources: Atlanta BeltLine. Full context and source trail: https://mikeintech.github.io/atlsignal/pittsburgh-yards-piedmont-mobile-health-unit\n\nWhich housing commitment should ATLSignal track through delivery?",
+          "storyFrames": [
+            "Here’s the receipt: Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards",
+            "A Piedmont mobile health unit supported by Google is serving Pittsburgh Yards, with later BeltLine information…",
+            "Which housing commitment should ATLSignal track through delivery? Read: https://mikeintech.github.io/atlsignal/pittsburgh-yards-piedmont-mobile-health-unit"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Here’s the receipt: Piedmont mobile health unit adds a recurring stop at Pittsburgh Yards\n\nA Piedmont mobile health unit supported by Google is serving Pittsburgh Yards, with later BeltLine information describing second-Saturday availability alongside the Indie Market.\n\nReceipt: Atlanta BeltLine. https://mikeintech.github.io/atlsignal/pittsburgh-yards-piedmont-mobile-health-unit",
+          "followUp": "The available sources do not establish permanent service, patient volume, a complete clinical schedule or a measured business effect.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260819",
+        "content": "the_receipt_298bc7e9",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "206156056f84e90aa61e",
+      "storyId": "dfa11dedbdd11c4de548",
+      "idempotencyKey": "atlsignal:dfa11dedbdd11c4de548:social-v2",
+      "scheduledFor": "2026-08-20T11:35:00.000Z",
+      "localSlot": "2026-08-20 07:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "The Receipt",
+      "category": "Transportation & Economy",
+      "evidenceLabel": "Primary-source report",
+      "headline": "From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation",
+      "hook": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation",
+      "articleUrl": "https://mikeintech.github.io/atlsignal/file/dfa11dedbdd11c4de548",
+      "sources": [
+        {
+          "name": "Atlanta Regional Commission",
+          "url": "https://atlantaregional.org/news/community-development/from-drive-through-to-drive-to-avondale-estates-transformation/",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Avondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped potential. In 2014,...",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "assetStatus": "GENERATED",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
+        "sourceMedia": [
+          {
+            "url": "https://atlantaregional.org/wp-content/uploads/avondale-lci-5.png",
+            "source": "Atlanta Regional Commission",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "The Receipt explainer about From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://mikeintech.github.io/atlsignal/social-card/206156056f84e90aa61e/1",
+          "https://mikeintech.github.io/atlsignal/social-card/206156056f84e90aa61e/2",
+          "https://mikeintech.github.io/atlsignal/social-card/206156056f84e90aa61e/3",
+          "https://mikeintech.github.io/atlsignal/social-card/206156056f84e90aa61e/4",
+          "https://mikeintech.github.io/atlsignal/social-card/206156056f84e90aa61e/5",
+          "https://mikeintech.github.io/atlsignal/social-card/206156056f84e90aa61e/6"
+        ],
+        "assetUrls": [
+          "https://mikeintech.github.io/atlsignal/social-assets/206156056f84e90aa61e/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/206156056f84e90aa61e/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/206156056f84e90aa61e/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/206156056f84e90aa61e/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/206156056f84e90aa61e/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/206156056f84e90aa61e/6.jpg"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "The Receipt",
+          "heading": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Avondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped…"
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Atlanta Regional Commission."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-20T11:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation\n\nAvondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped potential. In 2014,...\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/dfa11dedbdd11c4de548\n\nWhich route or project should we check next?",
+          "storyFrames": [
+            "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation",
+            "Avondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County…",
+            "Which route or project should we check next? Read: https://mikeintech.github.io/atlsignal/file/dfa11dedbdd11c4de548"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Here’s the receipt: From ‘Drive Through’ to ‘Drive To’: Avondale Estates’ Transformation\n\nAvondale Estates’ charming Tudor-village downtown has long been the beating heart of this vibrant DeKalb County community. But city leaders felt the area had even greater untapped potential. In 2014,...\n\nReceipt: Atlanta Regional Commission. https://mikeintech.github.io/atlsignal/file/dfa11dedbdd11c4de548",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich route or project should we check next?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260820",
+        "content": "the_receipt_dfa11ded",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "f5973a8e855ab75a7639",
+      "storyId": "f6be2de676d428d3b21d",
+      "idempotencyKey": "atlsignal:f6be2de676d428d3b21d:social-v2",
+      "scheduledFor": "2026-08-20T16:15:00.000Z",
+      "localSlot": "2026-08-20 12:15 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "From the File",
+      "category": "Food, Retail & Hospitality",
+      "evidenceLabel": "Primary-source report",
+      "headline": "A Peek Inside New Azalea Fresh Market Location",
+      "hook": "From the file: A Peek Inside New Azalea Fresh Market Location",
+      "articleUrl": "https://mikeintech.github.io/atlsignal/file/f6be2de676d428d3b21d",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/a-peek-inside-new-azalea-fresh-market-location",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "The Azalea Fresh Market is helping to pioneer a transformative municipal market model.",
+        "whyItMatters": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "assetStatus": "GENERATED",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/_05a3414_j3V3LrW.jpg",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "From the File explainer about A Peek Inside New Azalea Fresh Market Location, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://mikeintech.github.io/atlsignal/social-card/f5973a8e855ab75a7639/1",
+          "https://mikeintech.github.io/atlsignal/social-card/f5973a8e855ab75a7639/2",
+          "https://mikeintech.github.io/atlsignal/social-card/f5973a8e855ab75a7639/3",
+          "https://mikeintech.github.io/atlsignal/social-card/f5973a8e855ab75a7639/4",
+          "https://mikeintech.github.io/atlsignal/social-card/f5973a8e855ab75a7639/5",
+          "https://mikeintech.github.io/atlsignal/social-card/f5973a8e855ab75a7639/6"
+        ],
+        "assetUrls": [
+          "https://mikeintech.github.io/atlsignal/social-assets/f5973a8e855ab75a7639/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/f5973a8e855ab75a7639/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/f5973a8e855ab75a7639/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/f5973a8e855ab75a7639/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/f5973a8e855ab75a7639/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/f5973a8e855ab75a7639/6.jpg"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "From the File",
+          "heading": "From the file: A Peek Inside New Azalea Fresh Market Location",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "The Azalea Fresh Market is helping to pioneer a transformative municipal market model."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing."
         },
         {
           "slide": 4,
@@ -2779,22 +2779,22 @@
         "instagram": {
           "publishAt": "2026-08-20T16:15:00.000Z",
           "format": "CAROUSEL",
-          "caption": "From the file: Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative\n\nThe Atlanta City Council has adopted a historic $3.2 billion balanced spending plan that continues Mayor Andre Dickens’ commitment to safe communities, strong families, thriving neighborhoods and opportunity for all residents.\n\nWhy it matters: Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/9ce67f6906e4d261b22e\n\nWhich housing commitment should ATLSignal track through delivery?",
+          "caption": "From the file: A Peek Inside New Azalea Fresh Market Location\n\nThe Azalea Fresh Market is helping to pioneer a transformative municipal market model.\n\nWhy it matters: Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/f6be2de676d428d3b21d\n\nWhich Atlanta business move should be on our watchlist?",
           "storyFrames": [
-            "From the file: Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
-            "The Atlanta City Council has adopted a historic $3.2 billion balanced spending plan that continues Mayor Andre…",
-            "Which housing commitment should ATLSignal track through delivery? Read: https://mikeintech.github.io/atlsignal/file/9ce67f6906e4d261b22e"
+            "From the file: A Peek Inside New Azalea Fresh Market Location",
+            "The Azalea Fresh Market is helping to pioneer a transformative municipal market model.",
+            "Which Atlanta business move should be on our watchlist? Read: https://mikeintech.github.io/atlsignal/file/f6be2de676d428d3b21d"
           ]
         },
         "threads": {
           "publishOffsetMinutes": 12,
-          "post": "From the file: Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative\n\nThe Atlanta City Council has adopted a historic $3.2 billion balanced spending plan that continues Mayor Andre Dickens’ commitment to safe communities, strong families, thriving neighborhoods and opportunity for all residents.\n\nReceipt: Invest Atlanta. https://mikeintech.github.io/atlsignal/file/9ce67f6906e4d261b22e",
-          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich housing commitment should ATLSignal track through delivery?"
+          "post": "From the file: A Peek Inside New Azalea Fresh Market Location\n\nThe Azalea Fresh Market is helping to pioneer a transformative municipal market model.\n\nReceipt: Invest Atlanta. https://mikeintech.github.io/atlsignal/file/f6be2de676d428d3b21d",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich Atlanta business move should be on our watchlist?"
         }
       },
       "measurement": {
         "campaign": "social_20260820",
-        "content": "from_the_file_9ce67f69",
+        "content": "from_the_file_f6be2de6",
         "primary": [
           "shares_per_reach",
           "saves_per_reach",
