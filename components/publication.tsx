@@ -24,14 +24,28 @@ export type Story = {
   image: StoryImageData;
 };
 
+export type PublicationItem = {
+  id: string;
+  href: string;
+  headline: string;
+  summary: string;
+  category: string;
+  desk: "news" | "business" | "development" | "city-life" | "radar";
+  treatment: string;
+  evidenceLabel: string;
+  publishedAt?: string;
+  image?: StoryImageData;
+  external?: boolean;
+};
+
 const primaryNav = [
   { label: "Latest", href: "/latest" },
-  { label: "Development", href: "/development" },
+  { label: "News", href: "/news" },
   { label: "Business", href: "/business" },
-  { label: "Public money", href: "/money" },
+  { label: "Development", href: "/development" },
+  { label: "City Life", href: "/city-life" },
   { label: "Guides", href: "/guides" },
-  { label: "About", href: "/about" },
-  { label: "Upgrade", href: "/upgrade" },
+  { label: "Radar", href: "/radar" },
 ];
 
 export function PublicationHeader({ market }: { market: MarketBrand }) {
@@ -44,11 +58,11 @@ export function PublicationHeader({ market }: { market: MarketBrand }) {
   }).format(new Date());
   return (
     <>
-      <div className="utility-bar"><div className="shell utility-bar__inner"><span>Atlanta business, development & public records</span><span>{editionDate}</span></div></div>
+      <div className="utility-bar"><div className="shell utility-bar__inner"><span>Atlanta news, business, development & city life</span><span>{editionDate}</span></div></div>
       <header className="publication-header">
         <div className="shell publication-header__main">
           <Link className="wordmark" href="/" aria-label={`${market.code} home`}>
-            <span>{market.code}</span><small>{market.displayName}<b>Business publication</b></small>
+            <span>{market.code}</span><small>{market.displayName}<b>Independent publication</b></small>
           </Link>
           <nav aria-label="Primary navigation">
             {primaryNav.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}
@@ -65,14 +79,23 @@ export function PublicationHeader({ market }: { market: MarketBrand }) {
 }
 
 export function EditionHeader({ market }: { market: MarketBrand }) {
-  return <div className="edition-header shell"><p>{market.displayName} / Independent local reporting</p><span>{market.tagline}</span></div>;
+  const topics = [
+    ["Things To Do", "/things-to-do"],
+    ["Food & Drink", "/food"],
+    ["Sports", "/sports"],
+    ["Housing", "/housing"],
+    ["Transit", "/transit"],
+    ["City Hall", "/policy"],
+    ["Public Money", "/money"],
+  ];
+  return <div className="edition-header shell"><p>{market.displayName} / Independent local reporting</p><nav aria-label="Topic navigation">{topics.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}</nav></div>;
 }
 
 export function PublicationFooter() {
   return (
     <footer className="site-footer">
       <div className="shell site-footer__grid">
-        <div><strong>ATLSignal</strong><p>Atlanta business coverage built from records, reporting and verified source trails.</p></div>
+        <div><strong>ATLSignal</strong><p>Atlanta news and useful local intelligence built from reporting, records and visible source trails.</p></div>
         <nav aria-label="Publication information">
           <Link href="/about">About</Link>
           <Link href="/methodology">Methodology</Link>
@@ -128,6 +151,24 @@ export function StoryCard({ story, numbered }: { story: Story; numbered?: number
     <article className={numbered ? "story-card story-card--numbered" : "story-card"}>
       {numbered && <span className="story-card__number">{String(numbered).padStart(2, "0")}</span>}
       <div className="story-card__content"><StoryImage story={story} compact /><StoryMeta story={story} /><Headline as="h3" size="small"><Link href={`/${story.slug}`}>{story.headline}</Link></Headline><p>{story.dek}</p><small>Read the evidence brief →</small></div>
+    </article>
+  );
+}
+
+export function PublicationCard({ item, numbered }: { item: PublicationItem; numbered?: number }) {
+  const title = item.external
+    ? <a href={item.href} target="_blank" rel="noreferrer">{item.headline}</a>
+    : <Link href={item.href}>{item.headline}</Link>;
+  return (
+    <article className={numbered ? "story-card story-card--numbered" : "story-card"}>
+      {numbered && <span className="story-card__number">{String(numbered).padStart(2, "0")}</span>}
+      <div className="story-card__content">
+        {item.image && <EditorialImage image={item.image} compact />}
+        <div className="story-meta"><CategoryLabel>{item.category}</CategoryLabel><span>{item.treatment}</span></div>
+        <Headline as="h3" size="small">{title}</Headline>
+        <p>{item.summary}</p>
+        <small>{item.external ? "Read original reporting ↗" : `${item.evidenceLabel} · Read report →`}</small>
+      </div>
     </article>
   );
 }

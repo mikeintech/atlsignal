@@ -6,7 +6,7 @@ import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About ATLSignal",
-  description: "How ATLSignal reports Atlanta business, development, public money and commercial activity from public-source evidence.",
+  description: "How ATLSignal reports Atlanta news, business, development and city life with visible evidence and attribution.",
   alternates: { canonical: absoluteUrl("/about") },
 };
 
@@ -37,14 +37,14 @@ export default function AboutPage() {
       <main className="category-page shell">
         <header className="category-hero about-hero">
           <p className="eyebrow">About ATLSignal</p>
-          <Headline as="h1" size="large">A local business publication built from Atlanta’s public evidence trail.</Headline>
-          <p>ATLSignal watches the records, announcements and civic signals that often show change before a conventional story appears.</p>
+          <Headline as="h1" size="large">An Atlanta publication that keeps the source trail visible.</Headline>
+          <p>ATLSignal combines local reporting, attributable news discovery and public-record intelligence without presenting every item as the same kind of evidence.</p>
         </header>
 
         <section className="early-intelligence about-promise">
           <div>
             <p className="eyebrow">What we cover</p>
-            <h2>Development, business moves, openings, procurement, infrastructure and public money.</h2>
+            <h2>News, development, business moves, events, food, sports, infrastructure and public money.</h2>
             <p>We are not trying to publish every record. We are trying to turn the most useful records into readable coverage for people who want to understand what is changing across metro Atlanta.</p>
           </div>
           <div>

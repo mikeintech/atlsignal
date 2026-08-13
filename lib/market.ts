@@ -18,12 +18,10 @@ export const atlanta: MarketBrand = {
 
 export const categories = [
   "Latest",
+  "News",
   "Business",
   "Development",
-  "Policy",
-  "Transit",
-  "Money",
-  "Economy",
-  "Opportunities",
-  "Projects",
+  "City Life",
+  "Guides",
+  "Radar",
 ] as const;

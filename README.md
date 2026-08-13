@@ -38,7 +38,7 @@ npm run newsroom
 
 The same cycle also produces a rolling seven-day social publishing desk in
 `data/social-desk.json`. It packages three original, source-linked stories per
-day for Instagram, Threads, and X. See
+day for Instagram and Threads. See
 [`docs/social-publishing.md`](docs/social-publishing.md) for the media-rights
 rules and optional webhook dispatch connection.
 

@@ -147,6 +147,8 @@ const freshDiscoveryClusters = newsroomData.clusters.filter((cluster) =>
   !cluster.publishable
   && Boolean(cluster.sources[0]?.url)
   && treatmentFor(cluster.publishedAt) === "New today"
+  && cluster.scores.locality >= 70
+  && new Date(cluster.publishedAt).valueOf() <= editionDate.valueOf() + 12 * 3_600_000
   && !excludedHeadlines.test(cluster.headline),
 );
 
@@ -184,13 +186,33 @@ const clusterCandidates = [...freshClusters, ...archiveClusters]
   .map(clusterPost)
   .filter((post) => !manualHrefs.has(post.href));
 
-export const dailyPosts: DailyPost[] = [
-  ...todaysManualStories.map(manualPost),
-  ...clusterCandidates.filter((post) => post.treatment === "New today"),
-  ...diverseDiscoveryPosts(freshDiscoveryClusters),
-  ...clusterCandidates.filter((post) => post.treatment === "Developing"),
-  ...clusterCandidates.filter((post) => post.treatment === "From the archive"),
-].slice(0, 20);
+function addUnique(target: DailyPost[], candidates: DailyPost[], limit: number) {
+  const seen = new Set(target.map((post) => `${post.href}|${post.headline.toLowerCase()}`));
+  for (const candidate of candidates) {
+    const key = `${candidate.href}|${candidate.headline.toLowerCase()}`;
+    if (target.length >= limit) break;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    target.push(candidate);
+  }
+}
+
+const manualPosts = todaysManualStories.map(manualPost);
+const verifiedNew = clusterCandidates.filter((post) => post.treatment === "New today");
+const attributedNew = diverseDiscoveryPosts(freshDiscoveryClusters);
+const developingPosts = clusterCandidates.filter((post) => post.treatment === "Developing");
+const archivePosts = clusterCandidates.filter((post) => post.treatment === "From the archive");
+const selectedDailyPosts: DailyPost[] = [];
+
+// Keep the five lead positions evidence-forward, then guarantee a useful daily
+// mix instead of allowing a large breaking-news sweep to crowd out context.
+addUnique(selectedDailyPosts, [...manualPosts, ...verifiedNew], 5);
+addUnique(selectedDailyPosts, attributedNew, 14);
+addUnique(selectedDailyPosts, developingPosts, 17);
+addUnique(selectedDailyPosts, archivePosts, 20);
+addUnique(selectedDailyPosts, [...verifiedNew, ...attributedNew, ...developingPosts, ...archivePosts, ...manualPosts], 20);
+
+export const dailyPosts: DailyPost[] = selectedDailyPosts;
 export const sourceNotePosts = verifiedClusters.map(clusterPost).filter((post) => post.href.startsWith("/file/"));
 
 export function getSourceNote(id: string) {

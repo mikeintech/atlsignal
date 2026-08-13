@@ -5,31 +5,33 @@ import {
   EditionHeader,
   EditorialImage,
   IntelligenceStory,
-  MorningBrief,
   OpportunityCard,
   PremiumTeaser,
   ProjectCard,
+  PublicationCard,
   PublicationHeader,
   SectionHeading,
-  StoryCard,
   TrendCard,
   Watchlist,
 } from "@/components/publication";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { atlanta } from "@/lib/market";
-import { leadStory, metrics, premiumSignals, projects, publicGuides, sourceDesks, stories, watchlist } from "@/lib/atlanta-data";
+import { leadStory, metrics, premiumSignals, projects, publicGuides, sourceDesks, watchlist } from "@/lib/atlanta-data";
+import { contentForDesk, editorialContent } from "@/lib/content-index";
 import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Atlanta business, development and public money",
-  description: "Independent reporting on Atlanta business, development, housing, transportation and public money—built from public records and verified source trails.",
+  title: "Atlanta news, business, development and city life",
+  description: "Independent Atlanta reporting on news, business, development, housing, events, food, sports and public money—with visible source trails.",
   alternates: { canonical: absoluteUrl("/") },
 };
 
 export default function AtlantaPage() {
-  const topStories = stories.slice(0, 4);
-  const developmentStories = stories.filter((story) => story.category === "Development").slice(0, 6);
-  const businessStories = stories.filter((story) => story.category === "Business").slice(0, 4);
+  const topStories = editorialContent.filter((item) => item.href !== `/${leadStory.slug}`).slice(0, 4);
+  const developmentStories = contentForDesk("development").slice(0, 6);
+  const businessStories = contentForDesk("business").slice(0, 4);
+  const newsStories = contentForDesk("news").slice(0, 6);
+  const cityLifeStories = contentForDesk("city-life").slice(0, 6);
 
   return (
     <>
@@ -38,9 +40,9 @@ export default function AtlantaPage() {
       <main className="edition-page">
         <section className="front-hero shell" aria-labelledby="top-intelligence-title">
           <div className="front-hero__lede">
-            <p className="eyebrow" id="top-intelligence-title">Atlanta’s public-record newsroom</p>
-            <h1>Business news from the records before it becomes conventional wisdom.</h1>
-            <p>ATLSignal follows permits, public money, development milestones, source-desk announcements and commercial openings across metro Atlanta — then explains what changed, what is confirmed and what still needs proof.</p>
+            <p className="eyebrow" id="top-intelligence-title">Atlanta’s independent newsroom</p>
+            <h1>Atlanta news with the source trail still attached.</h1>
+            <p>ATLSignal follows the city’s biggest stories, business moves, development, events and everyday culture—then shows what is original reporting, what is attributed and what still needs proof.</p>
           </div>
           <div className="front-hero__brief">
             <p className="eyebrow">Lead report</p>
@@ -52,7 +54,7 @@ export default function AtlantaPage() {
           <div className="front-grid__main">
             <SectionHeading label="Top stories" />
             <div className="story-stack">
-              {topStories.map((story, index) => <StoryCard key={story.slug} story={story} numbered={index + 1} />)}
+              {topStories.map((item, index) => <PublicationCard key={item.id} item={item} numbered={index + 1} />)}
             </div>
           </div>
           <aside className="front-grid__rail">
@@ -67,30 +69,35 @@ export default function AtlantaPage() {
         </section>
 
         <div className="shell"><DataStrip metrics={metrics} /></div>
-        <div className="shell"><MorningBrief stories={[stories[2], stories[0], stories[4], stories[6], stories[8]]} /></div>
-
         <section className="shell">
           <SectionHeading label="Development" href="/development" />
           <div className="editorial-grid editorial-grid--three">
-            {developmentStories.map((story) => <StoryCard key={story.slug} story={story} />)}
+            {developmentStories.map((item) => <PublicationCard key={item.id} item={item} />)}
           </div>
         </section>
 
         <section className="shell">
-          <SectionHeading label="Public money & civic growth" href="/money" />
+          <SectionHeading label="News & civic life" href="/news" />
           <div className="editorial-grid editorial-grid--three">
-            {stories.filter((story) => ["Public Money", "City Hall & Policy", "Transportation & Airport", "Workforce & Economy"].includes(story.category)).slice(0, 6).map((story) => <StoryCard key={story.slug} story={story} />)}
+            {newsStories.map((item) => <PublicationCard key={item.id} item={item} />)}
           </div>
         </section>
 
         <section className="split-section shell">
           <div>
             <SectionHeading label="Business moves" href="/business" />
-            {businessStories.map((story) => <StoryCard key={story.slug} story={story} />)}
+            {businessStories.map((item) => <PublicationCard key={item.id} item={item} />)}
           </div>
           <div>
             <SectionHeading label="How to read us" href="/latest" />
             <TrendCard kicker="Evidence status" title="Facts, claims and forecasts stay separated" value="3" change="evidence lanes" note="Confirmed public records are labeled differently from inferred market signals and watchlist items." />
+          </div>
+        </section>
+
+        <section className="shell">
+          <SectionHeading label="City Life" href="/city-life" />
+          <div className="editorial-grid editorial-grid--three">
+            {cityLifeStories.map((item) => <PublicationCard key={item.id} item={item} />)}
           </div>
         </section>
 

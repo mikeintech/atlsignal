@@ -1,7 +1,7 @@
 {
   "schemaVersion": "atlsignal_social_desk_v2",
-  "generatedAt": "2026-08-13T17:52:12.098Z",
-  "basedOnNewsroomRun": "2026-08-13T17:52:12.098Z",
+  "generatedAt": "2026-08-13T18:55:21.592Z",
+  "basedOnNewsroomRun": "2026-08-13T18:55:21.592Z",
   "timezone": "America/New_York",
   "calendarStart": "2026-08-13",
   "calendarEnd": "2026-08-20",
@@ -30,37 +30,37 @@
   },
   "packages": [
     {
-      "packageId": "5a70cff4649b37dedc90",
-      "storyId": "99fc3e9c500c6cc1b945",
-      "idempotencyKey": "atlsignal:99fc3e9c500c6cc1b945:social-v2",
+      "packageId": "8c8e7bd370aa48cf3c00",
+      "storyId": "9ebf8eea37a70240cedf",
+      "idempotencyKey": "atlsignal:9ebf8eea37a70240cedf:social-v2",
       "scheduledFor": "2026-08-13T22:35:00.000Z",
       "localSlot": "2026-08-13 18:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
       "franchise": "The Receipt",
-      "category": "Business & Economy",
+      "category": "Transportation & Economy",
       "evidenceLabel": "Corroborated",
-      "headline": "New BeltLine mortgage program offers up to $30,000 toward a home",
-      "hook": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home",
-      "articleUrl": "https://mikeintech.github.io/atlsignal/beltline-mortgage-assistance-30000",
+      "headline": "Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
+      "hook": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
+      "articleUrl": "https://mikeintech.github.io/atlsignal/file/9ebf8eea37a70240cedf",
       "sources": [
         {
-          "name": "Invest Atlanta",
-          "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-and-atlanta-beltline-launch-new-mortgage-assistance-program",
-          "tier": "A"
+          "name": "Rough Draft Atlanta",
+          "url": "https://roughdraftatlanta.com/2026/08/13/atlanta-region-population-growth-slows/",
+          "tier": "B"
         },
         {
-          "name": "Atlanta BeltLine",
-          "url": "https://beltline.org/press-release/invest-atlanta-and-atlanta-beltline-inc-launch-mortgage-assistance-program-opening-a-new-path-to-homeownership-along-the-beltline/",
+          "name": "Atlanta Regional Commission",
+          "url": "https://atlantaregional.org/news/research-innovation/atlanta-region-adds-53690-residents-in-past-year-arc-population-estimates-show/",
           "tier": "A"
         }
       ],
       "editorialBoundary": {
-        "confirmed": "Eligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in targeted south- and west-side BeltLine communities may qualify for up to $30,000.",
-        "whyItMatters": "The higher targeted amount changes the up-front purchase math for some buyers and gives residents a concrete program to compare with rising BeltLine-area housing costs.",
-        "unknown": "The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices.",
-        "next": "Track formal guidance, applications, completed purchases and the geographic distribution of assistance."
+        "confirmed": "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Later implementation and outcome evidence may still change the picture.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "production": {
         "format": "CAROUSEL_4X5",
@@ -71,93 +71,88 @@
         "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
         "sourceMedia": [
           {
-            "url": "https://www.investatlanta.com/uploads/resources/151a9756-16_Rz3klK8.png",
-            "source": "Invest Atlanta",
-            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
-          },
-          {
-            "url": "https://a2-us.storyblok.com/f/1020195/1920x1279/8eb6c5d415/1091-tucker-ave-unit-305_morrow-hi-res-28.webp/m/1200x630/filters:format(jpeg)",
-            "source": "Atlanta BeltLine",
+            "url": "https://atlantaregional.org/wp-content/uploads/atl-background-iija.jpg",
+            "source": "Atlanta Regional Commission",
             "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
           }
         ],
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
-        "altText": "The Receipt explainer about Invest Atlanta and Atlanta Beltline Launch New Mortgage Assistance Program, with the source status and next milestone shown in ATLSignal graphics.",
+        "altText": "The Receipt explainer about Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/5a70cff4649b37dedc90/1",
-          "https://mikeintech.github.io/atlsignal/social-card/5a70cff4649b37dedc90/2",
-          "https://mikeintech.github.io/atlsignal/social-card/5a70cff4649b37dedc90/3",
-          "https://mikeintech.github.io/atlsignal/social-card/5a70cff4649b37dedc90/4",
-          "https://mikeintech.github.io/atlsignal/social-card/5a70cff4649b37dedc90/5",
-          "https://mikeintech.github.io/atlsignal/social-card/5a70cff4649b37dedc90/6"
+          "https://mikeintech.github.io/atlsignal/social-card/8c8e7bd370aa48cf3c00/1",
+          "https://mikeintech.github.io/atlsignal/social-card/8c8e7bd370aa48cf3c00/2",
+          "https://mikeintech.github.io/atlsignal/social-card/8c8e7bd370aa48cf3c00/3",
+          "https://mikeintech.github.io/atlsignal/social-card/8c8e7bd370aa48cf3c00/4",
+          "https://mikeintech.github.io/atlsignal/social-card/8c8e7bd370aa48cf3c00/5",
+          "https://mikeintech.github.io/atlsignal/social-card/8c8e7bd370aa48cf3c00/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/5a70cff4649b37dedc90/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/5a70cff4649b37dedc90/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/5a70cff4649b37dedc90/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/5a70cff4649b37dedc90/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/5a70cff4649b37dedc90/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/5a70cff4649b37dedc90/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/8c8e7bd370aa48cf3c00/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/8c8e7bd370aa48cf3c00/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/8c8e7bd370aa48cf3c00/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/8c8e7bd370aa48cf3c00/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/8c8e7bd370aa48cf3c00/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/8c8e7bd370aa48cf3c00/6.jpg"
         ]
       },
       "carousel": [
         {
           "slide": 1,
           "label": "The Receipt",
-          "heading": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home",
+          "heading": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
           "body": "Atlanta, explained from the receipts."
         },
         {
           "slide": 2,
           "label": "What changed",
           "heading": "The signal",
-          "body": "Eligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in targeted south- and west-side BeltLine communities may qualify for up to…"
+          "body": "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta…"
         },
         {
           "slide": 3,
           "label": "Why it matters",
           "heading": "The consequence",
-          "body": "The higher targeted amount changes the up-front purchase math for some buyers and gives residents a concrete program to compare with rising BeltLine-area housing costs."
+          "body": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta."
         },
         {
           "slide": 4,
           "label": "The receipt",
           "heading": "Corroborated",
-          "body": "Source trail: Invest Atlanta and Atlanta BeltLine."
+          "body": "Source trail: Rough Draft Atlanta and Atlanta Regional Commission."
         },
         {
           "slide": 5,
           "label": "Not confirmed",
           "heading": "What we still need",
-          "body": "The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices."
+          "body": "Later implementation and outcome evidence may still change the picture."
         },
         {
           "slide": 6,
           "label": "Track it",
           "heading": "The next signal",
-          "body": "Track formal guidance, applications, completed purchases and the geographic distribution of assistance."
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
         }
       ],
       "platforms": {
         "instagram": {
           "publishAt": "2026-08-13T22:35:00.000Z",
           "format": "CAROUSEL",
-          "caption": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home\n\nEligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in targeted south- and west-side BeltLine communities may qualify for up to $30,000.\n\nWhy it matters: The higher targeted amount changes the up-front purchase math for some buyers and gives residents a concrete program to compare with rising BeltLine-area housing costs.\n\nWhat remains unknown: The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices.\n\nSources: Invest Atlanta and Atlanta BeltLine. Full context and source trail: https://mikeintech.github.io/atlsignal/beltline-mortgage-assistance-30000\n\nWhich Atlanta business move should be on our watchlist?",
+          "caption": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show\n\nThe 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Later implementation and outcome evidence may still change the picture.\n\nSources: Rough Draft Atlanta and Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/9ebf8eea37a70240cedf\n\nWhich route or project should we check next?",
           "storyFrames": [
-            "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home",
-            "Eligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in…",
-            "Which Atlanta business move should be on our watchlist? Read: https://mikeintech.github.io/atlsignal/beltline-mortgage-assistance-30000"
+            "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
+            "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population…",
+            "Which route or project should we check next? Read: https://mikeintech.github.io/atlsignal/file/9ebf8eea37a70240cedf"
           ]
         },
         "threads": {
           "publishOffsetMinutes": 12,
-          "post": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home\n\nEligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in targeted south- and west-side BeltLine communities may qualify for up to $30,000.\n\nReceipt: Invest Atlanta and Atlanta BeltLine. https://mikeintech.github.io/atlsignal/beltline-mortgage-assistance-30000",
-          "followUp": "The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices.\n\nWhich Atlanta business move should be on our watchlist?"
+          "post": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show\n\nThe 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....\n\nReceipt: Rough Draft Atlanta and Atlanta Regional Commission. https://mikeintech.github.io/atlsignal/file/9ebf8eea37a70240cedf",
+          "followUp": "Later implementation and outcome evidence may still change the picture.\n\nWhich route or project should we check next?"
         }
       },
       "measurement": {
         "campaign": "social_20260813",
-        "content": "the_receipt_99fc3e9c",
+        "content": "the_receipt_9ebf8eea",
         "primary": [
           "shares_per_reach",
           "saves_per_reach",
@@ -430,32 +425,37 @@
       }
     },
     {
-      "packageId": "b1ccf79dbec8384831da",
-      "storyId": "3e98246dd9d891078ccb",
-      "idempotencyKey": "atlsignal:3e98246dd9d891078ccb:social-v2",
+      "packageId": "d1a7cf8add8b239b7a7f",
+      "storyId": "99fc3e9c500c6cc1b945",
+      "idempotencyKey": "atlsignal:99fc3e9c500c6cc1b945:social-v2",
       "scheduledFor": "2026-08-14T22:35:00.000Z",
       "localSlot": "2026-08-14 18:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
       "franchise": "The Receipt",
-      "category": "Transportation & Economy",
-      "evidenceLabel": "Primary-source report",
-      "headline": "Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
-      "hook": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
-      "articleUrl": "https://mikeintech.github.io/atlsignal/file/3e98246dd9d891078ccb",
+      "category": "Business & Economy",
+      "evidenceLabel": "Corroborated",
+      "headline": "New BeltLine mortgage program offers up to $30,000 toward a home",
+      "hook": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home",
+      "articleUrl": "https://mikeintech.github.io/atlsignal/beltline-mortgage-assistance-30000",
       "sources": [
         {
-          "name": "Atlanta Regional Commission",
-          "url": "https://atlantaregional.org/news/research-innovation/atlanta-region-adds-53690-residents-in-past-year-arc-population-estimates-show/",
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-and-atlanta-beltline-launch-new-mortgage-assistance-program",
+          "tier": "A"
+        },
+        {
+          "name": "Atlanta BeltLine",
+          "url": "https://beltline.org/press-release/invest-atlanta-and-atlanta-beltline-inc-launch-mortgage-assistance-program-opening-a-new-path-to-homeownership-along-the-beltline/",
           "tier": "A"
         }
       ],
       "editorialBoundary": {
-        "confirmed": "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....",
-        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        "confirmed": "Eligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in targeted south- and west-side BeltLine communities may qualify for up to $30,000.",
+        "whyItMatters": "The higher targeted amount changes the up-front purchase math for some buyers and gives residents a concrete program to compare with rising BeltLine-area housing costs.",
+        "unknown": "The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices.",
+        "next": "Track formal guidance, applications, completed purchases and the geographic distribution of assistance."
       },
       "production": {
         "format": "CAROUSEL_4X5",
@@ -466,88 +466,93 @@
         "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
         "sourceMedia": [
           {
-            "url": "https://atlantaregional.org/wp-content/uploads/atl-background-iija.jpg",
-            "source": "Atlanta Regional Commission",
+            "url": "https://www.investatlanta.com/uploads/resources/151a9756-16_Rz3klK8.png",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          },
+          {
+            "url": "https://a2-us.storyblok.com/f/1020195/1920x1279/8eb6c5d415/1091-tucker-ave-unit-305_morrow-hi-res-28.webp/m/1200x630/filters:format(jpeg)",
+            "source": "Atlanta BeltLine",
             "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
           }
         ],
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
-        "altText": "The Receipt explainer about Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show, with the source status and next milestone shown in ATLSignal graphics.",
+        "altText": "The Receipt explainer about Invest Atlanta and Atlanta Beltline Launch New Mortgage Assistance Program, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/b1ccf79dbec8384831da/1",
-          "https://mikeintech.github.io/atlsignal/social-card/b1ccf79dbec8384831da/2",
-          "https://mikeintech.github.io/atlsignal/social-card/b1ccf79dbec8384831da/3",
-          "https://mikeintech.github.io/atlsignal/social-card/b1ccf79dbec8384831da/4",
-          "https://mikeintech.github.io/atlsignal/social-card/b1ccf79dbec8384831da/5",
-          "https://mikeintech.github.io/atlsignal/social-card/b1ccf79dbec8384831da/6"
+          "https://mikeintech.github.io/atlsignal/social-card/d1a7cf8add8b239b7a7f/1",
+          "https://mikeintech.github.io/atlsignal/social-card/d1a7cf8add8b239b7a7f/2",
+          "https://mikeintech.github.io/atlsignal/social-card/d1a7cf8add8b239b7a7f/3",
+          "https://mikeintech.github.io/atlsignal/social-card/d1a7cf8add8b239b7a7f/4",
+          "https://mikeintech.github.io/atlsignal/social-card/d1a7cf8add8b239b7a7f/5",
+          "https://mikeintech.github.io/atlsignal/social-card/d1a7cf8add8b239b7a7f/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/b1ccf79dbec8384831da/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b1ccf79dbec8384831da/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b1ccf79dbec8384831da/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b1ccf79dbec8384831da/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b1ccf79dbec8384831da/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b1ccf79dbec8384831da/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/d1a7cf8add8b239b7a7f/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d1a7cf8add8b239b7a7f/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d1a7cf8add8b239b7a7f/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d1a7cf8add8b239b7a7f/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d1a7cf8add8b239b7a7f/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d1a7cf8add8b239b7a7f/6.jpg"
         ]
       },
       "carousel": [
         {
           "slide": 1,
           "label": "The Receipt",
-          "heading": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
+          "heading": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home",
           "body": "Atlanta, explained from the receipts."
         },
         {
           "slide": 2,
           "label": "What changed",
           "heading": "The signal",
-          "body": "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta…"
+          "body": "Eligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in targeted south- and west-side BeltLine communities may qualify for up to…"
         },
         {
           "slide": 3,
           "label": "Why it matters",
           "heading": "The consequence",
-          "body": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta."
+          "body": "The higher targeted amount changes the up-front purchase math for some buyers and gives residents a concrete program to compare with rising BeltLine-area housing costs."
         },
         {
           "slide": 4,
           "label": "The receipt",
-          "heading": "Primary-source report",
-          "body": "Source trail: Atlanta Regional Commission."
+          "heading": "Corroborated",
+          "body": "Source trail: Invest Atlanta and Atlanta BeltLine."
         },
         {
           "slide": 5,
           "label": "Not confirmed",
           "heading": "What we still need",
-          "body": "Independent corroboration and later outcome evidence remain outstanding."
+          "body": "The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices."
         },
         {
           "slide": 6,
           "label": "Track it",
           "heading": "The next signal",
-          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+          "body": "Track formal guidance, applications, completed purchases and the geographic distribution of assistance."
         }
       ],
       "platforms": {
         "instagram": {
           "publishAt": "2026-08-14T22:35:00.000Z",
           "format": "CAROUSEL",
-          "caption": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show\n\nThe 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/3e98246dd9d891078ccb\n\nWhich route or project should we check next?",
+          "caption": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home\n\nEligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in targeted south- and west-side BeltLine communities may qualify for up to $30,000.\n\nWhy it matters: The higher targeted amount changes the up-front purchase math for some buyers and gives residents a concrete program to compare with rising BeltLine-area housing costs.\n\nWhat remains unknown: The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices.\n\nSources: Invest Atlanta and Atlanta BeltLine. Full context and source trail: https://mikeintech.github.io/atlsignal/beltline-mortgage-assistance-30000\n\nWhich Atlanta business move should be on our watchlist?",
           "storyFrames": [
-            "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
-            "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population…",
-            "Which route or project should we check next? Read: https://mikeintech.github.io/atlsignal/file/3e98246dd9d891078ccb"
+            "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home",
+            "Eligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in…",
+            "Which Atlanta business move should be on our watchlist? Read: https://mikeintech.github.io/atlsignal/beltline-mortgage-assistance-30000"
           ]
         },
         "threads": {
           "publishOffsetMinutes": 12,
-          "post": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show\n\nThe 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....\n\nReceipt: Atlanta Regional Commission. https://mikeintech.github.io/atlsignal/file/3e98246dd9d891078ccb",
-          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich route or project should we check next?"
+          "post": "Here’s the receipt: New BeltLine mortgage program offers up to $30,000 toward a home\n\nEligible buyers can receive as much as $20,000, while long-term residents and public-sector employees buying in targeted south- and west-side BeltLine communities may qualify for up to $30,000.\n\nReceipt: Invest Atlanta and Atlanta BeltLine. https://mikeintech.github.io/atlsignal/beltline-mortgage-assistance-30000",
+          "followUp": "The announcement does not establish how many buyers will close, how long funding will last or whether eligible homes will be available at workable prices.\n\nWhich Atlanta business move should be on our watchlist?"
         }
       },
       "measurement": {
         "campaign": "social_20260814",
-        "content": "the_receipt_3e98246d",
+        "content": "the_receipt_99fc3e9c",
         "primary": [
           "shares_per_reach",
           "saves_per_reach",

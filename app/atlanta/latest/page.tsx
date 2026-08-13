@@ -17,8 +17,8 @@ import { atlanta } from "@/lib/market";
 import { absoluteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Latest Atlanta business and development news",
-  description: "Twenty fresh, developing and archive-backed ATLSignal posts on Atlanta business, development, housing, transportation and public money.",
+  title: "Latest Atlanta news and city updates",
+  description: "Twenty fresh, developing and archive-backed ATLSignal posts on Atlanta news, business, development, events, food, sports and public life.",
   alternates: { canonical: absoluteUrl("/latest") },
 };
 

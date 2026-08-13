@@ -2,7 +2,7 @@
 
 ## Operating loop
 
-The GitHub Pages workflow runs at 11:15 and 20:15 UTC and on every push to
+The GitHub Pages workflow runs at 11:15, 15:15, 19:15 and 23:15 UTC and on every push to
 `main`. One run:
 
 1. collects Invest Atlanta, Atlanta BeltLine, Atlanta Regional Commission, and

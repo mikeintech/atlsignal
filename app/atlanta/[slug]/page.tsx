@@ -7,11 +7,11 @@ import {
   Headline,
   MapPreview,
   PremiumTeaser,
+  PublicationCard,
   PublicationHeader,
   ProjectCard,
   SectionHeading,
   SourceAttribution,
-  StoryCard,
   StoryImage,
   Timeline,
   UpdateBadge,
@@ -20,13 +20,21 @@ import { ArticleActions } from "@/components/article-actions";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import { atlanta } from "@/lib/market";
 import { leadStory, projects, sourceDeskArticleDetails, stories } from "@/lib/atlanta-data";
+import { contentForCategory, contentForDesk, publicDesks, relatedContent } from "@/lib/content-index";
 import { absoluteUrl } from "@/lib/site";
 
 const allStories = [leadStory, ...stories];
 const categoryNames: Record<string, string> = {
   latest: "Latest intelligence",
+  news: "News",
   business: "Business",
   development: "Development",
+  "city-life": "City Life",
+  radar: "Radar",
+  "things-to-do": "Things To Do",
+  food: "Food & Drink",
+  sports: "Sports",
+  housing: "Housing & Neighborhoods",
   policy: "City Hall & Policy",
   transit: "Transportation & Airport",
   money: "Public Money",
@@ -36,8 +44,15 @@ const categoryNames: Record<string, string> = {
 };
 
 const categoryDescriptions: Record<string, string> = {
+  news: publicDesks.news.description,
   business: "Openings, expansions and operating milestones shaping Atlanta’s commercial map.",
   development: "Construction, occupancy and major project movement across metro Atlanta.",
+  "city-life": publicDesks["city-life"].description,
+  radar: publicDesks.radar.description,
+  "things-to-do": "Events, weekend plans and useful ways to experience Atlanta.",
+  food: "Restaurant openings, hospitality moves and Atlanta food reporting.",
+  sports: "Atlanta teams, venues and the business and culture surrounding local sports.",
+  housing: "Housing programs, neighborhood change and residential development across metro Atlanta.",
   policy: "The city and regional decisions that change neighborhoods, public space and the business climate.",
   transit: "Airport, transit, trail and mobility decisions with consequences beyond the commute.",
   money: "Follow the incentives, public investment, development finance and contracts behind Atlanta’s growth.",
@@ -317,7 +332,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </aside>
         </div>
         <section><SectionHeading label="Related reporting" />
-          <div className="editorial-grid editorial-grid--three">{allStories.filter((item) => item.slug !== story.slug).slice(0, 3).map((item) => <StoryCard key={item.slug} story={item} />)}</div>
+          <div className="editorial-grid editorial-grid--three">{relatedContent(story.category, `/${story.slug}`).map((item) => <PublicationCard key={item.id} item={item} />)}</div>
         </section>
         <NewsletterSignup compact />
       </main>
@@ -329,23 +344,35 @@ function CategoryLanding({ slug }: { slug: string }) {
   const title = categoryNames[slug];
   const categoryMatch: Record<string, string> = {
     opportunities: "Opportunity",
+    "things-to-do": "Events & Things To Do",
+    food: "Food, Retail & Hospitality",
+    sports: "Atlanta Sports",
+    housing: "Housing & Neighborhoods",
     policy: "City Hall & Policy",
     transit: "Transportation & Airport",
     money: "Public Money",
     economy: "Workforce & Economy",
   };
-  const match = slug === "latest"
-    ? allStories
-    : allStories.filter((story) => story.category.toLowerCase() === (categoryMatch[slug] ?? slug).toLowerCase());
+  const deskSlugs = ["news", "business", "development", "city-life"] as const;
+  const match = deskSlugs.includes(slug as typeof deskSlugs[number])
+    ? contentForDesk(slug as typeof deskSlugs[number])
+    : slug === "latest"
+      ? contentForDesk("news").concat(contentForDesk("business"), contentForDesk("development"), contentForDesk("city-life"))
+      : contentForCategory(categoryMatch[slug] ?? slug);
+  const reportCount = slug === "radar" ? projects.length + contentForCategory("Opportunity").length : slug === "projects" ? projects.length : match.length;
   return (
     <>
       <PublicationHeader market={atlanta} /><EditionHeader market={atlanta} />
       <main className="category-page shell">
-        <header className="category-hero"><p className="eyebrow">ATLSignal · {match.length || projects.length} reports</p><Headline as="h1" size="large">{title}</Headline><p>{categoryDescriptions[slug] ?? "Permanent, evidence-backed coverage of what is changing across Atlanta."}</p></header>
-        {slug === "projects" ? (
+        <header className="category-hero"><p className="eyebrow">ATLSignal · {reportCount} reports</p><Headline as="h1" size="large">{title}</Headline><p>{categoryDescriptions[slug] ?? "Permanent, evidence-backed coverage of what is changing across Atlanta."}</p></header>
+        {slug === "radar" ? <>
+          <section><SectionHeading label="Living project files" href="/projects" /><div className="project-list category-list">{projects.map((project) => <ProjectCard key={project.slug} name={project.name} location={project.location} status={project.status} detail={project.detail} href={`/project/${project.slug}`} />)}</div></section>
+          <section><SectionHeading label="Public opportunities" href="/opportunities" /><div className="category-list">{contentForCategory("Opportunity").map((item, index) => <PublicationCard key={item.id} item={item} numbered={index + 1} />)}</div></section>
+          <PremiumTeaser />
+        </> : slug === "projects" ? (
           <div className="project-list category-list">{projects.map((project) => <ProjectCard key={project.slug} name={project.name} location={project.location} status={project.status} detail={project.detail} href={`/project/${project.slug}`} />)}</div>
         ) : match.length ? (
-          <div className="category-list">{match.map((story, index) => <StoryCard key={story.slug} story={story} numbered={index + 1} />)}</div>
+          <div className="category-list">{match.map((item, index) => <PublicationCard key={item.id} item={item} numbered={index + 1} />)}</div>
         ) : (
           <div className="category-empty"><p className="eyebrow">Evidence state</p><h2>No story cleared today’s public threshold.</h2><p>We found signals in this category, but none passed the current source, confidence and classification checks. The archive will populate when supported intelligence is approved.</p></div>
         )}

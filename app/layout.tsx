@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: "ATLSignal",
     template: "%s | ATLSignal",
   },
-  description: "Business, development, money and opportunity intelligence for Atlanta.",
+  description: "Atlanta news, business, development and city-life reporting with visible source trails and a separate commercial Radar layer.",
   openGraph: {
     type: "website",
     locale: "en_US",

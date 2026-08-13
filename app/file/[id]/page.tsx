@@ -8,6 +8,7 @@ import {
   EvidenceList,
   Headline,
   PremiumTeaser,
+  PublicationCard,
   PublicationHeader,
   SectionHeading,
   SourceAttribution,
@@ -17,6 +18,7 @@ import { NewsletterSignup } from "@/components/newsletter-signup";
 import { editionDateLabel, getSourceNote, sourceNotePosts } from "@/lib/daily-edition";
 import { atlanta } from "@/lib/market";
 import { absoluteUrl } from "@/lib/site";
+import { relatedContent } from "@/lib/content-index";
 
 export function generateStaticParams() {
   return sourceNotePosts.map((post) => ({ id: post.id }));
@@ -95,6 +97,7 @@ export default async function SourceNotePage({ params }: { params: Promise<{ id:
             <PremiumTeaser compact />
           </aside>
         </div>
+        <section><SectionHeading label="Related reporting" /><div className="editorial-grid editorial-grid--three">{relatedContent(post.category, post.href).map((item) => <PublicationCard key={item.id} item={item} />)}</div></section>
         <NewsletterSignup compact />
       </main>
     </>
