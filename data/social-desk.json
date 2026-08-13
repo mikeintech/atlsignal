@@ -1,7 +1,7 @@
 {
   "schemaVersion": "atlsignal_social_desk_v2",
-  "generatedAt": "2026-08-13T19:15:52.202Z",
-  "basedOnNewsroomRun": "2026-08-13T19:15:52.202Z",
+  "generatedAt": "2026-08-13T19:59:38.203Z",
+  "basedOnNewsroomRun": "2026-08-13T19:59:38.203Z",
   "timezone": "America/New_York",
   "calendarStart": "2026-08-13",
   "calendarEnd": "2026-08-20",
@@ -30,9 +30,9 @@
   },
   "packages": [
     {
-      "packageId": "8c8e7bd370aa48cf3c00",
-      "storyId": "9ebf8eea37a70240cedf",
-      "idempotencyKey": "atlsignal:9ebf8eea37a70240cedf:social-v2",
+      "packageId": "67fe48b8335583ee7418",
+      "storyId": "a06a42f92fc6b4ac8cdc",
+      "idempotencyKey": "atlsignal:a06a42f92fc6b4ac8cdc:social-v2",
       "scheduledFor": "2026-08-13T22:35:00.000Z",
       "localSlot": "2026-08-13 18:35 ET",
       "status": "AUTO_READY",
@@ -40,26 +40,21 @@
       "humanPresenceRequired": false,
       "franchise": "The Receipt",
       "category": "Transportation & Economy",
-      "evidenceLabel": "Corroborated",
-      "headline": "Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
-      "hook": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
-      "articleUrl": "https://mikeintech.github.io/atlsignal/file/9ebf8eea37a70240cedf",
+      "evidenceLabel": "Primary-source report",
+      "headline": "LCI Program Helps Bring Walkable Wayfinding System to Downtown for the World Cup",
+      "hook": "Here’s the receipt: LCI Program Helps Bring Walkable Wayfinding System to Downtown for the World Cup",
+      "articleUrl": "https://mikeintech.github.io/atlsignal/file/a06a42f92fc6b4ac8cdc",
       "sources": [
         {
-          "name": "Rough Draft Atlanta",
-          "url": "https://roughdraftatlanta.com/2026/08/13/atlanta-region-population-growth-slows/",
-          "tier": "B"
-        },
-        {
           "name": "Atlanta Regional Commission",
-          "url": "https://atlantaregional.org/news/research-innovation/atlanta-region-adds-53690-residents-in-past-year-arc-population-estimates-show/",
+          "url": "https://atlantaregional.org/news/community-development/lci-program-helps-bring-walkable-wayfinding-system-to-downtown-for-the-world-cup-and-beyond/",
           "tier": "A"
         }
       ],
       "editorialBoundary": {
-        "confirmed": "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....",
+        "confirmed": "Half a million visitors flooded into Atlanta this summer for the FIFA World Cup, riding MARTA to Mercedes-Benz Stadium, moving between from Centennial Olympic Park and Centennial Yards, and visiting...",
         "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
-        "unknown": "Later implementation and outcome evidence may still change the picture.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "production": {
@@ -71,42 +66,42 @@
         "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
         "sourceMedia": [
           {
-            "url": "https://atlantaregional.org/wp-content/uploads/atl-background-iija.jpg",
+            "url": "https://atlantaregional.org/wp-content/uploads/atl-sign-6-small-crop.jpg",
             "source": "Atlanta Regional Commission",
             "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
           }
         ],
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
-        "altText": "The Receipt explainer about Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show, with the source status and next milestone shown in ATLSignal graphics.",
+        "altText": "The Receipt explainer about LCI Program Helps Bring Walkable Wayfinding System to Downtown for the World Cup, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/8c8e7bd370aa48cf3c00/1",
-          "https://mikeintech.github.io/atlsignal/social-card/8c8e7bd370aa48cf3c00/2",
-          "https://mikeintech.github.io/atlsignal/social-card/8c8e7bd370aa48cf3c00/3",
-          "https://mikeintech.github.io/atlsignal/social-card/8c8e7bd370aa48cf3c00/4",
-          "https://mikeintech.github.io/atlsignal/social-card/8c8e7bd370aa48cf3c00/5",
-          "https://mikeintech.github.io/atlsignal/social-card/8c8e7bd370aa48cf3c00/6"
+          "https://mikeintech.github.io/atlsignal/social-card/67fe48b8335583ee7418/1",
+          "https://mikeintech.github.io/atlsignal/social-card/67fe48b8335583ee7418/2",
+          "https://mikeintech.github.io/atlsignal/social-card/67fe48b8335583ee7418/3",
+          "https://mikeintech.github.io/atlsignal/social-card/67fe48b8335583ee7418/4",
+          "https://mikeintech.github.io/atlsignal/social-card/67fe48b8335583ee7418/5",
+          "https://mikeintech.github.io/atlsignal/social-card/67fe48b8335583ee7418/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/8c8e7bd370aa48cf3c00/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/8c8e7bd370aa48cf3c00/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/8c8e7bd370aa48cf3c00/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/8c8e7bd370aa48cf3c00/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/8c8e7bd370aa48cf3c00/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/8c8e7bd370aa48cf3c00/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/67fe48b8335583ee7418/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/67fe48b8335583ee7418/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/67fe48b8335583ee7418/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/67fe48b8335583ee7418/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/67fe48b8335583ee7418/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/67fe48b8335583ee7418/6.jpg"
         ]
       },
       "carousel": [
         {
           "slide": 1,
           "label": "The Receipt",
-          "heading": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
+          "heading": "Here’s the receipt: LCI Program Helps Bring Walkable Wayfinding System to Downtown for the World Cup",
           "body": "Atlanta, explained from the receipts."
         },
         {
           "slide": 2,
           "label": "What changed",
           "heading": "The signal",
-          "body": "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta…"
+          "body": "Half a million visitors flooded into Atlanta this summer for the FIFA World Cup, riding MARTA to Mercedes-Benz Stadium, moving between from Centennial Olympic Park and Centennial Yards,…"
         },
         {
           "slide": 3,
@@ -117,14 +112,14 @@
         {
           "slide": 4,
           "label": "The receipt",
-          "heading": "Corroborated",
-          "body": "Source trail: Rough Draft Atlanta and Atlanta Regional Commission."
+          "heading": "Primary-source report",
+          "body": "Source trail: Atlanta Regional Commission."
         },
         {
           "slide": 5,
           "label": "Not confirmed",
           "heading": "What we still need",
-          "body": "Later implementation and outcome evidence may still change the picture."
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
         },
         {
           "slide": 6,
@@ -137,22 +132,22 @@
         "instagram": {
           "publishAt": "2026-08-13T22:35:00.000Z",
           "format": "CAROUSEL",
-          "caption": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show\n\nThe 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Later implementation and outcome evidence may still change the picture.\n\nSources: Rough Draft Atlanta and Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/9ebf8eea37a70240cedf\n\nWhich route or project should we check next?",
+          "caption": "Here’s the receipt: LCI Program Helps Bring Walkable Wayfinding System to Downtown for the World Cup\n\nHalf a million visitors flooded into Atlanta this summer for the FIFA World Cup, riding MARTA to Mercedes-Benz Stadium, moving between from Centennial Olympic Park and Centennial Yards, and visiting...\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/a06a42f92fc6b4ac8cdc\n\nWhich route or project should we check next?",
           "storyFrames": [
-            "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
-            "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population…",
-            "Which route or project should we check next? Read: https://mikeintech.github.io/atlsignal/file/9ebf8eea37a70240cedf"
+            "Here’s the receipt: LCI Program Helps Bring Walkable Wayfinding System to Downtown for the World Cup",
+            "Half a million visitors flooded into Atlanta this summer for the FIFA World Cup, riding MARTA to Mercedes-Benz…",
+            "Which route or project should we check next? Read: https://mikeintech.github.io/atlsignal/file/a06a42f92fc6b4ac8cdc"
           ]
         },
         "threads": {
           "publishOffsetMinutes": 12,
-          "post": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show\n\nThe 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....\n\nReceipt: Rough Draft Atlanta and Atlanta Regional Commission. https://mikeintech.github.io/atlsignal/file/9ebf8eea37a70240cedf",
-          "followUp": "Later implementation and outcome evidence may still change the picture.\n\nWhich route or project should we check next?"
+          "post": "Here’s the receipt: LCI Program Helps Bring Walkable Wayfinding System to Downtown for the World Cup\n\nHalf a million visitors flooded into Atlanta this summer for the FIFA World Cup, riding MARTA to Mercedes-Benz Stadium, moving between from Centennial Olympic Park and Centennial Yards, and visiting...\n\nReceipt: Atlanta Regional Commission. https://mikeintech.github.io/atlsignal/file/a06a42f92fc6b4ac8cdc",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich route or project should we check next?"
         }
       },
       "measurement": {
         "campaign": "social_20260813",
-        "content": "the_receipt_9ebf8eea",
+        "content": "the_receipt_a06a42f9",
         "primary": [
           "shares_per_reach",
           "saves_per_reach",
@@ -957,32 +952,37 @@
       }
     },
     {
-      "packageId": "6b179cac05dabf7b94b7",
-      "storyId": "acb27d881cb4f7742854",
-      "idempotencyKey": "atlsignal:acb27d881cb4f7742854:social-v2",
+      "packageId": "557b0edfb50baf7ac3ca",
+      "storyId": "9ebf8eea37a70240cedf",
+      "idempotencyKey": "atlsignal:9ebf8eea37a70240cedf:social-v2",
       "scheduledFor": "2026-08-16T11:35:00.000Z",
       "localSlot": "2026-08-16 07:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
-      "franchise": "$ATL",
-      "category": "Public Money",
-      "evidenceLabel": "Primary-source report",
-      "headline": "Atlanta’s C-PACE financing tops $130.4 million in 2026",
-      "hook": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026",
-      "articleUrl": "https://mikeintech.github.io/atlsignal/invest-atlanta-cpace-130-million-financing",
+      "franchise": "The Receipt",
+      "category": "Transportation & Economy",
+      "evidenceLabel": "Corroborated",
+      "headline": "Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
+      "hook": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
+      "articleUrl": "https://mikeintech.github.io/atlsignal/file/9ebf8eea37a70240cedf",
       "sources": [
         {
-          "name": "Invest Atlanta",
-          "url": "https://www.investatlanta.com/impact-insights/invest-atlantas-c-pace-program-surpasses-130-million-in-2026-financing",
+          "name": "Rough Draft Atlanta",
+          "url": "https://roughdraftatlanta.com/2026/08/13/atlanta-region-population-growth-slows/",
+          "tier": "B"
+        },
+        {
+          "name": "Atlanta Regional Commission",
+          "url": "https://atlantaregional.org/news/research-innovation/atlanta-region-adds-53690-residents-in-past-year-arc-population-estimates-show/",
           "tier": "A"
         }
       ],
       "editorialBoundary": {
-        "confirmed": "Invest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR.",
-        "whyItMatters": "The financing tool ties energy and building upgrades to named commercial properties, giving Atlanta measurable projects to track beyond the headline total.",
-        "unknown": "The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance.",
-        "next": "Track project scopes, construction milestones, completion and measured energy or operating results."
+        "confirmed": "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Later implementation and outcome evidence may still change the picture.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "production": {
         "format": "CAROUSEL_4X5",
@@ -993,88 +993,88 @@
         "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
         "sourceMedia": [
           {
-            "url": "https://www.investatlanta.com/uploads/resources/260520_otcrtv_thectratl_0085_D3ZBp8W.jpg",
-            "source": "Invest Atlanta",
+            "url": "https://atlantaregional.org/wp-content/uploads/atl-background-iija.jpg",
+            "source": "Atlanta Regional Commission",
             "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
           }
         ],
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
-        "altText": "$ATL explainer about Invest Atlanta's C-PACE Program Surpasses $130 Million In 2026 Financing, with the source status and next milestone shown in ATLSignal graphics.",
+        "altText": "The Receipt explainer about Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/6b179cac05dabf7b94b7/1",
-          "https://mikeintech.github.io/atlsignal/social-card/6b179cac05dabf7b94b7/2",
-          "https://mikeintech.github.io/atlsignal/social-card/6b179cac05dabf7b94b7/3",
-          "https://mikeintech.github.io/atlsignal/social-card/6b179cac05dabf7b94b7/4",
-          "https://mikeintech.github.io/atlsignal/social-card/6b179cac05dabf7b94b7/5",
-          "https://mikeintech.github.io/atlsignal/social-card/6b179cac05dabf7b94b7/6"
+          "https://mikeintech.github.io/atlsignal/social-card/557b0edfb50baf7ac3ca/1",
+          "https://mikeintech.github.io/atlsignal/social-card/557b0edfb50baf7ac3ca/2",
+          "https://mikeintech.github.io/atlsignal/social-card/557b0edfb50baf7ac3ca/3",
+          "https://mikeintech.github.io/atlsignal/social-card/557b0edfb50baf7ac3ca/4",
+          "https://mikeintech.github.io/atlsignal/social-card/557b0edfb50baf7ac3ca/5",
+          "https://mikeintech.github.io/atlsignal/social-card/557b0edfb50baf7ac3ca/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/6b179cac05dabf7b94b7/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b179cac05dabf7b94b7/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b179cac05dabf7b94b7/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b179cac05dabf7b94b7/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b179cac05dabf7b94b7/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/6b179cac05dabf7b94b7/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/557b0edfb50baf7ac3ca/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/557b0edfb50baf7ac3ca/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/557b0edfb50baf7ac3ca/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/557b0edfb50baf7ac3ca/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/557b0edfb50baf7ac3ca/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/557b0edfb50baf7ac3ca/6.jpg"
         ]
       },
       "carousel": [
         {
           "slide": 1,
-          "label": "$ATL",
-          "heading": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026",
+          "label": "The Receipt",
+          "heading": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
           "body": "Atlanta, explained from the receipts."
         },
         {
           "slide": 2,
           "label": "What changed",
           "heading": "The signal",
-          "body": "Invest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR."
+          "body": "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta…"
         },
         {
           "slide": 3,
           "label": "Why it matters",
           "heading": "The consequence",
-          "body": "The financing tool ties energy and building upgrades to named commercial properties, giving Atlanta measurable projects to track beyond the headline total."
+          "body": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta."
         },
         {
           "slide": 4,
           "label": "The receipt",
-          "heading": "Primary-source report",
-          "body": "Source trail: Invest Atlanta."
+          "heading": "Corroborated",
+          "body": "Source trail: Rough Draft Atlanta and Atlanta Regional Commission."
         },
         {
           "slide": 5,
           "label": "Not confirmed",
           "heading": "What we still need",
-          "body": "The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance."
+          "body": "Later implementation and outcome evidence may still change the picture."
         },
         {
           "slide": 6,
           "label": "Track it",
           "heading": "The next signal",
-          "body": "Track project scopes, construction milestones, completion and measured energy or operating results."
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
         }
       ],
       "platforms": {
         "instagram": {
           "publishAt": "2026-08-16T11:35:00.000Z",
           "format": "CAROUSEL",
-          "caption": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026\n\nInvest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR.\n\nWhy it matters: The financing tool ties energy and building upgrades to named commercial properties, giving Atlanta measurable projects to track beyond the headline total.\n\nWhat remains unknown: The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/invest-atlanta-cpace-130-million-financing\n\nWhich public investment should we follow to its next measurable result?",
+          "caption": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show\n\nThe 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Later implementation and outcome evidence may still change the picture.\n\nSources: Rough Draft Atlanta and Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/9ebf8eea37a70240cedf\n\nWhich route or project should we check next?",
           "storyFrames": [
-            "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026",
-            "Invest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and…",
-            "Which public investment should we follow to its next measurable result? Read: https://mikeintech.github.io/atlsignal/invest-atlanta-cpace-130-million-financing"
+            "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show",
+            "The 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population…",
+            "Which route or project should we check next? Read: https://mikeintech.github.io/atlsignal/file/9ebf8eea37a70240cedf"
           ]
         },
         "threads": {
           "publishOffsetMinutes": 12,
-          "post": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026\n\nInvest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR.\n\nReceipt: Invest Atlanta. https://mikeintech.github.io/atlsignal/invest-atlanta-cpace-130-million-financing",
-          "followUp": "The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance.\n\nWhich public investment should we follow to its next measurable result?"
+          "post": "Here’s the receipt: Atlanta Region Adds 53,690 Residents in Past Year ARC Population Estimates Show\n\nThe 11-county Atlanta region added 53,690 residents between April 2025 and April 2026, bringing the total population to 5,339,164, according to estimates released today by the Atlanta Regional Commission (ARC)....\n\nReceipt: Rough Draft Atlanta and Atlanta Regional Commission. https://mikeintech.github.io/atlsignal/file/9ebf8eea37a70240cedf",
+          "followUp": "Later implementation and outcome evidence may still change the picture.\n\nWhich route or project should we check next?"
         }
       },
       "measurement": {
         "campaign": "social_20260816",
-        "content": "_atl_acb27d88",
+        "content": "the_receipt_9ebf8eea",
         "primary": [
           "shares_per_reach",
           "saves_per_reach",
@@ -1353,32 +1353,32 @@
       }
     },
     {
-      "packageId": "df76b6d27dc8e7d44e4b",
-      "storyId": "b1c05e21ab32f60ca452",
-      "idempotencyKey": "atlsignal:b1c05e21ab32f60ca452:social-v2",
+      "packageId": "9ccb03657bbdb09bc47c",
+      "storyId": "acb27d881cb4f7742854",
+      "idempotencyKey": "atlsignal:acb27d881cb4f7742854:social-v2",
       "scheduledFor": "2026-08-17T11:35:00.000Z",
       "localSlot": "2026-08-17 07:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
-      "franchise": "The Receipt",
-      "category": "Housing & Neighborhoods",
+      "franchise": "$ATL",
+      "category": "Public Money",
       "evidenceLabel": "Primary-source report",
-      "headline": "$39 million backs nearly 400 affordable homes across Atlanta",
-      "hook": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta",
-      "articleUrl": "https://mikeintech.github.io/atlsignal/invest-atlanta-39-million-affordable-housing",
+      "headline": "Atlanta’s C-PACE financing tops $130.4 million in 2026",
+      "hook": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026",
+      "articleUrl": "https://mikeintech.github.io/atlsignal/invest-atlanta-cpace-130-million-financing",
       "sources": [
         {
           "name": "Invest Atlanta",
-          "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-board-approves-39-million-for-affordable-housing",
+          "url": "https://www.investatlanta.com/impact-insights/invest-atlantas-c-pace-program-surpasses-130-million-in-2026-financing",
           "tier": "A"
         }
       ],
       "editorialBoundary": {
-        "confirmed": "Invest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park.",
-        "whyItMatters": "The approvals turn a broad affordability commitment into named projects, locations and unit counts that can be followed through construction and occupancy.",
-        "unknown": "Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level.",
-        "next": "Track closings, permits, construction milestones, affordability agreements and occupancy at all four properties."
+        "confirmed": "Invest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR.",
+        "whyItMatters": "The financing tool ties energy and building upgrades to named commercial properties, giving Atlanta measurable projects to track beyond the headline total.",
+        "unknown": "The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance.",
+        "next": "Track project scopes, construction milestones, completion and measured energy or operating results."
       },
       "production": {
         "format": "CAROUSEL_4X5",
@@ -1389,48 +1389,48 @@
         "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
         "sourceMedia": [
           {
-            "url": "https://www.investatlanta.com/uploads/resources/cityline_zy5MkbX.jpeg",
+            "url": "https://www.investatlanta.com/uploads/resources/260520_otcrtv_thectratl_0085_D3ZBp8W.jpg",
             "source": "Invest Atlanta",
             "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
           }
         ],
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
-        "altText": "The Receipt explainer about Invest Atlanta Board Approves $39 Million for Affordable Housing, with the source status and next milestone shown in ATLSignal graphics.",
+        "altText": "$ATL explainer about Invest Atlanta's C-PACE Program Surpasses $130 Million In 2026 Financing, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/df76b6d27dc8e7d44e4b/1",
-          "https://mikeintech.github.io/atlsignal/social-card/df76b6d27dc8e7d44e4b/2",
-          "https://mikeintech.github.io/atlsignal/social-card/df76b6d27dc8e7d44e4b/3",
-          "https://mikeintech.github.io/atlsignal/social-card/df76b6d27dc8e7d44e4b/4",
-          "https://mikeintech.github.io/atlsignal/social-card/df76b6d27dc8e7d44e4b/5",
-          "https://mikeintech.github.io/atlsignal/social-card/df76b6d27dc8e7d44e4b/6"
+          "https://mikeintech.github.io/atlsignal/social-card/9ccb03657bbdb09bc47c/1",
+          "https://mikeintech.github.io/atlsignal/social-card/9ccb03657bbdb09bc47c/2",
+          "https://mikeintech.github.io/atlsignal/social-card/9ccb03657bbdb09bc47c/3",
+          "https://mikeintech.github.io/atlsignal/social-card/9ccb03657bbdb09bc47c/4",
+          "https://mikeintech.github.io/atlsignal/social-card/9ccb03657bbdb09bc47c/5",
+          "https://mikeintech.github.io/atlsignal/social-card/9ccb03657bbdb09bc47c/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/df76b6d27dc8e7d44e4b/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df76b6d27dc8e7d44e4b/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df76b6d27dc8e7d44e4b/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df76b6d27dc8e7d44e4b/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df76b6d27dc8e7d44e4b/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/df76b6d27dc8e7d44e4b/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/9ccb03657bbdb09bc47c/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/9ccb03657bbdb09bc47c/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/9ccb03657bbdb09bc47c/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/9ccb03657bbdb09bc47c/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/9ccb03657bbdb09bc47c/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/9ccb03657bbdb09bc47c/6.jpg"
         ]
       },
       "carousel": [
         {
           "slide": 1,
-          "label": "The Receipt",
-          "heading": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta",
+          "label": "$ATL",
+          "heading": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026",
           "body": "Atlanta, explained from the receipts."
         },
         {
           "slide": 2,
           "label": "What changed",
           "heading": "The signal",
-          "body": "Invest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park."
+          "body": "Invest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR."
         },
         {
           "slide": 3,
           "label": "Why it matters",
           "heading": "The consequence",
-          "body": "The approvals turn a broad affordability commitment into named projects, locations and unit counts that can be followed through construction and occupancy."
+          "body": "The financing tool ties energy and building upgrades to named commercial properties, giving Atlanta measurable projects to track beyond the headline total."
         },
         {
           "slide": 4,
@@ -1442,35 +1442,35 @@
           "slide": 5,
           "label": "Not confirmed",
           "heading": "What we still need",
-          "body": "Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level."
+          "body": "The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance."
         },
         {
           "slide": 6,
           "label": "Track it",
           "heading": "The next signal",
-          "body": "Track closings, permits, construction milestones, affordability agreements and occupancy at all four properties."
+          "body": "Track project scopes, construction milestones, completion and measured energy or operating results."
         }
       ],
       "platforms": {
         "instagram": {
           "publishAt": "2026-08-17T11:35:00.000Z",
           "format": "CAROUSEL",
-          "caption": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta\n\nInvest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park.\n\nWhy it matters: The approvals turn a broad affordability commitment into named projects, locations and unit counts that can be followed through construction and occupancy.\n\nWhat remains unknown: Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/invest-atlanta-39-million-affordable-housing\n\nWhich housing commitment should ATLSignal track through delivery?",
+          "caption": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026\n\nInvest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR.\n\nWhy it matters: The financing tool ties energy and building upgrades to named commercial properties, giving Atlanta measurable projects to track beyond the headline total.\n\nWhat remains unknown: The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/invest-atlanta-cpace-130-million-financing\n\nWhich public investment should we follow to its next measurable result?",
           "storyFrames": [
-            "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta",
-            "Invest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400…",
-            "Which housing commitment should ATLSignal track through delivery? Read: https://mikeintech.github.io/atlsignal/invest-atlanta-39-million-affordable-housing"
+            "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026",
+            "Invest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and…",
+            "Which public investment should we follow to its next measurable result? Read: https://mikeintech.github.io/atlsignal/invest-atlanta-cpace-130-million-financing"
           ]
         },
         "threads": {
           "publishOffsetMinutes": 12,
-          "post": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta\n\nInvest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park.\n\nReceipt: Invest Atlanta. https://mikeintech.github.io/atlsignal/invest-atlanta-39-million-affordable-housing",
-          "followUp": "Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level.\n\nWhich housing commitment should ATLSignal track through delivery?"
+          "post": "Follow the money: Atlanta’s C-PACE financing tops $130.4 million in 2026\n\nInvest Atlanta reports $130.4 million in C-PACE financing closed in 2026, including $10 million for Pullman Yards and $56.4 million for The CTR.\n\nReceipt: Invest Atlanta. https://mikeintech.github.io/atlsignal/invest-atlanta-cpace-130-million-financing",
+          "followUp": "The announcement does not establish every construction deadline, projected savings or the upgrades’ eventual operating performance.\n\nWhich public investment should we follow to its next measurable result?"
         }
       },
       "measurement": {
         "campaign": "social_20260817",
-        "content": "the_receipt_b1c05e21",
+        "content": "_atl_acb27d88",
         "primary": [
           "shares_per_reach",
           "saves_per_reach",
@@ -1743,11 +1743,275 @@
       }
     },
     {
-      "packageId": "d64f46eb46fc43943056",
-      "storyId": "1653ceea6e15d276c2de",
-      "idempotencyKey": "atlsignal:1653ceea6e15d276c2de:social-v2",
+      "packageId": "85eb8247f3f301ce007e",
+      "storyId": "b1c05e21ab32f60ca452",
+      "idempotencyKey": "atlsignal:b1c05e21ab32f60ca452:social-v2",
       "scheduledFor": "2026-08-18T11:35:00.000Z",
       "localSlot": "2026-08-18 07:35 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "The Receipt",
+      "category": "Housing & Neighborhoods",
+      "evidenceLabel": "Primary-source report",
+      "headline": "$39 million backs nearly 400 affordable homes across Atlanta",
+      "hook": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta",
+      "articleUrl": "https://mikeintech.github.io/atlsignal/invest-atlanta-39-million-affordable-housing",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/invest-atlanta-board-approves-39-million-for-affordable-housing",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "Invest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park.",
+        "whyItMatters": "The approvals turn a broad affordability commitment into named projects, locations and unit counts that can be followed through construction and occupancy.",
+        "unknown": "Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level.",
+        "next": "Track closings, permits, construction milestones, affordability agreements and occupancy at all four properties."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "assetStatus": "GENERATED",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/cityline_zy5MkbX.jpeg",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "The Receipt explainer about Invest Atlanta Board Approves $39 Million for Affordable Housing, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://mikeintech.github.io/atlsignal/social-card/85eb8247f3f301ce007e/1",
+          "https://mikeintech.github.io/atlsignal/social-card/85eb8247f3f301ce007e/2",
+          "https://mikeintech.github.io/atlsignal/social-card/85eb8247f3f301ce007e/3",
+          "https://mikeintech.github.io/atlsignal/social-card/85eb8247f3f301ce007e/4",
+          "https://mikeintech.github.io/atlsignal/social-card/85eb8247f3f301ce007e/5",
+          "https://mikeintech.github.io/atlsignal/social-card/85eb8247f3f301ce007e/6"
+        ],
+        "assetUrls": [
+          "https://mikeintech.github.io/atlsignal/social-assets/85eb8247f3f301ce007e/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/85eb8247f3f301ce007e/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/85eb8247f3f301ce007e/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/85eb8247f3f301ce007e/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/85eb8247f3f301ce007e/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/85eb8247f3f301ce007e/6.jpg"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "The Receipt",
+          "heading": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "Invest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park."
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "The approvals turn a broad affordability commitment into named projects, locations and unit counts that can be followed through construction and occupancy."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Invest Atlanta."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Track closings, permits, construction milestones, affordability agreements and occupancy at all four properties."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-18T11:35:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta\n\nInvest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park.\n\nWhy it matters: The approvals turn a broad affordability commitment into named projects, locations and unit counts that can be followed through construction and occupancy.\n\nWhat remains unknown: Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/invest-atlanta-39-million-affordable-housing\n\nWhich housing commitment should ATLSignal track through delivery?",
+          "storyFrames": [
+            "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta",
+            "Invest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400…",
+            "Which housing commitment should ATLSignal track through delivery? Read: https://mikeintech.github.io/atlsignal/invest-atlanta-39-million-affordable-housing"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Here’s the receipt: $39 million backs nearly 400 affordable homes across Atlanta\n\nInvest Atlanta approved $39 million for four west-side developments expected to create or preserve nearly 400 affordable homes, including 218 homes in Grove Park.\n\nReceipt: Invest Atlanta. https://mikeintech.github.io/atlsignal/invest-atlanta-39-million-affordable-housing",
+          "followUp": "Board approval does not establish closing, construction completion, lease-up timing or the final number of homes delivered at each affordability level.\n\nWhich housing commitment should ATLSignal track through delivery?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260818",
+        "content": "the_receipt_b1c05e21",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "742535af4c271590b682",
+      "storyId": "8b3c22e76193d9ee04ef",
+      "idempotencyKey": "atlsignal:8b3c22e76193d9ee04ef:social-v2",
+      "scheduledFor": "2026-08-18T16:15:00.000Z",
+      "localSlot": "2026-08-18 12:15 ET",
+      "status": "AUTO_READY",
+      "holdReasons": [],
+      "humanPresenceRequired": false,
+      "franchise": "Atlanta Then / Now",
+      "category": "Business & Economy",
+      "evidenceLabel": "Primary-source report",
+      "headline": "Façade Improvement Grants Preserve Atlanta History",
+      "hook": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
+      "articleUrl": "https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef",
+      "sources": [
+        {
+          "name": "Invest Atlanta",
+          "url": "https://www.investatlanta.com/impact-insights/facade-improvement-grants-preserve-atlanta-history",
+          "tier": "A"
+        }
+      ],
+      "editorialBoundary": {
+        "confirmed": "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "production": {
+        "format": "CAROUSEL_4X5",
+        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
+        "assetStatus": "GENERATED",
+        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
+        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
+        "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
+        "sourceMedia": [
+          {
+            "url": "https://www.investatlanta.com/uploads/resources/muses_nMvKNDq.jpeg",
+            "source": "Invest Atlanta",
+            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
+          }
+        ],
+        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
+        "altText": "Atlanta Then / Now explainer about Façade Improvement Grants Preserve Atlanta History, with the source status and next milestone shown in ATLSignal graphics.",
+        "renderUrls": [
+          "https://mikeintech.github.io/atlsignal/social-card/742535af4c271590b682/1",
+          "https://mikeintech.github.io/atlsignal/social-card/742535af4c271590b682/2",
+          "https://mikeintech.github.io/atlsignal/social-card/742535af4c271590b682/3",
+          "https://mikeintech.github.io/atlsignal/social-card/742535af4c271590b682/4",
+          "https://mikeintech.github.io/atlsignal/social-card/742535af4c271590b682/5",
+          "https://mikeintech.github.io/atlsignal/social-card/742535af4c271590b682/6"
+        ],
+        "assetUrls": [
+          "https://mikeintech.github.io/atlsignal/social-assets/742535af4c271590b682/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/742535af4c271590b682/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/742535af4c271590b682/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/742535af4c271590b682/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/742535af4c271590b682/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/742535af4c271590b682/6.jpg"
+        ]
+      },
+      "carousel": [
+        {
+          "slide": 1,
+          "label": "Atlanta Then / Now",
+          "heading": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
+          "body": "Atlanta, explained from the receipts."
+        },
+        {
+          "slide": 2,
+          "label": "What changed",
+          "heading": "The signal",
+          "body": "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration…"
+        },
+        {
+          "slide": 3,
+          "label": "Why it matters",
+          "heading": "The consequence",
+          "body": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta."
+        },
+        {
+          "slide": 4,
+          "label": "The receipt",
+          "heading": "Primary-source report",
+          "body": "Source trail: Invest Atlanta."
+        },
+        {
+          "slide": 5,
+          "label": "Not confirmed",
+          "heading": "What we still need",
+          "body": "Independent corroboration and later outcome evidence remain outstanding."
+        },
+        {
+          "slide": 6,
+          "label": "Track it",
+          "heading": "The next signal",
+          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+        }
+      ],
+      "platforms": {
+        "instagram": {
+          "publishAt": "2026-08-18T16:15:00.000Z",
+          "format": "CAROUSEL",
+          "caption": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History\n\nThe Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef\n\nWhich Atlanta business move should be on our watchlist?",
+          "storyFrames": [
+            "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
+            "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation…",
+            "Which Atlanta business move should be on our watchlist? Read: https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef"
+          ]
+        },
+        "threads": {
+          "publishOffsetMinutes": 12,
+          "post": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History\n\nThe Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.\n\nReceipt: Invest Atlanta. https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef",
+          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich Atlanta business move should be on our watchlist?"
+        }
+      },
+      "measurement": {
+        "campaign": "social_20260818",
+        "content": "atlanta_then_now_8b3c22e7",
+        "primary": [
+          "shares_per_reach",
+          "saves_per_reach",
+          "qualified_questions",
+          "newsletter_signups"
+        ],
+        "secondary": [
+          "reel_completion",
+          "profile_to_site_clicks",
+          "follows"
+        ]
+      }
+    },
+    {
+      "packageId": "a5b88cb88dd6be4dbb0e",
+      "storyId": "1653ceea6e15d276c2de",
+      "idempotencyKey": "atlsignal:1653ceea6e15d276c2de:social-v2",
+      "scheduledFor": "2026-08-18T22:35:00.000Z",
+      "localSlot": "2026-08-18 18:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -1802,20 +2066,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "The Signal explainer about Atlanta Beltline Breaks Ground on Overlook at Garson, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/d64f46eb46fc43943056/1",
-          "https://mikeintech.github.io/atlsignal/social-card/d64f46eb46fc43943056/2",
-          "https://mikeintech.github.io/atlsignal/social-card/d64f46eb46fc43943056/3",
-          "https://mikeintech.github.io/atlsignal/social-card/d64f46eb46fc43943056/4",
-          "https://mikeintech.github.io/atlsignal/social-card/d64f46eb46fc43943056/5",
-          "https://mikeintech.github.io/atlsignal/social-card/d64f46eb46fc43943056/6"
+          "https://mikeintech.github.io/atlsignal/social-card/a5b88cb88dd6be4dbb0e/1",
+          "https://mikeintech.github.io/atlsignal/social-card/a5b88cb88dd6be4dbb0e/2",
+          "https://mikeintech.github.io/atlsignal/social-card/a5b88cb88dd6be4dbb0e/3",
+          "https://mikeintech.github.io/atlsignal/social-card/a5b88cb88dd6be4dbb0e/4",
+          "https://mikeintech.github.io/atlsignal/social-card/a5b88cb88dd6be4dbb0e/5",
+          "https://mikeintech.github.io/atlsignal/social-card/a5b88cb88dd6be4dbb0e/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/d64f46eb46fc43943056/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/d64f46eb46fc43943056/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/d64f46eb46fc43943056/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/d64f46eb46fc43943056/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/d64f46eb46fc43943056/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/d64f46eb46fc43943056/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/a5b88cb88dd6be4dbb0e/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/a5b88cb88dd6be4dbb0e/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/a5b88cb88dd6be4dbb0e/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/a5b88cb88dd6be4dbb0e/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/a5b88cb88dd6be4dbb0e/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/a5b88cb88dd6be4dbb0e/6.jpg"
         ]
       },
       "carousel": [
@@ -1858,7 +2122,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-18T11:35:00.000Z",
+          "publishAt": "2026-08-18T22:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "BeltLine-backed Overlook at Garson moves from plan to construction\n\nAtlanta BeltLine and Atlanta Housing marked the start of construction on Overlook at Garson, an affordable-housing development near Lindbergh.\n\nWhy it matters: The groundbreaking changes the story from a plan into an observable delivery milestone near major transportation and commercial corridors.\n\nWhat remains unknown: The milestone does not establish every deadline, final lease-up date, downstream contract or neighborhood effect.\n\nSources: Atlanta BeltLine and Atlanta Housing. Full context and source trail: https://mikeintech.github.io/atlsignal/beltline-overlook-at-garson-affordable-housing\n\nWhat should ATLSignal verify next?",
           "storyFrames": [
@@ -1890,143 +2154,11 @@
       }
     },
     {
-      "packageId": "b36bc0a56eb39c9ca6d6",
-      "storyId": "213c4233a463753e7f91",
-      "idempotencyKey": "atlsignal:213c4233a463753e7f91:social-v2",
-      "scheduledFor": "2026-08-18T16:15:00.000Z",
-      "localSlot": "2026-08-18 12:15 ET",
-      "status": "AUTO_READY",
-      "holdReasons": [],
-      "humanPresenceRequired": false,
-      "franchise": "From the File",
-      "category": "Transportation & Economy",
-      "evidenceLabel": "Primary-source report",
-      "headline": "It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
-      "hook": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
-      "articleUrl": "https://mikeintech.github.io/atlsignal/file/213c4233a463753e7f91",
-      "sources": [
-        {
-          "name": "Atlanta Regional Commission",
-          "url": "https://atlantaregional.org/news/natural-resources/it-rained-buckets-in-may-are-our-water-worries-behind-us-not-just-yet/",
-          "tier": "A"
-        }
-      ],
-      "editorialBoundary": {
-        "confirmed": "From a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –...",
-        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "production": {
-        "format": "CAROUSEL_4X5",
-        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
-        "assetStatus": "GENERATED",
-        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
-        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
-        "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
-        "sourceMedia": [
-          {
-            "url": "https://atlantaregional.org/wp-content/uploads/water-levels.png",
-            "source": "Atlanta Regional Commission",
-            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
-          }
-        ],
-        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
-        "altText": "From the File explainer about It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet, with the source status and next milestone shown in ATLSignal graphics.",
-        "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/b36bc0a56eb39c9ca6d6/1",
-          "https://mikeintech.github.io/atlsignal/social-card/b36bc0a56eb39c9ca6d6/2",
-          "https://mikeintech.github.io/atlsignal/social-card/b36bc0a56eb39c9ca6d6/3",
-          "https://mikeintech.github.io/atlsignal/social-card/b36bc0a56eb39c9ca6d6/4",
-          "https://mikeintech.github.io/atlsignal/social-card/b36bc0a56eb39c9ca6d6/5",
-          "https://mikeintech.github.io/atlsignal/social-card/b36bc0a56eb39c9ca6d6/6"
-        ],
-        "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/b36bc0a56eb39c9ca6d6/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b36bc0a56eb39c9ca6d6/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b36bc0a56eb39c9ca6d6/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b36bc0a56eb39c9ca6d6/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b36bc0a56eb39c9ca6d6/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b36bc0a56eb39c9ca6d6/6.jpg"
-        ]
-      },
-      "carousel": [
-        {
-          "slide": 1,
-          "label": "From the File",
-          "heading": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
-          "body": "Atlanta, explained from the receipts."
-        },
-        {
-          "slide": 2,
-          "label": "What changed",
-          "heading": "The signal",
-          "body": "From a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –..."
-        },
-        {
-          "slide": 3,
-          "label": "Why it matters",
-          "heading": "The consequence",
-          "body": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta."
-        },
-        {
-          "slide": 4,
-          "label": "The receipt",
-          "heading": "Primary-source report",
-          "body": "Source trail: Atlanta Regional Commission."
-        },
-        {
-          "slide": 5,
-          "label": "Not confirmed",
-          "heading": "What we still need",
-          "body": "Independent corroboration and later outcome evidence remain outstanding."
-        },
-        {
-          "slide": 6,
-          "label": "Track it",
-          "heading": "The next signal",
-          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-        }
-      ],
-      "platforms": {
-        "instagram": {
-          "publishAt": "2026-08-18T16:15:00.000Z",
-          "format": "CAROUSEL",
-          "caption": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet\n\nFrom a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –...\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Atlanta Regional Commission. Full context and source trail: https://mikeintech.github.io/atlsignal/file/213c4233a463753e7f91\n\nWhich route or project should we check next?",
-          "storyFrames": [
-            "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet",
-            "From a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous…",
-            "Which route or project should we check next? Read: https://mikeintech.github.io/atlsignal/file/213c4233a463753e7f91"
-          ]
-        },
-        "threads": {
-          "publishOffsetMinutes": 12,
-          "post": "From the file: It rained buckets in May. Are Our Water Worries Behind Us? Not Just Yet\n\nFrom a hydrology standpoint, metro Atlanta entered May like a football team down by four touchdowns. Over the previous 12 months, the region only received 35.5 inches of rain –...\n\nReceipt: Atlanta Regional Commission. https://mikeintech.github.io/atlsignal/file/213c4233a463753e7f91",
-          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich route or project should we check next?"
-        }
-      },
-      "measurement": {
-        "campaign": "social_20260818",
-        "content": "from_the_file_213c4233",
-        "primary": [
-          "shares_per_reach",
-          "saves_per_reach",
-          "qualified_questions",
-          "newsletter_signups"
-        ],
-        "secondary": [
-          "reel_completion",
-          "profile_to_site_clicks",
-          "follows"
-        ]
-      }
-    },
-    {
-      "packageId": "b8922549572637549ca9",
+      "packageId": "2b304c78be779c3e4b2b",
       "storyId": "163ecb6c04de2680150d",
       "idempotencyKey": "atlsignal:163ecb6c04de2680150d:social-v2",
-      "scheduledFor": "2026-08-18T22:35:00.000Z",
-      "localSlot": "2026-08-18 18:35 ET",
+      "scheduledFor": "2026-08-19T11:35:00.000Z",
+      "localSlot": "2026-08-19 07:35 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
@@ -2066,20 +2198,20 @@
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
         "altText": "Opening Watch explainer about Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/b8922549572637549ca9/1",
-          "https://mikeintech.github.io/atlsignal/social-card/b8922549572637549ca9/2",
-          "https://mikeintech.github.io/atlsignal/social-card/b8922549572637549ca9/3",
-          "https://mikeintech.github.io/atlsignal/social-card/b8922549572637549ca9/4",
-          "https://mikeintech.github.io/atlsignal/social-card/b8922549572637549ca9/5",
-          "https://mikeintech.github.io/atlsignal/social-card/b8922549572637549ca9/6"
+          "https://mikeintech.github.io/atlsignal/social-card/2b304c78be779c3e4b2b/1",
+          "https://mikeintech.github.io/atlsignal/social-card/2b304c78be779c3e4b2b/2",
+          "https://mikeintech.github.io/atlsignal/social-card/2b304c78be779c3e4b2b/3",
+          "https://mikeintech.github.io/atlsignal/social-card/2b304c78be779c3e4b2b/4",
+          "https://mikeintech.github.io/atlsignal/social-card/2b304c78be779c3e4b2b/5",
+          "https://mikeintech.github.io/atlsignal/social-card/2b304c78be779c3e4b2b/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/b8922549572637549ca9/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b8922549572637549ca9/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b8922549572637549ca9/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b8922549572637549ca9/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b8922549572637549ca9/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/b8922549572637549ca9/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/2b304c78be779c3e4b2b/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/2b304c78be779c3e4b2b/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/2b304c78be779c3e4b2b/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/2b304c78be779c3e4b2b/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/2b304c78be779c3e4b2b/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/2b304c78be779c3e4b2b/6.jpg"
         ]
       },
       "carousel": [
@@ -2122,7 +2254,7 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-18T22:35:00.000Z",
+          "publishAt": "2026-08-19T11:35:00.000Z",
           "format": "CAROUSEL",
           "caption": "Opening watch: Downtown Pop-Up Opportunity Fund Turns Empty Spaces into Atlanta Destinations\n\nSwiftly Vintage is the creative vision of Donna Lindsey and a pursuit more than a decade in the making. Inspired by her extensive travels, the boutique pop-up store in South Downtown features an exclusive collection of vintage clothing, accessories and home décor that Donna has sourced and curated from around the world.\n\nWhy it matters: Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/163ecb6c04de2680150d\n\nWhich Atlanta business move should be on our watchlist?",
           "storyFrames": [
@@ -2138,7 +2270,7 @@
         }
       },
       "measurement": {
-        "campaign": "social_20260818",
+        "campaign": "social_20260819",
         "content": "opening_watch_163ecb6c",
         "primary": [
           "shares_per_reach",
@@ -2154,19 +2286,19 @@
       }
     },
     {
-      "packageId": "a14f007047643fa5b8aa",
+      "packageId": "d3a8718f88e307878249",
       "storyId": "a7d1a013b1faada61611",
       "idempotencyKey": "atlsignal:a7d1a013b1faada61611:social-v2",
-      "scheduledFor": "2026-08-19T11:35:00.000Z",
-      "localSlot": "2026-08-19 07:35 ET",
+      "scheduledFor": "2026-08-19T16:15:00.000Z",
+      "localSlot": "2026-08-19 12:15 ET",
       "status": "AUTO_READY",
       "holdReasons": [],
       "humanPresenceRequired": false,
-      "franchise": "$ATL",
+      "franchise": "From the File",
       "category": "Public Money",
       "evidenceLabel": "Primary-source report",
       "headline": "TAD Grant Supports New Andrew Young International Institute for Peace and Reconciliation",
-      "hook": "Follow the money: TAD Grant Supports New Andrew Young International Institute for Peace and…",
+      "hook": "From the file: TAD Grant Supports New Andrew Young International Institute for Peace and…",
       "articleUrl": "https://mikeintech.github.io/atlsignal/file/a7d1a013b1faada61611",
       "sources": [
         {
@@ -2196,29 +2328,29 @@
           }
         ],
         "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
-        "altText": "$ATL explainer about TAD Grant Supports New Andrew Young International Institute for Peace and Reconciliation, with the source status and next milestone shown in ATLSignal graphics.",
+        "altText": "From the File explainer about TAD Grant Supports New Andrew Young International Institute for Peace and Reconciliation, with the source status and next milestone shown in ATLSignal graphics.",
         "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/a14f007047643fa5b8aa/1",
-          "https://mikeintech.github.io/atlsignal/social-card/a14f007047643fa5b8aa/2",
-          "https://mikeintech.github.io/atlsignal/social-card/a14f007047643fa5b8aa/3",
-          "https://mikeintech.github.io/atlsignal/social-card/a14f007047643fa5b8aa/4",
-          "https://mikeintech.github.io/atlsignal/social-card/a14f007047643fa5b8aa/5",
-          "https://mikeintech.github.io/atlsignal/social-card/a14f007047643fa5b8aa/6"
+          "https://mikeintech.github.io/atlsignal/social-card/d3a8718f88e307878249/1",
+          "https://mikeintech.github.io/atlsignal/social-card/d3a8718f88e307878249/2",
+          "https://mikeintech.github.io/atlsignal/social-card/d3a8718f88e307878249/3",
+          "https://mikeintech.github.io/atlsignal/social-card/d3a8718f88e307878249/4",
+          "https://mikeintech.github.io/atlsignal/social-card/d3a8718f88e307878249/5",
+          "https://mikeintech.github.io/atlsignal/social-card/d3a8718f88e307878249/6"
         ],
         "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/a14f007047643fa5b8aa/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a14f007047643fa5b8aa/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a14f007047643fa5b8aa/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a14f007047643fa5b8aa/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a14f007047643fa5b8aa/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/a14f007047643fa5b8aa/6.jpg"
+          "https://mikeintech.github.io/atlsignal/social-assets/d3a8718f88e307878249/1.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d3a8718f88e307878249/2.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d3a8718f88e307878249/3.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d3a8718f88e307878249/4.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d3a8718f88e307878249/5.jpg",
+          "https://mikeintech.github.io/atlsignal/social-assets/d3a8718f88e307878249/6.jpg"
         ]
       },
       "carousel": [
         {
           "slide": 1,
-          "label": "$ATL",
-          "heading": "Follow the money: TAD Grant Supports New Andrew Young International Institute for Peace and…",
+          "label": "From the File",
+          "heading": "From the file: TAD Grant Supports New Andrew Young International Institute for Peace and…",
           "body": "Atlanta, explained from the receipts."
         },
         {
@@ -2254,156 +2386,24 @@
       ],
       "platforms": {
         "instagram": {
-          "publishAt": "2026-08-19T11:35:00.000Z",
+          "publishAt": "2026-08-19T16:15:00.000Z",
           "format": "CAROUSEL",
-          "caption": "Follow the money: TAD Grant Supports New Andrew Young International Institute for Peace and…\n\nThe Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the development of a transformative peace center in Historic Vine City, inspired by the enduring legacy of Ambassador Andrew Young.\n\nWhy it matters: Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/a7d1a013b1faada61611\n\nWhich public investment should we follow to its next measurable result?",
+          "caption": "From the file: TAD Grant Supports New Andrew Young International Institute for Peace and…\n\nThe Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the development of a transformative peace center in Historic Vine City, inspired by the enduring legacy of Ambassador Andrew Young.\n\nWhy it matters: Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/a7d1a013b1faada61611\n\nWhich public investment should we follow to its next measurable result?",
           "storyFrames": [
-            "Follow the money: TAD Grant Supports New Andrew Young International Institute for Peace and…",
+            "From the file: TAD Grant Supports New Andrew Young International Institute for Peace and…",
             "The Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the development…",
             "Which public investment should we follow to its next measurable result? Read: https://mikeintech.github.io/atlsignal/file/a7d1a013b1faada61611"
           ]
         },
         "threads": {
           "publishOffsetMinutes": 12,
-          "post": "Follow the money: TAD Grant Supports New Andrew Young International Institute for Peace and…\n\nThe Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the development of a transformative peace center in Historic Vine City, inspired by the enduring legacy of Ambassador Andrew Young.\n\nReceipt: Invest Atlanta. https://mikeintech.github.io/atlsignal/file/a7d1a013b1faada61611",
+          "post": "From the file: TAD Grant Supports New Andrew Young International Institute for Peace and…\n\nThe Invest Atlanta Board approved a $2 million Westside Tax Allocation District (TAD) Grant to support the development of a transformative peace center in Historic Vine City, inspired by the enduring legacy of Ambassador Andrew Young.\n\nReceipt: Invest Atlanta. https://mikeintech.github.io/atlsignal/file/a7d1a013b1faada61611",
           "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich public investment should we follow to its next measurable result?"
         }
       },
       "measurement": {
         "campaign": "social_20260819",
-        "content": "_atl_a7d1a013",
-        "primary": [
-          "shares_per_reach",
-          "saves_per_reach",
-          "qualified_questions",
-          "newsletter_signups"
-        ],
-        "secondary": [
-          "reel_completion",
-          "profile_to_site_clicks",
-          "follows"
-        ]
-      }
-    },
-    {
-      "packageId": "739d01176f08e766feb1",
-      "storyId": "8b3c22e76193d9ee04ef",
-      "idempotencyKey": "atlsignal:8b3c22e76193d9ee04ef:social-v2",
-      "scheduledFor": "2026-08-19T16:15:00.000Z",
-      "localSlot": "2026-08-19 12:15 ET",
-      "status": "AUTO_READY",
-      "holdReasons": [],
-      "humanPresenceRequired": false,
-      "franchise": "Atlanta Then / Now",
-      "category": "Business & Economy",
-      "evidenceLabel": "Primary-source report",
-      "headline": "Façade Improvement Grants Preserve Atlanta History",
-      "hook": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
-      "articleUrl": "https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef",
-      "sources": [
-        {
-          "name": "Invest Atlanta",
-          "url": "https://www.investatlanta.com/impact-insights/facade-improvement-grants-preserve-atlanta-history",
-          "tier": "A"
-        }
-      ],
-      "editorialBoundary": {
-        "confirmed": "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.",
-        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "production": {
-        "format": "CAROUSEL_4X5",
-        "preferredAssetMode": "ORIGINAL_EDITORIAL_GRAPHIC",
-        "assetStatus": "GENERATED",
-        "aiNarration": "ALLOWED_WITHOUT_SYNTHETIC_PERSON",
-        "disclosure": "AI-assisted production. Reporting and source review by ATLSignal.",
-        "visualDirection": "Six finished 4:5 ATLSignal editorial cards generated from reviewed copy. No synthetic documentary photography or third-party media is used.",
-        "sourceMedia": [
-          {
-            "url": "https://www.investatlanta.com/uploads/resources/muses_nMvKNDq.jpeg",
-            "source": "Invest Atlanta",
-            "usage": "REFERENCE_OR_LINK_ONLY_UNTIL_LICENSE_CONFIRMED"
-          }
-        ],
-        "mediaRule": "Use the linked source media only with documented permission, a license, a native repost, or an embed; otherwise use the original graphic plan.",
-        "altText": "Atlanta Then / Now explainer about Façade Improvement Grants Preserve Atlanta History, with the source status and next milestone shown in ATLSignal graphics.",
-        "renderUrls": [
-          "https://mikeintech.github.io/atlsignal/social-card/739d01176f08e766feb1/1",
-          "https://mikeintech.github.io/atlsignal/social-card/739d01176f08e766feb1/2",
-          "https://mikeintech.github.io/atlsignal/social-card/739d01176f08e766feb1/3",
-          "https://mikeintech.github.io/atlsignal/social-card/739d01176f08e766feb1/4",
-          "https://mikeintech.github.io/atlsignal/social-card/739d01176f08e766feb1/5",
-          "https://mikeintech.github.io/atlsignal/social-card/739d01176f08e766feb1/6"
-        ],
-        "assetUrls": [
-          "https://mikeintech.github.io/atlsignal/social-assets/739d01176f08e766feb1/1.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/739d01176f08e766feb1/2.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/739d01176f08e766feb1/3.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/739d01176f08e766feb1/4.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/739d01176f08e766feb1/5.jpg",
-          "https://mikeintech.github.io/atlsignal/social-assets/739d01176f08e766feb1/6.jpg"
-        ]
-      },
-      "carousel": [
-        {
-          "slide": 1,
-          "label": "Atlanta Then / Now",
-          "heading": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
-          "body": "Atlanta, explained from the receipts."
-        },
-        {
-          "slide": 2,
-          "label": "What changed",
-          "heading": "The signal",
-          "body": "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration…"
-        },
-        {
-          "slide": 3,
-          "label": "Why it matters",
-          "heading": "The consequence",
-          "body": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta."
-        },
-        {
-          "slide": 4,
-          "label": "The receipt",
-          "heading": "Primary-source report",
-          "body": "Source trail: Invest Atlanta."
-        },
-        {
-          "slide": 5,
-          "label": "Not confirmed",
-          "heading": "What we still need",
-          "body": "Independent corroboration and later outcome evidence remain outstanding."
-        },
-        {
-          "slide": 6,
-          "label": "Track it",
-          "heading": "The next signal",
-          "body": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-        }
-      ],
-      "platforms": {
-        "instagram": {
-          "publishAt": "2026-08-19T16:15:00.000Z",
-          "format": "CAROUSEL",
-          "caption": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History\n\nThe Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.\n\nWhy it matters: The development adds a verifiable signal to the picture of what is changing across metro Atlanta.\n\nWhat remains unknown: Independent corroboration and later outcome evidence remain outstanding.\n\nSources: Invest Atlanta. Full context and source trail: https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef\n\nWhich Atlanta business move should be on our watchlist?",
-          "storyFrames": [
-            "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History",
-            "The Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation…",
-            "Which Atlanta business move should be on our watchlist? Read: https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef"
-          ]
-        },
-        "threads": {
-          "publishOffsetMinutes": 12,
-          "post": "Atlanta then and now: Façade Improvement Grants Preserve Atlanta History\n\nThe Invest Atlanta Board approved $400,000 in Tax Allocation District (TAD) Grants to support The Atlanta Preservation Center’s work on two historic and culturally significant restoration projects in Downtown Atlanta.\n\nReceipt: Invest Atlanta. https://mikeintech.github.io/atlsignal/file/8b3c22e76193d9ee04ef",
-          "followUp": "Independent corroboration and later outcome evidence remain outstanding.\n\nWhich Atlanta business move should be on our watchlist?"
-        }
-      },
-      "measurement": {
-        "campaign": "social_20260819",
-        "content": "atlanta_then_now_8b3c22e7",
+        "content": "from_the_file_a7d1a013",
         "primary": [
           "shares_per_reach",
           "saves_per_reach",
