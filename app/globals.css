@@ -634,3 +634,109 @@ body { background: var(--paper); color: var(--ink); font-family: Inter, ui-sans-
   .article-page.shell { width: min(calc(100% - 24px), 1120px); }
   .article-body { padding: 22px 18px; }
 }
+
+/* Dense desktop rhythm: keep the publication scan-friendly above tablet. */
+@media (min-width: 901px) {
+  :root { --max: 1160px; }
+  .shell { width: min(calc(100% - 64px), var(--max)); }
+  .utility-bar__inner { height: 28px; }
+  .publication-header__main { gap: 18px; grid-template-columns: 190px minmax(0, 1fr) auto; min-height: 64px; }
+  .wordmark { gap: 3px; }
+  .wordmark span { font-size: 35px; line-height: .88; }
+  .wordmark small { font-size: 7px; line-height: 1.15; }
+  .publication-header nav a { font-size: 11px; padding: 6px 9px; }
+  .subscribe-link { font-size: 10px; padding: 8px 12px; }
+  .edition-header { padding-block: 10px; }
+
+  .headline--lead { font-size: clamp(38px, 3.8vw, 48px); }
+  .headline--large { font-size: clamp(32px, 3.3vw, 44px); }
+  .headline--medium { font-size: clamp(25px, 2.5vw, 34px); }
+  .front-hero { gap: 40px; padding-block: 36px; }
+  .front-hero__lede { padding-top: 8px; }
+  .front-hero__lede h1 { font-size: clamp(42px, 4vw, 52px); line-height: .99; margin: 10px 0 14px; }
+  .front-hero__lede p:not(.eyebrow) { font-size: 18px; line-height: 1.4; margin-bottom: 0; }
+  .front-hero__brief { border-radius: 22px; padding: 26px; }
+  .lead-story .headline { margin-block: 12px; }
+  .front-hero__brief .story-image img { height: 245px; }
+  .lead-story__dek { font-size: 16px; line-height: 1.38; }
+  .lead-story__metric { margin-block: 16px; }
+  .lead-story__metric strong { font-size: 36px; }
+  .why { font-size: 13px; padding-top: 12px; }
+  .front-grid { gap: 48px; grid-template-columns: minmax(0, 1fr) 330px; }
+  .front-grid__rail { gap: 16px; }
+  .publisher-note { border-radius: 18px; padding: 22px; }
+  .publisher-note h2 { font-size: 25px; margin: 12px 0; }
+
+  .section-heading { margin-top: 42px; padding-top: 10px; }
+  .section-heading h2, .latest-page .section-heading h2 { font-size: 28px; line-height: 1.15; }
+  .story-card { gap: 12px; padding-block: 15px; }
+  .story-card .headline { margin-block: 6px; }
+  .story-image { margin-top: 18px; }
+  .data-strip { margin-block: 38px; }
+  .metric { min-height: 104px; padding: 17px 22px; }
+  .metric strong { font-size: 38px; }
+  .morning-brief { margin-top: 40px; }
+  .morning-brief__heading { padding: 24px; }
+  .morning-brief__heading h2 { font-size: 32px; margin-top: 38px; }
+  .morning-brief > div:last-child { padding-inline: 22px; }
+  .early-intelligence { border-radius: 24px; margin-top: 48px; padding: 36px; }
+  .editorial-grid--three { gap: 24px; }
+  .watchlist { gap: 18px; }
+  .watchlist article { border-radius: 16px; padding: 18px; }
+  .newsletter { border-radius: 24px; gap: 36px; margin-top: 48px; padding: 38px; }
+  .newsletter h2 { font-size: 39px; }
+  .site-footer { padding-block: 30px; }
+
+  .latest-hero { gap: 36px; grid-template-columns: minmax(0, 1fr) 280px; padding-block: 28px 24px; }
+  .latest-hero .headline { font-size: 38px; margin: 8px 0 10px; }
+  .latest-hero > div > p:last-child { font-size: 16px; line-height: 1.45; }
+  .latest-hero__stats { border-radius: 16px; }
+  .latest-hero__stats div { min-height: 70px; padding: 12px 14px; }
+  .latest-hero__stats dd { font-size: 27px; margin-top: 5px; }
+  .latest-page .section-heading { margin-top: 30px; }
+  .daily-lead-grid { gap: 14px; margin-top: 15px; }
+  .daily-lead-card { border-radius: 16px; padding: 14px; }
+  .daily-lead-card .story-image--compact { margin-bottom: 10px; }
+  .daily-lead-card .story-image--compact img { height: 158px; }
+  .daily-lead-card h2 { font-size: 20px; margin: 7px 0; }
+  .daily-lead-card p { line-height: 1.4; }
+  .daily-post-link { margin-top: 9px; }
+  .latest-intro { font-size: 16px; line-height: 1.5; }
+  .daily-feed { border-radius: 18px; margin-top: 15px; padding: 8px 20px; }
+  .daily-feed-row { gap: 14px; grid-template-columns: 34px minmax(0, 1fr) 22px; padding: 14px 2px; }
+  .daily-feed-row__number { font-size: 18px; }
+  .daily-feed-row h2 { font-size: 20px; margin: 5px 0; }
+  .checking-grid { margin-top: 15px; }
+  .checking-grid article { padding: 14px; }
+  .checking-grid h2 { font-size: 15px; }
+  .reader-standard { border-radius: 20px; margin-top: 44px; padding: 34px; }
+  .reader-standard h2 { font-size: 36px; }
+  .reader-standard > p:last-child { font-size: 16px; }
+
+  .article-page.shell { width: min(calc(100% - 96px), 1040px); }
+  .article-hero { max-width: 900px; padding-block: 36px 28px; }
+  .article-hero .headline { margin-block: 14px; }
+  .article-dek { font-size: 23px; line-height: 1.35; max-width: 800px; }
+  .article-nutgraf { font-size: 19px; line-height: 1.48; margin-top: 20px; }
+  .article-byline { margin-top: 25px; }
+  .article-actions { margin: 14px 0 22px; }
+  .article-hero > .story-image img { height: 390px; }
+  .article-layout, .project-layout { gap: 50px; grid-template-columns: minmax(0, 680px) minmax(240px, 280px); }
+  .article-body { border-radius: 22px; padding: 32px 36px; }
+  .article-body > section { margin-bottom: 40px; }
+  .article-body > section > h2 { font-size: 27px; margin-bottom: 11px; }
+  .article-body > section > p { font-size: 18px; line-height: 1.65; }
+  .article-glance { border-radius: 17px; margin-bottom: 32px; padding: 20px; }
+  .article-glance h2 { font-size: 25px; }
+  .article-number { padding-block: 18px; }
+  .article-number strong { font-size: 42px; }
+  .article-rail { top: 104px; }
+  .fact-box, .watch-box { border-radius: 17px; padding: 17px; }
+
+  .category-hero { padding-block: 44px 26px; }
+  .category-hero > p:last-child { font-size: 18px; }
+  .category-list { border-radius: 20px; margin-top: 26px; }
+  .source-desk-grid, .newsroom-brief-grid { gap: 20px; }
+  .source-desk-grid article, .source-item-list article, .launch-week article { border-radius: 16px; padding: 18px; }
+  .upgrade-band, .sample-report, .founding-access { margin-top: 44px; }
+}
