@@ -17,5 +17,5 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 export default async function LegacyBriefRedirect({ params }: { params: Promise<{ id: string }> }) {
   const brief = getAttributedBrief((await params).id);
   if (!brief) notFound();
-  return <main className="shell legacy-redirect"><meta httpEquiv="refresh" content={`0;url=${brief.href}`} /><h1>This ATLSignal story has a new address.</h1><p><Link href={brief.href}>Continue to “{brief.headline}” →</Link></p></main>;
+  return <main className="shell legacy-redirect"><meta httpEquiv="refresh" content={`0;url=${absoluteUrl(brief.href)}`} /><h1>This ATLSignal story has a new address.</h1><p><Link href={brief.href}>Continue to “{brief.headline}” →</Link></p></main>;
 }
