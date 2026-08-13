@@ -1,6 +1,6 @@
 {
   "schemaVersion": "atlsignal_newsroom_v1",
-  "generatedAt": "2026-08-13T16:36:34.526Z",
+  "generatedAt": "2026-08-13T16:45:17.579Z",
   "market": "atlanta",
   "timezone": "America/New_York",
   "editionWindow": "MORNING",
@@ -14,7 +14,7 @@
     "intendedCadence": "four_daily",
     "status": "HEALTHY",
     "criticalFailures": [],
-    "previousRunAt": "2026-08-13T16:36:04.109Z"
+    "previousRunAt": "2026-08-13T16:36:34.526Z"
   },
   "stats": {
     "activeSources": 4,
@@ -31,7 +31,7 @@
       "status": "OK",
       "itemCount": 25,
       "critical": true,
-      "durationMs": 691
+      "durationMs": 376
     },
     {
       "sourceId": "atlanta_beltline",
@@ -39,7 +39,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 34840
+      "durationMs": 33247
     },
     {
       "sourceId": "atlanta_regional_commission",
@@ -47,7 +47,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 32168
+      "durationMs": 31192
     },
     {
       "sourceId": "atlanta_housing",
@@ -55,7 +55,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": true,
-      "durationMs": 831
+      "durationMs": 790
     },
     {
       "sourceId": "ajc",
@@ -64,7 +64,7 @@
       "itemCount": 4,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "atlanta_business_chronicle",
@@ -73,7 +73,7 @@
       "itemCount": 5,
       "critical": false,
       "accessState": "SUBSCRIPTION_CONSTRAINED",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "urbanize_atlanta",
@@ -82,16 +82,16 @@
       "itemCount": 2,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "rough_draft_atlanta",
       "name": "Rough Draft Atlanta",
       "status": "DISCOVERY_OK",
-      "itemCount": 0,
+      "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "axios_atlanta",
@@ -100,7 +100,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "eater_atlanta",
@@ -109,7 +109,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "saporta_report",
@@ -118,7 +118,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "what_now_atlanta",
@@ -127,7 +127,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "bisnow_atlanta",
@@ -136,7 +136,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "city_of_atlanta",
@@ -145,7 +145,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "marta",
@@ -154,7 +154,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "atl_airport",
@@ -163,7 +163,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "georgia_economic_development",
@@ -172,7 +172,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "metro_atlanta_chamber",
@@ -181,7 +181,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     },
     {
       "sourceId": "discover_atlanta",
@@ -190,7 +190,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 580
+      "durationMs": 552
     }
   ],
   "items": [
@@ -213,7 +213,7 @@
       "contentHash": "de026da0cab8e0d8cf59",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:36:34.526Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "e0a94514b0283258fa0e",
@@ -234,7 +234,7 @@
       "contentHash": "a2a8ff5aa8332a3620da",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:36:34.526Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "2ab8ceda039a274d4e16",
@@ -255,7 +255,7 @@
       "contentHash": "8fe9b9945be82de63a27",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:36:34.526Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "45caf2df9875d3555934",
@@ -276,7 +276,7 @@
       "contentHash": "17bc929938a2d5ae8b1f",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:36:34.526Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "3a1f194bd2138b1fdb1c",
@@ -297,7 +297,7 @@
       "contentHash": "2b7e1aca80b786c575ee",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T19:31:00.485Z",
-      "lastSeenAt": "2026-08-12T20:06:26.408Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "62a7cd224aef3cf7308f",
@@ -318,7 +318,7 @@
       "contentHash": "2a6382f54997094ebfd2",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:31:00.485Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "b54bf51c6277af21647f",
@@ -339,7 +339,7 @@
       "contentHash": "144d91d96464865cd171",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:31:00.485Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "0e226889b3aa86e7eff6",
@@ -360,7 +360,7 @@
       "contentHash": "e45958ab89ffeefcc4a5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:36:34.526Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "503cc4766e33a35a3568",
@@ -381,7 +381,7 @@
       "contentHash": "1069a3dbd9c6a7e41ebe",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "30482a2cf65948335d26",
@@ -402,7 +402,7 @@
       "contentHash": "f1b1a5868bde3cd01608",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:36:34.526Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "5b2950853a56b57ef03d",
@@ -444,7 +444,7 @@
       "contentHash": "b569ab92dcb5ac05ba46",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "4110555f2be43e645f5c",
@@ -465,7 +465,7 @@
       "contentHash": "0fdd4f2478198b30d212",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "654d28aa0aed2b24c3d8",
@@ -507,7 +507,7 @@
       "contentHash": "e99f547abb190c8198f8",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "5ca989d22865ad43e770",
@@ -528,7 +528,7 @@
       "contentHash": "573c3dae20f3e9c06819",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "f76182f87e20479833ee",
@@ -549,7 +549,7 @@
       "contentHash": "0f627b067e26a663510b",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "7a721452b1d2e68fefb2",
@@ -570,7 +570,7 @@
       "contentHash": "f2238258c0a9e60c188a",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "d0bd1e2c7d214224c0b4",
@@ -591,7 +591,7 @@
       "contentHash": "524a38829211844db6b1",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "d6e41290c330ea7f6318",
@@ -612,7 +612,7 @@
       "contentHash": "a1616d8fe124cf2d48d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "f5332964efdb536984ca",
@@ -633,7 +633,7 @@
       "contentHash": "37769ed41d958cef83de",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "9807276a0bd43435677a",
@@ -738,7 +738,7 @@
       "contentHash": "d2476f4b803d29e627f5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "6302a76fda702723bf3d",
@@ -759,7 +759,7 @@
       "contentHash": "d63698e97eb327ba7899",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "7f724a4bc74ffd08cf8f",
@@ -780,7 +780,7 @@
       "contentHash": "7938e58176113e223144",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "f3667c376a276743f471",
@@ -801,7 +801,7 @@
       "contentHash": "40367f4f92e7f7d4dd12",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "c83e8c7f3cd2a9ee4b85",
@@ -822,7 +822,7 @@
       "contentHash": "486f1a0293fad8e728f4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "ecc2fa4ebd27b7d56cf3",
@@ -843,7 +843,7 @@
       "contentHash": "7581307e5ff277d9816a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "cdc076c25899466440a9",
@@ -864,7 +864,7 @@
       "contentHash": "127f2011ac5db530a327",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "66ac653a0aebee200399",
@@ -885,7 +885,7 @@
       "contentHash": "f4b060cbd844a5b9d01c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "8b36b68a8314f667de0f",
@@ -906,7 +906,7 @@
       "contentHash": "c0ebabe25748e54339d4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "199c578a330596813fd1",
@@ -927,7 +927,7 @@
       "contentHash": "52c68119c9e8e318a06b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "8b8dce22ee6f64a71130",
@@ -948,7 +948,7 @@
       "contentHash": "e5c254b61f6c0e5cc7e4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "d482b816c951307ba84f",
@@ -969,7 +969,7 @@
       "contentHash": "685b5fc66b55fa8e87ad",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "4ba5f7d0740775a9f678",
@@ -990,7 +990,7 @@
       "contentHash": "c5fffcc4ef234cf6e268",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "afecf06030c6eaad3e80",
@@ -1011,7 +1011,7 @@
       "contentHash": "550ecc269a8e19d5dfef",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "433925f78eeb46ccd330",
@@ -1032,7 +1032,7 @@
       "contentHash": "9c56aeecb0b7210008b1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "5672137da20b1129ac75",
@@ -1053,7 +1053,7 @@
       "contentHash": "aa22aa20deec30bf6136",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "54fb4329f1367f3dc5f5",
@@ -1074,7 +1074,7 @@
       "contentHash": "89a68b3865dcfc7b6132",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "54b3b5398944a3eac4c4",
@@ -1116,7 +1116,7 @@
       "contentHash": "0b22d42af62c560132fc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "b294645a06cc344d85d5",
@@ -1137,7 +1137,7 @@
       "contentHash": "9b5e864afaf5ac6f8c1b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "afc54ba0d1d2698486c6",
@@ -1158,7 +1158,7 @@
       "contentHash": "7e6963e4a0ff4a3b631d",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "fafbf71d20fa86245788",
@@ -1179,7 +1179,7 @@
       "contentHash": "7a7f6d02dc8f179b0fd4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "ba9265c20fd878504008",
@@ -1200,7 +1200,7 @@
       "contentHash": "fc90a84fc0bb3bee8a53",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "0a047533a306d0179911",
@@ -1221,7 +1221,7 @@
       "contentHash": "5c42d69cc129bed4c7d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "a18f4dfab1fb389dd98c",
@@ -1242,7 +1242,7 @@
       "contentHash": "d81a04af4ba15b3b04d9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "102c6e5539d6d3edde4d",
@@ -1263,7 +1263,7 @@
       "contentHash": "7d67423adf6696ad6c42",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "f56d3d266f38e4244bf3",
@@ -1284,7 +1284,7 @@
       "contentHash": "2a2f3210b7cc736ea4a0",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "8863330ec2fa19eb71ae",
@@ -1305,7 +1305,7 @@
       "contentHash": "db93bdc4bc5aaf0ccd5c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "d8cacce85da99dbd3e7e",
@@ -1326,7 +1326,7 @@
       "contentHash": "0ff645ebd61eeb829b1a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "06f938b3d9b0a2643fdb",
@@ -1347,7 +1347,7 @@
       "contentHash": "c2909df68dab0c151f94",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "618def64fc3ead0be378",
@@ -1368,7 +1368,7 @@
       "contentHash": "179b4c601182b36217a0",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "a41129acc6aae239795a",
@@ -1389,7 +1389,7 @@
       "contentHash": "33f20b19eca63c7643cc",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "c66c79f644cce1c26d5f",
@@ -1452,7 +1452,7 @@
       "contentHash": "3b82269349260f505519",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "d94d5d3088c062d79bbd",
@@ -1473,7 +1473,7 @@
       "contentHash": "bd26c6e3704df92fa15b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "9119378c0267426bba86",
@@ -1494,7 +1494,7 @@
       "contentHash": "e6ec8fd751d416a829e5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "c14c6ce425707816ee27",
@@ -1515,7 +1515,7 @@
       "contentHash": "753c2b2d7a2cf60cff0c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "d8d456147cf65ce90154",
@@ -1536,7 +1536,7 @@
       "contentHash": "6f90d94dcda960118cf9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "80884347dc223843f1b2",
@@ -1557,7 +1557,7 @@
       "contentHash": "4606c7f2c7688b1268fc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "b1a8f32ddcfd05d9f6d6",
@@ -1578,7 +1578,7 @@
       "contentHash": "7f4f106c59a11897992c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "e22cde1049658713eed6",
@@ -1599,7 +1599,7 @@
       "contentHash": "23e01cc6552b83bc5789",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "6a68d77f51d8b4bfa450",
@@ -1620,7 +1620,7 @@
       "contentHash": "b459ae159a0531d3250f",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "eb5e18b57c469a7586cd",
@@ -1641,7 +1641,7 @@
       "contentHash": "d8c10af54b4fd95250e4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "5dab9d0fca8ea2a1f535",
@@ -1662,7 +1662,7 @@
       "contentHash": "53a47b4014311fc1d06f",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "34140fe236621430b968",
@@ -1683,7 +1683,7 @@
       "contentHash": "7d42325d4ff1a6d25c75",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "191fee8617d675cc3b80",
@@ -1704,7 +1704,7 @@
       "contentHash": "991d52453e6272739059",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "a2758a6b9514f8862168",
@@ -1725,7 +1725,7 @@
       "contentHash": "3be7d8caff2b9eb4d7df",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "3511aca05e35cf11e607",
@@ -1746,7 +1746,7 @@
       "contentHash": "48cf11ed1dde9a89a1b5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "ba5e7a55294f5ac5e26c",
@@ -1767,7 +1767,7 @@
       "contentHash": "f1da7638b983f468fc0b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "291b2447387a073c77bc",
@@ -1788,7 +1788,7 @@
       "contentHash": "ca0421a798e023660dc5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "372bf20b8b4981c711c7",
@@ -1809,7 +1809,7 @@
       "contentHash": "ab23264f95ebaf89cfb7",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "79b334add01cabbde7f8",
@@ -1830,7 +1830,7 @@
       "contentHash": "6027474ea029061e7ead",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "0a2f2a999cf1e8228b45",
@@ -1851,7 +1851,7 @@
       "contentHash": "c0d95ea7a9e426589091",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     },
     {
       "id": "8790771864c541644970",
@@ -1872,58 +1872,10 @@
       "contentHash": "d8ed836f5f082db0f9f6",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T16:36:34.526Z"
+      "lastSeenAt": "2026-08-13T16:45:17.579Z"
     }
   ],
   "clusters": [
-    {
-      "id": "c9ee5f1d1465ec325d18",
-      "itemIds": [
-        "0e226889b3aa86e7eff6"
-      ],
-      "headline": "Taking a Ride on ATL Spoke: A Community Connector",
-      "summary": "Getting a first-hand experience of how ATL Spoke is connecting Southwest Atlanta neighborhoods.",
-      "category": "Development & Infrastructure",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-12T16:40:16.227Z",
-      "sourceTier": "A",
-      "sources": [
-        {
-          "sourceId": "atlanta_beltline",
-          "name": "Atlanta BeltLine",
-          "tier": "A",
-          "url": "https://beltline.org/blog/taking-a-ride-on-atl-spoke-a-community-connector/",
-          "acquisition": "sitemap",
-          "retrievedContent": true
-        }
-      ],
-      "corroboration": {
-        "status": "ATTRIBUTED_PRIMARY",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 1,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Primary-source report",
-      "publishable": true,
-      "draft": {
-        "headline": "Taking a Ride on ATL Spoke: A Community Connector",
-        "dek": "Getting a first-hand experience of how ATL Spoke is connecting Southwest Atlanta neighborhoods.",
-        "whatChanged": "Atlanta BeltLine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Major projects change the built environment, nearby business conditions and the timing of future activity.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 70.33,
-        "impact": 64,
-        "novelty": 92,
-        "timeliness": 90,
-        "shareability": 50,
-        "commercial": 38,
-        "evidence": 84,
-        "locality": 59
-      }
-    },
     {
       "id": "de7ccf215a53072c99fd",
       "itemIds": [
@@ -2123,102 +2075,6 @@
         "commercial": 38,
         "evidence": 100,
         "locality": 100
-      }
-    },
-    {
-      "id": "8b8fc3a456e723dc9d03",
-      "itemIds": [
-        "e0a94514b0283258fa0e"
-      ],
-      "headline": "ICE presence at Atlanta airport yields immigration arrests — and a false alarm",
-      "summary": "",
-      "category": "Transportation & Airport",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-13T09:32:05.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "ajc",
-          "name": "Atlanta Journal-Constitution",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRGtYVEh1NEQzeVF1R2tCYk9WdlJhQ2JsdmRwa1BOQ25zc0VXRzdlbUg2bEpCTnpZR2Y3bVl5d0poMWRvbnpqS3dBaFY5SjNQUDltSTRPMWU5LTdmeVlxSXFWMS1keEpXNndVaUNKYW5hLXZzU1Z6Znp0X21HY0JsaWg1VEsyWEx5SWlDYUw3MGdVLVNpRXZUUVRFamJtZndrUzRMdkdmcw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "ICE presence at Atlanta airport yields immigration arrests — and a false alarm",
-        "dek": "",
-        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Changes to Atlanta's transportation network affect daily access, development patterns and the regional economy.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 65.4,
-        "impact": 56,
-        "novelty": 92,
-        "timeliness": 97,
-        "shareability": 42,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 73
-      }
-    },
-    {
-      "id": "d4f447447f4627a47537",
-      "itemIds": [
-        "30482a2cf65948335d26"
-      ],
-      "headline": "Atlanta Property Group links up with TPG, others on $628 million industrial purchase",
-      "summary": "",
-      "category": "Public Money",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-12T14:57:00.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "atlanta_business_chronicle",
-          "name": "Atlanta Business Chronicle",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPN1IxTGxBZHVDSFVSYXlkc3lKVEJCTzdEbFlzN0ZjZGNrbDZzWnVZRmE4MDAtTi1kN1p3RWw3UjFvSEtGRDZzb0hBdWRwcUxIejRXbXh2ajBQQXZza2k3aV81aXhrM0VaZUpYVnF3eUFJZGo2cWttTzJxZGRkenFDYktiYjRjbnhESlpBdmMxV3F5aUt0QUQzSU5xQzlhQWFn?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Atlanta Property Group links up with TPG, others on $628 million industrial purchase",
-        "dek": "",
-        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 64.3,
-        "impact": 56,
-        "novelty": 92,
-        "timeliness": 89,
-        "shareability": 58,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 59
       }
     },
     {
@@ -2510,51 +2366,51 @@
       }
     },
     {
-      "id": "48336249a839cbb1c0fc",
+      "id": "c9ee5f1d1465ec325d18",
       "itemIds": [
-        "45caf2df9875d3555934"
+        "0e226889b3aa86e7eff6"
       ],
-      "headline": "Westside Future Fund’s first ground-up new development is a go",
-      "summary": "",
+      "headline": "Taking a Ride on ATL Spoke: A Community Connector",
+      "summary": "Getting a first-hand experience of how ATL Spoke is connecting Southwest Atlanta neighborhoods.",
       "category": "Development & Infrastructure",
       "eventType": "UPDATE",
-      "publishedAt": "2026-08-12T22:16:34.000Z",
-      "sourceTier": "B",
+      "publishedAt": "2026-08-12T16:40:16.227Z",
+      "sourceTier": "A",
       "sources": [
         {
-          "sourceId": "urbanize_atlanta",
-          "name": "Urbanize Atlanta",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTFMRGN0dnpKbEVuM0duaGJ4N29YRC1yYWU0RVJXbW5QVjRCMWg0NzdaaTZYU21SbXprc0lWOXNSZ245a0RkUjE3VkkybDZmUzFoenY4VXZHRmFyc0hxNzlORkM2LTllUWJTSzBCTGt6VTZRYndhdXlHWjhZbzJnU3RlR2IzVGQxTVltOFV0MmZXdjliREVRTEdsWQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
+          "sourceId": "atlanta_beltline",
+          "name": "Atlanta BeltLine",
+          "tier": "A",
+          "url": "https://beltline.org/blog/taking-a-ride-on-atl-spoke-a-community-connector/",
+          "acquisition": "sitemap",
+          "retrievedContent": true
         }
       ],
       "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
+        "status": "ATTRIBUTED_PRIMARY",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 1,
         "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
       },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
+      "evidenceLabel": "Primary-source report",
+      "publishable": true,
       "draft": {
-        "headline": "Westside Future Fund’s first ground-up new development is a go",
-        "dek": "",
-        "whatChanged": "Urbanize Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "headline": "Taking a Ride on ATL Spoke: A Community Connector",
+        "dek": "Getting a first-hand experience of how ATL Spoke is connecting Southwest Atlanta neighborhoods.",
+        "whatChanged": "Atlanta BeltLine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
         "whyItMatters": "Major projects change the built environment, nearby business conditions and the timing of future activity.",
         "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 61.62,
-        "impact": 48,
-        "novelty": 92,
-        "timeliness": 92,
-        "shareability": 58,
-        "commercial": 47,
-        "evidence": 35,
-        "locality": 45
+        "total": 61.78,
+        "impact": 64,
+        "novelty": 35,
+        "timeliness": 90,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 84,
+        "locality": 59
       }
     },
     {
@@ -2912,102 +2768,6 @@
       }
     },
     {
-      "id": "d7308820d00daa7b56f3",
-      "itemIds": [
-        "99f3ef24889e4cfa8c78"
-      ],
-      "headline": "Georgia Democrats talk property taxes as they eye a possible House takeover",
-      "summary": "",
-      "category": "Atlanta News",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-13T09:32:08.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "ajc",
-          "name": "Atlanta Journal-Constitution",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS1VGeG94ODdyTGNuc3EyWnJEWmR5VDM4Ry1kd1FySTZXb1pHS3Q1Zk5Yd3lLckVNbDd3NTdNanhNYThfZTQ4UVU2NWx4MkVwajA3bk0tLUQtd2FvamxBSzF6dzRQVE0yN2NUUmhiY1BLTTRWWDZIYUNGcWktampZTkp3WGJ3aFNGUjRZT284bFBNV24tRXhZUUQySi1pRGdBQ1ZJRVdvQnpRUy1ndTBuaDNJRQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Georgia Democrats talk property taxes as they eye a possible House takeover",
-        "dek": "",
-        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 59.76,
-        "impact": 48,
-        "novelty": 92,
-        "timeliness": 97,
-        "shareability": 42,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 45
-      }
-    },
-    {
-      "id": "cde399197b5c8e74746c",
-      "itemIds": [
-        "2ab8ceda039a274d4e16"
-      ],
-      "headline": "Suspect in custody after shooting at Warner Robins High School, officials say",
-      "summary": "",
-      "category": "Atlanta News",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-13T02:14:38.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "ajc",
-          "name": "Atlanta Journal-Constitution",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbkMxem9QVS1kT0w4NEFOc0xHXzUwaUpfcF9JNFE3THFxU3pWaUxSNlNHdmx3TUJZeEhxUnJPR3hUUVlKVTluZjRtWnZ0dU16LWY5NlhoajlMZ0E4aTA5Qm5CRjQ2UWVvMmpUVXMyMm1ZaU4zQTJvQmljcmR1RFI2MFMxUWI1T01Lajh3R3R3T1phdXc3OUo1R3hHeUVtZ1Nua251cnFkSQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Suspect in custody after shooting at Warner Robins High School, officials say",
-        "dek": "",
-        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 59.25,
-        "impact": 48,
-        "novelty": 92,
-        "timeliness": 94,
-        "shareability": 42,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 45
-      }
-    },
-    {
       "id": "9ce67f6906e4d261b22e",
       "itemIds": [
         "0a047533a306d0179911"
@@ -3353,6 +3113,54 @@
       }
     },
     {
+      "id": "8b8fc3a456e723dc9d03",
+      "itemIds": [
+        "e0a94514b0283258fa0e"
+      ],
+      "headline": "ICE presence at Atlanta airport yields immigration arrests — and a false alarm",
+      "summary": "",
+      "category": "Transportation & Airport",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-13T09:32:05.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRGtYVEh1NEQzeVF1R2tCYk9WdlJhQ2JsdmRwa1BOQ25zc0VXRzdlbUg2bEpCTnpZR2Y3bVl5d0poMWRvbnpqS3dBaFY5SjNQUDltSTRPMWU5LTdmeVlxSXFWMS1keEpXNndVaUNKYW5hLXZzU1Z6Znp0X21HY0JsaWg1VEsyWEx5SWlDYUw3MGdVLVNpRXZUUVRFamJtZndrUzRMdkdmcw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "ICE presence at Atlanta airport yields immigration arrests — and a false alarm",
+        "dek": "",
+        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Changes to Atlanta's transportation network affect daily access, development patterns and the regional economy.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 56.85,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 97,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 73
+      }
+    },
+    {
       "id": "23a6df7bdb68a99d4e57",
       "itemIds": [
         "9119378c0267426bba86"
@@ -3446,6 +3254,54 @@
         "commercial": 38,
         "evidence": 35,
         "locality": 73
+      }
+    },
+    {
+      "id": "d4f447447f4627a47537",
+      "itemIds": [
+        "30482a2cf65948335d26"
+      ],
+      "headline": "Atlanta Property Group links up with TPG, others on $628 million industrial purchase",
+      "summary": "",
+      "category": "Public Money",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-12T14:57:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_business_chronicle",
+          "name": "Atlanta Business Chronicle",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPN1IxTGxBZHVDSFVSYXlkc3lKVEJCTzdEbFlzN0ZjZGNrbDZzWnVZRmE4MDAtTi1kN1p3RWw3UjFvSEtGRDZzb0hBdWRwcUxIejRXbXh2ajBQQXZza2k3aV81aXhrM0VaZUpYVnF3eUFJZGo2cWttTzJxZGRkenFDYktiYjRjbnhESlpBdmMxV3F5aUt0QUQzSU5xQzlhQWFn?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Atlanta Property Group links up with TPG, others on $628 million industrial purchase",
+        "dek": "",
+        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Public dollars reveal Atlanta's priorities and create measurable commitments that can be checked over time.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 55.75,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 89,
+        "shareability": 58,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 59
       }
     },
     {
@@ -3590,6 +3446,54 @@
         "commercial": 38,
         "evidence": 84,
         "locality": 100
+      }
+    },
+    {
+      "id": "48336249a839cbb1c0fc",
+      "itemIds": [
+        "45caf2df9875d3555934"
+      ],
+      "headline": "Westside Future Fund’s first ground-up new development is a go",
+      "summary": "",
+      "category": "Development & Infrastructure",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-12T22:16:34.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "urbanize_atlanta",
+          "name": "Urbanize Atlanta",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTFMRGN0dnpKbEVuM0duaGJ4N29YRC1yYWU0RVJXbW5QVjRCMWg0NzdaaTZYU21SbXprc0lWOXNSZ245a0RkUjE3VkkybDZmUzFoenY4VXZHRmFyc0hxNzlORkM2LTllUWJTSzBCTGt6VTZRYndhdXlHWjhZbzJnU3RlR2IzVGQxTVltOFV0MmZXdjliREVRTEdsWQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Westside Future Fund’s first ground-up new development is a go",
+        "dek": "",
+        "whatChanged": "Urbanize Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Major projects change the built environment, nearby business conditions and the timing of future activity.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 53.07,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 92,
+        "shareability": 58,
+        "commercial": 47,
+        "evidence": 35,
+        "locality": 45
       }
     },
     {
@@ -4025,6 +3929,54 @@
       }
     },
     {
+      "id": "d7308820d00daa7b56f3",
+      "itemIds": [
+        "99f3ef24889e4cfa8c78"
+      ],
+      "headline": "Georgia Democrats talk property taxes as they eye a possible House takeover",
+      "summary": "",
+      "category": "Atlanta News",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-13T09:32:08.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS1VGeG94ODdyTGNuc3EyWnJEWmR5VDM4Ry1kd1FySTZXb1pHS3Q1Zk5Yd3lLckVNbDd3NTdNanhNYThfZTQ4UVU2NWx4MkVwajA3bk0tLUQtd2FvamxBSzF6dzRQVE0yN2NUUmhiY1BLTTRWWDZIYUNGcWktampZTkp3WGJ3aFNGUjRZT284bFBNV24tRXhZUUQySi1pRGdBQ1ZJRVdvQnpRUy1ndTBuaDNJRQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Georgia Democrats talk property taxes as they eye a possible House takeover",
+        "dek": "",
+        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 51.21,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 97,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 45
+      }
+    },
+    {
       "id": "2ba1b6dac6045a8d8a90",
       "itemIds": [
         "afc54ba0d1d2698486c6"
@@ -4070,6 +4022,54 @@
         "commercial": 56,
         "evidence": 84,
         "locality": 59
+      }
+    },
+    {
+      "id": "cde399197b5c8e74746c",
+      "itemIds": [
+        "2ab8ceda039a274d4e16"
+      ],
+      "headline": "Suspect in custody after shooting at Warner Robins High School, officials say",
+      "summary": "",
+      "category": "Atlanta News",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-13T02:14:38.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbkMxem9QVS1kT0w4NEFOc0xHXzUwaUpfcF9JNFE3THFxU3pWaUxSNlNHdmx3TUJZeEhxUnJPR3hUUVlKVTluZjRtWnZ0dU16LWY5NlhoajlMZ0E4aTA5Qm5CRjQ2UWVvMmpUVXMyMm1ZaU4zQTJvQmljcmR1RFI2MFMxUWI1T01Lajh3R3R3T1phdXc3OUo1R3hHeUVtZ1Nua251cnFkSQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Suspect in custody after shooting at Warner Robins High School, officials say",
+        "dek": "",
+        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 50.7,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 94,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 45
       }
     },
     {
@@ -5484,18 +5484,18 @@
     }
   ],
   "morningBrief": {
-    "generatedAt": "2026-08-13T16:36:34.526Z",
+    "generatedAt": "2026-08-13T16:45:17.579Z",
     "label": "Morning Brief",
     "itemIds": [
-      "c9ee5f1d1465ec325d18",
       "99fc3e9c500c6cc1b945",
       "b0815316231307d83473",
       "3e98246dd9d891078ccb",
+      "c9ee5f1d1465ec325d18",
       "b1c05e21ab32f60ca452"
     ]
   },
   "afternoonUpdate": {
-    "generatedAt": "2026-08-13T16:36:34.526Z",
+    "generatedAt": "2026-08-13T16:45:17.579Z",
     "label": "Afternoon Update",
     "itemIds": [
       "b1e6ef982e9fb2e4cd69",
@@ -5506,15 +5506,6 @@
     ]
   },
   "editorialQueue": [
-    {
-      "clusterId": "c9ee5f1d1465ec325d18",
-      "headline": "Taking a Ride on ATL Spoke: A Community Connector",
-      "category": "Development & Infrastructure",
-      "score": 70.33,
-      "evidenceLabel": "Primary-source report",
-      "sourceCount": 1,
-      "status": "READY_TO_REVIEW"
-    },
     {
       "clusterId": "de7ccf215a53072c99fd",
       "headline": "Atlanta Housing Board of Commissioners Approves FY 2027 Budget",
@@ -5550,24 +5541,6 @@
       "evidenceLabel": "Corroborated",
       "sourceCount": 2,
       "status": "READY_TO_REVIEW"
-    },
-    {
-      "clusterId": "8b8fc3a456e723dc9d03",
-      "headline": "ICE presence at Atlanta airport yields immigration arrests — and a false alarm",
-      "category": "Transportation & Airport",
-      "score": 65.4,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
-      "clusterId": "d4f447447f4627a47537",
-      "headline": "Atlanta Property Group links up with TPG, others on $628 million industrial purchase",
-      "category": "Public Money",
-      "score": 64.3,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
     },
     {
       "clusterId": "b0815316231307d83473",
@@ -5624,13 +5597,13 @@
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "48336249a839cbb1c0fc",
-      "headline": "Westside Future Fund’s first ground-up new development is a go",
+      "clusterId": "c9ee5f1d1465ec325d18",
+      "headline": "Taking a Ride on ATL Spoke: A Community Connector",
       "category": "Development & Infrastructure",
-      "score": 61.62,
-      "evidenceLabel": "Unverified discovery",
+      "score": 61.78,
+      "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
+      "status": "READY_TO_REVIEW"
     },
     {
       "clusterId": "b1c05e21ab32f60ca452",
@@ -5696,24 +5669,6 @@
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "d7308820d00daa7b56f3",
-      "headline": "Georgia Democrats talk property taxes as they eye a possible House takeover",
-      "category": "Atlanta News",
-      "score": 59.76,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
-      "clusterId": "cde399197b5c8e74746c",
-      "headline": "Suspect in custody after shooting at Warner Robins High School, officials say",
-      "category": "Atlanta News",
-      "score": 59.25,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "9ce67f6906e4d261b22e",
       "headline": "Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
       "category": "Housing & Neighborhoods",
@@ -5777,6 +5732,15 @@
       "status": "READY_TO_REVIEW"
     },
     {
+      "clusterId": "8b8fc3a456e723dc9d03",
+      "headline": "ICE presence at Atlanta airport yields immigration arrests — and a false alarm",
+      "category": "Transportation & Airport",
+      "score": 56.85,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
       "clusterId": "23a6df7bdb68a99d4e57",
       "headline": "TAD Grants Finance Construction of Affordable Housing",
       "category": "Housing & Neighborhoods",
@@ -5790,6 +5754,15 @@
       "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
       "category": "Housing & Neighborhoods",
       "score": 56.21,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "d4f447447f4627a47537",
+      "headline": "Atlanta Property Group links up with TPG, others on $628 million industrial purchase",
+      "category": "Public Money",
+      "score": 55.75,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -5820,6 +5793,15 @@
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "48336249a839cbb1c0fc",
+      "headline": "Westside Future Fund’s first ground-up new development is a go",
+      "category": "Development & Infrastructure",
+      "score": 53.07,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
     },
     {
       "clusterId": "31483e649b8d33023c21",
@@ -5903,6 +5885,15 @@
       "status": "READY_TO_REVIEW"
     },
     {
+      "clusterId": "d7308820d00daa7b56f3",
+      "headline": "Georgia Democrats talk property taxes as they eye a possible House takeover",
+      "category": "Atlanta News",
+      "score": 51.21,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
       "clusterId": "2ba1b6dac6045a8d8a90",
       "headline": "oaksATL Opens Mixed-Use Development in English Avenue",
       "category": "Housing & Neighborhoods",
@@ -5910,6 +5901,15 @@
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "cde399197b5c8e74746c",
+      "headline": "Suspect in custody after shooting at Warner Robins High School, officials say",
+      "category": "Atlanta News",
+      "score": 50.7,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
     },
     {
       "clusterId": "47125893c5924b465581",
