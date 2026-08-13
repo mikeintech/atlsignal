@@ -61,7 +61,13 @@ function DailyRow({ post, index }: { post: DailyPost; index: number }) {
 export default function LatestPage() {
   const leadPosts = dailyPosts.slice(0, 5);
   const morePosts = dailyPosts.slice(5);
-  const checking = newsroomData.clusters.filter((cluster) => !cluster.publishable && cluster.sources[0]?.url).slice(0, 5);
+  const generatedAt = new Date(newsroomData.generatedAt).valueOf();
+  const checking = newsroomData.clusters.filter((cluster) =>
+    !cluster.publishable
+    && cluster.sources[0]?.url
+    && cluster.scores.locality >= 70
+    && new Date(cluster.publishedAt).valueOf() <= generatedAt + 12 * 3_600_000,
+  ).slice(0, 5);
   const refreshed = new Date(newsroomData.generatedAt).toLocaleString("en-US", {
     timeZone: "America/New_York",
     month: "short",
