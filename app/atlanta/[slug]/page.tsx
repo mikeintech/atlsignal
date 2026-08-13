@@ -251,11 +251,11 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   if (informationPages[slug]) return { title: informationPages[slug].title, description: informationPages[slug].dek, alternates: { canonical: absoluteUrl(`/${slug}`) } };
-  if (categoryNames[slug]) return { title: categoryNames[slug], description: `${categoryNames[slug]} across the Atlanta commercial economy.`, alternates: { canonical: absoluteUrl(`/${slug}`) } };
+  if (categoryNames[slug]) return { title: `${categoryNames[slug]} in Atlanta`, description: categoryDescriptions[slug] ?? `${categoryNames[slug]} reporting and analysis across metro Atlanta.`, alternates: { canonical: absoluteUrl(`/${slug}`) } };
   const story = allStories.find((item) => item.slug === slug);
   if (!story) return {};
   const dates = storyDates(story);
-  return { title: story.headline, description: story.dek, alternates: { canonical: absoluteUrl(`/${story.slug}`) }, openGraph: { type: "article", title: story.headline, description: story.dek, publishedTime: dates.publishedIso, modifiedTime: dates.modifiedIso, images: [story.image.src] }, twitter: { card: "summary_large_image", title: story.headline, description: story.dek, images: [story.image.src] } };
+  return { title: story.headline, description: story.dek, authors: [{ name: "Mike", url: "https://github.com/mikeintech" }], category: story.category, keywords: [story.category, "Atlanta news", "Atlanta development", "ATLSignal"], alternates: { canonical: absoluteUrl(`/${story.slug}`) }, robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 } }, openGraph: { type: "article", siteName: "ATLSignal", title: story.headline, description: story.dek, url: absoluteUrl(`/${story.slug}`), publishedTime: dates.publishedIso, modifiedTime: dates.modifiedIso, section: story.category, images: [{ url: story.image.src, alt: story.image.alt }] }, twitter: { card: "summary_large_image", title: story.headline, description: story.dek, images: [story.image.src] } };
 }
 
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -281,7 +281,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     { date: "Aug. 7, 2026", title: "Canonical stage recorded", detail: "ATLSignal generated a public-safe editorial candidate from qualified evidence." },
     { date: "Now", title: "Continued monitoring", detail: "The project remains under review for new evidence and material changes." },
   ]);
-  const jsonLd = { "@context": "https://schema.org", "@type": "NewsArticle", headline: story.headline, description: story.dek, datePublished: dates.publishedIso, dateModified: dates.modifiedIso, author: { "@type": "Person", name: "Mike", url: "https://github.com/mikeintech" }, publisher: { "@type": "Organization", name: "ATLSignal", url: absoluteUrl("/") }, image: story.image.src };
+  const jsonLd = { "@context": "https://schema.org", "@type": "NewsArticle", "@id": `${absoluteUrl(`/${story.slug}`)}#article`, mainEntityOfPage: absoluteUrl(`/${story.slug}`), headline: story.headline, description: story.dek, datePublished: dates.publishedIso, dateModified: dates.modifiedIso, articleSection: story.category, author: { "@type": "Person", name: "Mike", url: "https://github.com/mikeintech" }, publisher: { "@type": "NewsMediaOrganization", name: "ATLSignal", url: absoluteUrl("/"), logo: { "@type": "ImageObject", url: absoluteUrl("/og-social-v2.png") } }, image: { "@type": "ImageObject", url: story.image.src }, isAccessibleForFree: true, inLanguage: "en-US" };
 
   return (
     <>
@@ -302,7 +302,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         <div className="article-layout">
           <article className="article-body">
             <aside className="article-glance">
-              <h2>At a glance</h2>
+              <h2>The short version</h2>
               {isSourceDeskStory ? <ul>
                 <li>A first-party public source supports the reported update.</li>
                 <li>The significance is explained without turning context into a forecast.</li>
@@ -315,10 +315,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                 <li>Source trail remains attached for reader review.</li>
               </ul>}
             </aside>
-            <section><h2>What changed</h2><p>{context.whatChanged}</p><p>That distinction matters. A public record or first-party update can confirm movement, but it cannot answer every question readers may care about. ATLSignal’s job is to publish the part that is supported, then keep watching for the part that is not.</p></section>
-            <section><h2>Why it matters</h2><p>{context.matters}</p><p>The broader story is Atlanta’s fragmented information environment. Development activity often appears across county systems, city agendas, economic-development announcements, broker notes, developer sites and local coverage. ATLSignal connects those pieces into readable reporting instead of forcing readers to interpret raw records on their own.</p>{story.metric && <p className="article-number"><strong>{story.metric}</strong><span>{story.metricLabel}</span></p>}</section>
-            <section><h2>What we do not know yet</h2><p>{context.unknown}</p></section>
-            <section><h2>What happens next</h2><p>{context.next}</p></section>
+            <section><h2>The development</h2><p>{context.whatChanged}</p><p>That distinction matters. A public record or first-party update can confirm movement, but it cannot answer every question readers may care about. ATLSignal publishes the supported part, then keeps watching for the rest.</p></section>
+            <section><h2>The Atlanta impact</h2><p>{context.matters}</p><p>Development activity often appears across county systems, city agendas, economic-development announcements, broker notes, developer sites and local coverage. ATLSignal connects those pieces into readable reporting instead of forcing readers to interpret raw records on their own.</p>{story.metric && <p className="article-number"><strong>{story.metric}</strong><span>{story.metricLabel}</span></p>}</section>
+            <section><h2>The limits of the record</h2><p>{context.unknown}</p></section>
+            <section><h2>The next marker</h2><p>{context.next}</p></section>
             <section><SectionHeading label="Intelligence timeline" />
               <Timeline events={timelineEvents} />
             </section>

@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { EditionHeader, Headline, PublicationHeader } from "@/components/publication";
 import { contentForCategory } from "@/lib/content-index";
 import { atlanta } from "@/lib/market";
+import { absoluteUrl } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: "Atlanta topics: transit, housing, food, events and public money",
+  description: "Explore ATLSignal’s permanent Atlanta coverage hubs for transportation, housing, restaurants, events, sports, City Hall and public spending.",
+  alternates: { canonical: absoluteUrl("/topics") },
+};
 
 const topics = [
   ["Things To Do", "/things-to-do", "Events, weekend plans and useful ways to experience Atlanta.", "Events & Things To Do"],

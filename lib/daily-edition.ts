@@ -1,6 +1,8 @@
 import type { Story, StoryImageData } from "@/components/publication";
 import newsroomData from "@/data/newsroom.json";
 import { freshStories } from "@/lib/atlanta-data";
+import { storyHref } from "@/lib/story-slug";
+import { reportedArticles } from "@/lib/reported-articles";
 
 type NewsroomCluster = (typeof newsroomData.clusters)[number];
 
@@ -111,11 +113,12 @@ function clusterPost(cluster: NewsroomCluster): DailyPost {
 
 function discoveryPost(cluster: NewsroomCluster): DailyPost {
   const source = cluster.sources[0]?.name ?? "Local source";
+  const article = reportedArticles[cluster.id];
   return {
     id: cluster.id,
-    href: `/brief/${cluster.id}`,
-    headline: clean(cluster.headline),
-    dek: `${source} reported this Atlanta update. Open the original report for its full context while ATLSignal checks for primary records or additional confirmation.`,
+    href: storyHref(cluster.id, cluster.headline),
+    headline: article?.title ?? clean(cluster.headline),
+    dek: article?.description ?? `${source} reported this Atlanta update. ATLSignal is preserving the attribution while checking primary records and adding Atlanta context.`,
     category: cluster.category,
     treatment: treatmentFor(cluster.publishedAt),
     evidenceLabel: `Reported by ${source}`,
@@ -139,7 +142,7 @@ function manualPost(story: Story): DailyPost {
   };
 }
 
-const excludedHeadlines = /\b(tiktok|dive bars?|hidden gems?|appointed|appointment|retirement|reaccreditation|leadership institute class|design class|accused|alleged|arrested|charged?|criminal|fugitive|indicted|investigation|lawsuit|shooting|stabbing|suspect)\b/i;
+const excludedHeadlines = /\b(tiktok|dive bars?|hidden gems?|appointed|appointment|retirement|reaccreditation|leadership institute class|design class|accused|alleged|arrested|charged?|criminal|fugitive|indicted|investigation|lawsuit|settlement|shooting|stabbing|suspect|smoke report|emergency landing)\b/i;
 const verifiedClusters = newsroomData.clusters.filter((cluster) => cluster.publishable && cluster.sourceTier === "A" && !excludedHeadlines.test(cluster.headline));
 const freshClusters = verifiedClusters.filter((cluster) => treatmentFor(cluster.publishedAt) !== "From the archive");
 const freshDiscoveryClusters = newsroomData.clusters.filter((cluster) =>

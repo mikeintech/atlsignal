@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const guide = publicGuides.find((item) => item.slug === slug);
   if (!guide) return {};
-  return { title: guide.title, description: guide.dek, alternates: { canonical: absoluteUrl(`/guides/${guide.slug}`) }, openGraph: { type: "article", title: guide.title, description: guide.dek, images: [guide.image.src] }, twitter: { card: "summary_large_image", title: guide.title, description: guide.dek, images: [guide.image.src] } };
+  return { title: guide.title, description: guide.dek, authors: [{ name: "ATLSignal Desk", url: absoluteUrl("/masthead") }], category: guide.category, keywords: [guide.category, "Atlanta guide", "Atlanta public records", "ATLSignal"], alternates: { canonical: absoluteUrl(`/guides/${guide.slug}`) }, robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 } }, openGraph: { type: "article", siteName: "ATLSignal", url: absoluteUrl(`/guides/${guide.slug}`), title: guide.title, description: guide.dek, images: [{ url: guide.image.src, alt: guide.image.alt }] }, twitter: { card: "summary_large_image", title: guide.title, description: guide.dek, images: [guide.image.src] } };
 }
 
 const guideCopy: Record<string, { sections: Array<{ title: string; body: string }> }> = {
@@ -53,10 +53,12 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
   const guide = publicGuides.find((item) => item.slug === slug);
   if (!guide) notFound();
   const copy = guideCopy[guide.slug];
+  const jsonLd = { "@context": "https://schema.org", "@type": "Article", "@id": `${absoluteUrl(`/guides/${guide.slug}`)}#article`, mainEntityOfPage: absoluteUrl(`/guides/${guide.slug}`), headline: guide.title, description: guide.dek, articleSection: guide.category, author: { "@type": "Organization", name: "ATLSignal Desk", url: absoluteUrl("/masthead") }, publisher: { "@type": "NewsMediaOrganization", name: "ATLSignal", url: absoluteUrl("/") }, image: guide.image.src, isAccessibleForFree: true, inLanguage: "en-US" };
   return (
     <>
       <PublicationHeader market={atlanta} />
       <EditionHeader market={atlanta} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
       <main className="article-page shell">
         <header className="article-hero">
           <div className="article-kicker"><span>{guide.category}</span><span>{guide.readTime}</span></div>

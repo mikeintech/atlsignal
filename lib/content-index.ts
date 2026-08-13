@@ -65,7 +65,7 @@ const newsroomItems: PublicationItem[] = [...dailyPosts, ...sourceNotePosts].map
   return {
     id: post.id,
     href: post.href,
-    headline: post.headline,
+    headline: attributedBrief?.headline ?? post.headline,
     summary: attributedBrief?.description ?? post.dek,
     category: post.category,
     desk: deskForCategory(post.category),
@@ -90,13 +90,13 @@ function cleanSummary(value: string) {
 }
 
 const discoveryCutoff = new Date(newsroomData.generatedAt).valueOf() - 7 * 86_400_000;
-const allegationHeadline = /\b(accused|alleged|arrested|charged?|criminal|fugitive|indicted|investigation|lawsuit|shooting|stabbing|suspect)\b/i;
+const sensitiveHeadline = /\b(accused|alleged|arrested|charged?|criminal|fugitive|indicted|investigation|lawsuit|settlement|shooting|stabbing|suspect|smoke report|emergency landing)\b/i;
 const discoveryUses = new Map<string, number>();
 const discoveryItems: PublicationItem[] = [...newsroomData.clusters]
   .filter((cluster) => !cluster.publishable
     && cluster.sources[0]?.url
     && cluster.scores.locality >= 70
-    && !allegationHeadline.test(cluster.headline)
+    && !sensitiveHeadline.test(`${cluster.headline} ${cluster.summary}`)
     && new Date(cluster.publishedAt).valueOf() >= discoveryCutoff
     && new Date(cluster.publishedAt).valueOf() <= new Date(newsroomData.generatedAt).valueOf() + 12 * 3_600_000)
   .sort((left, right) => right.scores.total - left.scores.total)
@@ -106,10 +106,11 @@ const discoveryItems: PublicationItem[] = [...newsroomData.clusters]
     discoveryUses.set(cluster.category, uses + 1);
     const source = cluster.sources[0];
     const brief = attributedBriefs.find((candidate) => candidate.id === cluster.id);
+    if (!brief) return [];
     return [{
       id: cluster.id,
-      href: `/brief/${cluster.id}`,
-      headline: cleanSummary(cluster.headline),
+      href: brief.href,
+      headline: brief.headline,
       summary: brief?.description ?? `${source.name} published an Atlanta update that remains in ATLSignal’s attributed discovery file.`,
       category: cluster.category,
       desk: deskForCategory(cluster.category),
@@ -158,5 +159,8 @@ export function contentForCategory(category: string) {
 
 export function relatedContent(category: string, currentHref: string, limit = 3) {
   const desk = deskForCategory(category);
-  return editorialContent.filter((item) => item.href !== currentHref && item.desk === desk).slice(0, limit);
+  return editorialContent
+    .filter((item) => item.href !== currentHref && item.desk === desk)
+    .sort((left, right) => Number(right.indexable !== false) - Number(left.indexable !== false) || dateValue(right.publishedAt) - dateValue(left.publishedAt))
+    .slice(0, limit);
 }

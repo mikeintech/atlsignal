@@ -19,6 +19,7 @@ import { editionDateLabel, getSourceNote, sourceNotePosts } from "@/lib/daily-ed
 import { atlanta } from "@/lib/market";
 import { absoluteUrl } from "@/lib/site";
 import { relatedContent } from "@/lib/content-index";
+import newsroomData from "@/data/newsroom.json";
 
 export function generateStaticParams() {
   return sourceNotePosts.map((post) => ({ id: post.id }));
@@ -32,7 +33,10 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     title: post.headline,
     description: post.dek,
     alternates: { canonical: absoluteUrl(`/file/${post.id}`) },
-    openGraph: { type: "article", title: post.headline, description: post.dek, images: [post.image.src] },
+    authors: [{ name: "ATLSignal Desk", url: absoluteUrl("/masthead") }],
+    category: post.category,
+    robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
+    openGraph: { type: "article", siteName: "ATLSignal", title: post.headline, description: post.dek, publishedTime: post.cluster?.publishedAt, modifiedTime: newsroomData.generatedAt, images: [{ url: post.image.src, alt: post.image.alt }] },
     twitter: { card: "summary_large_image", title: post.headline, description: post.dek, images: [post.image.src] },
   };
 }
@@ -53,10 +57,13 @@ export default async function SourceNotePage({ params }: { params: Promise<{ id:
     headline: post.headline,
     description: post.dek,
     datePublished: cluster.publishedAt,
-    dateModified: new Date().toISOString(),
+    dateModified: newsroomData.generatedAt,
     author: { "@type": "Person", name: "Mike", url: "https://github.com/mikeintech" },
-    publisher: { "@type": "NewsMediaOrganization", name: "ATLSignal", url: absoluteUrl("/") },
-    image: post.image.src,
+    articleSection: post.category,
+    publisher: { "@type": "NewsMediaOrganization", name: "ATLSignal", url: absoluteUrl("/"), logo: { "@type": "ImageObject", url: absoluteUrl("/og-social-v2.png") } },
+    image: { "@type": "ImageObject", url: post.image.src },
+    isAccessibleForFree: true,
+    inLanguage: "en-US",
   };
 
   return (
@@ -78,7 +85,7 @@ export default async function SourceNotePage({ params }: { params: Promise<{ id:
         <div className="article-layout source-note-layout">
           <article className="article-body">
             <aside className="article-glance">
-              <h2>At a glance</h2>
+              <h2>The short version</h2>
               <ul>
                 <li>{cluster.sources.length} attributable source{cluster.sources.length === 1 ? "" : "s"} reviewed.</li>
                 <li>Evidence status: {cluster.evidenceLabel.toLowerCase()}.</li>
@@ -86,10 +93,10 @@ export default async function SourceNotePage({ params }: { params: Promise<{ id:
                 <li>Treatment today: {post.treatment.toLowerCase()}.</li>
               </ul>
             </aside>
-            <section><h2>What entered the file</h2><p>{cluster.sources[0]?.name ?? "A primary source"} published an attributable update titled “{post.headline}.” ATLSignal has promoted the item into the daily file because it clears the primary-source threshold. The linked source remains the authority for its own announcement.</p></section>
-            <section><h2>Why it matters</h2><p>{cluster.draft.whyItMatters}</p><p>Short source notes keep the publication current without presenting an announcement as a completed outcome. The largest or most consequential items are expanded into full reported briefs as additional facts become available.</p></section>
-            <section><h2>Evidence boundary</h2><p>{cluster.draft.unknown}</p><p>{cluster.corroboration.status === "CORROBORATED" ? "More than one first-party record supports the central development." : "One first-party source currently supports the central development; ATLSignal has not labeled the wider implications independently confirmed."}</p></section>
-            <section><h2>What we are watching next</h2><p>{cluster.draft.next}</p></section>
+            <section><h2>The public record</h2><p>{cluster.sources[0]?.name ?? "A primary source"} published an attributable update titled “{post.headline}.” ATLSignal promoted the item into the daily file because it clears the primary-source threshold. The linked source remains the authority for its own announcement.</p></section>
+            <section><h2>The Atlanta impact</h2><p>{cluster.draft.whyItMatters}</p><p>Short source notes keep the publication current without presenting an announcement as a completed outcome. The largest or most consequential items are expanded into full reported articles as additional facts become available.</p></section>
+            <section><h2>The evidence line</h2><p>{cluster.draft.unknown}</p><p>{cluster.corroboration.status === "CORROBORATED" ? "More than one first-party record supports the central development." : "One first-party source currently supports the central development; ATLSignal has not labeled the wider implications independently confirmed."}</p></section>
+            <section><h2>The next marker</h2><p>{cluster.draft.next}</p></section>
             <section><SectionHeading label="Sources" /><EvidenceList sources={sources} /><SourceAttribution>First-party material reviewed by ATLSignal. Subscriber-only contacts and routing intelligence are not displayed.</SourceAttribution></section>
           </article>
           <aside className="article-rail">

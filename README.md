@@ -38,10 +38,17 @@ npm run newsroom
 
 The active cycle is now owned-media only. Qualified primary-source items become
 ATLSignal reports or source notes; reputable attributed discoveries receive a
-hosted ATLSignal brief with a direct source trail. Stronger briefs can enter the
-XML and news sitemaps, while weaker discovery pages are explicitly `noindex`.
+hosted ATLSignal treatment with a direct source trail. Stories promoted into
+search receive descriptive `/news/` URLs, original ATLSignal analysis, reviewed
+primary records, article and breadcrumb structured data, large-image metadata
+and inclusion in the XML, image and news sitemaps. Weaker discovery pages remain
+readable but are explicitly `noindex`.
 The former social packaging files remain in the repository as an archive, but
 the newsroom build no longer generates or dispatches social content.
+
+The export also publishes `llms.txt`, OpenSearch discovery and an IndexNow key.
+After GitHub Pages deploys, the workflow submits the live canonical sitemap to
+IndexNow so participating search and AI systems can discover changed URLs faster.
 
 Source access rules and request caps live in `config/newsroom-sources.json`.
 Metadata-only discoveries may receive an attributed monitoring page for reader

@@ -32,20 +32,36 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const publisher = {
+  const siteGraph = {
     "@context": "https://schema.org",
-    "@type": "NewsMediaOrganization",
-    name: "ATLSignal",
-    url: absoluteUrl("/"),
-    logo: absoluteUrl("/og-social-v2.png"),
-    areaServed: "Metro Atlanta",
-    founder: { "@type": "Person", name: "Mike", url: "https://github.com/mikeintech" },
-    publishingPrinciples: absoluteUrl("/methodology"),
-    correctionsPolicy: absoluteUrl("/corrections"),
+    "@graph": [
+      {
+        "@type": "NewsMediaOrganization",
+        "@id": `${absoluteUrl("/")}#publisher`,
+        name: "ATLSignal",
+        url: absoluteUrl("/"),
+        logo: { "@type": "ImageObject", url: absoluteUrl("/og-social-v2.png"), width: 1733, height: 907 },
+        areaServed: { "@type": "AdministrativeArea", name: "Metro Atlanta" },
+        founder: { "@type": "Person", name: "Mike", url: "https://github.com/mikeintech" },
+        knowsAbout: ["Atlanta news", "Atlanta business", "Atlanta development", "Atlanta transportation", "Atlanta public records"],
+        publishingPrinciples: absoluteUrl("/methodology"),
+        correctionsPolicy: absoluteUrl("/corrections"),
+        ethicsPolicy: absoluteUrl("/disclosures"),
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${absoluteUrl("/")}#website`,
+        name: "ATLSignal",
+        url: absoluteUrl("/"),
+        publisher: { "@id": `${absoluteUrl("/")}#publisher` },
+        inLanguage: "en-US",
+        potentialAction: { "@type": "SearchAction", target: `${absoluteUrl("/search")}?q={search_term_string}`, "query-input": "required name=search_term_string" },
+      },
+    ],
   };
   return (
-    <html lang="en">
-      <body><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(publisher).replace(/</g, "\\u003c") }} />{children}<PublicationFooter /><SiteAnalytics /></body>
+    <html lang="en-US">
+      <body><link rel="search" type="application/opensearchdescription+xml" href={absoluteUrl("/opensearch.xml")} title="Search ATLSignal" /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(siteGraph).replace(/</g, "\\u003c") }} />{children}<PublicationFooter /><SiteAnalytics /></body>
     </html>
   );
 }
