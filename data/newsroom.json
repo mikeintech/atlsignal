@@ -1,6 +1,6 @@
 {
   "schemaVersion": "atlsignal_newsroom_v1",
-  "generatedAt": "2026-08-13T19:10:49.663Z",
+  "generatedAt": "2026-08-13T19:15:52.202Z",
   "market": "atlanta",
   "timezone": "America/New_York",
   "editionWindow": "AFTERNOON",
@@ -14,12 +14,12 @@
     "intendedCadence": "four_daily",
     "status": "HEALTHY",
     "criticalFailures": [],
-    "previousRunAt": "2026-08-13T19:06:18.638Z"
+    "previousRunAt": "2026-08-13T19:10:49.663Z"
   },
   "stats": {
     "activeSources": 10,
     "discoverySources": 24,
-    "items": 274,
+    "items": 275,
     "clusters": 187,
     "publishable": 55,
     "needsCorroboration": 132
@@ -31,7 +31,7 @@
       "status": "OK",
       "itemCount": 25,
       "critical": true,
-      "durationMs": 389
+      "durationMs": 448
     },
     {
       "sourceId": "atlanta_beltline",
@@ -39,7 +39,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 35643
+      "durationMs": 35769
     },
     {
       "sourceId": "atlanta_regional_commission",
@@ -47,7 +47,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 32177
+      "durationMs": 41644
     },
     {
       "sourceId": "atlanta_housing",
@@ -55,7 +55,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": true,
-      "durationMs": 161
+      "durationMs": 815
     },
     {
       "sourceId": "rough_draft_atlanta",
@@ -63,7 +63,7 @@
       "status": "OK",
       "itemCount": 5,
       "critical": false,
-      "durationMs": 141
+      "durationMs": 211
     },
     {
       "sourceId": "saporta_report",
@@ -71,7 +71,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": false,
-      "durationMs": 149
+      "durationMs": 235
     },
     {
       "sourceId": "arts_atl",
@@ -79,7 +79,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": false,
-      "durationMs": 235
+      "durationMs": 2910
     },
     {
       "sourceId": "atlanta_magazine",
@@ -87,7 +87,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": false,
-      "durationMs": 410
+      "durationMs": 656
     },
     {
       "sourceId": "atlanta_civic_circle",
@@ -95,7 +95,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": false,
-      "durationMs": 118
+      "durationMs": 189
     },
     {
       "sourceId": "fox_5_atlanta",
@@ -103,16 +103,16 @@
       "status": "OK",
       "itemCount": 9,
       "critical": false,
-      "durationMs": 283
+      "durationMs": 807
     },
     {
       "sourceId": "ajc",
       "name": "Atlanta Journal-Constitution",
       "status": "DISCOVERY_OK",
-      "itemCount": 10,
+      "itemCount": 11,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "atlanta_business_chronicle",
@@ -121,7 +121,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "SUBSCRIPTION_CONSTRAINED",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "urbanize_atlanta",
@@ -130,7 +130,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "rough_draft_atlanta",
@@ -139,7 +139,7 @@
       "itemCount": 6,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "axios_atlanta",
@@ -148,7 +148,7 @@
       "itemCount": 3,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "eater_atlanta",
@@ -157,7 +157,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "saporta_report",
@@ -166,7 +166,7 @@
       "itemCount": 2,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "what_now_atlanta",
@@ -175,7 +175,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "bisnow_atlanta",
@@ -184,7 +184,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "city_of_atlanta",
@@ -193,16 +193,16 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "marta",
       "name": "MARTA",
       "status": "DISCOVERY_OK",
-      "itemCount": 30,
+      "itemCount": 32,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "atl_airport",
@@ -211,7 +211,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "georgia_economic_development",
@@ -220,7 +220,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "metro_atlanta_chamber",
@@ -229,7 +229,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "discover_atlanta",
@@ -238,7 +238,7 @@
       "itemCount": 2,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "fox_5_atlanta",
@@ -247,7 +247,7 @@
       "itemCount": 2,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "wsb_tv",
@@ -256,7 +256,7 @@
       "itemCount": 8,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "11alive",
@@ -265,7 +265,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "gpb",
@@ -274,7 +274,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "atlanta_magazine",
@@ -283,7 +283,7 @@
       "itemCount": 2,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "arts_atl",
@@ -292,7 +292,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "atlanta_voice",
@@ -301,7 +301,7 @@
       "itemCount": 5,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "atlanta_civic_circle",
@@ -310,7 +310,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     },
     {
       "sourceId": "atlanta_fi",
@@ -319,7 +319,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 27808
+      "durationMs": 28934
     }
   ],
   "items": [
@@ -365,7 +365,7 @@
       "contentHash": "844646def40484b47d88",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:06:18.638Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "717f55a48595114b2ab9",
@@ -387,7 +387,7 @@
       "contentHash": "ec495d581045e9d23a19",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T17:13:35.294Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "dacf7f8c88e052302145",
@@ -409,7 +409,7 @@
       "contentHash": "0ab2322e1fbea80824be",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T17:13:35.294Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "6622607198093afe76d9",
@@ -563,7 +563,7 @@
       "contentHash": "6690698a84fd98801c2b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T17:13:35.294Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "ce06c034182e9116fd8a",
@@ -585,7 +585,7 @@
       "contentHash": "195fee6b846c432608f7",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T17:13:35.294Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "c6bb7492954f16c4290c",
@@ -607,7 +607,7 @@
       "contentHash": "1b04fb09f6b60ce55567",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "b7ed16735c85279aad0c",
@@ -739,7 +739,7 @@
       "contentHash": "a41debfe5c68e796c5ba",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:06:18.638Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "2b74815b167cbe8ed1f4",
@@ -761,7 +761,7 @@
       "contentHash": "3a9f62a577e236fe1a16",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T17:13:35.294Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "5c102622393b8cac4e22",
@@ -783,7 +783,7 @@
       "contentHash": "bbef9dc3e6ba683888f1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T17:13:35.294Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "6f78702d9ce1864d72d8",
@@ -805,7 +805,7 @@
       "contentHash": "139e3a6f35b81903079d",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "2192be241f277afd633b",
@@ -915,7 +915,7 @@
       "contentHash": "7c209e9c080b09e94467",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T19:06:18.638Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "c09f771022cd92a10eee",
@@ -937,7 +937,7 @@
       "contentHash": "22db41480bb885011db9",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T19:06:18.638Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "61be690a0d59b3de2c53",
@@ -959,7 +959,7 @@
       "contentHash": "643a620ea4b5daf0ac53",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "fa8342e54b9eafb01e36",
@@ -981,7 +981,7 @@
       "contentHash": "819425881e1068fa6f99",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "0cfc66f3b7320f0d5e4a",
@@ -1003,7 +1003,7 @@
       "contentHash": "1e306ebb0fb28907f987",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "489f07f0b790e2f5bb56",
@@ -1025,7 +1025,7 @@
       "contentHash": "123a09e310bf64b430ba",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "340d8fc2e5c82d2b2098",
@@ -1047,7 +1047,7 @@
       "contentHash": "a10d5094a8752dea9043",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "29ab5e9480b439deee38",
@@ -1069,7 +1069,7 @@
       "contentHash": "fba07b0381fa141e8fa2",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "61fe326140df7fa20fe1",
@@ -1091,7 +1091,7 @@
       "contentHash": "2bf46710b69c1cdfa217",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "433ea8ac3bc0819f8ba8",
@@ -1113,7 +1113,7 @@
       "contentHash": "4bf60b5210ac7b6174e8",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "d399a1ebdc52a308790c",
@@ -1135,7 +1135,7 @@
       "contentHash": "d9ccb9c93c2cb8251062",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "9d5a3af3048973ffdbe6",
@@ -1157,7 +1157,7 @@
       "contentHash": "1f9aca502c6e3966f771",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "ae5e020f7ab33a94c184",
@@ -1179,7 +1179,7 @@
       "contentHash": "d11ead40aac6ed022df1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T17:13:35.294Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "8f628c691137706e9364",
@@ -1223,7 +1223,7 @@
       "contentHash": "e6dc7d2f3c752e4ca685",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "4077db96622247acbe46",
@@ -1245,7 +1245,7 @@
       "contentHash": "a00a38ae60bc78022714",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "bbfa9d6394765fa73adb",
@@ -1289,7 +1289,7 @@
       "contentHash": "d5c5794c365118bd1d39",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "501638a2651644e02b54",
@@ -1333,7 +1333,7 @@
       "contentHash": "ff5d2187ae112de57cba",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "aaed92834f752aab5688",
@@ -1377,7 +1377,7 @@
       "contentHash": "fd6f0af3dc5a06fc12df",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "5f6ad7f87bc79cdc672f",
@@ -1421,7 +1421,7 @@
       "contentHash": "f0fe2189be3d7065c8fc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "64253b02ba1a08ef13cc",
@@ -1443,7 +1443,7 @@
       "contentHash": "a44d5c9b0afcec5f38a6",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "f8a443f11229b6ebc462",
@@ -1465,7 +1465,7 @@
       "contentHash": "166478c0a6768fabbc9d",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "1440464b84e12330bd82",
@@ -1509,7 +1509,7 @@
       "contentHash": "9780914186733c60e57f",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "98818453601f5a2a9a0f",
@@ -1531,7 +1531,7 @@
       "contentHash": "3426b1258ffa9a1e3efc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "f3559c9601553baeb7e0",
@@ -1553,7 +1553,7 @@
       "contentHash": "e97d5307fca033bb2e17",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "8d33c8f1a962415be3d4",
@@ -1575,7 +1575,7 @@
       "contentHash": "20f90fceff30fb96dea9",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "778380b73a7b56b9a91e",
@@ -1597,7 +1597,7 @@
       "contentHash": "7673e05830399a673083",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "a1d439d7bb133d5d45b8",
@@ -1641,7 +1641,7 @@
       "contentHash": "aae6f6cb9cc4b24a5950",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "facd3e9be9727f76fa03",
@@ -1663,7 +1663,7 @@
       "contentHash": "00ff20ff5668abe85688",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "e0a94514b0283258fa0e",
@@ -1729,29 +1729,7 @@
       "contentHash": "be4d2c54322f6fbadbb3",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
-    },
-    {
-      "id": "99f3ef24889e4cfa8c78",
-      "sourceId": "ajc",
-      "sourceName": "Atlanta Journal-Constitution",
-      "sourceTier": "B",
-      "sourceClass": "local_reporting",
-      "sourceCategory": "Atlanta News",
-      "discoveryLane": "city_life",
-      "acquisition": "google_news_rss_metadata",
-      "claimBoundary": "discovery_only_no_publisher_retrieval",
-      "title": "Georgia Democrats talk property taxes as they eye a possible House takeover",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS1VGeG94ODdyTGNuc3EyWnJEWmR5VDM4Ry1kd1FySTZXb1pHS3Q1Zk5Yd3lLckVNbDd3NTdNanhNYThfZTQ4UVU2NWx4MkVwajA3bk0tLUQtd2FvamxBSzF6dzRQVE0yN2NUUmhiY1BLTTRWWDZIYUNGcWktampZTkp3WGJ3aFNGUjRZT284bFBNV24tRXhZUUQySi1pRGdBQ1ZJRVdvQnpRUy1ndTBuaDNJRQ?oc=5",
-      "publisherUrl": "https://www.ajc.com",
-      "publishedAt": "2026-08-13T09:24:18.000Z",
-      "updatedAt": "2026-08-13T09:24:18.000Z",
-      "imageUrl": null,
-      "contentHash": "6fb6c37152a6770355a9",
-      "retrievedContent": false,
-      "firstSeenAt": "2026-08-13T16:36:34.526Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "02bd5a690b1455342507",
@@ -1820,6 +1798,28 @@
       "lastSeenAt": "2026-08-13T16:55:33.258Z"
     },
     {
+      "id": "99f3ef24889e4cfa8c78",
+      "sourceId": "ajc",
+      "sourceName": "Atlanta Journal-Constitution",
+      "sourceTier": "B",
+      "sourceClass": "local_reporting",
+      "sourceCategory": "Atlanta News",
+      "discoveryLane": "events",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "Georgia Democrats talk property taxes as they eye a possible House takeover",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS1VGeG94ODdyTGNuc3EyWnJEWmR5VDM4Ry1kd1FySTZXb1pHS3Q1Zk5Yd3lLckVNbDd3NTdNanhNYThfZTQ4UVU2NWx4MkVwajA3bk0tLUQtd2FvamxBSzF6dzRQVE0yN2NUUmhiY1BLTTRWWDZIYUNGcWktampZTkp3WGJ3aFNGUjRZT284bFBNV24tRXhZUUQySi1pRGdBQ1ZJRVdvQnpRUy1ndTBuaDNJRQ?oc=5",
+      "publisherUrl": "https://www.ajc.com",
+      "publishedAt": "2026-08-13T09:02:08.000Z",
+      "updatedAt": "2026-08-13T09:02:08.000Z",
+      "imageUrl": null,
+      "contentHash": "43baae33305893990b1a",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-13T16:36:34.526Z",
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
+    },
+    {
       "id": "f57f42ac567eea278ff5",
       "sourceId": "atlanta_magazine",
       "sourceName": "Atlanta Magazine",
@@ -1839,7 +1839,7 @@
       "contentHash": "644a6b77a24b3c4b53f2",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "efa14aeb9bd2811c09ec",
@@ -1861,7 +1861,7 @@
       "contentHash": "9d709ccae79889901560",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "33d6f09cbc4e801f31a1",
@@ -1883,7 +1883,7 @@
       "contentHash": "53952560cd447688a14c",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "b06fb0c9c3f463c8fa09",
@@ -1927,7 +1927,7 @@
       "contentHash": "22a4d0a9d34f8350a48e",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "c83891901f2c996f88d4",
@@ -1971,7 +1971,7 @@
       "contentHash": "8fe32d6687e132cff539",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "283e2c291d90c88342ad",
@@ -1993,7 +1993,7 @@
       "contentHash": "794e22bef3fcee575633",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "1d77e33babc65b792d28",
@@ -2015,7 +2015,7 @@
       "contentHash": "1f9c9c4742d7640e2b05",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "2ab8ceda039a274d4e16",
@@ -2037,7 +2037,7 @@
       "contentHash": "8fe9b9945be82de63a27",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:36:34.526Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "94282d37a8e93f985620",
@@ -2212,7 +2212,7 @@
       "contentHash": "24fffd8190873ef65d05",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "59b419f6d738244011b4",
@@ -2278,7 +2278,7 @@
       "contentHash": "2f49c839b4219f6f45ee",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T17:13:35.294Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "d542b638824951f4e092",
@@ -2300,7 +2300,7 @@
       "contentHash": "eb4ed77199b4f53cb8db",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "b96b1a5bfc36e257a8e3",
@@ -2322,7 +2322,7 @@
       "contentHash": "3fa390e3d5d7c8559e30",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "0d1cfeb641ef5da06634",
@@ -2344,7 +2344,7 @@
       "contentHash": "b34a6d31e1d123b80788",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "7da413913c1ad4c27fe7",
@@ -2366,7 +2366,7 @@
       "contentHash": "20993b020bac7f3f31d9",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "c2ca6eebd4127ff28e30",
@@ -2388,7 +2388,7 @@
       "contentHash": "d0741c47110e3cddc11d",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "9ef633e1874ec0164274",
@@ -2432,7 +2432,7 @@
       "contentHash": "2b7e1aca80b786c575ee",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T19:31:00.485Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "62a7cd224aef3cf7308f",
@@ -2454,7 +2454,7 @@
       "contentHash": "2a6382f54997094ebfd2",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:31:00.485Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "1388e77074185519f244",
@@ -2476,7 +2476,7 @@
       "contentHash": "df837b83f86d6b1783e4",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "974049cadf5f67e4de46",
@@ -2520,7 +2520,7 @@
       "contentHash": "144d91d96464865cd171",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:31:00.485Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "716edfec1e7327226701",
@@ -2564,7 +2564,7 @@
       "contentHash": "7583fe36ad80f3c78b48",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "bf5172a06429120a5014",
@@ -2652,7 +2652,7 @@
       "contentHash": "0887a4b87f40e35e99eb",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "20b1a6df49d456289c32",
@@ -2674,7 +2674,7 @@
       "contentHash": "e9d8f4a1b237ee18ea2a",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "769ce9747801223db566",
@@ -2718,7 +2718,7 @@
       "contentHash": "e45958ab89ffeefcc4a5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:36:34.526Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "00a0d98e9a2d893ff873",
@@ -2740,7 +2740,7 @@
       "contentHash": "793a2fc69370585e0dab",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "cbf186220633e1c2a4d0",
@@ -2762,7 +2762,7 @@
       "contentHash": "88383172bae04b2cabef",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "503cc4766e33a35a3568",
@@ -2784,7 +2784,7 @@
       "contentHash": "1069a3dbd9c6a7e41ebe",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "082a0dc976e9c90a75f5",
@@ -2806,7 +2806,7 @@
       "contentHash": "ba6f631687241f627b96",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "30482a2cf65948335d26",
@@ -2828,7 +2828,7 @@
       "contentHash": "f1b1a5868bde3cd01608",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:36:34.526Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "5c615a19bf07e0690f2e",
@@ -2850,7 +2850,7 @@
       "contentHash": "5f09a84e8d9cf9e9a1ea",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "3296edf30e0b58876f43",
@@ -2872,7 +2872,7 @@
       "contentHash": "d91bc607986441c0b3af",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "051f733b7088a435cd5a",
@@ -2916,7 +2916,7 @@
       "contentHash": "038d50394204dbe4eab5",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "9e8bd401149033290246",
@@ -2960,7 +2960,7 @@
       "contentHash": "52bbf733e0f6a624c874",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "c18ca2625697ab422704",
@@ -2982,7 +2982,7 @@
       "contentHash": "01cdb76d55741bc14494",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "091a4330c1cb81077e65",
@@ -3004,7 +3004,7 @@
       "contentHash": "b9a5afd78d2feb1ec25d",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "5b2950853a56b57ef03d",
@@ -3048,7 +3048,7 @@
       "contentHash": "0ea7032beeaa622b7d3e",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "60256ee723a92a7e3796",
@@ -3070,7 +3070,7 @@
       "contentHash": "948f297888a08b7dd26a",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "fe229d67ecae5cc5b967",
@@ -3092,7 +3092,7 @@
       "contentHash": "3ec65c271235d0376fbf",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "f1aaa25aa489ca46777a",
@@ -3114,7 +3114,7 @@
       "contentHash": "500a9398905210c98546",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "fe7e9313603faece3bc3",
@@ -3136,7 +3136,7 @@
       "contentHash": "4619b43646576a453a6d",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "db30f7708c6c11949485",
@@ -3158,7 +3158,7 @@
       "contentHash": "bcbdcf4bb692ed879699",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "f34d64340815a3858ff0",
@@ -3180,7 +3180,7 @@
       "contentHash": "b569ab92dcb5ac05ba46",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "4110555f2be43e645f5c",
@@ -3202,7 +3202,7 @@
       "contentHash": "0fdd4f2478198b30d212",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "3369d29921615fcec799",
@@ -3224,7 +3224,7 @@
       "contentHash": "20f5dcb0c6379b17b75f",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "9c44135165250c280eb8",
@@ -3246,7 +3246,7 @@
       "contentHash": "9a3f3750376e6ea97de9",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "b7ab78a57ee1aa2b5ee9",
@@ -3290,7 +3290,7 @@
       "contentHash": "70ffc7937e8aacccf5b0",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "98661fb34b9d8393082c",
@@ -3312,7 +3312,7 @@
       "contentHash": "4dcdb508aebfbb23409d",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "fb30a2fe93c917ddc1d7",
@@ -3334,7 +3334,7 @@
       "contentHash": "5283465bce3d4dad8786",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-13T16:55:33.258Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "997ee8b90977836de06b",
@@ -3356,7 +3356,7 @@
       "contentHash": "ac3eec01ddfc55ffef41",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "654d28aa0aed2b24c3d8",
@@ -3399,7 +3399,7 @@
       "contentHash": "2a9ca75c116f1da940bb",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "0156caa329cabd5ee87e",
@@ -3442,7 +3442,7 @@
       "contentHash": "a84b0e7e5e1c61e63e27",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "5ca989d22865ad43e770",
@@ -3530,7 +3530,7 @@
       "contentHash": "387a730b87de9045970c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "c7d18236381a4e2579b9",
@@ -3706,7 +3706,7 @@
       "contentHash": "a1616d8fe124cf2d48d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "f5332964efdb536984ca",
@@ -3728,7 +3728,7 @@
       "contentHash": "37769ed41d958cef83de",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "9807276a0bd43435677a",
@@ -3813,7 +3813,7 @@
       "contentHash": "35d13c3fbeab6ef521db",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "386d02879ef09698c33c",
@@ -3835,7 +3835,7 @@
       "contentHash": "2baee7e9bd2e4a61c714",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "48c7774d3d1888972d67",
@@ -3857,7 +3857,7 @@
       "contentHash": "0c0884e51332e18c365f",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "22fb4762a172f34b618f",
@@ -3900,7 +3900,7 @@
       "contentHash": "ecc86bc4b28542bb5968",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "49fb03da02a443b2f06a",
@@ -3988,7 +3988,7 @@
       "contentHash": "d2476f4b803d29e627f5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "6302a76fda702723bf3d",
@@ -4010,7 +4010,7 @@
       "contentHash": "d63698e97eb327ba7899",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "7f724a4bc74ffd08cf8f",
@@ -4032,7 +4032,7 @@
       "contentHash": "7938e58176113e223144",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "f3667c376a276743f471",
@@ -4054,7 +4054,7 @@
       "contentHash": "40367f4f92e7f7d4dd12",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "c83e8c7f3cd2a9ee4b85",
@@ -4076,7 +4076,7 @@
       "contentHash": "486f1a0293fad8e728f4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "ecc2fa4ebd27b7d56cf3",
@@ -4098,7 +4098,7 @@
       "contentHash": "7581307e5ff277d9816a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "cdc076c25899466440a9",
@@ -4120,7 +4120,7 @@
       "contentHash": "127f2011ac5db530a327",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "66ac653a0aebee200399",
@@ -4142,7 +4142,7 @@
       "contentHash": "f4b060cbd844a5b9d01c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "8b36b68a8314f667de0f",
@@ -4164,7 +4164,7 @@
       "contentHash": "c0ebabe25748e54339d4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "199c578a330596813fd1",
@@ -4186,7 +4186,7 @@
       "contentHash": "52c68119c9e8e318a06b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "8b8dce22ee6f64a71130",
@@ -4208,7 +4208,7 @@
       "contentHash": "e5c254b61f6c0e5cc7e4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "d482b816c951307ba84f",
@@ -4230,7 +4230,7 @@
       "contentHash": "685b5fc66b55fa8e87ad",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "4ba5f7d0740775a9f678",
@@ -4252,7 +4252,7 @@
       "contentHash": "c5fffcc4ef234cf6e268",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "afecf06030c6eaad3e80",
@@ -4274,7 +4274,7 @@
       "contentHash": "550ecc269a8e19d5dfef",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "433925f78eeb46ccd330",
@@ -4296,7 +4296,7 @@
       "contentHash": "9c56aeecb0b7210008b1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "5672137da20b1129ac75",
@@ -4318,7 +4318,7 @@
       "contentHash": "aa22aa20deec30bf6136",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "54fb4329f1367f3dc5f5",
@@ -4340,7 +4340,7 @@
       "contentHash": "89a68b3865dcfc7b6132",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "54b3b5398944a3eac4c4",
@@ -4383,7 +4383,7 @@
       "contentHash": "0b22d42af62c560132fc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "b294645a06cc344d85d5",
@@ -4405,7 +4405,7 @@
       "contentHash": "9b5e864afaf5ac6f8c1b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "afc54ba0d1d2698486c6",
@@ -4427,7 +4427,7 @@
       "contentHash": "7e6963e4a0ff4a3b631d",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "fafbf71d20fa86245788",
@@ -4449,7 +4449,7 @@
       "contentHash": "7a7f6d02dc8f179b0fd4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "ba9265c20fd878504008",
@@ -4471,7 +4471,7 @@
       "contentHash": "fc90a84fc0bb3bee8a53",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "0a047533a306d0179911",
@@ -4493,7 +4493,7 @@
       "contentHash": "5c42d69cc129bed4c7d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "a18f4dfab1fb389dd98c",
@@ -4515,7 +4515,7 @@
       "contentHash": "d81a04af4ba15b3b04d9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "102c6e5539d6d3edde4d",
@@ -4537,7 +4537,7 @@
       "contentHash": "7d67423adf6696ad6c42",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "07aeceaf05fa51ea8672",
@@ -4559,7 +4559,7 @@
       "contentHash": "3a3e3957e6e81d19ab9a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "f56d3d266f38e4244bf3",
@@ -4581,7 +4581,7 @@
       "contentHash": "2a2f3210b7cc736ea4a0",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "29d64adc94b8748e72c2",
@@ -4603,7 +4603,7 @@
       "contentHash": "e708b07b519d66ce8d72",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "f87e8c3e3d83b8b59984",
@@ -4625,7 +4625,7 @@
       "contentHash": "28a1e2f3cb18aa1e107b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "8863330ec2fa19eb71ae",
@@ -4647,7 +4647,7 @@
       "contentHash": "db93bdc4bc5aaf0ccd5c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "d8cacce85da99dbd3e7e",
@@ -4669,7 +4669,7 @@
       "contentHash": "0ff645ebd61eeb829b1a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "a5a71add8c681fffee59",
@@ -4691,7 +4691,7 @@
       "contentHash": "2b39aea20a72e02c69ec",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "7825711d260553b18004",
@@ -4713,7 +4713,7 @@
       "contentHash": "d371dcb6be377b9b9de8",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "06f938b3d9b0a2643fdb",
@@ -4735,7 +4735,7 @@
       "contentHash": "c2909df68dab0c151f94",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "dab92479995df566c2f8",
@@ -4757,7 +4757,7 @@
       "contentHash": "e39b64727407c39f9231",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "2ce3adbe7c62b1bcd018",
@@ -4779,7 +4779,7 @@
       "contentHash": "fe230a9bdd245c759d47",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "658ea2e030b56e24f77c",
@@ -4801,7 +4801,7 @@
       "contentHash": "7c8e44d435936cf37dcb",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "b081e2dd2e827e7651e1",
@@ -4823,7 +4823,7 @@
       "contentHash": "9ab9d32f60aa1f57fd83",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "b54664727a2af2156e4e",
@@ -4845,7 +4845,7 @@
       "contentHash": "5eb28e5b3152013a1bd8",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "618def64fc3ead0be378",
@@ -4867,7 +4867,7 @@
       "contentHash": "179b4c601182b36217a0",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "a41129acc6aae239795a",
@@ -4889,7 +4889,7 @@
       "contentHash": "33f20b19eca63c7643cc",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "c66c79f644cce1c26d5f",
@@ -4953,7 +4953,7 @@
       "contentHash": "3b82269349260f505519",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "d94d5d3088c062d79bbd",
@@ -4975,7 +4975,7 @@
       "contentHash": "bd26c6e3704df92fa15b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "9119378c0267426bba86",
@@ -4997,7 +4997,7 @@
       "contentHash": "e6ec8fd751d416a829e5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "c14c6ce425707816ee27",
@@ -5019,7 +5019,7 @@
       "contentHash": "753c2b2d7a2cf60cff0c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "d8d456147cf65ce90154",
@@ -5041,7 +5041,7 @@
       "contentHash": "6f90d94dcda960118cf9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "80884347dc223843f1b2",
@@ -5063,7 +5063,7 @@
       "contentHash": "4606c7f2c7688b1268fc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "b1a8f32ddcfd05d9f6d6",
@@ -5085,7 +5085,7 @@
       "contentHash": "7f4f106c59a11897992c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "e22cde1049658713eed6",
@@ -5107,7 +5107,7 @@
       "contentHash": "23e01cc6552b83bc5789",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "6a68d77f51d8b4bfa450",
@@ -5129,7 +5129,7 @@
       "contentHash": "b459ae159a0531d3250f",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "eb5e18b57c469a7586cd",
@@ -5151,7 +5151,7 @@
       "contentHash": "d8c10af54b4fd95250e4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "5dab9d0fca8ea2a1f535",
@@ -5173,7 +5173,7 @@
       "contentHash": "53a47b4014311fc1d06f",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "34140fe236621430b968",
@@ -5195,7 +5195,7 @@
       "contentHash": "7d42325d4ff1a6d25c75",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "191fee8617d675cc3b80",
@@ -5217,7 +5217,7 @@
       "contentHash": "991d52453e6272739059",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "75852243a73751db486b",
@@ -5239,7 +5239,7 @@
       "contentHash": "8afaa6d0e8364dffcce7",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "a2758a6b9514f8862168",
@@ -5261,7 +5261,7 @@
       "contentHash": "3be7d8caff2b9eb4d7df",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "3511aca05e35cf11e607",
@@ -5283,7 +5283,7 @@
       "contentHash": "48cf11ed1dde9a89a1b5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "ba5e7a55294f5ac5e26c",
@@ -5305,7 +5305,7 @@
       "contentHash": "f1da7638b983f468fc0b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "291b2447387a073c77bc",
@@ -5327,7 +5327,7 @@
       "contentHash": "ca0421a798e023660dc5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "372bf20b8b4981c711c7",
@@ -5349,7 +5349,7 @@
       "contentHash": "ab23264f95ebaf89cfb7",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "79b334add01cabbde7f8",
@@ -5371,7 +5371,7 @@
       "contentHash": "6027474ea029061e7ead",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "0a2f2a999cf1e8228b45",
@@ -5393,7 +5393,7 @@
       "contentHash": "c0d95ea7a9e426589091",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "8790771864c541644970",
@@ -5415,7 +5415,7 @@
       "contentHash": "d8ed836f5f082db0f9f6",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "d7ed102310557b81a93e",
@@ -5437,7 +5437,7 @@
       "contentHash": "78f93d171b764ebb6ad7",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "408461c3cc005223c602",
@@ -5503,7 +5503,7 @@
       "contentHash": "c6edc7e1957b8aaee1ac",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "26391d8b41c9016cc6be",
@@ -5525,7 +5525,7 @@
       "contentHash": "f2b454b33ced9bf4048f",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "786d671f6d7c3c3024b4",
@@ -5591,7 +5591,7 @@
       "contentHash": "f234afc5f7c24076a662",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "a8270381c1fa324414f8",
@@ -5600,7 +5600,7 @@
       "sourceTier": "A",
       "sourceClass": "official_transit",
       "sourceCategory": "Atlanta News",
-      "discoveryLane": "food",
+      "discoveryLane": "events",
       "acquisition": "google_news_rss_metadata",
       "claimBoundary": "discovery_only_no_publisher_retrieval",
       "title": "MARTA",
@@ -5613,7 +5613,7 @@
       "contentHash": "5497fa585f056f6baf3f",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "bc71f97ad335fd459fdf",
@@ -5622,7 +5622,7 @@
       "sourceTier": "A",
       "sourceClass": "official_transit",
       "sourceCategory": "Atlanta News",
-      "discoveryLane": "food",
+      "discoveryLane": "events",
       "acquisition": "google_news_rss_metadata",
       "claimBoundary": "discovery_only_no_publisher_retrieval",
       "title": "MARTA",
@@ -5635,7 +5635,7 @@
       "contentHash": "70c42074868b431b93e6",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "83ec5e176236b18f2421",
@@ -5657,7 +5657,7 @@
       "contentHash": "0ee390298df39c561ddf",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T19:06:18.638Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "3a048feeef3b4ee76bfb",
@@ -5679,7 +5679,7 @@
       "contentHash": "89f706bd41190bb3ad61",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "6b496c15e3d24c80a39e",
@@ -5701,7 +5701,7 @@
       "contentHash": "db3353a420587484627d",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "529649fe6fb59b7e8516",
@@ -5723,7 +5723,7 @@
       "contentHash": "123e8ec457b94265ced3",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "27f2d8ba165fb15e259f",
@@ -5745,7 +5745,7 @@
       "contentHash": "85dbdf6850849a68c2aa",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T19:06:18.638Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "36a3998532dc28131e5d",
@@ -5754,7 +5754,7 @@
       "sourceTier": "A",
       "sourceClass": "official_transit",
       "sourceCategory": "Atlanta News",
-      "discoveryLane": "events",
+      "discoveryLane": "food",
       "acquisition": "google_news_rss_metadata",
       "claimBoundary": "discovery_only_no_publisher_retrieval",
       "title": "MARTA",
@@ -5767,7 +5767,7 @@
       "contentHash": "c3f89a2fa7065a8eb0ad",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T19:10:49.663Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "38840914fdf59145b10b",
@@ -5789,7 +5789,7 @@
       "contentHash": "2394e8a8587bad813e4e",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "7d1cf1fc15fe8b36ee9a",
@@ -5798,7 +5798,7 @@
       "sourceTier": "A",
       "sourceClass": "official_transit",
       "sourceCategory": "Atlanta News",
-      "discoveryLane": "food",
+      "discoveryLane": "events",
       "acquisition": "google_news_rss_metadata",
       "claimBoundary": "discovery_only_no_publisher_retrieval",
       "title": "MARTA",
@@ -5811,7 +5811,7 @@
       "contentHash": "8f4bdea81212fdddf5e0",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "7197d97320c2c64a42f5",
@@ -5833,7 +5833,7 @@
       "contentHash": "1234b24148dbe336f334",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "a603f0298a904ba16cd9",
@@ -5855,7 +5855,7 @@
       "contentHash": "2445afdb8e0920c0fc7b",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "af12d770d04adf2323bb",
@@ -5877,7 +5877,7 @@
       "contentHash": "4a53bad19b12a0cb29de",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "09d235ed358389f03d5c",
@@ -5921,7 +5921,7 @@
       "contentHash": "1f2f3f2b629ff95c5f9c",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T18:55:21.592Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "0a95cf31840ee72e2534",
@@ -5930,7 +5930,7 @@
       "sourceTier": "A",
       "sourceClass": "official_transit",
       "sourceCategory": "Atlanta News",
-      "discoveryLane": "food",
+      "discoveryLane": "events",
       "acquisition": "google_news_rss_metadata",
       "claimBoundary": "discovery_only_no_publisher_retrieval",
       "title": "MARTA",
@@ -5943,7 +5943,7 @@
       "contentHash": "214e19e6f0e2049c175c",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "e22b11ddc450d76404c5",
@@ -5965,7 +5965,7 @@
       "contentHash": "0ea3151b61ea38f78fc3",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "c7035c7899375f53ade3",
@@ -5987,7 +5987,7 @@
       "contentHash": "fa28b2abaffcc80227ce",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "b5a0a9b7b11f18c5f48b",
@@ -5996,7 +5996,7 @@
       "sourceTier": "A",
       "sourceClass": "official_transit",
       "sourceCategory": "Atlanta News",
-      "discoveryLane": "events",
+      "discoveryLane": "food",
       "acquisition": "google_news_rss_metadata",
       "claimBoundary": "discovery_only_no_publisher_retrieval",
       "title": "MARTA",
@@ -6009,7 +6009,7 @@
       "contentHash": "105af8cc749d4024efd5",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T19:10:49.663Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "7569e4ad4078ef0d8442",
@@ -6031,7 +6031,7 @@
       "contentHash": "5d63e9ccc67e44cd7de0",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "109bd2dc164ec1ab8e4e",
@@ -6075,7 +6075,7 @@
       "contentHash": "dd01c134340a00f65c64",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "f5f49766613e3b9b25eb",
@@ -6119,7 +6119,7 @@
       "contentHash": "067065e8ee0682a24390",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "a846b6524c588424a1e7",
@@ -6185,7 +6185,7 @@
       "contentHash": "1c8007c6eae989c3d0fa",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "3319d4eabffdd0cdcde1",
@@ -6207,7 +6207,29 @@
       "contentHash": "4e7075af446b0c8f6f9b",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
+    },
+    {
+      "id": "624c2df46e439c2d1048",
+      "sourceId": "marta",
+      "sourceName": "MARTA",
+      "sourceTier": "A",
+      "sourceClass": "official_transit",
+      "sourceCategory": "Atlanta News",
+      "discoveryLane": "food",
+      "acquisition": "google_news_rss_metadata",
+      "claimBoundary": "discovery_only_no_publisher_retrieval",
+      "title": "MARTA",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9IazNpcVpGVFgyQTUzTXBlZ0FwVHVwb19EbTlMdHJyZ2l3TTA3OXlRZktXaHFvdDJpZ3M2dk1xSHZGalJOWGdMRGhTa29UM1M2RlE?oc=5",
+      "publisherUrl": "https://itsmarta.com",
+      "publishedAt": "2016-11-01T23:12:51.000Z",
+      "updatedAt": "2016-11-01T23:12:51.000Z",
+      "imageUrl": null,
+      "contentHash": "da4253a6c8606e7044ec",
+      "retrievedContent": false,
+      "firstSeenAt": "2026-08-13T19:15:52.202Z",
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "fa2942b89fe0f5d2110b",
@@ -6251,7 +6273,7 @@
       "contentHash": "8bc74a38dff7e043bf04",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "16ab825d7a44ad01e05a",
@@ -6260,7 +6282,7 @@
       "sourceTier": "A",
       "sourceClass": "official_transit",
       "sourceCategory": "Atlanta News",
-      "discoveryLane": "food",
+      "discoveryLane": "events",
       "acquisition": "google_news_rss_metadata",
       "claimBoundary": "discovery_only_no_publisher_retrieval",
       "title": "MARTA",
@@ -6273,7 +6295,7 @@
       "contentHash": "c873a00fb745e7353bd7",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T19:06:18.638Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "62be4dd7013b8d19fa6b",
@@ -6295,7 +6317,7 @@
       "contentHash": "832e4dd4f7c2fab55f9b",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-13T19:10:49.663Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "4eb078e37a63f10b3838",
@@ -6304,7 +6326,7 @@
       "sourceTier": "A",
       "sourceClass": "official_transit",
       "sourceCategory": "Atlanta News",
-      "discoveryLane": "news",
+      "discoveryLane": "food",
       "acquisition": "google_news_rss_metadata",
       "claimBoundary": "discovery_only_no_publisher_retrieval",
       "title": "Careers at MARTA",
@@ -6317,7 +6339,7 @@
       "contentHash": "dda1d0f2d4d8b287d90a",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-13T19:06:18.638Z"
+      "lastSeenAt": "2026-08-13T19:15:52.202Z"
     },
     {
       "id": "036af93eebf14bbd815b",
@@ -6812,279 +6834,6 @@
       }
     },
     {
-      "id": "370647105aeb0bbb582c",
-      "itemIds": [
-        "4aab9a0bfbf50bd1650f",
-        "680d6466b80ec209dfcd",
-        "717f55a48595114b2ab9",
-        "dacf7f8c88e052302145",
-        "6622607198093afe76d9",
-        "7a879d3260def2433787",
-        "0dfaca8de0abc84dd00e",
-        "2e32e208894d2de38417",
-        "8530b83aa6dd17da4219",
-        "f53a4dc6016738958bb1",
-        "ad050a0944037d549227",
-        "ce06c034182e9116fd8a",
-        "c6bb7492954f16c4290c",
-        "b7ed16735c85279aad0c",
-        "ceb03ef53f079f88e5f5",
-        "d4f73dfaaa370761728a",
-        "e51a2cc9f609cfd43ba8",
-        "4150197b6e8885868fbf",
-        "f5b5bd9f867c5b0c163a",
-        "2b74815b167cbe8ed1f4",
-        "5c102622393b8cac4e22",
-        "6f78702d9ce1864d72d8",
-        "2192be241f277afd633b",
-        "25a08fe2b0b32312f46c",
-        "7959cd5c3bc4a2aeff64",
-        "ee953859bec731cc360b"
-      ],
-      "headline": "Atlanta Players Monthly Session",
-      "summary": "Join Scotty B. and friends for a fantastic musical adventure at the Atlanta Monthly Players Sessions (AMPS), held at the eyedrum art & music gallery every first Tuesday of the...",
-      "category": "Arts & Culture",
-      "eventType": "UPDATE",
-      "publishedAt": "2029-05-02T00:00:00.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2029-05-01/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2029-04-03/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2029-03-06/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2029-02-06/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2029-01-02/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-12-05/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-11-07/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-08-01/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-07-04/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-06-06/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-05-02/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-04-04/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-03-07/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-02-01/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-01-04/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-12-07/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-09-07/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-08-03/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-07-06/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-06-01/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-05-04/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-04-06/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-03-02/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-02-02/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2026-10-06/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "arts_atl",
-          "name": "ArtsATL",
-          "tier": "B",
-          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2026-09-01/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Atlanta Players Monthly Session",
-        "dek": "Join Scotty B. and friends for a fantastic musical adventure at the Atlanta Monthly Players Sessions (AMPS), held at the eyedrum art & music gallery every first Tuesday of the...",
-        "whatChanged": "ArtsATL published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Atlanta's cultural calendar reveals the people, institutions and neighborhood activity shaping the city.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 64.95,
-        "impact": 48,
-        "novelty": 92,
-        "timeliness": 100,
-        "shareability": 50,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 73
-      }
-    },
-    {
       "id": "6b249e7c034af59fd58e",
       "itemIds": [
         "501638a2651644e02b54"
@@ -7170,10 +6919,10 @@
         "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
       },
       "scores": {
-        "total": 63.9,
+        "total": 63.73,
         "impact": 56,
         "novelty": 35,
-        "timeliness": 89,
+        "timeliness": 88,
         "shareability": 42,
         "commercial": 38,
         "evidence": 84,
@@ -7181,7 +6930,7 @@
       }
     },
     {
-      "id": "92848773c2a21d9e2eb6",
+      "id": "f250272ba62e7e4d0710",
       "itemIds": [
         "14549e261b5613cdb7d2",
         "75852243a73751db486b",
@@ -7220,6 +6969,7 @@
         "8e413baaada7c8276471",
         "d479ab3763f1d4adc01d",
         "3319d4eabffdd0cdcde1",
+        "624c2df46e439c2d1048",
         "fa2942b89fe0f5d2110b",
         "ba0fa7589353b568ae01",
         "16ab825d7a44ad01e05a",
@@ -7527,6 +7277,14 @@
           "name": "MARTA",
           "tier": "A",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QYVZEa1J3WTdjUnQ4a29CZkRQQllXdTA1LW1rMDgwM1hISUJOX05xOEU0RkxROC1kQWM4cE1MSGotNGIwaWFsVndMZVUzb20xSUR1YmJ2SW9uZw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9IazNpcVpGVFgyQTUzTXBlZ0FwVHVwb19EbTlMdHJyZ2l3TTA3OXlRZktXaHFvdDJpZ3M2dk1xSHZGalJOWGdMRGhTa29UM1M2RlE?oc=5",
           "acquisition": "google_news_rss_metadata",
           "retrievedContent": false
         },
@@ -8612,54 +8370,6 @@
       }
     },
     {
-      "id": "d669b60e6f0c3dada39e",
-      "itemIds": [
-        "61fe326140df7fa20fe1"
-      ],
-      "headline": "Criminal Records celebrates 35 years with 3-stage, free block party Saturday",
-      "summary": "Criminal Records is celebrating 35 years with a three-stage, free block party Saturday Aug. 15. Buddy Red and Puddles Pity Party are just two of the musical highlights. Find out the rest. The post Criminal Records celebrates 35 years with 3-stage, free block party Saturday appeared first on Atlanta Magazine .",
-      "category": "Food, Retail & Hospitality",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-13T18:00:40.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "atlanta_magazine",
-          "name": "Atlanta Magazine",
-          "tier": "B",
-          "url": "https://www.atlantamagazine.com/article/criminal-records-celebrates-35-years-with-3-stage-free-block-party-saturday/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Criminal Records celebrates 35 years with 3-stage, free block party Saturday",
-        "dek": "Criminal Records is celebrating 35 years with a three-stage, free block party Saturday Aug. 15. Buddy Red and Puddles Pity Party are just two of the musical highlights. Find out the rest. The post Criminal Records celebrates 35 years with 3-stage, free block party Saturday appeared first on Atlanta Magazine .",
-        "whatChanged": "Atlanta Magazine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 58.74,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 100,
-        "shareability": 82,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 59
-      }
-    },
-    {
       "id": "9ce67f6906e4d261b22e",
       "itemIds": [
         "0a047533a306d0179911"
@@ -8753,6 +8463,54 @@
         "commercial": 38,
         "evidence": 35,
         "locality": 45
+      }
+    },
+    {
+      "id": "d669b60e6f0c3dada39e",
+      "itemIds": [
+        "61fe326140df7fa20fe1"
+      ],
+      "headline": "Criminal Records celebrates 35 years with 3-stage, free block party Saturday",
+      "summary": "Criminal Records is celebrating 35 years with a three-stage, free block party Saturday Aug. 15. Buddy Red and Puddles Pity Party are just two of the musical highlights. Find out the rest. The post Criminal Records celebrates 35 years with 3-stage, free block party Saturday appeared first on Atlanta Magazine .",
+      "category": "Food, Retail & Hospitality",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-13T18:00:40.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_magazine",
+          "name": "Atlanta Magazine",
+          "tier": "B",
+          "url": "https://www.atlantamagazine.com/article/criminal-records-celebrates-35-years-with-3-stage-free-block-party-saturday/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Criminal Records celebrates 35 years with 3-stage, free block party Saturday",
+        "dek": "Criminal Records is celebrating 35 years with a three-stage, free block party Saturday Aug. 15. Buddy Red and Puddles Pity Party are just two of the musical highlights. Find out the rest. The post Criminal Records celebrates 35 years with 3-stage, free block party Saturday appeared first on Atlanta Magazine .",
+        "whatChanged": "Atlanta Magazine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Openings and tenant moves show where consumer demand and neighborhood commercial activity are changing.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 58.57,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 99,
+        "shareability": 82,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 59
       }
     },
     {
@@ -9548,6 +9306,279 @@
         "commercial": 47,
         "evidence": 84,
         "locality": 59
+      }
+    },
+    {
+      "id": "370647105aeb0bbb582c",
+      "itemIds": [
+        "4aab9a0bfbf50bd1650f",
+        "680d6466b80ec209dfcd",
+        "717f55a48595114b2ab9",
+        "dacf7f8c88e052302145",
+        "6622607198093afe76d9",
+        "7a879d3260def2433787",
+        "0dfaca8de0abc84dd00e",
+        "2e32e208894d2de38417",
+        "8530b83aa6dd17da4219",
+        "f53a4dc6016738958bb1",
+        "ad050a0944037d549227",
+        "ce06c034182e9116fd8a",
+        "c6bb7492954f16c4290c",
+        "b7ed16735c85279aad0c",
+        "ceb03ef53f079f88e5f5",
+        "d4f73dfaaa370761728a",
+        "e51a2cc9f609cfd43ba8",
+        "4150197b6e8885868fbf",
+        "f5b5bd9f867c5b0c163a",
+        "2b74815b167cbe8ed1f4",
+        "5c102622393b8cac4e22",
+        "6f78702d9ce1864d72d8",
+        "2192be241f277afd633b",
+        "25a08fe2b0b32312f46c",
+        "7959cd5c3bc4a2aeff64",
+        "ee953859bec731cc360b"
+      ],
+      "headline": "Atlanta Players Monthly Session",
+      "summary": "Join Scotty B. and friends for a fantastic musical adventure at the Atlanta Monthly Players Sessions (AMPS), held at the eyedrum art & music gallery every first Tuesday of the...",
+      "category": "Arts & Culture",
+      "eventType": "UPDATE",
+      "publishedAt": "2029-05-02T00:00:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2029-05-01/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2029-04-03/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2029-03-06/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2029-02-06/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2029-01-02/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-12-05/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-11-07/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-08-01/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-07-04/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-06-06/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-05-02/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-04-04/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-03-07/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-02-01/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2028-01-04/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-12-07/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-09-07/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-08-03/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-07-06/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-06-01/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-05-04/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-04-06/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-03-02/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2027-02-02/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2026-10-06/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "arts_atl",
+          "name": "ArtsATL",
+          "tier": "B",
+          "url": "https://www.artsatl.org/event/atlanta-players-monthly-session/2026-09-01/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Atlanta Players Monthly Session",
+        "dek": "Join Scotty B. and friends for a fantastic musical adventure at the Atlanta Monthly Players Sessions (AMPS), held at the eyedrum art & music gallery every first Tuesday of the...",
+        "whatChanged": "ArtsATL published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Atlanta's cultural calendar reveals the people, institutions and neighborhood activity shaping the city.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 56.4,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 100,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 73
       }
     },
     {
@@ -12476,54 +12507,6 @@
       }
     },
     {
-      "id": "830e492bf43da090c6ed",
-      "itemIds": [
-        "0156caa329cabd5ee87e"
-      ],
-      "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
-      "summary": "",
-      "category": "Housing & Neighborhoods",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-11T20:24:00.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "atlanta_business_chronicle",
-          "name": "Atlanta Business Chronicle",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYktGZTRObVJRTThCQmJMaEJYdVV3NUNGTTdaTlZJdlJ3RF8wTUJvMjlSZmdJMG5PSWlIRnRGclFhZWQ3NFVFVEIyMEdUMWNFV3M5Ry1taHRrWmZaOVBvaWd2WE1VVVRmbVloeUFMUmdlTWV2TWI1M3dWQVRackZESl9zNmI0R0hfbEwyZnZ1NkV1bUxUYXM4VTN3WFFZc2dNRGM4RWU0ejlFUQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
-        "dek": "",
-        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 51.35,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 81,
-        "shareability": 50,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 59
-      }
-    },
-    {
       "id": "7feac477181078981ed6",
       "itemIds": [
         "051f733b7088a435cd5a"
@@ -12812,6 +12795,54 @@
       }
     },
     {
+      "id": "830e492bf43da090c6ed",
+      "itemIds": [
+        "0156caa329cabd5ee87e"
+      ],
+      "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
+      "summary": "",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-11T20:24:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_business_chronicle",
+          "name": "Atlanta Business Chronicle",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYktGZTRObVJRTThCQmJMaEJYdVV3NUNGTTdaTlZJdlJ3RF8wTUJvMjlSZmdJMG5PSWlIRnRGclFhZWQ3NFVFVEIyMEdUMWNFV3M5Ry1taHRrWmZaOVBvaWd2WE1VVVRmbVloeUFMUmdlTWV2TWI1M3dWQVRackZESl9zNmI0R0hfbEwyZnZ1NkV1bUxUYXM4VTN3WFFZc2dNRGM4RWU0ejlFUQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
+        "dek": "",
+        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 51.18,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 80,
+        "shareability": 50,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 59
+      }
+    },
+    {
       "id": "7e2ff89f01e2ac9b5230",
       "itemIds": [
         "be5008a1a347b4d2d381"
@@ -12964,7 +12995,7 @@
       "summary": "",
       "category": "Atlanta News",
       "eventType": "UPDATE",
-      "publishedAt": "2026-08-13T09:24:18.000Z",
+      "publishedAt": "2026-08-13T09:02:08.000Z",
       "sourceTier": "B",
       "sources": [
         {
@@ -16104,7 +16135,7 @@
     }
   ],
   "morningBrief": {
-    "generatedAt": "2026-08-13T19:10:49.663Z",
+    "generatedAt": "2026-08-13T19:15:52.202Z",
     "label": "Morning Brief",
     "itemIds": [
       "9ebf8eea37a70240cedf",
@@ -16115,7 +16146,7 @@
     ]
   },
   "afternoonUpdate": {
-    "generatedAt": "2026-08-13T19:10:49.663Z",
+    "generatedAt": "2026-08-13T19:15:52.202Z",
     "label": "Afternoon Update",
     "itemIds": [
       "b1e6ef982e9fb2e4cd69",
@@ -16208,15 +16239,6 @@
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "370647105aeb0bbb582c",
-      "headline": "Atlanta Players Monthly Session",
-      "category": "Arts & Culture",
-      "score": 64.95,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 26,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "6b249e7c034af59fd58e",
       "headline": "New park taking shape on 14th Street in Midtown",
       "category": "Atlanta News",
@@ -16229,18 +16251,18 @@
       "clusterId": "b0815316231307d83473",
       "headline": "Expanding Opportunity: Atlanta Beltline Announces Mortgage Assistance Program",
       "category": "Development & Infrastructure",
-      "score": 63.9,
+      "score": 63.73,
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "92848773c2a21d9e2eb6",
+      "clusterId": "f250272ba62e7e4d0710",
       "headline": "Officers search near MARTA station after activity at Fulton jail",
       "category": "Public Safety",
       "score": 63.23,
       "evidenceLabel": "Unverified discovery",
-      "sourceCount": 43,
+      "sourceCount": 44,
       "status": "NEEDS_CORROBORATION"
     },
     {
@@ -16424,15 +16446,6 @@
       "status": "NEEDS_CORROBORATION"
     },
     {
-      "clusterId": "d669b60e6f0c3dada39e",
-      "headline": "Criminal Records celebrates 35 years with 3-stage, free block party Saturday",
-      "category": "Food, Retail & Hospitality",
-      "score": 58.74,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "9ce67f6906e4d261b22e",
       "headline": "Approved Atlanta Budget Supports Neighborhood Reinvestment Initiative",
       "category": "Housing & Neighborhoods",
@@ -16446,6 +16459,15 @@
       "headline": "Reporter’s Notebook: Fox Theatre’s new lounge, Shea Couleé at Pride, Furkids Swing Fore Strays",
       "category": "City Hall & Policy",
       "score": 58.66,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "d669b60e6f0c3dada39e",
+      "headline": "Criminal Records celebrates 35 years with 3-stage, free block party Saturday",
+      "category": "Food, Retail & Hospitality",
+      "score": 58.57,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -16593,6 +16615,15 @@
       "evidenceLabel": "Primary-source report",
       "sourceCount": 1,
       "status": "READY_TO_REVIEW"
+    },
+    {
+      "clusterId": "370647105aeb0bbb582c",
+      "headline": "Atlanta Players Monthly Session",
+      "category": "Arts & Culture",
+      "score": 56.4,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 26,
+      "status": "NEEDS_CORROBORATION"
     },
     {
       "clusterId": "10c5634516e1947ee7ea",
@@ -17135,15 +17166,6 @@
       "status": "NEEDS_CORROBORATION"
     },
     {
-      "clusterId": "830e492bf43da090c6ed",
-      "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
-      "category": "Housing & Neighborhoods",
-      "score": 51.35,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "7feac477181078981ed6",
       "headline": "Maxwell projections: Grayson favored over North Gwinnett on opening day",
       "category": "Business Moves",
@@ -17193,6 +17215,15 @@
       "headline": "Smith-Shawver could return to Braves ‘in the near future’",
       "category": "Atlanta Sports",
       "score": 51.21,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "830e492bf43da090c6ed",
+      "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
+      "category": "Housing & Neighborhoods",
+      "score": 51.18,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
