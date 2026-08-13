@@ -40,8 +40,6 @@ jobs:
           done
         env:
           STRICT_NEWSROOM: "1"
-          SOCIAL_PUBLIC_SITE_URL: ${{ vars.SOCIAL_PUBLIC_SITE_URL }}
-          SOCIAL_ASSET_BASE_URL: ${{ vars.SOCIAL_ASSET_BASE_URL }}
       - run: npm run build:github
         env:
           NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
@@ -51,10 +49,10 @@ jobs:
           NEXT_PUBLIC_ANALYTICS_ENDPOINT: ${{ vars.NEXT_PUBLIC_ANALYTICS_ENDPOINT }}
       - name: Preserve the newsroom ledger
         run: |
-          if ! git diff --quiet -- data/newsroom.json data/social-desk.json data/social-dispatch.json; then
+          if ! git diff --quiet -- data/newsroom.json; then
             git config user.name "atlsignal-newsroom[bot]"
             git config user.email "atlsignal-newsroom[bot]@users.noreply.github.com"
-            git add data/newsroom.json data/social-desk.json data/social-dispatch.json
+            git add data/newsroom.json
             git commit -m "Refresh ATLSignal publishing ledgers [skip ci]"
             git push
           fi

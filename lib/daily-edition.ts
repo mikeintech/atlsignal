@@ -74,7 +74,7 @@ function stableNumber(value: string) {
   return [...value].reduce((total, character) => (total * 31 + character.charCodeAt(0)) >>> 0, 7);
 }
 
-function editorialImage(category: string, key: string): StoryImageData {
+export function editorialImage(category: string, key: string): StoryImageData {
   const options = photoIds[category] ?? photoIds["Development & Infrastructure"];
   const id = options[stableNumber(key) % options.length];
   const src = `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1600&q=82`;
@@ -113,7 +113,7 @@ function discoveryPost(cluster: NewsroomCluster): DailyPost {
   const source = cluster.sources[0]?.name ?? "Local source";
   return {
     id: cluster.id,
-    href: cluster.sources[0]?.url ?? "/latest",
+    href: `/brief/${cluster.id}`,
     headline: clean(cluster.headline),
     dek: `${source} reported this Atlanta update. Open the original report for its full context while ATLSignal checks for primary records or additional confirmation.`,
     category: cluster.category,
@@ -122,7 +122,6 @@ function discoveryPost(cluster: NewsroomCluster): DailyPost {
     sourceDate: displaySourceDate(cluster.publishedAt),
     image: editorialImage(cluster.category, cluster.id),
     cluster,
-    external: true,
   };
 }
 
@@ -140,7 +139,7 @@ function manualPost(story: Story): DailyPost {
   };
 }
 
-const excludedHeadlines = /\b(tiktok|dive bars?|hidden gems?|appointed|appointment|retirement|reaccreditation|leadership institute class|design class)\b/i;
+const excludedHeadlines = /\b(tiktok|dive bars?|hidden gems?|appointed|appointment|retirement|reaccreditation|leadership institute class|design class|accused|alleged|arrested|charged?|criminal|fugitive|indicted|investigation|lawsuit|shooting|stabbing|suspect)\b/i;
 const verifiedClusters = newsroomData.clusters.filter((cluster) => cluster.publishable && cluster.sourceTier === "A" && !excludedHeadlines.test(cluster.headline));
 const freshClusters = verifiedClusters.filter((cluster) => treatmentFor(cluster.publishedAt) !== "From the archive");
 const freshDiscoveryClusters = newsroomData.clusters.filter((cluster) =>

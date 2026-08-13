@@ -2,6 +2,7 @@ import type { PublicationItem } from "@/components/publication";
 import newsroomData from "@/data/newsroom.json";
 import { leadStory, projects, stories } from "@/lib/atlanta-data";
 import { dailyPosts, sourceNotePosts } from "@/lib/daily-edition";
+import { attributedBriefs } from "@/lib/attributed-briefs";
 
 export type DeskSlug = "news" | "business" | "development" | "city-life" | "radar";
 
@@ -59,19 +60,23 @@ const manualItems: PublicationItem[] = [leadStory, ...stories].map((story) => ({
   image: story.image,
 }));
 
-const newsroomItems: PublicationItem[] = [...dailyPosts, ...sourceNotePosts].map((post) => ({
-  id: post.id,
-  href: post.href,
-  headline: post.headline,
-  summary: post.dek,
-  category: post.category,
-  desk: deskForCategory(post.category),
-  treatment: post.external ? `Reported by ${post.cluster?.sources[0]?.name ?? "local media"}` : post.href.startsWith("/file/") ? "ATLSignal source note" : "ATLSignal report",
-  evidenceLabel: post.evidenceLabel,
-  publishedAt: post.cluster?.publishedAt,
-  image: post.image,
-  external: post.external,
-}));
+const newsroomItems: PublicationItem[] = [...dailyPosts, ...sourceNotePosts].map((post) => {
+  const attributedBrief = attributedBriefs.find((brief) => brief.id === post.id);
+  return {
+    id: post.id,
+    href: post.href,
+    headline: post.headline,
+    summary: attributedBrief?.description ?? post.dek,
+    category: post.category,
+    desk: deskForCategory(post.category),
+    treatment: attributedBrief ? `Reported by ${attributedBrief.source.name}` : post.href.startsWith("/file/") ? "ATLSignal source note" : "ATLSignal report",
+    evidenceLabel: post.evidenceLabel,
+    publishedAt: post.cluster?.publishedAt,
+    image: post.image,
+    external: post.external,
+    indexable: attributedBrief?.indexable,
+  };
+});
 
 function cleanSummary(value: string) {
   return value
@@ -84,18 +89,14 @@ function cleanSummary(value: string) {
     .trim();
 }
 
-function excerpt(value: string, limit = 260) {
-  const cleaned = cleanSummary(value);
-  if (cleaned.length <= limit) return cleaned;
-  return `${cleaned.slice(0, limit).replace(/\s+\S*$/, "").trim()}…`;
-}
-
 const discoveryCutoff = new Date(newsroomData.generatedAt).valueOf() - 7 * 86_400_000;
+const allegationHeadline = /\b(accused|alleged|arrested|charged?|criminal|fugitive|indicted|investigation|lawsuit|shooting|stabbing|suspect)\b/i;
 const discoveryUses = new Map<string, number>();
 const discoveryItems: PublicationItem[] = [...newsroomData.clusters]
   .filter((cluster) => !cluster.publishable
     && cluster.sources[0]?.url
     && cluster.scores.locality >= 70
+    && !allegationHeadline.test(cluster.headline)
     && new Date(cluster.publishedAt).valueOf() >= discoveryCutoff
     && new Date(cluster.publishedAt).valueOf() <= new Date(newsroomData.generatedAt).valueOf() + 12 * 3_600_000)
   .sort((left, right) => right.scores.total - left.scores.total)
@@ -104,17 +105,19 @@ const discoveryItems: PublicationItem[] = [...newsroomData.clusters]
     if (uses >= 12) return [];
     discoveryUses.set(cluster.category, uses + 1);
     const source = cluster.sources[0];
+    const brief = attributedBriefs.find((candidate) => candidate.id === cluster.id);
     return [{
       id: cluster.id,
-      href: source.url,
+      href: `/brief/${cluster.id}`,
       headline: cleanSummary(cluster.headline),
-      summary: excerpt(cluster.summary) || `${source.name} published an Atlanta update that remains in ATLSignal’s attributed discovery file.`,
+      summary: brief?.description ?? `${source.name} published an Atlanta update that remains in ATLSignal’s attributed discovery file.`,
       category: cluster.category,
       desk: deskForCategory(cluster.category),
       treatment: `Reported by ${source.name}`,
       evidenceLabel: "Attributed discovery",
       publishedAt: cluster.publishedAt,
-      external: true,
+      image: brief?.image,
+      indexable: brief?.indexable,
     } satisfies PublicationItem];
   });
 

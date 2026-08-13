@@ -1,4 +1,9 @@
-# ATLSignal Instagram + Threads publishing
+# ATLSignal Instagram + Threads publishing (paused)
+
+Social generation and dispatch were removed from the active newsroom workflow
+on August 13, 2026 so ATLSignal can focus on its owned publication, search,
+newsletter and direct-reader growth. The files documented below are retained as
+an implementation archive and are not produced or scheduled by the live build.
 
 ATLSignal builds a rolling seven-day queue of 21 reviewed story packages and
 126 finished 1080×1350 PNG cards. The initial publishing surface is deliberately

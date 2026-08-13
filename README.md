@@ -36,16 +36,18 @@ Run one newsroom cycle locally:
 npm run newsroom
 ```
 
-The same cycle also produces a rolling seven-day social publishing desk in
-`data/social-desk.json`. It packages three original, source-linked stories per
-day for Instagram and Threads. See
-[`docs/social-publishing.md`](docs/social-publishing.md) for the media-rights
-rules and optional webhook dispatch connection.
+The active cycle is now owned-media only. Qualified primary-source items become
+ATLSignal reports or source notes; reputable attributed discoveries receive a
+hosted ATLSignal brief with a direct source trail. Stronger briefs can enter the
+XML and news sitemaps, while weaker discovery pages are explicitly `noindex`.
+The former social packaging files remain in the repository as an archive, but
+the newsroom build no longer generates or dispatches social content.
 
-Source access rules and request caps live in
-`config/newsroom-sources.json`. Public article pages are never generated from a
-metadata-only discovery item. Those items remain in the corroboration queue
-until primary evidence is available.
+Source access rules and request caps live in `config/newsroom-sources.json`.
+Metadata-only discoveries may receive an attributed monitoring page for reader
+continuity, but those pages are `noindex` and never presented as confirmed
+reporting. They remain in the corroboration queue until stronger evidence is
+available.
 
 The static export is written to `.next-github`.
 

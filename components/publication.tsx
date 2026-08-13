@@ -36,6 +36,7 @@ export type PublicationItem = {
   publishedAt?: string;
   image?: StoryImageData;
   external?: boolean;
+  indexable?: boolean;
 };
 
 const primaryNav = [
@@ -98,6 +99,7 @@ export function PublicationFooter() {
         <div><strong>ATLSignal</strong><p>Atlanta news and useful local intelligence built from reporting, records and visible source trails.</p></div>
         <nav aria-label="Publication information">
           <Link href="/about">About</Link>
+          <Link href="/topics">Topics</Link>
           <Link href="/methodology">Methodology</Link>
           <Link href="/masthead">Masthead</Link>
           <Link href="/corrections">Corrections</Link>

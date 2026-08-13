@@ -9,9 +9,9 @@ export const dynamic = "force-static";
 export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [...new Set([
     "/", "/latest", "/news", "/business", "/development", "/city-life", "/radar", "/things-to-do", "/food", "/sports", "/housing", "/money",
-    "/economy", "/policy", "/transit", "/opportunities", "/projects", "/search", "/about", "/guides", "/upgrade",
+    "/economy", "/policy", "/transit", "/opportunities", "/projects", "/search", "/about", "/guides", "/topics", "/upgrade",
     "/masthead", "/methodology", "/corrections", "/privacy", "/terms", "/disclosures",
-    ...editorialContent.filter((item) => !item.external).map((item) => item.href),
+    ...editorialContent.filter((item) => !item.external && item.indexable !== false).map((item) => item.href),
     ...publicGuides.map((guide) => `/guides/${guide.slug}`),
     ...projects.map((project) => `/project/${project.slug}`),
   ])];
