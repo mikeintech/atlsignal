@@ -37,9 +37,10 @@ The GitHub Pages workflow runs at 11:15, 15:15, 19:15 and 23:15 UTC and on every
 
 ## Failure behavior
 
-Invest Atlanta, BeltLine, ARC, and Atlanta Housing are critical. Under `STRICT_NEWSROOM=1`, a
-failed or empty critical source stops deployment and makes the failed workflow
-the operational alert. The previous deployed edition remains available.
+Invest Atlanta, BeltLine, ARC, and Atlanta Housing are critical. Under `STRICT_NEWSROOM=1`, the
+workflow retries a failed sweep up to three times with a short backoff. A failed
+or empty critical source after all three attempts stops deployment and makes the
+failed workflow the operational alert. The previous deployed edition remains available.
 
 The coverage search is non-critical because it is a discovery aid. A failed
 search is recorded as `DISCOVERY_DEGRADED` for every affected desk, while the

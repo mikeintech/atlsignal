@@ -27,7 +27,17 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Run the ATLSignal newsroom
-        run: npm run newsroom
+        run: |
+          for attempt in 1 2 3; do
+            if npm run newsroom; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              exit 1
+            fi
+            echo "Newsroom sweep attempt $attempt failed; retrying after a short backoff."
+            sleep $((attempt * 15))
+          done
         env:
           STRICT_NEWSROOM: "1"
           SOCIAL_PUBLIC_SITE_URL: ${{ vars.SOCIAL_PUBLIC_SITE_URL }}
