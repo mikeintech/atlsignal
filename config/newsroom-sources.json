@@ -69,6 +69,91 @@
       "maxItems": 20,
       "maxRequests": 1,
       "critical": true
+    },
+    {
+      "sourceId": "rough_draft_atlanta",
+      "name": "Rough Draft Atlanta",
+      "tier": "B",
+      "category": "Atlanta News",
+      "sourceClass": "local_reporting",
+      "collector": "rss",
+      "endpoint": "https://roughdraftatlanta.com/feed/",
+      "sourceUrl": "https://roughdraftatlanta.com/",
+      "accessState": "PUBLIC_RSS",
+      "maxItems": 25,
+      "maxRequests": 1,
+      "critical": false
+    },
+    {
+      "sourceId": "saporta_report",
+      "name": "SaportaReport",
+      "tier": "B",
+      "category": "City Hall & Policy",
+      "sourceClass": "civic_reporting",
+      "collector": "rss",
+      "endpoint": "https://saportareport.com/feed/",
+      "sourceUrl": "https://saportareport.com/",
+      "accessState": "PUBLIC_RSS",
+      "maxItems": 25,
+      "maxRequests": 1,
+      "critical": false
+    },
+    {
+      "sourceId": "arts_atl",
+      "name": "ArtsATL",
+      "tier": "B",
+      "category": "Arts & Culture",
+      "sourceClass": "arts_and_culture_reporting",
+      "collector": "rss",
+      "endpoint": "https://www.artsatl.org/feed/",
+      "sourceUrl": "https://www.artsatl.org/",
+      "accessState": "PUBLIC_RSS",
+      "maxItems": 25,
+      "maxRequests": 1,
+      "critical": false
+    },
+    {
+      "sourceId": "atlanta_magazine",
+      "name": "Atlanta Magazine",
+      "tier": "B",
+      "category": "Food, Retail & Hospitality",
+      "sourceClass": "local_magazine",
+      "collector": "rss",
+      "endpoint": "https://www.atlantamagazine.com/feed/",
+      "sourceUrl": "https://www.atlantamagazine.com/",
+      "accessState": "PUBLIC_RSS",
+      "maxItems": 25,
+      "maxRequests": 1,
+      "critical": false
+    },
+    {
+      "sourceId": "atlanta_civic_circle",
+      "name": "Atlanta Civic Circle",
+      "tier": "B",
+      "category": "City Hall & Policy",
+      "sourceClass": "civic_reporting",
+      "collector": "rss",
+      "endpoint": "https://atlantaciviccircle.org/feed/",
+      "sourceUrl": "https://atlantaciviccircle.org/",
+      "accessState": "PUBLIC_RSS",
+      "maxItems": 25,
+      "maxRequests": 1,
+      "critical": false
+    },
+    {
+      "sourceId": "fox_5_atlanta",
+      "name": "FOX 5 Atlanta",
+      "tier": "B",
+      "category": "Atlanta News",
+      "sourceClass": "local_broadcast_reporting",
+      "collector": "rss",
+      "endpoint": "https://www.fox5atlanta.com/rss/category/news",
+      "sourceUrl": "https://www.fox5atlanta.com/",
+      "accessState": "PUBLIC_RSS",
+      "localOnly": true,
+      "maxItems": 30,
+      "maxRequests": 1,
+      "critical": false
     }
   ],
   "discoverySources": [
@@ -86,14 +171,31 @@
     { "sourceId": "atl_airport", "name": "Hartsfield-Jackson Atlanta International Airport", "domain": "atl.com", "tier": "A", "sourceClass": "official_airport", "accessState": "SEARCH_DISCOVERY_ONLY" },
     { "sourceId": "georgia_economic_development", "name": "Georgia Department of Economic Development", "domain": "georgia.org", "tier": "A", "sourceClass": "official_economic_development", "accessState": "SEARCH_DISCOVERY_ONLY" },
     { "sourceId": "metro_atlanta_chamber", "name": "Metro Atlanta Chamber", "domain": "metroatlantachamber.com", "tier": "C", "sourceClass": "business_ecosystem", "accessState": "SEARCH_DISCOVERY_ONLY" },
-    { "sourceId": "discover_atlanta", "name": "Discover Atlanta", "domain": "discoveratlanta.com", "tier": "C", "sourceClass": "tourism_and_hospitality_ecosystem", "accessState": "SEARCH_DISCOVERY_ONLY" }
+    { "sourceId": "discover_atlanta", "name": "Discover Atlanta", "domain": "discoveratlanta.com", "tier": "C", "sourceClass": "tourism_and_hospitality_ecosystem", "accessState": "SEARCH_DISCOVERY_ONLY" },
+    { "sourceId": "fox_5_atlanta", "name": "FOX 5 Atlanta", "domain": "fox5atlanta.com", "tier": "B", "sourceClass": "local_broadcast_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "wsb_tv", "name": "WSB-TV", "domain": "wsbtv.com", "tier": "B", "sourceClass": "local_broadcast_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "11alive", "name": "11Alive", "domain": "11alive.com", "tier": "B", "sourceClass": "local_broadcast_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "gpb", "name": "Georgia Public Broadcasting", "domain": "gpb.org", "tier": "B", "sourceClass": "public_media", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "atlanta_magazine", "name": "Atlanta Magazine", "domain": "atlantamagazine.com", "tier": "B", "sourceClass": "local_magazine", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "arts_atl", "name": "ArtsATL", "domain": "artsatl.org", "tier": "B", "sourceClass": "arts_and_culture_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "atlanta_voice", "name": "The Atlanta Voice", "domain": "theatlantavoice.com", "tier": "B", "sourceClass": "local_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "atlanta_civic_circle", "name": "Atlanta Civic Circle", "domain": "atlantaciviccircle.org", "tier": "B", "sourceClass": "civic_reporting", "accessState": "DISCOVERY_ONLY" },
+    { "sourceId": "atlanta_fi", "name": "AtlantaFi", "domain": "atlantafi.com", "tier": "C", "sourceClass": "local_lifestyle_reporting", "accessState": "DISCOVERY_ONLY" }
   ],
   "discoveryProvider": {
     "name": "Google News RSS Search",
     "endpoint": "https://news.google.com/rss/search",
     "attributionUrl": "https://news.google.com/",
     "timespan": "2d",
-    "maxRecords": 75,
+    "maxRecords": 25,
+    "requestDelayMs": 500,
+    "sourceBatchSize": 3,
+    "lanes": [
+      { "id": "news", "query": "(Atlanta OR Fulton OR DeKalb OR Cobb OR Gwinnett)" },
+      { "id": "events", "query": "(Atlanta OR Fulton OR DeKalb OR Cobb OR Gwinnett) (events OR weekend OR festival OR concert OR exhibition OR theater OR nightlife OR free)" },
+      { "id": "food", "query": "(Atlanta OR Fulton OR DeKalb OR Cobb OR Gwinnett) (restaurant OR food OR dining OR bar OR cafe OR opening OR closes OR brewery)" },
+      { "id": "city_life", "query": "(Atlanta OR Fulton OR DeKalb OR Cobb OR Gwinnett) (sports OR Braves OR Falcons OR Hawks OR Dream OR United OR MARTA OR traffic OR weather OR arts OR culture)" }
+    ],
     "critical": false
   }
 }

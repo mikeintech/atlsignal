@@ -15,6 +15,7 @@ export type DailyPost = {
   sourceDate: string;
   image: StoryImageData;
   cluster?: NewsroomCluster;
+  external?: boolean;
 };
 
 const fullReportByClusterId: Record<string, string> = {
@@ -108,6 +109,23 @@ function clusterPost(cluster: NewsroomCluster): DailyPost {
   };
 }
 
+function discoveryPost(cluster: NewsroomCluster): DailyPost {
+  const source = cluster.sources[0]?.name ?? "Local source";
+  return {
+    id: cluster.id,
+    href: cluster.sources[0]?.url ?? "/latest",
+    headline: clean(cluster.headline),
+    dek: `${source} reported this Atlanta update. Open the original report for its full context while ATLSignal checks for primary records or additional confirmation.`,
+    category: cluster.category,
+    treatment: treatmentFor(cluster.publishedAt),
+    evidenceLabel: `Reported by ${source}`,
+    sourceDate: displaySourceDate(cluster.publishedAt),
+    image: editorialImage(cluster.category, cluster.id),
+    cluster,
+    external: true,
+  };
+}
+
 function manualPost(story: Story): DailyPost {
   return {
     id: story.slug,
@@ -125,6 +143,37 @@ function manualPost(story: Story): DailyPost {
 const excludedHeadlines = /\b(tiktok|dive bars?|hidden gems?|appointed|appointment|retirement|reaccreditation|leadership institute class|design class)\b/i;
 const verifiedClusters = newsroomData.clusters.filter((cluster) => cluster.publishable && cluster.sourceTier === "A" && !excludedHeadlines.test(cluster.headline));
 const freshClusters = verifiedClusters.filter((cluster) => treatmentFor(cluster.publishedAt) !== "From the archive");
+const freshDiscoveryClusters = newsroomData.clusters.filter((cluster) =>
+  !cluster.publishable
+  && Boolean(cluster.sources[0]?.url)
+  && treatmentFor(cluster.publishedAt) === "New today"
+  && !excludedHeadlines.test(cluster.headline),
+);
+
+function diverseDiscoveryPosts(clusters: typeof freshDiscoveryClusters) {
+  const sourceUses = new Map<string, number>();
+  const categoryUses = new Map<string, number>();
+  const categoryBoost: Record<string, number> = {
+    "Events & Things To Do": 18,
+    "Food, Retail & Hospitality": 14,
+    "Arts & Culture": 8,
+    "Atlanta Sports": 5,
+    "Transportation & Airport": 4,
+    "Business Moves": 4,
+    "Atlanta News": -2,
+  };
+  const ranked = [...clusters].sort((left, right) =>
+    (right.scores.total + (categoryBoost[right.category] || 0))
+    - (left.scores.total + (categoryBoost[left.category] || 0)),
+  );
+  return ranked.flatMap((cluster) => {
+    const source = cluster.sources[0]?.name ?? "Local source";
+    if ((sourceUses.get(source) || 0) >= 4 || (categoryUses.get(cluster.category) || 0) >= 5) return [];
+    sourceUses.set(source, (sourceUses.get(source) || 0) + 1);
+    categoryUses.set(cluster.category, (categoryUses.get(cluster.category) || 0) + 1);
+    return [discoveryPost(cluster)];
+  });
+}
 const archiveClusters = verifiedClusters
   .filter((cluster) => treatmentFor(cluster.publishedAt) === "From the archive")
   .sort((left, right) => stableNumber(`${editionDayKey}-${left.id}`) - stableNumber(`${editionDayKey}-${right.id}`));
@@ -135,7 +184,13 @@ const clusterCandidates = [...freshClusters, ...archiveClusters]
   .map(clusterPost)
   .filter((post) => !manualHrefs.has(post.href));
 
-export const dailyPosts: DailyPost[] = [...todaysManualStories.map(manualPost), ...clusterCandidates].slice(0, 20);
+export const dailyPosts: DailyPost[] = [
+  ...todaysManualStories.map(manualPost),
+  ...clusterCandidates.filter((post) => post.treatment === "New today"),
+  ...diverseDiscoveryPosts(freshDiscoveryClusters),
+  ...clusterCandidates.filter((post) => post.treatment === "Developing"),
+  ...clusterCandidates.filter((post) => post.treatment === "From the archive"),
+].slice(0, 20);
 export const sourceNotePosts = verifiedClusters.map(clusterPost).filter((post) => post.href.startsWith("/file/"));
 
 export function getSourceNote(id: string) {

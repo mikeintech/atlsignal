@@ -23,27 +23,37 @@ export const metadata: Metadata = {
 };
 
 function LeadPost({ post }: { post: DailyPost }) {
+  const title = post.external
+    ? <a href={post.href} target="_blank" rel="noreferrer">{post.headline}</a>
+    : <Link href={post.href}>{post.headline}</Link>;
   return (
     <article className="daily-lead-card">
       <EditorialImage image={post.image} compact />
       <div className="daily-post-meta"><CategoryLabel>{post.treatment} · {post.category}</CategoryLabel><span>{post.evidenceLabel}</span></div>
-      <h2><Link href={post.href}>{post.headline}</Link></h2>
+      <h2>{title}</h2>
       <p>{post.dek}</p>
-      <Link className="daily-post-link" href={post.href}>Read report <ArrowUpRight size={14} aria-hidden="true" /></Link>
+      {post.external
+        ? <a className="daily-post-link" href={post.href} target="_blank" rel="noreferrer">Read original report <ArrowUpRight size={14} aria-hidden="true" /></a>
+        : <Link className="daily-post-link" href={post.href}>Read report <ArrowUpRight size={14} aria-hidden="true" /></Link>}
     </article>
   );
 }
 
 function DailyRow({ post, index }: { post: DailyPost; index: number }) {
+  const title = post.external
+    ? <a href={post.href} target="_blank" rel="noreferrer">{post.headline}</a>
+    : <Link href={post.href}>{post.headline}</Link>;
   return (
     <article className="daily-feed-row">
       <span className="daily-feed-row__number">{String(index).padStart(2, "0")}</span>
       <div>
         <div className="daily-post-meta"><CategoryLabel>{post.treatment} · {post.category}</CategoryLabel><span>Source dated {post.sourceDate}</span></div>
-        <h2><Link href={post.href}>{post.headline}</Link></h2>
+        <h2>{title}</h2>
         <p>{post.dek}</p>
       </div>
-      <Link className="daily-feed-row__arrow" href={post.href} aria-label={`Read ${post.headline}`}><ArrowUpRight size={18} /></Link>
+      {post.external
+        ? <a className="daily-feed-row__arrow" href={post.href} target="_blank" rel="noreferrer" aria-label={`Read ${post.headline} at its original source`}><ArrowUpRight size={18} /></a>
+        : <Link className="daily-feed-row__arrow" href={post.href} aria-label={`Read ${post.headline}`}><ArrowUpRight size={18} /></Link>}
     </article>
   );
 }

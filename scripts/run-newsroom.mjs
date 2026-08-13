@@ -29,8 +29,13 @@ const STOP_WORDS = new Set(
 );
 
 const CATEGORY_RULES = [
+  ["Events & Things To Do", /\b(events?|weekend|festival|concert|live show|performance|theater|nightlife|free admission)\b/i],
+  ["Arts & Culture", /\b(arts?|culture|museum|exhibition|gallery|film|music|dance|book|author)\b/i],
+  ["Atlanta Sports", /\b(sports?|football|falcons|braves|hawks|dream|atlanta united|game|match|season)\b/i],
+  ["Public Safety", /\b(public safety|police|fire|shooting|crash|arrest|missing|jail|crime)\b/i],
+  ["Weather & City Life", /\b(weather|heat|storm|traffic|closure|commute)\b/i],
   ["Transportation & Airport", /\b(transit|marta|airport|aviation|road|bridge|trail|mobility|bus|rail|transportation)\b/i],
-  ["Food, Retail & Hospitality", /\b(restaurant|retail|hotel|food|store|cafe|hospitality|tenant|boutique|pop-up|merchant|market)\b/i],
+  ["Food, Retail & Hospitality", /\b(restaurant|steakhouse|chef|dining|sushi|cuisine|menu|retail|hotel|food|store|cafe|bar|brewery|hospitality|tenant|boutique|pop-up|merchant|market)\b/i],
   ["Housing & Neighborhoods", /\b(housing|homes?|apartments?|residential|neighborhood|affordable|units?)\b/i],
   ["Public Money", /\b(budget|grant|funding|financing|bond|tax|million|billion|contract|procurement)\b/i],
   ["Development & Infrastructure", /\b(construction|development|project|build|renovation|infrastructure|groundbreaking)\b/i],
@@ -40,6 +45,7 @@ const CATEGORY_RULES = [
 ];
 
 const EVENT_RULES = [
+  ["EVENT", /\b(events?|festival|concert|show|theater|game|match|exhibition)\b/i],
   ["OPENING", /\b(opens?|opening|ribbon cutting|launches?)\b/i],
   ["CONSTRUCTION", /\b(construction|groundbreaking|breaks ground|buildout|build-out)\b/i],
   ["APPROVAL", /\b(approves?|approved|adopts?|green light)\b/i],
@@ -182,6 +188,7 @@ function makeItem(source, values) {
     sourceTier: source.tier,
     sourceClass: source.sourceClass || "first_party",
     sourceCategory: source.category || "Atlanta News",
+    discoveryLane: values.discoveryLane || null,
     acquisition: values.acquisition || source.collector,
     claimBoundary: values.claimBoundary || "publisher_attribution_only",
     title: cleanText(values.title),
@@ -292,7 +299,7 @@ async function collectRss(source) {
     } catch {
       // Keep the publisher-provided link when it cannot be normalized.
     }
-    return [makeItem(source, {
+    const item = makeItem(source, {
       title,
       summary: cleanText(xmlValue(block, "description") || xmlValue(block, "content:encoded")),
       url: canonicalUrl,
@@ -300,7 +307,9 @@ async function collectRss(source) {
       updatedAt: xmlValue(block, "pubDate"),
       acquisition: "official_rss",
       retrievedContent: true,
-    })];
+    });
+    if (source.localOnly && !isLocallyRelevant({ title: item.title, sourceUrl: item.publisherUrl }, source)) return [];
+    return [item];
   });
 }
 
@@ -318,8 +327,8 @@ function isLocallyRelevant(article, source) {
 }
 
 function isNewsworthyDiscovery(title) {
-  if (/\b(archives?|obituaries?|sports?|football|falcons|braves|hawks|training camp|recipe|things to do|dive bars?|hidden gems?)\b/i.test(title)) return false;
-  return /\b(business|company|development|construction|housing|apartment|real estate|restaurant|retail|store|opening|opens|lease|office|jobs?|employment|economy|transit|marta|airport|infrastructure|budget|council|policy|zoning|permit|contract|funding|investment|bank|healthcare|hospital|hotel|data center|warehouse|tower|property|foreclosure|university|school|neighborhood)\b/i.test(title);
+  if (/\b(archives?|obituaries?|lottery numbers?|horoscope)\b/i.test(title)) return false;
+  return /\b(business|company|development|construction|housing|apartment|real estate|restaurant|retail|store|opening|opens|lease|office|jobs?|employment|economy|transit|marta|airport|infrastructure|budget|council|policy|zoning|permit|contract|funding|investment|bank|healthcare|hospital|hotel|data center|warehouse|tower|property|foreclosure|university|school|neighborhood|events?|weekend|festival|concert|show|theater|museum|arts?|culture|music|nightlife|free|sports?|football|falcons|braves|hawks|dream|united|game|traffic|weather|restaurant|dining|food|bar|cafe|brewery|public safety|police|fire|election)\b/i.test(title);
 }
 
 function stripOutletSuffix(title, sourceName) {
@@ -333,14 +342,25 @@ function stripOutletSuffix(title, sourceName) {
 
 async function collectDiscoveryMetadata() {
   const provider = config.discoveryProvider;
-  const domainQuery = config.discoverySources.map((source) => `site:${source.domain}`).join(" OR ");
-  const endpoint = new URL(provider.endpoint);
-  endpoint.searchParams.set("q", `(Atlanta OR Fulton OR DeKalb OR Cobb OR Gwinnett) when:${provider.timespan} (${domainQuery})`);
-  endpoint.searchParams.set("hl", "en-US");
-  endpoint.searchParams.set("gl", "US");
-  endpoint.searchParams.set("ceid", "US:en");
-  const response = await fetchText(endpoint, "application/rss+xml,application/xml,text/xml,*/*", { retry429: true });
-  return xmlBlocks(response.text, "item").slice(0, provider.maxRecords).flatMap((block) => {
+  const lanes = provider.lanes?.length ? provider.lanes : [{ id: "news", query: "(Atlanta OR Fulton OR DeKalb OR Cobb OR Gwinnett)" }];
+  const batchSize = provider.sourceBatchSize || config.discoverySources.length;
+  const sourceBatches = Array.from({ length: Math.ceil(config.discoverySources.length / batchSize) }, (_, index) =>
+    config.discoverySources.slice(index * batchSize, (index + 1) * batchSize),
+  );
+  const discovered = [];
+  let requestIndex = 0;
+  for (const lane of lanes) {
+    for (const sourceBatch of sourceBatches) {
+      if (requestIndex) await sleep(provider.requestDelayMs || 0);
+      requestIndex += 1;
+      const domainQuery = sourceBatch.map((source) => `site:${source.domain}`).join(" OR ");
+      const endpoint = new URL(provider.endpoint);
+      endpoint.searchParams.set("q", `${lane.query} when:${provider.timespan} (${domainQuery})`);
+      endpoint.searchParams.set("hl", "en-US");
+      endpoint.searchParams.set("gl", "US");
+      endpoint.searchParams.set("ceid", "US:en");
+      const response = await fetchText(endpoint, "application/rss+xml,application/xml,text/xml,*/*", { retry429: true });
+      discovered.push(...xmlBlocks(response.text, "item").slice(0, provider.maxRecords).flatMap((block) => {
     const sourceMatch = block.match(/<source[^>]+url=["']([^"']+)["'][^>]*>([\s\S]*?)<\/source>/i);
     const article = {
       title: xmlValue(block, "title"),
@@ -366,12 +386,16 @@ async function collectDiscoveryMetadata() {
         publishedAt: article.seendate,
         updatedAt: article.seendate,
         acquisition: "google_news_rss_metadata",
+        discoveryLane: lane.id,
         claimBoundary: "discovery_only_no_publisher_retrieval",
         publisherUrl: article.sourceUrl,
         retrievedContent: false,
       }),
     ];
-  });
+      }));
+    }
+  }
+  return [...new Map(discovered.map((item) => [item.id, item])).values()];
 }
 
 function tokens(value) {
@@ -433,6 +457,11 @@ function whyItMatters(category) {
     "Workforce & Economy": "Jobs and investment decisions provide an early reading on Atlanta's economic direction.",
     "City Hall & Policy": "Public decisions can change costs, access, development rights and services across the city.",
     "Business Moves": "Company openings, leases and expansions show where business confidence and local demand are forming.",
+    "Events & Things To Do": "A reliable city calendar helps Atlantans decide where to spend their time and money now.",
+    "Arts & Culture": "Atlanta's cultural calendar reveals the people, institutions and neighborhood activity shaping the city.",
+    "Atlanta Sports": "Games and team developments affect travel, gatherings and the shared rhythm of the region.",
+    "Weather & City Life": "Timely practical information helps Atlantans navigate the city safely and efficiently.",
+    "Public Safety": "Verified public-safety developments can affect neighborhoods, travel and immediate community awareness.",
   };
   return reasons[category] || "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.";
 }
@@ -450,7 +479,7 @@ function clusterItems(items) {
     const primaryItems = group.filter((item) => item.sourceTier === "A" && item.retrievedContent);
     const uniqueContentSources = new Set(group.filter((item) => item.retrievedContent).map((item) => item.sourceId));
     const lead = primaryItems[0] || group[0];
-    const category = categoryFor(`${lead.title} ${lead.summary}`, lead.sourceCategory || "Atlanta News");
+    const category = categoryFor(lead.title, lead.sourceCategory || "Atlanta News");
     const status = primaryItems.length && uniqueContentSources.size >= 2 ? "CORROBORATED" : primaryItems.length ? "ATTRIBUTED_PRIMARY" : "NEEDS_PRIMARY_EVIDENCE";
     const cluster = {
       id: hash(group.map((item) => item.id).sort().join("|")),
@@ -458,7 +487,7 @@ function clusterItems(items) {
       headline: lead.title,
       summary: lead.summary,
       category,
-      eventType: eventFor(`${lead.title} ${lead.summary}`),
+      eventType: eventFor(lead.title),
       publishedAt: group.map((item) => item.publishedAt).sort().at(-1),
       sourceTier: lead.sourceTier,
       sources: group.map((item) => ({
@@ -525,9 +554,12 @@ const retentionCutoff = now.valueOf() - 365 * 86_400_000;
 const itemsById = new Map();
 for (const item of previous.items || []) {
   const retainedTitle = stripOutletSuffix(item.title, item.sourceName);
+  const configuredSource = config.activeSources.find((source) => source.sourceId === item.sourceId);
   const retainedDiscovery = item.acquisition !== "google_news_rss_metadata"
     || (isNewsworthyDiscovery(retainedTitle) && isLocallyRelevant({ title: retainedTitle, sourceUrl: item.publisherUrl }, { sourceId: item.sourceId }));
-  if (retainedDiscovery && new Date(item.lastSeenAt || item.publishedAt).valueOf() >= retentionCutoff) itemsById.set(item.id, { ...item, title: retainedTitle });
+  const retainedLocal = !configuredSource?.localOnly
+    || isLocallyRelevant({ title: retainedTitle, sourceUrl: item.publisherUrl }, configuredSource);
+  if (retainedDiscovery && retainedLocal && new Date(item.lastSeenAt || item.publishedAt).valueOf() >= retentionCutoff) itemsById.set(item.id, { ...item, title: retainedTitle });
 }
 for (const item of collected) itemsById.set(item.id, item);
 const items = [...itemsById.values()].sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
