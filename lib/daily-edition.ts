@@ -202,6 +202,10 @@ function addUnique(target: DailyPost[], candidates: DailyPost[], limit: number) 
 
 const manualPosts = todaysManualStories.map(manualPost);
 const verifiedNew = clusterCandidates.filter((post) => post.treatment === "New today");
+const automaticNew = freshDiscoveryClusters
+  .filter(isAutomaticArticleEligible)
+  .map(discoveryPost)
+  .sort((left, right) => new Date(right.cluster!.publishedAt).valueOf() - new Date(left.cluster!.publishedAt).valueOf());
 const attributedNew = diverseDiscoveryPosts(freshDiscoveryClusters);
 const developingPosts = clusterCandidates.filter((post) => post.treatment === "Developing");
 const archivePosts = clusterCandidates.filter((post) => post.treatment === "From the archive");
@@ -210,6 +214,7 @@ const selectedDailyPosts: DailyPost[] = [];
 // Keep the five lead positions evidence-forward, then guarantee a useful daily
 // mix instead of allowing a large breaking-news sweep to crowd out context.
 addUnique(selectedDailyPosts, [...manualPosts, ...verifiedNew], 5);
+addUnique(selectedDailyPosts, automaticNew, 12);
 addUnique(selectedDailyPosts, attributedNew, 14);
 addUnique(selectedDailyPosts, developingPosts, 17);
 addUnique(selectedDailyPosts, archivePosts, 20);
