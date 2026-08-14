@@ -1,6 +1,6 @@
 {
   "schemaVersion": "atlsignal_newsroom_v1",
-  "generatedAt": "2026-08-14T19:38:19.588Z",
+  "generatedAt": "2026-08-14T19:43:07.167Z",
   "market": "atlanta",
   "timezone": "America/New_York",
   "editionWindow": "AFTERNOON",
@@ -14,7 +14,7 @@
     "intendedCadence": "four_daily",
     "status": "HEALTHY",
     "criticalFailures": [],
-    "previousRunAt": "2026-08-14T19:32:24.925Z"
+    "previousRunAt": "2026-08-14T19:38:19.588Z"
   },
   "stats": {
     "activeSources": 10,
@@ -31,7 +31,7 @@
       "status": "OK",
       "itemCount": 25,
       "critical": true,
-      "durationMs": 443
+      "durationMs": 419
     },
     {
       "sourceId": "atlanta_beltline",
@@ -39,7 +39,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 36212
+      "durationMs": 34810
     },
     {
       "sourceId": "atlanta_regional_commission",
@@ -47,7 +47,7 @@
       "status": "OK",
       "itemCount": 12,
       "critical": true,
-      "durationMs": 31629
+      "durationMs": 32616
     },
     {
       "sourceId": "atlanta_housing",
@@ -55,7 +55,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": true,
-      "durationMs": 2455
+      "durationMs": 875
     },
     {
       "sourceId": "rough_draft_atlanta",
@@ -63,7 +63,7 @@
       "status": "OK",
       "itemCount": 5,
       "critical": false,
-      "durationMs": 52
+      "durationMs": 57
     },
     {
       "sourceId": "saporta_report",
@@ -71,7 +71,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": false,
-      "durationMs": 124
+      "durationMs": 106
     },
     {
       "sourceId": "arts_atl",
@@ -79,7 +79,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": false,
-      "durationMs": 297
+      "durationMs": 185
     },
     {
       "sourceId": "atlanta_magazine",
@@ -87,7 +87,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": false,
-      "durationMs": 628
+      "durationMs": 755
     },
     {
       "sourceId": "atlanta_civic_circle",
@@ -95,7 +95,7 @@
       "status": "OK",
       "itemCount": 10,
       "critical": false,
-      "durationMs": 201
+      "durationMs": 189
     },
     {
       "sourceId": "fox_5_atlanta",
@@ -103,7 +103,7 @@
       "status": "OK",
       "itemCount": 9,
       "critical": false,
-      "durationMs": 148
+      "durationMs": 206
     },
     {
       "sourceId": "ajc",
@@ -112,7 +112,7 @@
       "itemCount": 9,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "atlanta_business_chronicle",
@@ -121,7 +121,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "SUBSCRIPTION_CONSTRAINED",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "urbanize_atlanta",
@@ -130,7 +130,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "rough_draft_atlanta",
@@ -139,7 +139,7 @@
       "itemCount": 9,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "axios_atlanta",
@@ -148,7 +148,7 @@
       "itemCount": 3,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "eater_atlanta",
@@ -157,7 +157,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "saporta_report",
@@ -166,7 +166,7 @@
       "itemCount": 4,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "what_now_atlanta",
@@ -175,7 +175,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "bisnow_atlanta",
@@ -184,7 +184,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "city_of_atlanta",
@@ -193,7 +193,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "marta",
@@ -202,7 +202,7 @@
       "itemCount": 28,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "atl_airport",
@@ -211,7 +211,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "georgia_economic_development",
@@ -220,7 +220,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "metro_atlanta_chamber",
@@ -229,7 +229,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "discover_atlanta",
@@ -238,7 +238,7 @@
       "itemCount": 2,
       "critical": false,
       "accessState": "SEARCH_DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "fox_5_atlanta",
@@ -247,16 +247,16 @@
       "itemCount": 2,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "wsb_tv",
       "name": "WSB-TV",
       "status": "DISCOVERY_OK",
-      "itemCount": 6,
+      "itemCount": 7,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "11alive",
@@ -265,7 +265,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "gpb",
@@ -274,7 +274,7 @@
       "itemCount": 4,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "atlanta_magazine",
@@ -283,7 +283,7 @@
       "itemCount": 2,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "arts_atl",
@@ -292,7 +292,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "atlanta_voice",
@@ -301,7 +301,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "atlanta_civic_circle",
@@ -310,7 +310,7 @@
       "itemCount": 0,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     },
     {
       "sourceId": "atlanta_fi",
@@ -319,7 +319,7 @@
       "itemCount": 1,
       "critical": false,
       "accessState": "DISCOVERY_ONLY",
-      "durationMs": 26978
+      "durationMs": 26562
     }
   ],
   "items": [
@@ -365,7 +365,7 @@
       "contentHash": "844646def40484b47d88",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "717f55a48595114b2ab9",
@@ -387,7 +387,7 @@
       "contentHash": "ec495d581045e9d23a19",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "dacf7f8c88e052302145",
@@ -409,7 +409,7 @@
       "contentHash": "0ab2322e1fbea80824be",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "6622607198093afe76d9",
@@ -563,7 +563,7 @@
       "contentHash": "6690698a84fd98801c2b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "ce06c034182e9116fd8a",
@@ -585,7 +585,7 @@
       "contentHash": "195fee6b846c432608f7",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "c6bb7492954f16c4290c",
@@ -607,7 +607,7 @@
       "contentHash": "1b04fb09f6b60ce55567",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "b7ed16735c85279aad0c",
@@ -739,7 +739,7 @@
       "contentHash": "a41debfe5c68e796c5ba",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "2b74815b167cbe8ed1f4",
@@ -761,7 +761,7 @@
       "contentHash": "3a9f62a577e236fe1a16",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "5c102622393b8cac4e22",
@@ -783,7 +783,7 @@
       "contentHash": "bbef9dc3e6ba683888f1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "6f78702d9ce1864d72d8",
@@ -805,7 +805,7 @@
       "contentHash": "139e3a6f35b81903079d",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "2192be241f277afd633b",
@@ -915,7 +915,7 @@
       "contentHash": "3e43217888a1a83caa4b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "edda4afcd4a5ae8502f1",
@@ -937,7 +937,7 @@
       "contentHash": "d1763ed0ea7e88adc195",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "836b8ff2507831dc4625",
@@ -959,7 +959,7 @@
       "contentHash": "ec8c3f86901c2b8fed6c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "63efd419b783a3366ecd",
@@ -981,7 +981,7 @@
       "contentHash": "f432ee9c118edd5832a4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "5e9e35f6d3904021206e",
@@ -1003,7 +1003,7 @@
       "contentHash": "5be7afeed27237cce1ca",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "696338b75a1907900f8f",
@@ -1025,7 +1025,7 @@
       "contentHash": "448cf7f8887012f0276f",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "72afb4be28fc6eb25a9f",
@@ -1047,7 +1047,7 @@
       "contentHash": "599d1e88274d7768d46e",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "a64afbb6b5fbe5052a9d",
@@ -1069,7 +1069,7 @@
       "contentHash": "1be6e7e18f158ae53d8a",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "60a19f13359a28dc8c00",
@@ -1091,7 +1091,7 @@
       "contentHash": "bacac58f974c0acc690d",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "2de9a4262fe4b6cc1fd8",
@@ -1113,7 +1113,7 @@
       "contentHash": "11501a6a5e546cbb4b3b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "6f2640c5825aba69c81d",
@@ -1135,7 +1135,7 @@
       "contentHash": "fab4a20335357f2121c9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "cdd2f7160a377a7ffcc6",
@@ -1157,7 +1157,7 @@
       "contentHash": "97104abe6e0a4f645237",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "dd340b17f689c57ef2b3",
@@ -1179,7 +1179,7 @@
       "contentHash": "d959ee10c2ce1bfe40b8",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "bd98913434685e47c7eb",
@@ -1201,7 +1201,7 @@
       "contentHash": "2b7b91f7e6d97d94fc49",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "ce4e180be2ca9c5a2568",
@@ -1245,7 +1245,7 @@
       "contentHash": "ead1f0d6ff94c0375b30",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "8b01be90d3ef6acc83d0",
@@ -1267,7 +1267,7 @@
       "contentHash": "0dd85a11bffa8235b7e9",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "452e8708368b777809ae",
@@ -1289,7 +1289,7 @@
       "contentHash": "b8b450606274c830c8f2",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "b76cad71fc7c799affa9",
@@ -1311,7 +1311,7 @@
       "contentHash": "bb2152784e47ee460100",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "d61c1337dad73f55b978",
@@ -1333,7 +1333,7 @@
       "contentHash": "5622c2703f043e0f3c89",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "8916ca2775d4c5654d87",
@@ -1377,7 +1377,7 @@
       "contentHash": "cb18bb1c519c4edf46b3",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "c0cdc9f3280558cc8b11",
@@ -1399,7 +1399,7 @@
       "contentHash": "7e32560997bc43aa71db",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "165972eb24bc699f7669",
@@ -1421,7 +1421,7 @@
       "contentHash": "0bc0c23c32417511bef4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "9ad8df998332280ddb28",
@@ -1465,7 +1465,7 @@
       "contentHash": "2b1679f8bcc5e32671d9",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "7d8ffbb4e6bf70b9bfa8",
@@ -1531,7 +1531,7 @@
       "contentHash": "8399bf9e1cfba0d0f754",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "a3f0efb7ecd1279825f3",
@@ -1641,7 +1641,7 @@
       "contentHash": "d1305c65c483076bccd0",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "120204bbc1978b9f8a07",
@@ -1663,7 +1663,7 @@
       "contentHash": "4c1335bb783bc482f643",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "db2ec05f90115a96012d",
@@ -1773,7 +1773,7 @@
       "contentHash": "4a48110918984c8be3d8",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T20:50:13.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "da174b542fe5569f0cf0",
@@ -1839,7 +1839,7 @@
       "contentHash": "230a4fe0dcb064eef92e",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "bd3b466baad0bec1dfc9",
@@ -1861,7 +1861,7 @@
       "contentHash": "efc59dd32125c89c654a",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "320620c10f05bbccd8a7",
@@ -1883,7 +1883,7 @@
       "contentHash": "afd7787dceca1428bf17",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T23:55:08.591Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "45412dbbbbabfca09135",
@@ -1905,7 +1905,7 @@
       "contentHash": "0cde6c119c538ddb960f",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T23:55:08.591Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "82d9c6abc9a67f2df2aa",
@@ -2015,7 +2015,7 @@
       "contentHash": "c2ad659098b461d94115",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T23:55:08.591Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "7386030ea5618ef00379",
@@ -2037,7 +2037,7 @@
       "contentHash": "fe6400301a62b4d8503c",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "b1e3b9d5cee0eb1c210a",
@@ -2081,7 +2081,7 @@
       "contentHash": "0dd1072d4a86b6252173",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "ac7df79cc4dadd5b4af8",
@@ -2125,7 +2125,7 @@
       "contentHash": "bc54763599aaf63189a7",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "a011d4b7f525ca91375b",
@@ -2169,7 +2169,7 @@
       "contentHash": "3cc40d15458f8acdb374",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T19:59:38.203Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "15e5b4f90d255d95d1bb",
@@ -2191,7 +2191,7 @@
       "contentHash": "8790fe345ccf12df3994",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T19:59:38.203Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "3f7ffd206ef6215ec580",
@@ -2235,7 +2235,7 @@
       "contentHash": "b083fe49c433c19dad1d",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T19:59:38.203Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "df6d940a8e45143a61ac",
@@ -2257,7 +2257,7 @@
       "contentHash": "9dfd17fc6c5d5aae82bc",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T19:59:38.203Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "fc73ceeacd66721bba84",
@@ -2301,7 +2301,7 @@
       "contentHash": "b354b1cf4e069705fa0a",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "7ea0983a00fabf880d13",
@@ -2323,7 +2323,7 @@
       "contentHash": "8f8bf5bcf8d0676b3568",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T20:50:13.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "b52a37e9c2a45fcc9fb2",
@@ -2367,7 +2367,7 @@
       "contentHash": "22db41480bb885011db9",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T19:06:18.638Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "568f9654461bf406618b",
@@ -2389,7 +2389,7 @@
       "contentHash": "5fa17bd37abb12c1b5e4",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T20:50:13.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "61fe326140df7fa20fe1",
@@ -2411,7 +2411,7 @@
       "contentHash": "14c5fab5b8c74c980808",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "6f2db8bbbe06d343250d",
@@ -2433,7 +2433,7 @@
       "contentHash": "b01a3de4ad0341082da5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "f57f42ac567eea278ff5",
@@ -2455,7 +2455,7 @@
       "contentHash": "1cbc0b469d650685141b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "61be690a0d59b3de2c53",
@@ -2499,7 +2499,7 @@
       "contentHash": "d874749bdfae7b55c0af",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "0cfc66f3b7320f0d5e4a",
@@ -2565,7 +2565,7 @@
       "contentHash": "a10d5094a8752dea9043",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "29ab5e9480b439deee38",
@@ -2631,7 +2631,7 @@
       "contentHash": "d9ccb9c93c2cb8251062",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "9d5a3af3048973ffdbe6",
@@ -2653,7 +2653,7 @@
       "contentHash": "1f9aca502c6e3966f771",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "ae5e020f7ab33a94c184",
@@ -2741,7 +2741,7 @@
       "contentHash": "e6dc7d2f3c752e4ca685",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "bbfa9d6394765fa73adb",
@@ -2763,7 +2763,7 @@
       "contentHash": "5000c642eb9a8cc42033",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "4077db96622247acbe46",
@@ -2829,7 +2829,7 @@
       "contentHash": "da135384bc4b65c35406",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "501638a2651644e02b54",
@@ -2873,7 +2873,7 @@
       "contentHash": "ff5d2187ae112de57cba",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "02aaefd36d73829db7a2",
@@ -2895,7 +2895,7 @@
       "contentHash": "6bc34d99cc1169db6736",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "bf9d84ca0c84d6f84dbe",
@@ -2917,7 +2917,7 @@
       "contentHash": "b5f296c055f1c758c8bf",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "aaed92834f752aab5688",
@@ -2939,7 +2939,7 @@
       "contentHash": "9c5ea2c4601ddc81e822",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "5f6ad7f87bc79cdc672f",
@@ -3005,7 +3005,7 @@
       "contentHash": "f4c1af05c5b94b1de0ec",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T20:50:13.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "64253b02ba1a08ef13cc",
@@ -3027,7 +3027,7 @@
       "contentHash": "a44d5c9b0afcec5f38a6",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "f8a443f11229b6ebc462",
@@ -3049,7 +3049,7 @@
       "contentHash": "166478c0a6768fabbc9d",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "1440464b84e12330bd82",
@@ -3093,7 +3093,7 @@
       "contentHash": "9780914186733c60e57f",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "98818453601f5a2a9a0f",
@@ -3159,7 +3159,7 @@
       "contentHash": "a2d7ddb42aba65fd8213",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:36:34.526Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "8d33c8f1a962415be3d4",
@@ -3181,7 +3181,7 @@
       "contentHash": "20f90fceff30fb96dea9",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "778380b73a7b56b9a91e",
@@ -3203,7 +3203,7 @@
       "contentHash": "7673e05830399a673083",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "a1d439d7bb133d5d45b8",
@@ -3269,7 +3269,7 @@
       "contentHash": "00ff20ff5668abe85688",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "e0a94514b0283258fa0e",
@@ -3401,7 +3401,7 @@
       "contentHash": "ad074872ba989693787f",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "33d6f09cbc4e801f31a1",
@@ -3423,7 +3423,7 @@
       "contentHash": "53952560cd447688a14c",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "8b4d920bd1b314a4fb83",
@@ -3467,7 +3467,7 @@
       "contentHash": "eb29e64e0960d9e9af8f",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "c83891901f2c996f88d4",
@@ -3621,7 +3621,7 @@
       "contentHash": "50d16bfd5ed0f91825a8",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "dc9552b8cdfe357c741a",
@@ -3686,7 +3686,7 @@
       "contentHash": "1b6a4365279326b6f3b0",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T16:55:33.258Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "67d165b4c3ce1fef4237",
@@ -3708,7 +3708,7 @@
       "contentHash": "24fffd8190873ef65d05",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "59b419f6d738244011b4",
@@ -3730,7 +3730,7 @@
       "contentHash": "b761589357ec73839de8",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "0684888d693b18bf2c01",
@@ -3796,7 +3796,7 @@
       "contentHash": "eb4ed77199b4f53cb8db",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "b96b1a5bfc36e257a8e3",
@@ -3818,7 +3818,7 @@
       "contentHash": "3fa390e3d5d7c8559e30",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "0d1cfeb641ef5da06634",
@@ -3840,7 +3840,7 @@
       "contentHash": "b34a6d31e1d123b80788",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "7da413913c1ad4c27fe7",
@@ -3862,7 +3862,7 @@
       "contentHash": "20993b020bac7f3f31d9",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "c2ca6eebd4127ff28e30",
@@ -3884,7 +3884,7 @@
       "contentHash": "d0741c47110e3cddc11d",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "2ab8ceda039a274d4e16",
@@ -3994,7 +3994,7 @@
       "contentHash": "2a6382f54997094ebfd2",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:31:00.485Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "1388e77074185519f244",
@@ -4038,7 +4038,7 @@
       "contentHash": "144d91d96464865cd171",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:31:00.485Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "716edfec1e7327226701",
@@ -4082,7 +4082,7 @@
       "contentHash": "7583fe36ad80f3c78b48",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "bf5172a06429120a5014",
@@ -4236,7 +4236,7 @@
       "contentHash": "e45958ab89ffeefcc4a5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:36:34.526Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "00a0d98e9a2d893ff873",
@@ -4258,7 +4258,7 @@
       "contentHash": "793a2fc69370585e0dab",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "cbf186220633e1c2a4d0",
@@ -4302,7 +4302,7 @@
       "contentHash": "1069a3dbd9c6a7e41ebe",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "082a0dc976e9c90a75f5",
@@ -4544,7 +4544,7 @@
       "contentHash": "997ca97cf0a3453b9602",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "60256ee723a92a7e3796",
@@ -4698,7 +4698,7 @@
       "contentHash": "0fdd4f2478198b30d212",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "3369d29921615fcec799",
@@ -5026,7 +5026,7 @@
       "contentHash": "387a730b87de9045970c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "c7d18236381a4e2579b9",
@@ -5202,7 +5202,7 @@
       "contentHash": "a1616d8fe124cf2d48d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "f5332964efdb536984ca",
@@ -5224,7 +5224,7 @@
       "contentHash": "37769ed41d958cef83de",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "9807276a0bd43435677a",
@@ -5484,7 +5484,7 @@
       "contentHash": "d2476f4b803d29e627f5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "6302a76fda702723bf3d",
@@ -5506,7 +5506,7 @@
       "contentHash": "d63698e97eb327ba7899",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "7f724a4bc74ffd08cf8f",
@@ -5528,7 +5528,7 @@
       "contentHash": "7938e58176113e223144",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "f3667c376a276743f471",
@@ -5550,7 +5550,7 @@
       "contentHash": "40367f4f92e7f7d4dd12",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "c83e8c7f3cd2a9ee4b85",
@@ -5572,7 +5572,7 @@
       "contentHash": "486f1a0293fad8e728f4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "ecc2fa4ebd27b7d56cf3",
@@ -5594,7 +5594,7 @@
       "contentHash": "7581307e5ff277d9816a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "cdc076c25899466440a9",
@@ -5616,7 +5616,7 @@
       "contentHash": "127f2011ac5db530a327",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "66ac653a0aebee200399",
@@ -5638,7 +5638,7 @@
       "contentHash": "f4b060cbd844a5b9d01c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "8b36b68a8314f667de0f",
@@ -5660,7 +5660,7 @@
       "contentHash": "c0ebabe25748e54339d4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "199c578a330596813fd1",
@@ -5682,7 +5682,7 @@
       "contentHash": "52c68119c9e8e318a06b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "8b8dce22ee6f64a71130",
@@ -5704,7 +5704,7 @@
       "contentHash": "e5c254b61f6c0e5cc7e4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "d482b816c951307ba84f",
@@ -5726,7 +5726,7 @@
       "contentHash": "685b5fc66b55fa8e87ad",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "5ea0a7b1a9af60e8aedf",
@@ -5748,7 +5748,7 @@
       "contentHash": "34a7183a8845f3f3841d",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "4ba5f7d0740775a9f678",
@@ -5770,7 +5770,7 @@
       "contentHash": "c5fffcc4ef234cf6e268",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "afecf06030c6eaad3e80",
@@ -5814,7 +5814,7 @@
       "contentHash": "9c56aeecb0b7210008b1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "5672137da20b1129ac75",
@@ -5836,7 +5836,7 @@
       "contentHash": "aa22aa20deec30bf6136",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "54fb4329f1367f3dc5f5",
@@ -5901,7 +5901,7 @@
       "contentHash": "fdc3923f85ec5d8d91d7",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "dea1d6e330f0bdfac53a",
@@ -5923,7 +5923,7 @@
       "contentHash": "0b22d42af62c560132fc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "b294645a06cc344d85d5",
@@ -5945,7 +5945,7 @@
       "contentHash": "9b5e864afaf5ac6f8c1b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "afc54ba0d1d2698486c6",
@@ -5967,7 +5967,7 @@
       "contentHash": "7e6963e4a0ff4a3b631d",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "fafbf71d20fa86245788",
@@ -5989,7 +5989,7 @@
       "contentHash": "7a7f6d02dc8f179b0fd4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "ba9265c20fd878504008",
@@ -6011,7 +6011,7 @@
       "contentHash": "fc90a84fc0bb3bee8a53",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "0a047533a306d0179911",
@@ -6033,7 +6033,7 @@
       "contentHash": "5c42d69cc129bed4c7d1",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "f804cf82ce8125b052da",
@@ -6055,7 +6055,7 @@
       "contentHash": "f982be10e633bad3f322",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "a18f4dfab1fb389dd98c",
@@ -6077,7 +6077,7 @@
       "contentHash": "d81a04af4ba15b3b04d9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "102c6e5539d6d3edde4d",
@@ -6099,7 +6099,7 @@
       "contentHash": "7d67423adf6696ad6c42",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "07aeceaf05fa51ea8672",
@@ -6121,7 +6121,7 @@
       "contentHash": "3a3e3957e6e81d19ab9a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "f56d3d266f38e4244bf3",
@@ -6143,7 +6143,7 @@
       "contentHash": "2a2f3210b7cc736ea4a0",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "29d64adc94b8748e72c2",
@@ -6165,7 +6165,7 @@
       "contentHash": "e708b07b519d66ce8d72",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "f87e8c3e3d83b8b59984",
@@ -6187,7 +6187,7 @@
       "contentHash": "28a1e2f3cb18aa1e107b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "8863330ec2fa19eb71ae",
@@ -6209,7 +6209,7 @@
       "contentHash": "db93bdc4bc5aaf0ccd5c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "d8cacce85da99dbd3e7e",
@@ -6231,7 +6231,7 @@
       "contentHash": "0ff645ebd61eeb829b1a",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "a5a71add8c681fffee59",
@@ -6253,7 +6253,7 @@
       "contentHash": "2b39aea20a72e02c69ec",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "7825711d260553b18004",
@@ -6275,7 +6275,7 @@
       "contentHash": "d371dcb6be377b9b9de8",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "06f938b3d9b0a2643fdb",
@@ -6297,7 +6297,7 @@
       "contentHash": "c2909df68dab0c151f94",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "dab92479995df566c2f8",
@@ -6319,7 +6319,7 @@
       "contentHash": "e39b64727407c39f9231",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "2ce3adbe7c62b1bcd018",
@@ -6341,7 +6341,7 @@
       "contentHash": "fe230a9bdd245c759d47",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "658ea2e030b56e24f77c",
@@ -6363,7 +6363,7 @@
       "contentHash": "7c8e44d435936cf37dcb",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "b081e2dd2e827e7651e1",
@@ -6385,7 +6385,7 @@
       "contentHash": "9ab9d32f60aa1f57fd83",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "b54664727a2af2156e4e",
@@ -6407,7 +6407,7 @@
       "contentHash": "5eb28e5b3152013a1bd8",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-13T16:58:32.230Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "618def64fc3ead0be378",
@@ -6429,7 +6429,7 @@
       "contentHash": "a7cca7690cc8c874c5e6",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "65f19212cb2fb077bd1e",
@@ -6451,7 +6451,7 @@
       "contentHash": "28d558fa4ddb751b2e7e",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "a41129acc6aae239795a",
@@ -6537,7 +6537,7 @@
       "contentHash": "25ebe29c7ad11c6d9ea8",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "a5c3297725989a8fc81a",
@@ -6559,7 +6559,7 @@
       "contentHash": "3b82269349260f505519",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "d94d5d3088c062d79bbd",
@@ -6581,7 +6581,7 @@
       "contentHash": "bd26c6e3704df92fa15b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "9119378c0267426bba86",
@@ -6603,7 +6603,7 @@
       "contentHash": "e6ec8fd751d416a829e5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "c14c6ce425707816ee27",
@@ -6625,7 +6625,7 @@
       "contentHash": "753c2b2d7a2cf60cff0c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "d8d456147cf65ce90154",
@@ -6647,7 +6647,7 @@
       "contentHash": "6f90d94dcda960118cf9",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "80884347dc223843f1b2",
@@ -6669,7 +6669,7 @@
       "contentHash": "4606c7f2c7688b1268fc",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "b1a8f32ddcfd05d9f6d6",
@@ -6691,7 +6691,7 @@
       "contentHash": "7f4f106c59a11897992c",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "e22cde1049658713eed6",
@@ -6713,7 +6713,7 @@
       "contentHash": "23e01cc6552b83bc5789",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "6a68d77f51d8b4bfa450",
@@ -6735,7 +6735,7 @@
       "contentHash": "b459ae159a0531d3250f",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "eb5e18b57c469a7586cd",
@@ -6757,7 +6757,7 @@
       "contentHash": "d8c10af54b4fd95250e4",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "5dab9d0fca8ea2a1f535",
@@ -6779,7 +6779,7 @@
       "contentHash": "53a47b4014311fc1d06f",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "34140fe236621430b968",
@@ -6801,7 +6801,7 @@
       "contentHash": "7d42325d4ff1a6d25c75",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "191fee8617d675cc3b80",
@@ -6823,7 +6823,7 @@
       "contentHash": "991d52453e6272739059",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "75852243a73751db486b",
@@ -6867,7 +6867,7 @@
       "contentHash": "3be7d8caff2b9eb4d7df",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "3511aca05e35cf11e607",
@@ -6889,7 +6889,7 @@
       "contentHash": "48cf11ed1dde9a89a1b5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "ba5e7a55294f5ac5e26c",
@@ -6911,7 +6911,7 @@
       "contentHash": "f1da7638b983f468fc0b",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "a664fbda53d6fd30779e",
@@ -6933,7 +6933,7 @@
       "contentHash": "4ea8c99432961b5eddb7",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "291b2447387a073c77bc",
@@ -6955,7 +6955,7 @@
       "contentHash": "ca0421a798e023660dc5",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "372bf20b8b4981c711c7",
@@ -6977,7 +6977,7 @@
       "contentHash": "ab23264f95ebaf89cfb7",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "79b334add01cabbde7f8",
@@ -6999,7 +6999,7 @@
       "contentHash": "6027474ea029061e7ead",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "0a2f2a999cf1e8228b45",
@@ -7021,7 +7021,7 @@
       "contentHash": "c0d95ea7a9e426589091",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "8790771864c541644970",
@@ -7043,7 +7043,7 @@
       "contentHash": "d8ed836f5f082db0f9f6",
       "retrievedContent": true,
       "firstSeenAt": "2026-08-12T19:18:36.743Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "89e0101ac8d46c83e50c",
@@ -7087,7 +7087,7 @@
       "contentHash": "110cfdccb22d29a0f6b4",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:32:24.925Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "d7ed102310557b81a93e",
@@ -7131,7 +7131,7 @@
       "contentHash": "558a6f458e6930727b6a",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "408461c3cc005223c602",
@@ -7184,7 +7184,7 @@
       "sourceTier": "A",
       "sourceClass": "official_transit",
       "sourceCategory": "Atlanta News",
-      "discoveryLane": "food",
+      "discoveryLane": "events",
       "acquisition": "google_news_rss_metadata",
       "claimBoundary": "discovery_only_no_publisher_retrieval",
       "title": "MARTA",
@@ -7197,7 +7197,7 @@
       "contentHash": "c6edc7e1957b8aaee1ac",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "26391d8b41c9016cc6be",
@@ -7307,7 +7307,7 @@
       "contentHash": "a52e8912758e15aec71d",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "f787fba8ebfe8ca87020",
@@ -7395,7 +7395,7 @@
       "contentHash": "1fcb715d9676ce2d777d",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "47c1f7d17a768d3ed373",
@@ -7593,7 +7593,7 @@
       "contentHash": "ea521250003b16e446ee",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "529649fe6fb59b7e8516",
@@ -7681,7 +7681,7 @@
       "contentHash": "e3fb4d7badebf8d799f7",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "836249a23ec1a8403201",
@@ -7703,7 +7703,7 @@
       "contentHash": "7b4664ba1aed947aa4f2",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "3bd823accddb60b45b61",
@@ -7769,7 +7769,7 @@
       "contentHash": "d853b839d68ecbba7b4a",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "7d1cf1fc15fe8b36ee9a",
@@ -7791,7 +7791,7 @@
       "contentHash": "8f4bdea81212fdddf5e0",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T18:55:21.592Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "7197d97320c2c64a42f5",
@@ -7901,7 +7901,7 @@
       "contentHash": "1f2f3f2b629ff95c5f9c",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "0a95cf31840ee72e2534",
@@ -7967,7 +7967,7 @@
       "contentHash": "0ea3151b61ea38f78fc3",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "328e65fd59a7b2d08578",
@@ -8033,7 +8033,7 @@
       "contentHash": "cdc10980d67f2eb875f3",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T23:55:08.591Z",
-      "lastSeenAt": "2026-08-14T16:03:30.392Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "c7035c7899375f53ade3",
@@ -8165,7 +8165,7 @@
       "contentHash": "39a1a2090539e445b368",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "b70de3713806f887b214",
@@ -8187,7 +8187,7 @@
       "contentHash": "d8cf964fac4e3fd8775d",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "55cc39f0b25bd1b085cf",
@@ -8209,7 +8209,7 @@
       "contentHash": "700a07173ae4bd05d535",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "f591ecb0937768b762db",
@@ -8231,7 +8231,7 @@
       "contentHash": "282896e0cc35428cf52d",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "109bd2dc164ec1ab8e4e",
@@ -8341,7 +8341,7 @@
       "contentHash": "5eaadf180a877ce41c83",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T16:03:30.392Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "f5f49766613e3b9b25eb",
@@ -8385,7 +8385,7 @@
       "contentHash": "a43ac8a9307c19628017",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T20:50:13.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "ea16cb4dcf2ed1599a95",
@@ -8561,7 +8561,7 @@
       "contentHash": "1c8007c6eae989c3d0fa",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "2ba1210db06dc52379bb",
@@ -8715,7 +8715,7 @@
       "contentHash": "4efd0be69dce689cad50",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "f480c0eb0f4564c1dc59",
@@ -8847,7 +8847,7 @@
       "contentHash": "618fb6b4f84eed3ce052",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T11:54:19.605Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "65379cd3b91e32c03941",
@@ -8891,7 +8891,7 @@
       "contentHash": "11e5e21bc6ba94305fe6",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-14T19:29:59.010Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "7fd266a002cf57d61932",
@@ -8935,7 +8935,7 @@
       "contentHash": "c873a00fb745e7353bd7",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T19:06:18.638Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     },
     {
       "id": "53b1d39df24cf786e50a",
@@ -9111,7 +9111,7 @@
       "contentHash": "6f5910f47c9c4ca56b30",
       "retrievedContent": false,
       "firstSeenAt": "2026-08-13T17:01:30.073Z",
-      "lastSeenAt": "2026-08-14T19:38:19.588Z"
+      "lastSeenAt": "2026-08-14T19:43:07.167Z"
     }
   ],
   "clusters": [
@@ -9467,1035 +9467,6 @@
         "commercial": 56,
         "evidence": 35,
         "locality": 87
-      }
-    },
-    {
-      "id": "4cb7790e11c69b99100a",
-      "itemIds": [
-        "120204bbc1978b9f8a07",
-        "a663e77d72c0e4732c7f",
-        "a6b41f7ffb9278cdf74f",
-        "df6d940a8e45143a61ac",
-        "568f9654461bf406618b",
-        "14549e261b5613cdb7d2",
-        "00a0d98e9a2d893ff873",
-        "cbf186220633e1c2a4d0",
-        "091a4330c1cb81077e65",
-        "7a721452b1d2e68fefb2",
-        "b4205357acf1e95a3ba2",
-        "22fb4762a172f34b618f",
-        "d3a9320032b11d7f0a66",
-        "f804cf82ce8125b052da",
-        "65f19212cb2fb077bd1e",
-        "384a55bc7f255b27e80a",
-        "75852243a73751db486b",
-        "a664fbda53d6fd30779e",
-        "89e0101ac8d46c83e50c",
-        "5ae0b08a65ce160c18e8",
-        "d7ed102310557b81a93e",
-        "5b3fa2e61ff8d8e9feed",
-        "408461c3cc005223c602",
-        "51bc3d268afc77670d7c",
-        "ae52294e7091e3a008f3",
-        "26391d8b41c9016cc6be",
-        "786d671f6d7c3c3024b4",
-        "8428d201f03cd8d65214",
-        "0f4615369583a38ac137",
-        "8b4258a2440274c691cf",
-        "f787fba8ebfe8ca87020",
-        "37679b0a385a2a97a8c9",
-        "6f61cf099d6a070dbf8a",
-        "d8e6c23167dd8ad08d1e",
-        "47c1f7d17a768d3ed373",
-        "a8270381c1fa324414f8",
-        "b1b67eeeddd2724dc8b5",
-        "bc71f97ad335fd459fdf",
-        "83ec5e176236b18f2421",
-        "3a048feeef3b4ee76bfb",
-        "6b496c15e3d24c80a39e",
-        "d68343967751a8af5e83",
-        "b07b202bf9f54bd80582",
-        "529649fe6fb59b7e8516",
-        "27f2d8ba165fb15e259f",
-        "36a3998532dc28131e5d",
-        "d15a849abaa82f4bb62e",
-        "836249a23ec1a8403201",
-        "3bd823accddb60b45b61",
-        "38840914fdf59145b10b",
-        "325b4d9039b86700ea86",
-        "7d1cf1fc15fe8b36ee9a",
-        "7197d97320c2c64a42f5",
-        "a603f0298a904ba16cd9",
-        "af12d770d04adf2323bb",
-        "09d235ed358389f03d5c",
-        "28a0771ef7412a4aa3f1",
-        "0a95cf31840ee72e2534",
-        "a120bf2f29f6c90b145f",
-        "328e65fd59a7b2d08578",
-        "a51b58a5c72952001f43",
-        "c7035c7899375f53ade3",
-        "b5a0a9b7b11f18c5f48b",
-        "eb44088bd35b4b896ade",
-        "9fa1077eaf283357d0a2",
-        "7569e4ad4078ef0d8442",
-        "fa0b1357f2166c07dafc",
-        "b70de3713806f887b214",
-        "55cc39f0b25bd1b085cf",
-        "f591ecb0937768b762db",
-        "109bd2dc164ec1ab8e4e",
-        "602d013920a6027f50e3",
-        "0246822958d816952979",
-        "a11b0f21dd98017ea3c7",
-        "6fe27dd4414144992251",
-        "f5f49766613e3b9b25eb",
-        "b3e93511740116d6f128",
-        "ea16cb4dcf2ed1599a95",
-        "a77165c401b34d2d5812",
-        "a846b6524c588424a1e7",
-        "1b2093c4aed1d5af2607",
-        "5dc8f80765850065927f",
-        "5fd670bf156b410256f5",
-        "8e413baaada7c8276471",
-        "d479ab3763f1d4adc01d",
-        "2ba1210db06dc52379bb",
-        "382267d8e7115305e9d4",
-        "3319d4eabffdd0cdcde1",
-        "b47b5a0e5ad5d332b5af",
-        "624c2df46e439c2d1048",
-        "fa2942b89fe0f5d2110b",
-        "3f8f329f0c6c00b8437d",
-        "f480c0eb0f4564c1dc59",
-        "ba0fa7589353b568ae01",
-        "a16567a3c0e4887bef4b",
-        "96628a03e8e22e965f60",
-        "ef17960bf36b07b5d898",
-        "aa4251234bad1892e4ef",
-        "65379cd3b91e32c03941",
-        "c8373c8c686a4a6d4a68",
-        "7fd266a002cf57d61932",
-        "16ab825d7a44ad01e05a",
-        "53b1d39df24cf786e50a",
-        "2731cc47e75d9a6e9fa2",
-        "62be4dd7013b8d19fa6b",
-        "d2eff20a3f844f8d653f",
-        "769904abb064215c6979",
-        "762a38bcf6144f83d6d6",
-        "4eb078e37a63f10b3838",
-        "036af93eebf14bbd815b"
-      ],
-      "headline": "MARTA picks Jonathan Hunt to lead Atlanta transit agency",
-      "summary": "",
-      "category": "Transportation & Airport",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-14T09:02:45.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "axios_atlanta",
-          "name": "Axios Atlanta",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ0JYeXlIeTJ3OVB4V2xCa0lKYTc5TWI1TXcwXzJVTmo1VFJsNms2ZU1NbW1TNUxDUzZtd1RMTDY1TlhfUGNSQVNvWkpIZzgyOVIxWE5WOXdQUmpncUdmQ09ZVGhVa1dmdVktbll3YlZlUktzZkNKaEg4V2dUejRfNXlHTVVXWHc2ZzNuWml4YS1GU3ZTODh1TGR0QWU?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LbXFRNGFpYXJnVkRCb3NzajJDS19yel9CRF9RYkh5RU1WQjZDTzlGaUNpbjZBYnFyVHhNckpBOGdvamtWb0NuRS1mUjZzcGFpejhDdm50Z3RHRzJfUjNIbWFkb1p2cXYtelJRY3ZKR0IwM3QtV2tHdw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "saporta_report",
-          "name": "SaportaReport",
-          "tier": "B",
-          "url": "https://saportareport.com/marta-sticks-with-jonathan-hunt-as-permanent-ceo/columnists/delaney-tarr/delaneytarr/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "saporta_report",
-          "name": "SaportaReport",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ0o5ZGd4YTVGMEpVLWhKVFBnNFp2Z3IzLUU4aV9ZSHdDMlk2amNTOUVzbDBvb190eHpkRWF1T3o1ZXI3Slp2SUwxdUo2R3ZOc0RlZ1JqRnRVS1BJZ2NvX0NKR2h1U05peU1ELW9TU0FWU3V2Y3hyUzZoYnU5Tnl1OFdkY3lwdVJ3Y2NLTTZrOEFWR0VzbjQwOXZKaTUwbkpyeW1IU2pjMnNVdHdJRDlTTQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "gpb",
-          "name": "Georgia Public Broadcasting",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQWtyeEZKdV91ZkRlRzgxOGRacGNzc3RMZC1ZT0w1Y1NvNWdnb0hZVUhidWgtb01PUDFab3JCcEljbzVONEFrcHgtX3o1S1lwREVOZ3hPRkd4Uy1OSXBIeHZjbHNHTExrUDhKc2NKYXlaYzJBX01WZVgza0xWem1TSTk2Um5xdm9tZTJMU19BUC0yVzNrZ0NUSVNXaHdHeFZia3JMYmJRbDFFeEhYa1diT1VhOWc?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "fox_5_atlanta",
-          "name": "FOX 5 Atlanta",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbmg3dDZDNk1OQzhySm9OcWE4NmgwdFlZQk9LNHM3UHNGOWM0anB0ckZPZTd4NThsYjF3VEw2dE9zbzJ2Q2NGRzI2Slh1SmhMM3FWRFREb2dWVldJc1JRdWZBQzNTVHcwNG5aMFpmWk9zNTlsMHRhd2JwOXd5LWllYmxmUFItUkFfcHdfNDZtel9pXzd1XzFWNVlfQzJWdDg?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "saporta_report",
-          "name": "SaportaReport",
-          "tier": "B",
-          "url": "https://saportareport.com/marta-tackles-world-cup-demand-with-ease-successfully-handling-over-1-million-additional-rail-trips/sections/reports/ammiel-forbes/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "saporta_report",
-          "name": "SaportaReport",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOa200NVNON2NfeXl2T19Ja2ZoNkEtVndENVppX1hGZTUwb1BabkJaTHhYZ2pYRjVMVFRLb0h1dmd6b0Q1VTdyLTdnczRIMlRGSFh4U1pGM1FkeDFuOExQR2NKSF8wMEdEMFVkb1g0d1RmS0FwdlQ4YnpZQ1dXdDBMUTVHSm1WOC14M1ZEdzBuZVJFMXVOSUVrQk5GemhXd01SU01UcWpUcWNXaUdzbXpDVUY2Y0Ewc2ZDNGZ5S2F1aERJWHdOZmY3MmxBakp2OGVFb2Iwa1BwQXNmdHhNeWlwaWVjWFlWRy1wcVBfQndn?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "ajc",
-          "name": "Atlanta Journal-Constitution",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcW9oZDVVOFQzdGVkVmRZbGtMUXIwUnN4R1drUFNnNktwZE9EOFkzUGdpejFMTGZiU2FhSzh1VnFkc0trSU40a1VQaDdSblJTMmFzXzhRMm5PZVpCbTZCZ29YYVdOZGUwX0x1dmVOM3FnbzhqNW5qWEJqN2lCa0MtMzNjakE3UV90Z0NkUkJDV1F1MTNMTnZFTHIzWmxWdHpCbXdGc2RsMA?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "urbanize_atlanta",
-          "name": "Urbanize Atlanta",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRy10SGFWMTdGWUl3S1o0NHhrTllWcXlFMWtPU3hrZWF0OGxHZkZXZTQxQjFxcVpVSHg4UU1hRGRoWkIzd1VKdkQ1Ym53WHc5MmcwMXVpdDdzXzhJa0lDb1ZRdDlQMXVPWmRjM0hHbElCTmFzUlJaeVlyYlpuaHpFY2t5YzUteVMtNnE5T2J4UEZaaF9NUnc?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "urbanize_atlanta",
-          "name": "Urbanize Atlanta",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1BWnJMaVluSnNuYWt4S1lZWkdkeGVXbGxxOFctbmpMYVZHcWNMajU0WDBzVzU2eC1UNC1oV0ktU0stN0JZWllLQmEwbjd4WXdGVUdoUDk1Zw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "rough_draft_atlanta",
-          "name": "Rough Draft Atlanta",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2ZU5xa0xlOFFCTzBERHJiOWhDNDdlaXNpck90NlR2WEtaVllJc3RpQktmdFAwQ2lpal8xeXRNeG1qZ3RwVXhmYkNRR0MySHg5cjJnWTVEc3FEU3BzTG1OWGJmM1laNWd4WF9wQ2lxWWxmTVpwRE1VWVh5MDQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "saporta_report",
-          "name": "SaportaReport",
-          "tier": "B",
-          "url": "https://saportareport.com/martas-new-ceo-will-set-the-tone-of-the-transit-agencys-future/columnists/mariasmetro/maria_saporta/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ2xjWEZPREwtRWZOaEtWSXJHU0drVEdsOG5uSzdkMGF6bkhremUzN2x3Z0l0V0tHRmRzNDJjc25Ba2RfVHp0U2x2d0JlUkpQZTVmOFFlSVU4VWlMckdTV2JBQ0VleXN3ekRta18tSFJJeWFsZDVudmxyQmQwS0pGYUtEV2ZsS3REQ2VZQ2dmTnRDYUczRzFHTElnUFBhUQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKcGVodEZoMF9NMDVmaEVaNnBzVnJyRjFqajZKdS14TFM2RG11UEtmREZoN3VfcF9ocXI0U09aczBCb2hLRS1NSC11YnJVSzl0ZVVXd3kyZll4UjFRaUpSTmVR?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XMXBpOTN3RkNTYTNCNkVMWmYxN0R4MWkwU1BkckVaeHljamxoMGZfLTdQQkFlRk1HQmd2Vk5Sa1lmWjJmQ2p4Uzl0MnlQSHRYQzJxdE1sUEM1SDFhWlo4?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fWmFSNWNGb2dGUGl6Q01PZDJYVzZWQ21lWmwzdTkyUkc3RUpjY0lHalpkRndVNXhKUnJQUEw4eWlNdGNLamt2MjRSQ2VfNVZreWctRGVpcFYzR3pIRElmck5OMnI4Wmdn?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxORXA3c3Jpcm1aYmlUVVoyVWgwcEtmWUt1MHRSd0lTMlhITDlyUTlqejd2a2lhQ09YZTV5elQxSWVmMnlzZ0IzZU9UcXdxSDFmOF9hRlYtV2E1UXZZd05sbUdtX3VKaDJKemVicENXczlPUE5FcWVPWVBYdVRhU3RKVXR2bEQ2c3EzY2pvOFA3T1V6ZklRWHVveUY2OE5JRWNmZTdET3UxRXNSaFV1WVVGZW40cHpQQzNpcl9DQ3RURzhKTUtSYV83dG5nT3FNUVNLLVNMQzBMTjdnaFFGZ0pUQ0t1RTRFX2FIQk10WEJ2ZHhHRWU3MTUzT0FpdFZNOGdFN0dtSzE2ajFwWUJSalIySERXUTJndHM0WFhLQlVucW5IVDd6bkpSRWdYbXJIYjFzUENlR2JsUklCU3ZoeElDT3FTUUxnVTRvdjUzQzBscGxaem0tbnl0ZHRVWQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWV1loRExMa2toN0hEYTlieHdtUUpGeUYzUnhTNWdPN1g0ZWE5NEdSanUwSzQyOWVmMzB4dzhSWkdfblZBanNWaTl3bG5HVHJLaHpibA?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBENFA0SVhLNGtBaGJCQVUyZ180aTFrSHdKNW1Ia0RIODgtQTNYclVMeU5GaTZLbUJFZjY3MmVpTjVzTFkyYTlQT1plN2JzdDBtYlBSeXhyM3BHdw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbTBkV2Y5M3FqdVk1TmkxTklkSnQ2dGw1Y2VrMUJfSmk0M3dNOENha0d1NEhGdWFTMm1Lc1FKZHlCSG9HVExEZ29oQW82N2tWSGpPeVdCQ081bDVEUnlsTlM5OFpUV29BZVFoM0EwVS11UHJkWmdaLVVXNW1CMEFKV21aNkg3bFVRM2tmRVhDTmR0UQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2blZ1bFhZZHpZSTVVY3Rhcy1CMW5Lb05WYy0xeFR1aDVrNnBfSnlkSC1FbTB1cmFTV01aWDN5MG5HZUs3VHFVdkFxLTVfR3VzblIxanVlY0U2UQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVC03WU4teHdjTjFLTS13WjRBdVV2bDRLd084X25HUEx5eEc1cEJ0SmpWc2pYTnFEdzJWM2dxN0tOMjN6Q0htejNVYVhmck5lWkh4RGZPN1B2UXJSTlRTNlZEZ2k2QkZLRXNCb1prdnA5VWU1UjlOTXBpcER0VG00aXRabEhCcXY5TnlaelUzMHhWbDYtWkRZa29IN1JwN05hWFE?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55NnZubGoyODhYSHFnTi1DRnVlY0FJeDk1a1JhQlJqOVNRZy1BYjJHblNjQkJzZG1Ga2FrRDdQd2FCdWYzNFl3MW1YVXVxSHpY?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zb2dKTHpIWTVfY0xMY2M0MEl3cW5YaFoxaG0tbmRqdlluS0s2YVpHUVh2SGw4Y1l4b0JzZDR4b1hheVY4N0dLcEhtdk1Fd3ZEX2t0T2dCM0dYamhZSzVqOHo1SDNQZFpRMWVz?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fa2M3WWo3aDNxY0VpenNaM2lGbGhicURCNUVlWlRPaTI2amZ0MjZMQVVYRFdMdjFxYmxyZ1RQXzhKWGEwazFON0k2M3RENzB3TVdNb2hR?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVUpEUk5jaC1kVWJxdTVva0lGdDdFYlRKNEZ1YlRtUzBTbFZROTNSeldoclNHdGdCa2M2VkRDT2NkTkM4RmNiNEU5UDRrNjVWZ011MXM1R1BrUlZyOE9mVGVpZHhVTHdkc3E1ajF1ZXktOFlybGVmbXl4TjNCZ3hEYXp3?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0weWRwZ1o4NXhXS1kzY3VvWjE4N2ZXRHpQbElLY0lsNFJmM051bkZlNm9teVZrSi0tNVhoOHAtV1ZZOVlxLUMzT0swbWNEWldKUmJvRjk4eDA2b2MyYUE?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wb3BEc0hQM1pDQUhxUTZ6a0xEY0h4LVY2UV96U2Q2YXF3ZnBfb0wwUmxwYldSd2dQRWYzczJsUlNCa1Q4UGdiM2FoLVJNc1JHRDRfUE1n?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN25TNnk3d2txanM1dHNEWkhHcVJPSFBQakRmWlg1U3dsaTJUdXlhbXR6OThGMFVGY2ZuU0dvRGJuYUhUeXpUSF9oYkYtenZBOHZUZ2xRUndYZFhjdjVnUWJidUc5YVo5MVpIQnR6VmR0TUlPRHBYd3NvWmZZN1ptR25wX3hYMFNVeUQ5MG1PamZWTXpyTzhSOGhSQkk3Y2RTNEVHX0ZrV3JLNDZqMWdORmVn?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4tREJ6WDF4VWJOQkVSV210OUtpRlMtcFJEQS1oNDFZTG5uVTlCUEtvQXpEZHBSS0gxXzBpLTF4M2paUElwdGtudUoyYl9DZ1kwQUhaZzNER0U?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZMTg2WnZxMk92N25KMnhJOUlLdVRfb2ZrQ3dPZ1JiYnBGLS1mU2NsYW1SN0lURWZKSEYzTnRobzF4dFlkMTkwRld5bGZnaWc?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1yaTNOT0tpU1NfUG1EbGdtb3IxQjlnemx4UWhzN3ctRnB5aHlsX1plY3Bha1dJdVdVblJDSWUwNTFvYll1Y2Naek1fWXlCWnVlNllqMWNDTUZoQmNKbEFZd0d1aw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBBUEtwaGNrb0V3cV91Tk9yQThITG9WSC0xM3dadGNtMnZVbExuWDFickVnWkJrM3lPcGVqMjJOSW5BMjlwb0sxWkNR?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9nN1pnVExPdHFtTnExUHM5QUhoS0xZWmc3QkJHMTRkVFRhRWlIaFJQNU5CT3VRYWxsX0xvaWVqUEVxcWtrRmZLell6SVV2SFU5VzRVblB6YU5fQUhoLUZnNXE3LWstSC14X1Y3SGFYdnRIa2dZYTdxc3cyakY?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wcFkzTmdtRTQ3Qm9OMk1CQmhNV05ocTMzZlcwb1ZPR1BjbmR2eEpxNzVWWjVUUmtSRzZTcnl2SDFfdnNyeWJZSXc4bHVYRGszTk1FZmZPZXZWQmN0ZTdmZng1RXlGME9sQWlmREVHUExZdTU2UkE?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE90TmJqN05rbHNDM2s5cURtUGNraGQzZnl2Uk9MQW9LNTFyMTl4aVUtcWJUQ0NXVnNidnRXU0wwTWlTdVhRZUZnYVp3?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFByT1lWWW1CNEFNOE1LQnlPSUNUTk9JbExIY1RNT1plY3Q5SWdjb0lvaXZYcGJSN2NsTHM4V3JfOF9IWUtCZWhlNw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QOVN1bU9ZRkZKbHAyMkloWXJ3NHVyQUZESmMxLVU0b1JFQW5LdGo1RVRMX0RXbkRacmdtbjVwN1J4Z0otLW9PQ3RNam1uMlN6?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5PZ19xNEtvT2oxeG1oMlZkNEc2enBKZEEyaEN2RU5PVWtjRmFWdmdyN0JpaERtTmhDcDVyUTV5WE9pNFlWbVhEWDJoT2hXdG1pSHlUSk9yVG9STkhyN0NpYm1HQnBUdTNLSmtHNFlfYw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORzk4Ri02WVZOb0hzYUdkcldSMFlqQzdFbFByUnJQaWpab0REa2FSdlBrNjlSeF9PVE9fdnl1QmExZzdHN3U5Ym1zZTZCYzBBSjVUUHlmbXctT0F4SnBNcVByYkpZMEU1cXF1WnZSa0RWdlNRMi1SZHdiZkh6b2NQbGVXZXBNVHVHZ3c?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hSkYzdGRhdFh5UHJ1bUFwWC1uYmozcDgtNFEyUmd5dTNmakwwOGhVOUJLUUo4bjREVEhRZHJ6X2cyd29SdGQ2MlkySHgyazg?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uLUtkclhvWjE5LUlBOEhMcHlzU19zbHpsN0FKSDhCd25UdzRWOWRDaFJzYlpPT2dNNFc0RlNjbkw4djBXb1J1ODJQOGNtOWM3dFFOUGhCYW9malk5Y3c?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpZVdpRTdzc1pYT0FWdkFsSkNjVGhmakhxS0RRTHVwNm55UndkR3NpbTdTdmpFTkI1OEpHbkRnRXVrRGo4b0I1bEphOVJDcWJ2cmc?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WRkd0NnB3WndZMXB4OEZRN1VubEJHbk9RdjI4LXE3OEZ0aXoybDlxZnF2cE0wVEZGOHRQWVpWOE9EaE56SUxJMG9iZw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1NY2NOMG11aVU4SEJzWFQyaDE2V0lPeWhVM2NENzFRMmNCZnZ5dHlkaUtzLXpOek9WVzB0S0dDT0ZKVVdVUjJmVzNDeDJjQkk?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yUHVHbHhfLWVCTS04SkM4dE1wQUVxWENudXlKU2xCUDJnaE84aGpES24wSXpsTlJMbnFnQl9BTUNhT3pyUXVFaFl1bVJqWFJ1SkZIQTdES1FLZHlBWmdIZElnRGstR29zY3N6eWtaTi11anZIYWRKS3JxYw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EQUJacVpiUGFWa3ZFVlZRdmdIWjNCR3dNUEZmczd2cmlnRnNvZTU3VHhNSHN0ODMwU2V3Z2M5RDVLSTd3cldFWjBMQjB2bWU5OHFqVTRKYnRVU0d6WkE?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA1NlhaZEw0Y3BOQzNpYmxPbmpnUWNVd3Nydm1kbTBMbzdPZnMwZnlvYzdEV1g3cG81ZURMMTlidGs0LWVfZTdMVjFrTl83SUFn?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pd0UtQ3NubWNoNmEtSjd6bUlDT3hNTHFlbUlFZGlQQ0RoOVZWYXdCNW5obnNjZVg1S2ZDR2NWVTYtNkRHQzNFMURfRUR4SE5M?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0OWpzQTFzN0stSkpHS21GWWtQZ1MyTmdWeGVTY3dXZWdaekVicl96M1ZVcTgyLUo5UWM1Y2M0UF9TeWRyXy14bGVZZ0xvSFptdFZKaXBxX0pjdnJDWUFUcVpPMFZrdw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDN3FwMXRkMV9MWXYwNXg2M2FSbDdLQnFfY09QSVFQYmNWdUg2emhvTkZpYTN5UElycFdOTDhBd1dUdmIyVDhNUThVLXhoYnFPWlQ0QWRJT0FGWVR4cDFmb29n?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5KMnI5TU1oWTlJYV9MQm5sLUFralNYbklTZmhOMy0yYUUwSllwbW5zRGJ5akJxdDc1WVlVWUk0U082RGdKTDBOTXZEb3VMV3FmR1RZNmJtZw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1mWURuNEdTOGtWRVQ1TWtHWURvTmpNbTk5N0kwbEVmdVRPUUJkNTlteENsMWRXQlhhc2ZDYTh1a1ZqNXlqcjRIbU81cTB6QQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fSnBCVlhlZ2VQOVppaVdPOGRKcEJ2LXVzb0Exdk5FWjJXeG9QWnJ0QWJNdnBpNjdnVy1tX2RzbmpqWWlWNkJjc2gzTnVseVBGUWI4UmwxbkdFdzNz?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYi1pRms1a0lQX01IUVNid1lMRlJFOW4zNTlXaS1udGs3WGNnR1MyeVpUc0tORThpX19qenlyQnlNc05ucnB4cmJlOThjck5adVFPNXdtLXIyaURZNTFaMWxNNGkyeE9ScldMa0FqX2lSMXhIdzM2b1AzSXVBYUtUUXF4VzFHa25ISlJuejQxcEM0WjNXWnR4YmNnWVhObTlwYTM2bWR4d3RZWHdxSkhJaEVZWE5DVUZSSGxv?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtdFZ1U3NaekxEMUQ0c1AxTGFoYTdGNjZyUjYyRFhsOW93VENtb1BtRURRQ3ljQlBaS2VGOURHX0VQNGdrTk1XR0RGQXRLSGQtdXc?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JRjlQd01FZkl5czNVUmhDaWJYb0Y1ejg1LThDUXJPVUZlVWoyblJuRndHcEdYRlpENUtSRlp6LXFyODN6RnVtRm41azBhUEVMcUgzVmlJaGtFS043UlNrMVBB?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wWTFkLTQ1RXVaNWZad0Nldjk5TGVOYmgybzEyZUJWTFlGWlpiaWUybzdNbDNIR2tpemlHQ093UnhUaU9HQWhaZV9wNU8wR28?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRQmZGT1NlWEM0R1JUNGFCQTZYTENOLW15YU01cnBBTmdqQ1o1bThXV0EzTG85UXN0RzJ2dEZoUXVYVjU2N0F6eE1Zd0J4WTdpTk1kSg?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBhY0M3aDA3Y1FsVmRSTjJMb0g5WlNNc2hOdkI0TVVDOHI1QzJoOWVUQWhUUnQ2cm1QbGlxSncwcU5RRno1TGRGVA?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BdWFXWTVvTEJRaGhNX3k4SDZLOWdPc2hBa3hzTDUySlN6dnBDcHMxMjIxc3dZZXB4U2FWSWl5aWI3NDdCNUUxeWlaNkdwMVBYdUY5RWtQeFlkUWdH?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55blRIaTVZN2VrOThWYWNXTk5iV2UtbG9YTFZSMU5jdURGSWlWNHQtenJmWkRxWWNCT0E4MHBweXRWY3NS?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSjdPdG51YUNGbktCVEhFaUx2WEl4bUdFalRDNkRjeUlXb1ZIdWJlX1lMdlFnUHpqTFQ0ci15bnBaVHg5MUVRbTlBYXpQVXpsUDZLeHFPTTNpdHdFV1FubkRRUEpkdlIxWFhMOExKc19CbWtUSDh3VnlFTXZEX2FXUkpMVkZVazVOMnUyUQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9zaHZWcmpkQVNVM01iTG1tc3Vnb1N6V0QzZ1FzZ21YM2h4LUo1RXZhWU42VGlLcndwWTRGLWwtX05jRDJjWHdJVQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5FcS1iN2RaY2RrdE9SdWFRaW5fT0doaGVyRnpPUkxqV18yeXg0UDBNVXpZNHZOeFBqa1lvbmEtamtvREotanJHM05mdw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBGWFM0SGttUE82b2hQSGVEODdiMXdIeklTWnNHdHlEMkUwb0hGX2NqcFlFVHZoV3lmcmJxUThfMnBaY3hfZ0VWZE5n?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTbHJpaURLemZxSUhCVU9MVWVvc3JjazVBM1dtN253dGYyOFVMd3ZfOTdzbUdWR3VJLXhLRnRMdG5hcUlFT0VyV1BiM09IY3BsMkdQdA?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xRF90NDlWNEdvNHBJLTlvZVlYUXdKQ0Z0SzNVeG1Xdy1BYkIyMXFxZU1nX0xnM05jcDBnbkdneVpfaXo1MF9oT3lLZWdobVdULXRN?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5kUko5MmNCVXNNNEZNWWhDLV9tTFdXUmVtTzRDYklCdVczbENReHFQeVlxRWZpVVR5UzU3QUJFWlgwUElFcGpWbFZNSVJMSjJu?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5kb1pVSk5HOEhRaVlHUVo3SF9XSTY4TXl2c3dnX2RfN1dxTnhZenpvWGstUXgxTjlpQUFMWGN3MHZXWUZMZEtWMGhhalFJZw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03YXdCcU1vaGRKNkZMLTBtRGZVQVJ4S1RHaVNfMzR6OWRPUlpnQWVUU0w5S2YwbjN5LTl2YVc0emRrYURQNFlMMG9pY2Z0T1c5Mnh6aUVqMmNISGFLRHdPQ2Rn?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5sS1FTNzdWUmh5cFhoU09IczN1MzRXZDBjZVc2Y19nc2h4ek1UYkdOaExmVlkxNDdYXzN4b0VPZlVfWnhsblBaVw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Qc2U5RmowUDN3N256X0RFbUNQbzZ1ZDR0U1FZOXdTVUxJNjFzMWZsNWVBWWw5RDlLM1E4Z2t0eG5fYXJUN2Qya25HV1ZEdTEwdURtbUVKZ1BrZw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oRkktMVF6YTFmUEc1S0pVSURpazZRejRuSFVYbDdRQ2U0ZzRDa280QkF3aUJvRzEybnZrQlNOZmN6a3I1QUxwbnNDRjRnM0lsR292QV9WV1hHS3RRTWZF?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsRWoyYnJFbVV3UVl0a2hiMWRvdXdwUjV1MlVhMS0xLUtwMzNZY05heWpOYTZoOVdoWUhvTko5ekE4VDV3N2N4dXhQZy1CeFdu?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52eUFaTG9QZ0wyd0hTWnl0Q2JrRVBFb09RUlJvaDVJWnVlSjNMRXRPeEV6bzJ4WnlWS0pLTkVZcjZVblZCMUlRWG1HYnRDOERr?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE91MjE0ZEMzZ0J3eklUTEJzT3Q1cFVZS183WnplUFJoc2lvV28yN2VRdGJxQmMtbkRSNnY4enAydTlIcjlZdkR5Y3NNb1k?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB4aS1uOUZ3NTdLSl9VZDJQWVJxMkQzWlJaNWN2Y2RaTGE1U29lekNRUUk2dnRVeG03dUMxYmZZX2N4TjY0NzFMdTJiTW45dVZE?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1HLURTbG5heDVRaG5oVW5SZmt1QUJrMVdOTkFpeXAwR2h0ZHA1VDZwbTJIcnZPb0ZlaS14XzZhaGJBYlozZ0xkdkxPR3kzdTRnaEE?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NM2lHeUlzdkxCOWdlemRBUnFKbUtmS2VxVHloNEs4UFNEOGxXby01TVE2eGt6WHViUnhxUTNnX2t4d05OWm9CV0NLTk5KcWxJaWpN?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jbWZhcFI0aVVNTzhROEVYdnIxV1ZjdkprMl94RUlMa19neFhXWDhrOVI1UmtRY01iU3E1WmVYaGw2d1AwdEl6MUhNQkpLWkxwUE1NSUNnaU04VGZEenJuZA?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE92dkk0M3hNanZWdjhiM19uTHdRa0dtUW1Mcl9haVJmSTF0UXVIb3BLaTFPcm9JQ0lyQlVReTBzdHZyM2NUc0w0Z3Mwb1dYdw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WRzJlcjYySGFpLXFpdWZPTkJCUXhyYU96YlJCX0JNejRmRGxJUFV2eFJKX1kyT3pxODBWemU3NENkUVpwYnR5aVVuUnFCbnZ4QXhSX2YtdTJsc0NVTm10QllzWkg?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYlpKbHQ0OUZJUjM4QnNJOE9EOVBSQTBhS0k2ZkhzcjhSYTFqS0J1Q2NzLXFfRUNDbW0wZjdfMVF0S0xCQjNabjlqTWpodFI4YjIycXhoSTB3T2R3RVdEMg?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lcnhlOWw0aWFETzBjbUVRcUZYUTRyTEoxUmllZWdLZjdHcTVaYVlURjhBUGlxX3F5Mm0zMWVzaWtyUVJiMUNKeFZ3eG05dm94cmZLZFA5emZFZ2VkWTh3?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zclhNWmlmYWxxMHZ6RXo2bUpnSkc1VHZwY011WDF4UThjNG42OFN4T3JUdkNobWNNNHVLdEtSZ2lkWmRTOHJOYWxqUW9UdEo1WFRWYnE1YnE1dw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QYVZEa1J3WTdjUnQ4a29CZkRQQllXdTA1LW1rMDgwM1hISUJOX05xOEU0RkxROC1kQWM4cE1MSGotNGIwaWFsVndMZVUzb20xSUR1YmJ2SW9uZw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DN2w2S2VCOEl3eGlOZDN2ZDQtWVpPNHFKZm5kekpnR3NWRmlDaWRBNlE5WmN4WElZMmFSVE1YRU1BRkczaTg4ZloyanBIdzE0WjZN?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9IazNpcVpGVFgyQTUzTXBlZ0FwVHVwb19EbTlMdHJyZ2l3TTA3OXlRZktXaHFvdDJpZ3M2dk1xSHZGalJOWGdMRGhTa29UM1M2RlE?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tckRRVWM1LUstbHg3c28tOXlrdk55d2kyMWk1ZlZ5Q2JFamc5NFZ5QmdKTG13S2wxNFZrOWxSS3pjQXRIanhnSGZfWGIzc0tOUUE?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90LUxPRmJXQ2NtT1h6VURXTlZySTBHVG0yQV9lMFRSSkJmekVvclJXNmhDRXFUaHNDUHVzZWNyOHc3bGpPWFdVcS10bUxfQk0?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ScDBPVUVqSXdkUWpWTTdMRmdqckc5WTVNVnAtZGFrTzVuU1F4QTJyb0RrSkdkeHIzaEoxZ2N6RkFYQnY3UzFDcjRpckdmQ3M?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtZnJVdTBsWEZPcFdBZGI5V0pFR3l6OGszZW1rNmRIVjhnR0ZNZmduWFIxRVRad2JnNll4M0ZTNVdtV0w1c3YybWtNZjFtb1k?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fd0VIZlVaWjB2NTg4aGRSeTEzT1Z1aVVHVHBWeE9ObXltTnRISWZwaWxubjBDbWZheE4tNEpTNERHTHNlMWluTVloRVBOM01xamZr?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16WkZlai10U0hlcHROX2pVeHVwOEZ4NkpjdTQwdi0zalByeUI4bTNJR0hoVHBRQ1ljQzIwU0M2Y0VaTTY2MGpYbXpzWjNJVW5ZVzZJZg?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41ZHJPYWFLNWVhNE42TDZIRllYc2ZaZWVNaEhLbTViOXFNUk4xZEJxVGd6NjBLM0FyNWNOQy12b1NmU2R0aC1DRUtKRl9JRVVjclllYw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE93QVViUG01VmRoWEpvTXhPcGJ6OFpxajBsVE5SV1FzTWVOMFB2U2xhSkdZLXVwQW56RXFEU1VhNGhJVzIyNkRYNw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaN0pqTV9IZDRmTDhQM3dhS2dkdzdJSmtXeUVVQWNtQ3BBYzRwN3ZEYk1kWXVNb2tyaFNfLTcxalVrdTQ1RnJEWkJFSF9oMXBEVHR1NQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pT01hR05yc211NWJpZmRTOHNoUHVMMUs4TEs2LTBrZ0ZNTnFnWk1qYUVHcml5LS1WZ1UwRF9QSTZIdTRON2MyakY1NnVfYk1sSldv?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LS1hYZ0dQYjlMbjE4RldWcGllYS04UVYtZjZObHVMSnFFQTdYYi1ZZWd4TFQ2NW9iMDIwMWl5c0szeXRTdzdLdVgzaEFPTkl3ZUg3R1NTbmt6dw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04S2xhSmlxNGc4THhaM3dIVzExel9DTVJLS2ZJY2xldW1SeW5GeGQ3MFlqZEF3TzduWWlnWXM2NG11akZqU2pjTGRwNENJdDlNZXZJUVdpdDV2Zw?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HX0ZHems3MEg5ZFFSVGhKSWpJVHYxNF9PUnBqWXdqa2kyaXdNcllOUFJMN09DV3QzYkltVmVKbEJta1ZWYkN5TkF4cXM?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9qaTZFeDZlQ0ZKUGdUYkRzaHRBZmYyaTZvSVB3S2hmQ1NPVFFGYm40V2Y2QlBsVzlyY3IxNVlyS09WM3F6Uld1RzZ3?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9idVU1OEEwMmU1bnhkUGk2YVhkbnM4c3VwYmM3OW9RZzRfLTNBZDBqM21OaWJUdlEtV2RwOGlja296TTV4Q3ZUbjFTdHg5S0N0TVE?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PQVpzb3ZMSktOQ1FILUJzUWRWQW5nWXRIc1lpZFZQT20zYzZTWUF1MzdhRTVjQ2dxamVWRDJuZmk2Zng4alVyWWhLUm1PQmFTTUhUX1F3cXg?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zUHBMRWwzWmRjdWZLU2U5VjNhZmJUc1lMc0JTZkp0UGtZY3B2QWJoVVpFOTllSFdtc19ZNl9fT2pLa0J0VVZzSjEzMVBCdlRsV0E?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwYkNrVU1nNG4yZHhXYVNPVEQzRVlrY1Z6eWxzQXZWdlhEOXlOektwa01UcFNlaW5lTDluOC1ieGRfTzZqa2VHaXUyRmozWDhLV0dSSA?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81QXoxYTNCVktKSFhBZjBjV2tHdEVobGxBYzBXT3lDS1Z0TzhrX0lORG9oV3NYekFhTEdMbnlGbkZtalBvc1VCMGdtNDRwcEk?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        },
-        {
-          "sourceId": "marta",
-          "name": "MARTA",
-          "tier": "A",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LM1RnVTJJYlJrZGZ3TVBRVm1JTUxBWERDSHd0eUs1WS1JcGN6TVE5aENVMFN0Ni1lU1JrbnV3TWJsR2dXVl9lZ29ENE9tY0U?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "MARTA picks Jonathan Hunt to lead Atlanta transit agency",
-        "dek": "",
-        "whatChanged": "Axios Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Changes to Atlanta's transportation network affect daily access, development patterns and the regional economy.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 65.23,
-        "impact": 56,
-        "novelty": 92,
-        "timeliness": 96,
-        "shareability": 42,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 73
       }
     },
     {
@@ -11225,63 +10196,6 @@
       }
     },
     {
-      "id": "79f8e0f643ac8506808c",
-      "itemIds": [
-        "f57f42ac567eea278ff5",
-        "efa14aeb9bd2811c09ec"
-      ],
-      "headline": "Opening August 18, the Lucian team’s next act Sargent is built for the Beltline",
-      "summary": "Sargent, a new restaurant along the BeltLine opening August 18, brings together American brasserie fare, a streamlined wine list, and classic cocktails The post Opening August 18, the Lucian team’s next act Sargent is built for the Beltline appeared first on Atlanta Magazine .",
-      "category": "Business Moves",
-      "eventType": "OPENING",
-      "publishedAt": "2026-08-13T18:30:45.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "atlanta_magazine",
-          "name": "Atlanta Magazine",
-          "tier": "B",
-          "url": "https://www.atlantamagazine.com/dining-news/opening-aug-18-the-lucian-teams-next-act-sargent-is-built-for-the-beltline/",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        },
-        {
-          "sourceId": "atlanta_magazine",
-          "name": "Atlanta Magazine",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTEs2MFUzeEtHa0ZBenVLcnFhcHp6NUhPQ3hUNl9wT0V3THJxNTdlTWpmYXgxazZKZzNzWWdUQTNsZU9qSzZHbVV1VWZUU1lIeGhKN00zY1pkbE9xcUxlTVRIN01LdWtpRnZaMWxDcVQwQ2VKeDR2WHZPWkEzYTNoT2Zfc0Ffb3U3T0VvVHF4UGJZc0pENXlUSWhScm1RVDBDT1hDaXBZLXFQUHdhS09LRElBajFqcUtTVGxB?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Opening August 18, the Lucian team’s next act Sargent is built for the Beltline",
-        "dek": "Sargent, a new restaurant along the BeltLine opening August 18, brings together American brasserie fare, a streamlined wine list, and classic cocktails The post Opening August 18, the Lucian team’s next act Sargent is built for the Beltline appeared first on Atlanta Magazine .",
-        "whatChanged": "Atlanta Magazine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Company openings, leases and expansions show where business confidence and local demand are forming.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 60.92,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 90,
-        "shareability": 66,
-        "commercial": 47,
-        "evidence": 35,
-        "locality": 100
-      }
-    },
-    {
       "id": "0327257149555d2d8bfe",
       "itemIds": [
         "9ad8df998332280ddb28"
@@ -11373,6 +10287,63 @@
         "timeliness": 99,
         "shareability": 58,
         "commercial": 38,
+        "evidence": 35,
+        "locality": 100
+      }
+    },
+    {
+      "id": "79f8e0f643ac8506808c",
+      "itemIds": [
+        "f57f42ac567eea278ff5",
+        "efa14aeb9bd2811c09ec"
+      ],
+      "headline": "Opening August 18, the Lucian team’s next act Sargent is built for the Beltline",
+      "summary": "Sargent, a new restaurant along the BeltLine opening August 18, brings together American brasserie fare, a streamlined wine list, and classic cocktails The post Opening August 18, the Lucian team’s next act Sargent is built for the Beltline appeared first on Atlanta Magazine .",
+      "category": "Business Moves",
+      "eventType": "OPENING",
+      "publishedAt": "2026-08-13T18:30:45.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_magazine",
+          "name": "Atlanta Magazine",
+          "tier": "B",
+          "url": "https://www.atlantamagazine.com/dining-news/opening-aug-18-the-lucian-teams-next-act-sargent-is-built-for-the-beltline/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "atlanta_magazine",
+          "name": "Atlanta Magazine",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTEs2MFUzeEtHa0ZBenVLcnFhcHp6NUhPQ3hUNl9wT0V3THJxNTdlTWpmYXgxazZKZzNzWWdUQTNsZU9qSzZHbVV1VWZUU1lIeGhKN00zY1pkbE9xcUxlTVRIN01LdWtpRnZaMWxDcVQwQ2VKeDR2WHZPWkEzYTNoT2Zfc0Ffb3U3T0VvVHF4UGJZc0pENXlUSWhScm1RVDBDT1hDaXBZLXFQUHdhS09LRElBajFqcUtTVGxB?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Opening August 18, the Lucian team’s next act Sargent is built for the Beltline",
+        "dek": "Sargent, a new restaurant along the BeltLine opening August 18, brings together American brasserie fare, a streamlined wine list, and classic cocktails The post Opening August 18, the Lucian team’s next act Sargent is built for the Beltline appeared first on Atlanta Magazine .",
+        "whatChanged": "Atlanta Magazine published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Company openings, leases and expansions show where business confidence and local demand are forming.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 60.75,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 89,
+        "shareability": 66,
+        "commercial": 47,
         "evidence": 35,
         "locality": 100
       }
@@ -12629,6 +11600,1035 @@
         "commercial": 38,
         "evidence": 35,
         "locality": 45
+      }
+    },
+    {
+      "id": "4cb7790e11c69b99100a",
+      "itemIds": [
+        "120204bbc1978b9f8a07",
+        "a663e77d72c0e4732c7f",
+        "a6b41f7ffb9278cdf74f",
+        "df6d940a8e45143a61ac",
+        "568f9654461bf406618b",
+        "14549e261b5613cdb7d2",
+        "00a0d98e9a2d893ff873",
+        "cbf186220633e1c2a4d0",
+        "091a4330c1cb81077e65",
+        "7a721452b1d2e68fefb2",
+        "b4205357acf1e95a3ba2",
+        "22fb4762a172f34b618f",
+        "d3a9320032b11d7f0a66",
+        "f804cf82ce8125b052da",
+        "65f19212cb2fb077bd1e",
+        "384a55bc7f255b27e80a",
+        "75852243a73751db486b",
+        "a664fbda53d6fd30779e",
+        "89e0101ac8d46c83e50c",
+        "5ae0b08a65ce160c18e8",
+        "d7ed102310557b81a93e",
+        "5b3fa2e61ff8d8e9feed",
+        "408461c3cc005223c602",
+        "51bc3d268afc77670d7c",
+        "ae52294e7091e3a008f3",
+        "26391d8b41c9016cc6be",
+        "786d671f6d7c3c3024b4",
+        "8428d201f03cd8d65214",
+        "0f4615369583a38ac137",
+        "8b4258a2440274c691cf",
+        "f787fba8ebfe8ca87020",
+        "37679b0a385a2a97a8c9",
+        "6f61cf099d6a070dbf8a",
+        "d8e6c23167dd8ad08d1e",
+        "47c1f7d17a768d3ed373",
+        "a8270381c1fa324414f8",
+        "b1b67eeeddd2724dc8b5",
+        "bc71f97ad335fd459fdf",
+        "83ec5e176236b18f2421",
+        "3a048feeef3b4ee76bfb",
+        "6b496c15e3d24c80a39e",
+        "d68343967751a8af5e83",
+        "b07b202bf9f54bd80582",
+        "529649fe6fb59b7e8516",
+        "27f2d8ba165fb15e259f",
+        "36a3998532dc28131e5d",
+        "d15a849abaa82f4bb62e",
+        "836249a23ec1a8403201",
+        "3bd823accddb60b45b61",
+        "38840914fdf59145b10b",
+        "325b4d9039b86700ea86",
+        "7d1cf1fc15fe8b36ee9a",
+        "7197d97320c2c64a42f5",
+        "a603f0298a904ba16cd9",
+        "af12d770d04adf2323bb",
+        "09d235ed358389f03d5c",
+        "28a0771ef7412a4aa3f1",
+        "0a95cf31840ee72e2534",
+        "a120bf2f29f6c90b145f",
+        "328e65fd59a7b2d08578",
+        "a51b58a5c72952001f43",
+        "c7035c7899375f53ade3",
+        "b5a0a9b7b11f18c5f48b",
+        "eb44088bd35b4b896ade",
+        "9fa1077eaf283357d0a2",
+        "7569e4ad4078ef0d8442",
+        "fa0b1357f2166c07dafc",
+        "b70de3713806f887b214",
+        "55cc39f0b25bd1b085cf",
+        "f591ecb0937768b762db",
+        "109bd2dc164ec1ab8e4e",
+        "602d013920a6027f50e3",
+        "0246822958d816952979",
+        "a11b0f21dd98017ea3c7",
+        "6fe27dd4414144992251",
+        "f5f49766613e3b9b25eb",
+        "b3e93511740116d6f128",
+        "ea16cb4dcf2ed1599a95",
+        "a77165c401b34d2d5812",
+        "a846b6524c588424a1e7",
+        "1b2093c4aed1d5af2607",
+        "5dc8f80765850065927f",
+        "5fd670bf156b410256f5",
+        "8e413baaada7c8276471",
+        "d479ab3763f1d4adc01d",
+        "2ba1210db06dc52379bb",
+        "382267d8e7115305e9d4",
+        "3319d4eabffdd0cdcde1",
+        "b47b5a0e5ad5d332b5af",
+        "624c2df46e439c2d1048",
+        "fa2942b89fe0f5d2110b",
+        "3f8f329f0c6c00b8437d",
+        "f480c0eb0f4564c1dc59",
+        "ba0fa7589353b568ae01",
+        "a16567a3c0e4887bef4b",
+        "96628a03e8e22e965f60",
+        "ef17960bf36b07b5d898",
+        "aa4251234bad1892e4ef",
+        "65379cd3b91e32c03941",
+        "c8373c8c686a4a6d4a68",
+        "7fd266a002cf57d61932",
+        "16ab825d7a44ad01e05a",
+        "53b1d39df24cf786e50a",
+        "2731cc47e75d9a6e9fa2",
+        "62be4dd7013b8d19fa6b",
+        "d2eff20a3f844f8d653f",
+        "769904abb064215c6979",
+        "762a38bcf6144f83d6d6",
+        "4eb078e37a63f10b3838",
+        "036af93eebf14bbd815b"
+      ],
+      "headline": "MARTA picks Jonathan Hunt to lead Atlanta transit agency",
+      "summary": "",
+      "category": "Transportation & Airport",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-14T09:02:45.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "axios_atlanta",
+          "name": "Axios Atlanta",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ0JYeXlIeTJ3OVB4V2xCa0lKYTc5TWI1TXcwXzJVTmo1VFJsNms2ZU1NbW1TNUxDUzZtd1RMTDY1TlhfUGNSQVNvWkpIZzgyOVIxWE5WOXdQUmpncUdmQ09ZVGhVa1dmdVktbll3YlZlUktzZkNKaEg4V2dUejRfNXlHTVVXWHc2ZzNuWml4YS1GU3ZTODh1TGR0QWU?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LbXFRNGFpYXJnVkRCb3NzajJDS19yel9CRF9RYkh5RU1WQjZDTzlGaUNpbjZBYnFyVHhNckpBOGdvamtWb0NuRS1mUjZzcGFpejhDdm50Z3RHRzJfUjNIbWFkb1p2cXYtelJRY3ZKR0IwM3QtV2tHdw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "saporta_report",
+          "name": "SaportaReport",
+          "tier": "B",
+          "url": "https://saportareport.com/marta-sticks-with-jonathan-hunt-as-permanent-ceo/columnists/delaney-tarr/delaneytarr/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "saporta_report",
+          "name": "SaportaReport",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ0o5ZGd4YTVGMEpVLWhKVFBnNFp2Z3IzLUU4aV9ZSHdDMlk2amNTOUVzbDBvb190eHpkRWF1T3o1ZXI3Slp2SUwxdUo2R3ZOc0RlZ1JqRnRVS1BJZ2NvX0NKR2h1U05peU1ELW9TU0FWU3V2Y3hyUzZoYnU5Tnl1OFdkY3lwdVJ3Y2NLTTZrOEFWR0VzbjQwOXZKaTUwbkpyeW1IU2pjMnNVdHdJRDlTTQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "gpb",
+          "name": "Georgia Public Broadcasting",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQWtyeEZKdV91ZkRlRzgxOGRacGNzc3RMZC1ZT0w1Y1NvNWdnb0hZVUhidWgtb01PUDFab3JCcEljbzVONEFrcHgtX3o1S1lwREVOZ3hPRkd4Uy1OSXBIeHZjbHNHTExrUDhKc2NKYXlaYzJBX01WZVgza0xWem1TSTk2Um5xdm9tZTJMU19BUC0yVzNrZ0NUSVNXaHdHeFZia3JMYmJRbDFFeEhYa1diT1VhOWc?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "fox_5_atlanta",
+          "name": "FOX 5 Atlanta",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbmg3dDZDNk1OQzhySm9OcWE4NmgwdFlZQk9LNHM3UHNGOWM0anB0ckZPZTd4NThsYjF3VEw2dE9zbzJ2Q2NGRzI2Slh1SmhMM3FWRFREb2dWVldJc1JRdWZBQzNTVHcwNG5aMFpmWk9zNTlsMHRhd2JwOXd5LWllYmxmUFItUkFfcHdfNDZtel9pXzd1XzFWNVlfQzJWdDg?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "saporta_report",
+          "name": "SaportaReport",
+          "tier": "B",
+          "url": "https://saportareport.com/marta-tackles-world-cup-demand-with-ease-successfully-handling-over-1-million-additional-rail-trips/sections/reports/ammiel-forbes/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "saporta_report",
+          "name": "SaportaReport",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOa200NVNON2NfeXl2T19Ja2ZoNkEtVndENVppX1hGZTUwb1BabkJaTHhYZ2pYRjVMVFRLb0h1dmd6b0Q1VTdyLTdnczRIMlRGSFh4U1pGM1FkeDFuOExQR2NKSF8wMEdEMFVkb1g0d1RmS0FwdlQ4YnpZQ1dXdDBMUTVHSm1WOC14M1ZEdzBuZVJFMXVOSUVrQk5GemhXd01SU01UcWpUcWNXaUdzbXpDVUY2Y0Ewc2ZDNGZ5S2F1aERJWHdOZmY3MmxBakp2OGVFb2Iwa1BwQXNmdHhNeWlwaWVjWFlWRy1wcVBfQndn?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcW9oZDVVOFQzdGVkVmRZbGtMUXIwUnN4R1drUFNnNktwZE9EOFkzUGdpejFMTGZiU2FhSzh1VnFkc0trSU40a1VQaDdSblJTMmFzXzhRMm5PZVpCbTZCZ29YYVdOZGUwX0x1dmVOM3FnbzhqNW5qWEJqN2lCa0MtMzNjakE3UV90Z0NkUkJDV1F1MTNMTnZFTHIzWmxWdHpCbXdGc2RsMA?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "urbanize_atlanta",
+          "name": "Urbanize Atlanta",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRy10SGFWMTdGWUl3S1o0NHhrTllWcXlFMWtPU3hrZWF0OGxHZkZXZTQxQjFxcVpVSHg4UU1hRGRoWkIzd1VKdkQ1Ym53WHc5MmcwMXVpdDdzXzhJa0lDb1ZRdDlQMXVPWmRjM0hHbElCTmFzUlJaeVlyYlpuaHpFY2t5YzUteVMtNnE5T2J4UEZaaF9NUnc?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "urbanize_atlanta",
+          "name": "Urbanize Atlanta",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1BWnJMaVluSnNuYWt4S1lZWkdkeGVXbGxxOFctbmpMYVZHcWNMajU0WDBzVzU2eC1UNC1oV0ktU0stN0JZWllLQmEwbjd4WXdGVUdoUDk1Zw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "rough_draft_atlanta",
+          "name": "Rough Draft Atlanta",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA2ZU5xa0xlOFFCTzBERHJiOWhDNDdlaXNpck90NlR2WEtaVllJc3RpQktmdFAwQ2lpal8xeXRNeG1qZ3RwVXhmYkNRR0MySHg5cjJnWTVEc3FEU3BzTG1OWGJmM1laNWd4WF9wQ2lxWWxmTVpwRE1VWVh5MDQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "saporta_report",
+          "name": "SaportaReport",
+          "tier": "B",
+          "url": "https://saportareport.com/martas-new-ceo-will-set-the-tone-of-the-transit-agencys-future/columnists/mariasmetro/maria_saporta/",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ2xjWEZPREwtRWZOaEtWSXJHU0drVEdsOG5uSzdkMGF6bkhremUzN2x3Z0l0V0tHRmRzNDJjc25Ba2RfVHp0U2x2d0JlUkpQZTVmOFFlSVU4VWlMckdTV2JBQ0VleXN3ekRta18tSFJJeWFsZDVudmxyQmQwS0pGYUtEV2ZsS3REQ2VZQ2dmTnRDYUczRzFHTElnUFBhUQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKcGVodEZoMF9NMDVmaEVaNnBzVnJyRjFqajZKdS14TFM2RG11UEtmREZoN3VfcF9ocXI0U09aczBCb2hLRS1NSC11YnJVSzl0ZVVXd3kyZll4UjFRaUpSTmVR?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XMXBpOTN3RkNTYTNCNkVMWmYxN0R4MWkwU1BkckVaeHljamxoMGZfLTdQQkFlRk1HQmd2Vk5Sa1lmWjJmQ2p4Uzl0MnlQSHRYQzJxdE1sUEM1SDFhWlo4?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fWmFSNWNGb2dGUGl6Q01PZDJYVzZWQ21lWmwzdTkyUkc3RUpjY0lHalpkRndVNXhKUnJQUEw4eWlNdGNLamt2MjRSQ2VfNVZreWctRGVpcFYzR3pIRElmck5OMnI4Wmdn?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxORXA3c3Jpcm1aYmlUVVoyVWgwcEtmWUt1MHRSd0lTMlhITDlyUTlqejd2a2lhQ09YZTV5elQxSWVmMnlzZ0IzZU9UcXdxSDFmOF9hRlYtV2E1UXZZd05sbUdtX3VKaDJKemVicENXczlPUE5FcWVPWVBYdVRhU3RKVXR2bEQ2c3EzY2pvOFA3T1V6ZklRWHVveUY2OE5JRWNmZTdET3UxRXNSaFV1WVVGZW40cHpQQzNpcl9DQ3RURzhKTUtSYV83dG5nT3FNUVNLLVNMQzBMTjdnaFFGZ0pUQ0t1RTRFX2FIQk10WEJ2ZHhHRWU3MTUzT0FpdFZNOGdFN0dtSzE2ajFwWUJSalIySERXUTJndHM0WFhLQlVucW5IVDd6bkpSRWdYbXJIYjFzUENlR2JsUklCU3ZoeElDT3FTUUxnVTRvdjUzQzBscGxaem0tbnl0ZHRVWQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWV1loRExMa2toN0hEYTlieHdtUUpGeUYzUnhTNWdPN1g0ZWE5NEdSanUwSzQyOWVmMzB4dzhSWkdfblZBanNWaTl3bG5HVHJLaHpibA?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBENFA0SVhLNGtBaGJCQVUyZ180aTFrSHdKNW1Ia0RIODgtQTNYclVMeU5GaTZLbUJFZjY3MmVpTjVzTFkyYTlQT1plN2JzdDBtYlBSeXhyM3BHdw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbTBkV2Y5M3FqdVk1TmkxTklkSnQ2dGw1Y2VrMUJfSmk0M3dNOENha0d1NEhGdWFTMm1Lc1FKZHlCSG9HVExEZ29oQW82N2tWSGpPeVdCQ081bDVEUnlsTlM5OFpUV29BZVFoM0EwVS11UHJkWmdaLVVXNW1CMEFKV21aNkg3bFVRM2tmRVhDTmR0UQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2blZ1bFhZZHpZSTVVY3Rhcy1CMW5Lb05WYy0xeFR1aDVrNnBfSnlkSC1FbTB1cmFTV01aWDN5MG5HZUs3VHFVdkFxLTVfR3VzblIxanVlY0U2UQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVC03WU4teHdjTjFLTS13WjRBdVV2bDRLd084X25HUEx5eEc1cEJ0SmpWc2pYTnFEdzJWM2dxN0tOMjN6Q0htejNVYVhmck5lWkh4RGZPN1B2UXJSTlRTNlZEZ2k2QkZLRXNCb1prdnA5VWU1UjlOTXBpcER0VG00aXRabEhCcXY5TnlaelUzMHhWbDYtWkRZa29IN1JwN05hWFE?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55NnZubGoyODhYSHFnTi1DRnVlY0FJeDk1a1JhQlJqOVNRZy1BYjJHblNjQkJzZG1Ga2FrRDdQd2FCdWYzNFl3MW1YVXVxSHpY?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zb2dKTHpIWTVfY0xMY2M0MEl3cW5YaFoxaG0tbmRqdlluS0s2YVpHUVh2SGw4Y1l4b0JzZDR4b1hheVY4N0dLcEhtdk1Fd3ZEX2t0T2dCM0dYamhZSzVqOHo1SDNQZFpRMWVz?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fa2M3WWo3aDNxY0VpenNaM2lGbGhicURCNUVlWlRPaTI2amZ0MjZMQVVYRFdMdjFxYmxyZ1RQXzhKWGEwazFON0k2M3RENzB3TVdNb2hR?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVUpEUk5jaC1kVWJxdTVva0lGdDdFYlRKNEZ1YlRtUzBTbFZROTNSeldoclNHdGdCa2M2VkRDT2NkTkM4RmNiNEU5UDRrNjVWZ011MXM1R1BrUlZyOE9mVGVpZHhVTHdkc3E1ajF1ZXktOFlybGVmbXl4TjNCZ3hEYXp3?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0weWRwZ1o4NXhXS1kzY3VvWjE4N2ZXRHpQbElLY0lsNFJmM051bkZlNm9teVZrSi0tNVhoOHAtV1ZZOVlxLUMzT0swbWNEWldKUmJvRjk4eDA2b2MyYUE?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wb3BEc0hQM1pDQUhxUTZ6a0xEY0h4LVY2UV96U2Q2YXF3ZnBfb0wwUmxwYldSd2dQRWYzczJsUlNCa1Q4UGdiM2FoLVJNc1JHRDRfUE1n?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN25TNnk3d2txanM1dHNEWkhHcVJPSFBQakRmWlg1U3dsaTJUdXlhbXR6OThGMFVGY2ZuU0dvRGJuYUhUeXpUSF9oYkYtenZBOHZUZ2xRUndYZFhjdjVnUWJidUc5YVo5MVpIQnR6VmR0TUlPRHBYd3NvWmZZN1ptR25wX3hYMFNVeUQ5MG1PamZWTXpyTzhSOGhSQkk3Y2RTNEVHX0ZrV3JLNDZqMWdORmVn?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4tREJ6WDF4VWJOQkVSV210OUtpRlMtcFJEQS1oNDFZTG5uVTlCUEtvQXpEZHBSS0gxXzBpLTF4M2paUElwdGtudUoyYl9DZ1kwQUhaZzNER0U?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZMTg2WnZxMk92N25KMnhJOUlLdVRfb2ZrQ3dPZ1JiYnBGLS1mU2NsYW1SN0lURWZKSEYzTnRobzF4dFlkMTkwRld5bGZnaWc?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1yaTNOT0tpU1NfUG1EbGdtb3IxQjlnemx4UWhzN3ctRnB5aHlsX1plY3Bha1dJdVdVblJDSWUwNTFvYll1Y2Naek1fWXlCWnVlNllqMWNDTUZoQmNKbEFZd0d1aw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBBUEtwaGNrb0V3cV91Tk9yQThITG9WSC0xM3dadGNtMnZVbExuWDFickVnWkJrM3lPcGVqMjJOSW5BMjlwb0sxWkNR?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9nN1pnVExPdHFtTnExUHM5QUhoS0xZWmc3QkJHMTRkVFRhRWlIaFJQNU5CT3VRYWxsX0xvaWVqUEVxcWtrRmZLell6SVV2SFU5VzRVblB6YU5fQUhoLUZnNXE3LWstSC14X1Y3SGFYdnRIa2dZYTdxc3cyakY?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wcFkzTmdtRTQ3Qm9OMk1CQmhNV05ocTMzZlcwb1ZPR1BjbmR2eEpxNzVWWjVUUmtSRzZTcnl2SDFfdnNyeWJZSXc4bHVYRGszTk1FZmZPZXZWQmN0ZTdmZng1RXlGME9sQWlmREVHUExZdTU2UkE?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE90TmJqN05rbHNDM2s5cURtUGNraGQzZnl2Uk9MQW9LNTFyMTl4aVUtcWJUQ0NXVnNidnRXU0wwTWlTdVhRZUZnYVp3?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFByT1lWWW1CNEFNOE1LQnlPSUNUTk9JbExIY1RNT1plY3Q5SWdjb0lvaXZYcGJSN2NsTHM4V3JfOF9IWUtCZWhlNw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QOVN1bU9ZRkZKbHAyMkloWXJ3NHVyQUZESmMxLVU0b1JFQW5LdGo1RVRMX0RXbkRacmdtbjVwN1J4Z0otLW9PQ3RNam1uMlN6?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5PZ19xNEtvT2oxeG1oMlZkNEc2enBKZEEyaEN2RU5PVWtjRmFWdmdyN0JpaERtTmhDcDVyUTV5WE9pNFlWbVhEWDJoT2hXdG1pSHlUSk9yVG9STkhyN0NpYm1HQnBUdTNLSmtHNFlfYw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORzk4Ri02WVZOb0hzYUdkcldSMFlqQzdFbFByUnJQaWpab0REa2FSdlBrNjlSeF9PVE9fdnl1QmExZzdHN3U5Ym1zZTZCYzBBSjVUUHlmbXctT0F4SnBNcVByYkpZMEU1cXF1WnZSa0RWdlNRMi1SZHdiZkh6b2NQbGVXZXBNVHVHZ3c?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hSkYzdGRhdFh5UHJ1bUFwWC1uYmozcDgtNFEyUmd5dTNmakwwOGhVOUJLUUo4bjREVEhRZHJ6X2cyd29SdGQ2MlkySHgyazg?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uLUtkclhvWjE5LUlBOEhMcHlzU19zbHpsN0FKSDhCd25UdzRWOWRDaFJzYlpPT2dNNFc0RlNjbkw4djBXb1J1ODJQOGNtOWM3dFFOUGhCYW9malk5Y3c?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpZVdpRTdzc1pYT0FWdkFsSkNjVGhmakhxS0RRTHVwNm55UndkR3NpbTdTdmpFTkI1OEpHbkRnRXVrRGo4b0I1bEphOVJDcWJ2cmc?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WRkd0NnB3WndZMXB4OEZRN1VubEJHbk9RdjI4LXE3OEZ0aXoybDlxZnF2cE0wVEZGOHRQWVpWOE9EaE56SUxJMG9iZw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1NY2NOMG11aVU4SEJzWFQyaDE2V0lPeWhVM2NENzFRMmNCZnZ5dHlkaUtzLXpOek9WVzB0S0dDT0ZKVVdVUjJmVzNDeDJjQkk?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yUHVHbHhfLWVCTS04SkM4dE1wQUVxWENudXlKU2xCUDJnaE84aGpES24wSXpsTlJMbnFnQl9BTUNhT3pyUXVFaFl1bVJqWFJ1SkZIQTdES1FLZHlBWmdIZElnRGstR29zY3N6eWtaTi11anZIYWRKS3JxYw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5EQUJacVpiUGFWa3ZFVlZRdmdIWjNCR3dNUEZmczd2cmlnRnNvZTU3VHhNSHN0ODMwU2V3Z2M5RDVLSTd3cldFWjBMQjB2bWU5OHFqVTRKYnRVU0d6WkE?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA1NlhaZEw0Y3BOQzNpYmxPbmpnUWNVd3Nydm1kbTBMbzdPZnMwZnlvYzdEV1g3cG81ZURMMTlidGs0LWVfZTdMVjFrTl83SUFn?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pd0UtQ3NubWNoNmEtSjd6bUlDT3hNTHFlbUlFZGlQQ0RoOVZWYXdCNW5obnNjZVg1S2ZDR2NWVTYtNkRHQzNFMURfRUR4SE5M?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0OWpzQTFzN0stSkpHS21GWWtQZ1MyTmdWeGVTY3dXZWdaekVicl96M1ZVcTgyLUo5UWM1Y2M0UF9TeWRyXy14bGVZZ0xvSFptdFZKaXBxX0pjdnJDWUFUcVpPMFZrdw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDN3FwMXRkMV9MWXYwNXg2M2FSbDdLQnFfY09QSVFQYmNWdUg2emhvTkZpYTN5UElycFdOTDhBd1dUdmIyVDhNUThVLXhoYnFPWlQ0QWRJT0FGWVR4cDFmb29n?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5KMnI5TU1oWTlJYV9MQm5sLUFralNYbklTZmhOMy0yYUUwSllwbW5zRGJ5akJxdDc1WVlVWUk0U082RGdKTDBOTXZEb3VMV3FmR1RZNmJtZw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1mWURuNEdTOGtWRVQ1TWtHWURvTmpNbTk5N0kwbEVmdVRPUUJkNTlteENsMWRXQlhhc2ZDYTh1a1ZqNXlqcjRIbU81cTB6QQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fSnBCVlhlZ2VQOVppaVdPOGRKcEJ2LXVzb0Exdk5FWjJXeG9QWnJ0QWJNdnBpNjdnVy1tX2RzbmpqWWlWNkJjc2gzTnVseVBGUWI4UmwxbkdFdzNz?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYi1pRms1a0lQX01IUVNid1lMRlJFOW4zNTlXaS1udGs3WGNnR1MyeVpUc0tORThpX19qenlyQnlNc05ucnB4cmJlOThjck5adVFPNXdtLXIyaURZNTFaMWxNNGkyeE9ScldMa0FqX2lSMXhIdzM2b1AzSXVBYUtUUXF4VzFHa25ISlJuejQxcEM0WjNXWnR4YmNnWVhObTlwYTM2bWR4d3RZWHdxSkhJaEVZWE5DVUZSSGxv?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtdFZ1U3NaekxEMUQ0c1AxTGFoYTdGNjZyUjYyRFhsOW93VENtb1BtRURRQ3ljQlBaS2VGOURHX0VQNGdrTk1XR0RGQXRLSGQtdXc?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JRjlQd01FZkl5czNVUmhDaWJYb0Y1ejg1LThDUXJPVUZlVWoyblJuRndHcEdYRlpENUtSRlp6LXFyODN6RnVtRm41azBhUEVMcUgzVmlJaGtFS043UlNrMVBB?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wWTFkLTQ1RXVaNWZad0Nldjk5TGVOYmgybzEyZUJWTFlGWlpiaWUybzdNbDNIR2tpemlHQ093UnhUaU9HQWhaZV9wNU8wR28?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRQmZGT1NlWEM0R1JUNGFCQTZYTENOLW15YU01cnBBTmdqQ1o1bThXV0EzTG85UXN0RzJ2dEZoUXVYVjU2N0F6eE1Zd0J4WTdpTk1kSg?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBhY0M3aDA3Y1FsVmRSTjJMb0g5WlNNc2hOdkI0TVVDOHI1QzJoOWVUQWhUUnQ2cm1QbGlxSncwcU5RRno1TGRGVA?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BdWFXWTVvTEJRaGhNX3k4SDZLOWdPc2hBa3hzTDUySlN6dnBDcHMxMjIxc3dZZXB4U2FWSWl5aWI3NDdCNUUxeWlaNkdwMVBYdUY5RWtQeFlkUWdH?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE55blRIaTVZN2VrOThWYWNXTk5iV2UtbG9YTFZSMU5jdURGSWlWNHQtenJmWkRxWWNCT0E4MHBweXRWY3NS?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSjdPdG51YUNGbktCVEhFaUx2WEl4bUdFalRDNkRjeUlXb1ZIdWJlX1lMdlFnUHpqTFQ0ci15bnBaVHg5MUVRbTlBYXpQVXpsUDZLeHFPTTNpdHdFV1FubkRRUEpkdlIxWFhMOExKc19CbWtUSDh3VnlFTXZEX2FXUkpMVkZVazVOMnUyUQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9zaHZWcmpkQVNVM01iTG1tc3Vnb1N6V0QzZ1FzZ21YM2h4LUo1RXZhWU42VGlLcndwWTRGLWwtX05jRDJjWHdJVQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5FcS1iN2RaY2RrdE9SdWFRaW5fT0doaGVyRnpPUkxqV18yeXg0UDBNVXpZNHZOeFBqa1lvbmEtamtvREotanJHM05mdw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBGWFM0SGttUE82b2hQSGVEODdiMXdIeklTWnNHdHlEMkUwb0hGX2NqcFlFVHZoV3lmcmJxUThfMnBaY3hfZ0VWZE5n?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTbHJpaURLemZxSUhCVU9MVWVvc3JjazVBM1dtN253dGYyOFVMd3ZfOTdzbUdWR3VJLXhLRnRMdG5hcUlFT0VyV1BiM09IY3BsMkdQdA?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xRF90NDlWNEdvNHBJLTlvZVlYUXdKQ0Z0SzNVeG1Xdy1BYkIyMXFxZU1nX0xnM05jcDBnbkdneVpfaXo1MF9oT3lLZWdobVdULXRN?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5kUko5MmNCVXNNNEZNWWhDLV9tTFdXUmVtTzRDYklCdVczbENReHFQeVlxRWZpVVR5UzU3QUJFWlgwUElFcGpWbFZNSVJMSjJu?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5kb1pVSk5HOEhRaVlHUVo3SF9XSTY4TXl2c3dnX2RfN1dxTnhZenpvWGstUXgxTjlpQUFMWGN3MHZXWUZMZEtWMGhhalFJZw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03YXdCcU1vaGRKNkZMLTBtRGZVQVJ4S1RHaVNfMzR6OWRPUlpnQWVUU0w5S2YwbjN5LTl2YVc0emRrYURQNFlMMG9pY2Z0T1c5Mnh6aUVqMmNISGFLRHdPQ2Rn?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5sS1FTNzdWUmh5cFhoU09IczN1MzRXZDBjZVc2Y19nc2h4ek1UYkdOaExmVlkxNDdYXzN4b0VPZlVfWnhsblBaVw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Qc2U5RmowUDN3N256X0RFbUNQbzZ1ZDR0U1FZOXdTVUxJNjFzMWZsNWVBWWw5RDlLM1E4Z2t0eG5fYXJUN2Qya25HV1ZEdTEwdURtbUVKZ1BrZw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oRkktMVF6YTFmUEc1S0pVSURpazZRejRuSFVYbDdRQ2U0ZzRDa280QkF3aUJvRzEybnZrQlNOZmN6a3I1QUxwbnNDRjRnM0lsR292QV9WV1hHS3RRTWZF?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsRWoyYnJFbVV3UVl0a2hiMWRvdXdwUjV1MlVhMS0xLUtwMzNZY05heWpOYTZoOVdoWUhvTko5ekE4VDV3N2N4dXhQZy1CeFdu?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52eUFaTG9QZ0wyd0hTWnl0Q2JrRVBFb09RUlJvaDVJWnVlSjNMRXRPeEV6bzJ4WnlWS0pLTkVZcjZVblZCMUlRWG1HYnRDOERr?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE91MjE0ZEMzZ0J3eklUTEJzT3Q1cFVZS183WnplUFJoc2lvV28yN2VRdGJxQmMtbkRSNnY4enAydTlIcjlZdkR5Y3NNb1k?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB4aS1uOUZ3NTdLSl9VZDJQWVJxMkQzWlJaNWN2Y2RaTGE1U29lekNRUUk2dnRVeG03dUMxYmZZX2N4TjY0NzFMdTJiTW45dVZE?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1HLURTbG5heDVRaG5oVW5SZmt1QUJrMVdOTkFpeXAwR2h0ZHA1VDZwbTJIcnZPb0ZlaS14XzZhaGJBYlozZ0xkdkxPR3kzdTRnaEE?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NM2lHeUlzdkxCOWdlemRBUnFKbUtmS2VxVHloNEs4UFNEOGxXby01TVE2eGt6WHViUnhxUTNnX2t4d05OWm9CV0NLTk5KcWxJaWpN?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jbWZhcFI0aVVNTzhROEVYdnIxV1ZjdkprMl94RUlMa19neFhXWDhrOVI1UmtRY01iU3E1WmVYaGw2d1AwdEl6MUhNQkpLWkxwUE1NSUNnaU04VGZEenJuZA?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE92dkk0M3hNanZWdjhiM19uTHdRa0dtUW1Mcl9haVJmSTF0UXVIb3BLaTFPcm9JQ0lyQlVReTBzdHZyM2NUc0w0Z3Mwb1dYdw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WRzJlcjYySGFpLXFpdWZPTkJCUXhyYU96YlJCX0JNejRmRGxJUFV2eFJKX1kyT3pxODBWemU3NENkUVpwYnR5aVVuUnFCbnZ4QXhSX2YtdTJsc0NVTm10QllzWkg?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BYlpKbHQ0OUZJUjM4QnNJOE9EOVBSQTBhS0k2ZkhzcjhSYTFqS0J1Q2NzLXFfRUNDbW0wZjdfMVF0S0xCQjNabjlqTWpodFI4YjIycXhoSTB3T2R3RVdEMg?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lcnhlOWw0aWFETzBjbUVRcUZYUTRyTEoxUmllZWdLZjdHcTVaYVlURjhBUGlxX3F5Mm0zMWVzaWtyUVJiMUNKeFZ3eG05dm94cmZLZFA5emZFZ2VkWTh3?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zclhNWmlmYWxxMHZ6RXo2bUpnSkc1VHZwY011WDF4UThjNG42OFN4T3JUdkNobWNNNHVLdEtSZ2lkWmRTOHJOYWxqUW9UdEo1WFRWYnE1YnE1dw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QYVZEa1J3WTdjUnQ4a29CZkRQQllXdTA1LW1rMDgwM1hISUJOX05xOEU0RkxROC1kQWM4cE1MSGotNGIwaWFsVndMZVUzb20xSUR1YmJ2SW9uZw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9DN2w2S2VCOEl3eGlOZDN2ZDQtWVpPNHFKZm5kekpnR3NWRmlDaWRBNlE5WmN4WElZMmFSVE1YRU1BRkczaTg4ZloyanBIdzE0WjZN?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9IazNpcVpGVFgyQTUzTXBlZ0FwVHVwb19EbTlMdHJyZ2l3TTA3OXlRZktXaHFvdDJpZ3M2dk1xSHZGalJOWGdMRGhTa29UM1M2RlE?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tckRRVWM1LUstbHg3c28tOXlrdk55d2kyMWk1ZlZ5Q2JFamc5NFZ5QmdKTG13S2wxNFZrOWxSS3pjQXRIanhnSGZfWGIzc0tOUUE?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90LUxPRmJXQ2NtT1h6VURXTlZySTBHVG0yQV9lMFRSSkJmekVvclJXNmhDRXFUaHNDUHVzZWNyOHc3bGpPWFdVcS10bUxfQk0?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ScDBPVUVqSXdkUWpWTTdMRmdqckc5WTVNVnAtZGFrTzVuU1F4QTJyb0RrSkdkeHIzaEoxZ2N6RkFYQnY3UzFDcjRpckdmQ3M?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtZnJVdTBsWEZPcFdBZGI5V0pFR3l6OGszZW1rNmRIVjhnR0ZNZmduWFIxRVRad2JnNll4M0ZTNVdtV0w1c3YybWtNZjFtb1k?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fd0VIZlVaWjB2NTg4aGRSeTEzT1Z1aVVHVHBWeE9ObXltTnRISWZwaWxubjBDbWZheE4tNEpTNERHTHNlMWluTVloRVBOM01xamZr?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16WkZlai10U0hlcHROX2pVeHVwOEZ4NkpjdTQwdi0zalByeUI4bTNJR0hoVHBRQ1ljQzIwU0M2Y0VaTTY2MGpYbXpzWjNJVW5ZVzZJZg?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41ZHJPYWFLNWVhNE42TDZIRllYc2ZaZWVNaEhLbTViOXFNUk4xZEJxVGd6NjBLM0FyNWNOQy12b1NmU2R0aC1DRUtKRl9JRVVjclllYw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE93QVViUG01VmRoWEpvTXhPcGJ6OFpxajBsVE5SV1FzTWVOMFB2U2xhSkdZLXVwQW56RXFEU1VhNGhJVzIyNkRYNw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaN0pqTV9IZDRmTDhQM3dhS2dkdzdJSmtXeUVVQWNtQ3BBYzRwN3ZEYk1kWXVNb2tyaFNfLTcxalVrdTQ1RnJEWkJFSF9oMXBEVHR1NQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pT01hR05yc211NWJpZmRTOHNoUHVMMUs4TEs2LTBrZ0ZNTnFnWk1qYUVHcml5LS1WZ1UwRF9QSTZIdTRON2MyakY1NnVfYk1sSldv?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LS1hYZ0dQYjlMbjE4RldWcGllYS04UVYtZjZObHVMSnFFQTdYYi1ZZWd4TFQ2NW9iMDIwMWl5c0szeXRTdzdLdVgzaEFPTkl3ZUg3R1NTbmt6dw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04S2xhSmlxNGc4THhaM3dIVzExel9DTVJLS2ZJY2xldW1SeW5GeGQ3MFlqZEF3TzduWWlnWXM2NG11akZqU2pjTGRwNENJdDlNZXZJUVdpdDV2Zw?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HX0ZHems3MEg5ZFFSVGhKSWpJVHYxNF9PUnBqWXdqa2kyaXdNcllOUFJMN09DV3QzYkltVmVKbEJta1ZWYkN5TkF4cXM?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9qaTZFeDZlQ0ZKUGdUYkRzaHRBZmYyaTZvSVB3S2hmQ1NPVFFGYm40V2Y2QlBsVzlyY3IxNVlyS09WM3F6Uld1RzZ3?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9idVU1OEEwMmU1bnhkUGk2YVhkbnM4c3VwYmM3OW9RZzRfLTNBZDBqM21OaWJUdlEtV2RwOGlja296TTV4Q3ZUbjFTdHg5S0N0TVE?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PQVpzb3ZMSktOQ1FILUJzUWRWQW5nWXRIc1lpZFZQT20zYzZTWUF1MzdhRTVjQ2dxamVWRDJuZmk2Zng4alVyWWhLUm1PQmFTTUhUX1F3cXg?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zUHBMRWwzWmRjdWZLU2U5VjNhZmJUc1lMc0JTZkp0UGtZY3B2QWJoVVpFOTllSFdtc19ZNl9fT2pLa0J0VVZzSjEzMVBCdlRsV0E?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwYkNrVU1nNG4yZHhXYVNPVEQzRVlrY1Z6eWxzQXZWdlhEOXlOektwa01UcFNlaW5lTDluOC1ieGRfTzZqa2VHaXUyRmozWDhLV0dSSA?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81QXoxYTNCVktKSFhBZjBjV2tHdEVobGxBYzBXT3lDS1Z0TzhrX0lORG9oV3NYekFhTEdMbnlGbkZtalBvc1VCMGdtNDRwcEk?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        },
+        {
+          "sourceId": "marta",
+          "name": "MARTA",
+          "tier": "A",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LM1RnVTJJYlJrZGZ3TVBRVm1JTUxBWERDSHd0eUs1WS1JcGN6TVE5aENVMFN0Ni1lU1JrbnV3TWJsR2dXVl9lZ29ENE9tY0U?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "MARTA picks Jonathan Hunt to lead Atlanta transit agency",
+        "dek": "",
+        "whatChanged": "Axios Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Changes to Atlanta's transportation network affect daily access, development patterns and the regional economy.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 56.68,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 96,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 73
       }
     },
     {
@@ -14111,54 +14111,6 @@
       }
     },
     {
-      "id": "cf97af187e63f1c2b6b8",
-      "itemIds": [
-        "f76182f87e20479833ee"
-      ],
-      "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
-      "summary": "",
-      "category": "Housing & Neighborhoods",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-11T18:31:00.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "atlanta_business_chronicle",
-          "name": "Atlanta Business Chronicle",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlJwTU45ZjVQVWhVNVNNdkxSc2p4S2h4R0Nid3MyY01maWpQeE1sXzdTZzF2UUNYdEVUMDJKRzlSbnpTUWlRbkRCeGRYNkluWm9KSExWQnFQcWphQjc4b2FwbWY5QWtUNkJQU0JVUERDZkpqS05jMWpaTWhtV3htWHNudUlKYWxiVDM1MndkSTZORXJrWFRKRkhFZ3IxT2hyM3hJR1RLbGJuQQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
-        "dek": "",
-        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 54.34,
-        "impact": 56,
-        "novelty": 35,
-        "timeliness": 70,
-        "shareability": 58,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 73
-      }
-    },
-    {
       "id": "6223b26066e1400a1b25",
       "itemIds": [
         "4d73dcf8bb84cd4d85aa"
@@ -14297,6 +14249,54 @@
         "novelty": 35,
         "timeliness": 87,
         "shareability": 50,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 73
+      }
+    },
+    {
+      "id": "cf97af187e63f1c2b6b8",
+      "itemIds": [
+        "f76182f87e20479833ee"
+      ],
+      "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
+      "summary": "",
+      "category": "Housing & Neighborhoods",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-11T18:31:00.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "atlanta_business_chronicle",
+          "name": "Atlanta Business Chronicle",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYlJwTU45ZjVQVWhVNVNNdkxSc2p4S2h4R0Nid3MyY01maWpQeE1sXzdTZzF2UUNYdEVUMDJKRzlSbnpTUWlRbkRCeGRYNkluWm9KSExWQnFQcWphQjc4b2FwbWY5QWtUNkJQU0JVUERDZkpqS05jMWpaTWhtV3htWHNudUlKYWxiVDM1MndkSTZORXJrWFRKRkhFZ3IxT2hyM3hJR1RLbGJuQQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
+        "dek": "",
+        "whatChanged": "Atlanta Business Chronicle published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Housing supply, affordability and neighborhood investment shape who can remain in Atlanta and where growth lands.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 54.17,
+        "impact": 56,
+        "novelty": 35,
+        "timeliness": 69,
+        "shareability": 58,
         "commercial": 38,
         "evidence": 35,
         "locality": 73
@@ -17468,54 +17468,6 @@
       }
     },
     {
-      "id": "83929c74f6f13bc1ff16",
-      "itemIds": [
-        "da174b542fe5569f0cf0"
-      ],
-      "headline": "Police seek additional victims after Sandy Springs spa arrest",
-      "summary": "Police arrested a massage therapist following a sexual battery complaint at a Sandy Springs spa located on Roswell Road.",
-      "category": "Public Safety",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-14T01:42:14.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "fox_5_atlanta",
-          "name": "FOX 5 Atlanta",
-          "tier": "B",
-          "url": "https://www.fox5atlanta.com/news/police-seek-additional-victims-after-sandy-springs-spa-arrest",
-          "acquisition": "official_rss",
-          "retrievedContent": true
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 1,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Police seek additional victims after Sandy Springs spa arrest",
-        "dek": "Police arrested a massage therapist following a sexual battery complaint at a Sandy Springs spa located on Roswell Road.",
-        "whatChanged": "FOX 5 Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Verified public-safety developments can affect neighborhoods, travel and immediate community awareness.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 50.53,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 93,
-        "shareability": 42,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 45
-      }
-    },
-    {
       "id": "2f51683f28ddf5709d2d",
       "itemIds": [
         "7bc502bde0dae40a2f4c"
@@ -17702,6 +17654,54 @@
         "novelty": 35,
         "timeliness": 80,
         "shareability": 58,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 45
+      }
+    },
+    {
+      "id": "83929c74f6f13bc1ff16",
+      "itemIds": [
+        "da174b542fe5569f0cf0"
+      ],
+      "headline": "Police seek additional victims after Sandy Springs spa arrest",
+      "summary": "Police arrested a massage therapist following a sexual battery complaint at a Sandy Springs spa located on Roswell Road.",
+      "category": "Public Safety",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-14T01:42:14.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "fox_5_atlanta",
+          "name": "FOX 5 Atlanta",
+          "tier": "B",
+          "url": "https://www.fox5atlanta.com/news/police-seek-additional-victims-after-sandy-springs-spa-arrest",
+          "acquisition": "official_rss",
+          "retrievedContent": true
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 1,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Police seek additional victims after Sandy Springs spa arrest",
+        "dek": "Police arrested a massage therapist following a sexual battery complaint at a Sandy Springs spa located on Roswell Road.",
+        "whatChanged": "FOX 5 Atlanta published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Verified public-safety developments can affect neighborhoods, travel and immediate community awareness.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 50.36,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 92,
+        "shareability": 42,
         "commercial": 38,
         "evidence": 35,
         "locality": 45
@@ -17996,54 +17996,6 @@
       }
     },
     {
-      "id": "f790c675834d2bc2be88",
-      "itemIds": [
-        "5c615a19bf07e0690f2e"
-      ],
-      "headline": "2027 NFL preseason mock draft: Falcons go tackle, UGA has 2 first-rounders",
-      "summary": "",
-      "category": "Atlanta Sports",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-12T13:41:45.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "ajc",
-          "name": "Atlanta Journal-Constitution",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbVF6Q1ZTTmZtN2l4ZTkxdDY4cUs1aGkySVo3WWhyLThFbmtHNXFHeVpHbE9RRzF5a05INHA3ZEE0TXlIU2lmUWVhQ09ueFVrVnh5QjVOUl9JNkFEZk9ndmRyMGI4ckpYeWsxOWJHUWJOb19TX0lJdVNLbDdhaHhJXzBaOERSMk16cTI1NTF5cVFzb2VkNl9XRjJJMEtCUUFTT2F1dmVn?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "2027 NFL preseason mock draft: Falcons go tackle, UGA has 2 first-rounders",
-        "dek": "",
-        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "Games and team developments affect travel, gatherings and the shared rhythm of the region.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 50.06,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 78,
-        "shareability": 58,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 45
-      }
-    },
-    {
       "id": "8d902e193a7f8ebed3d3",
       "itemIds": [
         "c83891901f2c996f88d4"
@@ -18299,6 +18251,54 @@
         "commercial": 38,
         "evidence": 35,
         "locality": 59
+      }
+    },
+    {
+      "id": "f790c675834d2bc2be88",
+      "itemIds": [
+        "5c615a19bf07e0690f2e"
+      ],
+      "headline": "2027 NFL preseason mock draft: Falcons go tackle, UGA has 2 first-rounders",
+      "summary": "",
+      "category": "Atlanta Sports",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-12T13:41:45.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbVF6Q1ZTTmZtN2l4ZTkxdDY4cUs1aGkySVo3WWhyLThFbmtHNXFHeVpHbE9RRzF5a05INHA3ZEE0TXlIU2lmUWVhQ09ueFVrVnh5QjVOUl9JNkFEZk9ndmRyMGI4ckpYeWsxOWJHUWJOb19TX0lJdVNLbDdhaHhJXzBaOERSMk16cTI1NTF5cVFzb2VkNl9XRjJJMEtCUUFTT2F1dmVn?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "2027 NFL preseason mock draft: Falcons go tackle, UGA has 2 first-rounders",
+        "dek": "",
+        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "Games and team developments affect travel, gatherings and the shared rhythm of the region.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 49.89,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 77,
+        "shareability": 58,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 45
       }
     },
     {
@@ -18896,54 +18896,6 @@
       }
     },
     {
-      "id": "d7308820d00daa7b56f3",
-      "itemIds": [
-        "99f3ef24889e4cfa8c78"
-      ],
-      "headline": "Georgia Democrats talk property taxes as they eye a possible House takeover",
-      "summary": "",
-      "category": "Atlanta News",
-      "eventType": "UPDATE",
-      "publishedAt": "2026-08-13T11:17:27.000Z",
-      "sourceTier": "B",
-      "sources": [
-        {
-          "sourceId": "ajc",
-          "name": "Atlanta Journal-Constitution",
-          "tier": "B",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS1VGeG94ODdyTGNuc3EyWnJEWmR5VDM4Ry1kd1FySTZXb1pHS3Q1Zk5Yd3lLckVNbDd3NTdNanhNYThfZTQ4UVU2NWx4MkVwajA3bk0tLUQtd2FvamxBSzF6dzRQVE0yN2NUUmhiY1BLTTRWWDZIYUNGcWktampZTkp3WGJ3aFNGUjRZT284bFBNV24tRXhZUUQySi1pRGdBQ1ZJRVdvQnpRUy1ndTBuaDNJRQ?oc=5",
-          "acquisition": "google_news_rss_metadata",
-          "retrievedContent": false
-        }
-      ],
-      "corroboration": {
-        "status": "NEEDS_PRIMARY_EVIDENCE",
-        "contentSourceCount": 0,
-        "primaryEvidenceCount": 0,
-        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
-      },
-      "evidenceLabel": "Unverified discovery",
-      "publishable": false,
-      "draft": {
-        "headline": "Georgia Democrats talk property taxes as they eye a possible House takeover",
-        "dek": "",
-        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
-        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
-        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
-        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
-      },
-      "scores": {
-        "total": 49.51,
-        "impact": 48,
-        "novelty": 35,
-        "timeliness": 87,
-        "shareability": 42,
-        "commercial": 38,
-        "evidence": 35,
-        "locality": 45
-      }
-    },
-    {
       "id": "830e492bf43da090c6ed",
       "itemIds": [
         "0156caa329cabd5ee87e"
@@ -19085,6 +19037,54 @@
         "commercial": 38,
         "evidence": 35,
         "locality": 59
+      }
+    },
+    {
+      "id": "d7308820d00daa7b56f3",
+      "itemIds": [
+        "99f3ef24889e4cfa8c78"
+      ],
+      "headline": "Georgia Democrats talk property taxes as they eye a possible House takeover",
+      "summary": "",
+      "category": "Atlanta News",
+      "eventType": "UPDATE",
+      "publishedAt": "2026-08-13T11:17:27.000Z",
+      "sourceTier": "B",
+      "sources": [
+        {
+          "sourceId": "ajc",
+          "name": "Atlanta Journal-Constitution",
+          "tier": "B",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS1VGeG94ODdyTGNuc3EyWnJEWmR5VDM4Ry1kd1FySTZXb1pHS3Q1Zk5Yd3lLckVNbDd3NTdNanhNYThfZTQ4UVU2NWx4MkVwajA3bk0tLUQtd2FvamxBSzF6dzRQVE0yN2NUUmhiY1BLTTRWWDZIYUNGcWktampZTkp3WGJ3aFNGUjRZT284bFBNV24tRXhZUUQySi1pRGdBQ1ZJRVdvQnpRUy1ndTBuaDNJRQ?oc=5",
+          "acquisition": "google_news_rss_metadata",
+          "retrievedContent": false
+        }
+      ],
+      "corroboration": {
+        "status": "NEEDS_PRIMARY_EVIDENCE",
+        "contentSourceCount": 0,
+        "primaryEvidenceCount": 0,
+        "evidenceRule": "material_claim_requires_primary_content_or_two_independent_content_sources"
+      },
+      "evidenceLabel": "Unverified discovery",
+      "publishable": false,
+      "draft": {
+        "headline": "Georgia Democrats talk property taxes as they eye a possible House takeover",
+        "dek": "",
+        "whatChanged": "Atlanta Journal-Constitution published this attributable update. ATLSignal has not treated the publisher's broader conclusions as independently verified.",
+        "whyItMatters": "The development adds a verifiable signal to the picture of what is changing across metro Atlanta.",
+        "unknown": "Independent corroboration and later outcome evidence remain outstanding.",
+        "next": "Watch for a second primary record, implementation milestone, board action, contract filing or independently reported confirmation."
+      },
+      "scores": {
+        "total": 49.34,
+        "impact": 48,
+        "novelty": 35,
+        "timeliness": 86,
+        "shareability": 42,
+        "commercial": 38,
+        "evidence": 35,
+        "locality": 45
       }
     },
     {
@@ -21843,7 +21843,7 @@
     }
   ],
   "morningBrief": {
-    "generatedAt": "2026-08-14T19:38:19.588Z",
+    "generatedAt": "2026-08-14T19:43:07.167Z",
     "label": "Morning Brief",
     "itemIds": [
       "0e9d3c2e5911ff2fb2cf",
@@ -21854,7 +21854,7 @@
     ]
   },
   "afternoonUpdate": {
-    "generatedAt": "2026-08-14T19:38:19.588Z",
+    "generatedAt": "2026-08-14T19:43:07.167Z",
     "label": "Afternoon Update",
     "itemIds": [
       "b0815316231307d83473",
@@ -21926,15 +21926,6 @@
       "score": 65.35,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 2,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
-      "clusterId": "4cb7790e11c69b99100a",
-      "headline": "MARTA picks Jonathan Hunt to lead Atlanta transit agency",
-      "category": "Transportation & Airport",
-      "score": 65.23,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 110,
       "status": "NEEDS_CORROBORATION"
     },
     {
@@ -22064,15 +22055,6 @@
       "status": "READY_TO_REVIEW"
     },
     {
-      "clusterId": "79f8e0f643ac8506808c",
-      "headline": "Opening August 18, the Lucian team’s next act Sargent is built for the Beltline",
-      "category": "Business Moves",
-      "score": 60.92,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 2,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "0327257149555d2d8bfe",
       "headline": "🚇 Meet the new boss",
       "category": "Atlanta News",
@@ -22088,6 +22070,15 @@
       "score": 60.78,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "79f8e0f643ac8506808c",
+      "headline": "Opening August 18, the Lucian team’s next act Sargent is built for the Beltline",
+      "category": "Business Moves",
+      "score": 60.75,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 2,
       "status": "NEEDS_CORROBORATION"
     },
     {
@@ -22316,6 +22307,15 @@
       "status": "NEEDS_CORROBORATION"
     },
     {
+      "clusterId": "4cb7790e11c69b99100a",
+      "headline": "MARTA picks Jonathan Hunt to lead Atlanta transit agency",
+      "category": "Transportation & Airport",
+      "score": 56.68,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 110,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
       "clusterId": "58557e3aa94b4f70b591",
       "headline": "Led by Atlanta native Errin Haines, the NABJ returns to Atlanta for its 50th anniversary convention",
       "category": "Food, Retail & Hospitality",
@@ -22541,15 +22541,6 @@
       "status": "NEEDS_CORROBORATION"
     },
     {
-      "clusterId": "cf97af187e63f1c2b6b8",
-      "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
-      "category": "Housing & Neighborhoods",
-      "score": 54.34,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "6223b26066e1400a1b25",
       "headline": "The Courage Project gives Atlanta boys tools for confidence, self-defense and leadership",
       "category": "Development & Infrastructure",
@@ -22572,6 +22563,15 @@
       "headline": "Atlanta Press Club sets 2026 Georgia election debates",
       "category": "Atlanta News",
       "score": 54.19,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "cf97af187e63f1c2b6b8",
+      "headline": "Downtown Atlanta apartments trade for $98.4 million in foreclosure auction",
+      "category": "Housing & Neighborhoods",
+      "score": 54.17,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -23162,15 +23162,6 @@
       "status": "NEEDS_CORROBORATION"
     },
     {
-      "clusterId": "83929c74f6f13bc1ff16",
-      "headline": "Police seek additional victims after Sandy Springs spa arrest",
-      "category": "Public Safety",
-      "score": 50.53,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "2f51683f28ddf5709d2d",
       "headline": "Fentanyl hidden in car batteries leads to federal prison sentence in Atlanta",
       "category": "Atlanta News",
@@ -23202,6 +23193,15 @@
       "headline": "Norcross to unveil new public safety hub at Aug. 22 council cookout",
       "category": "Public Safety",
       "score": 50.4,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "83929c74f6f13bc1ff16",
+      "headline": "Police seek additional victims after Sandy Springs spa arrest",
+      "category": "Public Safety",
+      "score": 50.36,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -23261,15 +23261,6 @@
       "status": "NEEDS_CORROBORATION"
     },
     {
-      "clusterId": "f790c675834d2bc2be88",
-      "headline": "2027 NFL preseason mock draft: Falcons go tackle, UGA has 2 first-rounders",
-      "category": "Atlanta Sports",
-      "score": 50.06,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "8d902e193a7f8ebed3d3",
       "headline": "Photos: Behind the scenes of the AJC Varsity Super 11 TV show",
       "category": "Atlanta News",
@@ -23310,6 +23301,15 @@
       "headline": "Student found with weapon at Cobb middle school, district says",
       "category": "Atlanta News",
       "score": 49.97,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "f790c675834d2bc2be88",
+      "headline": "2027 NFL preseason mock draft: Falcons go tackle, UGA has 2 first-rounders",
+      "category": "Atlanta Sports",
+      "score": 49.89,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
@@ -23423,15 +23423,6 @@
       "status": "NEEDS_CORROBORATION"
     },
     {
-      "clusterId": "d7308820d00daa7b56f3",
-      "headline": "Georgia Democrats talk property taxes as they eye a possible House takeover",
-      "category": "Atlanta News",
-      "score": 49.51,
-      "evidenceLabel": "Unverified discovery",
-      "sourceCount": 1,
-      "status": "NEEDS_CORROBORATION"
-    },
-    {
       "clusterId": "830e492bf43da090c6ed",
       "headline": "Bell Partners sells Atlanta apartment community for $54.9M after Sun Life acquisition",
       "category": "Housing & Neighborhoods",
@@ -23454,6 +23445,15 @@
       "headline": "Concerts in Atlanta: August Guide to Live Music",
       "category": "Arts & Culture",
       "score": 49.46,
+      "evidenceLabel": "Unverified discovery",
+      "sourceCount": 1,
+      "status": "NEEDS_CORROBORATION"
+    },
+    {
+      "clusterId": "d7308820d00daa7b56f3",
+      "headline": "Georgia Democrats talk property taxes as they eye a possible House takeover",
+      "category": "Atlanta News",
+      "score": 49.34,
       "evidenceLabel": "Unverified discovery",
       "sourceCount": 1,
       "status": "NEEDS_CORROBORATION"
