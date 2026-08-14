@@ -1,5 +1,6 @@
 import newsroomData from "@/data/newsroom.json";
 import { editorialImage } from "@/lib/daily-edition";
+import { automaticArticleFor, isAutomaticArticleEligible } from "@/lib/automated-articles";
 import { reportedArticles, type ReportedArticle } from "@/lib/reported-articles";
 import { storyHref } from "@/lib/story-slug";
 
@@ -47,11 +48,12 @@ export type AttributedBrief = {
 export const attributedBriefs: AttributedBrief[] = newsroomData.clusters
   .filter((cluster) => !cluster.publishable
     && Boolean(cluster.sources[0]?.url)
-    && cluster.scores.locality >= 70
+    && (cluster.scores.locality >= 70 || isAutomaticArticleEligible(cluster))
     && !sensitiveHeadline.test(`${cluster.headline} ${cluster.summary}`)
     && new Date(cluster.publishedAt).valueOf() <= generatedAt + 12 * 3_600_000)
   .map((cluster) => {
-    const article = reportedArticles[cluster.id];
+    const manualArticle = reportedArticles[cluster.id];
+    const article = manualArticle ?? automaticArticleFor(cluster);
     return {
       id: cluster.id,
       href: storyHref(cluster.id, article?.title ?? cluster.headline),
@@ -64,12 +66,12 @@ export const attributedBriefs: AttributedBrief[] = newsroomData.clusters
       description: article?.description ?? descriptionFor(cluster),
       image: editorialImage(cluster.category, cluster.id),
       article,
-      indexable: Boolean(article)
+      indexable: article?.kind === "source-backed-brief" || (Boolean(manualArticle)
         && cluster.sourceTier === "B"
-      && cluster.sources[0].retrievedContent
-      && cluster.scores.locality >= 85
-      && cluster.scores.total >= 55
-      && cluster.scores.impact >= 48,
+        && cluster.sources[0].retrievedContent
+        && cluster.scores.locality >= 85
+        && cluster.scores.total >= 55
+        && cluster.scores.impact >= 48),
     };
   });
 

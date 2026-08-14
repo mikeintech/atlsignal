@@ -78,6 +78,22 @@ const newsroomItems: PublicationItem[] = [...dailyPosts, ...sourceNotePosts].map
   };
 });
 
+const indexedAttributedItems: PublicationItem[] = attributedBriefs
+  .filter((brief) => brief.indexable)
+  .map((brief) => ({
+    id: brief.id,
+    href: brief.href,
+    headline: brief.headline,
+    summary: brief.description,
+    category: brief.category,
+    desk: deskForCategory(brief.category),
+    treatment: brief.article?.kind === "source-backed-brief" ? "Source-backed desk brief" : "ATLSignal reported analysis",
+    evidenceLabel: brief.article?.kind === "source-backed-brief" ? `Attributed to ${brief.source.name}` : "Reported analysis",
+    publishedAt: brief.publishedAt,
+    image: brief.image,
+    indexable: true,
+  }));
+
 function cleanSummary(value: string) {
   return value
     .replace(/<[^>]+>/g, " ")
@@ -132,7 +148,7 @@ function dedupe(items: PublicationItem[]) {
   });
 }
 
-export const editorialContent = dedupe([...newsroomItems, ...discoveryItems, ...manualItems]).sort((left, right) =>
+export const editorialContent = dedupe([...newsroomItems, ...indexedAttributedItems, ...discoveryItems, ...manualItems]).sort((left, right) =>
   dateValue(right.publishedAt) - dateValue(left.publishedAt),
 );
 

@@ -3,6 +3,7 @@ import newsroomData from "@/data/newsroom.json";
 import { freshStories } from "@/lib/atlanta-data";
 import { storyHref } from "@/lib/story-slug";
 import { reportedArticles } from "@/lib/reported-articles";
+import { automaticArticleFor, isAutomaticArticleEligible } from "@/lib/automated-articles";
 
 type NewsroomCluster = (typeof newsroomData.clusters)[number];
 
@@ -113,7 +114,7 @@ function clusterPost(cluster: NewsroomCluster): DailyPost {
 
 function discoveryPost(cluster: NewsroomCluster): DailyPost {
   const source = cluster.sources[0]?.name ?? "Local source";
-  const article = reportedArticles[cluster.id];
+  const article = reportedArticles[cluster.id] ?? automaticArticleFor(cluster);
   return {
     id: cluster.id,
     href: storyHref(cluster.id, cluster.headline),
@@ -149,7 +150,7 @@ const freshDiscoveryClusters = newsroomData.clusters.filter((cluster) =>
   !cluster.publishable
   && Boolean(cluster.sources[0]?.url)
   && treatmentFor(cluster.publishedAt) === "New today"
-  && cluster.scores.locality >= 70
+  && (cluster.scores.locality >= 70 || isAutomaticArticleEligible(cluster))
   && new Date(cluster.publishedAt).valueOf() <= editionDate.valueOf() + 12 * 3_600_000
   && !excludedHeadlines.test(cluster.headline),
 );

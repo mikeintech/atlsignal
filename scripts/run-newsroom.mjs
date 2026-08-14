@@ -29,7 +29,7 @@ const STOP_WORDS = new Set(
 );
 
 const CATEGORY_RULES = [
-  ["Events & Things To Do", /\b(events?|weekend|festival|concert|live show|performance|theater|nightlife|free admission)\b/i],
+  ["Events & Things To Do", /\b(events?|weekend|festival|concert|live show|performance|theater|theatre|nightlife|free admission)\b/i],
   ["Arts & Culture", /\b(arts?|culture|museum|exhibition|gallery|film|music|dance|book|author)\b/i],
   ["Atlanta Sports", /\b(sports?|football|falcons|braves|hawks|dream|atlanta united|game|match|season)\b/i],
   ["Public Safety", /\b(public safety|police|fire|shooting|crash|arrest|missing|jail|crime)\b/i],
@@ -617,7 +617,8 @@ const output = {
     status: cluster.publishable ? "READY_TO_REVIEW" : "NEEDS_CORROBORATION",
   })),
   policy: {
-    autoPublish: false,
+    autoPublish: "qualified_source_backed_desk_briefs",
+    autoPublishRule: "Fresh, non-sensitive Tier B reports with retrieved content, sufficient summary, high timeliness and local relevance in approved service, event, sports, business and development categories.",
     publisherPagesCrawledForDiscoverySources: false,
     discoveryUse: "metadata_only_until_primary_evidence",
     premiumBoundary: "No buyer, contact, procurement route, or subscriber-only intelligence is exported.",

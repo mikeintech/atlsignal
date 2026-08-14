@@ -1,4 +1,5 @@
 export type ReportedArticle = {
+  kind?: "reported-analysis" | "source-backed-brief";
   title: string;
   description: string;
   label: string;

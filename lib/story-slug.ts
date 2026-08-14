@@ -7,6 +7,10 @@ const slugOverrides: Record<string, string> = {
   "50b8c14cc69a9832b524": "hals-steakhouse-spring-quarter-midtown",
   "8b5f7c37bc216143b7a9": "tulsa-welding-school-decatur-women-trades",
   "58557e3aa94b4f70b591": "nabj-2026-atlanta-convention",
+  "350e308a24e5a0326f80": "atlanta-falcons-2026-preseason-schedule-how-to-watch",
+  "697c18f6c4bd463bd665": "visionary-justice-storylab-atlanta-film-screening-2026",
+  "22fbec87ba014f4cfa48": "i-285-weekend-closure-southwest-fulton-2026",
+  "c61cfffb32cfa4acc526": "atlanta-georgia-heat-advisory-109-degrees",
 };
 
 export function storySlug(id: string, headline: string) {
