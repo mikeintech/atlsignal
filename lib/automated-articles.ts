@@ -14,7 +14,7 @@ const allowedCategories = new Set([
   "Workforce & Economy",
   "Business Moves",
 ]);
-const unsafe = /\b(accused|alleged|arrested|assault|charged?|criminal|death|dies|died|execution|fatal|fire|funeral|fugitive|indicted|investigation|killed|lawsuit|missing|murder|police|settlement|shooting|stabbing|suspect|victim)\b/i;
+const unsafe = /\b(accused|alleged|arrested|assault|charged?|criminal|death|dies|died|execution|fatal|fires?|funeral|fugitive|indicted|investigation|killed|lawsuit|missing|murder|police|settlement|shooting|shots?|stabbing|suspect|victim)\b/i;
 const derivative = /\b(interview|review|opinion|column|ranking)\b/i;
 const existingCoverage = /\bMARTA\b.*\b(CEO|general manager)\b/i;
 
@@ -51,19 +51,24 @@ export function isAutomaticArticleEligible(cluster: NewsroomCluster) {
   const source = cluster.sources[0];
   const age = new Date(newsroomData.generatedAt).valueOf() - new Date(cluster.publishedAt).valueOf();
   const text = `${cluster.headline} ${cluster.summary}`;
-  return !cluster.publishable
+  const persisted = newsroomData.publishedDeskBriefs.some((item) => item.clusterId === cluster.id);
+  const baseSafe = !cluster.publishable
     && allowedCategories.has(cluster.category)
     && cluster.sourceTier === "B"
     && source?.retrievedContent === true
     && clean(cluster.summary).length >= 85
-    && cluster.scores.total >= 52
-    && cluster.scores.timeliness >= 90
     && cluster.scores.locality >= 55
-    && age >= -12 * 3_600_000
-    && age <= 48 * 3_600_000
     && !unsafe.test(text)
     && !derivative.test(cluster.headline)
     && !existingCoverage.test(cluster.headline);
+  return baseSafe && (persisted || (cluster.scores.total >= 52
+    && cluster.scores.timeliness >= 90
+    && age >= -12 * 3_600_000
+    && age <= 48 * 3_600_000));
+}
+
+export function automaticArticleSlug(cluster: NewsroomCluster) {
+  return newsroomData.publishedDeskBriefs.find((item) => item.clusterId === cluster.id)?.slug;
 }
 
 export function automaticArticleFor(cluster: NewsroomCluster): ReportedArticle | undefined {

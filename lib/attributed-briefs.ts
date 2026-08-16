@@ -1,6 +1,6 @@
 import newsroomData from "@/data/newsroom.json";
 import { editorialImage } from "@/lib/daily-edition";
-import { automaticArticleFor, isAutomaticArticleEligible } from "@/lib/automated-articles";
+import { automaticArticleFor, automaticArticleSlug, isAutomaticArticleEligible } from "@/lib/automated-articles";
 import { reportedArticles, type ReportedArticle } from "@/lib/reported-articles";
 import { storyHref } from "@/lib/story-slug";
 
@@ -45,7 +45,12 @@ export type AttributedBrief = {
   article?: ReportedArticle;
 };
 
-export const attributedBriefs: AttributedBrief[] = newsroomData.clusters
+const availableClusters: NewsroomCluster[] = [...newsroomData.clusters];
+for (const item of newsroomData.publishedDeskBriefs) {
+  if (!availableClusters.some((cluster) => cluster.id === item.cluster.id)) availableClusters.push(item.cluster);
+}
+
+export const attributedBriefs: AttributedBrief[] = availableClusters
   .filter((cluster) => !cluster.publishable
     && Boolean(cluster.sources[0]?.url)
     && (cluster.scores.locality >= 70 || isAutomaticArticleEligible(cluster))
@@ -56,7 +61,7 @@ export const attributedBriefs: AttributedBrief[] = newsroomData.clusters
     const article = manualArticle ?? automaticArticleFor(cluster);
     return {
       id: cluster.id,
-      href: storyHref(cluster.id, article?.title ?? cluster.headline),
+      href: automaticArticleSlug(cluster) ? `/news/${automaticArticleSlug(cluster)}` : storyHref(cluster.id, article?.title ?? cluster.headline),
       headline: article?.title ?? clean(cluster.headline),
       category: cluster.category,
       publishedAt: cluster.publishedAt,

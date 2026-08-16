@@ -55,6 +55,66 @@ const EVENT_RULES = [
   ["MILESTONE", /\b(completes?|completed|milestone|delivers?|expands?|expansion)\b/i],
 ];
 
+const DESK_BRIEF_SEED_IDS = new Set([
+  "79f8e0f643ac8506808c",
+  "97b180015bc3b56bb362",
+  "c61cfffb32cfa4acc526",
+  "22fbec87ba014f4cfa48",
+  "697c18f6c4bd463bd665",
+  "350e308a24e5a0326f80",
+  "235ccc286834bd8d8cd5",
+  "ef1eba9dded0a816c69d",
+  "1ad1b99ddd21f51d8343",
+  "7fc6191bac887aec8cfe",
+  "f30475f47eb731195efe",
+  "e2b73db7ea6222a917b2",
+  "02f75aca84321697156f",
+]);
+const DESK_BRIEF_CATEGORIES = new Set([
+  "Atlanta Sports", "Events & Things To Do", "Food, Retail & Hospitality",
+  "Weather & City Life", "Transportation & Airport", "Housing & Neighborhoods",
+  "Development & Infrastructure", "Workforce & Economy", "Business Moves",
+]);
+const DESK_BRIEF_UNSAFE = /\b(accused|alleged|arrested|assault|charged?|criminal|death|dies|died|execution|fatal|fires?|funeral|fugitive|indicted|investigation|killed|lawsuit|missing|murder|police|settlement|shooting|shots?|stabbing|suspect|victim)\b/i;
+const DESK_BRIEF_DERIVATIVE = /\b(interview|review|opinion|column|ranking)\b/i;
+const DESK_BRIEF_EXISTING = /\bMARTA\b.*\b(CEO|general manager)\b/i;
+const DESK_BRIEF_SLUG_OVERRIDES = {
+  "350e308a24e5a0326f80": "atlanta-falcons-2026-preseason-schedule-how-to-watch",
+  "697c18f6c4bd463bd665": "visionary-justice-storylab-atlanta-film-screening-2026",
+  "22fbec87ba014f4cfa48": "i-285-weekend-closure-southwest-fulton-2026",
+  "c61cfffb32cfa4acc526": "atlanta-georgia-heat-advisory-109-degrees",
+};
+
+function deskBriefHeadlineKey(value) {
+  return cleanText(value).normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function deskBriefSlug(cluster) {
+  return DESK_BRIEF_SLUG_OVERRIDES[cluster.id] || deskBriefHeadlineKey(cluster.headline).replaceAll(" ", "-").slice(0, 82).replace(/-+$/g, "");
+}
+
+function deskBriefBaseSafe(cluster) {
+  const text = `${cluster.headline} ${cluster.summary}`;
+  return !cluster.publishable
+    && DESK_BRIEF_CATEGORIES.has(cluster.category)
+    && cluster.sourceTier === "B"
+    && cluster.sources[0]?.retrievedContent === true
+    && cleanText(cluster.summary).length >= 85
+    && cluster.scores.locality >= 55
+    && !DESK_BRIEF_UNSAFE.test(text)
+    && !DESK_BRIEF_DERIVATIVE.test(cluster.headline)
+    && !DESK_BRIEF_EXISTING.test(cluster.headline);
+}
+
+function deskBriefFreshEligible(cluster) {
+  const age = now.valueOf() - new Date(cluster.publishedAt).valueOf();
+  return deskBriefBaseSafe(cluster)
+    && cluster.scores.total >= 52
+    && cluster.scores.timeliness >= 90
+    && age >= -12 * 3_600_000
+    && age <= 48 * 3_600_000;
+}
+
 function hash(value) {
   return createHash("sha256").update(String(value)).digest("hex").slice(0, 20);
 }
@@ -564,6 +624,39 @@ for (const item of previous.items || []) {
 for (const item of collected) itemsById.set(item.id, item);
 const items = [...itemsById.values()].sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
 const clusters = clusterItems(items);
+const currentClustersById = new Map(clusters.map((cluster) => [cluster.id, cluster]));
+const currentClustersByHeadline = new Map(clusters.map((cluster) => [deskBriefHeadlineKey(cluster.headline), cluster]));
+const publishedDeskBriefsBySlug = new Map();
+for (const prior of previous.publishedDeskBriefs || []) {
+  const current = currentClustersById.get(prior.clusterId)
+    || currentClustersByHeadline.get(prior.headlineKey)
+    || prior.cluster;
+  if (!current || !deskBriefBaseSafe(current)) continue;
+  const record = {
+    clusterId: current.id,
+    slug: prior.slug || deskBriefSlug(current),
+    headlineKey: deskBriefHeadlineKey(current.headline),
+    firstPublishedAt: prior.firstPublishedAt || prior.cluster?.publishedAt || nowIso,
+    lastSeenAt: nowIso,
+    cluster: current,
+  };
+  publishedDeskBriefsBySlug.set(record.slug, record);
+}
+for (const cluster of clusters) {
+  if (!DESK_BRIEF_SEED_IDS.has(cluster.id) && !deskBriefFreshEligible(cluster)) continue;
+  if (!deskBriefBaseSafe(cluster)) continue;
+  const slug = deskBriefSlug(cluster);
+  const prior = publishedDeskBriefsBySlug.get(slug);
+  publishedDeskBriefsBySlug.set(slug, {
+    clusterId: cluster.id,
+    slug,
+    headlineKey: deskBriefHeadlineKey(cluster.headline),
+    firstPublishedAt: prior?.firstPublishedAt || nowIso,
+    lastSeenAt: nowIso,
+    cluster,
+  });
+}
+const publishedDeskBriefs = [...publishedDeskBriefsBySlug.values()].sort((left, right) => String(right.cluster.publishedAt).localeCompare(String(left.cluster.publishedAt)));
 const publishable = clusters.filter((cluster) => cluster.publishable);
 const briefEligible = publishable.filter((cluster) => ageHours(cluster.publishedAt) <= 45 * 24);
 const morningItems = briefEligible.slice(0, 5);
@@ -597,6 +690,7 @@ const output = {
   sourceHealth: health,
   items,
   clusters,
+  publishedDeskBriefs,
   morningBrief: {
     generatedAt: nowIso,
     label: "Morning Brief",
