@@ -7,7 +7,9 @@ export type StoryImageData = {
   alt: string;
   credit: string;
   creditUrl: string;
-  label: "Source image" | "Editorial image";
+  label: "Source image" | "Official image" | "Licensed image" | "Editorial image";
+  caption?: string;
+  license?: string;
 };
 
 export type Story = {
@@ -183,7 +185,7 @@ export function EditorialImage({ image, compact = false, priority = false }: { i
   return (
     <figure className={compact ? "story-image story-image--compact" : "story-image"}>
       <img src={image.src} alt={image.alt} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "auto"} />
-      <figcaption><span>{image.label}</span><a href={image.creditUrl}>Photo: {image.credit}</a></figcaption>
+      <figcaption><span>{image.caption ?? image.label}</span><a href={image.creditUrl}>{image.credit}{image.license ? ` · ${image.license}` : ""}</a></figcaption>
     </figure>
   );
 }

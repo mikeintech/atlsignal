@@ -1,9 +1,8 @@
 import type { Story, StoryImageData } from "@/components/publication";
 import newsroomData from "@/data/newsroom.json";
 import { freshStories } from "@/lib/atlanta-data";
-import { storyHref } from "@/lib/story-slug";
 import { reportedArticles } from "@/lib/reported-articles";
-import { automaticArticleFor, isAutomaticArticleEligible } from "@/lib/automated-articles";
+import { automaticArticleSlug } from "@/lib/automated-articles";
 
 type NewsroomCluster = (typeof newsroomData.clusters)[number];
 
@@ -33,17 +32,6 @@ const fullReportByClusterId: Record<string, string> = {
   "1653ceea6e15d276c2de": "/beltline-overlook-at-garson-affordable-housing",
   "47b9aed0333e1aef9145": "/beltline-bennett-street-demolition-northwest-trail",
   "8405c48461f9b912e4ec": "/atlanta-world-cup-regional-economy-review",
-};
-
-const photoIds: Record<string, string[]> = {
-  "Housing & Neighborhoods": ["photo-1560518883-ce09059eeffa", "photo-1545324418-cc1a3fa10c00", "photo-1494526585095-c41746248156"],
-  "Public Money": ["photo-1450101499163-c8848c66ca85", "photo-1486406146926-c627a92ad1ab", "photo-1508514177221-188b1cf16e9d"],
-  "Development & Infrastructure": ["photo-1504307651254-35680f356dfd", "photo-1486406146926-c627a92ad1ab", "photo-1586528116311-ad8dd3c8310d"],
-  "Transportation & Airport": ["photo-1449824913935-59a10b8d2000", "photo-1500530855697-b586d89ba3ee", "photo-1597404294360-feeeda04612e"],
-  "Transportation & Economy": ["photo-1449824913935-59a10b8d2000", "photo-1518604666860-9ed391f76460", "photo-1497366216548-37526070297c"],
-  "Workforce & Economy": ["photo-1497366216548-37526070297c", "photo-1497366811353-6870744d04b2", "photo-1441986300917-64674bd600d8"],
-  "Business & Economy": ["photo-1441986300917-64674bd600d8", "photo-1497366811353-6870744d04b2", "photo-1486406146926-c627a92ad1ab"],
-  "Business Moves": ["photo-1497366811353-6870744d04b2", "photo-1441986300917-64674bd600d8", "photo-1486406146926-c627a92ad1ab"],
 };
 
 const editionDate = new Date(newsroomData.generatedAt);
@@ -78,10 +66,23 @@ function stableNumber(value: string) {
 }
 
 export function editorialImage(category: string, key: string): StoryImageData {
-  const options = photoIds[category] ?? photoIds["Development & Infrastructure"];
-  const id = options[stableNumber(key) % options.length];
-  const src = `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1600&q=82`;
-  return { src, alt: `Illustrative image for ${category.toLowerCase()} coverage`, credit: "Unsplash", creditUrl: src, label: "Editorial image" };
+  return { src: "/og-social-v2.png", alt: `ATLSignal graphic for ${category.toLowerCase()} coverage`, credit: "ATLSignal", creditUrl: "/about", label: "Editorial image", caption: "ATLSignal reporting graphic" };
+}
+
+export function clusterEditorialImage(cluster: NewsroomCluster, reviewed?: StoryImageData): StoryImageData {
+  if (reviewed) return reviewed;
+  const sourceItem = cluster.itemIds
+    .map((id) => newsroomData.items.find((item) => item.id === id))
+    .find((item) => Boolean(item?.imageUrl));
+  if (!sourceItem?.imageUrl) return editorialImage(cluster.category, cluster.id);
+  return {
+    src: clean(sourceItem.imageUrl),
+    alt: `Image accompanying ${clean(sourceItem.title)}`,
+    credit: sourceItem.sourceName,
+    creditUrl: sourceItem.url,
+    label: "Source image",
+    caption: `Image accompanying the ${sourceItem.sourceName} report`,
+  };
 }
 
 function treatmentFor(sourceDate: string): DailyPost["treatment"] {
@@ -107,24 +108,24 @@ function clusterPost(cluster: NewsroomCluster): DailyPost {
     treatment: treatmentFor(cluster.publishedAt),
     evidenceLabel: cluster.evidenceLabel,
     sourceDate: displaySourceDate(cluster.publishedAt),
-    image: editorialImage(cluster.category, cluster.id),
+    image: clusterEditorialImage(cluster),
     cluster,
   };
 }
 
 function discoveryPost(cluster: NewsroomCluster): DailyPost {
   const source = cluster.sources[0]?.name ?? "Local source";
-  const article = reportedArticles[cluster.id] ?? automaticArticleFor(cluster);
+  const article = reportedArticles[cluster.id];
   return {
     id: cluster.id,
-    href: storyHref(cluster.id, cluster.headline),
+    href: `/news/${automaticArticleSlug(cluster)}`,
     headline: article?.title ?? clean(cluster.headline),
     dek: article?.description ?? `${source} reported this Atlanta update. ATLSignal is preserving the attribution while checking primary records and adding Atlanta context.`,
     category: cluster.category,
     treatment: treatmentFor(cluster.publishedAt),
     evidenceLabel: `Reported by ${source}`,
     sourceDate: displaySourceDate(cluster.publishedAt),
-    image: editorialImage(cluster.category, cluster.id),
+    image: clusterEditorialImage(cluster, article?.image),
     cluster,
   };
 }
@@ -148,9 +149,10 @@ const verifiedClusters = newsroomData.clusters.filter((cluster) => cluster.publi
 const freshClusters = verifiedClusters.filter((cluster) => treatmentFor(cluster.publishedAt) !== "From the archive");
 const freshDiscoveryClusters = newsroomData.clusters.filter((cluster) =>
   !cluster.publishable
+  && Boolean(reportedArticles[cluster.id])
+  && Boolean(automaticArticleSlug(cluster))
   && Boolean(cluster.sources[0]?.url)
   && treatmentFor(cluster.publishedAt) === "New today"
-  && (cluster.scores.locality >= 70 || isAutomaticArticleEligible(cluster))
   && new Date(cluster.publishedAt).valueOf() <= editionDate.valueOf() + 12 * 3_600_000
   && !excludedHeadlines.test(cluster.headline),
 );
@@ -203,7 +205,6 @@ function addUnique(target: DailyPost[], candidates: DailyPost[], limit: number) 
 const manualPosts = todaysManualStories.map(manualPost);
 const verifiedNew = clusterCandidates.filter((post) => post.treatment === "New today");
 const automaticNew = freshDiscoveryClusters
-  .filter(isAutomaticArticleEligible)
   .map(discoveryPost)
   .sort((left, right) => new Date(right.cluster!.publishedAt).valueOf() - new Date(left.cluster!.publishedAt).valueOf());
 const attributedNew = diverseDiscoveryPosts(freshDiscoveryClusters);

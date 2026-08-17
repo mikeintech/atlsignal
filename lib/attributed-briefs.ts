@@ -1,8 +1,7 @@
 import newsroomData from "@/data/newsroom.json";
-import { editorialImage } from "@/lib/daily-edition";
-import { automaticArticleFor, automaticArticleSlug, isAutomaticArticleEligible } from "@/lib/automated-articles";
+import { clusterEditorialImage } from "@/lib/daily-edition";
+import { automaticArticleSlug } from "@/lib/automated-articles";
 import { reportedArticles, type ReportedArticle } from "@/lib/reported-articles";
-import { storyHref } from "@/lib/story-slug";
 
 type NewsroomCluster = (typeof newsroomData.clusters)[number];
 
@@ -40,7 +39,7 @@ export type AttributedBrief = {
   source: NewsroomCluster["sources"][number];
   cluster: NewsroomCluster;
   description: string;
-  image: ReturnType<typeof editorialImage>;
+  image: ReturnType<typeof clusterEditorialImage>;
   indexable: boolean;
   article?: ReportedArticle;
 };
@@ -52,16 +51,17 @@ for (const item of newsroomData.publishedDeskBriefs) {
 
 export const attributedBriefs: AttributedBrief[] = availableClusters
   .filter((cluster) => !cluster.publishable
+    && Boolean(reportedArticles[cluster.id])
+    && Boolean(automaticArticleSlug(cluster))
     && Boolean(cluster.sources[0]?.url)
-    && (cluster.scores.locality >= 70 || isAutomaticArticleEligible(cluster))
     && !sensitiveHeadline.test(`${cluster.headline} ${cluster.summary}`)
     && new Date(cluster.publishedAt).valueOf() <= generatedAt + 12 * 3_600_000)
   .map((cluster) => {
     const manualArticle = reportedArticles[cluster.id];
-    const article = manualArticle ?? automaticArticleFor(cluster);
+    const article = manualArticle;
     return {
       id: cluster.id,
-      href: automaticArticleSlug(cluster) ? `/news/${automaticArticleSlug(cluster)}` : storyHref(cluster.id, article?.title ?? cluster.headline),
+      href: `/news/${automaticArticleSlug(cluster)}`,
       headline: article?.title ?? clean(cluster.headline),
       category: cluster.category,
       publishedAt: cluster.publishedAt,
@@ -69,9 +69,9 @@ export const attributedBriefs: AttributedBrief[] = availableClusters
       source: cluster.sources[0],
       cluster,
       description: article?.description ?? descriptionFor(cluster),
-      image: editorialImage(cluster.category, cluster.id),
+      image: clusterEditorialImage(cluster, article?.image),
       article,
-      indexable: article?.kind === "source-backed-brief" || (Boolean(manualArticle)
+      indexable: article?.kind === "reported-analysis" || article?.kind === "source-backed-brief" || (Boolean(manualArticle)
         && cluster.sourceTier === "B"
         && cluster.sources[0].retrievedContent
         && cluster.scores.locality >= 85

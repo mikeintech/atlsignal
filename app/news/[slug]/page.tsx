@@ -33,6 +33,14 @@ function fallbackContext(category: string) {
   return "The development matters because Atlanta changes block by block, often before the consequences become visible across the whole city.";
 }
 
+const formatLabels = {
+  news: "News",
+  service: "Service guide",
+  preview: "Preview",
+  feature: "Feature",
+  analysis: "Analysis",
+} as const;
+
 export function generateStaticParams() {
   return attributedBriefs.map((brief) => ({ slug: slugFromHref(brief.href) }));
 }
@@ -59,6 +67,7 @@ export default async function ReportedStoryPage({ params }: { params: Promise<{ 
   if (!brief) notFound();
   const { article, cluster, source } = brief;
   const sourceBackedBrief = article?.kind === "source-backed-brief";
+  const treatmentLabel = article?.format ? formatLabels[article.format] : sourceBackedBrief ? "Source-backed brief" : article ? "Reported article" : "Attributed report";
   const paragraphs = article?.sections.flatMap((section) => section.paragraphs) ?? [brief.description, cluster.draft.whyItMatters, cluster.draft.unknown, cluster.draft.next];
   const readingMinutes = Math.max(3, Math.ceil(paragraphs.join(" ").split(/\s+/).length / 220));
   const sources = article?.sources ?? [{ name: source.name, detail: "Original reporting that established the attributed claim.", url: source.url }];
@@ -97,18 +106,18 @@ export default async function ReportedStoryPage({ params }: { params: Promise<{ 
       <main className="article-page reported-story-page shell">
         <nav className="article-breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span>/</span><Link href="/latest">Latest</Link><span>/</span><span>{brief.category}</span></nav>
         <header className="article-hero">
-          <div className="article-kicker"><span>{article?.label ?? brief.category}</span><UpdateBadge>{sourceBackedBrief ? "Source-backed desk brief" : article ? "Reported analysis" : "Attributed report"}</UpdateBadge></div>
+          <div className="article-kicker"><span>{article?.label ?? brief.category}</span><UpdateBadge>{treatmentLabel}</UpdateBadge></div>
           <Headline as="h1" size="lead">{brief.headline}</Headline>
           <p className="article-dek">{brief.description}</p>
           <p className="article-nutgraf">{article?.lede ?? `${source.name} surfaced the central development. ATLSignal is preserving the attribution while placing the signal in its Atlanta context.`}</p>
-          <div className="article-byline"><span>By ATLSignal Desk · Edited by Mike</span><time dateTime={brief.publishedAt}>{brief.sourceDate} · {readingMinutes} min read</time></div>
+          <div className="article-byline"><span>By ATLSignal Staff</span><time dateTime={brief.publishedAt}>{brief.sourceDate} · {readingMinutes} min read</time></div>
           <ArticleActions title={brief.headline} category={brief.category} />
           <EditorialImage image={brief.image} priority />
         </header>
 
         <div className="article-layout">
           <article className="article-body">
-            <aside className="article-glance"><h2>The short version</h2><ul>{(article?.keyFacts ?? [
+            <aside className="article-glance"><h2>{article?.summaryLabel ?? "The short version"}</h2><ul>{(article?.keyFacts ?? [
               `${source.name} is the attributed source for the central development.`,
               fallbackContext(brief.category),
               "The outcome remains open and will be updated when stronger evidence arrives.",
@@ -121,12 +130,12 @@ export default async function ReportedStoryPage({ params }: { params: Promise<{ 
               <section><h2>The next marker</h2><p>{cluster.draft.next}</p></section>
             </>}
 
-            <section className="article-method-note"><h2>How ATLSignal reported this</h2><p>{sourceBackedBrief ? `ATLSignal reviewed ${source.name}’s retrieved report, retained explicit attribution and added Atlanta-specific context and follow-up markers. This is an original ATLSignal desk treatment, not a claim of firsthand reporting or independent confirmation.` : article ? "ATLSignal reviewed the attributed local report, checked the first-party records listed below and added independent comparison or Atlanta-specific analysis. The central facts remain attached to their sources; the interpretation and calculations are ATLSignal’s." : `ATLSignal reviewed ${source.name}’s report and preserved its attribution. No claim on this page is labeled independently confirmed without a primary record or additional reporting.`}</p></section>
+            {(!article || sourceBackedBrief) && <section className="article-method-note"><h2>Reporting note</h2><p>{sourceBackedBrief ? `ATLSignal reviewed ${source.name}’s retrieved report, retained explicit attribution and added Atlanta-specific context and follow-up markers. This brief does not claim firsthand reporting or independent confirmation.` : `ATLSignal reviewed ${source.name}’s report and preserved its attribution. No claim on this page is labeled independently confirmed without a primary record or additional reporting.`}</p></section>}
             <section><SectionHeading label="Sources and receipts" /><EvidenceList sources={sources} /><SourceAttribution>Reporting and records reviewed by ATLSignal. Source photography and article text were not republished.</SourceAttribution></section>
-            <section className="article-update-history"><h2>Update history</h2><p><strong>{brief.sourceDate}:</strong> Initial ATLSignal treatment published with source attribution, evidence limits and Atlanta context.</p></section>
+            {(sourceBackedBrief || article?.showUpdateHistory) && <section className="article-update-history"><h2>Update history</h2><p><strong>{brief.sourceDate}:</strong> Initial publication with linked reporting and records.</p></section>}
           </article>
           <aside className="article-rail">
-            <div className="fact-box"><p className="eyebrow">Editorial treatment</p><dl><div><dt>Type</dt><dd>{sourceBackedBrief ? "Source-backed desk brief" : article ? "Reported analysis" : "Attributed report"}</dd></div><div><dt>Evidence</dt><dd>{sourceBackedBrief ? `${sources.length} attributed report${sources.length === 1 ? "" : "s"}` : article ? `${Math.max(1, sources.length - 1)} primary records reviewed` : "Pending"}</dd></div><div><dt>Search status</dt><dd>{brief.indexable ? "Publicly indexable" : "Held from indexing"}</dd></div></dl><Link href="/methodology">Read the methodology →</Link></div>
+            {!article || sourceBackedBrief ? <div className="fact-box"><p className="eyebrow">Evidence status</p><dl><div><dt>Type</dt><dd>{treatmentLabel}</dd></div><div><dt>Sources</dt><dd>{sources.length}</dd></div><div><dt>Search</dt><dd>{brief.indexable ? "Public" : "Held from indexing"}</dd></div></dl><Link href="/methodology">Read the methodology →</Link></div> : null}
             {article && <div className="fact-box"><p className="eyebrow">People, places and institutions</p><div className="article-entities">{article.entities.map((entity) => <Link key={entity} href={`/search?q=${encodeURIComponent(entity)}`}>{entity}</Link>)}</div></div>}
             <PremiumTeaser compact />
           </aside>

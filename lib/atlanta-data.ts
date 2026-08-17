@@ -1,4 +1,4 @@
-import type { Story } from "@/components/publication";
+import type { Story, StoryImageData } from "@/components/publication";
 import publicReadModel from "@/data/atlanta.json";
 
 const displayNames: Record<string, string> = {
@@ -27,16 +27,56 @@ const articleSlugs: Record<string, string> = {
   "bethany-s-place-office-fit-out": "bethanys-place-office-fit-out",
 };
 
-const editorialPhoto = (id: string, alt: string) => {
-  const src = `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1600&q=82`;
-  return {
-    src,
-    alt,
-    credit: "Unsplash",
-    creditUrl: src,
-    label: "Editorial image" as const,
-  };
+const commonsPhoto = (filename: string, credit: string, license: string, caption: string): Omit<StoryImageData, "alt"> => ({
+  src: `https://commons.wikimedia.org/wiki/Special:Redirect/file/${encodeURIComponent(filename)}?width=1600`,
+  credit,
+  creditUrl: `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(filename)}`,
+  label: "Licensed image",
+  license,
+  caption,
+});
+
+const atlantaContextPhotos = {
+  skyline: commonsPhoto("Atlanta aerial skyline, 2026.jpg", "WMrapids / Wikimedia Commons", "CC0", "Atlanta, photographed in 2026"),
+  city: commonsPhoto("Atlanta, Georgia Skyline.jpg", "Shawn M. Kent / Wikimedia Commons", "CC BY-SA 4.0", "Atlanta skyline from the Jackson Street Bridge"),
+  ponce: commonsPhoto("Sunset view of Ponce City Market from Historic Fourth Ward Park in Atlanta, September 2015.jpg", "Marc Merlin / Wikimedia Commons", "CC BY-SA 4.0", "Ponce City Market and Historic Fourth Ward Park"),
+  beltline: commonsPhoto("Gathering space beneath Freedom Parkway along the Atlanta BeltLine Eastside Trail.jpg", "Marc Merlin / Wikimedia Commons", "CC BY-SA 4.0", "Atlanta BeltLine Eastside Trail beneath Freedom Parkway"),
+  marta: commonsPhoto("Marta atlanta skyline.jpg", "dbking / Wikimedia Commons", "CC BY 2.0", "A MARTA train with the Atlanta skyline"),
+  roads: commonsPhoto("Camp Creek at I-285 Aerial (50924270112).jpg", "formulanone / Wikimedia Commons", "CC BY-SA 2.0", "I-285 and Camp Creek Parkway in metro Atlanta"),
+  stadium: commonsPhoto("Mercedes-Benz Stadium, December 2024.jpg", "BullDawg2021 / Wikimedia Commons", "CC BY 4.0", "Mercedes-Benz Stadium in downtown Atlanta"),
+} satisfies Record<string, Omit<StoryImageData, "alt">>;
+
+const contextPhotoByLegacyId: Record<string, keyof typeof atlantaContextPhotos> = {
+  "photo-1586528116311-ad8dd3c8310d": "roads",
+  "photo-1441986300917-64674bd600d8": "ponce",
+  "photo-1545324418-cc1a3fa10c00": "skyline",
+  "photo-1562774053-701939374585": "city",
+  "photo-1486262715619-67b85e0b08d3": "roads",
+  "photo-1578916171728-46686eac8d58": "ponce",
+  "photo-1504307651254-35680f356dfd": "roads",
+  "photo-1486406146926-c627a92ad1ab": "skyline",
+  "photo-1519494026892-80bbd2d6fd0d": "city",
+  "photo-1497366811353-6870744d04b2": "skyline",
+  "photo-1560518883-ce09059eeffa": "skyline",
+  "photo-1508514177221-188b1cf16e9d": "city",
+  "photo-1504711434969-e33886168f5c": "city",
+  "photo-1597404294360-feeeda04612e": "marta",
+  "photo-1497366216548-37526070297c": "city",
+  "photo-1576091160399-112ba8d25d1d": "city",
+  "photo-1500530855697-b586d89ba3ee": "beltline",
+  "photo-1494526585095-c41746248156": "ponce",
+  "photo-1449824913935-59a10b8d2000": "roads",
+  "photo-1518604666860-9ed391f76460": "stadium",
+  "photo-1581578731548-c64695cc6952": "skyline",
+  "photo-1454165804606-c3d57bc86b40": "city",
+  "photo-1487958449943-2429e8be8625": "skyline",
+  "photo-1450101499163-c8848c66ca85": "city",
 };
+
+const editorialPhoto = (id: string, alt: string): StoryImageData => ({
+  ...atlantaContextPhotos[contextPhotoByLegacyId[id] ?? "city"],
+  alt,
+});
 
 const projectImages: Record<string, Story["image"]> = {
   "mckenney-s-campus-project-mckenney-s-warehouse": editorialPhoto("photo-1586528116311-ad8dd3c8310d", "Warehouse loading bays and logistics activity"),

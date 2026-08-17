@@ -1,5 +1,9 @@
+import type { StoryImageData } from "@/components/publication";
+import { researchedDeskArticles } from "@/lib/researched-desk-articles";
+
 export type ReportedArticle = {
   kind?: "reported-analysis" | "source-backed-brief";
+  format?: "news" | "service" | "preview" | "feature" | "analysis";
   title: string;
   description: string;
   label: string;
@@ -9,9 +13,13 @@ export type ReportedArticle = {
   keywords: string[];
   entities: string[];
   sources: Array<{ name: string; detail: string; url: string }>;
+  image?: StoryImageData;
+  summaryLabel?: string;
+  showUpdateHistory?: boolean;
 };
 
 export const reportedArticles: Record<string, ReportedArticle> = {
+  ...researchedDeskArticles,
   "6fbe1c73b53c39b71105": {
     title: "MARTA makes Jonathan Hunt permanent CEO after a year of high-stakes tests",
     description: "Jonathan Hunt moves from interim to permanent MARTA CEO after leading the agency through World Cup demand. Here is the record behind the decision and the scorecard ahead.",

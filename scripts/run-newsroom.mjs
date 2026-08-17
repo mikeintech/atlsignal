@@ -106,15 +106,6 @@ function deskBriefBaseSafe(cluster) {
     && !DESK_BRIEF_EXISTING.test(cluster.headline);
 }
 
-function deskBriefFreshEligible(cluster) {
-  const age = now.valueOf() - new Date(cluster.publishedAt).valueOf();
-  return deskBriefBaseSafe(cluster)
-    && cluster.scores.total >= 52
-    && cluster.scores.timeliness >= 90
-    && age >= -12 * 3_600_000
-    && age <= 48 * 3_600_000;
-}
-
 function hash(value) {
   return createHash("sha256").update(String(value)).digest("hex").slice(0, 20);
 }
@@ -643,7 +634,7 @@ for (const prior of previous.publishedDeskBriefs || []) {
   publishedDeskBriefsBySlug.set(record.slug, record);
 }
 for (const cluster of clusters) {
-  if (!DESK_BRIEF_SEED_IDS.has(cluster.id) && !deskBriefFreshEligible(cluster)) continue;
+  if (!DESK_BRIEF_SEED_IDS.has(cluster.id)) continue;
   if (!deskBriefBaseSafe(cluster)) continue;
   const slug = deskBriefSlug(cluster);
   const prior = publishedDeskBriefsBySlug.get(slug);
@@ -711,8 +702,8 @@ const output = {
     status: cluster.publishable ? "READY_TO_REVIEW" : "NEEDS_CORROBORATION",
   })),
   policy: {
-    autoPublish: "qualified_source_backed_desk_briefs",
-    autoPublishRule: "Fresh, non-sensitive Tier B reports with retrieved content, sufficient summary, high timeliness and local relevance in approved service, event, sports, business and development categories.",
+    autoPublish: "disabled_research_review_required",
+    autoPublishRule: "Discovery can enter the editorial queue, but a permanent article requires a researched treatment, reviewed sources and a rights-documented image.",
     publisherPagesCrawledForDiscoverySources: false,
     discoveryUse: "metadata_only_until_primary_evidence",
     premiumBoundary: "No buyer, contact, procurement route, or subscriber-only intelligence is exported.",

@@ -34,6 +34,32 @@ The GitHub Pages workflow runs at 11:15, 15:15, 19:15 and 23:15 UTC and on every
   opportunity score is exported.
 - The worker generates briefs and review candidates; it does not automatically
   create a full reported article from unreviewed discovery metadata.
+- Discovery score and freshness never qualify a story for a permanent article
+  on their own. A publication ID enters the permanent ledger only after a
+  researched treatment is added to `lib/researched-desk-articles.ts` and the ID
+  is added to the reviewed publication set in `scripts/run-newsroom.mjs`.
+
+## Article review standard
+
+A researched ATLSignal article must have:
+
+1. a clear Atlanta news question rather than a rewritten source headline;
+2. the original report plus a first-party record or another useful independent
+   source whenever one exists;
+3. concrete names, dates, locations and numbers checked against those links;
+4. a story form chosen for the material—news, service, preview, feature or
+   analysis—instead of a universal section template;
+5. an original lede and paragraph-level synthesis that does not reproduce the
+   source article's prose;
+6. a relevant image with a photographer or organization credit, a source link
+   and documented public-domain, Creative Commons, official promotional or
+   reviewed editorial-use basis;
+7. explicit archive language on expired weather, traffic and event information;
+8. a permanent URL and update history when facts are likely to change.
+
+If that standard is not met, the item stays in the editorial queue. It may be
+linked as an attributed discovery, but the automation does not manufacture a
+generic indexable article around it.
 
 ## Failure behavior
 
